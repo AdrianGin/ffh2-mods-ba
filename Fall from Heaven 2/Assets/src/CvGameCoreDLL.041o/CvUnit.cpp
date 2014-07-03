@@ -3099,7 +3099,8 @@ bool CvUnit::hasMaxUnitPerTile(const CvPlot* pPlot) const
 	int iFlyingMaxUnit = GC.getDefineINT("AIR_SPACE_CAPACITY");
 	int iFlyingUnitCost = 0;
 
-	if( pPlot->isCity(true) )
+	//Dont check improvements
+	if( pPlot->isCity(false) && pPlot )
 	{
 
 		CvCity* pCity = pPlot->getPlotCity();
