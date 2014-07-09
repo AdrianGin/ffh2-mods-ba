@@ -590,7 +590,7 @@
 		<ImprovementInfo>
 			<Type>IMPROVEMENT_CASTLE</Type>
 			<Description>TXT_KEY_IMPROVEMENT_CASTLE</Description>
-			<Civilopedia/>
+			<Civilopedia>TXT_KEY_IMPROVEMENT_CASTLE_PEDIA</Civilopedia>
 			<Help/>
 			<ArtDefineTag>ART_DEF_IMPROVEMENT_CASTLE</ArtDefineTag>
 			<bActsAsCity>0</bActsAsCity>
@@ -688,7 +688,7 @@
 		<ImprovementInfo>
 			<Type>IMPROVEMENT_CITADEL</Type>
 			<Description>TXT_KEY_IMPROVEMENT_CITADEL</Description>
-			<Civilopedia/>
+			<Civilopedia>TXT_KEY_IMPROVEMENT_CITADEL_PEDIA</Civilopedia>
 			<Help/>
 			<ArtDefineTag>ART_DEF_IMPROVEMENT_CITADEL</ArtDefineTag>
 			<bActsAsCity>0</bActsAsCity>
@@ -1469,7 +1469,7 @@
 		<ImprovementInfo>
 			<Type>IMPROVEMENT_FORT</Type>
 			<Description>TXT_KEY_IMPROVEMENT_FORT</Description>
-			<Civilopedia/>
+			<Civilopedia>TXT_KEY_IMPROVEMENT_FORT_PEDIA</Civilopedia>
 			<Help/>
 			<ArtDefineTag>ART_DEF_IMPROVEMENT_FORT</ArtDefineTag>
 			<bActsAsCity>0</bActsAsCity>
