@@ -4721,7 +4721,8 @@
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_MEDIC1</PromotionPrereq>
             <TechPrereq>TECH_NEVER</TechPrereq>
-            <iSameTileHealChange>15</iSameTileHealChange>
+            <iSameTileHealChange>10</iSameTileHealChange>
+			<iAdjacentTileHealChange>10</iAdjacentTileHealChange>
             <Button>,Art/Interface/Buttons/Promotions/Medic2.dds,Art/Interface/Buttons/Promotions_Atlas.dds,4,4</Button>
             <PromotionNextLevel>PROMOTION_MEDIC3</PromotionNextLevel>
         </PromotionInfo>
@@ -4730,8 +4731,8 @@
             <Description>TXT_KEY_PROMOTION_MEDIC3</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_MEDIC2</PromotionPrereq>
-            <iSameTileHealChange>20</iSameTileHealChange>
-            <iAdjacentTileHealChange>20</iAdjacentTileHealChange>
+            <iSameTileHealChange>10</iSameTileHealChange>
+            <iAdjacentTileHealChange>10</iAdjacentTileHealChange>
             <Button>Art/Interface/Buttons/Promotions/Medic3.dds</Button>
         </PromotionInfo>
         <PromotionInfo>
