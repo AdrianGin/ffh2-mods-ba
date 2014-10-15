@@ -174,14 +174,14 @@
 		<DefineName>BUILD_FORT</DefineName>
 		<DefineTextVal>BUILD_FORT</DefineTextVal>
 	</Define>
-	<Define>
+	<!--<Define>
 		<DefineName>CIVILIZATION_KHAZAD</DefineName>
 		<DefineTextVal>CIVILIZATION_KHAZAD</DefineTextVal>
 	</Define>
 	<Define>
 		<DefineName>CIVILIZATION_LANUN</DefineName>
 		<DefineTextVal>CIVILIZATION_LANUN</DefineTextVal>
-	</Define>
+	</Define>-->
 	<Define>
 		<DefineName>COMBAT_APPLY_CHANCE</DefineName>
 		<iDefineIntVal>50</iDefineIntVal>
@@ -310,10 +310,10 @@
 		<DefineName>RELIGION_ADOPTION_CHANCE</DefineName>
 		<iDefineIntVal>20</iDefineIntVal>
 	</Define>
-	<Define>
+	<!--<Define>
 		<DefineName>SLAVE_UNIT</DefineName>
 		<DefineTextVal>UNIT_SLAVE</DefineTextVal>
-	</Define>
+	</Define>-->
 	<Define>
 		<DefineName>SOMNIUM_BASE_DELAY_TURNS</DefineName>
 		<iDefineIntVal>30</iDefineIntVal>
@@ -322,7 +322,7 @@
 		<DefineName>SPECIALUNIT_SPELL</DefineName>
 		<DefineTextVal>SPECIALUNIT_SPELL</DefineTextVal>
 	</Define>
-	<Define>
+	<!--<Define>
 		<DefineName>SPELL_CONVERT_CITY_RANTINE</DefineName>
 		<DefineTextVal>SPELL_CONVERT_CITY_RANTINE</DefineTextVal>
 	</Define>
@@ -333,7 +333,7 @@
 	<Define>
 		<DefineName>SPELL_FEAST</DefineName>
 		<DefineTextVal>SPELL_FEAST</DefineTextVal>
-	</Define>
+	</Define>-->
 	<Define>
 		<DefineName>SPELL_HASTE</DefineName>
 		<DefineTextVal>SPELL_HASTE</DefineTextVal>
@@ -350,10 +350,10 @@
 		<DefineName>SPELL_RESIST_CHANCE_MIN</DefineName>
 		<iDefineIntVal>5</iDefineIntVal>
 	</Define>
-	<Define>
+	<!--<Define>
 		<DefineName>SPELL_TEACH_SPELLCASTING</DefineName>
 		<DefineTextVal>SPELL_TEACH_SPELLCASTING</DefineTextVal>
-	</Define>
+	</Define>-->
 	<Define>
 		<DefineName>STARTING_SETTLER_PROMOTION</DefineName>
 		<DefineTextVal>PROMOTION_STARTING_SETTLER</DefineTextVal>
@@ -382,7 +382,7 @@
 		<DefineName>UNIT_FIREBALL</DefineName>
 		<DefineTextVal>UNIT_FIREBALL</DefineTextVal>
 	</Define>
-	<Define>
+	<!--<Define>
 		<DefineName>UNIT_GOVANNON</DefineName>
 		<DefineTextVal>UNIT_GOVANNON</DefineTextVal>
 	</Define>
@@ -405,7 +405,7 @@
 	<Define>
 		<DefineName>UNIT_VAMPIRE_LORD</DefineName>
 		<DefineTextVal>UNIT_VAMPIRE_LORD</DefineTextVal>
-	</Define>
+	</Define>-->
 	<Define>
 		<DefineName>UNITCLASS_SCOUT</DefineName>
 		<DefineTextVal>UNITCLASS_SCOUT</DefineTextVal>
