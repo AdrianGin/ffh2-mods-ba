@@ -6,7 +6,7 @@
 <!-- Event Trigger Infos -->
 <Civ4EventTriggerInfos xmlns="x-schema:CIV4EventSchema.xml">
     <EventTriggerInfos>
-        <EventTriggerInfo>
+        <!--<EventTriggerInfo>
             <Type>EVENTTRIGGER_AERONS_CHOSEN</Type>
             <WorldNewsTexts>
                 <Text>TXT_KEY_EVENTTRIGGER_AERONS_CHOSEN</Text>
@@ -28086,6 +28086,6 @@
             <PrereqCivilizationPleased>NONE</PrereqCivilizationPleased>
             <PrereqLeader>NONE</PrereqLeader>
             <PrereqTrait>NONE</PrereqTrait>
-        </EventTriggerInfo>
+        </EventTriggerInfo>-->
     </EventTriggerInfos>
 </Civ4EventTriggerInfos>

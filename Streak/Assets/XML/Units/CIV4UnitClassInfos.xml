@@ -7,6 +7,53 @@
 <!-- UnitClass Schema -->
 <Civ4UnitClassInfos xmlns="x-schema:CIV4UnitSchema.xml">
 	<UnitClassInfos>
+<!-- NEW -->
+<!-- NEW -->
+		<UnitClassInfo>
+			<Type>UNITCLASS_GRIFFON</Type>
+			<Description>TXT_KEY_UNIT_GRIFFON</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<DefaultUnit>UNIT_GRIFFON</DefaultUnit>
+		</UnitClassInfo>
+		<UnitClassInfo>
+			<Type>UNITCLASS_GIANT_SPIDER</Type>
+			<Description>TXT_KEY_UNIT_GIANT_SPIDER</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<DefaultUnit>UNIT_GIANT_SPIDER</DefaultUnit>
+		</UnitClassInfo>
+		<UnitClassInfo>
+			<Type>UNITCLASS_BABY_SPIDER</Type>
+			<Description>TXT_KEY_UNIT_BABY_SPIDER</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<DefaultUnit>UNIT_BABY_SPIDER</DefaultUnit>
+		</UnitClassInfo>
+		<UnitClassInfo>
+			<Type>UNITCLASS_WOLF_PACK</Type>
+			<Description>TXT_KEY_UNIT_WOLF_PACK</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<DefaultUnit>UNIT_WOLF_PACK</DefaultUnit>
+		</UnitClassInfo>
+		<UnitClassInfo>
+			<Type>UNITCLASS_WOLF</Type>
+			<Description>TXT_KEY_UNIT_WOLF</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<DefaultUnit>UNIT_WOLF</DefaultUnit>
+		</UnitClassInfo>
 		<UnitClassInfo>
 			<Type>UNITCLASS_SCORPION</Type>
 			<Description>TXT_KEY_UNIT_SCORPION</Description>
@@ -16,6 +63,329 @@
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_SCORPION</DefaultUnit>
 		</UnitClassInfo>
+		<UnitClassInfo>
+			<Type>UNITCLASS_BEASTMASTER</Type>
+			<Description>TXT_KEY_UNIT_BEASTMASTER</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>4</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<DefaultUnit>UNIT_BEASTMASTER</DefaultUnit>
+		</UnitClassInfo>
+		<UnitClassInfo>
+			<Type>UNITCLASS_HAWK</Type>
+			<Description>TXT_KEY_UNIT_HAWK</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<DefaultUnit>UNIT_HAWK</DefaultUnit>
+		</UnitClassInfo>
+		<UnitClassInfo>
+			<Type>UNITCLASS_HUNTER</Type>
+			<Description>TXT_KEY_UNIT_HUNTER</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<DefaultUnit>UNIT_HUNTER</DefaultUnit>
+		</UnitClassInfo>
+		<UnitClassInfo>
+			<Type>UNITCLASS_ARQUEBUS</Type>
+			<Description>TXT_KEY_UNIT_ARQUEBUS</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<DefaultUnit>UNIT_ARQUEBUS</DefaultUnit>
+		</UnitClassInfo>
+		<UnitClassInfo>
+			<Type>UNITCLASS_CROSSBOWMAN</Type>
+			<Description>TXT_KEY_UNIT_CROSSBOWMAN</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<DefaultUnit>UNIT_CROSSBOWMAN</DefaultUnit>
+		</UnitClassInfo>
+		<UnitClassInfo>
+			<Type>UNITCLASS_LONGBOWMAN</Type>
+			<Description>TXT_KEY_UNIT_LONGBOWMAN</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<DefaultUnit>UNIT_LONGBOWMAN</DefaultUnit>
+		</UnitClassInfo>
+		<UnitClassInfo>
+			<Type>UNITCLASS_ARCHER</Type>
+			<Description>TXT_KEY_UNIT_ARCHER</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<DefaultUnit>UNIT_ARCHER</DefaultUnit>
+		</UnitClassInfo>
+		<UnitClassInfo>
+			<Type>UNITCLASS_KNIGHT</Type>
+			<Description>TXT_KEY_UNIT_KNIGHT</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>4</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<DefaultUnit>UNIT_KNIGHT</DefaultUnit>
+		</UnitClassInfo>
+		<UnitClassInfo>
+			<Type>UNITCLASS_HORSE_ARCHER</Type>
+			<Description>TXT_KEY_UNIT_HORSE_ARCHER</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<DefaultUnit>UNIT_HORSE_ARCHER</DefaultUnit>
+		</UnitClassInfo>
+		<UnitClassInfo>
+			<Type>UNITCLASS_HORSEMAN</Type>
+			<Description>TXT_KEY_UNIT_HORSEMAN</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<DefaultUnit>UNIT_HORSEMAN</DefaultUnit>
+		</UnitClassInfo>
+		<UnitClassInfo>
+			<Type>UNITCLASS_CHAMPION</Type>
+			<Description>TXT_KEY_UNIT_CHAMPION</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<DefaultUnit>UNIT_CHAMPION</DefaultUnit>
+		</UnitClassInfo>
+		<UnitClassInfo>
+			<Type>UNITCLASS_AXEMAN</Type>
+			<Description>TXT_KEY_UNIT_AXEMAN</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<DefaultUnit>UNIT_AXEMAN</DefaultUnit>
+		</UnitClassInfo>
+		<UnitClassInfo>
+			<Type>UNITCLASS_SCOUT</Type>
+			<Description>TXT_KEY_UNIT_SCOUT</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<DefaultUnit>UNIT_SCOUT</DefaultUnit>
+		</UnitClassInfo>
+		<UnitClassInfo>
+			<Type>UNITCLASS_WARRIOR</Type>
+			<Description>TXT_KEY_UNIT_WARRIOR</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<DefaultUnit>UNIT_WARRIOR</DefaultUnit>
+		</UnitClassInfo>
+		<UnitClassInfo>
+			<Type>UNITCLASS_SPEARMAN</Type>
+			<Description>TXT_KEY_UNIT_SPEARMAN</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<DefaultUnit>UNIT_SPEARMAN</DefaultUnit>
+		</UnitClassInfo>
+		<UnitClassInfo>
+			<Type>UNITCLASS_HEAVY_SPEARMAN</Type>
+			<Description>TXT_KEY_UNIT_HEAVY_SPEARMAN</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<DefaultUnit>UNIT_HEAVY_SPEARMAN</DefaultUnit>
+		</UnitClassInfo>
+		<UnitClassInfo>
+			<Type>UNITCLASS_SWORDSMAN</Type>
+			<Description>TXT_KEY_UNIT_SWORDSMAN</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<DefaultUnit>UNIT_SWORDSMAN</DefaultUnit>
+		</UnitClassInfo>
+		<UnitClassInfo>
+			<Type>UNITCLASS_FLAGBEARER</Type>
+			<Description>TXT_KEY_UNIT_FLAGBEARER</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>2</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<DefaultUnit>UNIT_FLAGBEARER</DefaultUnit>
+		</UnitClassInfo>
+		<UnitClassInfo>
+			<Type>UNITCLASS_OGRE</Type>
+			<Description>TXT_KEY_UNIT_OGRE</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>3</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<DefaultUnit>UNIT_OGRE</DefaultUnit>
+		</UnitClassInfo>
+		<UnitClassInfo>
+			<Type>UNITCLASS_OGRE_WARCHIEF</Type>
+			<Description>TXT_KEY_OGRE_WARCHIEF</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>2</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<DefaultUnit>UNIT_OGRE_WARCHIEF</DefaultUnit>
+		</UnitClassInfo>
+		<UnitClassInfo>
+			<Type>UNITCLASS_STONESKIN_OGRE</Type>
+			<Description>TXT_KEY_UNIT_STONESKIN_OGRE</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>1</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<DefaultUnit>UNIT_STONESKIN_OGRE</DefaultUnit>
+		</UnitClassInfo>
+		<UnitClassInfo>
+			<Type>UNITCLASS_WAR_ELEPHANT</Type>
+			<Description>TXT_KEY_UNIT_WAR_ELEPHANT</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>5</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<DefaultUnit>UNIT_WAR_ELEPHANT</DefaultUnit>
+		</UnitClassInfo>
+		<UnitClassInfo>
+			<Type>UNITCLASS_SIEGE_ELEPHANT</Type>
+			<Description>TXT_KEY_UNIT_SIEGE_ELEPHANT</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>3</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<DefaultUnit>UNIT_SIEGE_ELEPHANT</DefaultUnit>
+		</UnitClassInfo>
+		<UnitClassInfo>
+			<Type>UNITCLASS_MARKSMAN</Type>
+			<Description>TXT_KEY_UNIT_MARKSMAN</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>3</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<DefaultUnit>UNIT_MARKSMAN</DefaultUnit>
+		</UnitClassInfo>
+		
+		<UnitClassInfo>
+			<Type>UNITCLASS_ROYAL_GUARD</Type>
+			<Description>TXT_KEY_UNIT_ROYAL_GUARD</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>1</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<DefaultUnit>UNIT_ROYAL_GUARD</DefaultUnit>
+		</UnitClassInfo>
+		<UnitClassInfo>
+			<Type>UNITCLASS_ARCHMAGE</Type>
+			<Description>TXT_KEY_UNIT_ARCHMAGE</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>2</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<DefaultUnit>UNIT_ARCHMAGE</DefaultUnit>
+		</UnitClassInfo>
+		<UnitClassInfo>
+			<Type>UNITCLASS_MAGE</Type>
+			<Description>TXT_KEY_UNIT_MAGE</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>3</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<DefaultUnit>UNIT_MAGE</DefaultUnit>
+		</UnitClassInfo>
+		<UnitClassInfo>
+			<Type>UNITCLASS_ADEPT</Type>
+			<Description>TXT_KEY_UNIT_ADEPT</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>5</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<DefaultUnit>UNIT_ADEPT</DefaultUnit>
+		</UnitClassInfo>
+		<UnitClassInfo>
+			<Type>UNITCLASS_SORCERER</Type>
+			<Description>TXT_KEY_UNIT_SORCERER</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>1</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<DefaultUnit>UNIT_SORCERER</DefaultUnit>
+		</UnitClassInfo>
+		<UnitClassInfo>
+			<Type>UNITCLASS_PALADIN</Type>
+			<Description>TXT_KEY_UNIT_PALADIN</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>1</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<DefaultUnit>UNIT_PALADIN</DefaultUnit>
+		</UnitClassInfo>
+		<UnitClassInfo>
+			<Type>UNITCLASS_GHOST</Type>
+			<Description>TXT_KEY_UNIT_GHOST</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<DefaultUnit>UNIT_GHOST</DefaultUnit>
+		</UnitClassInfo>
+		<UnitClassInfo>
+			<Type>UNITCLASS_CHANTER</Type>
+			<Description>TXT_KEY_UNIT_CHANTER</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<DefaultUnit>UNIT_CHANTER</DefaultUnit>
+		</UnitClassInfo>
+		<UnitClassInfo>
+			<Type>UNITCLASS_SILENCER</Type>
+			<Description>TXT_KEY_UNIT_SILENCER</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<DefaultUnit>UNIT_SILENCER</DefaultUnit>
+		</UnitClassInfo>
+		<UnitClassInfo>
+			<Type>UNITCLASS_MANTICORE</Type>
+			<Description>TXT_KEY_UNIT_MANTICORE</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>3</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<DefaultUnit>UNIT_MANTICORE</DefaultUnit>
+		</UnitClassInfo>		
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
 		<UnitClassInfo>
 			<Type>UNITCLASS_DISCIPLE_OF_ACHERON</Type>
 			<Description>TXT_KEY_UNIT_DISCIPLE_OF_ACHERON</Description>
@@ -781,15 +1151,7 @@
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_MINOTAUR</DefaultUnit>
 		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>UNITCLASS_MANTICORE</Type>
-			<Description>TXT_KEY_UNIT_MANTICORE</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_MANTICORE</DefaultUnit>
-		</UnitClassInfo>
+		
 		<UnitClassInfo>
 			<Type>UNITCLASS_STEPHANOS</Type>
 			<Description>TXT_KEY_UNIT_STEPHANOS</Description>
@@ -889,15 +1251,7 @@
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_WILBOMAN</DefaultUnit>
 		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>UNITCLASS_GRIFFON</Type>
-			<Description>TXT_KEY_UNIT_GRIFFON</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_GRIFFON</DefaultUnit>
-		</UnitClassInfo>
+		
 		<UnitClassInfo>
 			<Type>UNITCLASS_GUYBRUSH</Type>
 			<Description>TXT_KEY_UNIT_GUYBRUSH</Description>
@@ -970,24 +1324,7 @@
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_GOVANNON</DefaultUnit>
 		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>UNITCLASS_GIANT_SPIDER</Type>
-			<Description>TXT_KEY_UNIT_GIANT_SPIDER</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_GIANT_SPIDER</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>UNITCLASS_BABY_SPIDER</Type>
-			<Description>TXT_KEY_UNIT_BABY_SPIDER</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_BABY_SPIDER</DefaultUnit>
-		</UnitClassInfo>
+		
 		<UnitClassInfo>
 			<Type>UNITCLASS_BARNAXUS</Type>
 			<Description>TXT_KEY_UNIT_BARNAXUS</Description>
@@ -1006,15 +1343,7 @@
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_EYE</DefaultUnit>
 		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>UNITCLASS_FLAGBEARER</Type>
-			<Description>TXT_KEY_UNIT_FLAGBEARER</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_FLAGBEARER</DefaultUnit>
-		</UnitClassInfo>
+		
 		<UnitClassInfo>
 			<Type>UNITCLASS_DEMAGOG</Type>
 			<Description>TXT_KEY_UNIT_DEMAGOG</Description>
@@ -1312,15 +1641,7 @@
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_MARY</DefaultUnit>
 		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>UNITCLASS_MARKSMAN</Type>
-			<Description>TXT_KEY_UNIT_MARKSMAN</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>4</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_MARKSMAN</DefaultUnit>
-		</UnitClassInfo>
+		
 		<UnitClassInfo>
 			<Type>UNITCLASS_DRUID</Type>
 			<Description>TXT_KEY_UNIT_DRUID</Description>
@@ -1429,42 +1750,10 @@
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_DISEASED_CORPSE</DefaultUnit>
 		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>UNITCLASS_ARCHMAGE</Type>
-			<Description>TXT_KEY_UNIT_ARCHMAGE</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>4</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_ARCHMAGE</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>UNITCLASS_HAWK</Type>
-			<Description>TXT_KEY_UNIT_HAWK</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_HAWK</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>UNITCLASS_PALADIN</Type>
-			<Description>TXT_KEY_UNIT_PALADIN</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>4</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_PALADIN</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>UNITCLASS_ARQUEBUS</Type>
-			<Description>TXT_KEY_UNIT_ARQUEBUS</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_ARQUEBUS</DefaultUnit>
-		</UnitClassInfo>
+		
+		
+		
+		
 		<UnitClassInfo>
 			<Type>UNITCLASS_DROWN</Type>
 			<Description>TXT_KEY_UNIT_DROWN</Description>
@@ -1519,15 +1808,7 @@
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_MERCENARY</DefaultUnit>
 		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>UNITCLASS_BEASTMASTER</Type>
-			<Description>TXT_KEY_UNIT_BEASTMASTER</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>4</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_BEASTMASTER</DefaultUnit>
-		</UnitClassInfo>
+		
 		<UnitClassInfo>
 			<Type>UNITCLASS_IMMORTAL</Type>
 			<Description>TXT_KEY_UNIT_IMMORTAL</Description>
@@ -1663,24 +1944,8 @@
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_GALLEON</DefaultUnit>
 		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>UNITCLASS_MAGE</Type>
-			<Description>TXT_KEY_UNIT_MAGE</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_MAGE</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>UNITCLASS_HORSEMAN</Type>
-			<Description>TXT_KEY_UNIT_HORSEMAN</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_HORSEMAN</DefaultUnit>
-		</UnitClassInfo>
+		
+		
 		<UnitClassInfo>
 			<Type>UNITCLASS_ADEPT</Type>
 			<Description>TXT_KEY_UNIT_ADEPT</Description>
@@ -1690,15 +1955,7 @@
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_ADEPT</DefaultUnit>
 		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>UNITCLASS_HUNTER</Type>
-			<Description>TXT_KEY_UNIT_HUNTER</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_HUNTER</DefaultUnit>
-		</UnitClassInfo>
+		
 		<UnitClassInfo>
 			<Type>UNITCLASS_DWARVEN_SOLDIER_RUNES</Type>
 			<Description>TXT_KEY_UNIT_DWARVEN_SOLDIER</Description>
@@ -1771,24 +2028,7 @@
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_BEAR</DefaultUnit>
 		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>UNITCLASS_WOLF_PACK</Type>
-			<Description>TXT_KEY_UNIT_WOLF_PACK</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_WOLF_PACK</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>UNITCLASS_WOLF</Type>
-			<Description>TXT_KEY_UNIT_WOLF</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_WOLF</DefaultUnit>
-		</UnitClassInfo>
+		
 		<UnitClassInfo>
 			<Type>UNITCLASS_SETTLER</Type>
 			<Description>TXT_KEY_UNIT_SETTLER</Description>
@@ -1807,69 +2047,13 @@
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_WORKER</DefaultUnit>
 		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>UNITCLASS_SCOUT</Type>
-			<Description>TXT_KEY_UNIT_SCOUT</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_SCOUT</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>UNITCLASS_WARRIOR</Type>
-			<Description>TXT_KEY_UNIT_WARRIOR</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_WARRIOR</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>UNITCLASS_AXEMAN</Type>
-			<Description>TXT_KEY_UNIT_AXEMAN</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_AXEMAN</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>UNITCLASS_CHAMPION</Type>
-			<Description>TXT_KEY_UNIT_CHAMPION</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_CHAMPION</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>UNITCLASS_ARCHER</Type>
-			<Description>TXT_KEY_UNIT_ARCHER</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_ARCHER</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>UNITCLASS_LONGBOWMAN</Type>
-			<Description>TXT_KEY_UNIT_LONGBOWMAN</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_LONGBOWMAN</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>UNITCLASS_CROSSBOWMAN</Type>
-			<Description>TXT_KEY_UNIT_CROSSBOWMAN</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>4</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_CROSSBOWMAN</DefaultUnit>
-		</UnitClassInfo>
+		
+		
+		
+		
+		
+		
+		
 		<UnitClassInfo>
 			<Type>UNITCLASS_CHARIOT</Type>
 			<Description>TXT_KEY_UNIT_CHARIOT</Description>
@@ -1879,33 +2063,9 @@
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_CHARIOT</DefaultUnit>
 		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>UNITCLASS_HORSE_ARCHER</Type>
-			<Description>TXT_KEY_UNIT_HORSE_ARCHER</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_HORSE_ARCHER</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>UNITCLASS_KNIGHT</Type>
-			<Description>TXT_KEY_UNIT_KNIGHT</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>4</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_KNIGHT</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>UNITCLASS_WAR_ELEPHANT</Type>
-			<Description>TXT_KEY_UNIT_WAR_ELEPHANT</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_WAR_ELEPHANT</DefaultUnit>
-		</UnitClassInfo>
+		
+		
+		
 		<UnitClassInfo>
 			<Type>UNITCLASS_CATAPULT</Type>
 			<Description>TXT_KEY_UNIT_CATAPULT</Description>
@@ -2140,15 +2300,7 @@
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_LUNATIC</DefaultUnit>
 		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>UNITCLASS_ROYAL_GUARD</Type>
-			<Description>TXT_KEY_UNIT_ROYAL_GUARD</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>4</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_ROYAL_GUARD</DefaultUnit>
-		</UnitClassInfo>
+		
 		<UnitClassInfo>
 			<Type>UNITCLASS_BEAST_OF_AGARES</Type>
 			<Description>TXT_KEY_UNIT_BEAST_OF_AGARES</Description>

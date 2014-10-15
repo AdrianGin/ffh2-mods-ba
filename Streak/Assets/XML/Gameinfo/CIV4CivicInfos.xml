@@ -838,10 +838,6 @@
             <SpecialistValids>
             </SpecialistValids>
             <BuildingHappinessChanges>
-                <BuildingHappinessChange>
-                    <BuildingType>BUILDINGCLASS_TRAINING_YARD</BuildingType>
-                    <iHappinessChange>1</iHappinessChange>
-                </BuildingHappinessChange>
             </BuildingHappinessChanges>
             <BuildingHealthChanges>
             </BuildingHealthChanges>
@@ -1123,18 +1119,6 @@
             <SpecialistValids>
             </SpecialistValids>
             <BuildingHappinessChanges>
-                <BuildingHappinessChange>
-                    <BuildingType>BUILDINGCLASS_MARKET</BuildingType>
-                    <iHappinessChange>1</iHappinessChange>
-                </BuildingHappinessChange>
-                <BuildingHappinessChange>
-                    <BuildingType>BUILDINGCLASS_TAVERN</BuildingType>
-                    <iHappinessChange>1</iHappinessChange>
-                </BuildingHappinessChange>
-                <BuildingHappinessChange>
-                    <BuildingType>BUILDINGCLASS_THEATRE</BuildingType>
-                    <iHappinessChange>1</iHappinessChange>
-                </BuildingHappinessChange>
             </BuildingHappinessChanges>
             <BuildingHealthChanges>
             </BuildingHealthChanges>
@@ -1234,10 +1218,6 @@
                 </SpecialistValid>
             </SpecialistValids>
             <BuildingHappinessChanges>
-                <BuildingHappinessChange>
-                    <BuildingType>BUILDINGCLASS_LIBRARY</BuildingType>
-                    <iHappinessChange>1</iHappinessChange>
-                </BuildingHappinessChange>
             </BuildingHappinessChanges>
             <BuildingHealthChanges>
             </BuildingHealthChanges>
@@ -1831,7 +1811,7 @@
             <Strategy>TXT_KEY_CIVIC_MILITARY_STATE_STRATEGY</Strategy>
             <Help></Help>
             <Button>Art/Interface/Buttons/Civics/Militarystate.dds</Button>
-            <TechPrereq>TECH_WARFARE</TechPrereq>
+            <TechPrereq>NONE</TechPrereq>
             <iAnarchyLength>1</iAnarchyLength>
             <Upkeep>UPKEEP_HIGH</Upkeep>
             <iAIWeight>0</iAIWeight>
@@ -2318,7 +2298,7 @@
             <Strategy>TXT_KEY_CIVIC_CONQUEST_STRATEGY</Strategy>
             <Help></Help>
             <Button>Art/Interface/Buttons/Civics/Conquest.dds</Button>
-            <TechPrereq>TECH_WARFARE</TechPrereq>
+            <TechPrereq>NONE</TechPrereq>
             <iAnarchyLength>1</iAnarchyLength>
             <Upkeep>UPKEEP_MEDIUM</Upkeep>
             <iAIWeight>700</iAIWeight>

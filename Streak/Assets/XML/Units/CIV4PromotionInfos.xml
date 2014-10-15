@@ -6,6 +6,1014 @@
 <!-- Promotion Infos -->
 <Civ4PromotionInfos xmlns="x-schema:CIV4UnitSchema.xml">
     <PromotionInfos>
+<!-- NEW -->	
+<!-- NEW -->
+		<PromotionInfo>
+            <Type>PROMOTION_CHANNELING1</Type>
+            <Description>TXT_KEY_PROMOTION_CHANNELING1</Description>
+            <Help>TXT_KEY_PROMOTION_CHANNELING1_PEDIA</Help>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <Button>Art/Interface/Buttons/Promotions/Channeling1.dds</Button>
+            <iBetterDefenderThanPercent>-25</iBetterDefenderThanPercent>
+            <iMinLevel>-1</iMinLevel>
+            <iSpellCasterXP>20</iSpellCasterXP>
+            <PromotionNextLevel>PROMOTION_CHANNELING2</PromotionNextLevel>
+        </PromotionInfo>
+        <PromotionInfo>
+            <Type>PROMOTION_CHANNELING2</Type>
+            <Description>TXT_KEY_PROMOTION_CHANNELING2</Description>
+            <Help>TXT_KEY_PROMOTION_CHANNELING2_PEDIA</Help>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <Button>Art/Interface/Buttons/Promotions/Channeling2.dds</Button>
+            <iBetterDefenderThanPercent>-25</iBetterDefenderThanPercent>
+            <iCasterResistModify>-10</iCasterResistModify>
+            <iMinLevel>-1</iMinLevel>
+            <iSpellCasterXP>30</iSpellCasterXP>
+            <PromotionNextLevel>PROMOTION_CHANNELING3</PromotionNextLevel>
+        </PromotionInfo>
+        <PromotionInfo>
+            <Type>PROMOTION_CHANNELING3</Type>
+            <Description>TXT_KEY_PROMOTION_CHANNELING3</Description>
+            <Help>TXT_KEY_PROMOTION_CHANNELING3_PEDIA</Help>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <Button>Art/Interface/Buttons/Promotions/Channeling3.dds</Button>
+            <iBetterDefenderThanPercent>-25</iBetterDefenderThanPercent>
+            <iCasterResistModify>-10</iCasterResistModify>
+            <iMinLevel>-1</iMinLevel>
+            <iSpellCasterXP>40</iSpellCasterXP>
+        </PromotionInfo>
+		<PromotionInfo>
+            <Type>PROMOTION_WATER1A</Type>
+            <Description>TXT_KEY_PROMOTION_WATER1</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PromotionPrereq>PROMOTION_CHANNELING1</PromotionPrereq>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Promotions/Water1.dds</Button>
+            <iAIWeight>50</iAIWeight>
+            <BonusPrereq>BONUS_MANA_WATER</BonusPrereq>
+            <PromotionNextLevel>PROMOTION_WATER2</PromotionNextLevel>
+        </PromotionInfo>
+		<PromotionInfo>
+            <Type>PROMOTION_WATER1B</Type>
+            <Description>TXT_KEY_PROMOTION_WATER1</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PromotionPrereq>PROMOTION_CHANNELING1</PromotionPrereq>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Promotions/Water1.dds</Button>
+            <iAIWeight>50</iAIWeight>
+            <BonusPrereq>BONUS_MANA_WATER</BonusPrereq>
+            <PromotionNextLevel>PROMOTION_WATER2</PromotionNextLevel>
+        </PromotionInfo>
+		<PromotionInfo>
+            <Type>PROMOTION_WATER2A</Type>
+            <Description>TXT_KEY_PROMOTION_WATER2</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PromotionPrereq>PROMOTION_WATER1</PromotionPrereq>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Promotions/Water2.dds</Button>
+            <iAIWeight>100</iAIWeight>
+            <PromotionPrereqAnd>PROMOTION_CHANNELING2</PromotionPrereqAnd>
+            <PromotionNextLevel>PROMOTION_WATER3</PromotionNextLevel>
+        </PromotionInfo>
+        <PromotionInfo>
+            <Type>PROMOTION_WATER2B</Type>
+            <Description>TXT_KEY_PROMOTION_WATER2</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PromotionPrereq>PROMOTION_WATER1</PromotionPrereq>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Promotions/Water2.dds</Button>
+            <iAIWeight>100</iAIWeight>
+            <PromotionPrereqAnd>PROMOTION_CHANNELING2</PromotionPrereqAnd>
+            <PromotionNextLevel>PROMOTION_WATER3</PromotionNextLevel>
+        </PromotionInfo>
+        <PromotionInfo>
+            <Type>PROMOTION_WATER3A</Type>
+            <Description>TXT_KEY_PROMOTION_WATER3</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PromotionPrereq>PROMOTION_WATER2</PromotionPrereq>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Promotions/Water3.dds</Button>
+            <iAIWeight>150</iAIWeight>
+            <PromotionPrereqAnd>PROMOTION_CHANNELING3</PromotionPrereqAnd>
+        </PromotionInfo>
+		<PromotionInfo>
+            <Type>PROMOTION_WATER3B</Type>
+            <Description>TXT_KEY_PROMOTION_WATER3</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PromotionPrereq>PROMOTION_WATER2</PromotionPrereq>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Promotions/Water3.dds</Button>
+            <iAIWeight>150</iAIWeight>
+            <PromotionPrereqAnd>PROMOTION_CHANNELING3</PromotionPrereqAnd>
+        </PromotionInfo>
+		<PromotionInfo>
+            <Type>PROMOTION_FIRE1A</Type>
+            <Description>TXT_KEY_PROMOTION_FIRE1</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Promotions/Fire1.dds</Button>
+            <iAIWeight>50</iAIWeight>
+            <BonusPrereq>BONUS_MANA_FIRE</BonusPrereq>
+            <PromotionPrereqAnd>PROMOTION_CHANNELING1</PromotionPrereqAnd>
+            <PromotionNextLevel>PROMOTION_FIRE2</PromotionNextLevel>
+        </PromotionInfo>
+		<PromotionInfo>
+            <Type>PROMOTION_FIRE1B</Type>
+            <Description>TXT_KEY_PROMOTION_FIRE1</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Promotions/Fire1.dds</Button>
+            <iAIWeight>50</iAIWeight>
+            <BonusPrereq>BONUS_MANA_FIRE</BonusPrereq>
+            <PromotionPrereqAnd>PROMOTION_CHANNELING1</PromotionPrereqAnd>
+            <PromotionNextLevel>PROMOTION_FIRE2</PromotionNextLevel>
+        </PromotionInfo>
+        <PromotionInfo>
+            <Type>PROMOTION_FIRE2A</Type>
+            <Description>TXT_KEY_PROMOTION_FIRE2</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PromotionPrereq>PROMOTION_FIRE1</PromotionPrereq>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Promotions/Fire2.dds</Button>
+            <iAIWeight>100</iAIWeight>
+            <PromotionPrereqAnd>PROMOTION_CHANNELING2</PromotionPrereqAnd>
+            <PromotionNextLevel>PROMOTION_FIRE3</PromotionNextLevel>
+        </PromotionInfo>
+		<PromotionInfo>
+            <Type>PROMOTION_FIRE2B</Type>
+            <Description>TXT_KEY_PROMOTION_FIRE2</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PromotionPrereq>PROMOTION_FIRE1</PromotionPrereq>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Promotions/Fire2.dds</Button>
+            <iAIWeight>100</iAIWeight>
+            <PromotionPrereqAnd>PROMOTION_CHANNELING2</PromotionPrereqAnd>
+            <PromotionNextLevel>PROMOTION_FIRE3</PromotionNextLevel>
+        </PromotionInfo>
+        <PromotionInfo>
+            <Type>PROMOTION_FIRE3A</Type>
+            <Description>TXT_KEY_PROMOTION_FIRE3</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PromotionPrereq>PROMOTION_FIRE2</PromotionPrereq>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Promotions/Fire3.dds</Button>
+            <iAIWeight>150</iAIWeight>
+            <PromotionPrereqAnd>PROMOTION_CHANNELING3</PromotionPrereqAnd>
+        </PromotionInfo>
+		<PromotionInfo>
+            <Type>PROMOTION_FIRE3B</Type>
+            <Description>TXT_KEY_PROMOTION_FIRE3</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PromotionPrereq>PROMOTION_FIRE2</PromotionPrereq>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Promotions/Fire3.dds</Button>
+            <iAIWeight>150</iAIWeight>
+            <PromotionPrereqAnd>PROMOTION_CHANNELING3</PromotionPrereqAnd>
+        </PromotionInfo>
+		<PromotionInfo>
+            <Type>PROMOTION_EARTH1A</Type>
+            <Description>TXT_KEY_PROMOTION_EARTH1</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Promotions/Earth1.dds</Button>
+            <iAIWeight>50</iAIWeight>
+            <BonusPrereq>BONUS_MANA_EARTH</BonusPrereq>
+            <PromotionPrereqAnd>PROMOTION_CHANNELING1</PromotionPrereqAnd>
+            <PromotionNextLevel>PROMOTION_EARTH2</PromotionNextLevel>
+        </PromotionInfo>
+		<PromotionInfo>
+            <Type>PROMOTION_EARTH1B</Type>
+            <Description>TXT_KEY_PROMOTION_EARTH1</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Promotions/Earth1.dds</Button>
+            <iAIWeight>50</iAIWeight>
+            <BonusPrereq>BONUS_MANA_EARTH</BonusPrereq>
+            <PromotionPrereqAnd>PROMOTION_CHANNELING1</PromotionPrereqAnd>
+            <PromotionNextLevel>PROMOTION_EARTH2</PromotionNextLevel>
+        </PromotionInfo>
+        <PromotionInfo>
+            <Type>PROMOTION_EARTH2A</Type>
+            <Description>TXT_KEY_PROMOTION_EARTH2</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PromotionPrereq>PROMOTION_EARTH1</PromotionPrereq>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Promotions/Earth2.dds</Button>
+            <iAIWeight>100</iAIWeight>
+            <PromotionPrereqAnd>PROMOTION_CHANNELING2</PromotionPrereqAnd>
+            <PromotionNextLevel>PROMOTION_EARTH3</PromotionNextLevel>
+        </PromotionInfo>
+		<PromotionInfo>
+            <Type>PROMOTION_EARTH2B</Type>
+            <Description>TXT_KEY_PROMOTION_EARTH2</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PromotionPrereq>PROMOTION_EARTH1</PromotionPrereq>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Promotions/Earth2.dds</Button>
+            <iAIWeight>100</iAIWeight>
+            <PromotionPrereqAnd>PROMOTION_CHANNELING2</PromotionPrereqAnd>
+            <PromotionNextLevel>PROMOTION_EARTH3</PromotionNextLevel>
+        </PromotionInfo>
+        <PromotionInfo>
+            <Type>PROMOTION_EARTH3A</Type>
+            <Description>TXT_KEY_PROMOTION_EARTH3</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PromotionPrereq>PROMOTION_EARTH2</PromotionPrereq>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Promotions/Earth3.dds</Button>
+            <iAIWeight>150</iAIWeight>
+            <PromotionPrereqAnd>PROMOTION_CHANNELING3</PromotionPrereqAnd>
+        </PromotionInfo>
+		<PromotionInfo>
+            <Type>PROMOTION_EARTH3B</Type>
+            <Description>TXT_KEY_PROMOTION_EARTH3</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PromotionPrereq>PROMOTION_EARTH2</PromotionPrereq>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Promotions/Earth3.dds</Button>
+            <iAIWeight>150</iAIWeight>
+            <PromotionPrereqAnd>PROMOTION_CHANNELING3</PromotionPrereqAnd>
+        </PromotionInfo>
+		<PromotionInfo>
+            <Type>PROMOTION_AIR1A</Type>
+            <Description>TXT_KEY_PROMOTION_AIR1</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PromotionPrereq>PROMOTION_CHANNELING1</PromotionPrereq>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Promotions/Air1.dds</Button>
+            <iAIWeight>50</iAIWeight>
+            <BonusPrereq>BONUS_MANA_AIR</BonusPrereq>
+            <PromotionNextLevel>PROMOTION_AIR2</PromotionNextLevel>
+        </PromotionInfo>
+		<PromotionInfo>
+            <Type>PROMOTION_AIR1B</Type>
+            <Description>TXT_KEY_PROMOTION_AIR1</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PromotionPrereq>PROMOTION_CHANNELING1</PromotionPrereq>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Promotions/Air1.dds</Button>
+            <iAIWeight>50</iAIWeight>
+            <BonusPrereq>BONUS_MANA_AIR</BonusPrereq>
+            <PromotionNextLevel>PROMOTION_AIR2</PromotionNextLevel>
+        </PromotionInfo>
+		<PromotionInfo>
+            <Type>PROMOTION_AIR2A</Type>
+            <Description>TXT_KEY_PROMOTION_AIR2</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PromotionPrereq>PROMOTION_AIR1</PromotionPrereq>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Promotions/Air2.dds</Button>
+            <iAIWeight>100</iAIWeight>
+            <PromotionPrereqAnd>PROMOTION_CHANNELING2</PromotionPrereqAnd>
+            <PromotionNextLevel>PROMOTION_AIR3</PromotionNextLevel>
+        </PromotionInfo>
+		<PromotionInfo>
+            <Type>PROMOTION_AIR2B</Type>
+            <Description>TXT_KEY_PROMOTION_AIR2</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PromotionPrereq>PROMOTION_AIR1</PromotionPrereq>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Promotions/Air2.dds</Button>
+            <iAIWeight>100</iAIWeight>
+            <PromotionPrereqAnd>PROMOTION_CHANNELING2</PromotionPrereqAnd>
+            <PromotionNextLevel>PROMOTION_AIR3</PromotionNextLevel>
+        </PromotionInfo>
+        <PromotionInfo>
+            <Type>PROMOTION_AIR3A</Type>
+            <Description>TXT_KEY_PROMOTION_AIR3</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PromotionPrereq>PROMOTION_AIR2</PromotionPrereq>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Promotions/Air3.dds</Button>
+            <iAIWeight>150</iAIWeight>
+            <PromotionPrereqAnd>PROMOTION_CHANNELING3</PromotionPrereqAnd>
+        </PromotionInfo>
+		<PromotionInfo>
+            <Type>PROMOTION_AIR3B</Type>
+            <Description>TXT_KEY_PROMOTION_AIR3</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PromotionPrereq>PROMOTION_AIR2</PromotionPrereq>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Promotions/Air3.dds</Button>
+            <iAIWeight>150</iAIWeight>
+            <PromotionPrereqAnd>PROMOTION_CHANNELING3</PromotionPrereqAnd>
+        </PromotionInfo>		
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
         <PromotionInfo>
             <Type>PROMOTION_ACCURACY</Type>
             <Description>TXT_KEY_PROMOTION_ACCURACY</Description>
@@ -63,7 +1071,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -71,7 +1079,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -115,7 +1123,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -123,7 +1131,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -168,7 +1176,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -332,7 +1340,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -379,7 +1387,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -414,7 +1422,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -422,7 +1430,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -488,7 +1496,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -496,7 +1504,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -540,7 +1548,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -548,7 +1556,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -652,7 +1660,7 @@
             <iCombatPercent>20</iCombatPercent>
             <UnitCombats>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -660,7 +1668,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -695,7 +1703,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -703,7 +1711,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -735,40 +1743,7 @@
             <Button>Art/Interface/Buttons/Promotions/Centaur.dds</Button>
             <bRace>1</bRace>
         </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_CHANNELING1</Type>
-            <Description>TXT_KEY_PROMOTION_CHANNELING1</Description>
-            <Help>TXT_KEY_PROMOTION_CHANNELING1_PEDIA</Help>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <Button>Art/Interface/Buttons/Promotions/Channeling1.dds</Button>
-            <iBetterDefenderThanPercent>-25</iBetterDefenderThanPercent>
-            <iMinLevel>-1</iMinLevel>
-            <iSpellCasterXP>20</iSpellCasterXP>
-            <PromotionNextLevel>PROMOTION_CHANNELING2</PromotionNextLevel>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_CHANNELING2</Type>
-            <Description>TXT_KEY_PROMOTION_CHANNELING2</Description>
-            <Help>TXT_KEY_PROMOTION_CHANNELING2_PEDIA</Help>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <Button>Art/Interface/Buttons/Promotions/Channeling2.dds</Button>
-            <iBetterDefenderThanPercent>-25</iBetterDefenderThanPercent>
-            <iCasterResistModify>-10</iCasterResistModify>
-            <iMinLevel>-1</iMinLevel>
-            <iSpellCasterXP>30</iSpellCasterXP>
-            <PromotionNextLevel>PROMOTION_CHANNELING3</PromotionNextLevel>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_CHANNELING3</Type>
-            <Description>TXT_KEY_PROMOTION_CHANNELING3</Description>
-            <Help>TXT_KEY_PROMOTION_CHANNELING3_PEDIA</Help>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <Button>Art/Interface/Buttons/Promotions/Channeling3.dds</Button>
-            <iBetterDefenderThanPercent>-25</iBetterDefenderThanPercent>
-            <iCasterResistModify>-10</iCasterResistModify>
-            <iMinLevel>-1</iMinLevel>
-            <iSpellCasterXP>40</iSpellCasterXP>
-        </PromotionInfo>
+        
         <PromotionInfo>
             <Type>PROMOTION_CHAOS1</Type>
             <Description>TXT_KEY_PROMOTION_CHAOS1</Description>
@@ -796,7 +1771,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -804,7 +1779,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -848,7 +1823,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -856,7 +1831,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -900,7 +1875,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -908,7 +1883,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -997,11 +1972,11 @@
             <iCityAttack>30</iCityAttack>
             <UnitCombats>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -1024,11 +1999,11 @@
             <iCityAttack>30</iCityAttack>
             <UnitCombats>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -1053,11 +2028,11 @@
             </UnitCombatMods>
             <UnitCombats>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -1082,7 +2057,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -1126,7 +2101,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -1134,7 +2109,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -1181,7 +2156,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -1189,7 +2164,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -1235,7 +2210,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -1243,7 +2218,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -1289,7 +2264,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -1297,7 +2272,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -1343,7 +2318,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -1351,7 +2326,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -1460,7 +2435,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -1494,7 +2469,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -1541,7 +2516,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -1577,7 +2552,7 @@
             </UnitCombatMods>
             <UnitCombats>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -1644,7 +2619,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -1652,7 +2627,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -1742,7 +2717,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -1750,7 +2725,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -1794,7 +2769,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -1802,7 +2777,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -1921,7 +2896,7 @@
             <TechPrereq>TECH_WAY_OF_THE_WISE</TechPrereq>
             <UnitCombats>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -1968,7 +2943,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -1976,7 +2951,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -2058,7 +3033,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -2103,7 +3078,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -2149,7 +3124,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -2193,7 +3168,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -2261,7 +3236,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -2269,7 +3244,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -2313,7 +3288,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -2321,7 +3296,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -2516,7 +3491,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -2524,7 +3499,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -2568,7 +3543,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -2576,7 +3551,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -2648,7 +3623,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -2656,7 +3631,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -2700,7 +3675,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -2708,7 +3683,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -2832,7 +3807,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -2872,7 +3847,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -2932,7 +3907,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -2940,7 +3915,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -2984,7 +3959,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -2992,7 +3967,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -3136,7 +4111,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -3176,7 +4151,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -3370,7 +4345,7 @@
             <iHillsDefense>40</iHillsDefense>
             <UnitCombats>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -3378,7 +4353,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -3411,7 +4386,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -3441,7 +4416,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -3449,7 +4424,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -3527,7 +4502,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -3535,7 +4510,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -3581,7 +4556,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -3589,7 +4564,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -3633,7 +4608,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -3641,7 +4616,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -3687,7 +4662,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -3695,7 +4670,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -3740,7 +4715,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -3748,7 +4723,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -3795,7 +4770,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -3803,7 +4778,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -3889,7 +4864,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -3897,7 +4872,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -3941,7 +4916,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -3949,7 +4924,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -4178,7 +5153,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -4186,7 +5161,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -4230,7 +5205,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -4238,7 +5213,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -4297,7 +5272,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -4305,7 +5280,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -4349,7 +5324,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -4357,7 +5332,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -4417,7 +5392,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -4513,7 +5488,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -4521,7 +5496,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -4590,7 +5565,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -4647,7 +5622,7 @@
             <iFriendlyHealChange>10</iFriendlyHealChange>
             <UnitCombats>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -4692,7 +5667,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -4721,7 +5696,8 @@
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_MEDIC1</PromotionPrereq>
             <TechPrereq>TECH_NEVER</TechPrereq>
-            <iSameTileHealChange>15</iSameTileHealChange>
+            <iSameTileHealChange>10</iSameTileHealChange>
+			<iAdjacentTileHealChange>10</iAdjacentTileHealChange>
             <Button>,Art/Interface/Buttons/Promotions/Medic2.dds,Art/Interface/Buttons/Promotions_Atlas.dds,4,4</Button>
             <PromotionNextLevel>PROMOTION_MEDIC3</PromotionNextLevel>
         </PromotionInfo>
@@ -4730,8 +5706,8 @@
             <Description>TXT_KEY_PROMOTION_MEDIC3</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_MEDIC2</PromotionPrereq>
-            <iSameTileHealChange>20</iSameTileHealChange>
-            <iAdjacentTileHealChange>20</iAdjacentTileHealChange>
+            <iSameTileHealChange>10</iSameTileHealChange>
+            <iAdjacentTileHealChange>10</iAdjacentTileHealChange>
             <Button>Art/Interface/Buttons/Promotions/Medic3.dds</Button>
         </PromotionInfo>
         <PromotionInfo>
@@ -4763,7 +5739,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -4771,7 +5747,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -4817,7 +5793,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -4825,7 +5801,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -4886,7 +5862,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -4894,7 +5870,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -4938,7 +5914,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -4946,7 +5922,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -5002,7 +5978,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -5010,7 +5986,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -5042,7 +6018,7 @@
             <iMovesChange>1</iMovesChange>
             <UnitCombats>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -5107,7 +6083,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -5115,7 +6091,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -5165,7 +6141,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -5173,7 +6149,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -5217,7 +6193,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -5225,7 +6201,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -5464,7 +6440,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -5472,7 +6448,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -5521,7 +6497,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -5655,7 +6631,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -5663,7 +6639,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -5721,7 +6697,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -5729,7 +6705,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -5816,7 +6792,7 @@
             </UnitCombatMods>
             <UnitCombats>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -5842,7 +6818,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -5919,7 +6895,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -5927,7 +6903,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -5971,7 +6947,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -5979,7 +6955,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -6022,7 +6998,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -6030,7 +7006,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -6068,7 +7044,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -6076,7 +7052,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -6170,7 +7146,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -6210,7 +7186,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -6265,7 +7241,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -6273,7 +7249,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -6381,7 +7357,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -6389,7 +7365,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -6433,7 +7409,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -6441,7 +7417,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -6523,7 +7499,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -6531,7 +7507,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -6567,7 +7543,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -6575,7 +7551,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -6653,7 +7629,7 @@
             <TechPrereq>TECH_ANIMAL_HUSBANDRY</TechPrereq>
             <UnitCombatMods>
                 <UnitCombatMod>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <iUnitCombatMod>25</iUnitCombatMod>
                 </UnitCombatMod>
             </UnitCombatMods>
@@ -6665,7 +7641,7 @@
             </UnitCombats>
             <Button>Art/Interface/Buttons/Promotions/Animalhusbandry.dds</Button>
             <iAIWeight>300</iAIWeight>
-            <CaptureUnitCombat>UNITCOMBAT_ANIMAL</CaptureUnitCombat>
+            <CaptureUnitCombat>UNITCOMBAT_BEAST</CaptureUnitCombat>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_SUBDUE_BEASTS</Type>
@@ -6675,7 +7651,7 @@
             <TechPrereq>TECH_ANIMAL_MASTERY</TechPrereq>
             <UnitCombatMods>
                 <UnitCombatMod>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <iUnitCombatMod>25</iUnitCombatMod>
                 </UnitCombatMod>
             </UnitCombatMods>
@@ -6687,7 +7663,7 @@
             </UnitCombats>
             <Button>Art/Interface/Buttons/Promotions/SubdueBeasts.dds</Button>
             <iAIWeight>300</iAIWeight>
-            <CaptureUnitCombat>UNITCOMBAT_BEAST</CaptureUnitCombat>
+            <CaptureUnitCombat>UNITCOMBAT_FLYING</CaptureUnitCombat>
             <PromotionPrereqAnd>PROMOTION_COMBAT3</PromotionPrereqAnd>
         </PromotionInfo>
         <PromotionInfo>
@@ -6733,7 +7709,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -6741,7 +7717,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -6785,7 +7761,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -6793,7 +7769,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -6920,7 +7896,7 @@
             <TechPrereq>TECH_WAY_OF_THE_WISE</TechPrereq>
             <UnitCombats>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -7105,7 +8081,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -7113,7 +8089,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -7157,7 +8133,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -7165,7 +8141,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -7249,7 +8225,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -7257,7 +8233,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -7312,7 +8288,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -7320,7 +8296,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -7381,11 +8357,11 @@
             </FeatureDefenses>
             <UnitCombats>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -7450,7 +8426,7 @@
             </FeatureDoubleMoves>
             <UnitCombats>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>

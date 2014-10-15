@@ -6,7 +6,7 @@
 <!-- Civilization Infos -->
 <Civ4UnitArtStyleTypeInfos xmlns="x-schema:CIV4CivilizationsSchema.xml">
 	<UnitArtStyleTypeInfos>
-		<UnitArtStyleTypeInfo>
+		<!--<UnitArtStyleTypeInfo>
 			<Type>UNIT_ARTSTYLE_AMURITES</Type>
 			<StyleUnits>
 				<StyleUnit>
@@ -3265,6 +3265,6 @@
 					</UnitMeshGroup>
 				</StyleUnit>
 			</StyleUnits>
-		</UnitArtStyleTypeInfo>
+		</UnitArtStyleTypeInfo>-->
 	</UnitArtStyleTypeInfos>
 </Civ4UnitArtStyleTypeInfos>

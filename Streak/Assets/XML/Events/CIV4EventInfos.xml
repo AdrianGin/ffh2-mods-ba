@@ -6,7 +6,7 @@
 <!-- Event Infos -->
 <Civ4EventInfos xmlns="x-schema:CIV4EventSchema.xml">
     <EventInfos>
-        <EventInfo>
+        <!--<EventInfo>
             <Type>EVENT_AERONS_CHOSEN_1</Type>
             <Description>TXT_KEY_EVENT_CONTINUE</Description>
             <LocalInfoText></LocalInfoText>
@@ -53302,6 +53302,6 @@
             <PrereqCivilization>NONE</PrereqCivilization>
             <PrereqReligion>NONE</PrereqReligion>
             <PrereqStateReligion>NONE</PrereqStateReligion>
-        </EventInfo>
+        </EventInfo>-->
     </EventInfos>
 </Civ4EventInfos>
