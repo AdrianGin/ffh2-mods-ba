@@ -11025,11 +11025,9 @@
 			<LeaderPromotion>NONE</LeaderPromotion>
 			<iLeaderExperience>0</iLeaderExperience>
 			<iTier>1</iTier>
-		</UnitInfo>-->
+		</UnitInfo>
 		
-		
-		
-		<!--<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_AXEMAN</Class>
 			<Type>UNIT_SWORDSMAN</Type>
 			<UniqueNames>
