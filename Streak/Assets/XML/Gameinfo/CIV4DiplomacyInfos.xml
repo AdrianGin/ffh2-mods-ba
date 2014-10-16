@@ -6,7 +6,7 @@
 <!-- Diplomacy Infos -->
 <Civ4DiplomacyInfos xmlns="x-schema:CIV4GameInfoSchema.xml">
     <DiplomacyInfos>
-        <DiplomacyInfo>
+        <!--<DiplomacyInfo>
             <Type>AI_DIPLOCOMMENT_DECLARE_WAR</Type>
             <Responses>
                 <Response>
@@ -28240,6 +28240,6 @@
                     </DiplomacyText>
                 </Response>
             </Responses>
-        </DiplomacyInfo>
+        </DiplomacyInfo>-->
     </DiplomacyInfos>
 </Civ4DiplomacyInfos>

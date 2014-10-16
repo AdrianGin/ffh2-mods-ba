@@ -855,27 +855,8 @@
             <ReligionWeightModifiers>
             </ReligionWeightModifiers>
         </LeaderHeadInfo>
-<!-- NEW END -->
-<!-- NEW END -->	
-<!-- NEW END -->
-<!-- NEW END -->
-<!-- NEW END -->
-<!-- NEW END -->
-<!-- NEW END -->
-<!-- NEW END -->
-<!-- NEW END -->
-<!-- NEW END -->
-<!-- NEW END -->
-<!-- NEW END -->	
-<!-- NEW END -->
-<!-- NEW END -->
-<!-- NEW END -->
-<!-- NEW END -->
-<!-- NEW END -->
-<!-- NEW END -->
-<!-- NEW END -->
-<!-- NEW END -->
-		<!--<LeaderHeadInfo>
+		
+		<LeaderHeadInfo>
             <Type>LEADER_BARBARIAN</Type>
             <Description>TXT_KEY_LEADER_BARBARIAN</Description>
             <Civilopedia>TXT_KEY_LEADER_BARBARIAN_PEDIA</Civilopedia>
@@ -1086,7 +1067,27 @@
             <ReligionWeightModifiers>
             </ReligionWeightModifiers>
         </LeaderHeadInfo>
-        <LeaderHeadInfo>
+<!-- NEW END -->
+<!-- NEW END -->	
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->	
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+		<!--<LeaderHeadInfo>
             <Type>LEADER_RANDOM_GOOD</Type>
             <Description>TXT_KEY_LEADER_RANDOM_GOOD</Description>
             <Civilopedia>TXT_KEY_LEADER_PLACEHOLDER_PEDIA</Civilopedia>
