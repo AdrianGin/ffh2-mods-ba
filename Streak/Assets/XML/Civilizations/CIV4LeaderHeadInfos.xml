@@ -219,7 +219,6 @@
             <ReligionWeightModifiers>
             </ReligionWeightModifiers>
         </LeaderHeadInfo>
-		
 		<LeaderHeadInfo>
             <Type>LEADER_EARTH</Type>
             <Description>Earth Leader</Description>
@@ -431,7 +430,6 @@
             <ReligionWeightModifiers>
             </ReligionWeightModifiers>
         </LeaderHeadInfo>
-		
 		<LeaderHeadInfo>
             <Type>LEADER_FIRE</Type>
             <Description>Fire Leader</Description>
@@ -643,7 +641,6 @@
             <ReligionWeightModifiers>
             </ReligionWeightModifiers>
         </LeaderHeadInfo>
-		
 		<LeaderHeadInfo>
             <Type>LEADER_WATER</Type>
             <Description>Water Leader</Description>
@@ -855,7 +852,6 @@
             <ReligionWeightModifiers>
             </ReligionWeightModifiers>
         </LeaderHeadInfo>
-		
 		<LeaderHeadInfo>
             <Type>LEADER_BARBARIAN</Type>
             <Description>TXT_KEY_LEADER_BARBARIAN</Description>
