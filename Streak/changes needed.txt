@@ -12,3 +12,6 @@ Balance Tech Cost
 Rename Techs
 
 Add Def Buildings
+
+
+Water units can enter ocean, but risk dying if they end their turn in it.
