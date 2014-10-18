@@ -1,0 +1,17 @@
+Remove all Unused Techs
+           Religions
+           Civics
+           Unused Buildings
+
+Delete Civilopedia TXT
+
+Balance Tech Cost
+        Unit Cost
+        Building Cost
+
+Rename Techs
+
+Add Def Buildings
+
+
+Water units can enter ocean, but risk dying if they end their turn in it.
