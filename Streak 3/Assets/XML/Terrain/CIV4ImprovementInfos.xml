@@ -9,17 +9,186 @@
 	<ImprovementInfos>
 <!-- NEW -->
 		<ImprovementInfo>
+			<Type>IMPROVEMENT_WINDMILL</Type>
+			<Description>TXT_KEY_IMPROVEMENT_WINDMILL</Description>
+			<Civilopedia/>
+			<Help/>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_WINDMILL</ArtDefineTag>
+			<YieldChanges>
+				<iYieldChange>1</iYieldChange>
+				<iYieldChange>1</iYieldChange>
+				<iYieldChange>0</iYieldChange>
+			</YieldChanges>
+			<bActsAsCity>0</bActsAsCity>
+			<bHillsMakesValid>1</bHillsMakesValid>
+			<bFreshWaterMakesValid>0</bFreshWaterMakesValid>
+			<bRiverSideMakesValid>0</bRiverSideMakesValid>
+			<bNoFreshWater>0</bNoFreshWater>
+			<bRequiresFlatlands>0</bRequiresFlatlands>
+			<bRequiresRiverSide>0</bRequiresRiverSide>
+			<bRequiresIrrigation>0</bRequiresIrrigation>
+			<bCarriesIrrigation>0</bCarriesIrrigation>
+			<bRequiresFeature>0</bRequiresFeature>
+			<bWater>0</bWater>
+			<bGoody>0</bGoody>
+			<bPermanent>0</bPermanent>
+			<iAdvancedStartCost>30</iAdvancedStartCost>
+			<iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
+			<iTilesPerGoody>0</iTilesPerGoody>
+			<iGoodyRange>0</iGoodyRange>
+			<iFeatureGrowth>0</iFeatureGrowth>
+			<iUpgradeTime>0</iUpgradeTime>
+			<iAirBombDefense>0</iAirBombDefense>
+			<iDefenseModifier>0</iDefenseModifier>
+			<iHappiness>0</iHappiness>
+			<iPillageGold>5</iPillageGold>
+			<!-- VKs Plot Capacity-->
+			<iUnitPlotSupport>0</iUnitPlotSupport>
+			<bOutsideBorders>0</bOutsideBorders>
+			<TerrainMakesValids>
+            </TerrainMakesValids>
+			<FeatureMakesValids>
+            </FeatureMakesValids>
+			<ImprovementPillage/>
+			<ImprovementUpgrade/>
+			<TechYieldChanges>
+				<TechYieldChange>
+					<PrereqTech>TECH_MACHINERY</PrereqTech>
+					<TechYields>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+						<iYield>1</iYield>
+					</TechYields>
+				</TechYieldChange>
+			</TechYieldChanges>
+			<RouteYieldChanges>
+            </RouteYieldChanges>
+			<bGraphicalOnly>0</bGraphicalOnly>
+			<bRequiresPeak>0</bRequiresPeak>
+			<bUnique>0</bUnique>
+			<iAppearanceProbability>0</iAppearanceProbability>
+			<iHealRateChange>0</iHealRateChange>
+			<iRange>0</iRange>
+			<iRangeDefenseModifier>0</iRangeDefenseModifier>
+			<iVisibilityChange>0</iVisibilityChange>
+			<BonusConvert>NONE</BonusConvert>
+			<FeatureUpgrade>NONE</FeatureUpgrade>
+			<PrereqCivilization>NONE</PrereqCivilization>
+			<PythonAtRange/>
+			<PythonOnMove/>
+			<SpawnUnitType>NONE</SpawnUnitType>
+		</ImprovementInfo>
+		<ImprovementInfo>
+			<Type>IMPROVEMENT_WORKSHOP</Type>
+			<Description>TXT_KEY_IMPROVEMENT_WORKSHOP</Description>
+			<Civilopedia/>
+			<Help/>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_WORKSHOP</ArtDefineTag>
+			<YieldChanges>
+				<iYieldChange>0</iYieldChange>
+				<iYieldChange>1</iYieldChange>
+				<iYieldChange>1</iYieldChange>
+			</YieldChanges>
+			<bActsAsCity>0</bActsAsCity>
+			<bHillsMakesValid>0</bHillsMakesValid>
+			<bFreshWaterMakesValid>1</bFreshWaterMakesValid>
+			<bRiverSideMakesValid>0</bRiverSideMakesValid>
+			<bNoFreshWater>0</bNoFreshWater>
+			<bRequiresFlatlands>1</bRequiresFlatlands>
+			<bRequiresRiverSide>0</bRequiresRiverSide>
+			<bRequiresIrrigation>0</bRequiresIrrigation>
+			<bCarriesIrrigation>0</bCarriesIrrigation>
+			<bRequiresFeature>0</bRequiresFeature>
+			<bWater>0</bWater>
+			<bGoody>0</bGoody>
+			<bPermanent>0</bPermanent>
+			<iAdvancedStartCost>36</iAdvancedStartCost>
+			<iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
+			<iTilesPerGoody>0</iTilesPerGoody>
+			<iGoodyRange>0</iGoodyRange>
+			<iFeatureGrowth>0</iFeatureGrowth>
+			<iUpgradeTime>0</iUpgradeTime>
+			<iAirBombDefense>0</iAirBombDefense>
+			<iDefenseModifier>0</iDefenseModifier>
+			<iHappiness>0</iHappiness>
+			<iPillageGold>5</iPillageGold>
+			<!-- VKs Plot Capacity-->
+			<iUnitPlotSupport>0</iUnitPlotSupport>
+			<bOutsideBorders>0</bOutsideBorders>
+			<TerrainMakesValids>
+				<TerrainMakesValid>
+					<TerrainType>TERRAIN_GRASS</TerrainType>
+					<bMakesValid>1</bMakesValid>
+				</TerrainMakesValid>
+				<TerrainMakesValid>
+					<TerrainType>TERRAIN_PLAINS</TerrainType>
+					<bMakesValid>1</bMakesValid>
+				</TerrainMakesValid>
+				<TerrainMakesValid>
+					<TerrainType>TERRAIN_DESERT</TerrainType>
+					<bMakesValid>1</bMakesValid>
+				</TerrainMakesValid>
+				<TerrainMakesValid>
+					<TerrainType>TERRAIN_TUNDRA</TerrainType>
+					<bMakesValid>1</bMakesValid>
+				</TerrainMakesValid>
+			</TerrainMakesValids>
+			<FeatureMakesValids>
+            </FeatureMakesValids>
+			<ImprovementPillage/>
+			<ImprovementUpgrade/>
+			<TechYieldChanges>
+				<TechYieldChange>
+					<PrereqTech>TECH_GUILDS</PrereqTech>
+					<TechYields>
+						<iYield>0</iYield>
+						<iYield>2</iYield>
+						<iYield>0</iYield>
+					</TechYields>
+				</TechYieldChange>
+				<TechYieldChange>
+					<PrereqTech>TECH_SMELTING</PrereqTech>
+					<TechYields>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+						<iYield>0</iYield>
+					</TechYields>
+				</TechYieldChange>
+			</TechYieldChanges>
+			<RouteYieldChanges>
+            </RouteYieldChanges>
+			<bGraphicalOnly>0</bGraphicalOnly>
+			<bRequiresPeak>0</bRequiresPeak>
+			<bUnique>0</bUnique>
+			<iAppearanceProbability>0</iAppearanceProbability>
+			<iHealRateChange>0</iHealRateChange>
+			<iRange>0</iRange>
+			<iRangeDefenseModifier>0</iRangeDefenseModifier>
+			<iVisibilityChange>0</iVisibilityChange>
+			<BonusConvert>NONE</BonusConvert>
+			<FeatureUpgrade>NONE</FeatureUpgrade>
+			<PrereqCivilization>NONE</PrereqCivilization>
+			<PythonAtRange/>
+			<PythonOnMove/>
+			<SpawnUnitType>NONE</SpawnUnitType>
+		</ImprovementInfo>
+		<ImprovementInfo>
 			<Type>IMPROVEMENT_PLANTATION</Type>
 			<Description>TXT_KEY_IMPROVEMENT_PLANTATION</Description>
 			<Civilopedia/>
 			<Help/>
 			<ArtDefineTag>ART_DEF_IMPROVEMENT_PLANTATION</ArtDefineTag>
+			<YieldChanges>
+				<iYieldChange>1</iYieldChange>
+				<iYieldChange>0</iYieldChange>
+				<iYieldChange>1</iYieldChange>
+			</YieldChanges>
 			<bActsAsCity>0</bActsAsCity>
 			<bHillsMakesValid>0</bHillsMakesValid>
 			<bFreshWaterMakesValid>0</bFreshWaterMakesValid>
 			<bRiverSideMakesValid>0</bRiverSideMakesValid>
 			<bNoFreshWater>0</bNoFreshWater>
-			<bRequiresFlatlands>0</bRequiresFlatlands>
+			<bRequiresFlatlands>1</bRequiresFlatlands>
 			<bRequiresRiverSide>0</bRequiresRiverSide>
 			<bRequiresIrrigation>0</bRequiresIrrigation>
 			<bCarriesIrrigation>0</bCarriesIrrigation>
@@ -42,6 +211,14 @@
 			<iUnitPlotSupport>0</iUnitPlotSupport>
 			<bOutsideBorders>0</bOutsideBorders>
 			<TerrainMakesValids>
+				<TerrainMakesValid>
+					<TerrainType>TERRAIN_GRASS</TerrainType>
+					<bMakesValid>1</bMakesValid>
+				</TerrainMakesValid>
+				<TerrainMakesValid>
+					<TerrainType>TERRAIN_PLAINS</TerrainType>
+					<bMakesValid>1</bMakesValid>
+				</TerrainMakesValid>
             </TerrainMakesValids>
 			<FeatureMakesValids>
             </FeatureMakesValids>
@@ -630,14 +807,6 @@
 			<bOutsideBorders>0</bOutsideBorders>
 			<TerrainMakesValids>
 				<TerrainMakesValid>
-					<TerrainType>TERRAIN_BROKEN_LANDS</TerrainType>
-					<bMakesValid>1</bMakesValid>
-				</TerrainMakesValid>
-				<TerrainMakesValid>
-					<TerrainType>TERRAIN_FIELDS_OF_PERDITION</TerrainType>
-					<bMakesValid>1</bMakesValid>
-				</TerrainMakesValid>
-				<TerrainMakesValid>
 					<TerrainType>TERRAIN_GRASS</TerrainType>
 					<bMakesValid>1</bMakesValid>
 				</TerrainMakesValid>
@@ -647,10 +816,6 @@
 				</TerrainMakesValid>
 				<TerrainMakesValid>
 					<TerrainType>TERRAIN_TUNDRA</TerrainType>
-					<bMakesValid>1</bMakesValid>
-				</TerrainMakesValid>
-				<TerrainMakesValid>
-					<TerrainType>TERRAIN_SNOW</TerrainType>
 					<bMakesValid>1</bMakesValid>
 				</TerrainMakesValid>
 			</TerrainMakesValids>
@@ -6425,192 +6590,9 @@
 			<SpawnUnitType>NONE</SpawnUnitType>
 		</ImprovementInfo>
 		
-		<ImprovementInfo>
-			<Type>IMPROVEMENT_WINDMILL</Type>
-			<Description>TXT_KEY_IMPROVEMENT_WINDMILL</Description>
-			<Civilopedia/>
-			<Help/>
-			<ArtDefineTag>ART_DEF_IMPROVEMENT_WINDMILL</ArtDefineTag>
-			<YieldChanges>
-				<iYieldChange>1</iYieldChange>
-				<iYieldChange>1</iYieldChange>
-				<iYieldChange>1</iYieldChange>
-			</YieldChanges>
-			<bActsAsCity>0</bActsAsCity>
-			<bHillsMakesValid>1</bHillsMakesValid>
-			<bFreshWaterMakesValid>0</bFreshWaterMakesValid>
-			<bRiverSideMakesValid>0</bRiverSideMakesValid>
-			<bNoFreshWater>0</bNoFreshWater>
-			<bRequiresFlatlands>0</bRequiresFlatlands>
-			<bRequiresRiverSide>0</bRequiresRiverSide>
-			<bRequiresIrrigation>0</bRequiresIrrigation>
-			<bCarriesIrrigation>0</bCarriesIrrigation>
-			<bRequiresFeature>0</bRequiresFeature>
-			<bWater>0</bWater>
-			<bGoody>0</bGoody>
-			<bPermanent>0</bPermanent>
-			<iAdvancedStartCost>30</iAdvancedStartCost>
-			<iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
-			<iTilesPerGoody>0</iTilesPerGoody>
-			<iGoodyRange>0</iGoodyRange>
-			<iFeatureGrowth>0</iFeatureGrowth>
-			<iUpgradeTime>0</iUpgradeTime>
-			<iAirBombDefense>0</iAirBombDefense>
-			<iDefenseModifier>0</iDefenseModifier>
-			<iHappiness>0</iHappiness>
-			<iPillageGold>5</iPillageGold>
-			<!-- VKs Plot Capacity-->
-			<iUnitPlotSupport>0</iUnitPlotSupport>
-			<bOutsideBorders>0</bOutsideBorders>
-			<TerrainMakesValids>
-            </TerrainMakesValids>
-			<FeatureMakesValids>
-            </FeatureMakesValids>
-			<ImprovementPillage/>
-			<ImprovementUpgrade/>
-			<TechYieldChanges>
-				<TechYieldChange>
-					<PrereqTech>TECH_MACHINERY</PrereqTech>
-					<TechYields>
-						<iYield>0</iYield>
-						<iYield>1</iYield>
-						<iYield>1</iYield>
-					</TechYields>
-				</TechYieldChange>
-			</TechYieldChanges>
-			<RouteYieldChanges>
-            </RouteYieldChanges>
-			<bGraphicalOnly>0</bGraphicalOnly>
-			<bRequiresPeak>0</bRequiresPeak>
-			<bUnique>0</bUnique>
-			<iAppearanceProbability>0</iAppearanceProbability>
-			<iHealRateChange>0</iHealRateChange>
-			<iRange>0</iRange>
-			<iRangeDefenseModifier>0</iRangeDefenseModifier>
-			<iVisibilityChange>0</iVisibilityChange>
-			<BonusConvert>NONE</BonusConvert>
-			<FeatureUpgrade>NONE</FeatureUpgrade>
-			<PrereqCivilization>NONE</PrereqCivilization>
-			<PythonAtRange/>
-			<PythonOnMove/>
-			<SpawnUnitType>NONE</SpawnUnitType>
-		</ImprovementInfo>
 		
-		<ImprovementInfo>
-			<Type>IMPROVEMENT_WORKSHOP</Type>
-			<Description>TXT_KEY_IMPROVEMENT_WORKSHOP</Description>
-			<Civilopedia/>
-			<Help/>
-			<ArtDefineTag>ART_DEF_IMPROVEMENT_WORKSHOP</ArtDefineTag>
-			<PrereqNatureYields>
-				<iYield>1</iYield>
-				<iYield>0</iYield>
-				<iYield>0</iYield>
-			</PrereqNatureYields>
-			<YieldChanges>
-				<iYieldChange>-1</iYieldChange>
-				<iYieldChange>1</iYieldChange>
-				<iYieldChange>1</iYieldChange>
-			</YieldChanges>
-			<bActsAsCity>0</bActsAsCity>
-			<bHillsMakesValid>0</bHillsMakesValid>
-			<bFreshWaterMakesValid>1</bFreshWaterMakesValid>
-			<bRiverSideMakesValid>0</bRiverSideMakesValid>
-			<bNoFreshWater>0</bNoFreshWater>
-			<bRequiresFlatlands>1</bRequiresFlatlands>
-			<bRequiresRiverSide>0</bRequiresRiverSide>
-			<bRequiresIrrigation>0</bRequiresIrrigation>
-			<bCarriesIrrigation>0</bCarriesIrrigation>
-			<bRequiresFeature>0</bRequiresFeature>
-			<bWater>0</bWater>
-			<bGoody>0</bGoody>
-			<bPermanent>0</bPermanent>
-			<iAdvancedStartCost>36</iAdvancedStartCost>
-			<iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
-			<iTilesPerGoody>0</iTilesPerGoody>
-			<iGoodyRange>0</iGoodyRange>
-			<iFeatureGrowth>0</iFeatureGrowth>
-			<iUpgradeTime>0</iUpgradeTime>
-			<iAirBombDefense>0</iAirBombDefense>
-			<iDefenseModifier>0</iDefenseModifier>
-			<iHappiness>0</iHappiness>
-			<iPillageGold>5</iPillageGold>
-			<!-- VKs Plot Capacity-->
-			<iUnitPlotSupport>0</iUnitPlotSupport>
-			<bOutsideBorders>0</bOutsideBorders>
-			<TerrainMakesValids>
-				<TerrainMakesValid>
-					<TerrainType>TERRAIN_BROKEN_LANDS</TerrainType>
-					<bMakesValid>1</bMakesValid>
-				</TerrainMakesValid>
-				<TerrainMakesValid>
-					<TerrainType>TERRAIN_FIELDS_OF_PERDITION</TerrainType>
-					<bMakesValid>1</bMakesValid>
-				</TerrainMakesValid>
-				<TerrainMakesValid>
-					<TerrainType>TERRAIN_SHALLOWS</TerrainType>
-					<bMakesValid>1</bMakesValid>
-				</TerrainMakesValid>
-				<TerrainMakesValid>
-					<TerrainType>TERRAIN_GRASS</TerrainType>
-					<bMakesValid>1</bMakesValid>
-				</TerrainMakesValid>
-				<TerrainMakesValid>
-					<TerrainType>TERRAIN_PLAINS</TerrainType>
-					<bMakesValid>1</bMakesValid>
-				</TerrainMakesValid>
-				<TerrainMakesValid>
-					<TerrainType>TERRAIN_DESERT</TerrainType>
-					<bMakesValid>1</bMakesValid>
-				</TerrainMakesValid>
-				<TerrainMakesValid>
-					<TerrainType>TERRAIN_MARSH</TerrainType>
-					<bMakesValid>1</bMakesValid>
-				</TerrainMakesValid>
-				<TerrainMakesValid>
-					<TerrainType>TERRAIN_TUNDRA</TerrainType>
-					<bMakesValid>1</bMakesValid>
-				</TerrainMakesValid>
-			</TerrainMakesValids>
-			<FeatureMakesValids>
-            </FeatureMakesValids>
-			<ImprovementPillage/>
-			<ImprovementUpgrade/>
-			<TechYieldChanges>
-				<TechYieldChange>
-					<PrereqTech>TECH_GUILDS</PrereqTech>
-					<TechYields>
-						<iYield>0</iYield>
-						<iYield>2</iYield>
-						<iYield>0</iYield>
-					</TechYields>
-				</TechYieldChange>
-				<TechYieldChange>
-					<PrereqTech>TECH_SMELTING</PrereqTech>
-					<TechYields>
-						<iYield>0</iYield>
-						<iYield>1</iYield>
-						<iYield>0</iYield>
-					</TechYields>
-				</TechYieldChange>
-			</TechYieldChanges>
-			<RouteYieldChanges>
-            </RouteYieldChanges>
-			<bGraphicalOnly>0</bGraphicalOnly>
-			<bRequiresPeak>0</bRequiresPeak>
-			<bUnique>0</bUnique>
-			<iAppearanceProbability>0</iAppearanceProbability>
-			<iHealRateChange>0</iHealRateChange>
-			<iRange>0</iRange>
-			<iRangeDefenseModifier>0</iRangeDefenseModifier>
-			<iVisibilityChange>0</iVisibilityChange>
-			<BonusConvert>NONE</BonusConvert>
-			<FeatureUpgrade>NONE</FeatureUpgrade>
-			<PrereqCivilization>NONE</PrereqCivilization>
-			<PythonAtRange/>
-			<PythonOnMove/>
-			<SpawnUnitType>NONE</SpawnUnitType>
-		</ImprovementInfo>
+		
+		
 		<ImprovementInfo>
 			<Type>IMPROVEMENT_YGGDRASIL</Type>
 			<Description>TXT_KEY_IMPROVEMENT_YGGDRASIL</Description>
