@@ -49,7 +49,7 @@
             <Help>TXT_KEY_SPELL_ADD_TO_FREAK_SHOW_HELP</Help>
             <PromotionPrereq1>PROMOTION_DARK_ELF</PromotionPrereq1>
             <UnitClassPrereq>UNITCLASS_SLAVE</UnitClassPrereq>
-            <CivilizationPrereq>CIVILIZATION_BALSERAPHS</CivilizationPrereq>
+            <CivilizationPrereq>NONE</CivilizationPrereq>
             <bAllowAI>1</bAllowAI>
             <bInBordersOnly>1</bInBordersOnly>
             <bInCityOnly>1</bInCityOnly>
@@ -71,7 +71,7 @@
             <Help>TXT_KEY_SPELL_ADD_TO_FREAK_SHOW_HELP</Help>
             <PromotionPrereq1>PROMOTION_DWARF</PromotionPrereq1>
             <UnitClassPrereq>UNITCLASS_SLAVE</UnitClassPrereq>
-            <CivilizationPrereq>CIVILIZATION_BALSERAPHS</CivilizationPrereq>
+            <CivilizationPrereq>NONE</CivilizationPrereq>
             <bAllowAI>1</bAllowAI>
             <bInBordersOnly>1</bInBordersOnly>
             <bInCityOnly>1</bInCityOnly>
@@ -93,7 +93,7 @@
             <Help>TXT_KEY_SPELL_ADD_TO_FREAK_SHOW_HELP</Help>
             <PromotionPrereq1>PROMOTION_ELF</PromotionPrereq1>
             <UnitClassPrereq>UNITCLASS_SLAVE</UnitClassPrereq>
-            <CivilizationPrereq>CIVILIZATION_BALSERAPHS</CivilizationPrereq>
+            <CivilizationPrereq>NONE</CivilizationPrereq>
             <bAllowAI>1</bAllowAI>
             <bInBordersOnly>1</bInBordersOnly>
             <bInCityOnly>1</bInCityOnly>
@@ -114,7 +114,7 @@
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
             <Help>TXT_KEY_SPELL_ADD_TO_FREAK_SHOW_HELP</Help>
             <UnitClassPrereq>UNITCLASS_SLAVE</UnitClassPrereq>
-            <CivilizationPrereq>CIVILIZATION_BALSERAPHS</CivilizationPrereq>
+            <CivilizationPrereq>NONE</CivilizationPrereq>
             <bAllowAI>1</bAllowAI>
             <bInBordersOnly>1</bInBordersOnly>
             <bInCityOnly>1</bInCityOnly>
@@ -137,7 +137,7 @@
             <Help>TXT_KEY_SPELL_ADD_TO_FREAK_SHOW_HELP</Help>
             <PromotionPrereq1>PROMOTION_ORC</PromotionPrereq1>
             <UnitClassPrereq>UNITCLASS_SLAVE</UnitClassPrereq>
-            <CivilizationPrereq>CIVILIZATION_BALSERAPHS</CivilizationPrereq>
+            <CivilizationPrereq>NONE</CivilizationPrereq>
             <bAllowAI>1</bAllowAI>
             <bInBordersOnly>1</bInBordersOnly>
             <bInCityOnly>1</bInCityOnly>
@@ -614,7 +614,7 @@
             <Description>TXT_KEY_SPELL_CREATE_PUPPET</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
             <UnitCombatPrereq>UNITCOMBAT_ADEPT</UnitCombatPrereq>
-            <CivilizationPrereq>CIVILIZATION_BALSERAPHS</CivilizationPrereq>
+            <CivilizationPrereq>NONE</CivilizationPrereq>
             <bAllowAI>1</bAllowAI>
             <iAIWeight>1000</iAIWeight>
             <bHasCasted>1</bHasCasted>
@@ -2430,7 +2430,7 @@
             <Description>TXT_KEY_SPELL_REVELRY</Description>
             <Civilopedia>TXT_KEY_SPELL_REVELRY_PEDIA</Civilopedia>
             <Help>TXT_KEY_SPELL_REVELRY_HELP</Help>
-            <CivilizationPrereq>CIVILIZATION_BALSERAPHS</CivilizationPrereq>
+            <CivilizationPrereq>NONE</CivilizationPrereq>
             <TechPrereq>TECH_FESTIVALS</TechPrereq>
             <bAllowAI>1</bAllowAI>
             <bGlobal>1</bGlobal>

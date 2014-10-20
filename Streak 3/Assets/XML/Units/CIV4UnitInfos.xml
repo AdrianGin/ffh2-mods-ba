@@ -48559,7 +48559,7 @@
 			<iCombatDefense>3</iCombatDefense>
 			<iTier>1</iTier>
 			<iWeaponTier>2</iWeaponTier>
-			<PrereqCiv>CIVILIZATION_BALSERAPHS</PrereqCiv>
+			<PrereqCiv>NONE</PrereqCiv>
 		</UnitInfo>
 		<UnitInfo>
 			<Class>UNITCLASS_FLAGBEARER</Class>
