@@ -1933,8 +1933,8 @@
             <Civilopedia>TXT_KEY_BONUS_COPPER_PEDIA</Civilopedia>
             <BonusClassType>BONUSCLASS_RUSH</BonusClassType>
             <ArtDefineTag>ART_DEF_BONUS_COPPER</ArtDefineTag>
-            <TechReveal>TECH_MINING</TechReveal>
-            <TechCityTrade>TECH_BRONZE_WORKING</TechCityTrade>
+            <TechReveal>TECH_FEUDAL_AGE</TechReveal>
+            <TechCityTrade>NONE</TechCityTrade>
             <TechObsolete>NONE</TechObsolete>
             <YieldChanges>
                 <iYieldChange>0</iYieldChange>
@@ -2023,8 +2023,8 @@
             <Civilopedia>TXT_KEY_BONUS_IRON_PEDIA</Civilopedia>
             <BonusClassType>BONUSCLASS_RUSH</BonusClassType>
             <ArtDefineTag>ART_DEF_BONUS_IRON</ArtDefineTag>
-            <TechReveal>TECH_SMELTING</TechReveal>
-            <TechCityTrade>TECH_IRON_WORKING</TechCityTrade>
+            <TechReveal>TECH_CASTLE_AGE</TechReveal>
+            <TechCityTrade>NONE</TechCityTrade>
             <TechObsolete>NONE</TechObsolete>
             <YieldChanges>
                 <iYieldChange>0</iYieldChange>
@@ -2113,8 +2113,8 @@
             <Civilopedia>TXT_KEY_BONUS_MITHRIL_PEDIA</Civilopedia>
             <BonusClassType>BONUSCLASS_RUSH</BonusClassType>
             <ArtDefineTag>ART_DEF_BONUS_SILVER</ArtDefineTag>
-            <TechReveal>TECH_MITHRIL_WORKING</TechReveal>
-            <TechCityTrade>TECH_MITHRIL_WORKING</TechCityTrade>
+            <TechReveal>TECH_IMPERIAL_AGE</TechReveal>
+            <TechCityTrade>NONE</TechCityTrade>
             <TechObsolete>NONE</TechObsolete>
             <YieldChanges>
                 <iYieldChange>0</iYieldChange>
@@ -2195,8 +2195,8 @@
             <Civilopedia>TXT_KEY_BONUS_GUNPOWDER_PEDIA</Civilopedia>
             <BonusClassType>BONUSCLASS_RUSH</BonusClassType>
             <ArtDefineTag>ART_DEF_BONUS_COAL</ArtDefineTag>
-            <TechReveal>TECH_BLASTING_POWDER</TechReveal>
-            <TechCityTrade>TECH_BLASTING_POWDER</TechCityTrade>
+            <TechReveal>TECH_IMPERIAL_AGE</TechReveal>
+            <TechCityTrade>NONE</TechCityTrade>
             <TechObsolete>NONE</TechObsolete>
             <YieldChanges>
                 <iYieldChange>0</iYieldChange>
