@@ -160,7 +160,7 @@
 					</TechYields>
 				</TechYieldChange>
 				<TechYieldChange>
-					<PrereqTech>TECH_FOOD1</PrereqTech>
+					<PrereqTech>TECH_FOOD2</PrereqTech>
 					<TechYields>
 						<iYield>0</iYield>
 						<iYield>0</iYield>
