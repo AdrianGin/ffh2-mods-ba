@@ -2276,7 +2276,7 @@
 			<iVisibilityChange>0</iVisibilityChange>
 			<BonusConvert>NONE</BonusConvert>
 			<FeatureUpgrade>NONE</FeatureUpgrade>
-			<PrereqCivilization>CIVILIZATION_KURIOTATES</PrereqCivilization>
+			<PrereqCivilization>NONE</PrereqCivilization>
 			<PythonAtRange/>
 			<PythonOnMove/>
 			<SpawnUnitType>NONE</SpawnUnitType>
