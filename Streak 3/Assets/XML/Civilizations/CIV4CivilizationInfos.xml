@@ -91,10 +91,6 @@
                     <UnitType>NONE</UnitType>
                 </Unit>
                 <Unit>
-                    <UnitClassType>UNITCLASS_KNIGHT</UnitClassType>
-                    <UnitType>UNIT_CENTAUR_LANCER</UnitType>
-                </Unit>
-                <Unit>
                     <UnitClassType>UNITCLASS_ADVENTURER</UnitClassType>
                     <UnitType>NONE</UnitType>
                 </Unit>
