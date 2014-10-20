@@ -74,7 +74,7 @@
             </OrPreReqs>
             <AndPreReqs>
             </AndPreReqs>
-            <Quote>NONE</Quote>
+            <Quote></Quote>
             <Sound>AS2D_TECH_DING</Sound>
             <SoundMP>AS2D_TECH_DING</SoundMP>
             <Button>Art/Interface/Buttons/TechTree/Militarystrategy.dds</Button>
@@ -147,7 +147,7 @@
             </OrPreReqs>
             <AndPreReqs>
             </AndPreReqs>
-            <Quote>NONE</Quote>
+            <Quote></Quote>
             <Sound>AS2D_TECH_DING</Sound>
             <SoundMP>AS2D_TECH_DING</SoundMP>
             <Button>Art/Interface/Buttons/TechTree/Fanaticism.dds</Button>
@@ -220,7 +220,7 @@
             </OrPreReqs>
             <AndPreReqs>
             </AndPreReqs>
-            <Quote>NONE</Quote>
+            <Quote></Quote>
             <Sound>AS2D_TECH_DING</Sound>
             <SoundMP>AS2D_TECH_DING</SoundMP>
             <Button>Art/Interface/Buttons/TechTree/Fanaticism.dds</Button>
@@ -293,7 +293,7 @@
             </OrPreReqs>
             <AndPreReqs>
             </AndPreReqs>
-            <Quote>NONE</Quote>
+            <Quote></Quote>
             <Sound>AS2D_TECH_DING</Sound>
             <SoundMP>AS2D_TECH_DING</SoundMP>
             <Button>Art/Interface/Buttons/TechTree/Fanaticism.dds</Button>
@@ -366,7 +366,7 @@
             </OrPreReqs>
             <AndPreReqs>
             </AndPreReqs>
-            <Quote>NONE</Quote>
+            <Quote></Quote>
             <Sound>AS2D_TECH_DING</Sound>
             <SoundMP>AS2D_TECH_DING</SoundMP>
             <Button>,Art/Interface/Buttons/TechTree/Animal Husbandry.dds,Art/Interface/Buttons/TechTree_Atlas.dds,3,1</Button>
@@ -439,7 +439,7 @@
             </OrPreReqs>
             <AndPreReqs>
             </AndPreReqs>
-            <Quote>NONE</Quote>
+            <Quote></Quote>
             <Sound>AS2D_TECH_DING</Sound>
             <SoundMP>AS2D_TECH_DING</SoundMP>
             <Button>,Art/Interface/Buttons/TechTree/Animal Husbandry.dds,Art/Interface/Buttons/TechTree_Atlas.dds,3,1</Button>
@@ -512,7 +512,7 @@
             </OrPreReqs>
             <AndPreReqs>
             </AndPreReqs>
-            <Quote>NONE</Quote>
+            <Quote></Quote>
             <Sound>AS2D_TECH_DING</Sound>
             <SoundMP>AS2D_TECH_DING</SoundMP>
             <Button>,Art/Interface/Buttons/TechTree/Animal Husbandry.dds,Art/Interface/Buttons/TechTree_Atlas.dds,3,1</Button>
@@ -585,7 +585,7 @@
             </OrPreReqs>
             <AndPreReqs>
             </AndPreReqs>
-            <Quote>NONE</Quote>
+            <Quote></Quote>
             <Sound>AS2D_TECH_DING</Sound>
             <SoundMP>AS2D_TECH_DING</SoundMP>
             <Button>,Art/Interface/Buttons/TechTree/Iron Working.dds,Art/Interface/Buttons/TechTree_Atlas.dds,5,10</Button>
@@ -658,7 +658,7 @@
             </OrPreReqs>
             <AndPreReqs>
             </AndPreReqs>
-            <Quote>NONE</Quote>
+            <Quote></Quote>
             <Sound>AS2D_TECH_DING</Sound>
             <SoundMP>AS2D_TECH_DING</SoundMP>
             <Button>,Art/Interface/Buttons/TechTree/Iron Working.dds,Art/Interface/Buttons/TechTree_Atlas.dds,5,10</Button>
@@ -731,7 +731,7 @@
             </OrPreReqs>
             <AndPreReqs>
             </AndPreReqs>
-            <Quote>NONE</Quote>
+            <Quote></Quote>
             <Sound>AS2D_TECH_DING</Sound>
             <SoundMP>AS2D_TECH_DING</SoundMP>
             <Button>,Art/Interface/Buttons/TechTree/Iron Working.dds,Art/Interface/Buttons/TechTree_Atlas.dds,5,10</Button>
@@ -804,7 +804,7 @@
             </OrPreReqs>
             <AndPreReqs>
             </AndPreReqs>
-            <Quote>NONE</Quote>
+            <Quote></Quote>
             <Sound>AS2D_TECH_DING</Sound>
             <SoundMP>AS2D_TECH_DING</SoundMP>
             <Button>Art/Interface/Buttons/TechTree/Currency.dds</Button>
@@ -877,7 +877,7 @@
             </OrPreReqs>
             <AndPreReqs>
             </AndPreReqs>
-            <Quote>NONE</Quote>
+            <Quote></Quote>
             <Sound>AS2D_TECH_DING</Sound>
             <SoundMP>AS2D_TECH_DING</SoundMP>
             <Button>Art/Interface/Buttons/TechTree/Currency.dds</Button>
@@ -950,7 +950,7 @@
             </OrPreReqs>
             <AndPreReqs>
             </AndPreReqs>
-            <Quote>NONE</Quote>
+            <Quote></Quote>
             <Sound>AS2D_TECH_DING</Sound>
             <SoundMP>AS2D_TECH_DING</SoundMP>
             <Button>Art/Interface/Buttons/TechTree/Currency.dds</Button>
@@ -1022,7 +1022,7 @@
             </OrPreReqs>
             <AndPreReqs>
             </AndPreReqs>
-            <Quote>NONE</Quote>
+            <Quote></Quote>
             <Sound>AS2D_TECH_DING</Sound>
             <SoundMP>AS2D_TECH_DING</SoundMP>
             <Button>Art/Interface/Buttons/TechTree/Warfare.dds</Button>
@@ -1095,7 +1095,7 @@
             </OrPreReqs>
             <AndPreReqs>
             </AndPreReqs>
-            <Quote>NONE</Quote>
+            <Quote></Quote>
             <Sound>AS2D_TECH_DING</Sound>
             <SoundMP>AS2D_TECH_DING</SoundMP>
             <Button>Art/Interface/Buttons/TechTree/Mithrilweapons.dds</Button>
@@ -1168,7 +1168,7 @@
             </OrPreReqs>
             <AndPreReqs>
             </AndPreReqs>
-            <Quote>NONE</Quote>
+            <Quote></Quote>
             <Sound>AS2D_TECH_DING</Sound>
             <SoundMP>AS2D_TECH_DING</SoundMP>
             <Button>Art/Interface/Buttons/TechTree/Mithrilweapons.dds</Button>
@@ -1241,7 +1241,7 @@
             </OrPreReqs>
             <AndPreReqs>
             </AndPreReqs>
-            <Quote>NONE</Quote>
+            <Quote></Quote>
             <Sound>AS2D_TECH_DING</Sound>
             <SoundMP>AS2D_TECH_DING</SoundMP>
             <Button>Art/Interface/Buttons/TechTree/Mithrilweapons.dds</Button>
@@ -1314,7 +1314,7 @@
             </OrPreReqs>
             <AndPreReqs>
             </AndPreReqs>
-            <Quote>NONE</Quote>
+            <Quote></Quote>
             <Sound>AS2D_TECH_DING</Sound>
             <SoundMP>AS2D_TECH_DING</SoundMP>
             <Button>Art/Interface/Buttons/TechTree/Warhorses.dds</Button>
@@ -1387,7 +1387,7 @@
             </OrPreReqs>
             <AndPreReqs>
             </AndPreReqs>
-            <Quote>NONE</Quote>
+            <Quote></Quote>
             <Sound>AS2D_TECH_DING</Sound>
             <SoundMP>AS2D_TECH_DING</SoundMP>
             <Button>Art/Interface/Buttons/TechTree/Warhorses.dds</Button>
@@ -1460,7 +1460,7 @@
             </OrPreReqs>
             <AndPreReqs>
             </AndPreReqs>
-            <Quote>NONE</Quote>
+            <Quote></Quote>
             <Sound>AS2D_TECH_DING</Sound>
             <SoundMP>AS2D_TECH_DING</SoundMP>
             <Button>Art/Interface/Buttons/TechTree/Warhorses.dds</Button>
@@ -1533,7 +1533,7 @@
             </OrPreReqs>
             <AndPreReqs>
             </AndPreReqs>
-            <Quote>NONE</Quote>
+            <Quote></Quote>
             <Sound>AS2D_TECH_DING</Sound>
             <SoundMP>AS2D_TECH_DING</SoundMP>
             <Button>Art/Interface/Buttons/TechTree/Bowyers.dds</Button>
@@ -1606,7 +1606,7 @@
             </OrPreReqs>
             <AndPreReqs>
             </AndPreReqs>
-            <Quote>NONE</Quote>
+            <Quote></Quote>
             <Sound>AS2D_TECH_DING</Sound>
             <SoundMP>AS2D_TECH_DING</SoundMP>
             <Button>Art/Interface/Buttons/TechTree/Bowyers.dds</Button>
@@ -1679,7 +1679,7 @@
             </OrPreReqs>
             <AndPreReqs>
             </AndPreReqs>
-            <Quote>NONE</Quote>
+            <Quote></Quote>
             <Sound>AS2D_TECH_DING</Sound>
             <SoundMP>AS2D_TECH_DING</SoundMP>
             <Button>Art/Interface/Buttons/TechTree/Bowyers.dds</Button>
@@ -1752,7 +1752,7 @@
             </OrPreReqs>
             <AndPreReqs>
             </AndPreReqs>
-            <Quote>NONE</Quote>
+            <Quote></Quote>
             <Sound>AS2D_TECH_DING</Sound>
             <SoundMP>AS2D_TECH_DING</SoundMP>
             <Button>Art/Interface/Buttons/TechTree/Elementalism.dds</Button>
