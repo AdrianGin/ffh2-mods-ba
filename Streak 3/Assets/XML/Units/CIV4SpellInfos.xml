@@ -1307,7 +1307,7 @@
             <Description>TXT_KEY_SPELL_FOR_THE_HORDE</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
             <Help>TXT_KEY_SPELL_FOR_THE_HORDE_HELP</Help>
-            <CivilizationPrereq>CIVILIZATION_CLAN_OF_EMBERS</CivilizationPrereq>
+            <CivilizationPrereq>NONE</CivilizationPrereq>
             <bAllowAI>1</bAllowAI>
             <bGlobal>1</bGlobal>
             <iAIWeight>300</iAIWeight>
@@ -1822,7 +1822,7 @@
             <Civilopedia>TXT_KEY_SPELL_KIDNAP_PEDIA</Civilopedia>
             <Help>TXT_KEY_SPELL_KIDNAP_HELP</Help>
             <UnitCombatPrereq>UNITCOMBAT_RECON</UnitCombatPrereq>
-            <CivilizationPrereq>CIVILIZATION_SVARTALFAR</CivilizationPrereq>
+            <CivilizationPrereq>NONE</CivilizationPrereq>
             <bCausesWar>1</bCausesWar>
             <bInCityOnly>1</bInCityOnly>
             <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
@@ -2871,7 +2871,7 @@
             <Description>TXT_KEY_SPELL_STASIS</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
             <Help>TXT_KEY_SPELL_STASIS_HELP</Help>
-            <CivilizationPrereq>CIVILIZATION_ILLIANS</CivilizationPrereq>
+            <CivilizationPrereq>NONE</CivilizationPrereq>
             <bAllowAI>1</bAllowAI>
             <bGlobal>1</bGlobal>
             <iAIWeight>50</iAIWeight>
@@ -4353,7 +4353,7 @@
             <Description>TXT_KEY_SPELL_VEIL_OF_NIGHT</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
             <Help>TXT_KEY_SPELL_VEIL_OF_NIGHT_HELP</Help>
-            <CivilizationPrereq>CIVILIZATION_SVARTALFAR</CivilizationPrereq>
+            <CivilizationPrereq>NONE</CivilizationPrereq>
             <bAllowAI>1</bAllowAI>
             <bGlobal>1</bGlobal>
             <iAIWeight>300</iAIWeight>
@@ -4448,7 +4448,7 @@
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
             <Help>TXT_KEY_SPELL_WHITEOUT_HELP</Help>
             <UnitClassPrereq>UNITCLASS_ASSASSIN</UnitClassPrereq>
-            <CivilizationPrereq>CIVILIZATION_ILLIANS</CivilizationPrereq>
+            <CivilizationPrereq>NONE</CivilizationPrereq>
             <bAllowAI>1</bAllowAI>
             <iAIWeight>50</iAIWeight>
             <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
@@ -4519,7 +4519,7 @@
             <Description>TXT_KEY_SPELL_WORLDBREAK</Description>
             <Civilopedia>TXT_KEY_SPELL_WORLDBREAK_PEDIA</Civilopedia>
             <Help>TXT_KEY_SPELL_WORLDBREAK_HELP</Help>
-            <CivilizationPrereq>CIVILIZATION_SHEAIM</CivilizationPrereq>
+            <CivilizationPrereq>NONE</CivilizationPrereq>
             <bAllowAI>1</bAllowAI>
             <bGlobal>1</bGlobal>
             <iAIWeight>300</iAIWeight>
@@ -4536,7 +4536,7 @@
             <Description>TXT_KEY_SHARPEN_SENSES</Description>
             <Civilopedia>TXT_KEY_SPELL_SHARPEN_SENSES_PEDIA</Civilopedia>
             <Help>TXT_KEY_SPELL_SHARPEN_SENSES_HELP</Help>
-            <CivilizationPrereq>CIVILIZATION_SVARTALFAR</CivilizationPrereq>
+            <CivilizationPrereq>NONE</CivilizationPrereq>
             <bAllowAI>1</bAllowAI>
             <bGlobal>1</bGlobal>
             <iAIWeight>300</iAIWeight>

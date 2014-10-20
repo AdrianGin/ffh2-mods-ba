@@ -240,7 +240,7 @@
 			<BonusProductionModifiers/>
 			<CreateSound/>
 			<MovieDefineTag/>
-			<PrereqCivilization>CIVILIZATION_SHEAIM</PrereqCivilization>
+			<PrereqCivilization>NONE</PrereqCivilization>
 			<iAIWeight>0</iAIWeight>
 			<iModifyGlobalCounter>5</iModifyGlobalCounter>
 		</ProjectInfo>
@@ -358,7 +358,7 @@
 			<BonusProductionModifiers/>
 			<CreateSound/>
 			<MovieDefineTag/>
-			<PrereqCivilization>CIVILIZATION_ILLIANS</PrereqCivilization>
+			<PrereqCivilization>NONE</PrereqCivilization>
 			<iAIWeight>100</iAIWeight>
 		</ProjectInfo>
 		<ProjectInfo>
@@ -387,7 +387,7 @@
 			<BonusProductionModifiers/>
 			<CreateSound/>
 			<MovieDefineTag/>
-			<PrereqCivilization>CIVILIZATION_ILLIANS</PrereqCivilization>
+			<PrereqCivilization>NONE</PrereqCivilization>
 			<iAIWeight>300</iAIWeight>
 		</ProjectInfo>
 		<ProjectInfo>
@@ -416,7 +416,7 @@
 			<BonusProductionModifiers/>
 			<CreateSound/>
 			<MovieDefineTag/>
-			<PrereqCivilization>CIVILIZATION_ILLIANS</PrereqCivilization>
+			<PrereqCivilization>NONE</PrereqCivilization>
 			<iAIWeight>300</iAIWeight>
 		</ProjectInfo>
 		<ProjectInfo>
@@ -445,7 +445,7 @@
 			<BonusProductionModifiers/>
 			<CreateSound/>
 			<MovieDefineTag/>
-			<PrereqCivilization>CIVILIZATION_ILLIANS</PrereqCivilization>
+			<PrereqCivilization>NONE</PrereqCivilization>
 			<iAIWeight>300</iAIWeight>
 		</ProjectInfo>
 		<ProjectInfo>
@@ -474,7 +474,7 @@
 			<BonusProductionModifiers/>
 			<CreateSound/>
 			<MovieDefineTag/>
-			<PrereqCivilization>CIVILIZATION_ILLIANS</PrereqCivilization>
+			<PrereqCivilization>NONE</PrereqCivilization>
 			<iAIWeight>300</iAIWeight>
 			<iModifyGlobalCounter>10</iModifyGlobalCounter>
 		</ProjectInfo>
@@ -504,7 +504,7 @@
 			<BonusProductionModifiers/>
 			<CreateSound/>
 			<MovieDefineTag/>
-			<PrereqCivilization>CIVILIZATION_ILLIANS</PrereqCivilization>
+			<PrereqCivilization>NONE</PrereqCivilization>
 			<iAIWeight>1000</iAIWeight>
 		</ProjectInfo>
 		<ProjectInfo>

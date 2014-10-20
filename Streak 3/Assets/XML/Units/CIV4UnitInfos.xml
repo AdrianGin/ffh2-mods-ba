@@ -33870,7 +33870,7 @@
 			<bFreeXP>1</bFreeXP>
 			<iCombatDefense>5</iCombatDefense>
 			<iTier>3</iTier>
-			<PrereqCiv>CIVILIZATION_ILLIANS</PrereqCiv>
+			<PrereqCiv>NONE</PrereqCiv>
 			<DamageTypeCombats>
 				<DamageTypeCombat>
 					<DamageType>DAMAGE_COLD</DamageType>
@@ -39520,7 +39520,7 @@
 			<iCombatDefense>6</iCombatDefense>
 			<iMinLevel>6</iMinLevel>
 			<iTier>4</iTier>
-			<PrereqCiv>CIVILIZATION_ILLIANS</PrereqCiv>
+			<PrereqCiv>NONE</PrereqCiv>
 			<DamageTypeCombats>
 				<DamageTypeCombat>
 					<DamageType>DAMAGE_COLD</DamageType>
@@ -39753,7 +39753,7 @@
 			<iTier>4</iTier>
 			<iWeaponTier>3</iWeaponTier>
 			<PrereqBuildingClass>BUILDINGCLASS_TRAINING_YARD</PrereqBuildingClass>
-			<UpgradeCiv>CIVILIZATION_CLAN_OF_EMBERS</UpgradeCiv>
+			<UpgradeCiv>NONE</UpgradeCiv>
 		</UnitInfo>
 		<UnitInfo>
 			<Class>UNITCLASS_SUCCUBUS</Class>
@@ -47173,7 +47173,7 @@
 			<iTier>3</iTier>
 			<iWeaponTier>3</iWeaponTier>
 			<PrereqBuildingClass>BUILDINGCLASS_TRAINING_YARD</PrereqBuildingClass>
-			<UpgradeCiv>CIVILIZATION_CLAN_OF_EMBERS</UpgradeCiv>
+			<UpgradeCiv>NONE</UpgradeCiv>
 		</UnitInfo>
 		<UnitInfo>
 			<Class>UNITCLASS_PHALANX</Class>
@@ -51362,7 +51362,7 @@
 			<iTier>4</iTier>
 			<iWeaponTier>3</iWeaponTier>
 			<PrereqBuildingClass>BUILDINGCLASS_TRAINING_YARD</PrereqBuildingClass>
-			<UpgradeCiv>CIVILIZATION_CLAN_OF_EMBERS</UpgradeCiv>
+			<UpgradeCiv>NONE</UpgradeCiv>
 		</UnitInfo>
 		<UnitInfo>
 			<Class>UNITCLASS_DEMAGOG</Class>
@@ -57700,7 +57700,7 @@
 			<iLeaderExperience>0</iLeaderExperience>
 			<iCombatDefense>4</iCombatDefense>
 			<iTier>2</iTier>
-			<UpgradeCiv>CIVILIZATION_CLAN_OF_EMBERS</UpgradeCiv>
+			<UpgradeCiv>NONE</UpgradeCiv>
 		</UnitInfo>
 		<UnitInfo>
 			<Class>UNITCLASS_HORSEMAN</Class>
@@ -66526,7 +66526,7 @@
 			<bAIblockPermDefense>1</bAIblockPermDefense>
 			<iCombatDefense>2</iCombatDefense>
 			<iTier>1</iTier>
-			<UpgradeCiv>CIVILIZATION_CLAN_OF_EMBERS</UpgradeCiv>
+			<UpgradeCiv>NONE</UpgradeCiv>
 			<PythonPostCombatWon>postCombatWolfRider(pCaster,pOpponent)</PythonPostCombatWon>
 		</UnitInfo>
 		<UnitInfo>
@@ -66748,7 +66748,7 @@
 			<bAIblockPermDefense>1</bAIblockPermDefense>
 			<iCombatDefense>2</iCombatDefense>
 			<iTier>1</iTier>
-			<UpgradeCiv>CIVILIZATION_CLAN_OF_EMBERS</UpgradeCiv>
+			<UpgradeCiv>NONE</UpgradeCiv>
 			<PythonPostCombatWon>postCombatWolfRider(pCaster,pOpponent)</PythonPostCombatWon>
 			<DamageTypeCombats>
 				<DamageTypeCombat>
