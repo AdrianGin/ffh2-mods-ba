@@ -5569,7 +5569,7 @@
             <iPrereqCrime>0</iPrereqCrime>
             <iPrereqGlobalCounter>10</iPrereqGlobalCounter>
             <PrereqAlignment>NONE</PrereqAlignment>
-            <PrereqCivilizationPleased>CIVILIZATION_ELOHIM</PrereqCivilizationPleased>
+            <PrereqCivilizationPleased>NONE</PrereqCivilizationPleased>
             <PrereqLeader>NONE</PrereqLeader>
             <PrereqTrait>NONE</PrereqTrait>
         </EventTriggerInfo>
