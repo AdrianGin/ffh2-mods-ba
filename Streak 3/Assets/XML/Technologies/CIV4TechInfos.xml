@@ -8,8 +8,8 @@
     <TechInfos>
 <!-- NEW -->
 		<TechInfo>
-            <Type>TECH_CIVILIZATION</Type>
-            <Description>Civilization</Description>
+            <Type>TECH_DARK_AGE</Type>
+            <Description>Dark Age</Description>
             <Civilopedia>NONE</Civilopedia>
             <Help></Help>
             <Strategy></Strategy>
@@ -80,8 +80,8 @@
             <Button>Art/Interface/Buttons/TechTree/Militarystrategy.dds</Button>
         </TechInfo>
 		<TechInfo>
-            <Type>TECH_DARK_AGE</Type>
-            <Description>Dark Age</Description>
+            <Type>TECH_FEUDAL_AGE</Type>
+            <Description>Feudal Age</Description>
             <Civilopedia>NONE</Civilopedia>
             <Help></Help>
             <Strategy></Strategy>
@@ -143,7 +143,7 @@
                 </Flavor>
             </Flavors>
             <OrPreReqs>
-				<PrereqTech>TECH_CIVILIZATION</PrereqTech>
+				<PrereqTech>TECH_DARK_AGE</PrereqTech>
             </OrPreReqs>
             <AndPreReqs>
             </AndPreReqs>
@@ -153,8 +153,8 @@
             <Button>Art/Interface/Buttons/TechTree/Fanaticism.dds</Button>
         </TechInfo>
 		<TechInfo>
-            <Type>TECH_FEUDAL_AGE</Type>
-            <Description>Feudal Age</Description>
+            <Type>TECH_CASTLE_AGE</Type>
+            <Description>Castle Age</Description>
             <Civilopedia>NONE</Civilopedia>
             <Help></Help>
             <Strategy></Strategy>
@@ -220,7 +220,7 @@
                 </Flavor>
             </Flavors>
             <OrPreReqs>
-				<PrereqTech>TECH_DARK_AGE</PrereqTech>
+				<PrereqTech>TECH_FEUDAL_AGE</PrereqTech>
             </OrPreReqs>
             <AndPreReqs>
             </AndPreReqs>
@@ -230,8 +230,8 @@
             <Button>Art/Interface/Buttons/TechTree/Fanaticism.dds</Button>
         </TechInfo>
 		<TechInfo>
-            <Type>TECH_CASTLE_AGE</Type>
-            <Description>Castle Age</Description>
+            <Type>TECH_IMPERIAL_AGE</Type>
+            <Description>Imperial Age</Description>
             <Civilopedia>NONE</Civilopedia>
             <Help></Help>
             <Strategy></Strategy>
@@ -297,7 +297,7 @@
                 </Flavor>
             </Flavors>
             <OrPreReqs>
-				<PrereqTech>TECH_FEUDAL_AGE</PrereqTech>
+				<PrereqTech>TECH_CASTLE_AGE</PrereqTech>
             </OrPreReqs>
             <AndPreReqs>
             </AndPreReqs>
@@ -370,7 +370,7 @@
                 </Flavor>
             </Flavors>
             <OrPreReqs>
-				<PrereqTech>TECH_CIVILIZATION</PrereqTech>
+				<PrereqTech>TECH_DARK_AGE</PrereqTech>
             </OrPreReqs>
             <AndPreReqs>
             </AndPreReqs>
@@ -589,7 +589,7 @@
                 </Flavor>
             </Flavors>
             <OrPreReqs>
-				<PrereqTech>TECH_CIVILIZATION</PrereqTech>
+				<PrereqTech>TECH_DARK_AGE</PrereqTech>
             </OrPreReqs>
             <AndPreReqs>
             </AndPreReqs>
@@ -808,7 +808,7 @@
                 </Flavor>
             </Flavors>
             <OrPreReqs>
-				<PrereqTech>TECH_CIVILIZATION</PrereqTech>
+				<PrereqTech>TECH_DARK_AGE</PrereqTech>
             </OrPreReqs>
             <AndPreReqs>
             </AndPreReqs>
