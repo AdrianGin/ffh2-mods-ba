@@ -436,13 +436,14 @@ bool CvXMLLoadUtility::SetPostGlobalsGlobalDefines()
         idx = FindInInfoClass(szVal);
         GC.getDefinesVarSystem()->SetValue("BUILD_FORT", idx);
 
-        SetGlobalDefine("CIVILIZATION_KHAZAD", szVal);
-        idx = FindInInfoClass(szVal);
-        GC.getDefinesVarSystem()->SetValue("CIVILIZATION_KHAZAD", idx);
-
-        SetGlobalDefine("CIVILIZATION_LANUN", szVal);
-        idx = FindInInfoClass(szVal);
-        GC.getDefinesVarSystem()->SetValue("CIVILIZATION_LANUN", idx);
+//Streak 3 removed civilizations
+//        SetGlobalDefine("CIVILIZATION_KHAZAD", szVal);
+//        idx = FindInInfoClass(szVal);
+//        GC.getDefinesVarSystem()->SetValue("CIVILIZATION_KHAZAD", idx);
+//
+//        SetGlobalDefine("CIVILIZATION_LANUN", szVal);
+//        idx = FindInInfoClass(szVal);
+//        GC.getDefinesVarSystem()->SetValue("CIVILIZATION_LANUN", idx);
 
         SetGlobalDefine("PROMOTION_CHANNELING1", szVal);
         idx = FindInInfoClass(szVal);
