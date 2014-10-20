@@ -1230,7 +1230,7 @@
             <Civilopedia>TXT_KEY_SPELL_FEAST_PEDIA</Civilopedia>
             <Help>TXT_KEY_SPELL_FEAST_HELP</Help>
             <PromotionPrereq1>PROMOTION_VAMPIRE</PromotionPrereq1>
-            <CivilizationPrereq>CIVILIZATION_CALABIM</CivilizationPrereq>
+            <CivilizationPrereq>NONE</CivilizationPrereq>
             <bAllowAI>1</bAllowAI>
             <bInBordersOnly>1</bInBordersOnly>
             <bInCityOnly>1</bInCityOnly>
@@ -1721,7 +1721,7 @@
             <Civilopedia>TXT_KEY_SPELL_HYBOREMS_WHISPER_PEDIA</Civilopedia>
             <Help>TXT_KEY_SPELL_HYBOREMS_WHISPER_HELP</Help>
             <UnitClassPrereq>UNITCLASS_HYBOREM</UnitClassPrereq>
-            <CivilizationPrereq>CIVILIZATION_INFERNAL</CivilizationPrereq>
+            <CivilizationPrereq>NONE</CivilizationPrereq>
             <TechPrereq>TECH_MALEVOLENT_DESIGNS</TechPrereq>
             <bAllowAI>1</bAllowAI>
             <bGlobal>1</bGlobal>
@@ -2467,7 +2467,7 @@
             <Description>TXT_KEY_SPELL_RIVER_OF_BLOOD</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
             <Help>TXT_KEY_SPELL_RIVER_OF_BLOOD_HELP</Help>
-            <CivilizationPrereq>CIVILIZATION_CALABIM</CivilizationPrereq>
+            <CivilizationPrereq>NONE</CivilizationPrereq>
             <bAllowAI>1</bAllowAI>
             <bGlobal>1</bGlobal>
             <iAIWeight>300</iAIWeight>

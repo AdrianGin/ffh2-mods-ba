@@ -40893,7 +40893,7 @@
 			<iTier>4</iTier>
 			<iWeaponTier>3</iWeaponTier>
 			<PrereqBuildingClass>BUILDINGCLASS_TRAINING_YARD</PrereqBuildingClass>
-			<UpgradeCiv>CIVILIZATION_CALABIM</UpgradeCiv>
+			<UpgradeCiv>NONE</UpgradeCiv>
 		</UnitInfo>
 		<UnitInfo>
 			<Class>UNITCLASS_BERSERKER</Class>
@@ -44359,7 +44359,7 @@
 			<iTier>4</iTier>
 			<iWeaponTier>3</iWeaponTier>
 			<PrereqBuildingClass>BUILDINGCLASS_TRAINING_YARD</PrereqBuildingClass>
-			<UpgradeCiv>CIVILIZATION_CALABIM</UpgradeCiv>
+			<UpgradeCiv>NONE</UpgradeCiv>
 		</UnitInfo>
 		<UnitInfo>
 			<Class>UNITCLASS_IRA</Class>
@@ -46273,7 +46273,7 @@
 			<iCombatDefense>5</iCombatDefense>
 			<iTier>3</iTier>
 			<iWeaponTier>3</iWeaponTier>
-			<UpgradeCiv>CIVILIZATION_CALABIM</UpgradeCiv>
+			<UpgradeCiv>NONE</UpgradeCiv>
 		</UnitInfo>
 		<UnitInfo>
 			<Class>UNITCLASS_GUYBRUSH</Class>
@@ -52929,7 +52929,7 @@
 			<iTier>4</iTier>
 			<iWeaponTier>3</iWeaponTier>
 			<PrereqBuildingClass>BUILDINGCLASS_TRAINING_YARD</PrereqBuildingClass>
-			<UpgradeCiv>CIVILIZATION_INFERNAL</UpgradeCiv>
+			<UpgradeCiv>NONE</UpgradeCiv>
 			<DamageTypeCombats>
 				<DamageTypeCombat>
 					<DamageType>DAMAGE_UNHOLY</DamageType>

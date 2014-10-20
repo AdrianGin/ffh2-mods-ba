@@ -7258,7 +7258,7 @@
             <iGlobalCounter>0</iGlobalCounter>
             <PrereqAlignment>NONE</PrereqAlignment>
             <PrereqBonus>NONE</PrereqBonus>
-            <PrereqCivilization>CIVILIZATION_CALABIM</PrereqCivilization>
+            <PrereqCivilization>NONE</PrereqCivilization>
             <PrereqReligion>NONE</PrereqReligion>
             <PrereqStateReligion>NONE</PrereqStateReligion>
         </EventInfo>
@@ -10333,7 +10333,7 @@
             <iGlobalCounter>0</iGlobalCounter>
             <PrereqAlignment>NONE</PrereqAlignment>
             <PrereqBonus>NONE</PrereqBonus>
-            <PrereqCivilization>CIVILIZATION_INFERNAL</PrereqCivilization>
+            <PrereqCivilization>NONE</PrereqCivilization>
             <PrereqReligion>NONE</PrereqReligion>
             <PrereqStateReligion>NONE</PrereqStateReligion>
         </EventInfo>
@@ -20363,7 +20363,7 @@
             <iGlobalCounter>0</iGlobalCounter>
             <PrereqAlignment>NONE</PrereqAlignment>
             <PrereqBonus>NONE</PrereqBonus>
-            <PrereqCivilization>CIVILIZATION_CALABIM</PrereqCivilization>
+            <PrereqCivilization>NONE</PrereqCivilization>
             <PrereqReligion>NONE</PrereqReligion>
             <PrereqStateReligion>NONE</PrereqStateReligion>
         </EventInfo>
@@ -35831,7 +35831,7 @@
             <iGlobalCounter>0</iGlobalCounter>
             <PrereqAlignment>NONE</PrereqAlignment>
             <PrereqBonus>NONE</PrereqBonus>
-            <PrereqCivilization>CIVILIZATION_INFERNAL</PrereqCivilization>
+            <PrereqCivilization>NONE</PrereqCivilization>
             <PrereqReligion>NONE</PrereqReligion>
             <PrereqStateReligion>NONE</PrereqStateReligion>
         </EventInfo>
@@ -39109,7 +39109,7 @@
             <iGlobalCounter>0</iGlobalCounter>
             <PrereqAlignment>NONE</PrereqAlignment>
             <PrereqBonus>NONE</PrereqBonus>
-            <PrereqCivilization>CIVILIZATION_CALABIM</PrereqCivilization>
+            <PrereqCivilization>NONE</PrereqCivilization>
             <PrereqReligion>NONE</PrereqReligion>
             <PrereqStateReligion>NONE</PrereqStateReligion>
         </EventInfo>
