@@ -48,7 +48,7 @@
             <bIgnoreIrrigation>0</bIgnoreIrrigation>
             <bWaterWork>0</bWaterWork>
             <iGridX>1</iGridX>
-            <iGridY>30</iGridY>
+            <iGridY>40</iGridY>
             <DomainExtraMoves>
             </DomainExtraMoves>
             <CommerceFlexible>
@@ -120,7 +120,7 @@
             <bIgnoreIrrigation>0</bIgnoreIrrigation>
             <bWaterWork>0</bWaterWork>
             <iGridX>1</iGridX>
-            <iGridY>40</iGridY>
+            <iGridY>50</iGridY>
             <DomainExtraMoves>
             </DomainExtraMoves>
             <CommerceFlexible>
@@ -149,7 +149,7 @@
             <Quote>NONE</Quote>
             <Sound>AS2D_TECH_DING</Sound>
             <SoundMP>AS2D_TECH_DING</SoundMP>
-            <Button>Art/Interface/Buttons/TechTree/Militarystrategy.dds</Button>
+            <Button>Art/Interface/Buttons/TechTree/Warfare.dds</Button>
         </TechInfo>
 <!-- NEW END -->
 <!-- NEW END -->
