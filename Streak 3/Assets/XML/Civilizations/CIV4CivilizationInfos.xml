@@ -1002,15 +1002,19 @@
             </AnarchyCivics>
             <Leaders>
                 <Leader>
-                    <LeaderName>LEADER_RANDOM_GOOD</LeaderName>
+                    <LeaderName>LEADER_WATER</LeaderName>
                     <bLeaderAvailability>1</bLeaderAvailability>
                 </Leader>
                 <Leader>
-                    <LeaderName>LEADER_RANDOM_NEUTRAL</LeaderName>
+                    <LeaderName>LEADER_FIRE</LeaderName>
                     <bLeaderAvailability>1</bLeaderAvailability>
                 </Leader>
                 <Leader>
-                    <LeaderName>LEADER_RANDOM_EVIL</LeaderName>
+                    <LeaderName>LEADER_AIR</LeaderName>
+                    <bLeaderAvailability>1</bLeaderAvailability>
+                </Leader>
+				<Leader>
+                    <LeaderName>LEADER_EARTH</LeaderName>
                     <bLeaderAvailability>1</bLeaderAvailability>
                 </Leader>
             </Leaders>
