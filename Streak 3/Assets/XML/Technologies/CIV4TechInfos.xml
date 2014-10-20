@@ -289,7 +289,7 @@
                 </Flavor>
             </Flavors>
             <OrPreReqs>
-				<PrereqTech>TECH_FEUDAL_AGE_AGE</PrereqTech>
+				<PrereqTech>TECH_FEUDAL_AGE</PrereqTech>
             </OrPreReqs>
             <AndPreReqs>
             </AndPreReqs>
