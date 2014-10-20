@@ -476,13 +476,6 @@
 			<bVisible>0</bVisible>
 		</GameOptionInfo>
 		<GameOptionInfo>
-			<Type>GAMEOPTION_WB_THE_BLACK_TOWER</Type>
-			<Description>TXT_KEY_GAME_OPTION_WB_THE_BLACK_TOWER</Description>
-			<Help>TXT_KEY_GAME_OPTION_WB_THE_BLACK_TOWER_HELP</Help>
-			<bDefault>0</bDefault>
-			<bVisible>0</bVisible>
-		</GameOptionInfo>
-		<GameOptionInfo>
 			<Type>GAMEOPTION_WB_THE_CULT</Type>
 			<Description>TXT_KEY_GAME_OPTION_WB_THE_CULT</Description>
 			<Help>TXT_KEY_GAME_OPTION_WB_THE_CULT_HELP</Help>
@@ -500,13 +493,6 @@
 			<Type>GAMEOPTION_WB_THE_RADIANT_GUARD</Type>
 			<Description>TXT_KEY_GAME_OPTION_WB_THE_RADIANT_GUARD</Description>
 			<Help>TXT_KEY_GAME_OPTION_WB_THE_RADIANT_GUARD_HELP</Help>
-			<bDefault>0</bDefault>
-			<bVisible>0</bVisible>
-		</GameOptionInfo>
-		<GameOptionInfo>
-			<Type>GAMEOPTION_WB_THE_SPLINTERED_COURT</Type>
-			<Description>TXT_KEY_GAME_OPTION_WB_THE_SPLINTERED_COURT</Description>
-			<Help>TXT_KEY_GAME_OPTION_WB_THE_SPLINTERED_COURT_HELP</Help>
 			<bDefault>0</bDefault>
 			<bVisible>0</bVisible>
 		</GameOptionInfo>
