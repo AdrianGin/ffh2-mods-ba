@@ -1459,7 +1459,7 @@
             <Description>TXT_KEY_SPELL_GIFTS_OF_NANTOSUELTA</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
             <Help>TXT_KEY_SPELL_GIFTS_OF_NANTOSUELTA_HELP</Help>
-            <CivilizationPrereq>CIVILIZATION_LUCHUIRP</CivilizationPrereq>
+            <CivilizationPrereq>NONE</CivilizationPrereq>
             <TechPrereq>TECH_MASONRY</TechPrereq>
             <bAllowAI>1</bAllowAI>
             <bGlobal>1</bGlobal>

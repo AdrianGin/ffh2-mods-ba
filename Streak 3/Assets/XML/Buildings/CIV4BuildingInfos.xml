@@ -5383,7 +5383,7 @@
             <iResistMagic>0</iResistMagic>
             <FreeBonus2>NONE</FreeBonus2>
             <FreeBonus3>NONE</FreeBonus3>
-            <PrereqCiv>CIVILIZATION_LUCHUIRP</PrereqCiv>
+            <PrereqCiv>NONE</PrereqCiv>
             <PrereqTrait>NONE</PrereqTrait>
             <RemovePromotion>NONE</RemovePromotion>
             <SpecialistCommerceChanges>
@@ -7425,7 +7425,7 @@
             <iResistMagic>0</iResistMagic>
             <FreeBonus2>NONE</FreeBonus2>
             <FreeBonus3>NONE</FreeBonus3>
-            <PrereqCiv>CIVILIZATION_LUCHUIRP</PrereqCiv>
+            <PrereqCiv>NONE</PrereqCiv>
             <PrereqTrait>NONE</PrereqTrait>
             <RemovePromotion>NONE</RemovePromotion>
             <SpecialistCommerceChanges>
@@ -8356,7 +8356,7 @@
             <iResistMagic>0</iResistMagic>
             <FreeBonus2>NONE</FreeBonus2>
             <FreeBonus3>NONE</FreeBonus3>
-            <PrereqCiv>CIVILIZATION_LUCHUIRP</PrereqCiv>
+            <PrereqCiv>NONE</PrereqCiv>
             <PrereqTrait>NONE</PrereqTrait>
             <RemovePromotion>NONE</RemovePromotion>
             <SpecialistCommerceChanges>
