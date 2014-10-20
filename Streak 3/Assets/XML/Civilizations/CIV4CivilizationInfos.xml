@@ -421,10 +421,6 @@
                     <UnitType>NONE</UnitType>
                 </Unit>
                 <Unit>
-                    <UnitClassType>UNITCLASS_ANGEL_OF_DEATH</UnitClassType>
-                    <UnitType>NONE</UnitType>
-                </Unit>
-                <Unit>
                     <UnitClassType>UNITCLASS_OPHANIM</UnitClassType>
                     <UnitType>NONE</UnitType>
                 </Unit>

@@ -39993,7 +39993,7 @@
 			<iCombatDefense>4</iCombatDefense>
 			<iTier>3</iTier>
 			<iWeaponTier>3</iWeaponTier>
-			<PrereqCiv>CIVILIZATION_MERCURIANS</PrereqCiv>
+			<PrereqCiv>NONE</PrereqCiv>
 			<DamageTypeCombats>
 				<DamageTypeCombat>
 					<DamageType>DAMAGE_HOLY</DamageType>
