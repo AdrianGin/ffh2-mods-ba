@@ -11114,7 +11114,7 @@
             <iPrereqCrime>0</iPrereqCrime>
             <iPrereqGlobalCounter>0</iPrereqGlobalCounter>
             <PrereqAlignment>NONE</PrereqAlignment>
-            <PrereqCivilizationPleased>CIVILIZATION_KHAZAD</PrereqCivilizationPleased>
+            <PrereqCivilizationPleased>NONE</PrereqCivilizationPleased>
             <PrereqLeader>NONE</PrereqLeader>
             <PrereqTrait>NONE</PrereqTrait>
         </EventTriggerInfo>

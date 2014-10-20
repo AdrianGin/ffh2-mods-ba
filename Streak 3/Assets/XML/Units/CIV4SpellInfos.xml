@@ -560,7 +560,7 @@
             <Description>TXT_KEY_SPELL_CREATE_BATTERING_RAM</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
             <UnitCombatPrereq>UNITCOMBAT_MELEE</UnitCombatPrereq>
-            <CivilizationPrereq>CIVILIZATION_KHAZAD</CivilizationPrereq>
+            <CivilizationPrereq>NONE</CivilizationPrereq>
             <FeatureOrPrereq1>FEATURE_FOREST</FeatureOrPrereq1>
             <TechPrereq>TECH_ENGINEERING</TechPrereq>
             <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
@@ -1989,7 +1989,7 @@
             <Description>TXT_KEY_SPELL_MOTHER_LODE</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
             <Help>TXT_KEY_SPELL_MOTHER_LODE_HELP</Help>
-            <CivilizationPrereq>CIVILIZATION_KHAZAD</CivilizationPrereq>
+            <CivilizationPrereq>NONE</CivilizationPrereq>
             <TechPrereq>TECH_MINING</TechPrereq>
             <bAllowAI>1</bAllowAI>
             <bGlobal>1</bGlobal>

@@ -175,10 +175,6 @@
 		<DefineTextVal>BUILD_FORT</DefineTextVal>
 	</Define>
 	<Define>
-		<DefineName>CIVILIZATION_KHAZAD</DefineName>
-		<DefineTextVal>CIVILIZATION_KHAZAD</DefineTextVal>
-	</Define>
-	<Define>
 		<DefineName>CIVILIZATION_LANUN</DefineName>
 		<DefineTextVal>CIVILIZATION_LANUN</DefineTextVal>
 	</Define>
