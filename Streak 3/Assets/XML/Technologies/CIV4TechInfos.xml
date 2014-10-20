@@ -1693,7 +1693,7 @@
             <Advisor>ADVISOR_GROWTH</Advisor>
             <iAIWeight>0</iAIWeight>
             <iAITradeModifier>0</iAITradeModifier>
-            <iCost>120</iCost>
+            <iCost>1</iCost>
             <iAdvancedStartCost>100</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
             <Era>ERA_ANCIENT</Era>
@@ -1752,7 +1752,7 @@
             </OrPreReqs>
             <AndPreReqs>
             </AndPreReqs>
-            <Quote>TXT_KEY_TECH_AGRICULTURE_PEDIA</Quote>
+            <Quote>NONE</Quote>
             <Sound>AS2D_TECH_DING</Sound>
             <SoundMP>AS2D_TECH_DING</SoundMP>
             <Button>Art/Interface/Buttons/TechTree/Elementalism.dds</Button>
@@ -1766,7 +1766,7 @@
             <Advisor>ADVISOR_GROWTH</Advisor>
             <iAIWeight>0</iAIWeight>
             <iAITradeModifier>0</iAITradeModifier>
-            <iCost>120</iCost>
+            <iCost>1</iCost>
             <iAdvancedStartCost>100</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
             <Era>ERA_ANCIENT</Era>
@@ -1825,7 +1825,7 @@
             </OrPreReqs>
             <AndPreReqs>
             </AndPreReqs>
-            <Quote>TXT_KEY_TECH_AGRICULTURE_PEDIA</Quote>
+            <Quote></Quote>
             <Sound>AS2D_TECH_DING</Sound>
             <SoundMP>AS2D_TECH_DING</SoundMP>
             <Button>Art/Interface/Buttons/TechTree/Elementalism.dds</Button>
@@ -1839,7 +1839,7 @@
             <Advisor>ADVISOR_GROWTH</Advisor>
             <iAIWeight>0</iAIWeight>
             <iAITradeModifier>0</iAITradeModifier>
-            <iCost>120</iCost>
+            <iCost>1</iCost>
             <iAdvancedStartCost>100</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
             <Era>ERA_ANCIENT</Era>
@@ -1898,7 +1898,7 @@
             </OrPreReqs>
             <AndPreReqs>
             </AndPreReqs>
-            <Quote>TXT_KEY_TECH_AGRICULTURE_PEDIA</Quote>
+            <Quote></Quote>
             <Sound>AS2D_TECH_DING</Sound>
             <SoundMP>AS2D_TECH_DING</SoundMP>
             <Button>Art/Interface/Buttons/TechTree/Elementalism.dds</Button>
@@ -1912,7 +1912,7 @@
             <Advisor>ADVISOR_GROWTH</Advisor>
             <iAIWeight>0</iAIWeight>
             <iAITradeModifier>0</iAITradeModifier>
-            <iCost>120</iCost>
+            <iCost>1</iCost>
             <iAdvancedStartCost>100</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
             <Era>ERA_ANCIENT</Era>
@@ -1971,7 +1971,7 @@
             </OrPreReqs>
             <AndPreReqs>
             </AndPreReqs>
-            <Quote>NONE</Quote>
+            <Quote></Quote>
             <Sound>AS2D_TECH_DING</Sound>
             <SoundMP>AS2D_TECH_DING</SoundMP>
             <Button>Art/Interface/Buttons/TechTree/Omniscience.dds</Button>
@@ -1985,7 +1985,7 @@
             <Advisor>ADVISOR_GROWTH</Advisor>
             <iAIWeight>0</iAIWeight>
             <iAITradeModifier>0</iAITradeModifier>
-            <iCost>120</iCost>
+            <iCost>1</iCost>
             <iAdvancedStartCost>100</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
             <Era>ERA_ANCIENT</Era>
@@ -2044,7 +2044,7 @@
             </OrPreReqs>
             <AndPreReqs>
             </AndPreReqs>
-            <Quote>NONE</Quote>
+            <Quote></Quote>
             <Sound>AS2D_TECH_DING</Sound>
             <SoundMP>AS2D_TECH_DING</SoundMP>
             <Button>Art/Interface/Buttons/TechTree/Omniscience.dds</Button>
@@ -2058,7 +2058,7 @@
             <Advisor>ADVISOR_GROWTH</Advisor>
             <iAIWeight>0</iAIWeight>
             <iAITradeModifier>0</iAITradeModifier>
-            <iCost>120</iCost>
+            <iCost>1</iCost>
             <iAdvancedStartCost>100</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
             <Era>ERA_ANCIENT</Era>
@@ -2117,7 +2117,7 @@
             </OrPreReqs>
             <AndPreReqs>
             </AndPreReqs>
-            <Quote>NONE</Quote>
+            <Quote></Quote>
             <Sound>AS2D_TECH_DING</Sound>
             <SoundMP>AS2D_TECH_DING</SoundMP>
             <Button>Art/Interface/Buttons/TechTree/Omniscience.dds</Button>
