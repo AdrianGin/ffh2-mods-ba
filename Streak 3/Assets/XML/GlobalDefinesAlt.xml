@@ -175,10 +175,6 @@
 		<DefineTextVal>BUILD_FORT</DefineTextVal>
 	</Define>
 	<Define>
-		<DefineName>CIVILIZATION_LANUN</DefineName>
-		<DefineTextVal>CIVILIZATION_LANUN</DefineTextVal>
-	</Define>
-	<Define>
 		<DefineName>COMBAT_APPLY_CHANCE</DefineName>
 		<iDefineIntVal>50</iDefineIntVal>
 	</Define>

@@ -1789,7 +1789,7 @@
             <Description>TXT_KEY_SPELL_INTO_THE_MIST</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
             <Help>TXT_KEY_SPELL_INTO_THE_MIST_HELP</Help>
-            <CivilizationPrereq>CIVILIZATION_SIDAR</CivilizationPrereq>
+            <CivilizationPrereq>NONE</CivilizationPrereq>
             <bAllowAI>1</bAllowAI>
             <bGlobal>1</bGlobal>
             <iAIWeight>300</iAIWeight>
@@ -2085,7 +2085,7 @@
             <Civilopedia>TXT_KEY_SPELL_PIRATE_COVE_PEDIA</Civilopedia>
             <Help>TXT_KEY_SPELL_PIRATE_COVE_HELP</Help>
             <UnitPrereq>UNIT_WORKBOAT</UnitPrereq>
-            <CivilizationPrereq>CIVILIZATION_LANUN</CivilizationPrereq>
+            <CivilizationPrereq>NONE</CivilizationPrereq>
             <bAllowAI>1</bAllowAI>
             <iAIWeight>300</iAIWeight>
             <bHasCasted>1</bHasCasted>
@@ -2182,7 +2182,7 @@
             <Description>TXT_KEY_SPELL_RAGING_SEAS</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
             <Help>TXT_KEY_SPELL_RAGING_SEAS_HELP</Help>
-            <CivilizationPrereq>CIVILIZATION_LANUN</CivilizationPrereq>
+            <CivilizationPrereq>NONE</CivilizationPrereq>
             <TechPrereq>TECH_OPTICS</TechPrereq>
             <bAllowAI>1</bAllowAI>
             <bGlobal>1</bGlobal>
@@ -4401,7 +4401,7 @@
             <Type>SPELL_WANE</Type>
             <Description>TXT_KEY_SPELL_WANE</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <CivilizationPrereq>CIVILIZATION_SIDAR</CivilizationPrereq>
+            <CivilizationPrereq>NONE</CivilizationPrereq>
             <bCasterMustBeAlive>1</bCasterMustBeAlive>
             <iCasterMinLevel>6</iCasterMinLevel>
             <bHasCasted>1</bHasCasted>
