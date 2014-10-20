@@ -1904,7 +1904,7 @@
             <Description>TXT_KEY_SPELL_MARCH_OF_THE_TREES</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
             <Help>TXT_KEY_SPELL_MARCH_OF_THE_TREES_HELP</Help>
-            <CivilizationPrereq>CIVILIZATION_LJOSALFAR</CivilizationPrereq>
+            <CivilizationPrereq>NONE</CivilizationPrereq>
             <TechPrereq>TECH_WAY_OF_THE_FORESTS</TechPrereq>
             <bAllowAI>1</bAllowAI>
             <bGlobal>1</bGlobal>
