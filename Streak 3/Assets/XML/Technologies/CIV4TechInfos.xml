@@ -569,7 +569,7 @@
                     <bTerrainTrade>1</bTerrainTrade>
                 </TerrainTrade>
             </TerrainTrades>
-            <bRiverTrade>0</bRiverTrade>
+            <bRiverTrade>1</bRiverTrade>
             <Flavors>
                 <Flavor>
                     <FlavorType>FLAVOR_GOLD</FlavorType>
