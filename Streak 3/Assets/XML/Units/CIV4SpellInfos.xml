@@ -4416,7 +4416,7 @@
             <Description>TXT_KEY_SPELL_WARCRY</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
             <Help>TXT_KEY_SPELL_WARCRY_HELP</Help>
-            <CivilizationPrereq>CIVILIZATION_HIPPUS</CivilizationPrereq>
+            <CivilizationPrereq>NONE</CivilizationPrereq>
             <bAllowAI>1</bAllowAI>
             <bGlobal>1</bGlobal>
             <iAIWeight>300</iAIWeight>

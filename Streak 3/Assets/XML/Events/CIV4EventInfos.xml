@@ -24834,7 +24834,7 @@
             <iGlobalCounter>0</iGlobalCounter>
             <PrereqAlignment>NONE</PrereqAlignment>
             <PrereqBonus>NONE</PrereqBonus>
-            <PrereqCivilization>CIVILIZATION_HIPPUS</PrereqCivilization>
+            <PrereqCivilization>NONE</PrereqCivilization>
             <PrereqReligion>NONE</PrereqReligion>
             <PrereqStateReligion>NONE</PrereqStateReligion>
         </EventInfo>
