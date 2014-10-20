@@ -31612,7 +31612,7 @@
 			<bNeverObsolete>1</bNeverObsolete>
 			<iCombatDefense>6</iCombatDefense>
 			<iTier>3</iTier>
-			<PrereqCiv>CIVILIZATION_ELOHIM</PrereqCiv>
+			<PrereqCiv>NONE</PrereqCiv>
 		</UnitInfo>
 		<UnitInfo>
 			<Class>UNITCLASS_PALADIN</Class>

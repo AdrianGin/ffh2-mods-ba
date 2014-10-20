@@ -270,7 +270,7 @@
 			<BonusProductionModifiers/>
 			<CreateSound/>
 			<MovieDefineTag/>
-			<PrereqCivilization>CIVILIZATION_ELOHIM</PrereqCivilization>
+			<PrereqCivilization>NONE</PrereqCivilization>
 			<iPrereqGlobalCounter>1</iPrereqGlobalCounter>
 			<iAIWeight>0</iAIWeight>
 			<iModifyGlobalCounter>-5</iModifyGlobalCounter>
