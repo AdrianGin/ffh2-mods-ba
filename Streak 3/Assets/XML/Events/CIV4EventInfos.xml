@@ -22296,7 +22296,7 @@
             <iGlobalCounter>0</iGlobalCounter>
             <PrereqAlignment>NONE</PrereqAlignment>
             <PrereqBonus>NONE</PrereqBonus>
-            <PrereqCivilization>CIVILIZATION_AMURITES</PrereqCivilization>
+            <PrereqCivilization>NONE</PrereqCivilization>
             <PrereqReligion>NONE</PrereqReligion>
             <PrereqStateReligion>NONE</PrereqStateReligion>
         </EventInfo>
