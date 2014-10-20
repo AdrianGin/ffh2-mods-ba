@@ -80,6 +80,225 @@
             <Button>Art/Interface/Buttons/TechTree/Militarystrategy.dds</Button>
         </TechInfo>
 		<TechInfo>
+            <Type>TECH_DARK_AGE</Type>
+            <Description>Dark Age</Description>
+            <Civilopedia>NONE</Civilopedia>
+            <Help></Help>
+            <Strategy></Strategy>
+            <Advisor>ADVISOR_GROWTH</Advisor>
+            <iAIWeight>0</iAIWeight>
+            <iAITradeModifier>0</iAITradeModifier>
+            <iCost>1</iCost>
+            <iAdvancedStartCost>100</iAdvancedStartCost>
+            <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
+            <Era>ERA_ANCIENT</Era>
+            <FirstFreeUnitClass>NONE</FirstFreeUnitClass>
+            <iFeatureProductionModifier>0</iFeatureProductionModifier>
+            <iWorkerSpeedModifier>0</iWorkerSpeedModifier>
+            <iTradeRoutes>0</iTradeRoutes>
+            <iHealth>0</iHealth>
+            <iHappiness>0</iHappiness>
+            <iFirstFreeTechs>0</iFirstFreeTechs>
+            <iAsset>8</iAsset>
+            <iPower>0</iPower>
+            <bRepeat>0</bRepeat>
+            <bTrade>1</bTrade>
+            <bDisable>0</bDisable>
+            <bGoodyTech>0</bGoodyTech>
+            <bExtraWaterSeeFrom>0</bExtraWaterSeeFrom>
+            <bMapCentering>0</bMapCentering>
+            <bMapVisible>0</bMapVisible>
+            <bMapTrading>0</bMapTrading>
+            <bTechTrading>0</bTechTrading>
+            <bGoldTrading>0</bGoldTrading>
+            <bOpenBordersTrading>0</bOpenBordersTrading>
+            <bDefensivePactTrading>0</bDefensivePactTrading>
+            <bPermanentAllianceTrading>0</bPermanentAllianceTrading>
+            <bVassalTrading>0</bVassalTrading>
+            <bBridgeBuilding>0</bBridgeBuilding>
+            <bIrrigation>0</bIrrigation>
+            <bIgnoreIrrigation>0</bIgnoreIrrigation>
+            <bWaterWork>0</bWaterWork>
+            <iGridX>2</iGridX>
+            <iGridY>39</iGridY>
+            <DomainExtraMoves>
+            </DomainExtraMoves>
+            <CommerceFlexible>
+            </CommerceFlexible>
+            <TerrainTrades>
+            </TerrainTrades>
+            <bRiverTrade>0</bRiverTrade>
+            <Flavors>
+                <Flavor>
+                    <FlavorType>FLAVOR_GOLD</FlavorType>
+                    <iFlavor>10</iFlavor>
+                </Flavor>
+                <Flavor>
+                    <FlavorType>FLAVOR_GROWTH</FlavorType>
+                    <iFlavor>70</iFlavor>
+                </Flavor>
+                <Flavor>
+                    <FlavorType>FLAVOR_PRODUCTION</FlavorType>
+                    <iFlavor>20</iFlavor>
+                </Flavor>
+            </Flavors>
+            <OrPreReqs>
+				<PrereqTech>TECH_CIVILIZATION</PrereqTech>
+            </OrPreReqs>
+            <AndPreReqs>
+            </AndPreReqs>
+            <Quote>NONE</Quote>
+            <Sound>AS2D_TECH_DING</Sound>
+            <SoundMP>AS2D_TECH_DING</SoundMP>
+            <Button>Art/Interface/Buttons/TechTree/Fanaticism.dds</Button>
+        </TechInfo>
+		<TechInfo>
+            <Type>TECH_FEUDAL_AGE</Type>
+            <Description>Feudal Age</Description>
+            <Civilopedia>NONE</Civilopedia>
+            <Help></Help>
+            <Strategy></Strategy>
+            <Advisor>ADVISOR_GROWTH</Advisor>
+            <iAIWeight>0</iAIWeight>
+            <iAITradeModifier>0</iAITradeModifier>
+            <iCost>1</iCost>
+            <iAdvancedStartCost>100</iAdvancedStartCost>
+            <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
+            <Era>ERA_ANCIENT</Era>
+            <FirstFreeUnitClass>NONE</FirstFreeUnitClass>
+            <iFeatureProductionModifier>0</iFeatureProductionModifier>
+            <iWorkerSpeedModifier>0</iWorkerSpeedModifier>
+            <iTradeRoutes>0</iTradeRoutes>
+            <iHealth>0</iHealth>
+            <iHappiness>0</iHappiness>
+            <iFirstFreeTechs>0</iFirstFreeTechs>
+            <iAsset>8</iAsset>
+            <iPower>0</iPower>
+            <bRepeat>0</bRepeat>
+            <bTrade>1</bTrade>
+            <bDisable>0</bDisable>
+            <bGoodyTech>0</bGoodyTech>
+            <bExtraWaterSeeFrom>0</bExtraWaterSeeFrom>
+            <bMapCentering>0</bMapCentering>
+            <bMapVisible>0</bMapVisible>
+            <bMapTrading>0</bMapTrading>
+            <bTechTrading>0</bTechTrading>
+            <bGoldTrading>0</bGoldTrading>
+            <bOpenBordersTrading>0</bOpenBordersTrading>
+            <bDefensivePactTrading>0</bDefensivePactTrading>
+            <bPermanentAllianceTrading>0</bPermanentAllianceTrading>
+            <bVassalTrading>0</bVassalTrading>
+            <bBridgeBuilding>0</bBridgeBuilding>
+            <bIrrigation>0</bIrrigation>
+            <bIgnoreIrrigation>0</bIgnoreIrrigation>
+            <bWaterWork>0</bWaterWork>
+            <iGridX>3</iGridX>
+            <iGridY>39</iGridY>
+            <DomainExtraMoves>
+            </DomainExtraMoves>
+            <CommerceFlexible>
+            </CommerceFlexible>
+            <TerrainTrades>
+            </TerrainTrades>
+            <bRiverTrade>0</bRiverTrade>
+            <Flavors>
+                <Flavor>
+                    <FlavorType>FLAVOR_GOLD</FlavorType>
+                    <iFlavor>10</iFlavor>
+                </Flavor>
+                <Flavor>
+                    <FlavorType>FLAVOR_GROWTH</FlavorType>
+                    <iFlavor>70</iFlavor>
+                </Flavor>
+                <Flavor>
+                    <FlavorType>FLAVOR_PRODUCTION</FlavorType>
+                    <iFlavor>20</iFlavor>
+                </Flavor>
+            </Flavors>
+            <OrPreReqs>
+				<PrereqTech>TECH_DARK_AGE</PrereqTech>
+            </OrPreReqs>
+            <AndPreReqs>
+            </AndPreReqs>
+            <Quote>NONE</Quote>
+            <Sound>AS2D_TECH_DING</Sound>
+            <SoundMP>AS2D_TECH_DING</SoundMP>
+            <Button>Art/Interface/Buttons/TechTree/Fanaticism.dds</Button>
+        </TechInfo>
+		<TechInfo>
+            <Type>TECH_CASTLE_AGE</Type>
+            <Description>Castle Age</Description>
+            <Civilopedia>NONE</Civilopedia>
+            <Help></Help>
+            <Strategy></Strategy>
+            <Advisor>ADVISOR_GROWTH</Advisor>
+            <iAIWeight>0</iAIWeight>
+            <iAITradeModifier>0</iAITradeModifier>
+            <iCost>1</iCost>
+            <iAdvancedStartCost>100</iAdvancedStartCost>
+            <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
+            <Era>ERA_ANCIENT</Era>
+            <FirstFreeUnitClass>NONE</FirstFreeUnitClass>
+            <iFeatureProductionModifier>0</iFeatureProductionModifier>
+            <iWorkerSpeedModifier>0</iWorkerSpeedModifier>
+            <iTradeRoutes>0</iTradeRoutes>
+            <iHealth>0</iHealth>
+            <iHappiness>0</iHappiness>
+            <iFirstFreeTechs>0</iFirstFreeTechs>
+            <iAsset>8</iAsset>
+            <iPower>0</iPower>
+            <bRepeat>0</bRepeat>
+            <bTrade>1</bTrade>
+            <bDisable>0</bDisable>
+            <bGoodyTech>0</bGoodyTech>
+            <bExtraWaterSeeFrom>0</bExtraWaterSeeFrom>
+            <bMapCentering>0</bMapCentering>
+            <bMapVisible>0</bMapVisible>
+            <bMapTrading>0</bMapTrading>
+            <bTechTrading>0</bTechTrading>
+            <bGoldTrading>0</bGoldTrading>
+            <bOpenBordersTrading>0</bOpenBordersTrading>
+            <bDefensivePactTrading>0</bDefensivePactTrading>
+            <bPermanentAllianceTrading>0</bPermanentAllianceTrading>
+            <bVassalTrading>0</bVassalTrading>
+            <bBridgeBuilding>0</bBridgeBuilding>
+            <bIrrigation>0</bIrrigation>
+            <bIgnoreIrrigation>0</bIgnoreIrrigation>
+            <bWaterWork>0</bWaterWork>
+            <iGridX>4</iGridX>
+            <iGridY>39</iGridY>
+            <DomainExtraMoves>
+            </DomainExtraMoves>
+            <CommerceFlexible>
+            </CommerceFlexible>
+            <TerrainTrades>
+            </TerrainTrades>
+            <bRiverTrade>0</bRiverTrade>
+            <Flavors>
+                <Flavor>
+                    <FlavorType>FLAVOR_GOLD</FlavorType>
+                    <iFlavor>10</iFlavor>
+                </Flavor>
+                <Flavor>
+                    <FlavorType>FLAVOR_GROWTH</FlavorType>
+                    <iFlavor>70</iFlavor>
+                </Flavor>
+                <Flavor>
+                    <FlavorType>FLAVOR_PRODUCTION</FlavorType>
+                    <iFlavor>20</iFlavor>
+                </Flavor>
+            </Flavors>
+            <OrPreReqs>
+				<PrereqTech>TECH_FEUDAL_AGE_AGE</PrereqTech>
+            </OrPreReqs>
+            <AndPreReqs>
+            </AndPreReqs>
+            <Quote>NONE</Quote>
+            <Sound>AS2D_TECH_DING</Sound>
+            <SoundMP>AS2D_TECH_DING</SoundMP>
+            <Button>Art/Interface/Buttons/TechTree/Fanaticism.dds</Button>
+        </TechInfo>
+		<TechInfo>
             <Type>TECH_FOOD1</Type>
             <Description>Food1</Description>
             <Civilopedia>NONE</Civilopedia>
@@ -120,7 +339,7 @@
             <bIgnoreIrrigation>0</bIgnoreIrrigation>
             <bWaterWork>0</bWaterWork>
             <iGridX>2</iGridX>
-            <iGridY>39</iGridY>
+            <iGridY>41</iGridY>
             <DomainExtraMoves>
             </DomainExtraMoves>
             <CommerceFlexible>
@@ -193,7 +412,7 @@
             <bIgnoreIrrigation>0</bIgnoreIrrigation>
             <bWaterWork>0</bWaterWork>
             <iGridX>3</iGridX>
-            <iGridY>39</iGridY>
+            <iGridY>41</iGridY>
             <DomainExtraMoves>
             </DomainExtraMoves>
             <CommerceFlexible>
@@ -266,7 +485,7 @@
             <bIgnoreIrrigation>0</bIgnoreIrrigation>
             <bWaterWork>0</bWaterWork>
             <iGridX>4</iGridX>
-            <iGridY>39</iGridY>
+            <iGridY>41</iGridY>
             <DomainExtraMoves>
             </DomainExtraMoves>
             <CommerceFlexible>
@@ -339,7 +558,7 @@
             <bIgnoreIrrigation>0</bIgnoreIrrigation>
             <bWaterWork>0</bWaterWork>
             <iGridX>2</iGridX>
-            <iGridY>41</iGridY>
+            <iGridY>43</iGridY>
             <DomainExtraMoves>
             </DomainExtraMoves>
             <CommerceFlexible>
@@ -412,7 +631,7 @@
             <bIgnoreIrrigation>0</bIgnoreIrrigation>
             <bWaterWork>0</bWaterWork>
             <iGridX>3</iGridX>
-            <iGridY>41</iGridY>
+            <iGridY>43</iGridY>
             <DomainExtraMoves>
             </DomainExtraMoves>
             <CommerceFlexible>
@@ -485,7 +704,7 @@
             <bIgnoreIrrigation>0</bIgnoreIrrigation>
             <bWaterWork>0</bWaterWork>
             <iGridX>4</iGridX>
-            <iGridY>41</iGridY>
+            <iGridY>43</iGridY>
             <DomainExtraMoves>
             </DomainExtraMoves>
             <CommerceFlexible>
@@ -558,7 +777,7 @@
             <bIgnoreIrrigation>0</bIgnoreIrrigation>
             <bWaterWork>0</bWaterWork>
             <iGridX>2</iGridX>
-            <iGridY>43</iGridY>
+            <iGridY>45</iGridY>
             <DomainExtraMoves>
             </DomainExtraMoves>
             <CommerceFlexible>
@@ -631,7 +850,7 @@
             <bIgnoreIrrigation>0</bIgnoreIrrigation>
             <bWaterWork>0</bWaterWork>
             <iGridX>3</iGridX>
-            <iGridY>43</iGridY>
+            <iGridY>45</iGridY>
             <DomainExtraMoves>
             </DomainExtraMoves>
             <CommerceFlexible>
@@ -704,7 +923,7 @@
             <bIgnoreIrrigation>0</bIgnoreIrrigation>
             <bWaterWork>0</bWaterWork>
             <iGridX>4</iGridX>
-            <iGridY>43</iGridY>
+            <iGridY>45</iGridY>
             <DomainExtraMoves>
             </DomainExtraMoves>
             <CommerceFlexible>
