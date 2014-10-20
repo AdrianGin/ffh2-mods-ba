@@ -130,10 +130,6 @@
                     <UnitType>NONE</UnitType>
                 </Unit>
                 <Unit>
-                    <UnitClassType>UNITCLASS_ANGEL_OF_DEATH</UnitClassType>
-                    <UnitType>NONE</UnitType>
-                </Unit>
-                <Unit>
                     <UnitClassType>UNITCLASS_OPHANIM</UnitClassType>
                     <UnitType>NONE</UnitType>
                 </Unit>
@@ -406,10 +402,6 @@
                     <UnitType>NONE</UnitType>
                 </Unit>
                 <Unit>
-                    <UnitClassType>UNITCLASS_ANGEL_OF_DEATH</UnitClassType>
-                    <UnitType>NONE</UnitType>
-                </Unit>
-                <Unit>
                     <UnitClassType>UNITCLASS_OPHANIM</UnitClassType>
                     <UnitType>NONE</UnitType>
                 </Unit>
@@ -678,10 +670,6 @@
                 </Unit>
                 <Unit>
                     <UnitClassType>UNITCLASS_REPENTANT_ANGEL</UnitClassType>
-                    <UnitType>NONE</UnitType>
-                </Unit>
-                <Unit>
-                    <UnitClassType>UNITCLASS_ANGEL_OF_DEATH</UnitClassType>
                     <UnitType>NONE</UnitType>
                 </Unit>
                 <Unit>
@@ -1003,10 +991,6 @@
                     <UnitType>NONE</UnitType>
                 </Unit>
                 <Unit>
-                    <UnitClassType>UNITCLASS_ANGEL_OF_DEATH</UnitClassType>
-                    <UnitType>NONE</UnitType>
-                </Unit>
-                <Unit>
                     <UnitClassType>UNITCLASS_OPHANIM</UnitClassType>
                     <UnitType>NONE</UnitType>
                 </Unit>
@@ -1281,10 +1265,6 @@
                 </Unit>
                 <Unit>
                     <UnitClassType>UNITCLASS_REPENTANT_ANGEL</UnitClassType>
-                    <UnitType>NONE</UnitType>
-                </Unit>
-                <Unit>
-                    <UnitClassType>UNITCLASS_ANGEL_OF_DEATH</UnitClassType>
                     <UnitType>NONE</UnitType>
                 </Unit>
                 <Unit>
@@ -1627,10 +1607,6 @@
                     <UnitType>NONE</UnitType>
                 </Unit>
                 <Unit>
-                    <UnitClassType>UNITCLASS_ANGEL_OF_DEATH</UnitClassType>
-                    <UnitType>NONE</UnitType>
-                </Unit>
-                <Unit>
                     <UnitClassType>UNITCLASS_OPHANIM</UnitClassType>
                     <UnitType>NONE</UnitType>
                 </Unit>
@@ -1922,10 +1898,6 @@
                 </Unit>
                 <Unit>
                     <UnitClassType>UNITCLASS_REPENTANT_ANGEL</UnitClassType>
-                    <UnitType>NONE</UnitType>
-                </Unit>
-                <Unit>
-                    <UnitClassType>UNITCLASS_ANGEL_OF_DEATH</UnitClassType>
                     <UnitType>NONE</UnitType>
                 </Unit>
                 <Unit>
@@ -2230,10 +2202,6 @@
                     <UnitType>NONE</UnitType>
                 </Unit>
                 <Unit>
-                    <UnitClassType>UNITCLASS_ANGEL_OF_DEATH</UnitClassType>
-                    <UnitType>NONE</UnitType>
-                </Unit>
-                <Unit>
                     <UnitClassType>UNITCLASS_OPHANIM</UnitClassType>
                     <UnitType>NONE</UnitType>
                 </Unit>
@@ -2520,10 +2488,6 @@
                 </Unit>
                 <Unit>
                     <UnitClassType>UNITCLASS_REPENTANT_ANGEL</UnitClassType>
-                    <UnitType>NONE</UnitType>
-                </Unit>
-                <Unit>
-                    <UnitClassType>UNITCLASS_ANGEL_OF_DEATH</UnitClassType>
                     <UnitType>NONE</UnitType>
                 </Unit>
                 <Unit>
@@ -2834,10 +2798,6 @@
                     <UnitType>NONE</UnitType>
                 </Unit>
                 <Unit>
-                    <UnitClassType>UNITCLASS_ANGEL_OF_DEATH</UnitClassType>
-                    <UnitType>NONE</UnitType>
-                </Unit>
-                <Unit>
                     <UnitClassType>UNITCLASS_OPHANIM</UnitClassType>
                     <UnitType>NONE</UnitType>
                 </Unit>
@@ -3088,10 +3048,6 @@
                 </Unit>
                 <Unit>
                     <UnitClassType>UNITCLASS_REPENTANT_ANGEL</UnitClassType>
-                    <UnitType>NONE</UnitType>
-                </Unit>
-                <Unit>
-                    <UnitClassType>UNITCLASS_ANGEL_OF_DEATH</UnitClassType>
                     <UnitType>NONE</UnitType>
                 </Unit>
                 <Unit>
@@ -3475,10 +3431,6 @@
                     <UnitType>NONE</UnitType>
                 </Unit>
                 <Unit>
-                    <UnitClassType>UNITCLASS_ANGEL_OF_DEATH</UnitClassType>
-                    <UnitType>NONE</UnitType>
-                </Unit>
-                <Unit>
                     <UnitClassType>UNITCLASS_OPHANIM</UnitClassType>
                     <UnitType>NONE</UnitType>
                 </Unit>
@@ -3674,10 +3626,6 @@
                 </Unit>
                 <Unit>
                     <UnitClassType>UNITCLASS_REPENTANT_ANGEL</UnitClassType>
-                    <UnitType>NONE</UnitType>
-                </Unit>
-                <Unit>
-                    <UnitClassType>UNITCLASS_ANGEL_OF_DEATH</UnitClassType>
                     <UnitType>NONE</UnitType>
                 </Unit>
                 <Unit>
