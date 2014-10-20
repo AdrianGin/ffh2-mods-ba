@@ -830,12 +830,6 @@
 			<TerrainDown>NONE</TerrainDown>
 			<iPlotCounterUp>9</iPlotCounterUp>
 			<TerrainUp>TERRAIN_BURNING_SANDS</TerrainUp>
-			<CivilizationYieldType>CIVILIZATION_MALAKIM</CivilizationYieldType>
-			<CivilizationYieldChange>
-				<iYield>0</iYield>
-				<iYield>0</iYield>
-				<iYield>1</iYield>
-			</CivilizationYieldChange>
 		</TerrainInfo>
 		<TerrainInfo>
 			<Type>TERRAIN_MARSH</Type>

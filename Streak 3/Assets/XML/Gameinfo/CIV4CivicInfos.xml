@@ -1440,7 +1440,7 @@
             <iFoodConsumptionPerPopulation>0</iFoodConsumptionPerPopulation>
             <BlockAlignment>NONE</BlockAlignment>
             <PrereqAlignment>NONE</PrereqAlignment>
-            <PrereqCivilization>CIVILIZATION_BANNOR</PrereqCivilization>
+            <PrereqCivilization>NONE</PrereqCivilization>
             <PrereqReligion>NONE</PrereqReligion>
         </CivicInfo>
         <CivicInfo>

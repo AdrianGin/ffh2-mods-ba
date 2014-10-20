@@ -30867,7 +30867,7 @@
 			<iLeaderExperience>0</iLeaderExperience>
 			<iCombatDefense>2</iCombatDefense>
 			<iTier>1</iTier>
-			<PrereqCiv>CIVILIZATION_MALAKIM</PrereqCiv>
+			<PrereqCiv>NONE</PrereqCiv>
 		</UnitInfo>
 		<UnitInfo>
 			<Class>UNITCLASS_HIGH_PRIEST_OF_LEAVES</Class>
@@ -49033,7 +49033,7 @@
 			<iCombatDefense>5</iCombatDefense>
 			<iTier>2</iTier>
 			<iWeaponTier>3</iWeaponTier>
-			<PrereqCiv>CIVILIZATION_BANNOR</PrereqCiv>
+			<PrereqCiv>NONE</PrereqCiv>
 			<PrereqCivic>CIVIC_CRUSADE</PrereqCivic>
 		</UnitInfo>
 		<UnitInfo>
@@ -51834,7 +51834,7 @@
 			<iTier>3</iTier>
 			<iWeaponTier>3</iWeaponTier>
 			<PrereqBuildingClass>BUILDINGCLASS_TRAINING_YARD</PrereqBuildingClass>
-			<PrereqCiv>CIVILIZATION_BANNOR</PrereqCiv>
+			<PrereqCiv>NONE</PrereqCiv>
 			<PrereqCivic>CIVIC_CRUSADE</PrereqCivic>
 		</UnitInfo>
 		<UnitInfo>
