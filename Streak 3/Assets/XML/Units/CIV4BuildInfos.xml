@@ -6,11 +6,12 @@
 <!-- Build Infos -->
 <Civ4BuildInfos xmlns="x-schema:CIV4UnitSchema.xml">
 	<BuildInfos>
+<!-- NEW -->
 		<BuildInfo>
 			<Type>BUILD_ROAD</Type>
 			<Description>TXT_KEY_BUILD_ROAD</Description>
 			<Help/>
-			<PrereqTech>TECH_EXPLORATION</PrereqTech>
+			<PrereqTech>TECH_CIVILIZATION</PrereqTech>
 			<iTime>200</iTime>
 			<iCost>0</iCost>
 			<bKill>0</bKill>
@@ -29,7 +30,7 @@
 			<Type>BUILD_FARM</Type>
 			<Description>TXT_KEY_BUILD_FARM</Description>
 			<Help/>
-			<PrereqTech>TECH_AGRICULTURE</PrereqTech>
+			<PrereqTech>TECH_CIVILIZATION</PrereqTech>
 			<iTime>500</iTime>
 			<iCost>0</iCost>
 			<bKill>0</bKill>
@@ -81,48 +82,10 @@
 			<Button>,Art/Interface/Buttons/Builds/BuildFarm.dds,Art/Interface/Buttons/Actions_Builds_LeaderHeads_Specialists_Atlas.dds,3,7</Button>
 		</BuildInfo>
 		<BuildInfo>
-			<Type>BUILD_FISHING_BOATS</Type>
-			<Description>TXT_KEY_BUILD_FISHING_BOATS</Description>
-			<Help/>
-			<PrereqTech>TECH_FISHING</PrereqTech>
-			<iTime>0</iTime>
-			<iCost>0</iCost>
-			<bKill>1</bKill>
-			<ImprovementType>IMPROVEMENT_FISHING_BOATS</ImprovementType>
-			<RouteType>NONE</RouteType>
-			<EntityEvent>ENTITY_EVENT_BUILD</EntityEvent>
-			<FeatureStructs/>
-			<HotKey>KB_F</HotKey>
-			<bAltDown>0</bAltDown>
-			<bShiftDown>0</bShiftDown>
-			<bCtrlDown>0</bCtrlDown>
-			<iHotKeyPriority>1</iHotKeyPriority>
-			<Button>,Art/Interface/Buttons/Builds/BuildFishingBoats.dds,Art/Interface/Buttons/Actions_Builds_LeaderHeads_Specialists_Atlas.dds,7,7</Button>
-		</BuildInfo>
-		<BuildInfo>
-			<Type>BUILD_WHALING_BOATS</Type>
-			<Description>TXT_KEY_BUILD_WHALING_BOATS</Description>
-			<Help/>
-			<PrereqTech>TECH_SAILING</PrereqTech>
-			<iTime>0</iTime>
-			<iCost>0</iCost>
-			<bKill>1</bKill>
-			<ImprovementType>IMPROVEMENT_WHALING_BOATS</ImprovementType>
-			<RouteType>NONE</RouteType>
-			<EntityEvent>ENTITY_EVENT_BUILD</EntityEvent>
-			<FeatureStructs/>
-			<HotKey>KB_W</HotKey>
-			<bAltDown>0</bAltDown>
-			<bShiftDown>1</bShiftDown>
-			<bCtrlDown>0</bCtrlDown>
-			<iHotKeyPriority>1</iHotKeyPriority>
-			<Button>,Art/Interface/Buttons/Builds/BuildWhalingBoats.dds,Art/Interface/Buttons/Actions_Builds_LeaderHeads_Specialists_Atlas.dds,6,9</Button>
-		</BuildInfo>
-		<BuildInfo>
 			<Type>BUILD_MINE</Type>
 			<Description>TXT_KEY_BUILD_MINE</Description>
 			<Help/>
-			<PrereqTech>TECH_MINING</PrereqTech>
+			<PrereqTech>TECH_CIVILIZATION</PrereqTech>
 			<iTime>400</iTime>
 			<iCost>0</iCost>
 			<bKill>0</bKill>
@@ -173,6 +136,120 @@
 			<iHotKeyPriority>0</iHotKeyPriority>
 			<Button>,Art/Interface/Buttons/Builds/BuildMine.dds,Art/Interface/Buttons/Actions_Builds_LeaderHeads_Specialists_Atlas.dds,6,7</Button>
 		</BuildInfo>
+		<BuildInfo>
+			<Type>BUILD_COTTAGE</Type>
+			<Description>TXT_KEY_BUILD_COTTAGE</Description>
+			<Help/>
+			<PrereqTech>TECH_CIVILIZATION</PrereqTech>
+			<iTime>400</iTime>
+			<iCost>0</iCost>
+			<bKill>0</bKill>
+			<ImprovementType>IMPROVEMENT_COTTAGE</ImprovementType>
+			<RouteType>NONE</RouteType>
+			<EntityEvent>ENTITY_EVENT_BUILD</EntityEvent>
+			<FeatureStructs>
+				<FeatureStruct>
+					<FeatureType>FEATURE_JUNGLE</FeatureType>
+					<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+					<iTime>400</iTime>
+					<iProduction>0</iProduction>
+					<bRemove>1</bRemove>
+				</FeatureStruct>
+				<FeatureStruct>
+					<FeatureType>FEATURE_FOREST</FeatureType>
+					<PrereqTech>TECH_MINING</PrereqTech>
+					<iTime>250</iTime>
+					<iProduction>20</iProduction>
+					<bRemove>1</bRemove>
+				</FeatureStruct>
+				<FeatureStruct>
+					<FeatureType>FEATURE_FOREST_ANCIENT</FeatureType>
+					<PrereqTech>TECH_MINING</PrereqTech>
+					<iTime>500</iTime>
+					<iProduction>30</iProduction>
+					<bRemove>1</bRemove>
+				</FeatureStruct>
+				<FeatureStruct>
+					<FeatureType>FEATURE_FOREST_NEW</FeatureType>
+					<PrereqTech>TECH_MINING</PrereqTech>
+					<iTime>0</iTime>
+					<iProduction>0</iProduction>
+					<bRemove>1</bRemove>
+				</FeatureStruct>
+				<FeatureStruct>
+					<FeatureType>FEATURE_FOREST_BURNT</FeatureType>
+					<PrereqTech>TECH_MINING</PrereqTech>
+					<iTime>125</iTime>
+					<iProduction>0</iProduction>
+					<bRemove>1</bRemove>
+				</FeatureStruct>
+			</FeatureStructs>
+			<HotKey>KB_T</HotKey>
+			<bAltDown>0</bAltDown>
+			<bShiftDown>0</bShiftDown>
+			<bCtrlDown>0</bCtrlDown>
+			<iHotKeyPriority>0</iHotKeyPriority>
+			<Button>,Art/Interface/Buttons/Builds/BuildCottage.dds,Art/Interface/Buttons/Actions_Builds_LeaderHeads_Specialists_Atlas.dds,2,7</Button>
+		</BuildInfo>
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+		<BuildInfo>
+			<Type>BUILD_FISHING_BOATS</Type>
+			<Description>TXT_KEY_BUILD_FISHING_BOATS</Description>
+			<Help/>
+			<PrereqTech>TECH_FISHING</PrereqTech>
+			<iTime>0</iTime>
+			<iCost>0</iCost>
+			<bKill>1</bKill>
+			<ImprovementType>IMPROVEMENT_FISHING_BOATS</ImprovementType>
+			<RouteType>NONE</RouteType>
+			<EntityEvent>ENTITY_EVENT_BUILD</EntityEvent>
+			<FeatureStructs/>
+			<HotKey>KB_F</HotKey>
+			<bAltDown>0</bAltDown>
+			<bShiftDown>0</bShiftDown>
+			<bCtrlDown>0</bCtrlDown>
+			<iHotKeyPriority>1</iHotKeyPriority>
+			<Button>,Art/Interface/Buttons/Builds/BuildFishingBoats.dds,Art/Interface/Buttons/Actions_Builds_LeaderHeads_Specialists_Atlas.dds,7,7</Button>
+		</BuildInfo>
+		<BuildInfo>
+			<Type>BUILD_WHALING_BOATS</Type>
+			<Description>TXT_KEY_BUILD_WHALING_BOATS</Description>
+			<Help/>
+			<PrereqTech>TECH_SAILING</PrereqTech>
+			<iTime>0</iTime>
+			<iCost>0</iCost>
+			<bKill>1</bKill>
+			<ImprovementType>IMPROVEMENT_WHALING_BOATS</ImprovementType>
+			<RouteType>NONE</RouteType>
+			<EntityEvent>ENTITY_EVENT_BUILD</EntityEvent>
+			<FeatureStructs/>
+			<HotKey>KB_W</HotKey>
+			<bAltDown>0</bAltDown>
+			<bShiftDown>1</bShiftDown>
+			<bCtrlDown>0</bCtrlDown>
+			<iHotKeyPriority>1</iHotKeyPriority>
+			<Button>,Art/Interface/Buttons/Builds/BuildWhalingBoats.dds,Art/Interface/Buttons/Actions_Builds_LeaderHeads_Specialists_Atlas.dds,6,9</Button>
+		</BuildInfo>
+		
 		<BuildInfo>
 			<Type>BUILD_WORKSHOP</Type>
 			<Description>TXT_KEY_BUILD_WORKSHOP</Description>
@@ -541,61 +618,7 @@
 			<iHotKeyPriority>1</iHotKeyPriority>
 			<Button>,Art/Interface/Buttons/Builds/BuildWinery.dds,Art/Interface/Buttons/Actions_Builds_LeaderHeads_Specialists_Atlas.dds,6,8</Button>
 		</BuildInfo>
-		<BuildInfo>
-			<Type>BUILD_COTTAGE</Type>
-			<Description>TXT_KEY_BUILD_COTTAGE</Description>
-			<Help/>
-			<PrereqTech>TECH_EDUCATION</PrereqTech>
-			<iTime>400</iTime>
-			<iCost>0</iCost>
-			<bKill>0</bKill>
-			<ImprovementType>IMPROVEMENT_COTTAGE</ImprovementType>
-			<RouteType>NONE</RouteType>
-			<EntityEvent>ENTITY_EVENT_BUILD</EntityEvent>
-			<FeatureStructs>
-				<FeatureStruct>
-					<FeatureType>FEATURE_JUNGLE</FeatureType>
-					<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
-					<iTime>400</iTime>
-					<iProduction>0</iProduction>
-					<bRemove>1</bRemove>
-				</FeatureStruct>
-				<FeatureStruct>
-					<FeatureType>FEATURE_FOREST</FeatureType>
-					<PrereqTech>TECH_MINING</PrereqTech>
-					<iTime>250</iTime>
-					<iProduction>20</iProduction>
-					<bRemove>1</bRemove>
-				</FeatureStruct>
-				<FeatureStruct>
-					<FeatureType>FEATURE_FOREST_ANCIENT</FeatureType>
-					<PrereqTech>TECH_MINING</PrereqTech>
-					<iTime>500</iTime>
-					<iProduction>30</iProduction>
-					<bRemove>1</bRemove>
-				</FeatureStruct>
-				<FeatureStruct>
-					<FeatureType>FEATURE_FOREST_NEW</FeatureType>
-					<PrereqTech>TECH_MINING</PrereqTech>
-					<iTime>0</iTime>
-					<iProduction>0</iProduction>
-					<bRemove>1</bRemove>
-				</FeatureStruct>
-				<FeatureStruct>
-					<FeatureType>FEATURE_FOREST_BURNT</FeatureType>
-					<PrereqTech>TECH_MINING</PrereqTech>
-					<iTime>125</iTime>
-					<iProduction>0</iProduction>
-					<bRemove>1</bRemove>
-				</FeatureStruct>
-			</FeatureStructs>
-			<HotKey>KB_T</HotKey>
-			<bAltDown>0</bAltDown>
-			<bShiftDown>0</bShiftDown>
-			<bCtrlDown>0</bCtrlDown>
-			<iHotKeyPriority>0</iHotKeyPriority>
-			<Button>,Art/Interface/Buttons/Builds/BuildCottage.dds,Art/Interface/Buttons/Actions_Builds_LeaderHeads_Specialists_Atlas.dds,2,7</Button>
-		</BuildInfo>
+		
 		<BuildInfo>
 			<Type>BUILD_FORT</Type>
 			<Description>TXT_KEY_BUILD_FORT</Description>
