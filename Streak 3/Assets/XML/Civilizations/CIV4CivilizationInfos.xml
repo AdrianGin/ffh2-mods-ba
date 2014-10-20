@@ -76,11 +76,11 @@
             </FreeBuildingClasses>
             <FreeTechs>
 				<FreeTech>
-                    <TechType>TECH_CIVILIZATION</TechType>
+                    <TechType>TECH_DARK_AGE</TechType>
                     <bFreeTech>1</bFreeTech>
                 </FreeTech>  
 				<FreeTech>
-                    <TechType>TECH_WARFARE</TechType>
+                    <TechType>TECH_MILITARY</TechType>
                     <bFreeTech>1</bFreeTech>
                 </FreeTech>   
             </FreeTechs>
@@ -187,11 +187,11 @@
             </FreeBuildingClasses>
             <FreeTechs>
 				<FreeTech>
-                    <TechType>TECH_CIVILIZATION</TechType>
+                    <TechType>TECH_DARK_AGE</TechType>
                     <bFreeTech>1</bFreeTech>
                 </FreeTech>  
 				<FreeTech>
-                    <TechType>TECH_WARFARE</TechType>
+                    <TechType>TECH_MILITARY</TechType>
                     <bFreeTech>1</bFreeTech>
                 </FreeTech>   
             </FreeTechs>
@@ -298,11 +298,11 @@
             </FreeBuildingClasses>
             <FreeTechs>
 				<FreeTech>
-                    <TechType>TECH_CIVILIZATION</TechType>
+                    <TechType>TECH_DARK_AGE</TechType>
                     <bFreeTech>1</bFreeTech>
                 </FreeTech>  
 				<FreeTech>
-                    <TechType>TECH_WARFARE</TechType>
+                    <TechType>TECH_MILITARY</TechType>
                     <bFreeTech>1</bFreeTech>
                 </FreeTech>   
             </FreeTechs>
@@ -409,11 +409,11 @@
             </FreeBuildingClasses>
             <FreeTechs>
 				<FreeTech>
-                    <TechType>TECH_CIVILIZATION</TechType>
+                    <TechType>TECH_DARK_AGE</TechType>
                     <bFreeTech>1</bFreeTech>
                 </FreeTech>  
 				<FreeTech>
-                    <TechType>TECH_WARFARE</TechType>
+                    <TechType>TECH_MILITARY</TechType>
                     <bFreeTech>1</bFreeTech>
                 </FreeTech>   
             </FreeTechs>
