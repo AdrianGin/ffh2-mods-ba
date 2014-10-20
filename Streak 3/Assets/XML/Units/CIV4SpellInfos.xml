@@ -159,7 +159,7 @@
             <Help>TXT_KEY_SPELL_ADD_TO_WOLF_PACK_HELP</Help>
             <UnitClassPrereq>UNITCLASS_WOLF</UnitClassPrereq>
             <UnitInStackPrereq>UNIT_WOLF_PACK</UnitInStackPrereq>
-            <CivilizationPrereq>CIVILIZATION_DOVIELLO</CivilizationPrereq>
+            <CivilizationPrereq>NONE</CivilizationPrereq>
             <bAllowAI>1</bAllowAI>
             <iAIWeight>100</iAIWeight>
             <bHasCasted>1</bHasCasted>
@@ -1325,7 +1325,7 @@
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
             <Help>TXT_KEY_SPELL_FORM_WOLF_PACK_HELP</Help>
             <UnitClassPrereq>UNITCLASS_WOLF</UnitClassPrereq>
-            <CivilizationPrereq>CIVILIZATION_DOVIELLO</CivilizationPrereq>
+            <CivilizationPrereq>NONE</CivilizationPrereq>
             <bAllowAI>1</bAllowAI>
             <iAIWeight>100</iAIWeight>
             <bHasCasted>1</bHasCasted>
@@ -4209,7 +4209,7 @@
             <Description>TXT_KEY_SPELL_UPGRADE_DOVIELLO_AXEMAN</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
             <UnitClassPrereq>UNITCLASS_WARRIOR</UnitClassPrereq>
-            <CivilizationPrereq>CIVILIZATION_DOVIELLO</CivilizationPrereq>
+            <CivilizationPrereq>NONE</CivilizationPrereq>
             <TechPrereq>TECH_BRONZE_WORKING</TechPrereq>
             <bAllowAI>1</bAllowAI>
             <iAIWeight>50</iAIWeight>
@@ -4228,7 +4228,7 @@
             <Description>TXT_KEY_SPELL_UPGRADE_DOVIELLO_CHAMPION</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
             <UnitClassPrereq>UNITCLASS_AXEMAN</UnitClassPrereq>
-            <CivilizationPrereq>CIVILIZATION_DOVIELLO</CivilizationPrereq>
+            <CivilizationPrereq>NONE</CivilizationPrereq>
             <TechPrereq>TECH_IRON_WORKING</TechPrereq>
             <bAllowAI>1</bAllowAI>
             <iAIWeight>100</iAIWeight>
@@ -4247,7 +4247,7 @@
             <Description>TXT_KEY_SPELL_UPGRADE_DOVIELLO_WARRIOR</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
             <UnitClassPrereq>UNITCLASS_WORKER</UnitClassPrereq>
-            <CivilizationPrereq>CIVILIZATION_DOVIELLO</CivilizationPrereq>
+            <CivilizationPrereq>NONE</CivilizationPrereq>
             <bAllowAI>1</bAllowAI>
             <iAIWeight>25</iAIWeight>
             <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
@@ -4266,7 +4266,7 @@
             <Description>TXT_KEY_SPELL_UPGRADE_DOVIELLO_WARRIOR</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
             <UnitClassPrereq>UNITCLASS_SLAVE</UnitClassPrereq>
-            <CivilizationPrereq>CIVILIZATION_DOVIELLO</CivilizationPrereq>
+            <CivilizationPrereq>NONE</CivilizationPrereq>
             <bAllowAI>1</bAllowAI>
             <iAIWeight>25</iAIWeight>
             <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
@@ -4465,7 +4465,7 @@
             <Description>TXT_KEY_SPELL_WILD_HUNT</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
             <Help>TXT_KEY_SPELL_WILD_HUNT_HELP</Help>
-            <CivilizationPrereq>CIVILIZATION_DOVIELLO</CivilizationPrereq>
+            <CivilizationPrereq>NONE</CivilizationPrereq>
             <bAllowAI>1</bAllowAI>
             <bGlobal>1</bGlobal>
             <iAIWeight>300</iAIWeight>
