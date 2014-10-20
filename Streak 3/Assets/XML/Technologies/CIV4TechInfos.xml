@@ -9,7 +9,7 @@
 <!-- NEW -->
 		<TechInfo>
             <Type>TECH_CIVILIZATION</Type>
-            <Description>NONE</Description>
+            <Description>Civilization</Description>
             <Civilopedia>NONE</Civilopedia>
             <Help></Help>
             <Strategy></Strategy>
@@ -81,7 +81,7 @@
         </TechInfo>
 		<TechInfo>
             <Type>TECH_Military</Type>
-            <Description>NONE</Description>
+            <Description>Military</Description>
             <Civilopedia>NONE</Civilopedia>
             <Help></Help>
             <Strategy></Strategy>
