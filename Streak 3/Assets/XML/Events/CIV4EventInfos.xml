@@ -25549,7 +25549,7 @@
             <iGlobalCounter>0</iGlobalCounter>
             <PrereqAlignment>NONE</PrereqAlignment>
             <PrereqBonus>NONE</PrereqBonus>
-            <PrereqCivilization>CIVILIZATION_CLAN_OF_EMBERS</PrereqCivilization>
+            <PrereqCivilization>NONE</PrereqCivilization>
             <PrereqReligion>NONE</PrereqReligion>
             <PrereqStateReligion>NONE</PrereqStateReligion>
         </EventInfo>
