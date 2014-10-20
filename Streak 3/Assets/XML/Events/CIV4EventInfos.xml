@@ -9222,7 +9222,7 @@
             <iGlobalCounter>0</iGlobalCounter>
             <PrereqAlignment>NONE</PrereqAlignment>
             <PrereqBonus>NONE</PrereqBonus>
-            <PrereqCivilization>CIVILIZATION_GRIGORI</PrereqCivilization>
+            <PrereqCivilization>NONE</PrereqCivilization>
             <PrereqReligion>NONE</PrereqReligion>
             <PrereqStateReligion>NONE</PrereqStateReligion>
         </EventInfo>

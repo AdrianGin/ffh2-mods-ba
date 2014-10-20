@@ -6413,7 +6413,7 @@
 			<iLeaderExperience>0</iLeaderExperience>
 			<iCombatDefense>2</iCombatDefense>
 			<iTier>2</iTier>
-			<PrereqCiv>CIVILIZATION_GRIGORI</PrereqCiv>
+			<PrereqCiv>NONE</PrereqCiv>
 		</UnitInfo>
 		<UnitInfo>
 			<Class>UNITCLASS_AIR_ELEMENTAL</Class>
@@ -46723,7 +46723,7 @@
 			<iCombatDefense>4</iCombatDefense>
 			<iTier>3</iTier>
 			<iWeaponTier>3</iWeaponTier>
-			<PrereqCiv>CIVILIZATION_GRIGORI</PrereqCiv>
+			<PrereqCiv>NONE</PrereqCiv>
 		</UnitInfo>
 		<UnitInfo>
 			<Class>UNITCLASS_BRIGIT_HELD</Class>
