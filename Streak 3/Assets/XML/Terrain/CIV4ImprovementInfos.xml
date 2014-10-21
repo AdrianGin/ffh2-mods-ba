@@ -1088,7 +1088,7 @@
 				<TechYieldChange>
 					<PrereqTech>TECH_FISH2</PrereqTech>
 					<TechYields>
-						<iYield>1</iYield>
+						<iYield>2</iYield>
 						<iYield>0</iYield>
 						<iYield>1</iYield>
 					</TechYields>
