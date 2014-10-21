@@ -84,7 +84,7 @@
             <BonusClassType>BONUSCLASS_GENERAL</BonusClassType>
             <ArtDefineTag>ART_DEF_BONUS_COTTON</ArtDefineTag>
             <TechReveal>NONE</TechReveal>
-            <TechCityTrade>TECH_CALENDAR</TechCityTrade>
+            <TechCityTrade>NONE</TechCityTrade>
             <TechObsolete>NONE</TechObsolete>
             <YieldChanges>
                 <iYieldChange>0</iYieldChange>
@@ -150,7 +150,7 @@
             <BonusClassType>BONUSCLASS_GENERAL</BonusClassType>
             <ArtDefineTag>ART_DEF_BONUS_SILK</ArtDefineTag>
             <TechReveal>NONE</TechReveal>
-            <TechCityTrade>TECH_CALENDAR</TechCityTrade>
+            <TechCityTrade>NONE</TechCityTrade>
             <TechObsolete>NONE</TechObsolete>
             <YieldChanges>
                 <iYieldChange>0</iYieldChange>
@@ -221,7 +221,7 @@
             <BonusClassType>BONUSCLASS_RUSH</BonusClassType>
             <ArtDefineTag>ART_DEF_BONUS_SPICES</ArtDefineTag>
             <TechReveal>NONE</TechReveal>
-            <TechCityTrade>TECH_KNOWLEDGE_OF_THE_ETHER</TechCityTrade>
+            <TechCityTrade>NONE</TechCityTrade>
             <TechObsolete>NONE</TechObsolete>
             <YieldChanges>
                 <iYieldChange>0</iYieldChange>
@@ -303,7 +303,7 @@
             <BonusClassType>BONUSCLASS_GENERAL</BonusClassType>
             <ArtDefineTag>ART_DEF_BONUS_INCENSE</ArtDefineTag>
             <TechReveal>NONE</TechReveal>
-            <TechCityTrade>TECH_PHILOSOPHY</TechCityTrade>
+            <TechCityTrade>NONE</TechCityTrade>
             <TechObsolete>NONE</TechObsolete>
             <YieldChanges>
                 <iYieldChange>0</iYieldChange>
@@ -377,7 +377,7 @@
             <BonusClassType>BONUSCLASS_GENERAL</BonusClassType>
             <ArtDefineTag>ART_DEF_BONUS_DYE</ArtDefineTag>
             <TechReveal>NONE</TechReveal>
-            <TechCityTrade>TECH_CALENDAR</TechCityTrade>
+            <TechCityTrade>NONE</TechCityTrade>
             <TechObsolete>NONE</TechObsolete>
             <YieldChanges>
                 <iYieldChange>0</iYieldChange>
@@ -513,7 +513,7 @@
             <BonusClassType>BONUSCLASS_GENERAL</BonusClassType>
             <ArtDefineTag>ART_DEF_BONUS_SUGAR</ArtDefineTag>
             <TechReveal>NONE</TechReveal>
-            <TechCityTrade>TECH_CALENDAR</TechCityTrade>
+            <TechCityTrade>NONE</TechCityTrade>
             <TechObsolete>NONE</TechObsolete>
             <YieldChanges>
                 <iYieldChange>1</iYieldChange>
@@ -579,7 +579,7 @@
             <BonusClassType>BONUSCLASS_GENERAL</BonusClassType>
             <ArtDefineTag>ART_DEF_BONUS_BANANA</ArtDefineTag>
             <TechReveal>NONE</TechReveal>
-            <TechCityTrade>TECH_CALENDAR</TechCityTrade>
+            <TechCityTrade>NONE</TechCityTrade>
             <TechObsolete>NONE</TechObsolete>
             <YieldChanges>
                 <iYieldChange>1</iYieldChange>
@@ -645,7 +645,7 @@
             <BonusClassType>BONUSCLASS_WONDER</BonusClassType>
             <ArtDefineTag>ART_DEF_BONUS_MARBLE</ArtDefineTag>
             <TechReveal>NONE</TechReveal>
-            <TechCityTrade>TECH_MASONRY</TechCityTrade>
+            <TechCityTrade>NONE</TechCityTrade>
             <TechObsolete>NONE</TechObsolete>
             <YieldChanges>
                 <iYieldChange>0</iYieldChange>
@@ -719,7 +719,7 @@
             <BonusClassType>BONUSCLASS_GENERAL</BonusClassType>
             <ArtDefineTag>ART_DEF_BONUS_WINE</ArtDefineTag>
             <TechReveal>NONE</TechReveal>
-            <TechCityTrade>TECH_CRAFTING</TechCityTrade>
+            <TechCityTrade>NONE</TechCityTrade>
             <TechObsolete>NONE</TechObsolete>
             <YieldChanges>
                 <iYieldChange>0</iYieldChange>
@@ -786,7 +786,7 @@
             <BonusClassType>BONUSCLASS_GENERAL</BonusClassType>
             <ArtDefineTag>ART_DEF_BONUS_DEER</ArtDefineTag>
             <TechReveal>NONE</TechReveal>
-            <TechCityTrade>TECH_HUNTING</TechCityTrade>
+            <TechCityTrade>NONE</TechCityTrade>
             <TechObsolete>NONE</TechObsolete>
             <YieldChanges>
                 <iYieldChange>1</iYieldChange>
@@ -856,7 +856,7 @@
             <BonusClassType>BONUSCLASS_GENERAL</BonusClassType>
             <ArtDefineTag>ART_DEF_BONUS_FUR</ArtDefineTag>
             <TechReveal>NONE</TechReveal>
-            <TechCityTrade>TECH_HUNTING</TechCityTrade>
+            <TechCityTrade>NONE</TechCityTrade>
             <TechObsolete>NONE</TechObsolete>
             <YieldChanges>
                 <iYieldChange>0</iYieldChange>
@@ -934,7 +934,7 @@
             <BonusClassType>BONUSCLASS_GENERAL</BonusClassType>
             <ArtDefineTag>ART_DEF_BONUS_IVORY</ArtDefineTag>
             <TechReveal>NONE</TechReveal>
-            <TechCityTrade>TECH_HUNTING</TechCityTrade>
+            <TechCityTrade>NONE</TechCityTrade>
             <TechObsolete>NONE</TechObsolete>
             <YieldChanges>
                 <iYieldChange>0</iYieldChange>
@@ -1065,7 +1065,7 @@
             <Civilopedia>TXT_KEY_BONUS_PEARL_PEDIA</Civilopedia>
             <BonusClassType>BONUSCLASS_GENERAL</BonusClassType>
             <ArtDefineTag>ART_DEF_BONUS_PEARL</ArtDefineTag>
-            <TechReveal>TECH_SEAFARING</TechReveal>
+            <TechReveal>NONE</TechReveal>
             <TechCityTrade>NONE</TechCityTrade>
             <TechObsolete>NONE</TechObsolete>
             <YieldChanges>
@@ -1322,7 +1322,7 @@
             <BonusClassType>BONUSCLASS_GENERAL</BonusClassType>
             <ArtDefineTag>ART_DEF_BONUS_GEMS</ArtDefineTag>
             <TechReveal>NONE</TechReveal>
-            <TechCityTrade>TECH_MINING</TechCityTrade>
+            <TechCityTrade>NONE</TechCityTrade>
             <TechObsolete>NONE</TechObsolete>
             <YieldChanges>
                 <iYieldChange>0</iYieldChange>
@@ -1392,7 +1392,7 @@
             <BonusClassType>BONUSCLASS_GENERAL</BonusClassType>
             <ArtDefineTag>ART_DEF_BONUS_GOLD</ArtDefineTag>
             <TechReveal>NONE</TechReveal>
-            <TechCityTrade>TECH_MINING</TechCityTrade>
+            <TechCityTrade>NONE</TechCityTrade>
             <TechObsolete>NONE</TechObsolete>
             <YieldChanges>
                 <iYieldChange>0</iYieldChange>
@@ -1466,7 +1466,7 @@
             <BonusClassType>BONUSCLASS_GRAIN</BonusClassType>
             <ArtDefineTag>ART_DEF_BONUS_CORN</ArtDefineTag>
             <TechReveal>NONE</TechReveal>
-            <TechCityTrade>TECH_AGRICULTURE</TechCityTrade>
+            <TechCityTrade>NONE</TechCityTrade>
             <TechObsolete>NONE</TechObsolete>
             <YieldChanges>
                 <iYieldChange>1</iYieldChange>
@@ -1529,7 +1529,7 @@
             <BonusClassType>BONUSCLASS_GRAIN</BonusClassType>
             <ArtDefineTag>ART_DEF_BONUS_RICE</ArtDefineTag>
             <TechReveal>NONE</TechReveal>
-            <TechCityTrade>TECH_AGRICULTURE</TechCityTrade>
+            <TechCityTrade>NONE</TechCityTrade>
             <TechObsolete>NONE</TechObsolete>
             <YieldChanges>
                 <iYieldChange>1</iYieldChange>
@@ -1599,7 +1599,7 @@
             <BonusClassType>BONUSCLASS_GRAIN</BonusClassType>
             <ArtDefineTag>ART_DEF_BONUS_WHEAT</ArtDefineTag>
             <TechReveal>NONE</TechReveal>
-            <TechCityTrade>TECH_AGRICULTURE</TechCityTrade>
+            <TechCityTrade>NONE</TechCityTrade>
             <TechObsolete>NONE</TechObsolete>
             <YieldChanges>
                 <iYieldChange>1</iYieldChange>
@@ -1662,7 +1662,7 @@
             <BonusClassType>BONUSCLASS_LIVESTOCK</BonusClassType>
             <ArtDefineTag>ART_DEF_BONUS_PIG</ArtDefineTag>
             <TechReveal>NONE</TechReveal>
-            <TechCityTrade>TECH_ANIMAL_HUSBANDRY</TechCityTrade>
+            <TechCityTrade>NONE</TechCityTrade>
             <TechObsolete>NONE</TechObsolete>
             <YieldChanges>
                 <iYieldChange>1</iYieldChange>
@@ -1732,7 +1732,7 @@
             <BonusClassType>BONUSCLASS_LIVESTOCK</BonusClassType>
             <ArtDefineTag>ART_DEF_BONUS_SHEEP</ArtDefineTag>
             <TechReveal>NONE</TechReveal>
-            <TechCityTrade>TECH_ANIMAL_HUSBANDRY</TechCityTrade>
+            <TechCityTrade>NONE</TechCityTrade>
             <TechObsolete>NONE</TechObsolete>
             <YieldChanges>
                 <iYieldChange>1</iYieldChange>
@@ -1798,7 +1798,7 @@
             <BonusClassType>BONUSCLASS_LIVESTOCK</BonusClassType>
             <ArtDefineTag>ART_DEF_BONUS_COW</ArtDefineTag>
             <TechReveal>NONE</TechReveal>
-            <TechCityTrade>TECH_ANIMAL_HUSBANDRY</TechCityTrade>
+            <TechCityTrade>NONE</TechCityTrade>
             <TechObsolete>NONE</TechObsolete>
             <YieldChanges>
                 <iYieldChange>1</iYieldChange>
@@ -1863,8 +1863,8 @@
             <Civilopedia>TXT_KEY_BONUS_HORSE_PEDIA</Civilopedia>
             <BonusClassType>BONUSCLASS_RUSH</BonusClassType>
             <ArtDefineTag>ART_DEF_BONUS_HORSE</ArtDefineTag>
-            <TechReveal>TECH_ANIMAL_HUSBANDRY</TechReveal>
-            <TechCityTrade>TECH_ANIMAL_HUSBANDRY</TechCityTrade>
+            <TechReveal>TECH_FOOD1</TechReveal>
+            <TechCityTrade>NONE</TechCityTrade>
             <TechObsolete>NONE</TechObsolete>
             <YieldChanges>
                 <iYieldChange>0</iYieldChange>
