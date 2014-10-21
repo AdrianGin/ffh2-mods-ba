@@ -7,6 +7,36 @@
 <!-- UnitClass Schema -->
 <Civ4UnitClassInfos xmlns="x-schema:CIV4UnitSchema.xml">
 	<UnitClassInfos>
+<!-- NEW -->
+		<UnitClassInfo>
+			<Type>UNITCLASS_SPEARMAN</Type>
+			<Description>NONE</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<DefaultUnit>UNIT_SPEARMAN</DefaultUnit>
+		</UnitClassInfo>
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
+<!-- NEW END -->
 		<UnitClassInfo>
 			<Type>UNITCLASS_SCORPION</Type>
 			<Description>TXT_KEY_UNIT_SCORPION</Description>
