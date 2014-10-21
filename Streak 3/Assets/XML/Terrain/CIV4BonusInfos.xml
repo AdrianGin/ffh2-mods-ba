@@ -1863,7 +1863,7 @@
             <Civilopedia>TXT_KEY_BONUS_HORSE_PEDIA</Civilopedia>
             <BonusClassType>BONUSCLASS_RUSH</BonusClassType>
             <ArtDefineTag>ART_DEF_BONUS_HORSE</ArtDefineTag>
-            <TechReveal>TECH_DARK_AGE</TechReveal>
+            <TechReveal>NONE</TechReveal>
             <TechCityTrade>NONE</TechCityTrade>
             <TechObsolete>NONE</TechObsolete>
             <YieldChanges>

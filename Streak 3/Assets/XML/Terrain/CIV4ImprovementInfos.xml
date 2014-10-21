@@ -1209,14 +1209,6 @@
 					</TechYields>
 				</TechYieldChange>
 				<TechYieldChange>
-					<PrereqTech>TECH_FOOD2</PrereqTech>
-					<TechYields>
-						<iYield>1</iYield>
-						<iYield>0</iYield>
-						<iYield>0</iYield>
-					</TechYields>
-				</TechYieldChange>
-				<TechYieldChange>
 					<PrereqTech>TECH_FOOD3</PrereqTech>
 					<TechYields>
 						<iYield>1</iYield>
