@@ -2389,7 +2389,7 @@
             <bIrrigation>0</bIrrigation>
             <bIgnoreIrrigation>0</bIgnoreIrrigation>
             <bWaterWork>0</bWaterWork>
-            <iGridX>2</iGridX>
+            <iGridX>3</iGridX>
             <iGridY>59</iGridY>
             <DomainExtraMoves>
             </DomainExtraMoves>
@@ -2462,7 +2462,7 @@
             <bIrrigation>0</bIrrigation>
             <bIgnoreIrrigation>0</bIgnoreIrrigation>
             <bWaterWork>0</bWaterWork>
-            <iGridX>2</iGridX>
+            <iGridX>4</iGridX>
             <iGridY>59</iGridY>
             <DomainExtraMoves>
             </DomainExtraMoves>
@@ -2608,7 +2608,7 @@
             <bIrrigation>0</bIrrigation>
             <bIgnoreIrrigation>0</bIgnoreIrrigation>
             <bWaterWork>0</bWaterWork>
-            <iGridX>2</iGridX>
+            <iGridX>3</iGridX>
             <iGridY>61</iGridY>
             <DomainExtraMoves>
             </DomainExtraMoves>
@@ -2681,7 +2681,7 @@
             <bIrrigation>0</bIrrigation>
             <bIgnoreIrrigation>0</bIgnoreIrrigation>
             <bWaterWork>0</bWaterWork>
-            <iGridX>2</iGridX>
+            <iGridX>4</iGridX>
             <iGridY>61</iGridY>
             <DomainExtraMoves>
             </DomainExtraMoves>
