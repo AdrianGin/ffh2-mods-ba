@@ -496,9 +496,14 @@
 			<Civilopedia/>
 			<Help/>
 			<ArtDefineTag>ART_DEF_IMPROVEMENT_WORKSHOP</ArtDefineTag>
+			<PrereqNatureYields>
+				<iYield>1</iYield>
+				<iYield>0</iYield>
+				<iYield>0</iYield>
+			</PrereqNatureYields>
 			<YieldChanges>
-				<iYieldChange>0</iYieldChange>
-				<iYieldChange>1</iYieldChange>
+				<iYieldChange>-1</iYieldChange>
+				<iYieldChange>3</iYieldChange>
 				<iYieldChange>1</iYieldChange>
 			</YieldChanges>
 			<bActsAsCity>0</bActsAsCity>
@@ -551,7 +556,7 @@
 			<ImprovementUpgrade/>
 			<TechYieldChanges>
 				<TechYieldChange>
-					<PrereqTech>TECH_PRODUCTION2</PrereqTech>
+					<PrereqTech>TECH_PRODUCTION3</PrereqTech>
 					<TechYields>
 						<iYield>0</iYield>
 						<iYield>1</iYield>
