@@ -21,8 +21,8 @@
 			<Invisible>NONE</Invisible>
 			<SeeInvisible>NONE</SeeInvisible>
 			<Description>Scout</Description>
-			<Civilopedia>NONE</Civilopedia>
-			<Strategy>NONE</Strategy>
+			<Civilopedia></Civilopedia>
+			<Strategy></Strategy>
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<bAnimal>0</bAnimal>
 			<bFood>0</bFood>
