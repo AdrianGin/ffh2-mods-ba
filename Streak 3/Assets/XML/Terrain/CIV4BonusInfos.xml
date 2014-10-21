@@ -149,7 +149,7 @@
             <Civilopedia>TXT_KEY_BONUS_SILK_PEDIA</Civilopedia>
             <BonusClassType>BONUSCLASS_GENERAL</BonusClassType>
             <ArtDefineTag>ART_DEF_BONUS_SILK</ArtDefineTag>
-            <TechReveal>NONE</TechReveal>
+            <TechReveal>TECH_COMMERCE2</TechReveal>
             <TechCityTrade>NONE</TechCityTrade>
             <TechObsolete>NONE</TechObsolete>
             <YieldChanges>
@@ -220,7 +220,7 @@
             <Civilopedia>TXT_KEY_BONUS_REAGENTS_PEDIA</Civilopedia>
             <BonusClassType>BONUSCLASS_RUSH</BonusClassType>
             <ArtDefineTag>ART_DEF_BONUS_SPICES</ArtDefineTag>
-            <TechReveal>NONE</TechReveal>
+            <TechReveal>TECH_COMMERCE1</TechReveal>
             <TechCityTrade>NONE</TechCityTrade>
             <TechObsolete>NONE</TechObsolete>
             <YieldChanges>
@@ -302,7 +302,7 @@
             <Civilopedia>TXT_KEY_BONUS_INCENSE_PEDIA</Civilopedia>
             <BonusClassType>BONUSCLASS_GENERAL</BonusClassType>
             <ArtDefineTag>ART_DEF_BONUS_INCENSE</ArtDefineTag>
-            <TechReveal>NONE</TechReveal>
+            <TechReveal>TECH_COMMERCE2</TechReveal>
             <TechCityTrade>NONE</TechCityTrade>
             <TechObsolete>NONE</TechObsolete>
             <YieldChanges>
@@ -512,7 +512,7 @@
             <Civilopedia>TXT_KEY_BONUS_SUGAR_PEDIA</Civilopedia>
             <BonusClassType>BONUSCLASS_GENERAL</BonusClassType>
             <ArtDefineTag>ART_DEF_BONUS_SUGAR</ArtDefineTag>
-            <TechReveal>NONE</TechReveal>
+            <TechReveal>FOOD1</TechReveal>
             <TechCityTrade>NONE</TechCityTrade>
             <TechObsolete>NONE</TechObsolete>
             <YieldChanges>
@@ -1863,7 +1863,7 @@
             <Civilopedia>TXT_KEY_BONUS_HORSE_PEDIA</Civilopedia>
             <BonusClassType>BONUSCLASS_RUSH</BonusClassType>
             <ArtDefineTag>ART_DEF_BONUS_HORSE</ArtDefineTag>
-            <TechReveal>TECH_FOOD1</TechReveal>
+            <TechReveal>TECH_DARK_AGE</TechReveal>
             <TechCityTrade>NONE</TechCityTrade>
             <TechObsolete>NONE</TechObsolete>
             <YieldChanges>
