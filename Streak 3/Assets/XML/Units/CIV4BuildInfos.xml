@@ -495,7 +495,7 @@
 			<Type>BUILD_QUARRY</Type>
 			<Description>TXT_KEY_BUILD_QUARRY</Description>
 			<Help/>
-			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<PrereqTech>TECH_PRODUCTION1</PrereqTech>
 			<iTime>600</iTime>
 			<iCost>0</iCost>
 			<bKill>0</bKill>

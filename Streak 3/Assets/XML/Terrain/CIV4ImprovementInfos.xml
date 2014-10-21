@@ -578,7 +578,7 @@
 					<YieldChanges>
 						<iYieldChange>0</iYieldChange>
 						<iYieldChange>0</iYieldChange>
-						<iYieldChange>3</iYieldChange>
+						<iYieldChange>4</iYieldChange>
 					</YieldChanges>
 				</BonusTypeStruct>
 				<BonusTypeStruct>
@@ -740,6 +740,14 @@
 			<ImprovementPillage/>
 			<ImprovementUpgrade/>
 			<TechYieldChanges>
+				<TechYieldChange>
+					<PrereqTech>TECH_PRODUCTION2</PrereqTech>
+					<TechYields>
+						<iYield>0</iYield>
+						<iYield>2</iYield>
+						<iYield>0</iYield>
+					</TechYields>
+				</TechYieldChange>
             </TechYieldChanges>
 			<RouteYieldChanges>
             </RouteYieldChanges>
