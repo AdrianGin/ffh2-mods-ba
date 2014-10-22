@@ -43,116 +43,6 @@
             <Button>Art/Interface/Buttons/Spells/Graftflesh.dds</Button>
         </SpellInfo>
         <SpellInfo>
-            <Type>SPELL_ADD_TO_FREAK_SHOW_DARK_ELF</Type>
-            <Description>TXT_KEY_SPELL_ADD_TO_FREAK_SHOW</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_ADD_TO_FREAK_SHOW_HELP</Help>
-            <PromotionPrereq1>PROMOTION_DARK_ELF</PromotionPrereq1>
-            <UnitClassPrereq>UNITCLASS_SLAVE</UnitClassPrereq>
-            <CivilizationPrereq>NONE</CivilizationPrereq>
-            <bAllowAI>1</bAllowAI>
-            <bInBordersOnly>1</bInBordersOnly>
-            <bInCityOnly>1</bInCityOnly>
-            <iAIWeight>30</iAIWeight>
-            <bHasCasted>1</bHasCasted>
-            <bIgnoreHasCasted>1</bIgnoreHasCasted>
-            <CreateBuildingType>BUILDING_ELF_CAGE</CreateBuildingType>
-            <bAbility>1</bAbility>
-            <bSacrificeCaster>1</bSacrificeCaster>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_DISPEL_MAGIC</Sound>
-            <bGraphicalOnly>1</bGraphicalOnly>
-            <Button>Art/Interface/Buttons/Spells/Add to Freak Show.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_ADD_TO_FREAK_SHOW_DWARF</Type>
-            <Description>TXT_KEY_SPELL_ADD_TO_FREAK_SHOW</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_ADD_TO_FREAK_SHOW_HELP</Help>
-            <PromotionPrereq1>PROMOTION_DWARF</PromotionPrereq1>
-            <UnitClassPrereq>UNITCLASS_SLAVE</UnitClassPrereq>
-            <CivilizationPrereq>NONE</CivilizationPrereq>
-            <bAllowAI>1</bAllowAI>
-            <bInBordersOnly>1</bInBordersOnly>
-            <bInCityOnly>1</bInCityOnly>
-            <iAIWeight>30</iAIWeight>
-            <bHasCasted>1</bHasCasted>
-            <bIgnoreHasCasted>1</bIgnoreHasCasted>
-            <CreateBuildingType>BUILDING_DWARF_CAGE</CreateBuildingType>
-            <bAbility>1</bAbility>
-            <bSacrificeCaster>1</bSacrificeCaster>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_DISPEL_MAGIC</Sound>
-            <bGraphicalOnly>1</bGraphicalOnly>
-            <Button>Art/Interface/Buttons/Spells/Add to Freak Show.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_ADD_TO_FREAK_SHOW_ELF</Type>
-            <Description>TXT_KEY_SPELL_ADD_TO_FREAK_SHOW</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_ADD_TO_FREAK_SHOW_HELP</Help>
-            <PromotionPrereq1>PROMOTION_ELF</PromotionPrereq1>
-            <UnitClassPrereq>UNITCLASS_SLAVE</UnitClassPrereq>
-            <CivilizationPrereq>NONE</CivilizationPrereq>
-            <bAllowAI>1</bAllowAI>
-            <bInBordersOnly>1</bInBordersOnly>
-            <bInCityOnly>1</bInCityOnly>
-            <iAIWeight>30</iAIWeight>
-            <bHasCasted>1</bHasCasted>
-            <bIgnoreHasCasted>1</bIgnoreHasCasted>
-            <CreateBuildingType>BUILDING_ELF_CAGE</CreateBuildingType>
-            <bAbility>1</bAbility>
-            <bSacrificeCaster>1</bSacrificeCaster>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_DISPEL_MAGIC</Sound>
-            <bGraphicalOnly>1</bGraphicalOnly>
-            <Button>Art/Interface/Buttons/Spells/Add to Freak Show.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_ADD_TO_FREAK_SHOW_HUMAN</Type>
-            <Description>TXT_KEY_SPELL_ADD_TO_FREAK_SHOW</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_ADD_TO_FREAK_SHOW_HELP</Help>
-            <UnitClassPrereq>UNITCLASS_SLAVE</UnitClassPrereq>
-            <CivilizationPrereq>NONE</CivilizationPrereq>
-            <bAllowAI>1</bAllowAI>
-            <bInBordersOnly>1</bInBordersOnly>
-            <bInCityOnly>1</bInCityOnly>
-            <iAIWeight>30</iAIWeight>
-            <bHasCasted>1</bHasCasted>
-            <bIgnoreHasCasted>1</bIgnoreHasCasted>
-            <CreateBuildingType>BUILDING_HUMAN_CAGE</CreateBuildingType>
-            <bAbility>1</bAbility>
-            <bSacrificeCaster>1</bSacrificeCaster>
-            <PyRequirement>reqAddToFreakShowHuman(pCaster)</PyRequirement>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_DISPEL_MAGIC</Sound>
-            <bGraphicalOnly>1</bGraphicalOnly>
-            <Button>Art/Interface/Buttons/Spells/Add to Freak Show.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_ADD_TO_FREAK_SHOW_ORC</Type>
-            <Description>TXT_KEY_SPELL_ADD_TO_FREAK_SHOW</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_ADD_TO_FREAK_SHOW_HELP</Help>
-            <PromotionPrereq1>PROMOTION_ORC</PromotionPrereq1>
-            <UnitClassPrereq>UNITCLASS_SLAVE</UnitClassPrereq>
-            <CivilizationPrereq>NONE</CivilizationPrereq>
-            <bAllowAI>1</bAllowAI>
-            <bInBordersOnly>1</bInBordersOnly>
-            <bInCityOnly>1</bInCityOnly>
-            <iAIWeight>30</iAIWeight>
-            <bHasCasted>1</bHasCasted>
-            <bIgnoreHasCasted>1</bIgnoreHasCasted>
-            <CreateBuildingType>BUILDING_ORC_CAGE</CreateBuildingType>
-            <bAbility>1</bAbility>
-            <bSacrificeCaster>1</bSacrificeCaster>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_DISPEL_MAGIC</Sound>
-            <bGraphicalOnly>1</bGraphicalOnly>
-            <Button>Art/Interface/Buttons/Spells/Add to Freak Show.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
             <Type>SPELL_ADD_TO_WOLF_PACK</Type>
             <Description>TXT_KEY_SPELL_ADD_TO_WOLF_PACK</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
@@ -2658,21 +2548,6 @@
             <Button>Art/Interface/Buttons/Units/Slave.dds</Button>
         </SpellInfo>
         <SpellInfo>
-            <Type>SPELL_SLAVE_TRADE_SELL</Type>
-            <Description>TXT_KEY_SPELL_SLAVE_TRADE_SELL</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <UnitClassPrereq>UNITCLASS_SLAVE</UnitClassPrereq>
-            <bPrereqSlaveTrade>1</bPrereqSlaveTrade>
-            <bHasCasted>1</bHasCasted>
-            <bAbility>1</bAbility>
-            <bSacrificeCaster>1</bSacrificeCaster>
-            <iCost>-10</iCost>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_ENCHANTMENT</Sound>
-            <bGraphicalOnly>1</bGraphicalOnly>
-            <Button>Art/Interface/Buttons/Spells/Slave Trade Sell.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
             <Type>SPELL_SLOW</Type>
             <Description>TXT_KEY_SPELL_SLOW</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
@@ -4149,25 +4024,6 @@
             <Description>TXT_KEY_SPELL_UPGRADE_DOVIELLO_WARRIOR</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
             <UnitClassPrereq>UNITCLASS_WORKER</UnitClassPrereq>
-            <CivilizationPrereq>NONE</CivilizationPrereq>
-            <bAllowAI>1</bAllowAI>
-            <iAIWeight>25</iAIWeight>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <ConvertUnitType>UNIT_BEASTMAN</ConvertUnitType>
-            <bAbility>1</bAbility>
-            <iCost>20</iCost>
-            <PyRequirement>reqUpgradeDovielloWarrior(pCaster)</PyRequirement>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_TRAIN</Sound>
-            <bGraphicalOnly>1</bGraphicalOnly>
-            <Button>Art/Interface/Buttons/Units/Beastman.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_UPGRADE_DOVIELLO_WARRIOR_SLAVE</Type>
-            <Description>TXT_KEY_SPELL_UPGRADE_DOVIELLO_WARRIOR</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <UnitClassPrereq>UNITCLASS_SLAVE</UnitClassPrereq>
             <CivilizationPrereq>NONE</CivilizationPrereq>
             <bAllowAI>1</bAllowAI>
             <iAIWeight>25</iAIWeight>
