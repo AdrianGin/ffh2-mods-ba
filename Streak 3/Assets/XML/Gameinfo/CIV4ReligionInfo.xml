@@ -97,7 +97,7 @@
 			<Adjective>TXT_KEY_RELIGION_OCTOPUS_OVERLORDS_ADJECTIVE</Adjective>
 			<Civilopedia>TXT_KEY_RELIGION_OVERLORDS_PEDIA</Civilopedia>
 			<TechPrereq>TECH_MESSAGE_FROM_THE_DEEP</TechPrereq>
-			<FreeUnitClass>UNITCLASS_DISCIPLE_OCTOPUS_OVERLORDS</FreeUnitClass>
+			<FreeUnitClass>NONE</FreeUnitClass>
 			<iFreeUnits>1</iFreeUnits>
 			<iSpreadFactor>75</iSpreadFactor>
 			<GlobalReligionCommerces>
@@ -183,7 +183,7 @@
 			<Adjective>TXT_KEY_RELIGION_THE_ASHEN_VEIL_ADJECTIVE</Adjective>
 			<Civilopedia>TXT_KEY_RELIGION_ASHEN_PEDIA</Civilopedia>
 			<TechPrereq>TECH_CORRUPTION_OF_SPIRIT</TechPrereq>
-			<FreeUnitClass>UNITCLASS_DISCIPLE_THE_ASHEN_VEIL</FreeUnitClass>
+			<FreeUnitClass>NONE</FreeUnitClass>
 			<iFreeUnits>1</iFreeUnits>
 			<iSpreadFactor>150</iSpreadFactor>
 			<GlobalReligionCommerces>
