@@ -3046,20 +3046,6 @@
             <Button>Art/Interface/Buttons/Units/Mistform.dds</Button>
         </SpellInfo>
         <SpellInfo>
-            <Type>SPELL_SUMMON_PIT_BEAST</Type>
-            <Description>TXT_KEY_SPELL_SUMMON_PIT_BEAST</Description>
-            <Civilopedia>TXT_KEY_SPELL_SUMMON_PIT_BEAST_PEDIA</Civilopedia>
-            <PromotionPrereq1>PROMOTION_ENTROPY2</PromotionPrereq1>
-            <bAllowAI>1</bAllowAI>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <CreateUnitType>UNIT_PIT_BEAST</CreateUnitType>
-            <iCreateUnitNum>1</iCreateUnitNum>
-            <Effect>EFFECT_PIT_BEAST_SUMMON</Effect>
-            <Sound>AS3D_SPELL_PIT_BEAST</Sound>
-            <Button>Art/Interface/Buttons/Units/Pit Beast.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
             <Type>SPELL_SUMMON_SAND_LION</Type>
             <Description>TXT_KEY_SPELL_SUMMON_SAND_LION</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
