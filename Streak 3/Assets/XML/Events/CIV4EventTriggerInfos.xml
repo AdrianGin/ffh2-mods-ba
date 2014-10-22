@@ -3201,7 +3201,6 @@
                 <Event>EVENT_CARNIVAL_STAR_1</Event>
                 <Event>EVENT_CARNIVAL_STAR_2</Event>
                 <Event>EVENT_CARNIVAL_STAR_3</Event>
-                <Event>EVENT_CARNIVAL_STAR_4</Event>
             </Events>
             <PrereqEvents>
             </PrereqEvents>
@@ -23504,7 +23503,6 @@
                 <Event>EVENT_LUNATIC_1</Event>
                 <Event>EVENT_LUNATIC_2</Event>
                 <Event>EVENT_LUNATIC_3</Event>
-                <Event>EVENT_LUNATIC_4</Event>
                 <Event>EVENT_LUNATIC_5</Event>
                 <Event>EVENT_LUNATIC_6</Event>
             </Events>

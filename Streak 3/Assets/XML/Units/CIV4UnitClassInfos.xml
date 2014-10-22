@@ -47,15 +47,6 @@
 			<DefaultUnit>UNIT_SCORPION</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
-			<Type>UNITCLASS_DISCIPLE_OF_ACHERON</Type>
-			<Description>TXT_KEY_UNIT_DISCIPLE_OF_ACHERON</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_DISCIPLE_OF_ACHERON</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
 			<Type>UNITCLASS_SON_OF_THE_INFERNO</Type>
 			<Description>TXT_KEY_UNIT_SON_OF_THE_INFERNO</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
@@ -351,15 +342,6 @@
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_FROSTLING_WOLF_RIDER</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>UNITCLASS_LUCIAN</Type>
-			<Description>TXT_KEY_UNIT_LUCIAN</Description>
-			<iMaxGlobalInstances>1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_LUCIAN</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
 			<Type>UNITCLASS_GAELAN</Type>
@@ -884,15 +866,6 @@
 			<DefaultUnit>UNIT_WATER_ELEMENTAL</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
-			<Type>UNITCLASS_HYBOREM</Type>
-			<Description>TXT_KEY_UNIT_HYBOREM</Description>
-			<iMaxGlobalInstances>1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_HYBOREM</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
 			<Type>UNITCLASS_WILBOMAN</Type>
 			<Description>TXT_KEY_UNIT_WILBOMAN</Description>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -1010,15 +983,6 @@
 			<DefaultUnit>UNIT_BARNAXUS</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
-			<Type>UNITCLASS_EYE</Type>
-			<Description>TXT_KEY_UNIT_EYE</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_EYE</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
 			<Type>UNITCLASS_FLAGBEARER</Type>
 			<Description>TXT_KEY_UNIT_FLAGBEARER</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
@@ -1116,15 +1080,6 @@
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_GIBBON</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>UNITCLASS_LOKI</Type>
-			<Description>TXT_KEY_UNIT_LOKI</Description>
-			<iMaxGlobalInstances>1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_LOKI</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
 			<Type>UNITCLASS_LOSHA</Type>
@@ -1278,15 +1233,6 @@
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_EINHERJAR</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>UNITCLASS_WRAITH</Type>
-			<Description>TXT_KEY_UNIT_WRAITH</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_WRAITH</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
 			<Type>UNITCLASS_SPECTRE</Type>
@@ -1604,15 +1550,6 @@
 			<DefaultUnit>UNIT_DISCIPLE_RUNES_OF_KILMORPH</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
-			<Type>UNITCLASS_DISCIPLE_FELLOWSHIP_OF_LEAVES</Type>
-			<Description>TXT_KEY_UNIT_DISCIPLE</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_DISCIPLE_FELLOWSHIP_OF_LEAVES</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
 			<Type>UNITCLASS_DISCIPLE_THE_ORDER</Type>
 			<Description>TXT_KEY_UNIT_DISCIPLE</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
@@ -1620,24 +1557,6 @@
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_DISCIPLE_THE_ORDER</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>UNITCLASS_DISCIPLE_OCTOPUS_OVERLORDS</Type>
-			<Description>TXT_KEY_UNIT_DISCIPLE</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_DISCIPLE_OCTOPUS_OVERLORDS</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>UNITCLASS_DISCIPLE_THE_ASHEN_VEIL</Type>
-			<Description>TXT_KEY_UNIT_DISCIPLE</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_DISCIPLE_THE_ASHEN_VEIL</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
 			<Type>UNITCLASS_WORKBOAT</Type>
@@ -2214,15 +2133,6 @@
 			<iMaxPlayerInstances>4</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_LICH</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>UNITCLASS_LIGHTBRINGER</Type>
-			<Description>TXT_KEY_UNIT_LIGHTBRINGER</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_LIGHTBRINGER</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
 			<Type>UNITCLASS_MONK</Type>

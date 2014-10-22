@@ -375,10 +375,6 @@
 		<DefineTextVal>UNIT_GOVANNON</DefineTextVal>
 	</Define>
 	<Define>
-		<DefineName>UNIT_LOKI</DefineName>
-		<DefineTextVal>UNIT_LOKI</DefineTextVal>
-	</Define>
-	<Define>
 		<DefineName>UNIT_PYRE_ZOMBIE</DefineName>
 		<DefineTextVal>UNIT_PYRE_ZOMBIE</DefineTextVal>
 	</Define>

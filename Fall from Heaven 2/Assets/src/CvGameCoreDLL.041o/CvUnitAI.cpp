@@ -21421,33 +21421,34 @@ void CvUnitAI::ConquestMove()
 
 void CvUnitAI::AI_heromove()
 {
-    if (getUnitType() == GC.getDefineINT("UNIT_GOVANNON"))
-    {
-        if (AI_Govannonmove())
-        {
-            return;
-        }
-        getGroup()->pushMission(MISSION_SKIP);
-        return;
-    }
-    if (getUnitType() == GC.getDefineINT("UNIT_LOKI"))
-    {
-        if (AI_Lokimove())
-        {
-            return;
-        }
-        getGroup()->pushMission(MISSION_SKIP);
-        return;
-    }
-    if (getUnitType() == GC.getDefineINT("UNIT_RANTINE"))
-    {
-        if (AI_Rantinemove())
-        {
-            return;
-        }
-        getGroup()->pushMission(MISSION_SKIP);
-        return;
-    }
+//Removed by Adrian
+    //if (getUnitType() == GC.getDefineINT("UNIT_GOVANNON"))
+    //{
+    //    if (AI_Govannonmove())
+    //    {
+    //        return;
+    //    }
+    //    getGroup()->pushMission(MISSION_SKIP);
+    //    return;
+    //}
+    //if (getUnitType() == GC.getDefineINT("UNIT_LOKI"))
+    //{
+    //    if (AI_Lokimove())
+    //    {
+    //        return;
+    //    }
+    //    getGroup()->pushMission(MISSION_SKIP);
+    //    return;
+    //}
+    //if (getUnitType() == GC.getDefineINT("UNIT_RANTINE"))
+    //{
+    //    if (AI_Rantinemove())
+    //    {
+    //        return;
+    //    }
+    //    getGroup()->pushMission(MISSION_SKIP);
+    //    return;
+    //}
 
     if (GET_PLAYER(getOwnerINLINE()).isConquestMode())
     {

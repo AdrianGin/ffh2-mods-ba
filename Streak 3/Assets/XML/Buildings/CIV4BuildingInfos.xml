@@ -37421,7 +37421,7 @@
             <FoundsCorporation>NONE</FoundsCorporation>
             <GlobalReligionCommerce>NONE</GlobalReligionCommerce>
             <GlobalCorporationCommerce>NONE</GlobalCorporationCommerce>
-            <VictoryPrereq>VICTORY_TOWER_OF_MASTERY</VictoryPrereq>
+            <VictoryPrereq>NONE</VictoryPrereq>
             <FreeStartEra>NONE</FreeStartEra>
             <MaxStartEra>NONE</MaxStartEra>
             <ObsoleteTech>NONE</ObsoleteTech>
