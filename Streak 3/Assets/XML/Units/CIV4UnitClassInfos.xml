@@ -335,24 +335,6 @@
 			<DefaultUnit>UNIT_FROSTLING_ARCHER</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
-			<Type>UNITCLASS_FROSTLING_WOLF_RIDER</Type>
-			<Description>TXT_KEY_UNIT_FROSTLING_WOLF_RIDER</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_FROSTLING_WOLF_RIDER</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>UNITCLASS_GAELAN</Type>
-			<Description>TXT_KEY_UNIT_GAELAN</Description>
-			<iMaxGlobalInstances>1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_GAELAN</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
 			<Type>EQUIPMENTCLASS_SCORCHED_STAFF</Type>
 			<Description>TXT_KEY_EQUIPMENT_SCORCHED_STAFF</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
