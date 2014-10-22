@@ -593,23 +593,6 @@
             <Button>Art/Interface/Buttons/Spells/Create Den.dds</Button>
         </SpellInfo>
         <SpellInfo>
-            <Type>SPELL_CREATE_PUPPET</Type>
-            <Description>TXT_KEY_SPELL_CREATE_PUPPET</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <UnitCombatPrereq>UNITCOMBAT_ADEPT</UnitCombatPrereq>
-            <CivilizationPrereq>NONE</CivilizationPrereq>
-            <bAllowAI>1</bAllowAI>
-            <iAIWeight>1000</iAIWeight>
-            <bHasCasted>1</bHasCasted>
-            <CreateUnitType>UNIT_PUPPET</CreateUnitType>
-            <iCreateUnitNum>1</iCreateUnitNum>
-            <bCopyCastersPromotions>1</bCopyCastersPromotions>
-            <CreateUnitPromotion>PROMOTION_PUPPET</CreateUnitPromotion>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_CREATE_PUPPET</Sound>
-            <Button>Art/Interface/Buttons/Units/Puppet.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
             <Type>SPELL_CREATE_PUPPET_LOKI</Type>
             <Description>TXT_KEY_SPELL_CREATE_PUPPET</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
