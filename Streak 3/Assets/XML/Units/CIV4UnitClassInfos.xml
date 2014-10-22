@@ -1343,15 +1343,6 @@
 			<DefaultUnit>UNIT_PRIEST_OF_LEAVES</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
-			<Type>UNITCLASS_PRIEST_OF_THE_ORDER</Type>
-			<Description>TXT_KEY_UNIT_PRIEST_OF_THE_ORDER</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_PRIEST_OF_THE_ORDER</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
 			<Type>UNITCLASS_PRIEST_OF_THE_OVERLORDS</Type>
 			<Description>TXT_KEY_UNIT_PRIEST_OF_THE_OVERLORDS</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
@@ -1494,15 +1485,6 @@
 			<iMaxPlayerInstances>4</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_HIGH_PRIEST_OF_LEAVES</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>UNITCLASS_HIGH_PRIEST_OF_THE_ORDER</Type>
-			<Description>TXT_KEY_UNIT_HIGH_PRIEST_OF_THE_ORDER</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>4</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_HIGH_PRIEST_OF_THE_ORDER</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
 			<Type>UNITCLASS_HIGH_PRIEST_OF_THE_OVERLORDS</Type>

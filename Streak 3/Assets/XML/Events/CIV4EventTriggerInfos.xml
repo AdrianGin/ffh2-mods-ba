@@ -11750,11 +11750,6 @@
             <iUnhealthy>0</iUnhealthy>
             <UnitsRequired>
                 <UnitClass>UNITCLASS_PRIEST_OF_KILMORPH</UnitClass>
-                <UnitClass>UNITCLASS_PRIEST_OF_LEAVES</UnitClass>
-                <UnitClass>UNITCLASS_PRIEST_OF_THE_EMPYREAN</UnitClass>
-                <UnitClass>UNITCLASS_PRIEST_OF_THE_ORDER</UnitClass>
-                <UnitClass>UNITCLASS_PRIEST_OF_THE_OVERLORDS</UnitClass>
-                <UnitClass>UNITCLASS_PRIEST_OF_THE_VEIL</UnitClass>
             </UnitsRequired>
             <iNumUnits>1</iNumUnits>
             <iNumUnitsGlobal>0</iNumUnitsGlobal>

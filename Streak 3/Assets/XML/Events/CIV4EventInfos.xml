@@ -5350,7 +5350,7 @@
             <iTechCostPercent>0</iTechCostPercent>
             <iTechMinTurnsLeft>0</iTechMinTurnsLeft>
             <PrereqTech>NONE</PrereqTech>
-            <UnitClass>UNITCLASS_GAELAN</UnitClass>
+            <UnitClass>NONE</UnitClass>
             <iNumFreeUnits>1</iNumFreeUnits>
             <bDisbandUnit>0</bDisbandUnit>
             <iUnitExperience>0</iUnitExperience>
