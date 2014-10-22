@@ -494,9 +494,10 @@ bool CvXMLLoadUtility::SetPostGlobalsGlobalDefines()
         idx = FindInInfoClass(szVal);
         GC.getDefinesVarSystem()->SetValue("UNIT_GOVANNON", idx);
 
-        SetGlobalDefine("UNIT_LOKI", szVal);
-        idx = FindInInfoClass(szVal);
-        GC.getDefinesVarSystem()->SetValue("UNIT_LOKI", idx);
+		//Removed by Adrian
+        //SetGlobalDefine("UNIT_LOKI", szVal);
+        //idx = FindInInfoClass(szVal);
+        //GC.getDefinesVarSystem()->SetValue("UNIT_LOKI", idx);
 
         SetGlobalDefine("UNIT_PYRE_ZOMBIE", szVal);
         idx = FindInInfoClass(szVal);
