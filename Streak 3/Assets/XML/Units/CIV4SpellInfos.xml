@@ -1296,7 +1296,7 @@
             <bAllowAI>1</bAllowAI>
             <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
             <bHasCasted>1</bHasCasted>
-            <CreateUnitType>UNIT_EYE</CreateUnitType>
+            <CreateUnitType>NONE</CreateUnitType>
             <iCreateUnitNum>1</iCreateUnitNum>
             <Effect>EFFECT_SPELL2</Effect>
             <Sound>AS3D_SPELL_KRAKEN</Sound>

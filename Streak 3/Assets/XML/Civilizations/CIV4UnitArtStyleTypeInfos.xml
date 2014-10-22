@@ -2821,14 +2821,6 @@
 						<MiddleArtDefineTag>ART_DEF_UNIT_WIZARD_ILLUSION</MiddleArtDefineTag>
 					</UnitMeshGroup>
 				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_WRAITH</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_WRAITH_ILLUSION</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_WRAITH_ILLUSION</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_WRAITH_ILLUSION</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
 			</StyleUnits>
 		</UnitArtStyleTypeInfo>
 		<UnitArtStyleTypeInfo>
