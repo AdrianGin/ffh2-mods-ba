@@ -630,7 +630,7 @@
             <Type>SPELL_CREATE_PUPPET_LOKI</Type>
             <Description>TXT_KEY_SPELL_CREATE_PUPPET</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <UnitClassPrereq>UNITCLASS_LOKI</UnitClassPrereq>
+            <UnitClassPrereq>NONE</UnitClassPrereq>
             <bAllowAI>1</bAllowAI>
             <iAIWeight>1000</iAIWeight>
             <bHasCasted>1</bHasCasted>
@@ -840,7 +840,7 @@
             <Description>TXT_KEY_SPELL_DISRUPT</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
             <Help>TXT_KEY_SPELL_DISRUPT_HELP</Help>
-            <UnitClassPrereq>UNITCLASS_LOKI</UnitClassPrereq>
+            <UnitClassPrereq>NONE</UnitClassPrereq>
             <bAllowAI>1</bAllowAI>
             <bInCityOnly>1</bInCityOnly>
             <iAIWeight>50</iAIWeight>
@@ -1049,7 +1049,7 @@
             <Description>TXT_KEY_SPELL_ENTERTAIN</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
             <Help>TXT_KEY_SPELL_ENTERTAIN_HELP</Help>
-            <UnitClassPrereq>UNITCLASS_LOKI</UnitClassPrereq>
+            <UnitClassPrereq>NONE</UnitClassPrereq>
             <bAllowAI>1</bAllowAI>
             <bInCityOnly>1</bInCityOnly>
             <iAIWeight>50</iAIWeight>
@@ -1720,7 +1720,7 @@
             <Description>TXT_KEY_SPELL_HYBOREMS_WHISPER</Description>
             <Civilopedia>TXT_KEY_SPELL_HYBOREMS_WHISPER_PEDIA</Civilopedia>
             <Help>TXT_KEY_SPELL_HYBOREMS_WHISPER_HELP</Help>
-            <UnitClassPrereq>UNITCLASS_HYBOREM</UnitClassPrereq>
+            <UnitClassPrereq>NONE</UnitClassPrereq>
             <CivilizationPrereq>NONE</CivilizationPrereq>
             <TechPrereq>TECH_MALEVOLENT_DESIGNS</TechPrereq>
             <bAllowAI>1</bAllowAI>
