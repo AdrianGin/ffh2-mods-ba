@@ -3060,39 +3060,6 @@
             <Button>Art/Interface/Buttons/Units/Tiger.dds</Button>
         </SpellInfo>
         <SpellInfo>
-            <Type>SPELL_SUMMON_TREANT</Type>
-            <Description>TXT_KEY_SPELL_SUMMON_TREANT</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <PromotionPrereq1>PROMOTION_CHANNELING3</PromotionPrereq1>
-            <PromotionPrereq2>PROMOTION_DIVINE</PromotionPrereq2>
-            <FeatureOrPrereq1>FEATURE_FOREST</FeatureOrPrereq1>
-            <FeatureOrPrereq2>FEATURE_FOREST_ANCIENT</FeatureOrPrereq2>
-            <ReligionPrereq>RELIGION_FELLOWSHIP_OF_LEAVES</ReligionPrereq>
-            <bAllowAI>1</bAllowAI>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <CreateUnitType>UNIT_TREANT</CreateUnitType>
-            <iCreateUnitNum>1</iCreateUnitNum>
-            <bPermanentUnitCreate>1</bPermanentUnitCreate>
-            <Effect>EFFECT_NATURE_SUMMON</Effect>
-            <Sound>AS3D_SPELL_BLOOM</Sound>
-            <Button>Art/Interface/Buttons/Units/Treant.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_SUMMON_WATER_ELEMENTAL</Type>
-            <Description>TXT_KEY_SPELL_SUMMON_WATER_ELEMENTAL</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <PromotionPrereq1>PROMOTION_WATER3</PromotionPrereq1>
-            <bAllowAI>1</bAllowAI>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <CreateUnitType>UNIT_WATER_ELEMENTAL</CreateUnitType>
-            <iCreateUnitNum>1</iCreateUnitNum>
-            <Effect>EFFECT_WATER_SUMMON</Effect>
-            <Sound>AS3D_SPELL_WATER</Sound>
-            <Button>Art/Interface/Buttons/Units/Water Elemental.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
             <Type>SPELL_SUMMON_WRAITH</Type>
             <Description>TXT_KEY_SPELL_SUMMON_WRAITH</Description>
             <Civilopedia>TXT_KEY_SPELL_SUMMON_WRAITH_PEDIA</Civilopedia>
