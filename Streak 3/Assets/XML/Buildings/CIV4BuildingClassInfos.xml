@@ -364,12 +364,6 @@
 			<bNoLimit>0</bNoLimit>
 			<bMonument>0</bMonument>
 			<DefaultBuilding>BUILDING_TOWER_OF_MASTERY</DefaultBuilding>
-			<VictoryThresholds>
-				<VictoryThreshold>
-					<VictoryType>VICTORY_TOWER_OF_MASTERY</VictoryType>
-					<iThreshold>1</iThreshold>
-				</VictoryThreshold>
-			</VictoryThresholds>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_TOWER_OF_ALTERATION</Type>
@@ -381,12 +375,7 @@
 			<bNoLimit>0</bNoLimit>
 			<bMonument>0</bMonument>
 			<DefaultBuilding>BUILDING_TOWER_OF_ALTERATION</DefaultBuilding>
-			<VictoryThresholds>
-				<VictoryThreshold>
-					<VictoryType>VICTORY_TOWER_OF_MASTERY</VictoryType>
-					<iThreshold>1</iThreshold>
-				</VictoryThreshold>
-			</VictoryThresholds>
+
 		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_TOWER_OF_DIVINATION</Type>
@@ -398,12 +387,7 @@
 			<bNoLimit>0</bNoLimit>
 			<bMonument>0</bMonument>
 			<DefaultBuilding>BUILDING_TOWER_OF_DIVINATION</DefaultBuilding>
-			<VictoryThresholds>
-				<VictoryThreshold>
-					<VictoryType>VICTORY_TOWER_OF_MASTERY</VictoryType>
-					<iThreshold>1</iThreshold>
-				</VictoryThreshold>
-			</VictoryThresholds>
+
 		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_TOWER_OF_NECROMANCY</Type>
@@ -415,12 +399,6 @@
 			<bNoLimit>0</bNoLimit>
 			<bMonument>0</bMonument>
 			<DefaultBuilding>BUILDING_TOWER_OF_NECROMANCY</DefaultBuilding>
-			<VictoryThresholds>
-				<VictoryThreshold>
-					<VictoryType>VICTORY_TOWER_OF_MASTERY</VictoryType>
-					<iThreshold>1</iThreshold>
-				</VictoryThreshold>
-			</VictoryThresholds>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_TOWER_OF_THE_ELEMENTS</Type>
@@ -432,12 +410,6 @@
 			<bNoLimit>0</bNoLimit>
 			<bMonument>0</bMonument>
 			<DefaultBuilding>BUILDING_TOWER_OF_THE_ELEMENTS</DefaultBuilding>
-			<VictoryThresholds>
-				<VictoryThreshold>
-					<VictoryType>VICTORY_TOWER_OF_MASTERY</VictoryType>
-					<iThreshold>1</iThreshold>
-				</VictoryThreshold>
-			</VictoryThresholds>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_UNYIELDING_ORDER</Type>
