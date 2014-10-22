@@ -10061,7 +10061,6 @@
             <Events>
                 <Event>EVENT_HUNTER_1</Event>
                 <Event>EVENT_HUNTER_2</Event>
-                <Event>EVENT_HUNTER_3</Event>
                 <Event>EVENT_HUNTER_4</Event>
                 <Event>EVENT_HUNTER_5</Event>
                 <Event>EVENT_HUNTER_6</Event>
