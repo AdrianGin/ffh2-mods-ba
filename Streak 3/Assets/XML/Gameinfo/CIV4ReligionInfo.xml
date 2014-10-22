@@ -12,7 +12,7 @@
 			<Adjective>TXT_KEY_RELIGION_FELLOWSHIP_OF_LEAVES_ADJECTIVE</Adjective>
 			<Civilopedia>TXT_KEY_RELIGION_LEAVES_PEDIA</Civilopedia>
 			<TechPrereq>TECH_WAY_OF_THE_FORESTS</TechPrereq>
-			<FreeUnitClass>UNITCLASS_DISCIPLE_FELLOWSHIP_OF_LEAVES</FreeUnitClass>
+			<FreeUnitClass>NONE</FreeUnitClass>
 			<iFreeUnits>1</iFreeUnits>
 			<iSpreadFactor>100</iSpreadFactor>
 			<GlobalReligionCommerces>
