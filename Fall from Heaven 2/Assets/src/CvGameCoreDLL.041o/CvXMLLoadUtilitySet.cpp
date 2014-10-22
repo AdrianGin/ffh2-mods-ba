@@ -382,9 +382,10 @@ bool CvXMLLoadUtility::SetPostGlobalsGlobalDefines()
 		idx = FindInInfoClass(szVal);
 		GC.getDefinesVarSystem()->SetValue("POISONED_PROMOTION", idx);
 
-		SetGlobalDefine("RANDOM_CIVILIZATION", szVal);
-		idx = FindInInfoClass(szVal);
-		GC.getDefinesVarSystem()->SetValue("RANDOM_CIVILIZATION", idx);
+		//Adrian: Removed RANDOM_CIV
+		//SetGlobalDefine("RANDOM_CIVILIZATION", szVal);
+		//idx = FindInInfoClass(szVal);
+		//GC.getDefinesVarSystem()->SetValue("RANDOM_CIVILIZATION", idx);
 
 		SetGlobalDefine("SPECIALUNIT_SPELL", szVal);
 		idx = FindInInfoClass(szVal);
