@@ -149,6 +149,9 @@
             <CommerceChanges>
             </CommerceChanges>
             <ObsoleteSafeCommerceChanges>
+			    <iCommerce>0</iCommerce>
+                <iCommerce>0</iCommerce>
+                <iCommerce>1</iCommerce>
             </ObsoleteSafeCommerceChanges>
             <CommerceChangeDoubleTimes>
             </CommerceChangeDoubleTimes>
