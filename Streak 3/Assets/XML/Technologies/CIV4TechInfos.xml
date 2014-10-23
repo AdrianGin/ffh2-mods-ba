@@ -408,7 +408,7 @@
             <bPermanentAllianceTrading>0</bPermanentAllianceTrading>
             <bVassalTrading>0</bVassalTrading>
             <bBridgeBuilding>0</bBridgeBuilding>
-            <bIrrigation>1</bIrrigation>
+            <bIrrigation>0</bIrrigation>
             <bIgnoreIrrigation>0</bIgnoreIrrigation>
             <bWaterWork>0</bWaterWork>
             <iGridX>3</iGridX>
@@ -481,8 +481,8 @@
             <bPermanentAllianceTrading>0</bPermanentAllianceTrading>
             <bVassalTrading>0</bVassalTrading>
             <bBridgeBuilding>0</bBridgeBuilding>
-            <bIrrigation>0</bIrrigation>
-            <bIgnoreIrrigation>1</bIgnoreIrrigation>
+            <bIrrigation>1</bIrrigation>
+            <bIgnoreIrrigation>0</bIgnoreIrrigation>
             <bWaterWork>0</bWaterWork>
             <iGridX>4</iGridX>
             <iGridY>41</iGridY>
