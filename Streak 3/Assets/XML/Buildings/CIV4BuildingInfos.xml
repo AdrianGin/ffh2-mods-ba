@@ -219,7 +219,7 @@
             <bRequiresCaster>0</bRequiresCaster>
             <bSeeInvisible>0</bSeeInvisible>
             <bUnhappyProduction>0</bUnhappyProduction>
-            <iCrime>5</iCrime>
+            <iCrime>0</iCrime>
             <iFreePromotionPick>0</iFreePromotionPick>
             <iGlobalResistEnemyModify>0</iGlobalResistEnemyModify>
             <iGlobalResistModify>0</iGlobalResistModify>
