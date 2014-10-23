@@ -1429,23 +1429,7 @@
             </UnitCombats>
             <Button>Art/Interface/Buttons/Promotions/Command3.dds</Button>
             <iCombatCapturePercent>20</iCombatCapturePercent>
-            <PromotionNextLevel>PROMOTION_COMMAND4</PromotionNextLevel>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_COMMAND4</Type>
-            <Description>TXT_KEY_PROMOTION_COMMAND4</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_COMMAND3</PromotionPrereq>
-            <PromotionPrereqOr1>PROMOTION_CHANNELING3</PromotionPrereqOr1>
-            <StateReligionPrereq>RELIGION_THE_ORDER</StateReligionPrereq>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Command4.dds</Button>
-            <iCombatCapturePercent>20</iCombatCapturePercent>
+            
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_COMMANDO</Type>

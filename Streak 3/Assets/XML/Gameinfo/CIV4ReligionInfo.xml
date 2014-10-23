@@ -50,48 +50,6 @@
 			<ReligionTech2>TECH_HIDDEN_PATHS</ReligionTech2>			
 		</ReligionInfo>
 		<ReligionInfo>
-			<Type>RELIGION_THE_ORDER</Type>
-			<Description>TXT_KEY_RELIGION_THE_ORDER</Description>
-			<Adjective>TXT_KEY_RELIGION_THE_ORDER_ADJECTIVE</Adjective>
-			<Civilopedia>TXT_KEY_RELIGION_ORDER_PEDIA</Civilopedia>
-			<TechPrereq>TECH_ORDERS_FROM_HEAVEN</TechPrereq>
-			<FreeUnitClass>UNITCLASS_DISCIPLE_THE_ORDER</FreeUnitClass>
-			<iFreeUnits>1</iFreeUnits>
-			<iSpreadFactor>175</iSpreadFactor>
-			<GlobalReligionCommerces>
-				<iGlobalReligionCommerce>1</iGlobalReligionCommerce>
-				<iGlobalReligionCommerce>0</iGlobalReligionCommerce>
-				<iGlobalReligionCommerce>0</iGlobalReligionCommerce>
-			</GlobalReligionCommerces>
-			<HolyCityCommerces>
-				<iHolyCityCommerce>0</iHolyCityCommerce>
-				<iHolyCityCommerce>0</iHolyCityCommerce>
-				<iHolyCityCommerce>4</iHolyCityCommerce>
-			</HolyCityCommerces>
-			<StateReligionCommerces>
-				<iStateReligionCommerce>0</iStateReligionCommerce>
-				<iStateReligionCommerce>0</iStateReligionCommerce>
-				<iStateReligionCommerce>1</iStateReligionCommerce>
-			</StateReligionCommerces>
-			<Button>Art/Interface/Buttons/Religions/Order.dds</Button>
-			<TechButton>Art/Interface/Buttons/Religions/Order.dds</TechButton>
-			<GenericTechButton>Art/Interface/Buttons/Religions/Order.dds</GenericTechButton>
-			<MovieFile>Art/Movies/Religion/Christianity/Chr_Found.nif</MovieFile>
-			<MovieSound>AS2D_ORDER_THEME</MovieSound>
-			<Sound>AS2D_ORDER_DINK</Sound>
-			<bHidden>0</bHidden>
-			<bSneakAttack>0</bSneakAttack>
-			<bUpdateSight>0</bUpdateSight>
-			<iGlobalCounterFound>0</iGlobalCounterFound>
-			<iGlobalCounterSpread>0</iGlobalCounterSpread>
-			<Alignment>ALIGNMENT_GOOD</Alignment>
-			<AlignmentBest>ALIGNMENT_GOOD</AlignmentBest>
-			<AlignmentWorst>ALIGNMENT_GOOD</AlignmentWorst>
-			<ReligionHero1>UNITCLASS_VALIN</ReligionHero1>
-			<ReligionHero2>UNITCLASS_SPHENER</ReligionHero2>
-			<ReligionTech1>TECH_ORDERS_FROM_HEAVEN</ReligionTech1>
-		</ReligionInfo>
-		<ReligionInfo>
 			<Type>RELIGION_OCTOPUS_OVERLORDS</Type>
 			<Description>TXT_KEY_RELIGION_OCTOPUS_OVERLORDS</Description>
 			<Adjective>TXT_KEY_RELIGION_OCTOPUS_OVERLORDS_ADJECTIVE</Adjective>

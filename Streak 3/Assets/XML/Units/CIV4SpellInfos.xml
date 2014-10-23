@@ -128,22 +128,6 @@
             <Button>Art/Interface/Buttons/Spells/Blaze.dds</Button>
         </SpellInfo>
         <SpellInfo>
-            <Type>SPELL_BLESS</Type>
-            <Description>TXT_KEY_SPELL_BLESS</Description>
-            <Civilopedia>TXT_KEY_SPELL_BLESS_PEDIA</Civilopedia>
-            <PromotionPrereq1>PROMOTION_CHANNELING2</PromotionPrereq1>
-            <PromotionPrereq2>PROMOTION_DIVINE</PromotionPrereq2>
-            <ReligionPrereq>RELIGION_THE_ORDER</ReligionPrereq>
-            <bAllowAI>1</bAllowAI>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <AddPromotionType1>PROMOTION_BLESSED</AddPromotionType1>
-            <bImmuneNotAlive>1</bImmuneNotAlive>
-            <Effect>EFFECT_BLESS</Effect>
-            <Sound>AS3D_SPELL_BLESS</Sound>
-            <Button>Art/Interface/Buttons/Promotions/Blessed.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
             <Type>SPELL_BLINDING_LIGHT</Type>
             <Description>TXT_KEY_SPELL_BLINDING_LIGHT</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
@@ -3748,25 +3732,6 @@
             <Effect>EFFECT_SPELL1</Effect>
             <Sound>AS3D_SPELL_TSUNAMI</Sound>
             <Button>Art/Interface/Buttons/Spells/Tsunami.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_UNYIELDING_ORDER</Type>
-            <Description>TXT_KEY_SPELL_UNYIELDING_ORDER</Description>
-            <Civilopedia>TXT_KEY_SPELL_UNYIELDING_ORDER_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_UNYIELDING_ORDER_HELP</Help>
-            <PromotionPrereq1>PROMOTION_CHANNELING3</PromotionPrereq1>
-            <PromotionPrereq2>PROMOTION_DIVINE</PromotionPrereq2>
-            <ReligionPrereq>RELIGION_THE_ORDER</ReligionPrereq>
-            <bAllowAI>1</bAllowAI>
-            <bInBordersOnly>1</bInBordersOnly>
-            <bInCityOnly>1</bInCityOnly>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <CreateBuildingType>BUILDING_UNYIELDING_ORDER</CreateBuildingType>
-            <PyResult>spellUnyieldingOrder(pCaster)</PyResult>
-            <Effect>EFFECT_CREATION</Effect>
-            <Sound>AS3D_SPELL_HOPE</Sound>
-            <Button>Art/Interface/Buttons/Buildings/Unyieldingorder.dds</Button>
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_UPGRADE_ARCHER</Type>
