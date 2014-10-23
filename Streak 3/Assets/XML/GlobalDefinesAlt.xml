@@ -299,10 +299,6 @@
 		<iDefineIntVal>20</iDefineIntVal>
 	</Define>
 	<Define>
-		<DefineName>SLAVE_UNIT</DefineName>
-		<DefineTextVal>UNIT_SLAVE</DefineTextVal>
-	</Define>
-	<Define>
 		<DefineName>SOMNIUM_BASE_DELAY_TURNS</DefineName>
 		<iDefineIntVal>30</iDefineIntVal>
 	</Define>
