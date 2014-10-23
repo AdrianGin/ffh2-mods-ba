@@ -1118,15 +1118,6 @@
 			<DefaultUnit>UNIT_DRUID</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
-			<Type>UNITCLASS_HILL_GIANT</Type>
-			<Description>TXT_KEY_UNIT_HILL_GIANT</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_HILL_GIANT</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
 			<Type>UNITCLASS_SKELETON</Type>
 			<Description>TXT_KEY_UNIT_SKELETON</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
