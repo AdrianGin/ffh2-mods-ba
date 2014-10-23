@@ -312,7 +312,7 @@
             </YieldChanges>
             <iAITradeModifier>10</iAITradeModifier>
             <iAIObjective>0</iAIObjective>
-            <iHealth>0</iHealth>
+            <iHealth>1</iHealth>
             <iHappiness>0</iHappiness>
             <iPlacementOrder>2</iPlacementOrder>
             <iConstAppearance>100</iConstAppearance>
