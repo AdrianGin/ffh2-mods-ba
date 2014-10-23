@@ -1979,7 +1979,6 @@
             <bPickCorporation>0</bPickCorporation>
             <bHeadquarters>0</bHeadquarters>
             <Events>
-                <Event>EVENT_ASHEN_VEIL_DEAL_SALLOS_1</Event>
                 <Event>EVENT_DEAL_REFUSE</Event>
             </Events>
             <PrereqEvents>
@@ -3603,7 +3602,6 @@
             <bPickCorporation>0</bPickCorporation>
             <bHeadquarters>0</bHeadquarters>
             <Events>
-                <Event>EVENT_CIRCLE_OF_GAELAN_3_1</Event>
                 <Event>EVENT_CIRCLE_OF_GAELAN_3_2</Event>
             </Events>
             <PrereqEvents>
@@ -8517,7 +8515,6 @@
             <bPickCorporation>0</bPickCorporation>
             <bHeadquarters>0</bHeadquarters>
             <Events>
-                <Event>EVENT_GUILD_OF_THE_NINE_MERC_2_1</Event>
                 <Event>EVENT_GUILD_OF_THE_NINE_MERC_2_2</Event>
                 <Event>EVENT_DEAL_REFUSE</Event>
             </Events>
@@ -10062,7 +10059,6 @@
                 <Event>EVENT_HUNTER_1</Event>
                 <Event>EVENT_HUNTER_2</Event>
                 <Event>EVENT_HUNTER_4</Event>
-                <Event>EVENT_HUNTER_5</Event>
                 <Event>EVENT_HUNTER_6</Event>
             </Events>
             <PrereqEvents>
@@ -10469,7 +10465,6 @@
                 <Event>EVENT_IMMIGRANTS_2</Event>
                 <Event>EVENT_IMMIGRANTS_3</Event>
                 <Event>EVENT_IMMIGRANTS_4</Event>
-                <Event>EVENT_IMMIGRANTS_5</Event>
                 <Event>EVENT_IMMIGRANTS_6</Event>
                 <Event>EVENT_IMMIGRANTS_7</Event>
             </Events>
@@ -16809,7 +16804,6 @@
             <iUnhealthy>0</iUnhealthy>
             <UnitsRequired>
                 <UnitClass>UNITCLASS_SCOUT</UnitClass>
-                <UnitClass>UNITCLASS_HUNTER</UnitClass>
             </UnitsRequired>
             <iNumUnits>1</iNumUnits>
             <iNumUnitsGlobal>0</iNumUnitsGlobal>
@@ -23298,7 +23292,6 @@
             <bHeadquarters>0</bHeadquarters>
             <Events>
                 <Event>EVENT_WILDERNESS_MAN_1</Event>
-                <Event>EVENT_WILDERNESS_MAN_2</Event>
                 <Event>EVENT_WILDERNESS_MAN_3</Event>
             </Events>
             <PrereqEvents>

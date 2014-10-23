@@ -81,14 +81,6 @@
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
-					<UnitType>UNIT_HUNTER</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_HUNTER_AMURITES</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_HUNTER_AMURITES</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_HUNTER_AMURITES</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
 					<UnitType>UNIT_IMMORTAL</UnitType>
 					<UnitMeshGroup>
 						<EarlyArtDefineTag>ART_DEF_UNIT_IMMORTAL_AMURITES</EarlyArtDefineTag>
@@ -120,14 +112,7 @@
 						<MiddleArtDefineTag>ART_DEF_UNIT_PHALANX_AMURITES</MiddleArtDefineTag>
 					</UnitMeshGroup>
 				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_RANGER</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_RANGER_AMURITES</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_RANGER_AMURITES</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_RANGER_AMURITES</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
+			
 				<StyleUnit>
 					<UnitType>UNIT_SCOUT</UnitType>
 					<UnitMeshGroup>
@@ -226,14 +211,6 @@
 						<EarlyArtDefineTag>ART_DEF_UNIT_PARROT</EarlyArtDefineTag>
 						<LateArtDefineTag>ART_DEF_UNIT_PARROT</LateArtDefineTag>
 						<MiddleArtDefineTag>ART_DEF_UNIT_PARROT</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_HUNTER</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_HUNTER_BALSERAPHS</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_HUNTER_BALSERAPHS</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_HUNTER_BALSERAPHS</MiddleArtDefineTag>
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
@@ -626,14 +603,6 @@
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
-					<UnitType>UNIT_RANGER</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_RANGER_CLAN_OF_EMBERS</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_RANGER_CLAN_OF_EMBERS</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_RANGER_CLAN_OF_EMBERS</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
 					<UnitType>UNIT_SETTLER</UnitType>
 					<UnitMeshGroup>
 						<EarlyArtDefineTag>ART_DEF_UNIT_SETTLER_MALE_CLAN_OF_EMBERS</EarlyArtDefineTag>
@@ -802,19 +771,6 @@
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
-					<UnitType>UNIT_HUNTER</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_HUNTER_SVARTALFAR</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_HUNTER_SVARTALFAR</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_HUNTER_SVARTALFAR</MiddleArtDefineTag>
-					</UnitMeshGroup>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_PANTHER</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_PANTHER</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_PANTHER</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
 					<UnitType>UNIT_IMMORTAL</UnitType>
 					<UnitMeshGroup>
 						<EarlyArtDefineTag>ART_DEF_UNIT_IMMORTAL_SVARTALFAR</EarlyArtDefineTag>
@@ -852,19 +808,6 @@
 						<EarlyArtDefineTag>ART_DEF_UNIT_PALADIN_LJOSALFAR</EarlyArtDefineTag>
 						<LateArtDefineTag>ART_DEF_UNIT_PALADIN_LJOSALFAR</LateArtDefineTag>
 						<MiddleArtDefineTag>ART_DEF_UNIT_PALADIN_LJOSALFAR</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_RANGER</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_RANGER_SVARTALFAR</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_RANGER_SVARTALFAR</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_RANGER_SVARTALFAR</MiddleArtDefineTag>
-					</UnitMeshGroup>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_PANTHER</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_PANTHER</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_PANTHER</MiddleArtDefineTag>
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
@@ -1012,14 +955,6 @@
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
-					<UnitType>UNIT_HUNTER</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_HUNTER_DOVIELLO</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_HUNTER_DOVIELLO</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_HUNTER_DOVIELLO</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
 					<UnitType>UNIT_LONGBOWMAN</UnitType>
 					<UnitMeshGroup>
 						<EarlyArtDefineTag>ART_DEF_UNIT_LONGBOWMAN_DOVIELLO</EarlyArtDefineTag>
@@ -1033,14 +968,6 @@
 						<EarlyArtDefineTag>ART_DEF_UNIT_MAGE_DOVIELLO</EarlyArtDefineTag>
 						<LateArtDefineTag>ART_DEF_UNIT_MAGE_DOVIELLO</LateArtDefineTag>
 						<MiddleArtDefineTag>ART_DEF_UNIT_MAGE_DOVIELLO</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_RANGER</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_RANGER_DOVIELLO</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_RANGER_DOVIELLO</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_RANGER_DOVIELLO</MiddleArtDefineTag>
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
@@ -1151,14 +1078,6 @@
 						<EarlyArtDefineTag>ART_DEF_UNIT_HORSEMAN_ELOHIM</EarlyArtDefineTag>
 						<LateArtDefineTag>ART_DEF_UNIT_HORSEMAN_ELOHIM</LateArtDefineTag>
 						<MiddleArtDefineTag>ART_DEF_UNIT_HORSEMAN_ELOHIM</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_HUNTER</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_HUNTER_ELOHIM</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_HUNTER_ELOHIM</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_HUNTER_ELOHIM</MiddleArtDefineTag>
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
@@ -1295,14 +1214,6 @@
 						<EarlyArtDefineTag>ART_DEF_UNIT_HORSEMAN_GRIGORI</EarlyArtDefineTag>
 						<LateArtDefineTag>ART_DEF_UNIT_HORSEMAN_GRIGORI</LateArtDefineTag>
 						<MiddleArtDefineTag>ART_DEF_UNIT_HORSEMAN_GRIGORI</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_HUNTER</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_HUNTER_GRIGORI</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_HUNTER_GRIGORI</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_HUNTER_GRIGORI</MiddleArtDefineTag>
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
@@ -1584,14 +1495,6 @@
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
-					<UnitType>UNIT_HUNTER</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_HUNTER_ILLIANS</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_HUNTER_ILLIANS</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_HUNTER_ILLIANS</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
 					<UnitType>UNIT_JAVELIN_THROWER</UnitType>
 					<UnitMeshGroup>
 						<EarlyArtDefineTag>ART_DEF_UNIT_JAVELIN_THROWER_ILLIANS</EarlyArtDefineTag>
@@ -1621,14 +1524,6 @@
 						<EarlyArtDefineTag>ART_DEF_UNIT_PHALANX_ILLIANS</EarlyArtDefineTag>
 						<LateArtDefineTag>ART_DEF_UNIT_PHALANX_ILLIANS</LateArtDefineTag>
 						<MiddleArtDefineTag>ART_DEF_UNIT_PHALANX_ILLIANS</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_RANGER</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_RANGER_ILLIANS</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_RANGER_ILLIANS</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_RANGER_ILLIANS</MiddleArtDefineTag>
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
@@ -1768,19 +1663,6 @@
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
-					<UnitType>UNIT_HUNTER</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_HUNTER_INFERNAL</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_HUNTER_INFERNAL</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_HUNTER_INFERNAL</MiddleArtDefineTag>
-					</UnitMeshGroup>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_HELLHOUND</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_HELLHOUND</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_HELLHOUND</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
 					<UnitType>UNIT_IMMORTAL</UnitType>
 					<UnitMeshGroup>
 						<EarlyArtDefineTag>ART_DEF_UNIT_IMMORTAL_INFERNAL</EarlyArtDefineTag>
@@ -1841,19 +1723,6 @@
 						<EarlyArtDefineTag>ART_DEF_UNIT_PIT_BEAST</EarlyArtDefineTag>
 						<LateArtDefineTag>ART_DEF_UNIT_PIT_BEAST</LateArtDefineTag>
 						<MiddleArtDefineTag>ART_DEF_UNIT_PIT_BEAST</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_RANGER</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_RANGER_INFERNAL</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_RANGER_INFERNAL</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_RANGER_INFERNAL</MiddleArtDefineTag>
-					</UnitMeshGroup>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_HELLHOUND</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_HELLHOUND</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_HELLHOUND</MiddleArtDefineTag>
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
@@ -1963,22 +1832,6 @@
 						<MiddleArtDefineTag>ART_DEF_UNIT_DRUID_CLAN_OF_EMBERS</MiddleArtDefineTag>
 					</UnitMeshGroup>
 				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_HUNTER</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_LIZARDMAN</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_LIZARDMAN</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_LIZARDMAN</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_RANGER</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_RANGER_CLAN_OF_EMBERS</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_RANGER_CLAN_OF_EMBERS</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_RANGER_CLAN_OF_EMBERS</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
 			</StyleUnits>
 		</UnitArtStyleTypeInfo>
 		<UnitArtStyleTypeInfo>
@@ -2085,14 +1938,6 @@
 						<EarlyArtDefineTag>ART_DEF_UNIT_HIGH_PRIEST_KILMORPH_DWARF</EarlyArtDefineTag>
 						<LateArtDefineTag>ART_DEF_UNIT_HIGH_PRIEST_KILMORPH_DWARF</LateArtDefineTag>
 						<MiddleArtDefineTag>ART_DEF_UNIT_HIGH_PRIEST_KILMORPH_DWARF</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_HUNTER</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_HUNTER_KHAZAD</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_HUNTER_KHAZAD</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_HUNTER_KHAZAD</MiddleArtDefineTag>
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
@@ -2217,14 +2062,6 @@
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
-					<UnitType>UNIT_HUNTER</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_HUNTER_KURIOTATES</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_HUNTER_KURIOTATES</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_HUNTER_KURIOTATES</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
 					<UnitType>UNIT_LONGBOWMAN</UnitType>
 					<UnitMeshGroup>
 						<EarlyArtDefineTag>ART_DEF_UNIT_LONGBOWMAN_KURIOTATES</EarlyArtDefineTag>
@@ -2238,14 +2075,6 @@
 						<EarlyArtDefineTag>ART_DEF_UNIT_PHALANX_KURIOTATES</EarlyArtDefineTag>
 						<LateArtDefineTag>ART_DEF_UNIT_PHALANX_KURIOTATES</LateArtDefineTag>
 						<MiddleArtDefineTag>ART_DEF_UNIT_PHALANX_KURIOTATES</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_RANGER</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_RANGER_KURIOTATES</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_RANGER_KURIOTATES</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_RANGER_KURIOTATES</MiddleArtDefineTag>
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
@@ -2365,14 +2194,6 @@
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
-					<UnitType>UNIT_HUNTER</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_HUNTER_LANUN</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_HUNTER_LANUN</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_HUNTER_LANUN</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
 					<UnitType>UNIT_IMMORTAL</UnitType>
 					<UnitMeshGroup>
 						<EarlyArtDefineTag>ART_DEF_UNIT_IMMORTAL_LANUN</EarlyArtDefineTag>
@@ -2394,14 +2215,6 @@
 						<EarlyArtDefineTag>ART_DEF_UNIT_PHALANX_LANUN</EarlyArtDefineTag>
 						<LateArtDefineTag>ART_DEF_UNIT_PHALANX_LANUN</LateArtDefineTag>
 						<MiddleArtDefineTag>ART_DEF_UNIT_PHALANX_LANUN</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_RANGER</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_RANGER_LANUN</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_RANGER_LANUN</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_RANGER_LANUN</MiddleArtDefineTag>
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
@@ -2557,14 +2370,6 @@
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
-					<UnitType>UNIT_HUNTER</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_HUNTER_LJOSALFAR</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_HUNTER_LJOSALFAR</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_HUNTER_LJOSALFAR</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
 					<UnitType>UNIT_IMMORTAL</UnitType>
 					<UnitMeshGroup>
 						<EarlyArtDefineTag>ART_DEF_UNIT_IMMORTAL_LJOSALFAR</EarlyArtDefineTag>
@@ -2618,14 +2423,6 @@
 						<EarlyArtDefineTag>ART_DEF_UNIT_PALADIN_LJOSALFAR</EarlyArtDefineTag>
 						<LateArtDefineTag>ART_DEF_UNIT_PALADIN_LJOSALFAR</LateArtDefineTag>
 						<MiddleArtDefineTag>ART_DEF_UNIT_PALADIN_LJOSALFAR</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_RANGER</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_RANGER_LJOSALFAR</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_RANGER_LJOSALFAR</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_RANGER_LJOSALFAR</MiddleArtDefineTag>
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
@@ -2853,19 +2650,6 @@
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
-					<UnitType>UNIT_HUNTER</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_HUNTER_MALAKIM</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_HUNTER_MALAKIM</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_HUNTER_MALAKIM</MiddleArtDefineTag>
-					</UnitMeshGroup>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_LION</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_LION</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_LION</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
 					<UnitType>UNIT_IMMORTAL</UnitType>
 					<UnitMeshGroup>
 						<EarlyArtDefineTag>ART_DEF_UNIT_IMMORTAL_MALAKIM</EarlyArtDefineTag>
@@ -2905,19 +2689,7 @@
 						<MiddleArtDefineTag>ART_DEF_UNIT_PHALANX_MALAKIM</MiddleArtDefineTag>
 					</UnitMeshGroup>
 				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_RANGER</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_RANGER_MALAKIM</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_RANGER_MALAKIM</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_RANGER_MALAKIM</MiddleArtDefineTag>
-					</UnitMeshGroup>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_LION</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_LION</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_LION</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
+				
 				<StyleUnit>
 					<UnitType>UNIT_SCOUT</UnitType>
 					<UnitMeshGroup>

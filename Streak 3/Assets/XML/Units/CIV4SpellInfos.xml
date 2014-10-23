@@ -1773,23 +1773,6 @@
             <Button>Art/Interface/Buttons/Spells/Mask.dds</Button>
         </SpellInfo>
         <SpellInfo>
-            <Type>SPELL_MEZMERIZE_ANIMAL</Type>
-            <Description>TXT_KEY_SPELL_MEZMERIZE_ANIMAL</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <UnitClassPrereq>UNITCLASS_SATYR</UnitClassPrereq>
-            <bAllowAI>1</bAllowAI>
-            <iAIWeight>50</iAIWeight>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <bResistable>1</bResistable>
-            <iRange>1</iRange>
-            <PyResult>spellMezmerizeAnimal(pCaster)</PyResult>
-            <PyRequirement>reqMezmerizeAnimal(pCaster)</PyRequirement>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_CHARM_PERSON</Sound>
-            <Button>Art/Interface/Buttons/Spells/Mezmerize Animal.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
             <Type>SPELL_MIRROR</Type>
             <Description>TXT_KEY_SPELL_MIRROR</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
@@ -2463,20 +2446,6 @@
             <Button>Art/Interface/Buttons/Spells/Scorch.dds</Button>
         </SpellInfo>
         <SpellInfo>
-            <Type>SPELL_SEVER</Type>
-            <Description>TXT_KEY_SPELL_SEVER_SOUL</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <UnitPrereq>UNIT_DIVIDED_SOUL</UnitPrereq>
-            <bAllowAI>1</bAllowAI>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <CreateUnitType>UNIT_SEVERED_SOUL</CreateUnitType>
-            <iCreateUnitNum>1</iCreateUnitNum>
-            <Effect>EFFECT_ENTROPY_SUMMON</Effect>
-            <Sound>AS3D_SPELL_DEFILE</Sound>
-            <Button>Art/Interface/Buttons/Units/Severed Soul.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
             <Type>SPELL_SHADOWWALK</Type>
             <Description>TXT_KEY_SPELL_SHADOWWALK</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
@@ -2753,20 +2722,6 @@
             <Effect>EFFECT_AIR_SUMMON</Effect>
             <Sound>AS3D_SPELL_AIR_ELEMENTAL</Sound>
             <Button>Art/Interface/Buttons/Units/Air Elemental.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_SUMMON_AUREALIS</Type>
-            <Description>TXT_KEY_SPELL_SUMMON_AUREALIS</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <PromotionPrereq1>PROMOTION_SUN3</PromotionPrereq1>
-            <bAllowAI>1</bAllowAI>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <CreateUnitType>UNIT_AUREALIS</CreateUnitType>
-            <iCreateUnitNum>1</iCreateUnitNum>
-            <Effect>EFFECT_FIRE_SUMMON</Effect>
-            <Sound>AS3D_SPELL_FIRE_ELEMENTAL</Sound>
-            <Button>Art/Interface/Buttons/Units/Aurealis.dds</Button>
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_SUMMON_BALOR</Type>
@@ -3837,27 +3792,6 @@
             <Sound>AS3D_SPELL_TRAIN</Sound>
             <bGraphicalOnly>1</bGraphicalOnly>
             <Button>Art/Interface/Buttons/Equipment/War.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_TAUNT</Type>
-            <Description>TXT_KEY_SPELL_TAUNT</Description>
-            <Civilopedia>TXT_KEY_SPELL_TAUNT_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_TAUNT_HELP</Help>
-            <UnitPrereq>UNIT_HARLEQUIN</UnitPrereq>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <bResistable>1</bResistable>
-            <iRange>1</iRange>
-            <iResistModify>40</iResistModify>
-            <bImmuneTeam>1</bImmuneTeam>
-            <bImmuneNeutral>1</bImmuneNeutral>
-            <bImmuneNotAlive>1</bImmuneNotAlive>
-            <bAbility>1</bAbility>
-            <PyResult>spellTaunt(pCaster)</PyResult>
-            <PyRequirement>reqTaunt(pCaster)</PyRequirement>
-            <Effect>EFFECT_SACRIFICE</Effect>
-            <Sound>AS3D_SPELL_SACRIFICE</Sound>
-            <Button>Art/Interface/Buttons/Spells/Taunt.dds</Button>
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_TEACH_SPELLCASTING</Type>
