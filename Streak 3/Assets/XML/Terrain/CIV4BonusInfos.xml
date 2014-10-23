@@ -446,7 +446,7 @@
             <Civilopedia>TXT_KEY_BONUS_GULAGARM_PEDIA</Civilopedia>
             <BonusClassType>BONUSCLASS_GENERAL</BonusClassType>
             <ArtDefineTag>ART_DEF_BONUS_OLIVES</ArtDefineTag>
-            <TechReveal>NONE</TechReveal>
+            <TechReveal>TECH_FOOD1</TechReveal>
             <TechCityTrade>NONE</TechCityTrade>
             <TechObsolete>NONE</TechObsolete>
             <YieldChanges>
@@ -578,7 +578,7 @@
             <Civilopedia>TXT_KEY_BONUS_BANANA_PEDIA</Civilopedia>
             <BonusClassType>BONUSCLASS_GENERAL</BonusClassType>
             <ArtDefineTag>ART_DEF_BONUS_BANANA</ArtDefineTag>
-            <TechReveal>NONE</TechReveal>
+            <TechReveal>TECH_FOOD1</TechReveal>
             <TechCityTrade>NONE</TechCityTrade>
             <TechObsolete>NONE</TechObsolete>
             <YieldChanges>
