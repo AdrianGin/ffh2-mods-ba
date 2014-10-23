@@ -429,7 +429,7 @@
 			<YieldChanges>
 				<iYieldChange>1</iYieldChange>
 				<iYieldChange>1</iYieldChange>
-				<iYieldChange>0</iYieldChange>
+				<iYieldChange>1</iYieldChange>
 			</YieldChanges>
 			<bActsAsCity>0</bActsAsCity>
 			<bHillsMakesValid>1</bHillsMakesValid>
@@ -465,11 +465,11 @@
 			<ImprovementUpgrade/>
 			<TechYieldChanges>
 				<TechYieldChange>
-					<PrereqTech>TECH_FOOD2</PrereqTech>
+					<PrereqTech>TECH_FOOD3</PrereqTech>
 					<TechYields>
-						<iYield>0</iYield>
-						<iYield>0</iYield>
 						<iYield>1</iYield>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
 					</TechYields>
 				</TechYieldChange>
 			</TechYieldChanges>
@@ -496,9 +496,14 @@
 			<Civilopedia/>
 			<Help/>
 			<ArtDefineTag>ART_DEF_IMPROVEMENT_WORKSHOP</ArtDefineTag>
+			<PrereqNatureYields>
+				<iYield>1</iYield>
+				<iYield>0</iYield>
+				<iYield>0</iYield>
+			</PrereqNatureYields>
 			<YieldChanges>
-				<iYieldChange>0</iYieldChange>
-				<iYieldChange>1</iYieldChange>
+				<iYieldChange>-1</iYieldChange>
+				<iYieldChange>2</iYieldChange>
 				<iYieldChange>1</iYieldChange>
 			</YieldChanges>
 			<bActsAsCity>0</bActsAsCity>
@@ -551,10 +556,10 @@
 			<ImprovementUpgrade/>
 			<TechYieldChanges>
 				<TechYieldChange>
-					<PrereqTech>TECH_PRODUCTION2</PrereqTech>
+					<PrereqTech>TECH_PRODUCTION3</PrereqTech>
 					<TechYields>
 						<iYield>0</iYield>
-						<iYield>1</iYield>
+						<iYield>2</iYield>
 						<iYield>0</iYield>
 					</TechYields>
 				</TechYieldChange>
@@ -583,9 +588,9 @@
 			<Help/>
 			<ArtDefineTag>ART_DEF_IMPROVEMENT_PLANTATION</ArtDefineTag>
 			<YieldChanges>
-				<iYieldChange>1</iYieldChange>
 				<iYieldChange>0</iYieldChange>
-				<iYieldChange>1</iYieldChange>
+				<iYieldChange>0</iYieldChange>
+				<iYieldChange>2</iYieldChange>
 			</YieldChanges>
 			<bActsAsCity>0</bActsAsCity>
 			<bHillsMakesValid>0</bHillsMakesValid>
@@ -733,9 +738,9 @@
 				<TechYieldChange>
 					<PrereqTech>TECH_COMMERCE2</PrereqTech>
 					<TechYields>
+						<iYield>1</iYield>
 						<iYield>0</iYield>
-						<iYield>0</iYield>
-						<iYield>2</iYield>
+						<iYield>1</iYield>
 					</TechYields>
 				</TechYieldChange>
             </TechYieldChanges>
@@ -1167,7 +1172,7 @@
 				<TechYieldChange>
 					<PrereqTech>TECH_FISH2</PrereqTech>
 					<TechYields>
-						<iYield>2</iYield>
+						<iYield>1</iYield>
 						<iYield>0</iYield>
 						<iYield>1</iYield>
 					</TechYields>
@@ -1288,7 +1293,7 @@
 			<ImprovementUpgrade/>
 			<TechYieldChanges>
 				<TechYieldChange>
-					<PrereqTech>TECH_FOOD1</PrereqTech>
+					<PrereqTech>TECH_FOOD2</PrereqTech>
 					<TechYields>
 						<iYield>1</iYield>
 						<iYield>0</iYield>
