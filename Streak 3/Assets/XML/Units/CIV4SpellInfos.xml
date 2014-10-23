@@ -917,21 +917,6 @@
             <Button>Art/Interface/Buttons/Spells/Entertain.dds</Button>
         </SpellInfo>
         <SpellInfo>
-            <Type>SPELL_ESCAPE</Type>
-            <Description>TXT_KEY_SPELL_ESCAPE</Description>
-            <Civilopedia>TXT_KEY_SPELL_ESCAPE_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_ESCAPE_HELP</Help>
-            <UnitPrereq>UNIT_CHANTER</UnitPrereq>
-            <bAllowAI>1</bAllowAI>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <PyResult>spellTeleport(pCaster,'Capital')</PyResult>
-            <PyRequirement>reqEscape(pCaster)</PyRequirement>
-            <Effect>EFFECT_SPELL2</Effect>
-            <Sound>AS3D_SPELL_ESCAPE</Sound>
-            <Button>Art/Interface/Buttons/Spells/Escape.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
             <Type>SPELL_EXPLORE_LAIR_AIFON_ISLE</Type>
             <Description>TXT_KEY_SPELL_EXPLORE_LAIR</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
@@ -1757,22 +1742,6 @@
             <Button>Art/Interface/Buttons/Spells/March of the Trees.dds</Button>
         </SpellInfo>
         <SpellInfo>
-            <Type>SPELL_MASK</Type>
-            <Description>TXT_KEY_SPELL_MASK</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <UnitCombatPrereq>UNITCOMBAT_RECON</UnitCombatPrereq>
-            <ReligionPrereq>RELIGION_COUNCIL_OF_ESUS</ReligionPrereq>
-            <TechPrereq>TECH_DECEPTION</TechPrereq>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <AddPromotionType1>PROMOTION_HIDDEN_NATIONALITY</AddPromotionType1>
-            <bBuffCasterOnly>1</bBuffCasterOnly>
-            <PyRequirement>reqMask(pCaster)</PyRequirement>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_ENCHANTMENT</Sound>
-            <Button>Art/Interface/Buttons/Spells/Mask.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
             <Type>SPELL_MIRROR</Type>
             <Description>TXT_KEY_SPELL_MIRROR</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
@@ -2215,20 +2184,6 @@
             <Button>Art/Interface/Buttons/Spells/Ressurection.dds</Button>
         </SpellInfo>
         <SpellInfo>
-            <Type>SPELL_REVEAL</Type>
-            <Description>TXT_KEY_SPELL_REVEAL</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_REVEAL_HELP</Help>
-            <BuildingClassOwnedPrereq>BUILDINGCLASS_NOX_NOCTIS</BuildingClassOwnedPrereq>
-            <bHasCasted>1</bHasCasted>
-            <bAbility>1</bAbility>
-            <PyResult>spellReveal(pCaster)</PyResult>
-            <PyRequirement>reqReveal(pCaster)</PyRequirement>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_REVELATION</Sound>
-            <Button>Art/Interface/Buttons/Spells/Reveal.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
             <Type>SPELL_REVELATION</Type>
             <Description>TXT_KEY_SPELL_REVELATION</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
@@ -2610,24 +2565,6 @@
             <Button>Art/Interface/Buttons/Spells/Spores.dds</Button>
         </SpellInfo>
         <SpellInfo>
-            <Type>SPELL_SPREAD_THE_COUNCIL_OF_ESUS</Type>
-            <Description>TXT_KEY_SPELL_SPREAD_THE_COUNCIL_OF_ESUS</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <ReligionPrereq>RELIGION_COUNCIL_OF_ESUS</ReligionPrereq>
-            <bAllowAI>1</bAllowAI>
-            <bInCityOnly>1</bInCityOnly>
-            <iAIWeight>50</iAIWeight>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <SpreadReligion>RELIGION_COUNCIL_OF_ESUS</SpreadReligion>
-            <bAbility>1</bAbility>
-            <iCost>25</iCost>
-            <PyRequirement>reqSpreadTheCouncilOfEsus(pCaster)</PyRequirement>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_COUNCIL_OF_ESUS_DINK</Sound>
-            <Button>Art/Interface/Buttons/Religions/Council of Esus.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
             <Type>SPELL_SPRING</Type>
             <Description>TXT_KEY_SPELL_SPRING</Description>
             <Civilopedia>TXT_KEY_SPELL_SPRING_PEDIA</Civilopedia>
@@ -2675,25 +2612,6 @@
             <Effect>EFFECT_SPELL1</Effect>
             <Sound>AS3D_SPELL_HASTE</Sound>
             <Button>Art/Interface/Buttons/Spells/Stasis.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_STEAL</Type>
-            <Description>TXT_KEY_SPELL_STEAL</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_STEAL_HELP</Help>
-            <UnitCombatPrereq>UNITCOMBAT_RECON</UnitCombatPrereq>
-            <ReligionPrereq>RELIGION_COUNCIL_OF_ESUS</ReligionPrereq>
-            <StateReligionPrereq>RELIGION_COUNCIL_OF_ESUS</StateReligionPrereq>
-            <bAllowAI>1</bAllowAI>
-            <bCausesWar>1</bCausesWar>
-            <iAIWeight>50</iAIWeight>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <PyResult>spellSteal(pCaster)</PyResult>
-            <PyRequirement>reqSteal(pCaster)</PyRequirement>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_CONTAGION</Sound>
-            <Button>Art/Interface/Buttons/Spells/Steal.dds</Button>
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_STONESKIN</Type>
@@ -2857,20 +2775,6 @@
             <Effect>EFFECT_SPELL2</Effect>
             <Sound>AS3D_SPELL_TIGER</Sound>
             <Button>Art/Interface/Buttons/Units/Sand Lion.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_SUMMON_SPECTRE</Type>
-            <Description>TXT_KEY_SPELL_SUMMON_SPECTRE</Description>
-            <Civilopedia>TXT_KEY_SPELL_SUMMON_SPECTRE_PEDIA</Civilopedia>
-            <PromotionPrereq1>PROMOTION_DEATH2</PromotionPrereq1>
-            <bAllowAI>1</bAllowAI>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <CreateUnitType>UNIT_SPECTRE</CreateUnitType>
-            <iCreateUnitNum>1</iCreateUnitNum>
-            <Effect>EFFECT_SPELL2</Effect>
-            <Sound>AS3D_SPELL_SPECTRE</Sound>
-            <Button>Art/Interface/Buttons/Units/Spectre.dds</Button>
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_SUMMON_TIGER</Type>
@@ -3973,24 +3877,6 @@
             <Button>Art/Interface/Buttons/Units/Beastman.dds</Button>
         </SpellInfo>
         <SpellInfo>
-            <Type>SPELL_UPGRADE_SPECTRE</Type>
-            <Description>TXT_KEY_SPELL_UPGRADE_SPECTRE</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <UnitPrereq>UNIT_SKELETON</UnitPrereq>
-            <CivilizationPrereq>CIVILIZATION_BARBARIAN</CivilizationPrereq>
-            <bAllowAI>1</bAllowAI>
-            <iAIWeight>300</iAIWeight>
-            <iCasterMinLevel>3</iCasterMinLevel>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <ConvertUnitType>UNIT_SPECTRE</ConvertUnitType>
-            <bAbility>1</bAbility>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_TRAIN</Sound>
-            <bGraphicalOnly>1</bGraphicalOnly>
-            <Button>Art/Interface/Buttons/Units/Spectre.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
             <Type>SPELL_UPGRADE_WOLF_RIDER</Type>
             <Description>TXT_KEY_SPELL_UPGRADE_WOLF_RIDER</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
@@ -4007,24 +3893,6 @@
             <Sound>AS3D_SPELL_TRAIN</Sound>
             <bGraphicalOnly>1</bGraphicalOnly>
             <Button>Art/Interface/Buttons/Units/Wolf Rider Scorpion Clan.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_UPGRADE_WRAITH</Type>
-            <Description>TXT_KEY_SPELL_UPGRADE_WRAITH</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <UnitPrereq>UNIT_SPECTRE</UnitPrereq>
-            <CivilizationPrereq>CIVILIZATION_BARBARIAN</CivilizationPrereq>
-            <bAllowAI>1</bAllowAI>
-            <iAIWeight>300</iAIWeight>
-            <iCasterMinLevel>5</iCasterMinLevel>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <ConvertUnitType>NONE</ConvertUnitType>
-            <bAbility>1</bAbility>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_TRAIN</Sound>
-            <bGraphicalOnly>1</bGraphicalOnly>
-            <Button>Art/Interface/Buttons/Units/Spectre.dds</Button>
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_VALOR</Type>
@@ -4133,24 +4001,6 @@
             <Effect>EFFECT_CREATION</Effect>
             <Sound>AS3D_SPELL_WATER</Sound>
             <Button>Art/Interface/Buttons/Promotions/Waterwalking.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_WHITEOUT</Type>
-            <Description>TXT_KEY_SPELL_WHITEOUT</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_WHITEOUT_HELP</Help>
-            <UnitClassPrereq>UNITCLASS_ASSASSIN</UnitClassPrereq>
-            <CivilizationPrereq>NONE</CivilizationPrereq>
-            <bAllowAI>1</bAllowAI>
-            <iAIWeight>50</iAIWeight>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <AddPromotionType1>PROMOTION_HIDDEN</AddPromotionType1>
-            <bBuffCasterOnly>1</bBuffCasterOnly>
-            <PyRequirement>reqWhiteout(pCaster)</PyRequirement>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_HOPE</Sound>
-            <Button>Art/Interface/Buttons/Spells/Whiteout.dds</Button>
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_WILD_HUNT</Type>

@@ -10,110 +10,6 @@
 			<Type>UNIT_ARTSTYLE_AMURITES</Type>
 			<StyleUnits>
 				<StyleUnit>
-					<UnitType>UNIT_ADEPT</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_ADEPT_AMURITES</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_ADEPT_AMURITES</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_ADEPT_AMURITES</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_ARCHER</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_ARCHER_AMURITES</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_ARCHER_AMURITES</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_ARCHER_AMURITES</MiddleArtDefineTag>
-					</UnitMeshGroup>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_ARCHER_AMURITES</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_ARCHER_AMURITES</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_ARCHER_AMURITES</MiddleArtDefineTag>
-					</UnitMeshGroup>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_ARCHER_AMURITES</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_ARCHER_AMURITES</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_ARCHER_AMURITES</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_ARCHMAGE</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_ARCHMAGE_AMURITES</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_ARCHMAGE_AMURITES</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_ARCHMAGE_AMURITES</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_CHARIOT</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_CHARIOT_AMURITES</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_CHARIOT_AMURITES</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_CHARIOT_AMURITES</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_CROSSBOWMAN</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_CROSSBOWMAN_AMURITES</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_CROSSBOWMAN_AMURITES</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_CROSSBOWMAN_AMURITES</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_HORSE_ARCHER</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_HORSE_ARCHER_AMURITES</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_HORSE_ARCHER_AMURITES</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_HORSE_ARCHER_AMURITES</MiddleArtDefineTag>
-					</UnitMeshGroup>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_HORSE_ARCHER_AMURITES</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_HORSE_ARCHER_AMURITES</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_HORSE_ARCHER_AMURITES</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_HORSEMAN</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_HORSEMAN_AMURITES</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_HORSEMAN_AMURITES</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_HORSEMAN_AMURITES</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_IMMORTAL</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_IMMORTAL_AMURITES</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_IMMORTAL_AMURITES</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_IMMORTAL_AMURITES</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_CHAMPION</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_CHAMPION_AMURITES</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_CHAMPION_AMURITES</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_CHAMPION_AMURITES</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_MARKSMAN</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_MARKSMAN_AMURITES</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_MARKSMAN_AMURITES</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_MARKSMAN_AMURITES</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_PHALANX</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_PHALANX_AMURITES</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_PHALANX_AMURITES</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_PHALANX_AMURITES</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-			
-				<StyleUnit>
 					<UnitType>UNIT_SCOUT</UnitType>
 					<UnitMeshGroup>
 						<EarlyArtDefineTag>ART_DEF_UNIT_SCOUT_AMURITES</EarlyArtDefineTag>
@@ -127,14 +23,6 @@
 						<EarlyArtDefineTag>ART_DEF_UNIT_SWORDSMAN_AMURITES</EarlyArtDefineTag>
 						<LateArtDefineTag>ART_DEF_UNIT_SWORDSMAN_AMURITES</LateArtDefineTag>
 						<MiddleArtDefineTag>ART_DEF_UNIT_SWORDSMAN_AMURITES</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_WAR_ELEPHANT</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_WAR_ELEPHANT_AMURITES</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_WAR_ELEPHANT_AMURITES</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_WAR_ELEPHANT_AMURITES</MiddleArtDefineTag>
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
@@ -297,91 +185,6 @@
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
-					<UnitType>UNIT_CHAMPION</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_CHAMPION_BANNOR</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_CHAMPION_BANNOR</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_CHAMPION_BANNOR</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_CHARIOT</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_CHARIOT_BANNOR</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_CHARIOT_BANNOR</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_CHARIOT_BANNOR</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_CROSSBOWMAN</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_CROSSBOWMAN_BANNOR</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_CROSSBOWMAN_BANNOR</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_CROSSBOWMAN_BANNOR</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_HORSE_ARCHER</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_HORSE_ARCHER_BANNOR</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_HORSE_ARCHER_BANNOR</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_HORSE_ARCHER_BANNOR</MiddleArtDefineTag>
-					</UnitMeshGroup>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_HORSE_ARCHER_BANNOR</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_HORSE_ARCHER_BANNOR</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_HORSE_ARCHER_BANNOR</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_HORSEMAN</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_HORSEMAN_BANNOR</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_HORSEMAN_BANNOR</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_HORSEMAN_BANNOR</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_IMMORTAL</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_IMMORTAL_BANNOR</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_IMMORTAL_BANNOR</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_IMMORTAL_BANNOR</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_KNIGHT</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_KNIGHT_BANNOR</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_KNIGHT_BANNOR</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_KNIGHT_BANNOR</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_LONGBOWMAN</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_LONGBOWMAN_BANNOR</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_LONGBOWMAN_BANNOR</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_LONGBOWMAN_BANNOR</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_PHALANX</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_PHALANX_BANNOR</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_PHALANX_BANNOR</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_PHALANX_BANNOR</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_WAR_ELEPHANT</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_WAR_ELEPHANT_BANNOR</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_WAR_ELEPHANT_BANNOR</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_WAR_ELEPHANT_BANNOR</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
 					<UnitType>UNIT_WARRIOR</UnitType>
 					<UnitMeshGroup>
 						<EarlyArtDefineTag>ART_DEF_UNIT_WARRIOR_BANNOR</EarlyArtDefineTag>
@@ -454,98 +257,7 @@
 		<UnitArtStyleTypeInfo>
 			<Type>UNIT_ARTSTYLE_ORC</Type>
 			<StyleUnits>
-				<StyleUnit>
-					<UnitType>UNIT_ADEPT</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_ADEPT_CLAN_OF_EMBERS</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_ADEPT_CLAN_OF_EMBERS</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_ADEPT_CLAN_OF_EMBERS</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_ARCHMAGE</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_ARCHMAGE_CLAN_OF_EMBERS</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_ARCHMAGE_CLAN_OF_EMBERS</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_ARCHMAGE_CLAN_OF_EMBERS</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_ARCHER</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_ARCHER_CLAN_OF_EMBERS</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_ARCHER_CLAN_OF_EMBERS</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_ARCHER_CLAN_OF_EMBERS</MiddleArtDefineTag>
-					</UnitMeshGroup>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_ARCHER_CLAN_OF_EMBERS</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_ARCHER_CLAN_OF_EMBERS</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_ARCHER_CLAN_OF_EMBERS</MiddleArtDefineTag>
-					</UnitMeshGroup>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_ARCHER_CLAN_OF_EMBERS</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_ARCHER_CLAN_OF_EMBERS</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_ARCHER_CLAN_OF_EMBERS</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_ASSASSIN</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_ASSASSIN_CLAN_OF_EMBERS</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_ASSASSIN_CLAN_OF_EMBERS</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_ASSASSIN_CLAN_OF_EMBERS</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_AXEMAN</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_AXEMAN_CLAN_OF_EMBERS</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_AXEMAN_CLAN_OF_EMBERS</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_AXEMAN_CLAN_OF_EMBERS</MiddleArtDefineTag>
-					</UnitMeshGroup>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_AXEMAN_CLAN_OF_EMBERS</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_AXEMAN_CLAN_OF_EMBERS</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_AXEMAN_CLAN_OF_EMBERS</MiddleArtDefineTag>
-					</UnitMeshGroup>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_AXEMAN_CLAN_OF_EMBERS</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_AXEMAN_CLAN_OF_EMBERS</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_AXEMAN_CLAN_OF_EMBERS</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_BEASTMASTER</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_BEASTMASTER_CLAN_OF_EMBERS</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_BEASTMASTER_CLAN_OF_EMBERS</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_BEASTMASTER_CLAN_OF_EMBERS</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_BERSERKER</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_BERSERKER_CLAN_OF_EMBERS</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_BERSERKER_CLAN_OF_EMBERS</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_BERSERKER_CLAN_OF_EMBERS</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_CATAPULT</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_CATAPULT_CLAN_OF_EMBERS</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_CATAPULT_CLAN_OF_EMBERS</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_CATAPULT_CLAN_OF_EMBERS</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_CHARIOT</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_CHARIOT_CLAN_OF_EMBERS</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_CHARIOT_CLAN_OF_EMBERS</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_CHARIOT_CLAN_OF_EMBERS</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
+				
 				<StyleUnit>
 					<UnitType>UNIT_CROSSBOWMAN</UnitType>
 					<UnitMeshGroup>
@@ -563,35 +275,11 @@
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
-					<UnitType>UNIT_HAWK</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_RAVEN</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_RAVEN</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_RAVEN</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_LONGBOWMAN</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_LONGBOWMAN_CLAN_OF_EMBERS</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_LONGBOWMAN_CLAN_OF_EMBERS</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_LONGBOWMAN_CLAN_OF_EMBERS</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
 					<UnitType>UNIT_MAGE</UnitType>
 					<UnitMeshGroup>
 						<EarlyArtDefineTag>ART_DEF_UNIT_MAGE_CLAN_OF_EMBERS</EarlyArtDefineTag>
 						<LateArtDefineTag>ART_DEF_UNIT_MAGE_CLAN_OF_EMBERS</LateArtDefineTag>
 						<MiddleArtDefineTag>ART_DEF_UNIT_MAGE_CLAN_OF_EMBERS</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_MARKSMAN</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_MARKSMAN_CLAN_OF_EMBERS</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_MARKSMAN_CLAN_OF_EMBERS</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_MARKSMAN_CLAN_OF_EMBERS</MiddleArtDefineTag>
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
@@ -715,22 +403,6 @@
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
-					<UnitType>UNIT_ASSASSIN</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_ASSASSIN_SVARTALFAR</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_ASSASSIN_SVARTALFAR</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_ASSASSIN_SVARTALFAR</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_BEASTMASTER</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_BEASTMASTER_SVARTALFAR</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_BEASTMASTER_SVARTALFAR</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_BEASTMASTER_SVARTALFAR</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
 					<UnitType>UNIT_DRUID</UnitType>
 					<UnitMeshGroup>
 						<EarlyArtDefineTag>ART_DEF_UNIT_DRUID_SVARTALFAR</EarlyArtDefineTag>
@@ -744,70 +416,6 @@
 						<EarlyArtDefineTag>ART_DEF_UNIT_CHAMPION_SVARTALFAR</EarlyArtDefineTag>
 						<LateArtDefineTag>ART_DEF_UNIT_CHAMPION_SVARTALFAR</LateArtDefineTag>
 						<MiddleArtDefineTag>ART_DEF_UNIT_CHAMPION_SVARTALFAR</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_COMMANDER</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_CHAMPION_SVARTALFAR</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_CHAMPION_SVARTALFAR</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_CHAMPION_SVARTALFAR</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_CROSSBOWMAN</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_CROSSBOWMAN_SVARTALFAR</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_CROSSBOWMAN_SVARTALFAR</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_CROSSBOWMAN_SVARTALFAR</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_HORSEMAN</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_HORSEMAN_SVARTALFAR</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_HORSEMAN_SVARTALFAR</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_HORSEMAN_SVARTALFAR</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_IMMORTAL</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_IMMORTAL_SVARTALFAR</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_IMMORTAL_SVARTALFAR</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_IMMORTAL_SVARTALFAR</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_LONGBOWMAN</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_LONGBOWMAN_SVARTALFAR</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_LONGBOWMAN_SVARTALFAR</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_LONGBOWMAN_SVARTALFAR</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_MAGE</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_ILLUSIONIST</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_ILLUSIONIST</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_ILLUSIONIST</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_MARKSMAN</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_MARKSMAN_SVARTALFAR</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_MARKSMAN_SVARTALFAR</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_MARKSMAN_SVARTALFAR</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_PALADIN</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_PALADIN_LJOSALFAR</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_PALADIN_LJOSALFAR</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_PALADIN_LJOSALFAR</MiddleArtDefineTag>
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
@@ -884,32 +492,6 @@
 			<Type>UNIT_ARTSTYLE_DOVIELLO</Type>
 			<StyleUnits>
 				<StyleUnit>
-					<UnitType>UNIT_ASSASSIN</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_ASSASSIN_DOVIELLO</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_ASSASSIN_DOVIELLO</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_ASSASSIN_DOVIELLO</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_AXEMAN</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_AXEMAN_DOVIELLO</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_AXEMAN_DOVIELLO</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_AXEMAN_DOVIELLO</MiddleArtDefineTag>
-					</UnitMeshGroup>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_AXEMAN_DOVIELLO</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_AXEMAN_DOVIELLO</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_AXEMAN_DOVIELLO</MiddleArtDefineTag>
-					</UnitMeshGroup>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_AXEMAN_DOVIELLO</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_AXEMAN_DOVIELLO</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_AXEMAN_DOVIELLO</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
 					<UnitType>UNIT_CATAPULT</UnitType>
 					<UnitMeshGroup>
 						<EarlyArtDefineTag>ART_DEF_UNIT_CATAPULT_DOVIELLO</EarlyArtDefineTag>
@@ -952,14 +534,6 @@
 						<EarlyArtDefineTag>ART_DEF_UNIT_HORSEMAN_DOVIELLO</EarlyArtDefineTag>
 						<LateArtDefineTag>ART_DEF_UNIT_HORSEMAN_DOVIELLO</LateArtDefineTag>
 						<MiddleArtDefineTag>ART_DEF_UNIT_HORSEMAN_DOVIELLO</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_LONGBOWMAN</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_LONGBOWMAN_DOVIELLO</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_LONGBOWMAN_DOVIELLO</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_LONGBOWMAN_DOVIELLO</MiddleArtDefineTag>
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
@@ -1044,75 +618,6 @@
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
-					<UnitType>UNIT_CHAMPION</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_CHAMPION_ELOHIM</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_CHAMPION_ELOHIM</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_CHAMPION_ELOHIM</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_CHARIOT</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_CHARIOT_ELOHIM</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_CHARIOT_ELOHIM</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_CHARIOT_ELOHIM</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_HORSE_ARCHER</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_HORSE_ARCHER_ELOHIM</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_HORSE_ARCHER_ELOHIM</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_HORSE_ARCHER_ELOHIM</MiddleArtDefineTag>
-					</UnitMeshGroup>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_HORSE_ARCHER_ELOHIM</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_HORSE_ARCHER_ELOHIM</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_HORSE_ARCHER_ELOHIM</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_HORSEMAN</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_HORSEMAN_ELOHIM</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_HORSEMAN_ELOHIM</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_HORSEMAN_ELOHIM</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_LONGBOWMAN</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_LONGBOWMAN_ELOHIM</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_LONGBOWMAN_ELOHIM</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_LONGBOWMAN_ELOHIM</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_MAGE</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_MAGE_ELOHIM</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_MAGE_ELOHIM</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_MAGE_ELOHIM</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_SCOUT</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_SCOUT_ELOHIM</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_SCOUT_ELOHIM</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_SCOUT_ELOHIM</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_WAR_ELEPHANT</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_WAR_ELEPHANT_ELOHIM</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_WAR_ELEPHANT_ELOHIM</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_WAR_ELEPHANT_ELOHIM</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
 					<UnitType>UNIT_WARRIOR</UnitType>
 					<UnitMeshGroup>
 						<EarlyArtDefineTag>ART_DEF_UNIT_WARRIOR_ELOHIM</EarlyArtDefineTag>
@@ -1135,14 +640,7 @@
 		<UnitArtStyleTypeInfo>
 			<Type>UNIT_ARTSTYLE_GRIGORI</Type>
 			<StyleUnits>
-				<StyleUnit>
-					<UnitType>UNIT_ADEPT</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_ADEPT_GRIGORI</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_ADEPT_GRIGORI</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_ADEPT_GRIGORI</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
+				
 				<StyleUnit>
 					<UnitType>UNIT_ARCHER</UnitType>
 					<UnitMeshGroup>
@@ -1159,69 +657,6 @@
 						<EarlyArtDefineTag>ART_DEF_UNIT_ARCHER_GRIGORI_B</EarlyArtDefineTag>
 						<LateArtDefineTag>ART_DEF_UNIT_ARCHER_GRIGORI_B</LateArtDefineTag>
 						<MiddleArtDefineTag>ART_DEF_UNIT_ARCHER_GRIGORI_B</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_ARCHMAGE</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_ARCHMAGE_GRIGORI</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_ARCHMAGE_GRIGORI</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_ARCHMAGE_GRIGORI</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_AXEMAN</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_AXEMAN_GRIGORI</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_AXEMAN_GRIGORI</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_AXEMAN_GRIGORI</MiddleArtDefineTag>
-					</UnitMeshGroup>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_AXEMAN_GRIGORI_B</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_AXEMAN_GRIGORI_B</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_AXEMAN_GRIGORI_B</MiddleArtDefineTag>
-					</UnitMeshGroup>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_AXEMAN_GRIGORI_C</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_AXEMAN_GRIGORI_C</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_AXEMAN_GRIGORI_C</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_CHARIOT</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_CHARIOT_GRIGORI</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_CHARIOT_GRIGORI</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_CHARIOT_GRIGORI</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_HORSE_ARCHER</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_HORSE_ARCHER_GRIGORI</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_HORSE_ARCHER_GRIGORI</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_HORSE_ARCHER_GRIGORI</MiddleArtDefineTag>
-					</UnitMeshGroup>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_HORSE_ARCHER_GRIGORI_B</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_HORSE_ARCHER_GRIGORI_B</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_HORSE_ARCHER_GRIGORI_B</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_HORSEMAN</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_HORSEMAN_GRIGORI</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_HORSEMAN_GRIGORI</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_HORSEMAN_GRIGORI</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_LONGBOWMAN</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_LONGBOWMAN_GRIGORI</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_LONGBOWMAN_GRIGORI</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_LONGBOWMAN_GRIGORI</MiddleArtDefineTag>
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
@@ -1281,14 +716,7 @@
 						<MiddleArtDefineTag>ART_DEF_UNIT_ARCHER_HIPPUS</MiddleArtDefineTag>
 					</UnitMeshGroup>
 				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_ASSASSIN</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_ASSASSIN_HIPPUS</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_ASSASSIN_HIPPUS</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_ASSASSIN_HIPPUS</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
+		
 				<StyleUnit>
 					<UnitType>UNIT_AXEMAN</UnitType>
 					<UnitMeshGroup>
@@ -1305,67 +733,6 @@
 						<EarlyArtDefineTag>ART_DEF_UNIT_AXEMAN_HIPPUS</EarlyArtDefineTag>
 						<LateArtDefineTag>ART_DEF_UNIT_AXEMAN_HIPPUS</LateArtDefineTag>
 						<MiddleArtDefineTag>ART_DEF_UNIT_AXEMAN_HIPPUS</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_CHARIOT</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_CHARIOT_HIPPUS</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_CHARIOT_HIPPUS</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_CHARIOT_HIPPUS</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_CROSSBOWMAN</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_CROSSBOWMAN_HIPPUS</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_CROSSBOWMAN_HIPPUS</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_CROSSBOWMAN_HIPPUS</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_HORSE_ARCHER</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_HORSE_ARCHER_HIPPUS</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_HORSE_ARCHER_HIPPUS</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_HORSE_ARCHER_HIPPUS</MiddleArtDefineTag>
-					</UnitMeshGroup>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_HORSE_ARCHER_HIPPUS</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_HORSE_ARCHER_HIPPUS</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_HORSE_ARCHER_HIPPUS</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_HORSEMAN</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_HORSEMAN_HIPPUS</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_HORSEMAN_HIPPUS</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_HORSEMAN_HIPPUS</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_KNIGHT</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_KNIGHT_HIPPUS</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_KNIGHT_HIPPUS</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_KNIGHT_HIPPUS</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_LONGBOWMAN</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_LONGBOWMAN_HIPPUS</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_LONGBOWMAN_HIPPUS</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_LONGBOWMAN_HIPPUS</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_PHALANX</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_PHALANX_HIPPUS</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_PHALANX_HIPPUS</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_PHALANX_HIPPUS</MiddleArtDefineTag>
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
@@ -1424,14 +791,6 @@
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
-					<UnitType>UNIT_ASSASSIN</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_ASSASSIN_ILLIANS</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_ASSASSIN_ILLIANS</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_ASSASSIN_ILLIANS</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
 					<UnitType>UNIT_AXEMAN</UnitType>
 					<UnitMeshGroup>
 						<EarlyArtDefineTag>ART_DEF_UNIT_AXEMAN_ILLIANS</EarlyArtDefineTag>
@@ -1466,14 +825,6 @@
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
-					<UnitType>UNIT_CROSSBOWMAN</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_CROSSBOWMAN_ILLIANS</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_CROSSBOWMAN_ILLIANS</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_CROSSBOWMAN_ILLIANS</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
 					<UnitType>UNIT_HORSE_ARCHER</UnitType>
 					<UnitMeshGroup>
 						<EarlyArtDefineTag>ART_DEF_UNIT_HORSE_ARCHER_ILLIANS</EarlyArtDefineTag>
@@ -1484,30 +835,6 @@
 						<EarlyArtDefineTag>ART_DEF_UNIT_HORSE_ARCHER_ILLIANS</EarlyArtDefineTag>
 						<LateArtDefineTag>ART_DEF_UNIT_HORSE_ARCHER_ILLIANS</LateArtDefineTag>
 						<MiddleArtDefineTag>ART_DEF_UNIT_HORSE_ARCHER_ILLIANS</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_HORSEMAN</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_HORSEMAN_ILLIANS</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_HORSEMAN_ILLIANS</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_HORSEMAN_ILLIANS</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_JAVELIN_THROWER</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_JAVELIN_THROWER_ILLIANS</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_JAVELIN_THROWER_ILLIANS</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_JAVELIN_THROWER_ILLIANS</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_LONGBOWMAN</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_LONGBOWMAN_ILLIANS</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_LONGBOWMAN_ILLIANS</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_LONGBOWMAN_ILLIANS</MiddleArtDefineTag>
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
@@ -1592,14 +919,6 @@
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
-					<UnitType>UNIT_ASSASSIN</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_ASSASSIN_INFERNAL</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_ASSASSIN_INFERNAL</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_ASSASSIN_INFERNAL</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
 					<UnitType>UNIT_AXEMAN</UnitType>
 					<UnitMeshGroup>
 						<EarlyArtDefineTag>ART_DEF_UNIT_AXEMAN_INFERNAL</EarlyArtDefineTag>
@@ -1623,106 +942,6 @@
 						<EarlyArtDefineTag>ART_DEF_UNIT_CHAMPION_INFERNAL</EarlyArtDefineTag>
 						<LateArtDefineTag>ART_DEF_UNIT_CHAMPION_INFERNAL</LateArtDefineTag>
 						<MiddleArtDefineTag>ART_DEF_UNIT_CHAMPION_INFERNAL</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_CHARIOT</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_CHARIOT_INFERNAL</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_CHARIOT_INFERNAL</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_CHARIOT_INFERNAL</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_CROSSBOWMAN</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_CROSSBOWMAN_INFERNAL</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_CROSSBOWMAN_INFERNAL</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_CROSSBOWMAN_INFERNAL</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_HORSE_ARCHER</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_HORSE_ARCHER_INFERNAL</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_HORSE_ARCHER_INFERNAL</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_HORSE_ARCHER_INFERNAL</MiddleArtDefineTag>
-					</UnitMeshGroup>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_HORSE_ARCHER_INFERNAL</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_HORSE_ARCHER_INFERNAL</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_HORSE_ARCHER_INFERNAL</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_HORSEMAN</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_HORSEMAN_INFERNAL</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_HORSEMAN_INFERNAL</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_HORSEMAN_INFERNAL</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_IMMORTAL</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_IMMORTAL_INFERNAL</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_IMMORTAL_INFERNAL</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_IMMORTAL_INFERNAL</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_LONGBOWMAN</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_LONGBOWMAN_INFERNAL</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_LONGBOWMAN_INFERNAL</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_LONGBOWMAN_INFERNAL</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_MAGE</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_MAGE_INFERNAL</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_MAGE_INFERNAL</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_MAGE_INFERNAL</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_MARKSMAN</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_MARKSMAN_INFERNAL</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_MARKSMAN_INFERNAL</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_MARKSMAN_INFERNAL</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_PHALANX</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_PHALANX_INFERNAL</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_PHALANX_INFERNAL</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_PHALANX_INFERNAL</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_BEASTMASTER</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_BEASTMASTER_INFERNAL</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_BEASTMASTER_INFERNAL</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_BEASTMASTER_INFERNAL</MiddleArtDefineTag>
-					</UnitMeshGroup>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_PIT_BEAST</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_PIT_BEAST</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_PIT_BEAST</MiddleArtDefineTag>
-					</UnitMeshGroup>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_PIT_BEAST</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_PIT_BEAST</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_PIT_BEAST</MiddleArtDefineTag>
-					</UnitMeshGroup>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_PIT_BEAST</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_PIT_BEAST</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_PIT_BEAST</MiddleArtDefineTag>
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
@@ -1808,30 +1027,6 @@
 		<UnitArtStyleTypeInfo>
 			<Type>UNIT_ARTSTYLE_LIZARDMAN</Type>
 			<StyleUnits>
-				<StyleUnit>
-					<UnitType>UNIT_ASSASSIN</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_ASSASSIN_CLAN_OF_EMBERS</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_ASSASSIN_CLAN_OF_EMBERS</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_ASSASSIN_CLAN_OF_EMBERS</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_BEASTMASTER</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_BEASTMASTER_CLAN_OF_EMBERS</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_BEASTMASTER_CLAN_OF_EMBERS</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_BEASTMASTER_CLAN_OF_EMBERS</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_DRUID</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_DRUID_CLAN_OF_EMBERS</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_DRUID_CLAN_OF_EMBERS</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_DRUID_CLAN_OF_EMBERS</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
 			</StyleUnits>
 		</UnitArtStyleTypeInfo>
 		<UnitArtStyleTypeInfo>
@@ -1875,112 +1070,6 @@
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
-					<UnitType>UNIT_ASSASSIN</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_ASSASSIN_KHAZAD</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_ASSASSIN_KHAZAD</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_ASSASSIN_KHAZAD</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_AXEMAN</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_AXEMAN_KHAZAD</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_AXEMAN_KHAZAD</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_AXEMAN_KHAZAD</MiddleArtDefineTag>
-					</UnitMeshGroup>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_AXEMAN_KHAZAD</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_AXEMAN_KHAZAD</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_AXEMAN_KHAZAD</MiddleArtDefineTag>
-					</UnitMeshGroup>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_AXEMAN_KHAZAD</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_AXEMAN_KHAZAD</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_AXEMAN_KHAZAD</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_BERSERKER</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_BERSERKER_KHAZAD</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_BERSERKER_KHAZAD</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_BERSERKER_KHAZAD</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_CHAMPION</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_CHAMPION_KHAZAD</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_CHAMPION_KHAZAD</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_CHAMPION_KHAZAD</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_CHARIOT</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_CHARIOT_KHAZAD</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_CHARIOT_KHAZAD</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_CHARIOT_KHAZAD</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_CROSSBOWMAN</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_CROSSBOWMAN_KHAZAD</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_CROSSBOWMAN_KHAZAD</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_CROSSBOWMAN_KHAZAD</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_HIGH_PRIEST_OF_KILMORPH</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_HIGH_PRIEST_KILMORPH_DWARF</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_HIGH_PRIEST_KILMORPH_DWARF</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_HIGH_PRIEST_KILMORPH_DWARF</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_IMMORTAL</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_IMMORTAL_KHAZAD</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_IMMORTAL_KHAZAD</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_IMMORTAL_KHAZAD</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_MAGE</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_MAGE_LUCHUIRP</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_MAGE_LUCHUIRP</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_MAGE_LUCHUIRP</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_PALADIN</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_PALADIN_KHAZAD</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_PALADIN_KHAZAD</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_PALADIN_KHAZAD</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_PHALANX</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_PHALANX_KHAZAD</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_PHALANX_KHAZAD</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_PHALANX_KHAZAD</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_PRIEST_OF_KILMORPH</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_PRIEST_KILMORPH_DWARF</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_PRIEST_KILMORPH_DWARF</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_PRIEST_KILMORPH_DWARF</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
 					<UnitType>UNIT_SCOUT</UnitType>
 					<UnitMeshGroup>
 						<EarlyArtDefineTag>ART_DEF_UNIT_SCOUT_KHAZAD</EarlyArtDefineTag>
@@ -2004,14 +1093,6 @@
 						<EarlyArtDefineTag>ART_DEF_UNIT_SETTLER_FEMALE_KHAZAD</EarlyArtDefineTag>
 						<LateArtDefineTag>ART_DEF_UNIT_SETTLER_FEMALE_KHAZAD</LateArtDefineTag>
 						<MiddleArtDefineTag>ART_DEF_UNIT_SETTLER_FEMALE_KHAZAD</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_SHADOW</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_SHADOW_KHAZAD</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_SHADOW_KHAZAD</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_SHADOW_KHAZAD</MiddleArtDefineTag>
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
@@ -2045,30 +1126,6 @@
 		<UnitArtStyleTypeInfo>
 			<Type>UNIT_ARTSTYLE_KURIOTATES</Type>
 			<StyleUnits>
-				<StyleUnit>
-					<UnitType>UNIT_ASSASSIN</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_ASSASSIN_KURIOTATES</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_ASSASSIN_KURIOTATES</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_ASSASSIN_KURIOTATES</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_BEASTMASTER</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_BEASTMASTER_KURIOTATES</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_BEASTMASTER_KURIOTATES</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_BEASTMASTER_KURIOTATES</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_LONGBOWMAN</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_LONGBOWMAN_KURIOTATES</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_LONGBOWMAN_KURIOTATES</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_LONGBOWMAN_KURIOTATES</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
 				<StyleUnit>
 					<UnitType>UNIT_PHALANX</UnitType>
 					<UnitMeshGroup>
@@ -2130,91 +1187,6 @@
 						<EarlyArtDefineTag>ART_DEF_UNIT_ARCHER_LANUN</EarlyArtDefineTag>
 						<LateArtDefineTag>ART_DEF_UNIT_ARCHER_LANUN</LateArtDefineTag>
 						<MiddleArtDefineTag>ART_DEF_UNIT_ARCHER_LANUN</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_ARQUEBUS</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_ARQUEBUS_LANUN</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_ARQUEBUS_LANUN</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_ARQUEBUS_LANUN</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_ASSASSIN</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_ASSASSIN_LANUN</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_ASSASSIN_LANUN</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_ASSASSIN_LANUN</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_BERSERKER</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_BERSERKER_LANUN</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_BERSERKER_LANUN</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_BERSERKER_LANUN</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_CHARIOT</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_CHARIOT_LANUN</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_CHARIOT_LANUN</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_CHARIOT_LANUN</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_CROSSBOWMAN</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_CROSSBOWMAN_LANUN</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_CROSSBOWMAN_LANUN</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_CROSSBOWMAN_LANUN</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_HAWK</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_PARROT</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_PARROT</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_PARROT</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_HORSE_ARCHER</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_HORSE_ARCHER_LANUN</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_HORSE_ARCHER_LANUN</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_HORSE_ARCHER_LANUN</MiddleArtDefineTag>
-					</UnitMeshGroup>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_HORSE_ARCHER_LANUN</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_HORSE_ARCHER_LANUN</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_HORSE_ARCHER_LANUN</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_IMMORTAL</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_IMMORTAL_LANUN</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_IMMORTAL_LANUN</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_IMMORTAL_LANUN</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_LONGBOWMAN</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_LONGBOWMAN_LANUN</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_LONGBOWMAN_LANUN</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_LONGBOWMAN_LANUN</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_PHALANX</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_PHALANX_LANUN</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_PHALANX_LANUN</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_PHALANX_LANUN</MiddleArtDefineTag>
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
@@ -2338,94 +1310,6 @@
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
-					<UnitType>UNIT_ASSASSIN</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_ASSASSIN_LJOSALFAR</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_ASSASSIN_LJOSALFAR</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_ASSASSIN_LJOSALFAR</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_BEASTMASTER</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_BEASTMASTER_LJOSALFAR</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_BEASTMASTER_LJOSALFAR</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_BEASTMASTER_LJOSALFAR</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_DRUID</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_DRUID_LJOSALFAR</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_DRUID_LJOSALFAR</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_DRUID_LJOSALFAR</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_HORSEMAN</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_HORSEMAN_LJOSALFAR</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_HORSEMAN_LJOSALFAR</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_HORSEMAN_LJOSALFAR</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_IMMORTAL</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_IMMORTAL_LJOSALFAR</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_IMMORTAL_LJOSALFAR</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_IMMORTAL_LJOSALFAR</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_KNIGHT</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_KNIGHT_LJOSALFAR</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_KNIGHT_LJOSALFAR</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_KNIGHT_LJOSALFAR</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_LONGBOWMAN</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_LONGBOWMAN_LJOSALFAR</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_LONGBOWMAN_LJOSALFAR</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_LONGBOWMAN_LJOSALFAR</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_CHAMPION</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_CHAMPION_LJOSALFAR</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_CHAMPION_LJOSALFAR</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_CHAMPION_LJOSALFAR</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_MAGE</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_MAGE_LJOSALFAR</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_MAGE_LJOSALFAR</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_MAGE_LJOSALFAR</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_MARKSMAN</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_MARKSMAN_LJOSALFAR</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_MARKSMAN_LJOSALFAR</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_MARKSMAN_LJOSALFAR</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_PALADIN</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_PALADIN_LJOSALFAR</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_PALADIN_LJOSALFAR</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_PALADIN_LJOSALFAR</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
 					<UnitType>UNIT_SCOUT</UnitType>
 					<UnitMeshGroup>
 						<EarlyArtDefineTag>ART_DEF_UNIT_SCOUT_LJOSALFAR</EarlyArtDefineTag>
@@ -2498,78 +1382,6 @@
 		<UnitArtStyleTypeInfo>
 			<Type>UNIT_ARTSTYLE_ILLUSION</Type>
 			<StyleUnits>
-				<StyleUnit>
-					<UnitType>UNIT_ALAZKAN</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_ALAZKAN_ILLUSION</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_ALAZKAN_ILLUSION</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_ALAZKAN_ILLUSION</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_ASSASSIN</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_ASSASSIN_ILLIANS_ILLUSION</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_ASSASSIN_ILLIANS_ILLUSION</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_ASSASSIN_ILLIANS_ILLUSION</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_BALOR</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_BALOR_ILLUSION</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_BALOR_ILLUSION</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_BALOR_ILLUSION</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_CHAOS_MARAUDER</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_CHAOS_MARAUDER_ILLUSION</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_CHAOS_MARAUDER_ILLUSION</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_CHAOS_MARAUDER_ILLUSION</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_DJINN</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_DJINN_ILLUSION</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_DJINN_ILLUSION</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_DJINN_ILLUSION</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_EARTH_ELEMENTAL</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_EARTH_ELEMENTAL_ILLUSION</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_EARTH_ELEMENTAL_ILLUSION</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_EARTH_ELEMENTAL_ILLUSION</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_GRIFFON</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_GRIFFON_ILLUSION</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_GRIFFON_ILLUSION</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_GRIFFON_ILLUSION</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_SAND_LION</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_SAND_LION_ILLUSION</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_SAND_LION_ILLUSION</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_SAND_LION_ILLUSION</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_SKELETON</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_SKELETON_ILLUSION</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_SKELETON_ILLUSION</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_SKELETON_ILLUSION</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
 			</StyleUnits>
 		</UnitArtStyleTypeInfo>
 		<UnitArtStyleTypeInfo>
@@ -2607,78 +1419,6 @@
 						<EarlyArtDefineTag>ART_DEF_UNIT_ARCHMAGE_MALAKIM</EarlyArtDefineTag>
 						<LateArtDefineTag>ART_DEF_UNIT_ARCHMAGE_MALAKIM</LateArtDefineTag>
 						<MiddleArtDefineTag>ART_DEF_UNIT_ARCHMAGE_MALAKIM</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_ASSASSIN</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_ASSASSIN_MALAKIM</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_ASSASSIN_MALAKIM</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_ASSASSIN_MALAKIM</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_BERSERKER</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_BERSERKER_MALAKIM</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_BERSERKER_MALAKIM</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_BERSERKER_MALAKIM</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_CHAMPION</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_CHAMPION_MALAKIM</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_CHAMPION_MALAKIM</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_CHAMPION_MALAKIM</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_CHARIOT</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_CHARIOT_MALAKIM</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_CHARIOT_MALAKIM</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_CHARIOT_MALAKIM</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_HORSEMAN</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_HORSEMAN_MALAKIM</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_HORSEMAN_MALAKIM</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_HORSEMAN_MALAKIM</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_IMMORTAL</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_IMMORTAL_MALAKIM</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_IMMORTAL_MALAKIM</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_IMMORTAL_MALAKIM</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_KNIGHT</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_KNIGHT_MALAKIM</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_KNIGHT_MALAKIM</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_KNIGHT_MALAKIM</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_LONGBOWMAN</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_LONGBOWMAN_MALAKIM</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_LONGBOWMAN_MALAKIM</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_LONGBOWMAN_MALAKIM</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_MAGE</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_MAGE_MALAKIM</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_MAGE_MALAKIM</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_MAGE_MALAKIM</MiddleArtDefineTag>
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>

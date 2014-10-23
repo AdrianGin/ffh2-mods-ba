@@ -103,18 +103,6 @@
 			<VictoryThresholds/>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
-			<Type>BUILDINGCLASS_NOX_NOCTIS</Type>
-			<Description>TXT_KEY_BUILDING_NOX_NOCTIS</Description>
-			<iMaxGlobalInstances>1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iExtraPlayerInstances>0</iExtraPlayerInstances>
-			<bNoLimit>0</bNoLimit>
-			<bMonument>0</bMonument>
-			<DefaultBuilding>BUILDING_NOX_NOCTIS</DefaultBuilding>
-			<VictoryThresholds/>
-		</BuildingClassInfo>
-		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_DIES_DIEI</Type>
 			<Description>TXT_KEY_BUILDING_DIES_DIEI</Description>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>

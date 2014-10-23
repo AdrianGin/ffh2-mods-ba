@@ -261,46 +261,5 @@
 			<ReligionHero1>UNITCLASS_CHALID</ReligionHero1>
 			<ReligionTech1>TECH_HONOR</ReligionTech1>
 		</ReligionInfo>
-		<ReligionInfo>
-			<Type>RELIGION_COUNCIL_OF_ESUS</Type>
-			<Description>TXT_KEY_RELIGION_COUNCIL_OF_ESUS</Description>
-			<Adjective>TXT_KEY_RELIGION_COUNCIL_OF_ESUS_ADJECTIVE</Adjective>
-			<Civilopedia>TXT_KEY_RELIGION_COUNCIL_OF_ESUS_PEDIA</Civilopedia>
-			<TechPrereq>TECH_DECEPTION</TechPrereq>
-			<FreeUnitClass>UNITCLASS_NIGHTWATCH</FreeUnitClass>
-			<iFreeUnits>1</iFreeUnits>
-			<iSpreadFactor>100</iSpreadFactor>
-			<GlobalReligionCommerces>
-				<iGlobalReligionCommerce>1</iGlobalReligionCommerce>
-				<iGlobalReligionCommerce>0</iGlobalReligionCommerce>
-				<iGlobalReligionCommerce>0</iGlobalReligionCommerce>
-			</GlobalReligionCommerces>
-			<HolyCityCommerces>
-				<iHolyCityCommerce>0</iHolyCityCommerce>
-				<iHolyCityCommerce>0</iHolyCityCommerce>
-				<iHolyCityCommerce>4</iHolyCityCommerce>
-			</HolyCityCommerces>
-			<StateReligionCommerces>
-				<iStateReligionCommerce>0</iStateReligionCommerce>
-				<iStateReligionCommerce>0</iStateReligionCommerce>
-				<iStateReligionCommerce>1</iStateReligionCommerce>
-			</StateReligionCommerces>
-			<Button>Art/Interface/Buttons/Religions/Council of Esus.dds</Button>
-			<TechButton>Art/Interface/Buttons/Religions/Council of Esus.dds</TechButton>
-			<GenericTechButton>Art/Interface/Buttons/Religions/Council of Esus.dds</GenericTechButton>
-			<MovieFile>Art/Movies/Religion/Council_of_Esus.bik</MovieFile>
-			<MovieSound>AS2D_COUNCIL_OF_ESUS_THEME</MovieSound>
-			<Sound>AS2D_COUNCIL_OF_ESUS_DINK</Sound>
-			<bHidden>1</bHidden>
-			<bSneakAttack>1</bSneakAttack>
-			<bUpdateSight>1</bUpdateSight>
-			<iGlobalCounterFound>0</iGlobalCounterFound>
-			<iGlobalCounterSpread>0</iGlobalCounterSpread>
-			<Alignment>ALIGNMENT_EVIL</Alignment>
-			<AlignmentBest>ALIGNMENT_NEUTRAL</AlignmentBest>
-			<AlignmentWorst>ALIGNMENT_EVIL</AlignmentWorst>
-			<ReligionHero1>UNITCLASS_GIBBON</ReligionHero1>
-			<ReligionTech1>TECH_DECEPTION</ReligionTech1>
-		</ReligionInfo>
 	</ReligionInfos>
 </Civ4ReligionInfo>

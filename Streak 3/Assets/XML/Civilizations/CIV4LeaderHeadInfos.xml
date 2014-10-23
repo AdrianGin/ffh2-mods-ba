@@ -3350,10 +3350,6 @@
             <FavoriteWonder>BUILDING_AQUAE_SUCELLUS</FavoriteWonder>
             <ReligionWeightModifiers>
                  <ReligionWeightModifier>
-                    <ReligionType>RELIGION_COUNCIL_OF_ESUS</ReligionType>
-                    <iWeightModifier>-10</iWeightModifier>
-                 </ReligionWeightModifier>
-                 <ReligionWeightModifier>
                     <ReligionType>RELIGION_OCTOPUS_OVERLORDS</ReligionType>
                     <iWeightModifier>-10</iWeightModifier>
                  </ReligionWeightModifier>
@@ -3970,10 +3966,6 @@
             <FavoriteUnitCombat>UNITCOMBAT_MELEE</FavoriteUnitCombat>
             <FavoriteWonder>BUILDING_AQUAE_SUCELLUS</FavoriteWonder>
             <ReligionWeightModifiers>
-                 <ReligionWeightModifier>
-                    <ReligionType>RELIGION_COUNCIL_OF_ESUS</ReligionType>
-                    <iWeightModifier>-10</iWeightModifier>
-                 </ReligionWeightModifier>
                  <ReligionWeightModifier>
                     <ReligionType>RELIGION_OCTOPUS_OVERLORDS</ReligionType>
                     <iWeightModifier>-10</iWeightModifier>
@@ -4596,10 +4588,6 @@
             <FavoriteUnitCombat>UNITCOMBAT_MELEE</FavoriteUnitCombat>
             <FavoriteWonder>BUILDING_AQUAE_SUCELLUS</FavoriteWonder>
             <ReligionWeightModifiers>
-                 <ReligionWeightModifier>
-                    <ReligionType>RELIGION_COUNCIL_OF_ESUS</ReligionType>
-                    <iWeightModifier>-50</iWeightModifier>
-                 </ReligionWeightModifier>
                  <ReligionWeightModifier>
                     <ReligionType>RELIGION_FELLOWSHIP_OF_LEAVES</ReligionType>
                     <iWeightModifier>20</iWeightModifier>
@@ -5848,10 +5836,6 @@
             <PermanentTrait>TRAIT_SPIRITUAL</PermanentTrait>
             <ReligionWeightModifiers>
                  <ReligionWeightModifier>
-                    <ReligionType>RELIGION_COUNCIL_OF_ESUS</ReligionType>
-                    <iWeightModifier>-10</iWeightModifier>
-                 </ReligionWeightModifier>
-                 <ReligionWeightModifier>
                     <ReligionType>RELIGION_OCTOPUS_OVERLORDS</ReligionType>
                     <iWeightModifier>-10</iWeightModifier>
                  </ReligionWeightModifier>
@@ -6489,10 +6473,6 @@
             <FavoriteUnitCombat>UNITCOMBAT_DISCIPLE</FavoriteUnitCombat>
             <FavoriteWonder>BUILDING_TOWER_OF_EYES</FavoriteWonder>
             <ReligionWeightModifiers>
-                 <ReligionWeightModifier>
-                    <ReligionType>RELIGION_COUNCIL_OF_ESUS</ReligionType>
-                    <iWeightModifier>-50</iWeightModifier>
-                 </ReligionWeightModifier>
                  <ReligionWeightModifier>
                     <ReligionType>RELIGION_FELLOWSHIP_OF_LEAVES</ReligionType>
                     <iWeightModifier>40</iWeightModifier>
@@ -9758,10 +9738,6 @@
             <FavoriteWonder>BUILDING_GUILD_OF_HAMMERS</FavoriteWonder>
             <ReligionWeightModifiers>
                  <ReligionWeightModifier>
-                    <ReligionType>RELIGION_COUNCIL_OF_ESUS</ReligionType>
-                    <iWeightModifier>-10</iWeightModifier>
-                 </ReligionWeightModifier>
-                 <ReligionWeightModifier>
                     <ReligionType>RELIGION_FELLOWSHIP_OF_LEAVES</ReligionType>
                     <iWeightModifier>-10</iWeightModifier>
                  </ReligionWeightModifier>
@@ -11069,10 +11045,6 @@
             <FavoriteWonder>BUILDING_TEMPLE_OF_TEMPORENCE</FavoriteWonder>
             <PermanentTrait>TRAIT_EXPANSIVE</PermanentTrait>
             <ReligionWeightModifiers>
-                 <ReligionWeightModifier>
-                    <ReligionType>RELIGION_COUNCIL_OF_ESUS</ReligionType>
-                    <iWeightModifier>20</iWeightModifier>
-                 </ReligionWeightModifier>
                  <ReligionWeightModifier>
                     <ReligionType>RELIGION_FELLOWSHIP_OF_LEAVES</ReligionType>
                     <iWeightModifier>20</iWeightModifier>
@@ -13629,10 +13601,6 @@
             <FavoriteWonder>BUILDING_GUILD_OF_HAMMERS</FavoriteWonder>
             <ReligionWeightModifiers>
                  <ReligionWeightModifier>
-                    <ReligionType>RELIGION_COUNCIL_OF_ESUS</ReligionType>
-                    <iWeightModifier>-20</iWeightModifier>
-                 </ReligionWeightModifier>
-                 <ReligionWeightModifier>
                     <ReligionType>RELIGION_FELLOWSHIP_OF_LEAVES</ReligionType>
                     <iWeightModifier>-20</iWeightModifier>
                  </ReligionWeightModifier>
@@ -14915,10 +14883,6 @@
             <FavoriteWonder>BUILDING_GREAT_LIBRARY</FavoriteWonder>
             <ReligionWeightModifiers>
                  <ReligionWeightModifier>
-                    <ReligionType>RELIGION_COUNCIL_OF_ESUS</ReligionType>
-                    <iWeightModifier>100</iWeightModifier>
-                 </ReligionWeightModifier>
-                 <ReligionWeightModifier>
                     <ReligionType>RELIGION_THE_EMPYREAN</ReligionType>
                     <iWeightModifier>-20</iWeightModifier>
                  </ReligionWeightModifier>
@@ -15543,10 +15507,6 @@
             <FavoriteUnitCombat>UNITCOMBAT_RECON</FavoriteUnitCombat>
             <FavoriteWonder>BUILDING_GREAT_LIBRARY</FavoriteWonder>
             <ReligionWeightModifiers>
-                 <ReligionWeightModifier>
-                    <ReligionType>RELIGION_COUNCIL_OF_ESUS</ReligionType>
-                    <iWeightModifier>60</iWeightModifier>
-                 </ReligionWeightModifier>
                  <ReligionWeightModifier>
                     <ReligionType>RELIGION_FELLOWSHIP_OF_LEAVES</ReligionType>
                     <iWeightModifier>20</iWeightModifier>
@@ -16193,10 +16153,6 @@
             <FavoriteUnitCombat>UNITCOMBAT_NAVAL</FavoriteUnitCombat>
             <FavoriteWonder>BUILDING_GREAT_LIGHTHOUSE</FavoriteWonder>
             <ReligionWeightModifiers>
-                 <ReligionWeightModifier>
-                    <ReligionType>RELIGION_COUNCIL_OF_ESUS</ReligionType>
-                    <iWeightModifier>30</iWeightModifier>
-                 </ReligionWeightModifier>
                  <ReligionWeightModifier>
                     <ReligionType>RELIGION_FELLOWSHIP_OF_LEAVES</ReligionType>
                     <iWeightModifier>30</iWeightModifier>
@@ -17451,10 +17407,6 @@
             <PermanentTrait>TRAIT_PHILOSOPHICAL</PermanentTrait>
             <ReligionWeightModifiers>
                  <ReligionWeightModifier>
-                    <ReligionType>RELIGION_COUNCIL_OF_ESUS</ReligionType>
-                    <iWeightModifier>-100</iWeightModifier>
-                 </ReligionWeightModifier>
-                 <ReligionWeightModifier>
                     <ReligionType>RELIGION_FELLOWSHIP_OF_LEAVES</ReligionType>
                     <iWeightModifier>-100</iWeightModifier>
                  </ReligionWeightModifier>
@@ -18094,10 +18046,6 @@
             <Alignment>ALIGNMENT_NEUTRAL</Alignment>
             <FavoriteWonder>BUILDING_HALL_OF_KINGS</FavoriteWonder>
             <ReligionWeightModifiers>
-                 <ReligionWeightModifier>
-                    <ReligionType>RELIGION_COUNCIL_OF_ESUS</ReligionType>
-                    <iWeightModifier>-100</iWeightModifier>
-                 </ReligionWeightModifier>
                  <ReligionWeightModifier>
                     <ReligionType>RELIGION_FELLOWSHIP_OF_LEAVES</ReligionType>
                     <iWeightModifier>-100</iWeightModifier>
@@ -23005,10 +22953,6 @@
             <FavoriteWonder>BUILDING_FORM_OF_THE_TITAN</FavoriteWonder>
             <ReligionWeightModifiers>
                  <ReligionWeightModifier>
-                    <ReligionType>RELIGION_COUNCIL_OF_ESUS</ReligionType>
-                    <iWeightModifier>20</iWeightModifier>
-                 </ReligionWeightModifier>
-                 <ReligionWeightModifier>
                     <ReligionType>RELIGION_FELLOWSHIP_OF_LEAVES</ReligionType>
                     <iWeightModifier>20</iWeightModifier>
                  </ReligionWeightModifier>
@@ -24875,10 +24819,6 @@
             <FavoriteUnitCombat>UNITCOMBAT_ADEPT</FavoriteUnitCombat>
             <FavoriteWonder>BUILDING_SYLIVENS_PERFECT_LYRE</FavoriteWonder>
             <ReligionWeightModifiers>
-                 <ReligionWeightModifier>
-                    <ReligionType>RELIGION_COUNCIL_OF_ESUS</ReligionType>
-                    <iWeightModifier>25</iWeightModifier>
-                 </ReligionWeightModifier>
                  <ReligionWeightModifier>
                     <ReligionType>RELIGION_FELLOWSHIP_OF_LEAVES</ReligionType>
                     <iWeightModifier>20</iWeightModifier>
@@ -28026,10 +27966,6 @@
             <FavoriteWonder>BUILDING_THE_DRAGONS_HORDE</FavoriteWonder>
             <ReligionWeightModifiers>
                  <ReligionWeightModifier>
-                    <ReligionType>RELIGION_COUNCIL_OF_ESUS</ReligionType>
-                    <iWeightModifier>25</iWeightModifier>
-                 </ReligionWeightModifier>
-                 <ReligionWeightModifier>
                     <ReligionType>RELIGION_FELLOWSHIP_OF_LEAVES</ReligionType>
                     <iWeightModifier>20</iWeightModifier>
                  </ReligionWeightModifier>
@@ -28681,10 +28617,6 @@
             <FavoriteWonder>BUILDING_THE_DRAGONS_HORDE</FavoriteWonder>
             <ReligionWeightModifiers>
                  <ReligionWeightModifier>
-                    <ReligionType>RELIGION_COUNCIL_OF_ESUS</ReligionType>
-                    <iWeightModifier>25</iWeightModifier>
-                 </ReligionWeightModifier>
-                 <ReligionWeightModifier>
                     <ReligionType>RELIGION_FELLOWSHIP_OF_LEAVES</ReligionType>
                     <iWeightModifier>20</iWeightModifier>
                  </ReligionWeightModifier>
@@ -29334,10 +29266,6 @@
             <FavoriteWonder>BUILDING_THE_DRAGONS_HORDE</FavoriteWonder>
             <ReligionWeightModifiers>
                  <ReligionWeightModifier>
-                    <ReligionType>RELIGION_COUNCIL_OF_ESUS</ReligionType>
-                    <iWeightModifier>25</iWeightModifier>
-                 </ReligionWeightModifier>
-                 <ReligionWeightModifier>
                     <ReligionType>RELIGION_FELLOWSHIP_OF_LEAVES</ReligionType>
                     <iWeightModifier>20</iWeightModifier>
                  </ReligionWeightModifier>
@@ -29977,10 +29905,6 @@
             <FavoriteWonder>BUILDING_SOUL_FORGE</FavoriteWonder>
             <ReligionWeightModifiers>
                  <ReligionWeightModifier>
-                    <ReligionType>RELIGION_COUNCIL_OF_ESUS</ReligionType>
-                    <iWeightModifier>100</iWeightModifier>
-                 </ReligionWeightModifier>
-                 <ReligionWeightModifier>
                     <ReligionType>RELIGION_FELLOWSHIP_OF_LEAVES</ReligionType>
                     <iWeightModifier>20</iWeightModifier>
                  </ReligionWeightModifier>
@@ -30601,10 +30525,6 @@
             <FavoriteWonder>BUILDING_SOUL_FORGE</FavoriteWonder>
             <ReligionWeightModifiers>
                  <ReligionWeightModifier>
-                    <ReligionType>RELIGION_COUNCIL_OF_ESUS</ReligionType>
-                    <iWeightModifier>100</iWeightModifier>
-                 </ReligionWeightModifier>
-                 <ReligionWeightModifier>
                     <ReligionType>RELIGION_FELLOWSHIP_OF_LEAVES</ReligionType>
                     <iWeightModifier>20</iWeightModifier>
                  </ReligionWeightModifier>
@@ -31224,10 +31144,6 @@
             <FavoriteUnitCombat>UNITCOMBAT_RECON</FavoriteUnitCombat>
             <FavoriteWonder>BUILDING_SOUL_FORGE</FavoriteWonder>
             <ReligionWeightModifiers>
-                 <ReligionWeightModifier>
-                    <ReligionType>RELIGION_COUNCIL_OF_ESUS</ReligionType>
-                    <iWeightModifier>100</iWeightModifier>
-                 </ReligionWeightModifier>
                  <ReligionWeightModifier>
                     <ReligionType>RELIGION_FELLOWSHIP_OF_LEAVES</ReligionType>
                     <iWeightModifier>20</iWeightModifier>
@@ -31857,10 +31773,6 @@
             <FavoriteUnitCombat>UNITCOMBAT_MELEE</FavoriteUnitCombat>
             <FavoriteWonder>BUILDING_SOUL_FORGE</FavoriteWonder>
             <ReligionWeightModifiers>
-                 <ReligionWeightModifier>
-                    <ReligionType>RELIGION_COUNCIL_OF_ESUS</ReligionType>
-                    <iWeightModifier>20</iWeightModifier>
-                 </ReligionWeightModifier>
                  <ReligionWeightModifier>
                     <ReligionType>RELIGION_FELLOWSHIP_OF_LEAVES</ReligionType>
                     <iWeightModifier>20</iWeightModifier>
@@ -36876,10 +36788,6 @@
             <FavoriteWonder>BUILDING_INFERNAL_GRIMOIRE</FavoriteWonder>
             <ReligionWeightModifiers>
                  <ReligionWeightModifier>
-                    <ReligionType>RELIGION_COUNCIL_OF_ESUS</ReligionType>
-                    <iWeightModifier>-100</iWeightModifier>
-                 </ReligionWeightModifier>
-                 <ReligionWeightModifier>
                     <ReligionType>RELIGION_FELLOWSHIP_OF_LEAVES</ReligionType>
                     <iWeightModifier>-100</iWeightModifier>
                  </ReligionWeightModifier>
@@ -37514,10 +37422,6 @@
             <FavoriteTech>TECH_MALEVOLENT_DESIGNS</FavoriteTech>
             <FavoriteWonder>BUILDING_INFERNAL_GRIMOIRE</FavoriteWonder>
             <ReligionWeightModifiers>
-                 <ReligionWeightModifier>
-                    <ReligionType>RELIGION_COUNCIL_OF_ESUS</ReligionType>
-                    <iWeightModifier>-100</iWeightModifier>
-                 </ReligionWeightModifier>
                  <ReligionWeightModifier>
                     <ReligionType>RELIGION_FELLOWSHIP_OF_LEAVES</ReligionType>
                     <iWeightModifier>-100</iWeightModifier>
@@ -38154,10 +38058,6 @@
             <FavoriteWonder>BUILDING_INFERNAL_GRIMOIRE</FavoriteWonder>
             <ReligionWeightModifiers>
                  <ReligionWeightModifier>
-                    <ReligionType>RELIGION_COUNCIL_OF_ESUS</ReligionType>
-                    <iWeightModifier>-100</iWeightModifier>
-                 </ReligionWeightModifier>
-                 <ReligionWeightModifier>
                     <ReligionType>RELIGION_FELLOWSHIP_OF_LEAVES</ReligionType>
                     <iWeightModifier>-100</iWeightModifier>
                  </ReligionWeightModifier>
@@ -38792,10 +38692,6 @@
             <FavoriteTech>TECH_MALEVOLENT_DESIGNS</FavoriteTech>
             <FavoriteWonder>BUILDING_INFERNAL_GRIMOIRE</FavoriteWonder>
             <ReligionWeightModifiers>
-                 <ReligionWeightModifier>
-                    <ReligionType>RELIGION_COUNCIL_OF_ESUS</ReligionType>
-                    <iWeightModifier>-100</iWeightModifier>
-                 </ReligionWeightModifier>
                  <ReligionWeightModifier>
                     <ReligionType>RELIGION_FELLOWSHIP_OF_LEAVES</ReligionType>
                     <iWeightModifier>-100</iWeightModifier>
@@ -39432,10 +39328,6 @@
             <FavoriteWonder>BUILDING_INFERNAL_GRIMOIRE</FavoriteWonder>
             <ReligionWeightModifiers>
                  <ReligionWeightModifier>
-                    <ReligionType>RELIGION_COUNCIL_OF_ESUS</ReligionType>
-                    <iWeightModifier>-100</iWeightModifier>
-                 </ReligionWeightModifier>
-                 <ReligionWeightModifier>
                     <ReligionType>RELIGION_FELLOWSHIP_OF_LEAVES</ReligionType>
                     <iWeightModifier>-100</iWeightModifier>
                  </ReligionWeightModifier>
@@ -40070,10 +39962,6 @@
             <FavoriteTech>TECH_MALEVOLENT_DESIGNS</FavoriteTech>
             <FavoriteWonder>BUILDING_INFERNAL_GRIMOIRE</FavoriteWonder>
             <ReligionWeightModifiers>
-                 <ReligionWeightModifier>
-                    <ReligionType>RELIGION_COUNCIL_OF_ESUS</ReligionType>
-                    <iWeightModifier>-100</iWeightModifier>
-                 </ReligionWeightModifier>
                  <ReligionWeightModifier>
                     <ReligionType>RELIGION_FELLOWSHIP_OF_LEAVES</ReligionType>
                     <iWeightModifier>-100</iWeightModifier>
@@ -40710,10 +40598,6 @@
             <FavoriteTech>TECH_MALEVOLENT_DESIGNS</FavoriteTech>
             <FavoriteWonder>BUILDING_INFERNAL_GRIMOIRE</FavoriteWonder>
             <ReligionWeightModifiers>
-                 <ReligionWeightModifier>
-                    <ReligionType>RELIGION_COUNCIL_OF_ESUS</ReligionType>
-                    <iWeightModifier>-100</iWeightModifier>
-                 </ReligionWeightModifier>
                  <ReligionWeightModifier>
                     <ReligionType>RELIGION_FELLOWSHIP_OF_LEAVES</ReligionType>
                     <iWeightModifier>-100</iWeightModifier>
@@ -41366,10 +41250,6 @@
             <FavoriteTech>TECH_OMNISCIENCE</FavoriteTech>
             <FavoriteWonder>BUILDING_BONE_PALACE</FavoriteWonder>
             <ReligionWeightModifiers>
-                 <ReligionWeightModifier>
-                    <ReligionType>RELIGION_COUNCIL_OF_ESUS</ReligionType>
-                    <iWeightModifier>-100</iWeightModifier>
-                 </ReligionWeightModifier>
                  <ReligionWeightModifier>
                     <ReligionType>RELIGION_FELLOWSHIP_OF_LEAVES</ReligionType>
                     <iWeightModifier>-100</iWeightModifier>
@@ -42024,10 +41904,6 @@
             <FavoriteWonder>BUILDING_BONE_PALACE</FavoriteWonder>
             <ReligionWeightModifiers>
                  <ReligionWeightModifier>
-                    <ReligionType>RELIGION_COUNCIL_OF_ESUS</ReligionType>
-                    <iWeightModifier>-100</iWeightModifier>
-                 </ReligionWeightModifier>
-                 <ReligionWeightModifier>
                     <ReligionType>RELIGION_FELLOWSHIP_OF_LEAVES</ReligionType>
                     <iWeightModifier>-100</iWeightModifier>
                  </ReligionWeightModifier>
@@ -42676,10 +42552,6 @@
             <FavoriteTech>TECH_OMNISCIENCE</FavoriteTech>
             <FavoriteWonder>BUILDING_BONE_PALACE</FavoriteWonder>
             <ReligionWeightModifiers>
-                 <ReligionWeightModifier>
-                    <ReligionType>RELIGION_COUNCIL_OF_ESUS</ReligionType>
-                    <iWeightModifier>-100</iWeightModifier>
-                 </ReligionWeightModifier>
                  <ReligionWeightModifier>
                     <ReligionType>RELIGION_FELLOWSHIP_OF_LEAVES</ReligionType>
                     <iWeightModifier>-100</iWeightModifier>
@@ -43330,10 +43202,6 @@
             <FavoriteWonder>BUILDING_BONE_PALACE</FavoriteWonder>
             <ReligionWeightModifiers>
                  <ReligionWeightModifier>
-                    <ReligionType>RELIGION_COUNCIL_OF_ESUS</ReligionType>
-                    <iWeightModifier>-100</iWeightModifier>
-                 </ReligionWeightModifier>
-                 <ReligionWeightModifier>
                     <ReligionType>RELIGION_FELLOWSHIP_OF_LEAVES</ReligionType>
                     <iWeightModifier>-100</iWeightModifier>
                  </ReligionWeightModifier>
@@ -43982,10 +43850,6 @@
             <FavoriteTech>TECH_OMNISCIENCE</FavoriteTech>
             <FavoriteWonder>BUILDING_BONE_PALACE</FavoriteWonder>
             <ReligionWeightModifiers>
-                 <ReligionWeightModifier>
-                    <ReligionType>RELIGION_COUNCIL_OF_ESUS</ReligionType>
-                    <iWeightModifier>-100</iWeightModifier>
-                 </ReligionWeightModifier>
                  <ReligionWeightModifier>
                     <ReligionType>RELIGION_FELLOWSHIP_OF_LEAVES</ReligionType>
                     <iWeightModifier>-100</iWeightModifier>

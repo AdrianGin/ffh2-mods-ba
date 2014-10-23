@@ -567,43 +567,6 @@
 			<PyResult/>
 		</VoteInfo>
 		<VoteInfo>
-			<Type>VOTE_ENLIST_THE_NIGHTWATCH</Type>
-			<Description>TXT_KEY_VOTE_ENLIST_THE_NIGHTWATCH</Description>
-			<iPopulationThreshold>50</iPopulationThreshold>
-			<bCityVoting>0</bCityVoting>
-			<bCivVoting>1</bCivVoting>
-			<iMinVoters>2</iMinVoters>
-			<iStateReligionVotePercent>0</iStateReligionVotePercent>
-			<iTradeRoutes>0</iTradeRoutes>
-			<bSecretaryGeneral>0</bSecretaryGeneral>
-			<bVictory>0</bVictory>
-			<bFreeTrade>0</bFreeTrade>
-			<bNoNukes>0</bNoNukes>
-			<bDefensivePact>0</bDefensivePact>
-			<bOpenBorders>0</bOpenBorders>
-			<bForcePeace>0</bForcePeace>
-			<bForceNoTrade>0</bForceNoTrade>
-			<bForceWar>0</bForceWar>
-			<bAssignCity>0</bAssignCity>
-			<ForceCivics/>
-			<DiploVotes>
-				<DiploVote>
-					<DiploVoteType>DIPLOVOTE_UNDERCOUNCIL</DiploVoteType>
-					<bValid>1</bValid>
-				</DiploVote>
-			</DiploVotes>
-			<bGamblingRing>0</bGamblingRing>
-			<bNoOutsideTechTrades>0</bNoOutsideTechTrades>
-			<bSlaveTrade>0</bSlaveTrade>
-			<bSmugglingRing>0</bSmugglingRing>
-			<iCost>25</iCost>
-			<iCrime>0</iCrime>
-			<iFreeUnits>1</iFreeUnits>
-			<FreeUnitClass>UNITCLASS_NIGHTWATCH</FreeUnitClass>
-			<NoBonus/>
-			<PyResult/>
-		</VoteInfo>
-		<VoteInfo>
 			<Type>VOTE_FUND_DISSIDENTS</Type>
 			<Description>TXT_KEY_VOTE_FUND_DISSIDENTS</Description>
 			<iPopulationThreshold>50</iPopulationThreshold>

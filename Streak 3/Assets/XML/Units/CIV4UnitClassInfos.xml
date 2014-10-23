@@ -380,24 +380,6 @@
 			<DefaultUnit>UNIT_RATHA</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
-			<Type>UNITCLASS_NIGHTWATCH</Type>
-			<Description>TXT_KEY_UNIT_NIGHTWATCH</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_NIGHTWATCH</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>UNITCLASS_SHADOWRIDER</Type>
-			<Description>TXT_KEY_UNIT_SHADOWRIDER</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>4</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_SHADOWRIDER</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
 			<Type>EQUIPMENTCLASS_DRAGONS_HORDE</Type>
 			<Description>TXT_KEY_EQUIPMENT_DRAGONS_HORDE</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
@@ -1100,15 +1082,6 @@
 			<DefaultUnit>UNIT_EARTH_ELEMENTAL</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
-			<Type>UNITCLASS_CHAOS_MARAUDER</Type>
-			<Description>TXT_KEY_UNIT_CHAOS_MARAUDER</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_CHAOS_MARAUDER</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
 			<Type>UNITCLASS_EINHERJAR</Type>
 			<Description>TXT_KEY_UNIT_EINHERJAR</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
@@ -1116,15 +1089,6 @@
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_EINHERJAR</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>UNITCLASS_SPECTRE</Type>
-			<Description>TXT_KEY_UNIT_SPECTRE</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_SPECTRE</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
 			<Type>UNITCLASS_CANNON</Type>
@@ -1136,15 +1100,6 @@
 			<DefaultUnit>UNIT_CANNON</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
-			<Type>UNITCLASS_SHADOW</Type>
-			<Description>TXT_KEY_UNIT_SHADOW</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>4</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_SHADOW</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
 			<Type>UNITCLASS_MARY</Type>
 			<Description>TXT_KEY_UNIT_MARY</Description>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -1152,15 +1107,6 @@
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_MARY</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>UNITCLASS_MARKSMAN</Type>
-			<Description>TXT_KEY_UNIT_MARKSMAN</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>4</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_MARKSMAN</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
 			<Type>UNITCLASS_DRUID</Type>
@@ -1505,15 +1451,6 @@
 			<DefaultUnit>UNIT_PHALANX</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
-			<Type>UNITCLASS_ASSASSIN</Type>
-			<Description>TXT_KEY_UNIT_ASSASSIN</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_ASSASSIN</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
 			<Type>UNITCLASS_LION</Type>
 			<Description>TXT_KEY_UNIT_LION</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
@@ -1629,15 +1566,6 @@
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_ARCHER</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>UNITCLASS_LONGBOWMAN</Type>
-			<Description>TXT_KEY_UNIT_LONGBOWMAN</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_LONGBOWMAN</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
 			<Type>UNITCLASS_CROSSBOWMAN</Type>
