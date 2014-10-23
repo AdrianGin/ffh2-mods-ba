@@ -317,6 +317,14 @@
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
+					<UnitType>UNIT_SLAVE</UnitType>
+					<UnitMeshGroup>
+						<EarlyArtDefineTag>ART_DEF_UNIT_SLAVE_CLAN_OF_EMBERS</EarlyArtDefineTag>
+						<LateArtDefineTag>ART_DEF_UNIT_SLAVE_CLAN_OF_EMBERS</LateArtDefineTag>
+						<MiddleArtDefineTag>ART_DEF_UNIT_SLAVE_CLAN_OF_EMBERS</MiddleArtDefineTag>
+					</UnitMeshGroup>
+				</StyleUnit>
+				<StyleUnit>
 					<UnitType>UNIT_WARRIOR</UnitType>
 					<UnitMeshGroup>
 						<EarlyArtDefineTag>ART_DEF_UNIT_WARRIOR_CLAN_OF_EMBERS</EarlyArtDefineTag>
@@ -442,6 +450,14 @@
 						<EarlyArtDefineTag>ART_DEF_UNIT_SETTLER_CHILD_SVARTALFAR</EarlyArtDefineTag>
 						<LateArtDefineTag>ART_DEF_UNIT_SETTLER_CHILD_SVARTALFAR</LateArtDefineTag>
 						<MiddleArtDefineTag>ART_DEF_UNIT_SETTLER_CHILD_SVARTALFAR</MiddleArtDefineTag>
+					</UnitMeshGroup>
+				</StyleUnit>
+				<StyleUnit>
+					<UnitType>UNIT_SLAVE</UnitType>
+					<UnitMeshGroup>
+						<EarlyArtDefineTag>ART_DEF_UNIT_WORKER_SVARTALFAR</EarlyArtDefineTag>
+						<LateArtDefineTag>ART_DEF_UNIT_WORKER_SVARTALFAR</LateArtDefineTag>
+						<MiddleArtDefineTag>ART_DEF_UNIT_WORKER_SVARTALFAR</MiddleArtDefineTag>
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
@@ -1336,6 +1352,14 @@
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
+					<UnitType>UNIT_SLAVE</UnitType>
+					<UnitMeshGroup>
+						<EarlyArtDefineTag>ART_DEF_UNIT_WORKER_LJOSALFAR</EarlyArtDefineTag>
+						<LateArtDefineTag>ART_DEF_UNIT_WORKER_LJOSALFAR</LateArtDefineTag>
+						<MiddleArtDefineTag>ART_DEF_UNIT_WORKER_LJOSALFAR</MiddleArtDefineTag>
+					</UnitMeshGroup>
+				</StyleUnit>
+				<StyleUnit>
 					<UnitType>UNIT_SWORDSMAN</UnitType>
 					<UnitMeshGroup>
 						<EarlyArtDefineTag>ART_DEF_UNIT_SWORDSMAN_LJOSALFAR</EarlyArtDefineTag>
@@ -1382,6 +1406,22 @@
 		<UnitArtStyleTypeInfo>
 			<Type>UNIT_ARTSTYLE_ILLUSION</Type>
 			<StyleUnits>
+				<StyleUnit>
+					<UnitType>UNIT_TREANT</UnitType>
+					<UnitMeshGroup>
+						<EarlyArtDefineTag>ART_DEF_UNIT_TREANT_ILLUSION</EarlyArtDefineTag>
+						<LateArtDefineTag>ART_DEF_UNIT_TREANT_ILLUSION</LateArtDefineTag>
+						<MiddleArtDefineTag>ART_DEF_UNIT_TREANT_ILLUSION</MiddleArtDefineTag>
+					</UnitMeshGroup>
+				</StyleUnit>
+				<StyleUnit>
+					<UnitType>UNIT_WIZARD</UnitType>
+					<UnitMeshGroup>
+						<EarlyArtDefineTag>ART_DEF_UNIT_WIZARD_ILLUSION</EarlyArtDefineTag>
+						<LateArtDefineTag>ART_DEF_UNIT_WIZARD_ILLUSION</LateArtDefineTag>
+						<MiddleArtDefineTag>ART_DEF_UNIT_WIZARD_ILLUSION</MiddleArtDefineTag>
+					</UnitMeshGroup>
+				</StyleUnit>
 			</StyleUnits>
 		</UnitArtStyleTypeInfo>
 		<UnitArtStyleTypeInfo>
