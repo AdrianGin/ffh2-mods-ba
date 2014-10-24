@@ -21063,11 +21063,6 @@
             <bHeadquarters>0</bHeadquarters>
             <Events>
                 <Event>EVENT_LUNATIC_1</Event>
-<<<<<<< HEAD
-                <Event>EVENT_LUNATIC_5</Event>
-=======
-                <Event>EVENT_LUNATIC_3</Event>
->>>>>>> 0bbac427f87a3b302f8bc2f80d5984960279a5f0
                 <Event>EVENT_LUNATIC_6</Event>
             </Events>
             <PrereqEvents>
