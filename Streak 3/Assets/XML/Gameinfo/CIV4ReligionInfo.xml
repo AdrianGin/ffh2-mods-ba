@@ -7,49 +7,6 @@
 <Civ4ReligionInfo xmlns="x-schema:CIV4GameInfoSchema.xml">
 	<ReligionInfos>
 		<ReligionInfo>
-			<Type>RELIGION_FELLOWSHIP_OF_LEAVES</Type>
-			<Description>TXT_KEY_RELIGION_FELLOWSHIP_OF_LEAVES</Description>
-			<Adjective>TXT_KEY_RELIGION_FELLOWSHIP_OF_LEAVES_ADJECTIVE</Adjective>
-			<Civilopedia>TXT_KEY_RELIGION_LEAVES_PEDIA</Civilopedia>
-			<TechPrereq>TECH_WAY_OF_THE_FORESTS</TechPrereq>
-			<FreeUnitClass>NONE</FreeUnitClass>
-			<iFreeUnits>1</iFreeUnits>
-			<iSpreadFactor>100</iSpreadFactor>
-			<GlobalReligionCommerces>
-				<iGlobalReligionCommerce>1</iGlobalReligionCommerce>
-				<iGlobalReligionCommerce>0</iGlobalReligionCommerce>
-				<iGlobalReligionCommerce>0</iGlobalReligionCommerce>
-			</GlobalReligionCommerces>
-			<HolyCityCommerces>
-				<iHolyCityCommerce>0</iHolyCityCommerce>
-				<iHolyCityCommerce>0</iHolyCityCommerce>
-				<iHolyCityCommerce>4</iHolyCityCommerce>
-			</HolyCityCommerces>
-			<StateReligionCommerces>
-				<iStateReligionCommerce>0</iStateReligionCommerce>
-				<iStateReligionCommerce>0</iStateReligionCommerce>
-				<iStateReligionCommerce>1</iStateReligionCommerce>
-			</StateReligionCommerces>
-			<Button>Art/Interface/Buttons/Religions/Fellowship.dds</Button>
-			<TechButton>Art/Interface/Buttons/Religions/Fellowship.dds</TechButton>
-			<GenericTechButton>Art/Interface/Buttons/Religions/Fellowship.dds</GenericTechButton>
-			<MovieFile>Art/Movies/Religion/Judaism/Jud_Found.nif</MovieFile>
-			<MovieSound>AS2D_LEAVES_THEME</MovieSound>
-			<Sound>AS2D_LEAVES_DINK</Sound>
-			<bHidden>0</bHidden>
-			<bSneakAttack>0</bSneakAttack>
-			<bUpdateSight>0</bUpdateSight>
-			<iGlobalCounterFound>0</iGlobalCounterFound>
-			<iGlobalCounterSpread>0</iGlobalCounterSpread>
-			<Alignment>ALIGNMENT_NEUTRAL</Alignment>
-			<AlignmentBest>ALIGNMENT_GOOD</AlignmentBest>
-			<AlignmentWorst>ALIGNMENT_EVIL</AlignmentWorst>
-			<ReligionHero1>UNITCLASS_KITHRA</ReligionHero1>
-			<ReligionHero2>UNITCLASS_YVAIN</ReligionHero2>
-			<ReligionTech1>TECH_WAY_OF_THE_FORESTS</ReligionTech1>
-			<ReligionTech2>TECH_HIDDEN_PATHS</ReligionTech2>			
-		</ReligionInfo>
-		<ReligionInfo>
 			<Type>RELIGION_THE_ASHEN_VEIL</Type>
 			<Description>TXT_KEY_RELIGION_THE_ASHEN_VEIL</Description>
 			<Adjective>TXT_KEY_RELIGION_THE_ASHEN_VEIL_ADJECTIVE</Adjective>

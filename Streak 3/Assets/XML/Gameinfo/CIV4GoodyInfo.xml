@@ -827,26 +827,6 @@
 			<iMinBarbarians>1</iMinBarbarians>
 		</GoodyInfo>
 		<GoodyInfo>
-			<Type>GOODY_EXPLORE_LAIR_SPAWN_SPIDER</Type>
-			<Description>TXT_KEY_GOODY_EXPLORE_LAIR_SPAWN_SPIDER</Description>
-			<Sound/>
-			<iGold>0</iGold>
-			<iGoldRand1>0</iGoldRand1>
-			<iGoldRand2>0</iGoldRand2>
-			<iMapOffset>0</iMapOffset>
-			<iMapRange>0</iMapRange>
-			<iMapProb>0</iMapProb>
-			<iExperience>0</iExperience>
-			<iHealing>0</iHealing>
-			<iDamagePrereq>0</iDamagePrereq>
-			<bTech>0</bTech>
-			<bBad>1</bBad>
-			<UnitClass>NONE</UnitClass>
-			<BarbarianClass>UNITCLASS_GIANT_SPIDER</BarbarianClass>
-			<iBarbarianUnitProb>10</iBarbarianUnitProb>
-			<iMinBarbarians>1</iMinBarbarians>
-		</GoodyInfo>
-		<GoodyInfo>
 			<Type>GOODY_EXPLORE_LAIR_SUPPLIES</Type>
 			<Description>TXT_KEY_GOODY_EXPLORE_LAIR_SUPPLIES</Description>
 			<Sound/>

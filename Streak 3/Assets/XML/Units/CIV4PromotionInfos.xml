@@ -1672,18 +1672,10 @@
                     <FeatureType>FEATURE_FOREST</FeatureType>
                     <iFeatureAttack>10</iFeatureAttack>
                 </FeatureAttack>
-                <FeatureAttack>
-                    <FeatureType>FEATURE_FOREST_ANCIENT</FeatureType>
-                    <iFeatureAttack>10</iFeatureAttack>
-                </FeatureAttack>
             </FeatureAttacks>
             <FeatureDoubleMoves>
                 <FeatureDoubleMove>
                     <FeatureType>FEATURE_FOREST</FeatureType>
-                    <bFeatureDoubleMove>1</bFeatureDoubleMove>
-                </FeatureDoubleMove>
-                <FeatureDoubleMove>
-                    <FeatureType>FEATURE_FOREST_ANCIENT</FeatureType>
                     <bFeatureDoubleMove>1</bFeatureDoubleMove>
                 </FeatureDoubleMove>
             </FeatureDoubleMoves>
@@ -2367,18 +2359,10 @@
                     <FeatureType>FEATURE_FOREST</FeatureType>
                     <iFeatureAttack>10</iFeatureAttack>
                 </FeatureAttack>
-                <FeatureAttack>
-                    <FeatureType>FEATURE_FOREST_ANCIENT</FeatureType>
-                    <iFeatureAttack>10</iFeatureAttack>
-                </FeatureAttack>
             </FeatureAttacks>
             <FeatureDoubleMoves>
                 <FeatureDoubleMove>
                     <FeatureType>FEATURE_FOREST</FeatureType>
-                    <bFeatureDoubleMove>1</bFeatureDoubleMove>
-                </FeatureDoubleMove>
-                <FeatureDoubleMove>
-                    <FeatureType>FEATURE_FOREST_ANCIENT</FeatureType>
                     <bFeatureDoubleMove>1</bFeatureDoubleMove>
                 </FeatureDoubleMove>
             </FeatureDoubleMoves>
@@ -7279,10 +7263,6 @@
                     <FeatureType>FEATURE_FOREST</FeatureType>
                     <iFeatureAttack>30</iFeatureAttack>
                 </FeatureAttack>
-                <FeatureAttack>
-                    <FeatureType>FEATURE_FOREST_ANCIENT</FeatureType>
-                    <iFeatureAttack>30</iFeatureAttack>
-                </FeatureAttack>
             </FeatureAttacks>
             <FeatureDefenses>
                 <FeatureDefense>
@@ -7291,10 +7271,6 @@
                 </FeatureDefense>
                 <FeatureDefense>
                     <FeatureType>FEATURE_FOREST</FeatureType>
-                    <iFeatureDefense>30</iFeatureDefense>
-                </FeatureDefense>
-                <FeatureDefense>
-                    <FeatureType>FEATURE_FOREST_ANCIENT</FeatureType>
                     <iFeatureDefense>30</iFeatureDefense>
                 </FeatureDefense>
             </FeatureDefenses>
@@ -7317,67 +7293,6 @@
                 </UnitCombat>
             </UnitCombats>
             <Button>,Art/Interface/Buttons/Promotions/Woodsman1.dds,Art/Interface/Buttons/Promotions_Atlas.dds,6,6</Button>
-            <PromotionNextLevel>PROMOTION_WOODSMAN2</PromotionNextLevel>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_WOODSMAN2</Type>
-            <Description>TXT_KEY_PROMOTION_WOODSMAN2</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_WOODSMAN1</PromotionPrereq>
-            <TechPrereq>TECH_HIDDEN_PATHS</TechPrereq>
-            <FeatureAttacks>
-                <FeatureAttack>
-                    <FeatureType>FEATURE_JUNGLE</FeatureType>
-                    <iFeatureAttack>30</iFeatureAttack>
-                </FeatureAttack>
-                <FeatureAttack>
-                    <FeatureType>FEATURE_FOREST</FeatureType>
-                    <iFeatureAttack>30</iFeatureAttack>
-                </FeatureAttack>
-                <FeatureAttack>
-                    <FeatureType>FEATURE_FOREST_ANCIENT</FeatureType>
-                    <iFeatureAttack>30</iFeatureAttack>
-                </FeatureAttack>
-            </FeatureAttacks>
-            <FeatureDefenses>
-                <FeatureDefense>
-                    <FeatureType>FEATURE_JUNGLE</FeatureType>
-                    <iFeatureDefense>30</iFeatureDefense>
-                </FeatureDefense>
-                <FeatureDefense>
-                    <FeatureType>FEATURE_FOREST</FeatureType>
-                    <iFeatureDefense>30</iFeatureDefense>
-                </FeatureDefense>
-                <FeatureDefense>
-                    <FeatureType>FEATURE_FOREST_ANCIENT</FeatureType>
-                    <iFeatureDefense>30</iFeatureDefense>
-                </FeatureDefense>
-            </FeatureDefenses>
-            <FeatureDoubleMoves>
-                <FeatureDoubleMove>
-                    <FeatureType>FEATURE_JUNGLE</FeatureType>
-                    <bFeatureDoubleMove>1</bFeatureDoubleMove>
-                </FeatureDoubleMove>
-                <FeatureDoubleMove>
-                    <FeatureType>FEATURE_FOREST</FeatureType>
-                    <bFeatureDoubleMove>1</bFeatureDoubleMove>
-                </FeatureDoubleMove>
-                <FeatureDoubleMove>
-                    <FeatureType>FEATURE_FOREST_ANCIENT</FeatureType>
-                    <bFeatureDoubleMove>1</bFeatureDoubleMove>
-                </FeatureDoubleMove>
-            </FeatureDoubleMoves>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>,Art/Interface/Buttons/Promotions/Woodsman2.dds,Art/Interface/Buttons/Promotions_Atlas.dds,7,6</Button>
-        </PromotionInfo>
+        </PromotionInfo> 
     </PromotionInfos>
 </Civ4PromotionInfos>

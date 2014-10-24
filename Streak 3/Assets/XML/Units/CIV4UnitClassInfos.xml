@@ -299,15 +299,6 @@
 			<DefaultUnit>UNIT_BATTERING_RAM</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
-			<Type>UNITCLASS_POLAR_BEAR</Type>
-			<Description>TXT_KEY_UNIT_POLAR_BEAR</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_POLAR_BEAR</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
 			<Type>UNITCLASS_FROSTLING</Type>
 			<Description>TXT_KEY_UNIT_FROSTLING</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
@@ -713,15 +704,6 @@
 			<DefaultUnit>UNIT_YERSINIA</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
-			<Type>UNITCLASS_ARS</Type>
-			<Description>TXT_KEY_UNIT_ARS</Description>
-			<iMaxGlobalInstances>1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_ARS</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
 			<Type>UNITCLASS_GIANT_TORTOISE</Type>
 			<Description>TXT_KEY_UNIT_GIANT_TORTOISE</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
@@ -846,24 +828,6 @@
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_GOVANNON</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>UNITCLASS_GIANT_SPIDER</Type>
-			<Description>TXT_KEY_UNIT_GIANT_SPIDER</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_GIANT_SPIDER</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>UNITCLASS_BABY_SPIDER</Type>
-			<Description>TXT_KEY_UNIT_BABY_SPIDER</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_BABY_SPIDER</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
 			<Type>UNITCLASS_BARNAXUS</Type>
@@ -1019,15 +983,6 @@
 			<DefaultUnit>UNIT_WAR_MACHINE</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
-			<Type>UNITCLASS_YVAIN</Type>
-			<Description>TXT_KEY_UNIT_YVAIN</Description>
-			<iMaxGlobalInstances>1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_YVAIN</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
 			<Type>UNITCLASS_GUARDIAN_VINES</Type>
 			<Description>TXT_KEY_UNIT_GUARDIAN_VINES</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
@@ -1154,15 +1109,6 @@
 			<DefaultUnit>UNIT_PRIEST_OF_THE_VEIL</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
-			<Type>UNITCLASS_PRIEST_OF_LEAVES</Type>
-			<Description>TXT_KEY_UNIT_PRIEST_OF_LEAVES</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_PRIEST_OF_LEAVES</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
 			<Type>UNITCLASS_DISEASED_CORPSE</Type>
 			<Description>TXT_KEY_UNIT_DISEASED_CORPSE</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
@@ -1260,15 +1206,6 @@
 			<iMaxPlayerInstances>4</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_IMMORTAL</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>UNITCLASS_HIGH_PRIEST_OF_LEAVES</Type>
-			<Description>TXT_KEY_UNIT_HIGH_PRIEST_OF_LEAVES</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>4</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_HIGH_PRIEST_OF_LEAVES</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
 			<Type>UNITCLASS_HIGH_PRIEST_OF_THE_VEIL</Type>
@@ -1386,15 +1323,6 @@
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_SAND_LION</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>UNITCLASS_BEAR</Type>
-			<Description>TXT_KEY_UNIT_BEAR</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_BEAR</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
 			<Type>UNITCLASS_WOLF_PACK</Type>
@@ -1611,15 +1539,6 @@
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_MESHABBER</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>UNITCLASS_KITHRA</Type>
-			<Description>TXT_KEY_UNIT_KITHRA</Description>
-			<iMaxGlobalInstances>1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_KITHRA</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
 			<Type>UNITCLASS_ROSIER</Type>
