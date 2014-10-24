@@ -1136,15 +1136,6 @@
 			<DefaultUnit>UNIT_EIDOLON</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
-			<Type>UNITCLASS_STYGIAN_GUARD</Type>
-			<Description>TXT_KEY_UNIT_STYGIAN_GUARD</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_STYGIAN_GUARD</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
 			<Type>UNITCLASS_CRUSADER</Type>
 			<Description>TXT_KEY_UNIT_CRUSADER</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
@@ -1179,15 +1170,6 @@
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_PRIEST_OF_LEAVES</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>UNITCLASS_PRIEST_OF_THE_OVERLORDS</Type>
-			<Description>TXT_KEY_UNIT_PRIEST_OF_THE_OVERLORDS</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_PRIEST_OF_THE_OVERLORDS</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
 			<Type>UNITCLASS_DISEASED_CORPSE</Type>
@@ -1233,15 +1215,6 @@
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_ARQUEBUS</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>UNITCLASS_DROWN</Type>
-			<Description>TXT_KEY_UNIT_DROWN</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_DROWN</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
 			<Type>UNITCLASS_TIGER</Type>
@@ -1323,15 +1296,6 @@
 			<iMaxPlayerInstances>4</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_HIGH_PRIEST_OF_LEAVES</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>UNITCLASS_HIGH_PRIEST_OF_THE_OVERLORDS</Type>
-			<Description>TXT_KEY_UNIT_HIGH_PRIEST_OF_THE_OVERLORDS</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>4</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_HIGH_PRIEST_OF_THE_OVERLORDS</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
 			<Type>UNITCLASS_HIGH_PRIEST_OF_THE_VEIL</Type>
@@ -1703,15 +1667,6 @@
 			<DefaultUnit>UNIT_KITHRA</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
-			<Type>UNITCLASS_SAVEROUS</Type>
-			<Description>TXT_KEY_UNIT_SAVEROUS</Description>
-			<iMaxGlobalInstances>1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_SAVEROUS</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
 			<Type>UNITCLASS_ROSIER</Type>
 			<Description>TXT_KEY_UNIT_ROSIER</Description>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -1728,15 +1683,6 @@
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_VALIN</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>UNITCLASS_HEMAH</Type>
-			<Description>TXT_KEY_UNIT_HEMAH</Description>
-			<iMaxGlobalInstances>1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_HEMAH</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
 			<Type>UNITCLASS_MITHRIL_GOLEM</Type>
@@ -1809,15 +1755,6 @@
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_DUIN</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>UNITCLASS_LUNATIC</Type>
-			<Description>TXT_KEY_UNIT_LUNATIC</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_LUNATIC</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
 			<Type>UNITCLASS_ROYAL_GUARD</Type>
