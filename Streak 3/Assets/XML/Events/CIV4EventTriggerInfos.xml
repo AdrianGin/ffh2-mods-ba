@@ -13596,7 +13596,6 @@
             <bHeadquarters>0</bHeadquarters>
             <Events>
                 <Event>EVENT_OVERCOUNCIL_GIFT_1</Event>
-                <Event>EVENT_OVERCOUNCIL_GIFT_2</Event>
                 <Event>EVENT_OVERCOUNCIL_GIFT_3</Event>
             </Events>
             <PrereqEvents>
@@ -17329,7 +17328,6 @@
             <bPickCorporation>0</bPickCorporation>
             <bHeadquarters>0</bHeadquarters>
             <Events>
-                <Event>EVENT_SIGN_LUGUS_1</Event>
                 <Event>EVENT_SIGN_2</Event>
             </Events>
             <PrereqEvents>
@@ -21165,7 +21163,6 @@
             <Events>
                 <Event>EVENT_LUNATIC_1</Event>
                 <Event>EVENT_LUNATIC_3</Event>
-                <Event>EVENT_LUNATIC_6</Event>
             </Events>
             <PrereqEvents>
             </PrereqEvents>

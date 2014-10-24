@@ -49,46 +49,5 @@
 			<ReligionTech1>TECH_CORRUPTION_OF_SPIRIT</ReligionTech1>
 			<ReligionTech2>TECH_INFERNAL_PACT</ReligionTech2>							
 		</ReligionInfo>
-		<ReligionInfo>
-			<Type>RELIGION_THE_EMPYREAN</Type>
-			<Description>TXT_KEY_RELIGION_THE_EMPYREAN</Description>
-			<Adjective>TXT_KEY_RELIGION_THE_EMPYREAN_ADJECTIVE</Adjective>
-			<Civilopedia>TXT_KEY_RELIGION_THE_EMPYREAN_PEDIA</Civilopedia>
-			<TechPrereq>TECH_HONOR</TechPrereq>
-			<FreeUnitClass>UNITCLASS_DISCIPLE_EMPYREAN</FreeUnitClass>
-			<iFreeUnits>1</iFreeUnits>
-			<iSpreadFactor>100</iSpreadFactor>
-			<GlobalReligionCommerces>
-				<iGlobalReligionCommerce>1</iGlobalReligionCommerce>
-				<iGlobalReligionCommerce>0</iGlobalReligionCommerce>
-				<iGlobalReligionCommerce>0</iGlobalReligionCommerce>
-			</GlobalReligionCommerces>
-			<HolyCityCommerces>
-				<iHolyCityCommerce>0</iHolyCityCommerce>
-				<iHolyCityCommerce>0</iHolyCityCommerce>
-				<iHolyCityCommerce>4</iHolyCityCommerce>
-			</HolyCityCommerces>
-			<StateReligionCommerces>
-				<iStateReligionCommerce>0</iStateReligionCommerce>
-				<iStateReligionCommerce>0</iStateReligionCommerce>
-				<iStateReligionCommerce>1</iStateReligionCommerce>
-			</StateReligionCommerces>
-			<Button>Art/Interface/Buttons/Religions/Empyrean.dds</Button>
-			<TechButton>Art/Interface/Buttons/Religions/Empyrean.dds</TechButton>
-			<GenericTechButton>Art/Interface/Buttons/Religions/Empyrean.dds</GenericTechButton>
-			<MovieFile>Art/Movies/Religion/Empyrean.bik</MovieFile>
-			<MovieSound>AS2D_EMPYREAN_THEME</MovieSound>
-			<Sound>AS2D_EMPYREAN_DINK</Sound>
-			<bHidden>0</bHidden>
-			<bSneakAttack>0</bSneakAttack>
-			<bUpdateSight>0</bUpdateSight>
-			<iGlobalCounterFound>0</iGlobalCounterFound>
-			<iGlobalCounterSpread>0</iGlobalCounterSpread>
-			<Alignment>ALIGNMENT_GOOD</Alignment>
-			<AlignmentBest>ALIGNMENT_GOOD</AlignmentBest>
-			<AlignmentWorst>ALIGNMENT_NEUTRAL</AlignmentWorst>
-			<ReligionHero1>UNITCLASS_CHALID</ReligionHero1>
-			<ReligionTech1>TECH_HONOR</ReligionTech1>
-		</ReligionInfo>
 	</ReligionInfos>
 </Civ4ReligionInfo>
