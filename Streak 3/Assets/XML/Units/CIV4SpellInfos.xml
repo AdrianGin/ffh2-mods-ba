@@ -917,23 +917,6 @@
             <Button>Art/Interface/Buttons/Units/Wolf Pack.dds</Button>
         </SpellInfo>
         <SpellInfo>
-            <Type>SPELL_FOUND_TEMPLE_OF_THE_EMPYREAN</Type>
-            <Description>TXT_KEY_SPELL_FOUND_TEMPLE_OF_THE_EMPYREAN</Description>
-            <Civilopedia>TXT_KEY_SPELL_FOUND_TEMPLE_PEDIA</Civilopedia>
-            <UnitClassPrereq>UNITCLASS_PRIEST_OF_THE_EMPYREAN</UnitClassPrereq>
-            <bInCityOnly>1</bInCityOnly>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <CreateBuildingType>BUILDING_TEMPLE_OF_THE_EMPYREAN</CreateBuildingType>
-            <SpreadReligion>RELIGION_THE_EMPYREAN</SpreadReligion>
-            <bAbility>1</bAbility>
-            <bSacrificeCaster>1</bSacrificeCaster>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_FOUND_TEMPLE</Sound>
-            <bGraphicalOnly>1</bGraphicalOnly>
-            <Button>Art/Interface/Buttons/Buildings/Temple of the Empyrean.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
             <Type>SPELL_GIFT_VAMPIRISM</Type>
             <Description>TXT_KEY_SPELL_GIFT_VAMPIRISM</Description>
             <Civilopedia>TXT_KEY_SPELL_GIFT_VAMPIRISM_PEDIA</Civilopedia>
@@ -1317,23 +1300,6 @@
             <Button>Art/Interface/Buttons/Spells/Mirror.dds</Button>
         </SpellInfo>
         <SpellInfo>
-            <Type>SPELL_MORALE</Type>
-            <Description>TXT_KEY_SPELL_MORALE</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <UnitClassPrereq>UNITCLASS_FLAGBEARER</UnitClassPrereq>
-            <bAllowAI>1</bAllowAI>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <iRange>1</iRange>
-            <AddPromotionType1>PROMOTION_MORALE</AddPromotionType1>
-            <bImmuneNeutral>1</bImmuneNeutral>
-            <bImmuneEnemy>1</bImmuneEnemy>
-            <bImmuneNotAlive>1</bImmuneNotAlive>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_ENCHANTMENT</Sound>
-            <Button>Art/Interface/Buttons/Promotions/Morale.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
             <Type>SPELL_MOTHER_LODE</Type>
             <Description>TXT_KEY_SPELL_MOTHER_LODE</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
@@ -1411,22 +1377,6 @@
             <Sound>AS3D_SPELL_CURE_DISEASE</Sound>
             <bGraphicalOnly>1</bGraphicalOnly>
             <Button>Art/Interface/Buttons/Spells/Peace.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_PILLAR_OF_FIRE</Type>
-            <Description>TXT_KEY_SPELL_PILLAR_OF_FIRE</Description>
-            <Civilopedia>TXT_KEY_SPELL_PILLAR_OF_FIRE_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_PILLAR_OF_FIRE_HELP</Help>
-            <UnitClassPrereq>UNITCLASS_CHALID</UnitClassPrereq>
-            <bAllowAI>1</bAllowAI>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <iRange>2</iRange>
-            <PyResult>spellPillarofFire(pCaster)</PyResult>
-            <PyRequirement>reqPillarofFire(pCaster)</PyRequirement>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_FIREBALL</Sound>
-            <Button>Art/Interface/Buttons/Spells/PillarofFire.dds</Button>
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_PIRATE_COVE</Type>
@@ -1692,25 +1642,6 @@
             <Effect>EFFECT_RESSURECTION</Effect>
             <Sound>AS3D_SPELL_CURE_DISEASE</Sound>
             <Button>Art/Interface/Buttons/Spells/Ressurection.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_REVELATION</Type>
-            <Description>TXT_KEY_SPELL_REVELATION</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_REVELATION_HELP</Help>
-            <PromotionPrereq1>PROMOTION_CHANNELING2</PromotionPrereq1>
-            <PromotionPrereq2>PROMOTION_DIVINE</PromotionPrereq2>
-            <ReligionPrereq>RELIGION_THE_EMPYREAN</ReligionPrereq>
-            <bAllowAI>1</bAllowAI>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <iRange>3</iRange>
-            <bDispel>1</bDispel>
-            <PyResult>spellRevelation(pCaster)</PyResult>
-            <PyRequirement>reqRevelation(pCaster)</PyRequirement>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_REVELATION</Sound>
-            <Button>Art/Interface/Buttons/Spells/Revelation.dds</Button>
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_REVELRY</Type>
