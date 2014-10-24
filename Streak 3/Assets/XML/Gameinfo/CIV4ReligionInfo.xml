@@ -7,49 +7,6 @@
 <Civ4ReligionInfo xmlns="x-schema:CIV4GameInfoSchema.xml">
 	<ReligionInfos>
 		<ReligionInfo>
-			<Type>RELIGION_RUNES_OF_KILMORPH</Type>
-			<Description>TXT_KEY_RELIGION_RUNES_OF_KILMORPH</Description>
-			<Adjective>TXT_KEY_RELIGION_RUNES_OF_KILMORPH_ADJECTIVE</Adjective>
-			<Civilopedia>TXT_KEY_RELIGION_RUNES_PEDIA</Civilopedia>
-			<TechPrereq>TECH_WAY_OF_THE_EARTHMOTHER</TechPrereq>
-			<FreeUnitClass>UNITCLASS_DISCIPLE_RUNES_OF_KILMORPH</FreeUnitClass>
-			<iFreeUnits>1</iFreeUnits>
-			<iSpreadFactor>100</iSpreadFactor>
-			<GlobalReligionCommerces>
-				<iGlobalReligionCommerce>1</iGlobalReligionCommerce>
-				<iGlobalReligionCommerce>0</iGlobalReligionCommerce>
-				<iGlobalReligionCommerce>0</iGlobalReligionCommerce>
-			</GlobalReligionCommerces>
-			<HolyCityCommerces>
-				<iHolyCityCommerce>2</iHolyCityCommerce>
-				<iHolyCityCommerce>0</iHolyCityCommerce>
-				<iHolyCityCommerce>2</iHolyCityCommerce>
-			</HolyCityCommerces>
-			<StateReligionCommerces>
-				<iStateReligionCommerce>1</iStateReligionCommerce>
-				<iStateReligionCommerce>0</iStateReligionCommerce>
-				<iStateReligionCommerce>0</iStateReligionCommerce>
-			</StateReligionCommerces>
-			<Button>Art/Interface/Buttons/Religions/Runes.dds</Button>
-			<TechButton>Art/Interface/Buttons/Religions/Runes.dds</TechButton>
-			<GenericTechButton>Art/Interface/Buttons/Religions/Runes.dds</GenericTechButton>
-			<MovieFile>Art/Movies/Religion/Taoism/Tao_Found.nif</MovieFile>
-			<MovieSound>AS2D_RUNES_THEME</MovieSound>
-			<Sound>AS2D_RUNES_DINK</Sound>
-			<bHidden>0</bHidden>
-			<bSneakAttack>0</bSneakAttack>
-			<bUpdateSight>0</bUpdateSight>
-			<iGlobalCounterFound>0</iGlobalCounterFound>
-			<iGlobalCounterSpread>0</iGlobalCounterSpread>
-			<Alignment>ALIGNMENT_GOOD</Alignment>
-			<AlignmentBest>ALIGNMENT_GOOD</AlignmentBest>
-			<AlignmentWorst>ALIGNMENT_NEUTRAL</AlignmentWorst>
-			<ReligionHero1>UNITCLASS_BAMBUR</ReligionHero1>
-			<ReligionHero2>UNITCLASS_ARTHENDAIN</ReligionHero2>
-			<ReligionTech1>TECH_WAY_OF_THE_EARTHMOTHER</ReligionTech1>
-			<ReligionTech2>TECH_ARETE</ReligionTech2>				
-		</ReligionInfo>
-		<ReligionInfo>
 			<Type>RELIGION_THE_EMPYREAN</Type>
 			<Description>TXT_KEY_RELIGION_THE_EMPYREAN</Description>
 			<Adjective>TXT_KEY_RELIGION_THE_EMPYREAN_ADJECTIVE</Adjective>

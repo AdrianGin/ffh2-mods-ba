@@ -493,45 +493,6 @@
             <Button>Art/Interface/Buttons/Promotions/Skeletoncrew.dds</Button>
         </SpellInfo>
         <SpellInfo>
-            <Type>SPELL_CROWN_OF_BRILLANCE</Type>
-            <Description>TXT_KEY_SPELL_CROWN_OF_BRILLANCE</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <PromotionPrereq1>PROMOTION_CHANNELING3</PromotionPrereq1>
-            <PromotionPrereq2>PROMOTION_DIVINE</PromotionPrereq2>
-            <ReligionPrereq>RELIGION_THE_EMPYREAN</ReligionPrereq>
-            <bAllowAI>1</bAllowAI>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <iRange>1</iRange>
-            <iDamage>30</iDamage>
-            <iDamageLimit>60</iDamageLimit>
-            <DamageType>DAMAGE_HOLY</DamageType>
-            <AddPromotionType1>PROMOTION_CROWN_OF_BRILLANCE</AddPromotionType1>
-            <bBuffCasterOnly>1</bBuffCasterOnly>
-            <bImmuneTeam>1</bImmuneTeam>
-            <bImmuneNeutral>1</bImmuneNeutral>
-            <PyRequirement>reqCrownOfBrillance(pCaster)</PyRequirement>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_EARTHQUAKE</Sound>
-            <Button>Art/Interface/Buttons/Promotions/CrownofBrillance.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_CRUSH</Type>
-            <Description>TXT_KEY_SPELL_CRUSH</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_CRUSH_HELP</Help>
-            <UnitPrereq>UNIT_DWARVEN_DRUID</UnitPrereq>
-            <bAllowAI>1</bAllowAI>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <iRange>2</iRange>
-            <PyResult>spellCrush(pCaster)</PyResult>
-            <PyRequirement>reqCrush(pCaster)</PyRequirement>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_EARTHQUAKE</Sound>
-            <Button>Art/Interface/Buttons/Spells/Crush.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
             <Type>SPELL_CURE_DISEASE</Type>
             <Description>TXT_KEY_SPELL_CURE_DISEASE</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
@@ -722,24 +683,6 @@
             <Sound>AS3D_SPELL_TRAIN</Sound>
             <bGraphicalOnly>1</bGraphicalOnly>
             <Button>Art/Interface/Buttons/Equipment/SylivensPerfectLyre.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_EARTHQUAKE</Type>
-            <Description>TXT_KEY_SPELL_EARTHQUAKE</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_EARTHQUAKE_HELP</Help>
-            <PromotionPrereq1>PROMOTION_CHANNELING3</PromotionPrereq1>
-            <PromotionPrereq2>PROMOTION_DIVINE</PromotionPrereq2>
-            <ReligionPrereq>RELIGION_RUNES_OF_KILMORPH</ReligionPrereq>
-            <bAllowAI>1</bAllowAI>
-            <bCausesWar>1</bCausesWar>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <PyResult>spellEarthquake(pCaster)</PyResult>
-            <PyRequirement>reqEarthquake(pCaster)</PyRequirement>
-            <Effect>EFFECT_SNOWFALL</Effect>
-            <Sound>AS3D_SPELL_EARTHQUAKE</Sound>
-            <Button>Art/Interface/Buttons/Spells/Earthquake.dds</Button>
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_ENCHANT_SPELLSTAFF</Type>
@@ -1080,23 +1023,6 @@
             <Sound>AS3D_SPELL_TRAIN</Sound>
             <bGraphicalOnly>1</bGraphicalOnly>
             <Button>Art/Interface/Buttons/Units/Wolf Pack.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_FOUND_TEMPLE_OF_KILMORPH</Type>
-            <Description>TXT_KEY_SPELL_FOUND_TEMPLE_OF_KILMORPH</Description>
-            <Civilopedia>TXT_KEY_SPELL_FOUND_TEMPLE_PEDIA</Civilopedia>
-            <UnitClassPrereq>UNITCLASS_PRIEST_OF_KILMORPH</UnitClassPrereq>
-            <bInCityOnly>1</bInCityOnly>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <CreateBuildingType>BUILDING_TEMPLE_OF_KILMORPH</CreateBuildingType>
-            <SpreadReligion>RELIGION_RUNES_OF_KILMORPH</SpreadReligion>
-            <bAbility>1</bAbility>
-            <bSacrificeCaster>1</bSacrificeCaster>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_FOUND_TEMPLE</Sound>
-            <bGraphicalOnly>1</bGraphicalOnly>
-            <Button>Art/Interface/Buttons/Buildings/Templekilmorph.dds</Button>
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_FOUND_TEMPLE_OF_THE_EMPYREAN</Type>
@@ -2182,21 +2108,6 @@
             <Button>Art/Interface/Buttons/Promotions/Shadowwalk.dds</Button>
         </SpellInfo>
         <SpellInfo>
-            <Type>SPELL_SHIELD_OF_FAITH</Type>
-            <Description>TXT_KEY_SPELL_SHIELD_OF_FAITH</Description>
-            <Civilopedia>TXT_KEY_SPELL_SHIELD_OF_FAITH_PEDIA</Civilopedia>
-            <PromotionPrereq1>PROMOTION_CHANNELING2</PromotionPrereq1>
-            <PromotionPrereq2>PROMOTION_DIVINE</PromotionPrereq2>
-            <ReligionPrereq>RELIGION_RUNES_OF_KILMORPH</ReligionPrereq>
-            <bAllowAI>1</bAllowAI>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <AddPromotionType1>PROMOTION_SHIELD_OF_FAITH</AddPromotionType1>
-            <Effect>EFFECT_SWORDS_SPARKS</Effect>
-            <Sound>AS3D_SPELL_ENCHANTMENT</Sound>
-            <Button>Art/Interface/Buttons/Promotions/ShieldofFaith.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
             <Type>SPELL_SING</Type>
             <Description>TXT_KEY_SPELL_SING</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
@@ -2422,20 +2333,6 @@
             <Effect>EFFECT_SPELL2</Effect>
             <Sound>AS3D_SPELL_WATER</Sound>
             <Button>Art/Interface/Buttons/Units/Djinn.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_SUMMON_EARTH_ELEMENTAL</Type>
-            <Description>TXT_KEY_SPELL_SUMMON_EARTH_ELEMENTAL</Description>
-            <Civilopedia>TXT_KEY_SPELL_SUMMON_EARTH_ELEMENTAL_PEDIA</Civilopedia>
-            <PromotionPrereq1>PROMOTION_EARTH3</PromotionPrereq1>
-            <bAllowAI>1</bAllowAI>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <CreateUnitType>UNIT_EARTH_ELEMENTAL</CreateUnitType>
-            <iCreateUnitNum>1</iCreateUnitNum>
-            <Effect>EFFECT_SPELL2</Effect>
-            <Sound>AS3D_SPELL_EARTHQUAKE</Sound>
-            <Button>Art/Interface/Buttons/Units/Earth Elemental.dds</Button>
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_SUMMON_EINHERJAR</Type>
