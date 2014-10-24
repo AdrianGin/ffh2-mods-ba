@@ -3974,13 +3974,6 @@
             </DamageTypeResists>
         </PromotionInfo>
         <PromotionInfo>
-            <Type>PROMOTION_INFERNAL_GRIMOIRE</Type>
-            <Description>TXT_KEY_EQUIPMENT_INFERNAL_GRIMOIRE</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <Button>Art/Interface/Buttons/Equipment/InfernalGrimoire.dds</Button>
-            <bEquipment>1</bEquipment>
-        </PromotionInfo>
-        <PromotionInfo>
             <Type>PROMOTION_INQUISITOR</Type>
             <Description>TXT_KEY_PROMOTION_INQUISITOR</Description>
             <Help>TXT_KEY_PROMOTION_INQUISITOR_HELP</Help>

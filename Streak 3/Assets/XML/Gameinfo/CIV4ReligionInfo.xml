@@ -7,47 +7,5 @@
 <Civ4ReligionInfo xmlns="x-schema:CIV4GameInfoSchema.xml">
 	<ReligionInfos>
 		<ReligionInfo>
-			<Type>RELIGION_THE_ASHEN_VEIL</Type>
-			<Description>TXT_KEY_RELIGION_THE_ASHEN_VEIL</Description>
-			<Adjective>TXT_KEY_RELIGION_THE_ASHEN_VEIL_ADJECTIVE</Adjective>
-			<Civilopedia>TXT_KEY_RELIGION_ASHEN_PEDIA</Civilopedia>
-			<TechPrereq>TECH_CORRUPTION_OF_SPIRIT</TechPrereq>
-			<FreeUnitClass>NONE</FreeUnitClass>
-			<iFreeUnits>1</iFreeUnits>
-			<iSpreadFactor>150</iSpreadFactor>
-			<GlobalReligionCommerces>
-				<iGlobalReligionCommerce>0</iGlobalReligionCommerce>
-				<iGlobalReligionCommerce>1</iGlobalReligionCommerce>
-				<iGlobalReligionCommerce>0</iGlobalReligionCommerce>
-			</GlobalReligionCommerces>
-			<HolyCityCommerces>
-				<iHolyCityCommerce>0</iHolyCityCommerce>
-				<iHolyCityCommerce>2</iHolyCityCommerce>
-				<iHolyCityCommerce>2</iHolyCityCommerce>
-			</HolyCityCommerces>
-			<StateReligionCommerces>
-				<iStateReligionCommerce>0</iStateReligionCommerce>
-				<iStateReligionCommerce>0</iStateReligionCommerce>
-				<iStateReligionCommerce>1</iStateReligionCommerce>
-			</StateReligionCommerces>
-			<Button>Art/Interface/Buttons/Religions/Ashen.dds</Button>
-			<TechButton>Art/Interface/Buttons/Religions/Ashen.dds</TechButton>
-			<GenericTechButton>Art/Interface/Buttons/Religions/Ashen.dds</GenericTechButton>
-			<MovieFile>Art/Movies/Religion/Buddhism/Bud_Found.nif</MovieFile>
-			<MovieSound>AS2D_ASHEN_THEME</MovieSound>
-			<Sound>AS2D_ASHEN_DINK</Sound>
-			<bHidden>0</bHidden>
-			<bSneakAttack>0</bSneakAttack>
-			<bUpdateSight>0</bUpdateSight>
-			<iGlobalCounterFound>5</iGlobalCounterFound>
-			<iGlobalCounterSpread>1</iGlobalCounterSpread>
-			<Alignment>ALIGNMENT_EVIL</Alignment>
-			<AlignmentBest>ALIGNMENT_EVIL</AlignmentBest>
-			<AlignmentWorst>ALIGNMENT_EVIL</AlignmentWorst>
-			<ReligionHero1>UNITCLASS_ROSIER</ReligionHero1>
-			<ReligionHero2>UNITCLASS_MARDERO</ReligionHero2>
-			<ReligionTech1>TECH_CORRUPTION_OF_SPIRIT</ReligionTech1>
-			<ReligionTech2>TECH_INFERNAL_PACT</ReligionTech2>							
-		</ReligionInfo>
 	</ReligionInfos>
 </Civ4ReligionInfo>

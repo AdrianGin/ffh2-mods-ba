@@ -371,15 +371,6 @@
 			<DefaultUnit>EQUIPMENT_DRAGONS_HORDE</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
-			<Type>EQUIPMENTCLASS_INFERNAL_GRIMOIRE</Type>
-			<Description>TXT_KEY_EQUIPMENT_INFERNAL_GRIMOIRE</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>EQUIPMENT_INFERNAL_GRIMOIRE</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
 			<Type>EQUIPMENTCLASS_SYLIVENS_PERFECT_LYRE</Type>
 			<Description>TXT_KEY_EQUIPMENT_SYLIVENS_PERFECT_LYRE</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
@@ -576,15 +567,6 @@
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_ELEPHANT</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>UNITCLASS_TAR_DEMON</Type>
-			<Description>TXT_KEY_UNIT_TAR_DEMON</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_TAR_DEMON</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
 			<Type>UNITCLASS_MOBIUS_WITCH</Type>
@@ -1046,24 +1028,6 @@
 			<DefaultUnit>UNIT_CRUSADER</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
-			<Type>UNITCLASS_PRIEST_OF_THE_VEIL</Type>
-			<Description>TXT_KEY_UNIT_PRIEST_OF_THE_VEIL</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_PRIEST_OF_THE_VEIL</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>UNITCLASS_DISEASED_CORPSE</Type>
-			<Description>TXT_KEY_UNIT_DISEASED_CORPSE</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_DISEASED_CORPSE</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
 			<Type>UNITCLASS_ARCHMAGE</Type>
 			<Description>TXT_KEY_UNIT_ARCHMAGE</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
@@ -1152,15 +1116,6 @@
 			<iMaxPlayerInstances>4</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_IMMORTAL</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>UNITCLASS_HIGH_PRIEST_OF_THE_VEIL</Type>
-			<Description>TXT_KEY_UNIT_HIGH_PRIEST_OF_THE_VEIL</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>4</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_HIGH_PRIEST_OF_THE_VEIL</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
 			<Type>UNITCLASS_DISCIPLE_THE_ORDER</Type>
@@ -1478,24 +1433,6 @@
 			<DefaultUnit>UNIT_WRATH</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
-			<Type>UNITCLASS_MESHABBER</Type>
-			<Description>TXT_KEY_UNIT_MESHABBER</Description>
-			<iMaxGlobalInstances>1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_MESHABBER</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>UNITCLASS_ROSIER</Type>
-			<Description>TXT_KEY_UNIT_ROSIER</Description>
-			<iMaxGlobalInstances>1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_ROSIER</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
 			<Type>UNITCLASS_VALIN</Type>
 			<Description>TXT_KEY_UNIT_VALIN</Description>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -1559,15 +1496,6 @@
 			<DefaultUnit>UNIT_ROYAL_GUARD</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
-			<Type>UNITCLASS_BEAST_OF_AGARES</Type>
-			<Description>TXT_KEY_UNIT_BEAST_OF_AGARES</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>4</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_BEAST_OF_AGARES</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
 			<Type>UNITCLASS_ARCANE_BARGE</Type>
 			<Description>TXT_KEY_UNIT_ARCANE_BARGE</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
@@ -1584,15 +1512,6 @@
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_QUEEN_OF_THE_LINE</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>UNITCLASS_MARDERO</Type>
-			<Description>TXT_KEY_UNIT_MARDERO</Description>
-			<iMaxGlobalInstances>1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_MARDERO</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
 			<Type>UNITCLASS_LICH</Type>
