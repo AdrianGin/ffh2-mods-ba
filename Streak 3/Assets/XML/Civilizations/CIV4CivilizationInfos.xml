@@ -481,10 +481,8 @@
             <DisableTechs>
             </DisableTechs>
             <InitialCivics>
-                    <CivicType>CIVIC_NATIONHOOD</CivicType>
             </InitialCivics>
             <AnarchyCivics>
-                    <CivicType>CIVIC_NATIONHOOD</CivicType>
             </AnarchyCivics>
             <Leaders>
                 <Leader>
