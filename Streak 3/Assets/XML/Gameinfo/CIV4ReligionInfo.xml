@@ -6,5 +6,7 @@
 <!-- Religion -->
 <Civ4ReligionInfo xmlns="x-schema:CIV4GameInfoSchema.xml">
 	<ReligionInfos>
+		<ReligionInfo>
+		</ReligionInfo>
 	</ReligionInfos>
 </Civ4ReligionInfo>
