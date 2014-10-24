@@ -7,25 +7,6 @@
 <Civ4SpellInfos xmlns="x-schema:CIV4UnitSpellSchema.xml">
     <SpellInfos>
         <SpellInfo>
-            <Type>SPELL_ADD_TO_CITY</Type>
-            <Description>TXT_KEY_SPELL_ADD_TO_CITY</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_ADD_TO_CITY_HELP</Help>
-            <UnitClassPrereq>UNITCLASS_MANES</UnitClassPrereq>
-            <bAllowAI>1</bAllowAI>
-            <bInBordersOnly>1</bInBordersOnly>
-            <bInCityOnly>1</bInCityOnly>
-            <iAIWeightCity>10</iAIWeightCity>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <bAbility>1</bAbility>
-            <bSacrificeCaster>1</bSacrificeCaster>
-            <iChangePopulation>1</iChangePopulation>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_COMMANDER_JOIN</Sound>
-            <Button>Art/Interface/Buttons/Spells/Add to City.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
             <Type>SPELL_ADD_TO_FLESH_GOLEM</Type>
             <Description>TXT_KEY_SPELL_ADD_TO_FLESH_GOLEM</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
@@ -112,20 +93,6 @@
             <Effect>EFFECT_SPELL1</Effect>
             <Sound>AS3D_SPELL_CHARM_PERSON</Sound>
             <Button>Art/Interface/Buttons/Spells/Arena Battle.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_BLAZE</Type>
-            <Description>TXT_KEY_SPELL_BLAZE</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_BLAZE_HELP</Help>
-            <PromotionPrereq1>PROMOTION_FIRE1</PromotionPrereq1>
-            <PromotionPrereq2>PROMOTION_CHANNELING1</PromotionPrereq2>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <CreateImprovementType>IMPROVEMENT_SMOKE</CreateImprovementType>
-            <Effect>EFFECT_SCORCH</Effect>
-            <Sound>AS3D_SPELL_DEFILE</Sound>
-            <Button>Art/Interface/Buttons/Spells/Blaze.dds</Button>
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_BLINDING_LIGHT</Type>
@@ -778,81 +745,6 @@
             <Button>Art/Interface/Buttons/Spells/Explore Lair.dds</Button>
         </SpellInfo>
         <SpellInfo>
-            <Type>SPELL_EXPLORE_LAIR_BARROW</Type>
-            <Description>TXT_KEY_SPELL_EXPLORE_LAIR</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <ImprovementPrereq>IMPROVEMENT_BARROW</ImprovementPrereq>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <bAbility>1</bAbility>
-            <PyResult>spellExploreLair(pCaster)</PyResult>
-            <PyRequirement>reqExploreLair(pCaster)</PyRequirement>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_HASTE</Sound>
-            <bGraphicalOnly>1</bGraphicalOnly>
-            <Button>Art/Interface/Buttons/Spells/Explore Lair.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_EXPLORE_LAIR_BRADELINES_WELL</Type>
-            <Description>TXT_KEY_SPELL_EXPLORE_LAIR</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <ImprovementPrereq>IMPROVEMENT_BRADELINES_WELL</ImprovementPrereq>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <bAbility>1</bAbility>
-            <PyResult>spellExploreLairEpic(pCaster)</PyResult>
-            <PyRequirement>reqExploreLair(pCaster)</PyRequirement>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_HASTE</Sound>
-            <bGraphicalOnly>1</bGraphicalOnly>
-            <Button>Art/Interface/Buttons/Spells/Explore Lair.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_EXPLORE_LAIR_BROKEN_SEPULCHER</Type>
-            <Description>TXT_KEY_SPELL_EXPLORE_LAIR</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <ImprovementPrereq>IMPROVEMENT_BROKEN_SEPULCHER</ImprovementPrereq>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <bAbility>1</bAbility>
-            <PyResult>spellExploreLairEpic(pCaster)</PyResult>
-            <PyRequirement>reqExploreLair(pCaster)</PyRequirement>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_HASTE</Sound>
-            <bGraphicalOnly>1</bGraphicalOnly>
-            <Button>Art/Interface/Buttons/Spells/Explore Lair.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_EXPLORE_LAIR_DUNGEON</Type>
-            <Description>TXT_KEY_SPELL_EXPLORE_LAIR</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <ImprovementPrereq>IMPROVEMENT_DUNGEON</ImprovementPrereq>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <bAbility>1</bAbility>
-            <PyResult>spellExploreLair(pCaster)</PyResult>
-            <PyRequirement>reqExploreLair(pCaster)</PyRequirement>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_HASTE</Sound>
-            <bGraphicalOnly>1</bGraphicalOnly>
-            <Button>Art/Interface/Buttons/Spells/Explore Lair.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_EXPLORE_LAIR_GOBLIN_FORT</Type>
-            <Description>TXT_KEY_SPELL_EXPLORE_LAIR</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <ImprovementPrereq>IMPROVEMENT_GOBLIN_FORT</ImprovementPrereq>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <bAbility>1</bAbility>
-            <PyResult>spellExploreLair(pCaster)</PyResult>
-            <PyRequirement>reqExploreLair(pCaster)</PyRequirement>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_HASTE</Sound>
-            <bGraphicalOnly>1</bGraphicalOnly>
-            <Button>Art/Interface/Buttons/Spells/Explore Lair.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
             <Type>SPELL_EXPLORE_LAIR_PYRE_OF_THE_SERAPHIC</Type>
             <Description>TXT_KEY_SPELL_EXPLORE_LAIR</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
@@ -1174,53 +1066,6 @@
             <Button>Art/Interface/Buttons/Promotions/Hidden.dds</Button>
         </SpellInfo>
         <SpellInfo>
-            <Type>SPELL_HIRE_ARCHER</Type>
-            <Description>TXT_KEY_SPELL_HIRE_ARCHER</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <ImprovementPrereq>IMPROVEMENT_GOBLIN_FORT</ImprovementPrereq>
-            <TechPrereq>TECH_ARCHERY</TechPrereq>
-            <bHasCasted>1</bHasCasted>
-            <bAbility>1</bAbility>
-            <iCost>60</iCost>
-            <PyResult>spellHireArcher(pCaster)</PyResult>
-            <PyRequirement>reqHireScorpionClan(pCaster)</PyRequirement>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_HOPE</Sound>
-            <bGraphicalOnly>1</bGraphicalOnly>
-            <Button>Art/Interface/Buttons/Units/Archer Scorpion Clan.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_HIRE_CHARIOT</Type>
-            <Description>TXT_KEY_SPELL_HIRE_CHARIOT</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <ImprovementPrereq>IMPROVEMENT_GOBLIN_FORT</ImprovementPrereq>
-            <TechPrereq>TECH_TRADE</TechPrereq>
-            <bHasCasted>1</bHasCasted>
-            <bAbility>1</bAbility>
-            <iCost>120</iCost>
-            <PyResult>spellHireChariot(pCaster)</PyResult>
-            <PyRequirement>reqHireScorpionClan(pCaster)</PyRequirement>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_HOPE</Sound>
-            <bGraphicalOnly>1</bGraphicalOnly>
-            <Button>Art/Interface/Buttons/Units/Chariot Scorpion Clan.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_HIRE_GOBLIN</Type>
-            <Description>TXT_KEY_SPELL_HIRE_GOBLIN</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <ImprovementPrereq>IMPROVEMENT_GOBLIN_FORT</ImprovementPrereq>
-            <bHasCasted>1</bHasCasted>
-            <bAbility>1</bAbility>
-            <iCost>30</iCost>
-            <PyResult>spellHireGoblin(pCaster)</PyResult>
-            <PyRequirement>reqHireScorpionClan(pCaster)</PyRequirement>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_HOPE</Sound>
-            <bGraphicalOnly>1</bGraphicalOnly>
-            <Button>Art/Interface/Buttons/Units/Goblin Scorpion Clan.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
             <Type>SPELL_HIRE_UNITS</Type>
             <Description>TXT_KEY_SPELL_HIRE_UNITS</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
@@ -1233,22 +1078,6 @@
             <Effect>EFFECT_SPELL1</Effect>
             <Sound>AS3D_SPELL_HOPE</Sound>
             <Button>Art/Interface/Buttons/Spells/Hire Units.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_HIRE_WOLF_RIDER</Type>
-            <Description>TXT_KEY_SPELL_HIRE_WOLF_RIDER</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <ImprovementPrereq>IMPROVEMENT_GOBLIN_FORT</ImprovementPrereq>
-            <TechPrereq>TECH_HORSEBACK_RIDING</TechPrereq>
-            <bHasCasted>1</bHasCasted>
-            <bAbility>1</bAbility>
-            <iCost>60</iCost>
-            <PyResult>spellHireWolfRider(pCaster)</PyResult>
-            <PyRequirement>reqHireScorpionClan(pCaster)</PyRequirement>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_HOPE</Sound>
-            <bGraphicalOnly>1</bGraphicalOnly>
-            <Button>Art/Interface/Buttons/Units/Wolf Rider Scorpion Clan.dds</Button>
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_HOPE</Type>
@@ -1351,21 +1180,6 @@
             <Effect>EFFECT_SPELL1</Effect>
             <Sound>AS3D_SPELL_BLESS</Sound>
             <Button>Art/Interface/Buttons/Spells/Into the Mist.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_IRA_UNLEASHED</Type>
-            <Description>TXT_KEY_SPELL_IRA_UNLEASHED</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <UnitClassPrereq>UNITCLASS_WRATH</UnitClassPrereq>
-            <bAllowAI>1</bAllowAI>
-            <iAIWeight>300</iAIWeight>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <PyResult>spellIraUnleashed(pCaster)</PyResult>
-            <PyRequirement>reqIraUnleashed(pCaster)</PyRequirement>
-            <Effect>EFFECT_FIRE_SUMMON</Effect>
-            <Sound>AS3D_SPELL_FIRE_ELEMENTAL</Sound>
-            <Button>Art/Interface/Buttons/Units/Ira.dds</Button>
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_KIDNAP</Type>
@@ -1645,24 +1459,6 @@
             <Button>Art/Interface/Buttons/Spells/Promote Settlement.dds</Button>
         </SpellInfo>
         <SpellInfo>
-            <Type>SPELL_RAGE</Type>
-            <Description>TXT_KEY_SPELL_RAGE</Description>
-            <Civilopedia>TXT_KEY_SPELL_RAGE_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_RAGE_HELP</Help>
-            <UnitPrereq>UNIT_BUBOES</UnitPrereq>
-            <bAllowAI>1</bAllowAI>
-            <bCausesWar>1</bCausesWar>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <bResistable>1</bResistable>
-            <iRange>1</iRange>
-            <AddPromotionType1>PROMOTION_BURNING_BLOOD</AddPromotionType1>
-            <bImmuneNotAlive>1</bImmuneNotAlive>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_DEFILE</Sound>
-            <Button>Art/Interface/Buttons/Promotions/Enraged.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
             <Type>SPELL_RAGING_SEAS</Type>
             <Description>TXT_KEY_SPELL_RAGING_SEAS</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
@@ -1848,23 +1644,6 @@
             <Button>Art/Interface/Buttons/Spells/Ressurection.dds</Button>
         </SpellInfo>
         <SpellInfo>
-            <Type>SPELL_RESSURECTION_GRAVEYARD</Type>
-            <Description>TXT_KEY_SPELL_RESSURECTION</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_RESSURECTION_HELP</Help>
-            <PromotionPrereq1>PROMOTION_LIFE3</PromotionPrereq1>
-            <ImprovementPrereq>IMPROVEMENT_GRAVEYARD</ImprovementPrereq>
-            <bAllowAI>1</bAllowAI>
-            <iAIWeight>300</iAIWeight>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <PyResult>spellRessurectionGraveyard(pCaster)</PyResult>
-            <Effect>EFFECT_RESSURECTION</Effect>
-            <Sound>AS3D_SPELL_CURE_DISEASE</Sound>
-            <bGraphicalOnly>1</bGraphicalOnly>
-            <Button>Art/Interface/Buttons/Spells/Ressurection.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
             <Type>SPELL_REVELRY</Type>
             <Description>TXT_KEY_SPELL_REVELRY</Description>
             <Civilopedia>TXT_KEY_SPELL_REVELRY_PEDIA</Civilopedia>
@@ -1916,22 +1695,6 @@
             <Effect>EFFECT_SPELL1</Effect>
             <Sound>AS3D_SPELL_DEMON</Sound>
             <Button>Art/Interface/Buttons/Spells/Roar.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_ROB_GRAVE</Type>
-            <Description>TXT_KEY_SPELL_ROB_GRAVE</Description>
-            <Civilopedia>TXT_KEY_SPELL_ROB_GRAVE_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_ROB_GRAVE_HELP</Help>
-            <ImprovementPrereq>IMPROVEMENT_GRAVEYARD</ImprovementPrereq>
-            <bAllowAI>1</bAllowAI>
-            <iAIWeight>5</iAIWeight>
-            <bHasCasted>1</bHasCasted>
-            <bAbility>1</bAbility>
-            <PyResult>spellRobGrave(pCaster)</PyResult>
-            <PyRequirement>reqRobGrave(pCaster)</PyRequirement>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_SANCTIFY</Sound>
-            <Button>Art/Interface/Buttons/Spells/Rob Grave.dds</Button>
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_RUST</Type>

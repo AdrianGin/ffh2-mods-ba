@@ -208,7 +208,7 @@
 	</Define>
 	<Define>
 		<DefineName>FLAMES_SPREAD_EFFECT</DefineName>
-		<DefineTextVal>IMPROVEMENT_SMOKE</DefineTextVal>
+		<DefineTextVal>NONE</DefineTextVal>
 	</Define>
 	<Define>
 		<DefineName>FLOOD_PLAINS_FEATURE</DefineName>
