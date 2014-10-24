@@ -1100,7 +1100,7 @@
             <VassalRefuseAttitudeThreshold>ATTITUDE_PLEASED</VassalRefuseAttitudeThreshold>
             <iVassalPowerModifier>20</iVassalPowerModifier>
             <iFreedomAppreciation>0</iFreedomAppreciation>
-            <FavoriteCivic>CIVIC_FOREIGN_TRADE</FavoriteCivic>
+            <FavoriteCivic>NONE</FavoriteCivic>
             <FavoriteReligion>NONE</FavoriteReligion>
             <Traits>
             </Traits>
@@ -1646,7 +1646,7 @@
             <VassalRefuseAttitudeThreshold>ATTITUDE_PLEASED</VassalRefuseAttitudeThreshold>
             <iVassalPowerModifier>20</iVassalPowerModifier>
             <iFreedomAppreciation>0</iFreedomAppreciation>
-            <FavoriteCivic>CIVIC_FOREIGN_TRADE</FavoriteCivic>
+            <FavoriteCivic>NONE</FavoriteCivic>
             <FavoriteReligion>NONE</FavoriteReligion>
             <Traits>
             </Traits>
@@ -2192,7 +2192,7 @@
             <VassalRefuseAttitudeThreshold>ATTITUDE_PLEASED</VassalRefuseAttitudeThreshold>
             <iVassalPowerModifier>20</iVassalPowerModifier>
             <iFreedomAppreciation>0</iFreedomAppreciation>
-            <FavoriteCivic>CIVIC_FOREIGN_TRADE</FavoriteCivic>
+            <FavoriteCivic>NONE</FavoriteCivic>
             <FavoriteReligion>NONE</FavoriteReligion>
             <Traits>
             </Traits>

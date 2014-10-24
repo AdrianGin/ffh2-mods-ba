@@ -1486,23 +1486,6 @@
             <Button>Art/Interface/Buttons/Spells/Mirror.dds</Button>
         </SpellInfo>
         <SpellInfo>
-            <Type>SPELL_MORALE</Type>
-            <Description>TXT_KEY_SPELL_MORALE</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <UnitClassPrereq>UNITCLASS_FLAGBEARER</UnitClassPrereq>
-            <bAllowAI>1</bAllowAI>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <iRange>1</iRange>
-            <AddPromotionType1>PROMOTION_MORALE</AddPromotionType1>
-            <bImmuneNeutral>1</bImmuneNeutral>
-            <bImmuneEnemy>1</bImmuneEnemy>
-            <bImmuneNotAlive>1</bImmuneNotAlive>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_ENCHANTMENT</Sound>
-            <Button>Art/Interface/Buttons/Promotions/Morale.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
             <Type>SPELL_MOTHER_LODE</Type>
             <Description>TXT_KEY_SPELL_MOTHER_LODE</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
