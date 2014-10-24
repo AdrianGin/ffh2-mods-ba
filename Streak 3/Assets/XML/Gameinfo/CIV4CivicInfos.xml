@@ -641,10 +641,6 @@
                     <iHappinessChange>1</iHappinessChange>
                 </BuildingHappinessChange>
                 <BuildingHappinessChange>
-                    <BuildingType>BUILDINGCLASS_TEMPLE_OF_THE_OVERLORDS</BuildingType>
-                    <iHappinessChange>1</iHappinessChange>
-                </BuildingHappinessChange>
-                <BuildingHappinessChange>
                     <BuildingType>BUILDINGCLASS_TEMPLE_OF_THE_VEIL</BuildingType>
                     <iHappinessChange>1</iHappinessChange>
                 </BuildingHappinessChange>

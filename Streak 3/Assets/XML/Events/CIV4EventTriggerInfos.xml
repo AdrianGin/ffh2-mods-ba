@@ -5027,7 +5027,6 @@
             <Events>
                 <Event>EVENT_DREAMS_OF_DEATH_1</Event>
                 <Event>EVENT_DREAMS_OF_DEATH_2</Event>
-                <Event>EVENT_DREAMS_OF_DEATH_3</Event>
                 <Event>EVENT_DREAMS_OF_DEATH_4</Event>
             </Events>
             <PrereqEvents>
@@ -9642,7 +9641,6 @@
                 <Event>EVENT_HOLY_CHILD_1</Event>
                 <Event>EVENT_HOLY_CHILD_2</Event>
                 <Event>EVENT_HOLY_CHILD_3</Event>
-                <Event>EVENT_HOLY_CHILD_4</Event>
             </Events>
             <PrereqEvents>
             </PrereqEvents>
@@ -17037,7 +17035,6 @@
             <bPickCorporation>0</bPickCorporation>
             <bHeadquarters>0</bHeadquarters>
             <Events>
-                <Event>EVENT_SIGN_DANALIN_1</Event>
                 <Event>EVENT_SIGN_2</Event>
             </Events>
             <PrereqEvents>
@@ -21272,7 +21269,6 @@
             <bHeadquarters>0</bHeadquarters>
             <Events>
                 <Event>EVENT_LUNATIC_1</Event>
-                <Event>EVENT_LUNATIC_2</Event>
                 <Event>EVENT_LUNATIC_3</Event>
                 <Event>EVENT_LUNATIC_5</Event>
                 <Event>EVENT_LUNATIC_6</Event>
@@ -21782,7 +21778,6 @@
                 <Event>EVENT_PSYCHOPATH_CAUGHT_1</Event>
                 <Event>EVENT_PSYCHOPATH_CAUGHT_2</Event>
                 <Event>EVENT_PSYCHOPATH_CAUGHT_3</Event>
-                <Event>EVENT_PSYCHOPATH_CAUGHT_4</Event>
             </Events>
             <PrereqEvents>
                 <Event>EVENT_PSYCHOPATH_2</Event>

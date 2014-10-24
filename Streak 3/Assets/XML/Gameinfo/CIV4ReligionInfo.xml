@@ -7,49 +7,6 @@
 <Civ4ReligionInfo xmlns="x-schema:CIV4GameInfoSchema.xml">
 	<ReligionInfos>
 		<ReligionInfo>
-			<Type>RELIGION_OCTOPUS_OVERLORDS</Type>
-			<Description>TXT_KEY_RELIGION_OCTOPUS_OVERLORDS</Description>
-			<Adjective>TXT_KEY_RELIGION_OCTOPUS_OVERLORDS_ADJECTIVE</Adjective>
-			<Civilopedia>TXT_KEY_RELIGION_OVERLORDS_PEDIA</Civilopedia>
-			<TechPrereq>TECH_MESSAGE_FROM_THE_DEEP</TechPrereq>
-			<FreeUnitClass>NONE</FreeUnitClass>
-			<iFreeUnits>1</iFreeUnits>
-			<iSpreadFactor>75</iSpreadFactor>
-			<GlobalReligionCommerces>
-				<iGlobalReligionCommerce>1</iGlobalReligionCommerce>
-				<iGlobalReligionCommerce>0</iGlobalReligionCommerce>
-				<iGlobalReligionCommerce>0</iGlobalReligionCommerce>
-			</GlobalReligionCommerces>
-			<HolyCityCommerces>
-				<iHolyCityCommerce>0</iHolyCityCommerce>
-				<iHolyCityCommerce>0</iHolyCityCommerce>
-				<iHolyCityCommerce>2</iHolyCityCommerce>
-			</HolyCityCommerces>
-			<StateReligionCommerces>
-				<iStateReligionCommerce>0</iStateReligionCommerce>
-				<iStateReligionCommerce>0</iStateReligionCommerce>
-				<iStateReligionCommerce>2</iStateReligionCommerce>
-			</StateReligionCommerces>
-			<Button>Art/Interface/Buttons/Religions/Overlords.dds</Button>
-			<TechButton>Art/Interface/Buttons/Religions/Overlords.dds</TechButton>
-			<GenericTechButton>Art/Interface/Buttons/Religions/Overlords.dds</GenericTechButton>
-			<MovieFile>Art/Movies/Religion/Islam/Isl_Found.nif</MovieFile>
-			<MovieSound>AS2D_OVERLORDS_THEME</MovieSound>
-			<Sound>AS2D_OVERLORDS_DINK</Sound>
-			<bHidden>0</bHidden>
-			<bSneakAttack>0</bSneakAttack>
-			<bUpdateSight>0</bUpdateSight>
-			<iGlobalCounterFound>3</iGlobalCounterFound>
-			<iGlobalCounterSpread>0</iGlobalCounterSpread>
-			<Alignment>ALIGNMENT_EVIL</Alignment>
-			<AlignmentBest>ALIGNMENT_NEUTRAL</AlignmentBest>
-			<AlignmentWorst>ALIGNMENT_EVIL</AlignmentWorst>
-			<ReligionHero1>UNITCLASS_SAVEROUS</ReligionHero1>
-			<ReligionHero2>UNITCLASS_HEMAH</ReligionHero2>
-			<ReligionTech1>TECH_MESSAGE_FROM_THE_DEEP</ReligionTech1>
-			<ReligionTech2>TECH_MIND_STAPLING</ReligionTech2>						
-		</ReligionInfo>
-		<ReligionInfo>
 			<Type>RELIGION_RUNES_OF_KILMORPH</Type>
 			<Description>TXT_KEY_RELIGION_RUNES_OF_KILMORPH</Description>
 			<Adjective>TXT_KEY_RELIGION_RUNES_OF_KILMORPH_ADJECTIVE</Adjective>
