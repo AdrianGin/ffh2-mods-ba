@@ -418,13 +418,14 @@ class CvEventManager:
 				CyGame().changeTrophyValue(t, 1)
 				sf.addPopupWB(CyTranslator().getText("TXT_KEY_FFH_INTRO",()),'art/interface/popups/FfHIntro.dds')
 
-		if CyGame().isOption(gc.getInfoTypeForString('GAMEOPTION_NO_BARBARIANS')) == False:
-			iGoblinFort = gc.getInfoTypeForString('IMPROVEMENT_GOBLIN_FORT')
-			bPlayer = gc.getPlayer(gc.getBARBARIAN_PLAYER())
-			for i in range (CyMap().numPlots()):
-				pPlot = CyMap().plotByIndex(i)
-				if pPlot.getImprovementType() == iGoblinFort:
-					bPlayer.initUnit(gc.getInfoTypeForString('UNIT_ARCHER_SCORPION_CLAN'), pPlot.getX(), pPlot.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
+# Removed Archers spawning on Goblin Forts	    
+#		if CyGame().isOption(gc.getInfoTypeForString('GAMEOPTION_NO_BARBARIANS')) == False:
+#			iGoblinFort = gc.getInfoTypeForString('IMPROVEMENT_GOBLIN_FORT')
+#			bPlayer = gc.getPlayer(gc.getBARBARIAN_PLAYER())
+#			for i in range (CyMap().numPlots()):
+#				pPlot = CyMap().plotByIndex(i)
+#				if pPlot.getImprovementType() == iGoblinFort:
+#					bPlayer.initUnit(gc.getInfoTypeForString('UNIT_ARCHER_SCORPION_CLAN'), pPlot.getX(), pPlot.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
 
 		if (gc.getGame().getGameTurnYear() == gc.getDefineINT("START_YEAR") and not gc.getGame().isOption(GameOptionTypes.GAMEOPTION_ADVANCED_START)):
 			if not CyGame().getWBMapScript():
