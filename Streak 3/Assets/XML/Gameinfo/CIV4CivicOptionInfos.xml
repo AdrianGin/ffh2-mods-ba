@@ -7,21 +7,6 @@
 <Civ4CivicOptionInfos xmlns="x-schema:CIV4GameInfoSchema.xml">
 	<CivicOptionInfos>
 		<CivicOptionInfo>
-			<Type>CIVICOPTION_GOVERNMENT</Type>
-			<Description>TXT_KEY_CIVICOPTION_GOVERNMENT</Description>
-			<TraitNoUpkeeps/>
-		</CivicOptionInfo>
-		<CivicOptionInfo>
-			<Type>CIVICOPTION_CULTURAL_VALUES</Type>
-			<Description>TXT_KEY_CIVICOPTION_CULTURAL_VALUES</Description>
-			<TraitNoUpkeeps/>
-		</CivicOptionInfo>
-		<CivicOptionInfo>
-			<Type>CIVICOPTION_ECONOMY</Type>
-			<Description>TXT_KEY_CIVICOPTION_ECONOMY</Description>
-			<TraitNoUpkeeps/>
-		</CivicOptionInfo>
-		<CivicOptionInfo>
 			<Type>CIVICOPTION_MEMBERSHIP</Type>
 			<Description>TXT_KEY_CIVICOPTION_MEMBERSHIP</Description>
 			<TraitNoUpkeeps/>
