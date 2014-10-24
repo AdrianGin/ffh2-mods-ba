@@ -318,55 +318,6 @@
             <bEquipment>1</bEquipment>
         </PromotionInfo>
         <PromotionInfo>
-            <Type>PROMOTION_BLESSED</Type>
-            <Description>TXT_KEY_PROMOTION_BLESSED</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_NEVER</TechPrereq>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Blessed.dds</Button>
-            <bDispellable>1</bDispellable>
-            <bRemovedByCombat>1</bRemovedByCombat>
-            <iAIWeight>100</iAIWeight>
-            <iMinLevel>-1</iMinLevel>
-            <PromotionCombatType>PROMOTION_DEMON</PromotionCombatType>
-            <iPromotionCombatMod>20</iPromotionCombatMod>
-            <DamageTypeCombats>
-                <DamageTypeCombat>
-                    <DamageType>DAMAGE_HOLY</DamageType>
-                    <iCombat>1</iCombat>
-                </DamageTypeCombat>
-            </DamageTypeCombats>
-        </PromotionInfo>
-        <PromotionInfo>
             <Type>PROMOTION_BLITZ</Type>
             <Description>TXT_KEY_PROMOTION_BLITZ</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
@@ -1829,91 +1780,6 @@
             <bDoubleFortifyBonus>1</bDoubleFortifyBonus>
         </PromotionInfo>
         <PromotionInfo>
-            <Type>PROMOTION_DEMON</Type>
-            <Description>TXT_KEY_PROMOTION_DEMON</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_NEVER</TechPrereq>
-            <TerrainAttacks>
-                <TerrainAttack>
-                    <TerrainType>TERRAIN_BROKEN_LANDS</TerrainType>
-                    <iTerrainAttack>10</iTerrainAttack>
-                </TerrainAttack>
-                <TerrainAttack>
-                    <TerrainType>TERRAIN_FIELDS_OF_PERDITION</TerrainType>
-                    <iTerrainAttack>10</iTerrainAttack>
-                </TerrainAttack>
-                <TerrainAttack>
-                    <TerrainType>TERRAIN_BURNING_SANDS</TerrainType>
-                    <iTerrainAttack>10</iTerrainAttack>
-                </TerrainAttack>
-            </TerrainAttacks>
-            <TerrainDefenses>
-                <TerrainDefense>
-                    <TerrainType>TERRAIN_BROKEN_LANDS</TerrainType>
-                    <iTerrainDefense>10</iTerrainDefense>
-                </TerrainDefense>
-                <TerrainDefense>
-                    <TerrainType>TERRAIN_FIELDS_OF_PERDITION</TerrainType>
-                    <iTerrainDefense>10</iTerrainDefense>
-                </TerrainDefense>
-                <TerrainDefense>
-                    <TerrainType>TERRAIN_BURNING_SANDS</TerrainType>
-                    <iTerrainDefense>10</iTerrainDefense>
-                </TerrainDefense>
-            </TerrainDefenses>
-            <Button>Art/Interface/Buttons/Promotions/Demon.dds</Button>
-            <bImmuneToFear>1</bImmuneToFear>
-            <bNotAlive>1</bNotAlive>
-            <bRace>1</bRace>
-            <UnitArtStyleType>UNIT_ARTSTYLE_DEMON</UnitArtStyleType>
-            <DamageTypeResists>
-                <DamageTypeResist>
-                    <DamageType>DAMAGE_DEATH</DamageType>
-                    <iResist>100</iResist>
-                </DamageTypeResist>
-                <DamageTypeResist>
-                    <DamageType>DAMAGE_FIRE</DamageType>
-                    <iResist>20</iResist>
-                </DamageTypeResist>
-                <DamageTypeResist>
-                    <DamageType>DAMAGE_HOLY</DamageType>
-                    <iResist>-25</iResist>
-                </DamageTypeResist>
-                <DamageTypeResist>
-                    <DamageType>DAMAGE_POISON</DamageType>
-                    <iResist>100</iResist>
-                </DamageTypeResist>
-                <DamageTypeResist>
-                    <DamageType>DAMAGE_UNHOLY</DamageType>
-                    <iResist>100</iResist>
-                </DamageTypeResist>
-            </DamageTypeResists>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_DEMON_SLAYING</Type>
-            <Description>TXT_KEY_PROMOTION_DEMON_SLAYING</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_COMBAT1</PromotionPrereq>
-            <TechPrereq>TECH_WAY_OF_THE_WISE</TechPrereq>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Demonslaying.dds</Button>
-            <PromotionCombatType>PROMOTION_DEMON</PromotionCombatType>
-            <iPromotionCombatMod>40</iPromotionCombatMod>
-        </PromotionInfo>
-        <PromotionInfo>
             <Type>PROMOTION_DEXTEROUS</Type>
             <Description>TXT_KEY_PROMOTION_DEXTEROUS</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
@@ -2788,8 +2654,7 @@
             <Description>TXT_KEY_PROMOTION_FEAR</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_COMBAT5</PromotionPrereq>
-            <PromotionPrereqOr1>PROMOTION_DEMON</PromotionPrereqOr1>
-            <PromotionPrereqOr2>PROMOTION_UNDEAD</PromotionPrereqOr2>
+            <PromotionPrereqOr1>PROMOTION_UNDEAD</PromotionPrereqOr1>
             <UnitCombats>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
@@ -2823,7 +2688,6 @@
             <Button>Art/Interface/Buttons/Promotions/Fear.dds</Button>
             <bFear>1</bFear>
             <iAIWeight>100</iAIWeight>
-            <PromotionPrereqOr3>PROMOTION_NIGHTMARE</PromotionPrereqOr3>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_FIRE_RESISTANCE</Type>
@@ -5199,51 +5063,6 @@
             </DamageTypeCombats>
         </PromotionInfo>
         <PromotionInfo>
-            <Type>PROMOTION_NIGHTMARE</Type>
-            <Description>TXT_KEY_PROMOTION_NIGHTMARE</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_NEVER</TechPrereq>
-            <TerrainAttacks>
-                <TerrainAttack>
-                    <TerrainType>TERRAIN_BROKEN_LANDS</TerrainType>
-                    <iTerrainAttack>10</iTerrainAttack>
-                </TerrainAttack>
-                <TerrainAttack>
-                    <TerrainType>TERRAIN_FIELDS_OF_PERDITION</TerrainType>
-                    <iTerrainAttack>10</iTerrainAttack>
-                </TerrainAttack>
-                <TerrainAttack>
-                    <TerrainType>TERRAIN_BURNING_SANDS</TerrainType>
-                    <iTerrainAttack>10</iTerrainAttack>
-                </TerrainAttack>
-            </TerrainAttacks>
-            <TerrainDefenses>
-                <TerrainDefense>
-                    <TerrainType>TERRAIN_BROKEN_LANDS</TerrainType>
-                    <iTerrainDefense>10</iTerrainDefense>
-                </TerrainDefense>
-                <TerrainDefense>
-                    <TerrainType>TERRAIN_FIELDS_OF_PERDITION</TerrainType>
-                    <iTerrainDefense>10</iTerrainDefense>
-                </TerrainDefense>
-                <TerrainDefense>
-                    <TerrainType>TERRAIN_BURNING_SANDS</TerrainType>
-                    <iTerrainDefense>10</iTerrainDefense>
-                </TerrainDefense>
-            </TerrainDefenses>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Worldbuilder/Nightmare.dds</Button>
-            <bValidate>1</bValidate>
-            <iExtraCombatStr>1</iExtraCombatStr>
-            <iExtraCombatDefense>1</iExtraCombatDefense>
-            <iMinLevel>-1</iMinLevel>
-        </PromotionInfo>
-        <PromotionInfo>
             <Type>PROMOTION_NOMAD</Type>
             <Description>TXT_KEY_PROMOTION_NOMAD</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
@@ -6408,50 +6227,6 @@
             <iMinLevel>-1</iMinLevel>
         </PromotionInfo>
         <PromotionInfo>
-            <Type>PROMOTION_STIGMATA</Type>
-            <Description>TXT_KEY_PROMOTION_STIGMATA</Description>
-            <Help>TXT_KEY_PROMOTION_STIGMATA_PEDIA</Help>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_COMBAT5</PromotionPrereq>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Stigmata.dds</Button>
-            <iCombatPercentGlobalCounter>50</iCombatPercentGlobalCounter>
-            <PromotionPrereqAnd>PROMOTION_DEMON</PromotionPrereqAnd>
-        </PromotionInfo>
-        <PromotionInfo>
             <Type>PROMOTION_STONESKIN</Type>
             <Description>TXT_KEY_PROMOTION_STONESKIN</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
@@ -6720,31 +6495,6 @@
             <Button>Art/Interface/Buttons/Promotions/Sun3.dds</Button>
             <iAIWeight>200</iAIWeight>
             <PromotionPrereqAnd>PROMOTION_CHANNELING3</PromotionPrereqAnd>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_SUNDERED</Type>
-            <Description>TXT_KEY_PROMOTION_SUNDERED</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_DEMON</PromotionPrereq>
-            <TechPrereq>TECH_CORRUPTION_OF_SPIRIT</TechPrereq>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Sundered.dds</Button>
-            <PromotionSummonPerk>PROMOTION_STIGMATA</PromotionSummonPerk>
-            <DamageTypeResists>
-                <DamageTypeResist>
-                    <DamageType>DAMAGE_UNHOLY</DamageType>
-                    <iResist>25</iResist>
-                </DamageTypeResist>
-            </DamageTypeResists>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_SYLIVENS_PERFECT_LYRE</Type>

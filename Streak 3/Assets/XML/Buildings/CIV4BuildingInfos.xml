@@ -973,7 +973,7 @@
             <FreeBonus>NONE</FreeBonus>
             <iNumFreeBonuses>0</iNumFreeBonuses>
             <FreeBuilding>NONE</FreeBuilding>
-            <FreePromotion>PROMOTION_BLESSED</FreePromotion>
+            <FreePromotion>NONE</FreePromotion>
             <CivicOption>NONE</CivicOption>
             <GreatPeopleUnitClass>UNITCLASS_PROPHET</GreatPeopleUnitClass>
             <iGreatPeopleRateChange>1</iGreatPeopleRateChange>
@@ -1227,7 +1227,7 @@
             <FreeBonus>NONE</FreeBonus>
             <iNumFreeBonuses>0</iNumFreeBonuses>
             <FreeBuilding>NONE</FreeBuilding>
-            <FreePromotion>PROMOTION_BLESSED</FreePromotion>
+            <FreePromotion>NONE</FreePromotion>
             <CivicOption>NONE</CivicOption>
             <GreatPeopleUnitClass>UNITCLASS_PROPHET</GreatPeopleUnitClass>
             <iGreatPeopleRateChange>1</iGreatPeopleRateChange>
@@ -1481,7 +1481,7 @@
             <FreeBonus>NONE</FreeBonus>
             <iNumFreeBonuses>0</iNumFreeBonuses>
             <FreeBuilding>NONE</FreeBuilding>
-            <FreePromotion>PROMOTION_BLESSED</FreePromotion>
+            <FreePromotion>NONE</FreePromotion>
             <CivicOption>NONE</CivicOption>
             <GreatPeopleUnitClass>UNITCLASS_PROPHET</GreatPeopleUnitClass>
             <iGreatPeopleRateChange>1</iGreatPeopleRateChange>
@@ -1735,7 +1735,7 @@
             <FreeBonus>NONE</FreeBonus>
             <iNumFreeBonuses>0</iNumFreeBonuses>
             <FreeBuilding>NONE</FreeBuilding>
-            <FreePromotion>PROMOTION_BLESSED</FreePromotion>
+            <FreePromotion>NONE</FreePromotion>
             <CivicOption>NONE</CivicOption>
             <GreatPeopleUnitClass>UNITCLASS_PROPHET</GreatPeopleUnitClass>
             <iGreatPeopleRateChange>1</iGreatPeopleRateChange>
@@ -1989,7 +1989,7 @@
             <FreeBonus>NONE</FreeBonus>
             <iNumFreeBonuses>0</iNumFreeBonuses>
             <FreeBuilding>NONE</FreeBuilding>
-            <FreePromotion>PROMOTION_BLESSED</FreePromotion>
+            <FreePromotion>NONE</FreePromotion>
             <CivicOption>NONE</CivicOption>
             <GreatPeopleUnitClass>UNITCLASS_PROPHET</GreatPeopleUnitClass>
             <iGreatPeopleRateChange>1</iGreatPeopleRateChange>
@@ -16112,10 +16112,6 @@
             </CommerceChangeOriginalOwners>
             <ConstructSound></ConstructSound>
             <BonusHealthChanges>
-                <BonusHealthChange>
-                    <BonusType>BONUS_REAGENTS</BonusType>
-                    <iHealthChange>1</iHealthChange>
-                </BonusHealthChange>
             </BonusHealthChanges>
             <BonusHappinessChanges>
             </BonusHappinessChanges>
@@ -28830,10 +28826,6 @@
                 </BonusHealthChange>
                 <BonusHealthChange>
                     <BonusType>BONUS_SHEEP</BonusType>
-                    <iHealthChange>1</iHealthChange>
-                </BonusHealthChange>
-                <BonusHealthChange>
-                    <BonusType>BONUS_TOAD</BonusType>
                     <iHealthChange>1</iHealthChange>
                 </BonusHealthChange>
             </BonusHealthChanges>

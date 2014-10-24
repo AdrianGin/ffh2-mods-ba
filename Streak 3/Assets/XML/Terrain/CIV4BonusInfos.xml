@@ -8,76 +8,6 @@
     <BonusInfos>
 <!-- NEW -->
 		<BonusInfo>
-            <Type>BONUS_RAZORWEED</Type>
-            <Description>TXT_KEY_BONUS_RAZORWEED</Description>
-            <Civilopedia>TXT_KEY_BONUS_RAZORWEED_PEDIA</Civilopedia>
-            <BonusClassType>BONUSCLASS_GENERAL</BonusClassType>
-            <ArtDefineTag>ART_DEF_BONUS_TOBACCO</ArtDefineTag>
-            <TechReveal>NONE</TechReveal>
-            <TechCityTrade>NONE</TechCityTrade>
-            <TechObsolete>NONE</TechObsolete>
-            <YieldChanges>
-                <iYieldChange>0</iYieldChange>
-                <iYieldChange>0</iYieldChange>
-                <iYieldChange>1</iYieldChange>
-            </YieldChanges>
-            <iAITradeModifier>90</iAITradeModifier>
-            <iAIObjective>0</iAIObjective>
-            <iHealth>0</iHealth>
-            <iHappiness>0</iHappiness>
-            <iPlacementOrder>-1</iPlacementOrder>
-            <iConstAppearance>0</iConstAppearance>
-            <iMinAreaSize>-1</iMinAreaSize>
-            <iMinLatitude>0</iMinLatitude>
-            <iMaxLatitude>90</iMaxLatitude>
-            <Rands>
-                <iRandApp1>0</iRandApp1>
-                <iRandApp2>0</iRandApp2>
-                <iRandApp3>0</iRandApp3>
-                <iRandApp4>0</iRandApp4>
-            </Rands>
-            <iPlayer>0</iPlayer>
-            <iTilesPer>0</iTilesPer>
-            <iMinLandPercent>0</iMinLandPercent>
-            <iUnique>0</iUnique>
-            <iGroupRange>0</iGroupRange>
-            <iGroupRand>0</iGroupRand>
-            <bArea>0</bArea>
-            <bHills>0</bHills>
-            <bFlatlands>0</bFlatlands>
-            <bNoRiverSide>0</bNoRiverSide>
-            <bNormalize>0</bNormalize>
-            <TerrainBooleans>
-                <TerrainBoolean>
-                    <TerrainType>TERRAIN_BROKEN_LANDS</TerrainType>
-                    <bTerrain>1</bTerrain>
-                </TerrainBoolean>
-                <TerrainBoolean>
-                    <TerrainType>TERRAIN_FIELDS_OF_PERDITION</TerrainType>
-                    <bTerrain>1</bTerrain>
-                </TerrainBoolean>
-                <TerrainBoolean>
-                    <TerrainType>TERRAIN_SHALLOWS</TerrainType>
-                    <bTerrain>1</bTerrain>
-                </TerrainBoolean>
-            </TerrainBooleans>
-            <FeatureBooleans>
-            </FeatureBooleans>
-            <FeatureTerrainBooleans>
-            </FeatureTerrainBooleans>
-            <bModifierPerBonus>0</bModifierPerBonus>
-            <iBadAttitude>0</iBadAttitude>
-            <iDiscoverRandModifier>0</iDiscoverRandModifier>
-            <iGreatPeopleRateModifier>0</iGreatPeopleRateModifier>
-            <iHealChange>0</iHealChange>
-            <iHealChangeEnemy>-1</iHealChangeEnemy>
-            <iMaintenanceModifier>0</iMaintenanceModifier>
-            <iMutateChance>0</iMutateChance>
-            <iResearchModifier>0</iResearchModifier>
-            <DamageType>NONE</DamageType>
-            <FreePromotion>NONE</FreePromotion>
-        </BonusInfo>
-		<BonusInfo>
             <Type>BONUS_COTTON</Type>
             <Description>TXT_KEY_BONUS_COTTON</Description>
             <Civilopedia>TXT_KEY_BONUS_COTTON_PEDIA</Civilopedia>
@@ -202,88 +132,6 @@
                 </FeatureTerrainBoolean>
             </FeatureTerrainBooleans>
             <bUseLSystem>1</bUseLSystem>
-            <bModifierPerBonus>0</bModifierPerBonus>
-            <iBadAttitude>0</iBadAttitude>
-            <iDiscoverRandModifier>0</iDiscoverRandModifier>
-            <iGreatPeopleRateModifier>0</iGreatPeopleRateModifier>
-            <iHealChange>0</iHealChange>
-            <iHealChangeEnemy>0</iHealChangeEnemy>
-            <iMaintenanceModifier>0</iMaintenanceModifier>
-            <iMutateChance>0</iMutateChance>
-            <iResearchModifier>0</iResearchModifier>
-            <DamageType>NONE</DamageType>
-            <FreePromotion>NONE</FreePromotion>
-        </BonusInfo>
-		<BonusInfo>
-            <Type>BONUS_REAGENTS</Type>
-            <Description>TXT_KEY_BONUS_REAGENTS</Description>
-            <Civilopedia>TXT_KEY_BONUS_REAGENTS_PEDIA</Civilopedia>
-            <BonusClassType>BONUSCLASS_RUSH</BonusClassType>
-            <ArtDefineTag>ART_DEF_BONUS_SPICES</ArtDefineTag>
-            <TechReveal>TECH_COMMERCE2</TechReveal>
-            <TechCityTrade>NONE</TechCityTrade>
-            <TechObsolete>NONE</TechObsolete>
-            <YieldChanges>
-                <iYieldChange>0</iYieldChange>
-                <iYieldChange>0</iYieldChange>
-                <iYieldChange>1</iYieldChange>
-            </YieldChanges>
-            <iAITradeModifier>10</iAITradeModifier>
-            <iAIObjective>0</iAIObjective>
-            <iHealth>1</iHealth>
-            <iHappiness>1</iHappiness>
-            <iPlacementOrder>2</iPlacementOrder>
-            <iConstAppearance>100</iConstAppearance>
-            <iMinAreaSize>3</iMinAreaSize>
-            <iMinLatitude>0</iMinLatitude>
-            <iMaxLatitude>90</iMaxLatitude>
-            <Rands>
-                <iRandApp1>25</iRandApp1>
-                <iRandApp2>25</iRandApp2>
-                <iRandApp3>0</iRandApp3>
-                <iRandApp4>0</iRandApp4>
-            </Rands>
-            <iPlayer>75</iPlayer>
-            <iTilesPer>0</iTilesPer>
-            <iMinLandPercent>0</iMinLandPercent>
-            <iUnique>6</iUnique>
-            <iGroupRange>1</iGroupRange>
-            <iGroupRand>25</iGroupRand>
-            <bArea>0</bArea>
-            <bHills>1</bHills>
-            <bFlatlands>1</bFlatlands>
-            <bNoRiverSide>0</bNoRiverSide>
-            <bNormalize>0</bNormalize>
-            <TerrainBooleans>
-                <TerrainBoolean>
-                    <TerrainType>TERRAIN_BROKEN_LANDS</TerrainType>
-                    <bTerrain>1</bTerrain>
-                </TerrainBoolean>
-                <TerrainBoolean>
-                    <TerrainType>TERRAIN_BURNING_SANDS</TerrainType>
-                    <bTerrain>1</bTerrain>
-                </TerrainBoolean>
-                <TerrainBoolean>
-                    <TerrainType>TERRAIN_FIELDS_OF_PERDITION</TerrainType>
-                    <bTerrain>1</bTerrain>
-                </TerrainBoolean>
-                <TerrainBoolean>
-                    <TerrainType>TERRAIN_GRASS</TerrainType>
-                    <bTerrain>1</bTerrain>
-                </TerrainBoolean>
-                <TerrainBoolean>
-                    <TerrainType>TERRAIN_PLAINS</TerrainType>
-                    <bTerrain>1</bTerrain>
-                </TerrainBoolean>
-                <TerrainBoolean>
-                    <TerrainType>TERRAIN_DESERT</TerrainType>
-                    <bTerrain>1</bTerrain>
-                </TerrainBoolean>
-            </TerrainBooleans>
-            <FeatureBooleans>
-            </FeatureBooleans>
-            <FeatureTerrainBooleans>
-            </FeatureTerrainBooleans>
             <bModifierPerBonus>0</bModifierPerBonus>
             <iBadAttitude>0</iBadAttitude>
             <iDiscoverRandModifier>0</iDiscoverRandModifier>
@@ -427,72 +275,6 @@
                     <TerrainType>TERRAIN_MARSH</TerrainType>
                     <bFeatureTerrain>1</bFeatureTerrain>
                 </FeatureTerrainBoolean>
-            </FeatureTerrainBooleans>
-            <bModifierPerBonus>0</bModifierPerBonus>
-            <iBadAttitude>0</iBadAttitude>
-            <iDiscoverRandModifier>0</iDiscoverRandModifier>
-            <iGreatPeopleRateModifier>0</iGreatPeopleRateModifier>
-            <iHealChange>0</iHealChange>
-            <iHealChangeEnemy>0</iHealChangeEnemy>
-            <iMaintenanceModifier>0</iMaintenanceModifier>
-            <iMutateChance>0</iMutateChance>
-            <iResearchModifier>0</iResearchModifier>
-            <DamageType>NONE</DamageType>
-            <FreePromotion>NONE</FreePromotion>
-        </BonusInfo>
-		<BonusInfo>
-            <Type>BONUS_GULAGARM</Type>
-            <Description>TXT_KEY_BONUS_GULAGARM</Description>
-            <Civilopedia>TXT_KEY_BONUS_GULAGARM_PEDIA</Civilopedia>
-            <BonusClassType>BONUSCLASS_GENERAL</BonusClassType>
-            <ArtDefineTag>ART_DEF_BONUS_OLIVES</ArtDefineTag>
-            <TechReveal>TECH_FOOD1</TechReveal>
-            <TechCityTrade>NONE</TechCityTrade>
-            <TechObsolete>NONE</TechObsolete>
-            <YieldChanges>
-                <iYieldChange>1</iYieldChange>
-                <iYieldChange>0</iYieldChange>
-                <iYieldChange>0</iYieldChange>
-            </YieldChanges>
-            <iAITradeModifier>90</iAITradeModifier>
-            <iAIObjective>0</iAIObjective>
-            <iHealth>1</iHealth>
-            <iHappiness>0</iHappiness>
-            <iPlacementOrder>-1</iPlacementOrder>
-            <iConstAppearance>0</iConstAppearance>
-            <iMinAreaSize>-1</iMinAreaSize>
-            <iMinLatitude>0</iMinLatitude>
-            <iMaxLatitude>90</iMaxLatitude>
-            <Rands>
-                <iRandApp1>0</iRandApp1>
-                <iRandApp2>0</iRandApp2>
-                <iRandApp3>0</iRandApp3>
-                <iRandApp4>0</iRandApp4>
-            </Rands>
-            <iPlayer>0</iPlayer>
-            <iTilesPer>0</iTilesPer>
-            <iMinLandPercent>0</iMinLandPercent>
-            <iUnique>0</iUnique>
-            <iGroupRange>0</iGroupRange>
-            <iGroupRand>0</iGroupRand>
-            <bArea>0</bArea>
-            <bHills>0</bHills>
-            <bFlatlands>0</bFlatlands>
-            <bNoRiverSide>0</bNoRiverSide>
-            <bNormalize>0</bNormalize>
-            <TerrainBooleans>
-                <TerrainBoolean>
-                    <TerrainType>TERRAIN_BROKEN_LANDS</TerrainType>
-                    <bTerrain>1</bTerrain>
-                </TerrainBoolean>
-                <TerrainBoolean>
-                    <TerrainType>TERRAIN_FIELDS_OF_PERDITION</TerrainType>
-                    <bTerrain>1</bTerrain>
-                </TerrainBoolean>
-            </TerrainBooleans>
-            <FeatureBooleans>
-            </FeatureBooleans>
-            <FeatureTerrainBooleans>
             </FeatureTerrainBooleans>
             <bModifierPerBonus>0</bModifierPerBonus>
             <iBadAttitude>0</iBadAttitude>
@@ -753,10 +535,6 @@
             <bNoRiverSide>0</bNoRiverSide>
             <bNormalize>1</bNormalize>
             <TerrainBooleans>
-                <TerrainBoolean>
-                    <TerrainType>TERRAIN_BROKEN_LANDS</TerrainType>
-                    <bTerrain>1</bTerrain>
-                </TerrainBoolean>
                 <TerrainBoolean>
                     <TerrainType>TERRAIN_GRASS</TerrainType>
                     <bTerrain>1</bTerrain>
@@ -1356,10 +1134,6 @@
             <bNoRiverSide>0</bNoRiverSide>
             <bNormalize>1</bNormalize>
             <TerrainBooleans>
-                <TerrainBoolean>
-                    <TerrainType>TERRAIN_BROKEN_LANDS</TerrainType>
-                    <bTerrain>1</bTerrain>
-                </TerrainBoolean>
             </TerrainBooleans>
             <FeatureBooleans>
                 <FeatureBoolean>
@@ -1969,18 +1743,6 @@
             <bNormalize>0</bNormalize>
             <TerrainBooleans>
                 <TerrainBoolean>
-                    <TerrainType>TERRAIN_BROKEN_LANDS</TerrainType>
-                    <bTerrain>1</bTerrain>
-                </TerrainBoolean>
-                <TerrainBoolean>
-                    <TerrainType>TERRAIN_BURNING_SANDS</TerrainType>
-                    <bTerrain>1</bTerrain>
-                </TerrainBoolean>
-                <TerrainBoolean>
-                    <TerrainType>TERRAIN_FIELDS_OF_PERDITION</TerrainType>
-                    <bTerrain>1</bTerrain>
-                </TerrainBoolean>
-                <TerrainBoolean>
                     <TerrainType>TERRAIN_GRASS</TerrainType>
                     <bTerrain>1</bTerrain>
                 </TerrainBoolean>
@@ -2058,18 +1820,6 @@
             <bNoRiverSide>1</bNoRiverSide>
             <bNormalize>0</bNormalize>
             <TerrainBooleans>
-                <TerrainBoolean>
-                    <TerrainType>TERRAIN_BROKEN_LANDS</TerrainType>
-                    <bTerrain>1</bTerrain>
-                </TerrainBoolean>
-                <TerrainBoolean>
-                    <TerrainType>TERRAIN_BURNING_SANDS</TerrainType>
-                    <bTerrain>1</bTerrain>
-                </TerrainBoolean>
-                <TerrainBoolean>
-                    <TerrainType>TERRAIN_FIELDS_OF_PERDITION</TerrainType>
-                    <bTerrain>1</bTerrain>
-                </TerrainBoolean>
                 <TerrainBoolean>
                     <TerrainType>TERRAIN_GRASS</TerrainType>
                     <bTerrain>1</bTerrain>
@@ -2149,14 +1899,6 @@
             <bNormalize>0</bNormalize>
             <TerrainBooleans>
                 <TerrainBoolean>
-                    <TerrainType>TERRAIN_BROKEN_LANDS</TerrainType>
-                    <bTerrain>1</bTerrain>
-                </TerrainBoolean>
-                <TerrainBoolean>
-                    <TerrainType>TERRAIN_FIELDS_OF_PERDITION</TerrainType>
-                    <bTerrain>1</bTerrain>
-                </TerrainBoolean>
-                <TerrainBoolean>
                     <TerrainType>TERRAIN_GRASS</TerrainType>
                     <bTerrain>1</bTerrain>
                 </TerrainBoolean>
@@ -2230,14 +1972,6 @@
             <bNoRiverSide>0</bNoRiverSide>
             <bNormalize>0</bNormalize>
             <TerrainBooleans>
-                <TerrainBoolean>
-                    <TerrainType>TERRAIN_BROKEN_LANDS</TerrainType>
-                    <bTerrain>1</bTerrain>
-                </TerrainBoolean>
-                <TerrainBoolean>
-                    <TerrainType>TERRAIN_FIELDS_OF_PERDITION</TerrainType>
-                    <bTerrain>1</bTerrain>
-                </TerrainBoolean>
                 <TerrainBoolean>
                     <TerrainType>TERRAIN_GRASS</TerrainType>
                     <bTerrain>1</bTerrain>
@@ -2324,18 +2058,6 @@
             <bNoRiverSide>0</bNoRiverSide>
             <bNormalize>0</bNormalize>
             <TerrainBooleans>
-                <TerrainBoolean>
-                    <TerrainType>TERRAIN_BROKEN_LANDS</TerrainType>
-                    <bTerrain>1</bTerrain>
-                </TerrainBoolean>
-                <TerrainBoolean>
-                    <TerrainType>TERRAIN_BURNING_SANDS</TerrainType>
-                    <bTerrain>1</bTerrain>
-                </TerrainBoolean>
-                <TerrainBoolean>
-                    <TerrainType>TERRAIN_FIELDS_OF_PERDITION</TerrainType>
-                    <bTerrain>1</bTerrain>
-                </TerrainBoolean>
                 <TerrainBoolean>
                     <TerrainType>TERRAIN_SHALLOWS</TerrainType>
                     <bTerrain>1</bTerrain>
@@ -2443,72 +2165,6 @@
             <iResearchModifier>0</iResearchModifier>
             <DamageType>DAMAGE_DEATH</DamageType>
             <FreePromotion>NONE</FreePromotion>
-        </BonusInfo>
-        <BonusInfo>
-            <Type>BONUS_NIGHTMARE</Type>
-            <Description>TXT_KEY_BONUS_NIGHTMARE</Description>
-            <Civilopedia>TXT_KEY_BONUS_NIGHTMARE_PEDIA</Civilopedia>
-            <BonusClassType>BONUSCLASS_RUSH</BonusClassType>
-            <ArtDefineTag>ART_DEF_BONUS_NIGHTMARE</ArtDefineTag>
-            <TechReveal>TECH_ANIMAL_HUSBANDRY</TechReveal>
-            <TechCityTrade>TECH_ANIMAL_HUSBANDRY</TechCityTrade>
-            <TechObsolete>NONE</TechObsolete>
-            <YieldChanges>
-                <iYieldChange>0</iYieldChange>
-                <iYieldChange>1</iYieldChange>
-                <iYieldChange>0</iYieldChange>
-            </YieldChanges>
-            <iAITradeModifier>0</iAITradeModifier>
-            <iAIObjective>0</iAIObjective>
-            <iHealth>0</iHealth>
-            <iHappiness>0</iHappiness>
-            <iPlacementOrder>-1</iPlacementOrder>
-            <iConstAppearance>0</iConstAppearance>
-            <iMinAreaSize>3</iMinAreaSize>
-            <iMinLatitude>0</iMinLatitude>
-            <iMaxLatitude>90</iMaxLatitude>
-            <Rands>
-                <iRandApp1>0</iRandApp1>
-                <iRandApp2>0</iRandApp2>
-                <iRandApp3>0</iRandApp3>
-                <iRandApp4>0</iRandApp4>
-            </Rands>
-            <iPlayer>0</iPlayer>
-            <iTilesPer>0</iTilesPer>
-            <iMinLandPercent>0</iMinLandPercent>
-            <iUnique>0</iUnique>
-            <iGroupRange>0</iGroupRange>
-            <iGroupRand>0</iGroupRand>
-            <bArea>0</bArea>
-            <bHills>0</bHills>
-            <bFlatlands>0</bFlatlands>
-            <bNoRiverSide>0</bNoRiverSide>
-            <bNormalize>0</bNormalize>
-            <TerrainBooleans>
-                <TerrainBoolean>
-                    <TerrainType>TERRAIN_BROKEN_LANDS</TerrainType>
-                    <bTerrain>1</bTerrain>
-                </TerrainBoolean>
-                <TerrainBoolean>
-                    <TerrainType>TERRAIN_FIELDS_OF_PERDITION</TerrainType>
-                    <bTerrain>1</bTerrain>
-                </TerrainBoolean>
-            </TerrainBooleans>
-            <FeatureBooleans>
-            </FeatureBooleans>
-            <FeatureTerrainBooleans>
-            </FeatureTerrainBooleans>
-            <bModifierPerBonus>0</bModifierPerBonus>
-            <iBadAttitude>0</iBadAttitude>
-            <iDiscoverRandModifier>0</iDiscoverRandModifier>
-            <iGreatPeopleRateModifier>0</iGreatPeopleRateModifier>
-            <iHealChange>0</iHealChange>
-            <iHealChangeEnemy>0</iHealChangeEnemy>
-            <iMaintenanceModifier>0</iMaintenanceModifier>
-            <iMutateChance>0</iMutateChance>
-            <iResearchModifier>0</iResearchModifier>
-            <DamageType>NONE</DamageType>
-            <FreePromotion>PROMOTION_NIGHTMARE</FreePromotion>
         </BonusInfo>
         <BonusInfo>
             <Type>BONUS_MANA_FIRE</Type>
@@ -2710,72 +2366,6 @@
             <iResearchModifier>0</iResearchModifier>
             <DamageType>NONE</DamageType>
             <FreePromotion>PROMOTION_SHEUT_STONE</FreePromotion>
-        </BonusInfo>
-        <BonusInfo>
-            <Type>BONUS_TOAD</Type>
-            <Description>TXT_KEY_BONUS_TOAD</Description>
-            <Civilopedia>TXT_KEY_BONUS_TOAD_PEDIA</Civilopedia>
-            <BonusClassType>BONUSCLASS_LIVESTOCK</BonusClassType>
-            <ArtDefineTag>ART_DEF_BONUS_TOAD</ArtDefineTag>
-            <TechReveal>NONE</TechReveal>
-            <TechCityTrade>TECH_ANIMAL_HUSBANDRY</TechCityTrade>
-            <TechObsolete>NONE</TechObsolete>
-            <YieldChanges>
-                <iYieldChange>1</iYieldChange>
-                <iYieldChange>0</iYieldChange>
-                <iYieldChange>0</iYieldChange>
-            </YieldChanges>
-            <iAITradeModifier>0</iAITradeModifier>
-            <iAIObjective>0</iAIObjective>
-            <iHealth>1</iHealth>
-            <iHappiness>0</iHappiness>
-            <iPlacementOrder>0</iPlacementOrder>
-            <iConstAppearance>0</iConstAppearance>
-            <iMinAreaSize>3</iMinAreaSize>
-            <iMinLatitude>0</iMinLatitude>
-            <iMaxLatitude>90</iMaxLatitude>
-            <Rands>
-                <iRandApp1>0</iRandApp1>
-                <iRandApp2>0</iRandApp2>
-                <iRandApp3>0</iRandApp3>
-                <iRandApp4>0</iRandApp4>
-            </Rands>
-            <iPlayer>0</iPlayer>
-            <iTilesPer>0</iTilesPer>
-            <iMinLandPercent>0</iMinLandPercent>
-            <iUnique>0</iUnique>
-            <iGroupRange>0</iGroupRange>
-            <iGroupRand>0</iGroupRand>
-            <bArea>0</bArea>
-            <bHills>0</bHills>
-            <bFlatlands>0</bFlatlands>
-            <bNoRiverSide>0</bNoRiverSide>
-            <bNormalize>0</bNormalize>
-            <TerrainBooleans>
-                <TerrainBoolean>
-                    <TerrainType>TERRAIN_BROKEN_LANDS</TerrainType>
-                    <bTerrain>1</bTerrain>
-                </TerrainBoolean>
-                <TerrainBoolean>
-                    <TerrainType>TERRAIN_FIELDS_OF_PERDITION</TerrainType>
-                    <bTerrain>1</bTerrain>
-                </TerrainBoolean>
-            </TerrainBooleans>
-            <FeatureBooleans>
-            </FeatureBooleans>
-            <FeatureTerrainBooleans>
-            </FeatureTerrainBooleans>
-            <bModifierPerBonus>0</bModifierPerBonus>
-            <iBadAttitude>0</iBadAttitude>
-            <iDiscoverRandModifier>0</iDiscoverRandModifier>
-            <iGreatPeopleRateModifier>0</iGreatPeopleRateModifier>
-            <iHealChange>0</iHealChange>
-            <iHealChangeEnemy>0</iHealChangeEnemy>
-            <iMaintenanceModifier>0</iMaintenanceModifier>
-            <iMutateChance>0</iMutateChance>
-            <iResearchModifier>0</iResearchModifier>
-            <DamageType>NONE</DamageType>
-            <FreePromotion>NONE</FreePromotion>
         </BonusInfo>
         
         <BonusInfo>
