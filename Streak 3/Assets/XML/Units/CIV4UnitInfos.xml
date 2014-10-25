@@ -2976,10 +2976,6 @@
 			<GreatPeoples>
             </GreatPeoples>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_THE_DRAGONS_HORDE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
 			</Buildings>
 			<ForceBuildings>
             </ForceBuildings>
