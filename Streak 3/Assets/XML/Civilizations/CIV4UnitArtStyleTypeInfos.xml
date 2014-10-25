@@ -217,23 +217,6 @@
 		<UnitArtStyleTypeInfo>
 			<Type>UNIT_ARTSTYLE_ORC</Type>
 			<StyleUnits>
-				
-				<StyleUnit>
-					<UnitType>UNIT_CROSSBOWMAN</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_CROSSBOWMAN_CLAN_OF_EMBERS</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_CROSSBOWMAN_CLAN_OF_EMBERS</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_CROSSBOWMAN_CLAN_OF_EMBERS</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_DRUID</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_DRUID_CLAN_OF_EMBERS</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_DRUID_CLAN_OF_EMBERS</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_DRUID_CLAN_OF_EMBERS</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
 				<StyleUnit>
 					<UnitType>UNIT_MAGE</UnitType>
 					<UnitMeshGroup>
@@ -347,14 +330,6 @@
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
-					<UnitType>UNIT_DRUID</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_DRUID_SVARTALFAR</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_DRUID_SVARTALFAR</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_DRUID_SVARTALFAR</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
 					<UnitType>UNIT_SCOUT</UnitType>
 					<UnitMeshGroup>
 						<EarlyArtDefineTag>ART_DEF_UNIT_SCOUT_SVARTALFAR</EarlyArtDefineTag>
@@ -427,14 +402,6 @@
 		<UnitArtStyleTypeInfo>
 			<Type>UNIT_ARTSTYLE_DOVIELLO</Type>
 			<StyleUnits>
-				<StyleUnit>
-					<UnitType>UNIT_CROSSBOWMAN</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_CROSSBOWMAN_DOVIELLO</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_CROSSBOWMAN_DOVIELLO</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_CROSSBOWMAN_DOVIELLO</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
 				<StyleUnit>
 					<UnitType>UNIT_HORSEMAN</UnitType>
 					<UnitMeshGroup>

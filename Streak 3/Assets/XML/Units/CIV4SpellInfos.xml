@@ -606,25 +606,6 @@
             <Button>Art/Interface/Buttons/Promotions/Enchantedblade.dds</Button>
         </SpellInfo>
         <SpellInfo>
-            <Type>SPELL_ENTANGLE</Type>
-            <Description>TXT_KEY_SPELL_ENTANGLE</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_ENTANGLE_HELP</Help>
-            <UnitPrereq>UNIT_DRUID</UnitPrereq>
-            <bAllowAI>1</bAllowAI>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <bResistable>1</bResistable>
-            <iRange>1</iRange>
-            <bImmuneTeam>1</bImmuneTeam>
-            <bImmuneNeutral>1</bImmuneNeutral>
-            <bImmuneFlying>1</bImmuneFlying>
-            <iImmobileTurns>2</iImmobileTurns>
-            <Effect>EFFECT_SPELL2</Effect>
-            <Sound>AS3D_SPELL_BLOOM</Sound>
-            <Button>Art/Interface/Buttons/Spells/Entangle.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
             <Type>SPELL_ENTER_PORTAL</Type>
             <Description>TXT_KEY_SPELL_ENTER_PORTAL</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
@@ -1807,20 +1788,6 @@
             <Effect>EFFECT_STONESKIN</Effect>
             <Sound>AS3D_SPELL_STONESKIN</Sound>
             <Button>Art/Interface/Buttons/Spells/Stoneskin.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_SUMMON_DJINN</Type>
-            <Description>TXT_KEY_SPELL_SUMMON_DJINN</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <PromotionPrereq1>PROMOTION_METAMAGIC3</PromotionPrereq1>
-            <bAllowAI>1</bAllowAI>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <CreateUnitType>UNIT_DJINN</CreateUnitType>
-            <iCreateUnitNum>1</iCreateUnitNum>
-            <Effect>EFFECT_SPELL2</Effect>
-            <Sound>AS3D_SPELL_WATER</Sound>
-            <Button>Art/Interface/Buttons/Units/Djinn.dds</Button>
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_SUMMON_EINHERJAR</Type>
