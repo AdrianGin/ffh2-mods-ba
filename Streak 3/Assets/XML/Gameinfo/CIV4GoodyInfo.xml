@@ -247,26 +247,6 @@
 			<iMinBarbarians>2</iMinBarbarians>
 		</GoodyInfo>
 		<GoodyInfo>
-			<Type>GOODY_GRAVE_SKELETONS</Type>
-			<Description>TXT_KEY_GOODY_GRAVE_SKELETONS</Description>
-			<Sound>AS2D_GOODY_HOSTILE</Sound>
-			<iGold>0</iGold>
-			<iGoldRand1>0</iGoldRand1>
-			<iGoldRand2>0</iGoldRand2>
-			<iMapOffset>0</iMapOffset>
-			<iMapRange>0</iMapRange>
-			<iMapProb>0</iMapProb>
-			<iExperience>0</iExperience>
-			<iHealing>0</iHealing>
-			<iDamagePrereq>0</iDamagePrereq>
-			<bTech>0</bTech>
-			<bBad>1</bBad>
-			<UnitClass>NONE</UnitClass>
-			<BarbarianClass>UNITCLASS_SKELETON</BarbarianClass>
-			<iBarbarianUnitProb>20</iBarbarianUnitProb>
-			<iMinBarbarians>1</iMinBarbarians>
-		</GoodyInfo>
-		<GoodyInfo>
 			<Type>GOODY_GRAVE_LOW_GOLD</Type>
 			<Description>TXT_KEY_GOODY_GRAVE_GOLD</Description>
 			<Sound>AS2D_GOODY_GOLD</Sound>
@@ -627,26 +607,6 @@
 			<iMinBarbarians>0</iMinBarbarians>
 		</GoodyInfo>
 		<GoodyInfo>
-			<Type>GOODY_EXPLORE_LAIR_PRISONER_SEA_SERPENT</Type>
-			<Description>TXT_KEY_GOODY_EXPLORE_LAIR_PRISONER_SEA_SERPENT</Description>
-			<Sound/>
-			<iGold>0</iGold>
-			<iGoldRand1>0</iGoldRand1>
-			<iGoldRand2>0</iGoldRand2>
-			<iMapOffset>0</iMapOffset>
-			<iMapRange>0</iMapRange>
-			<iMapProb>0</iMapProb>
-			<iExperience>0</iExperience>
-			<iHealing>0</iHealing>
-			<iDamagePrereq>0</iDamagePrereq>
-			<bTech>0</bTech>
-			<bBad>0</bBad>
-			<UnitClass>UNITCLASS_SEA_SERPENT</UnitClass>
-			<BarbarianClass>NONE</BarbarianClass>
-			<iBarbarianUnitProb>0</iBarbarianUnitProb>
-			<iMinBarbarians>0</iMinBarbarians>
-		</GoodyInfo>
-		<GoodyInfo>
 			<Type>GOODY_EXPLORE_LAIR_SPAWN_SCORPION</Type>
 			<Description>TXT_KEY_GOODY_EXPLORE_LAIR_SPAWN_SCORPION</Description>
 			<Sound/>
@@ -685,66 +645,6 @@
 			<BarbarianClass>UNITCLASS_SCORPION</BarbarianClass>
 			<iBarbarianUnitProb>0</iBarbarianUnitProb>
 			<iMinBarbarians>3</iMinBarbarians>
-		</GoodyInfo>
-		<GoodyInfo>
-			<Type>GOODY_EXPLORE_LAIR_SPAWN_SEA_SERPENT</Type>
-			<Description>TXT_KEY_GOODY_EXPLORE_LAIR_SPAWN_SEA_SERPENT</Description>
-			<Sound/>
-			<iGold>0</iGold>
-			<iGoldRand1>0</iGoldRand1>
-			<iGoldRand2>0</iGoldRand2>
-			<iMapOffset>0</iMapOffset>
-			<iMapRange>0</iMapRange>
-			<iMapProb>0</iMapProb>
-			<iExperience>0</iExperience>
-			<iHealing>0</iHealing>
-			<iDamagePrereq>0</iDamagePrereq>
-			<bTech>0</bTech>
-			<bBad>1</bBad>
-			<UnitClass>NONE</UnitClass>
-			<BarbarianClass>UNITCLASS_SEA_SERPENT</BarbarianClass>
-			<iBarbarianUnitProb>0</iBarbarianUnitProb>
-			<iMinBarbarians>1</iMinBarbarians>
-		</GoodyInfo>
-		<GoodyInfo>
-			<Type>GOODY_EXPLORE_LAIR_SPAWN_SKELETON</Type>
-			<Description>TXT_KEY_GOODY_EXPLORE_LAIR_SPAWN_SKELETON</Description>
-			<Sound/>
-			<iGold>0</iGold>
-			<iGoldRand1>0</iGoldRand1>
-			<iGoldRand2>0</iGoldRand2>
-			<iMapOffset>0</iMapOffset>
-			<iMapRange>0</iMapRange>
-			<iMapProb>0</iMapProb>
-			<iExperience>0</iExperience>
-			<iHealing>0</iHealing>
-			<iDamagePrereq>0</iDamagePrereq>
-			<bTech>0</bTech>
-			<bBad>1</bBad>
-			<UnitClass>NONE</UnitClass>
-			<BarbarianClass>UNITCLASS_SKELETON</BarbarianClass>
-			<iBarbarianUnitProb>30</iBarbarianUnitProb>
-			<iMinBarbarians>1</iMinBarbarians>
-		</GoodyInfo>
-		<GoodyInfo>
-			<Type>GOODY_EXPLORE_LAIR_SUPPLIES</Type>
-			<Description>TXT_KEY_GOODY_EXPLORE_LAIR_SUPPLIES</Description>
-			<Sound/>
-			<iGold>0</iGold>
-			<iGoldRand1>0</iGoldRand1>
-			<iGoldRand2>0</iGoldRand2>
-			<iMapOffset>0</iMapOffset>
-			<iMapRange>0</iMapRange>
-			<iMapProb>0</iMapProb>
-			<iExperience>0</iExperience>
-			<iHealing>0</iHealing>
-			<iDamagePrereq>0</iDamagePrereq>
-			<bTech>0</bTech>
-			<bBad>0</bBad>
-			<UnitClass>UNITCLASS_SUPPLIES</UnitClass>
-			<BarbarianClass>NONE</BarbarianClass>
-			<iBarbarianUnitProb>0</iBarbarianUnitProb>
-			<iMinBarbarians>0</iMinBarbarians>
 		</GoodyInfo>
 	</GoodyInfos>
 </Civ4GoodyInfo>

@@ -47,24 +47,6 @@
 			<DefaultUnit>UNIT_SCORPION</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
-			<Type>UNITCLASS_SON_OF_THE_INFERNO</Type>
-			<Description>TXT_KEY_UNIT_SON_OF_THE_INFERNO</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_SON_OF_THE_INFERNO</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>UNITCLASS_SUPPLIES</Type>
-			<Description>TXT_KEY_UNIT_SUPPLIES</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_SUPPLIES</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
 			<Type>EQUIPMENTCLASS_GODSLAYER</Type>
 			<Description>TXT_KEY_EQUIPMENT_GODSLAYER</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
@@ -72,15 +54,6 @@
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>EQUIPMENT_GODSLAYER</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>UNITCLASS_SEVERED_SOUL</Type>
-			<Description>TXT_KEY_UNIT_SEVERED_SOUL</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_SEVERED_SOUL</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
 			<Type>EQUIPMENTCLASS_ATHAME</Type>
@@ -218,15 +191,6 @@
 			<DefaultUnit>EQUIPMENT_GELA</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
-			<Type>UNITCLASS_SHADE</Type>
-			<Description>TXT_KEY_UNIT_SHADE</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>4</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_SHADE</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
 			<Type>EQUIPMENTCLASS_DRAGONS_HORDE</Type>
 			<Description>TXT_KEY_EQUIPMENT_DRAGONS_HORDE</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
@@ -335,15 +299,6 @@
 			<DefaultUnit>UNIT_GURID</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
-			<Type>UNITCLASS_REPENTANT_ANGEL</Type>
-			<Description>TXT_KEY_UNIT_REPENTANT_ANGEL</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>4</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_REPENTANT_ANGEL</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
 			<Type>UNITCLASS_VALKYRIE</Type>
 			<Description>TXT_KEY_UNIT_VALKYRIE</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
@@ -351,15 +306,6 @@
 			<iMaxPlayerInstances>4</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_VALKYRIE</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>UNITCLASS_SEA_SERPENT</Type>
-			<Description>TXT_KEY_UNIT_SEA_SERPENT</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_SEA_SERPENT</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
 			<Type>UNITCLASS_WATER_ELEMENTAL</Type>
@@ -387,15 +333,6 @@
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_GIBBON</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>UNITCLASS_SKELETON</Type>
-			<Description>TXT_KEY_UNIT_SKELETON</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_SKELETON</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
 			<Type>UNITCLASS_CRUSADER</Type>
@@ -494,15 +431,6 @@
 			<iMaxPlayerInstances>4</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_PHALANX</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>UNITCLASS_SAND_LION</Type>
-			<Description>TXT_KEY_UNIT_SAND_LION</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_SAND_LION</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
 			<Type>UNITCLASS_WOLF_PACK</Type>
@@ -647,15 +575,6 @@
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_COMMANDER</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>UNITCLASS_QUEEN_OF_THE_LINE</Type>
-			<Description>TXT_KEY_UNIT_QUEEN_OF_THE_LINE</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_QUEEN_OF_THE_LINE</DefaultUnit>
 		</UnitClassInfo>
 	</UnitClassInfos>
 </Civ4UnitClassInfos>

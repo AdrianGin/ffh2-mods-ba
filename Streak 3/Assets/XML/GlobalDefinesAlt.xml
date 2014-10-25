@@ -355,10 +355,6 @@
 		<iDefineIntVal>5</iDefineIntVal>
 	</Define>
 	<Define>
-		<DefineName>UNIT_PYRE_ZOMBIE</DefineName>
-		<DefineTextVal>UNIT_PYRE_ZOMBIE</DefineTextVal>
-	</Define>
-	<Define>
 		<DefineName>UNITCLASS_SCOUT</DefineName>
 		<DefineTextVal>UNITCLASS_SCOUT</DefineTextVal>
 	</Define>
