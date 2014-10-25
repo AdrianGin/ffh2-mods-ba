@@ -1105,7 +1105,7 @@ class CvMainInterface:
 			screen.show( "TurnLogButton" )
 
 #FfH: Added by Kael 09/24/2008
-			screen.show( "TrophyButton" )
+#			screen.show( "TrophyButton" )
 #FfH: End Add
 
 			screen.show( "EspionageAdvisorButton" )
@@ -1122,7 +1122,7 @@ class CvMainInterface:
 			screen.moveToFront( "TurnLogButton" )
 
 #FfH: Added by Kael 09/24/2008
-			screen.moveToFront( "TrophyButton" )
+#			screen.moveToFront( "TrophyButton" )
 #FfH: End Add
 
 			screen.moveToFront( "EspionageAdvisorButton" )
@@ -1180,7 +1180,7 @@ class CvMainInterface:
 			screen.show( "TurnLogButton" )
 
 #FfH: Added by Kael 09/24/2008
-			screen.show( "TrophyButton" )
+#			screen.show( "TrophyButton" )
 #FfH: End Add
 
 			screen.show( "EspionageAdvisorButton" )
@@ -1197,7 +1197,7 @@ class CvMainInterface:
 			screen.moveToFront( "TurnLogButton" )
 
 #FfH: Added by Kael 09/24/2008
-			screen.moveToFront( "TrophyButton" )
+#			screen.moveToFront( "TrophyButton" )
 #FfH: End Add
 
 			screen.moveToFront( "EspionageAdvisorButton" )
@@ -1226,7 +1226,7 @@ class CvMainInterface:
 			screen.show( "TurnLogButton" )
 
 #FfH: Added by Kael 09/24/2008
-			screen.show( "TrophyButton" )
+#			screen.show( "TrophyButton" )
 #FfH: End Add
 
 			screen.show( "EspionageAdvisorButton" )
@@ -1243,7 +1243,7 @@ class CvMainInterface:
 			screen.moveToFront( "TurnLogButton" )
 
 #FfH: Added by Kael 09/24/2008
-			screen.moveToFront( "TrophyButton" )
+#			screen.moveToFront( "TrophyButton" )
 #FfH: End Add
 
 			screen.moveToFront( "EspionageAdvisorButton" )
