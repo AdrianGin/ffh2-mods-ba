@@ -363,10 +363,6 @@
 		<DefineTextVal>UNIT_PYRE_ZOMBIE</DefineTextVal>
 	</Define>
 	<Define>
-		<DefineName>UNIT_VAMPIRE</DefineName>
-		<DefineTextVal>UNIT_VAMPIRE</DefineTextVal>
-	</Define>
-	<Define>
 		<DefineName>UNIT_VAMPIRE_LORD</DefineName>
 		<DefineTextVal>UNIT_VAMPIRE_LORD</DefineTextVal>
 	</Define>

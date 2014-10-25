@@ -379,14 +379,6 @@
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
-					<UnitType>UNIT_CHAMPION</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_CHAMPION_SVARTALFAR</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_CHAMPION_SVARTALFAR</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_CHAMPION_SVARTALFAR</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
 					<UnitType>UNIT_SCOUT</UnitType>
 					<UnitMeshGroup>
 						<EarlyArtDefineTag>ART_DEF_UNIT_SCOUT_SVARTALFAR</EarlyArtDefineTag>
@@ -753,14 +745,6 @@
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
-					<UnitType>UNIT_CHAMPION</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_CHAMPION_ILLIANS</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_CHAMPION_ILLIANS</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_CHAMPION_ILLIANS</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
 					<UnitType>UNIT_CHARIOT</UnitType>
 					<UnitMeshGroup>
 						<EarlyArtDefineTag>ART_DEF_UNIT_CHARIOT_ILLIANS</EarlyArtDefineTag>
@@ -881,14 +865,6 @@
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
-					<UnitType>UNIT_CHAMPION</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_CHAMPION_INFERNAL</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_CHAMPION_INFERNAL</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_CHAMPION_INFERNAL</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
 					<UnitType>UNIT_SCOUT</UnitType>
 					<UnitMeshGroup>
 						<EarlyArtDefineTag>ART_DEF_UNIT_SCOUT_INFERNAL</EarlyArtDefineTag>
@@ -995,14 +971,6 @@
 						<EarlyArtDefineTag>ART_DEF_UNIT_ARCHMAGE_LUCHUIRP</EarlyArtDefineTag>
 						<LateArtDefineTag>ART_DEF_UNIT_ARCHMAGE_LUCHUIRP</LateArtDefineTag>
 						<MiddleArtDefineTag>ART_DEF_UNIT_ARCHMAGE_LUCHUIRP</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_ARQUEBUS</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_ARQUEBUS_KHAZAD</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_ARQUEBUS_KHAZAD</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_ARQUEBUS_KHAZAD</MiddleArtDefineTag>
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
@@ -1530,14 +1498,6 @@
 						<EarlyArtDefineTag>ART_DEF_UNIT_AXEMAN_SIDAR</EarlyArtDefineTag>
 						<LateArtDefineTag>ART_DEF_UNIT_AXEMAN_SIDAR</LateArtDefineTag>
 						<MiddleArtDefineTag>ART_DEF_UNIT_AXEMAN_SIDAR</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_CHAMPION</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_CHAMPION_SIDAR</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_CHAMPION_SIDAR</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_CHAMPION_SIDAR</MiddleArtDefineTag>
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>

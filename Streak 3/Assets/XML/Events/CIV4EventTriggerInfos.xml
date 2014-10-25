@@ -5394,7 +5394,6 @@
             <iUnhealthy>0</iUnhealthy>
             <UnitsRequired>
                 <UnitClass>UNITCLASS_AXEMAN</UnitClass>
-                <UnitClass>UNITCLASS_CHAMPION</UnitClass>
             </UnitsRequired>
             <iNumUnits>1</iNumUnits>
             <iNumUnitsGlobal>0</iNumUnitsGlobal>
@@ -8203,7 +8202,6 @@
             <bPickCorporation>0</bPickCorporation>
             <bHeadquarters>0</bHeadquarters>
             <Events>
-                <Event>EVENT_GUILD_OF_THE_NINE_MERC_3_1</Event>
                 <Event>EVENT_DEAL_REFUSE</Event>
             </Events>
             <PrereqEvents>
@@ -22256,7 +22254,6 @@
             <bHeadquarters>0</bHeadquarters>
             <Events>
                 <Event>EVENT_MAGNADINE_HIRE_UNITS_AXEMAN</Event>
-                <Event>EVENT_MAGNADINE_HIRE_UNITS_CHAMPION</Event>
                 <Event>EVENT_MAGNADINE_HIRE_UNITS_ARCHER</Event>
                 <Event>EVENT_MAGNADINE_HIRE_UNITS_NONE</Event>
             </Events>
@@ -24632,7 +24629,6 @@
             <iAngry>0</iAngry>
             <iUnhealthy>0</iUnhealthy>
             <UnitsRequired>
-                <UnitClass>UNITCLASS_CHAMPION</UnitClass>
             </UnitsRequired>
             <iNumUnits>1</iNumUnits>
             <iNumUnitsGlobal>0</iNumUnitsGlobal>
