@@ -3571,7 +3571,7 @@ int CvPlayerAI::AI_getGoldReserve()  const
         return 0;
     }
     int iGold = 0;
-    if (getCivilizationType() == GC.getDefineINT("CIVILIZATION_KHAZAD"))
+    /*if (getCivilizationType() == GC.getDefineINT("CIVILIZATION_KHAZAD"))
     {
         if (isHasTech(GC.getDefineINT("TECH_TAXATION")))
         {
@@ -3586,7 +3586,7 @@ int CvPlayerAI::AI_getGoldReserve()  const
             iGold += 150;
         }
         iGold *= getNumCities();
-    }
+    }*/
     return iGold;
 }
 /*************************************************************************************************/

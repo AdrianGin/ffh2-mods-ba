@@ -23412,11 +23412,12 @@ void CvPlayer::setGreatPeopleThresholdModifier(int iNewValue)
 /*************************************************************************************************/
 bool CvPlayer::isPirate() const
 {
-    if (getCivilizationType() == GC.getDefineINT("CIVILIZATION_LANUN"))
+    return false;
+	/*if (getCivilizationType() == GC.getDefineINT("CIVILIZATION_LANUN"))
     {
         return true;
     }
-    return false;
+    return false;*/
 }
 /*************************************************************************************************/
 /**	END	                                        												**/
