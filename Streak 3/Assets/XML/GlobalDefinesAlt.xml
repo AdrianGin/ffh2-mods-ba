@@ -263,6 +263,10 @@
 		<DefineTextVal>IMPROVEMENT_PIRATE_COVE</DefineTextVal>
 	</Define>
 	<Define>
+		<DefineName>CIVILIZATION_KHAZAD</DefineName>
+		<DefineTextVal>NONE</DefineTextVal>
+	</Define>
+	<Define>
 		<DefineName>PLANAR_GATE_CHANCE</DefineName>
 		<iDefineIntVal>600</iDefineIntVal>
 	</Define>

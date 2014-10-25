@@ -534,14 +534,14 @@ class CvEventManager:
 			if not CyGame().getWBMapScript():
 				cf.warScript(iPlayer)
 
-		if pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_CULTURAL_VALUES')) == gc.getInfoTypeForString('CIVIC_CRUSADE'):
-			cf.doCrusade(iPlayer)
+#		if pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_CULTURAL_VALUES')) == gc.getInfoTypeForString('CIVIC_CRUSADE'):
+#			cf.doCrusade(iPlayer)
 		
-		if pPlayer.getCivilizationType() == gc.getInfoTypeForString('CIVILIZATION_KHAZAD'):
-			cf.doTurnKhazad(iPlayer)
+#		if pPlayer.getCivilizationType() == gc.getInfoTypeForString('CIVILIZATION_KHAZAD'):
+#			cf.doTurnKhazad(iPlayer)
 
-		if pPlayer.getCivilizationType() == gc.getInfoTypeForString('CIVILIZATION_LUCHUIRP'):
-			cf.doTurnLuchuirp(iPlayer)
+#		if pPlayer.getCivilizationType() == gc.getInfoTypeForString('CIVILIZATION_LUCHUIRP'):
+#			cf.doTurnLuchuirp(iPlayer)
 
 		if pPlayer.hasTrait(gc.getInfoTypeForString('TRAIT_INSANE')):
 			if CyGame().getSorenRandNum(1000, "Insane") < 20:

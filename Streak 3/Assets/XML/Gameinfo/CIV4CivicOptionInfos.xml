@@ -11,5 +11,10 @@
 			<Description>TXT_KEY_CIVICOPTION_MEMBERSHIP</Description>
 			<TraitNoUpkeeps/>
 		</CivicOptionInfo>
+		<CivicOptionInfo>
+			<Type>CIVICOPTION_CULTURAL_VALUES</Type>
+			<Description>TXT_KEY_CIVICOPTION_CULTURAL_VALUES</Description>
+			<TraitNoUpkeeps/>
+		</CivicOptionInfo>
 	</CivicOptionInfos>
 </Civ4CivicOptionInfos>
