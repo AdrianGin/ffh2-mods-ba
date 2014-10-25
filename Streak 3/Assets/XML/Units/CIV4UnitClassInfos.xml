@@ -299,15 +299,6 @@
 			<DefaultUnit>UNIT_GURID</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
-			<Type>UNITCLASS_VALKYRIE</Type>
-			<Description>TXT_KEY_UNIT_VALKYRIE</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>4</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_VALKYRIE</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
 			<Type>UNITCLASS_WATER_ELEMENTAL</Type>
 			<Description>TXT_KEY_UNIT_WATER_ELEMENTAL</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
@@ -370,15 +361,6 @@
 			<DefaultUnit>UNIT_PALADIN</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
-			<Type>UNITCLASS_TIGER</Type>
-			<Description>TXT_KEY_UNIT_TIGER</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_TIGER</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
 			<Type>UNITCLASS_DISCIPLE_THE_ORDER</Type>
 			<Description>TXT_KEY_UNIT_DISCIPLE</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
@@ -431,24 +413,6 @@
 			<iMaxPlayerInstances>4</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_PHALANX</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>UNITCLASS_WOLF_PACK</Type>
-			<Description>TXT_KEY_UNIT_WOLF_PACK</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_WOLF_PACK</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>UNITCLASS_WOLF</Type>
-			<Description>TXT_KEY_UNIT_WOLF</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_WOLF</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
 			<Type>UNITCLASS_SETTLER</Type>

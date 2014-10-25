@@ -7,26 +7,6 @@
 <Civ4SpellInfos xmlns="x-schema:CIV4UnitSpellSchema.xml">
     <SpellInfos>
         <SpellInfo>
-            <Type>SPELL_ADD_TO_WOLF_PACK</Type>
-            <Description>TXT_KEY_SPELL_ADD_TO_WOLF_PACK</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_ADD_TO_WOLF_PACK_HELP</Help>
-            <UnitClassPrereq>UNITCLASS_WOLF</UnitClassPrereq>
-            <UnitInStackPrereq>UNIT_WOLF_PACK</UnitInStackPrereq>
-            <CivilizationPrereq>NONE</CivilizationPrereq>
-            <bAllowAI>1</bAllowAI>
-            <iAIWeight>100</iAIWeight>
-            <bHasCasted>1</bHasCasted>
-            <bAbility>1</bAbility>
-            <bSacrificeCaster>1</bSacrificeCaster>
-            <PyResult>spellAddToWolfPack(pCaster)</PyResult>
-            <PyRequirement>reqAddToWolfPack(pCaster)</PyRequirement>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_TRAIN</Sound>
-            <bGraphicalOnly>1</bGraphicalOnly>
-            <Button>Art/Interface/Buttons/Units/Wolf.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
             <Type>SPELL_ARCANE_LACUNA</Type>
             <Description>TXT_KEY_SPELL_ARCANE_LACUNA</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
@@ -676,24 +656,6 @@
             <Effect>EFFECT_SPELL1</Effect>
             <Sound>AS3D_SPELL_INSPIRATION</Sound>
             <Button>Art/Interface/Buttons/Spells/For the Horde.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_FORM_WOLF_PACK</Type>
-            <Description>TXT_KEY_SPELL_FORM_WOLF_PACK</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_FORM_WOLF_PACK_HELP</Help>
-            <UnitClassPrereq>UNITCLASS_WOLF</UnitClassPrereq>
-            <CivilizationPrereq>NONE</CivilizationPrereq>
-            <bAllowAI>1</bAllowAI>
-            <iAIWeight>100</iAIWeight>
-            <bHasCasted>1</bHasCasted>
-            <bAbility>1</bAbility>
-            <PyResult>spellFormWolfPack(pCaster)</PyResult>
-            <PyRequirement>reqFormWolfPack(pCaster)</PyRequirement>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_TRAIN</Sound>
-            <bGraphicalOnly>1</bGraphicalOnly>
-            <Button>Art/Interface/Buttons/Units/Wolf Pack.dds</Button>
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_GIFT_VAMPIRISM</Type>

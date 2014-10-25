@@ -9531,8 +9531,6 @@
             <bPickCorporation>0</bPickCorporation>
             <bHeadquarters>0</bHeadquarters>
             <Events>
-                <Event>EVENT_HUNTER_1</Event>
-                <Event>EVENT_HUNTER_4</Event>
                 <Event>EVENT_HUNTER_6</Event>
             </Events>
             <PrereqEvents>
