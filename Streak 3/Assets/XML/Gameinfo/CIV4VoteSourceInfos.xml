@@ -7,17 +7,6 @@
 <Civ4VoteSourceInfos xmlns="x-schema:CIV4GameInfoSchema.xml">
 	<VoteSourceInfos>
 		<VoteSourceInfo>
-			<Type>DIPLOVOTE_OVERCOUNCIL</Type>
-			<Description>TXT_KEY_OVERCOUNCIL</Description>
-			<PopupText>TXT_KEY_POPUP_CHOOSE_ELECTION</PopupText>
-			<SecretaryGeneralText>TXT_KEY_OVERCOUNCIL_LEADER</SecretaryGeneralText>
-			<iVoteInterval>10</iVoteInterval>
-			<FreeSpecialist>NONE</FreeSpecialist>
-			<Civic>CIVIC_OVERCOUNCIL</Civic>
-			<ReligionYields/>
-			<ReligionCommerces/>
-		</VoteSourceInfo>
-		<VoteSourceInfo>
 			<Type>DIPLOVOTE_UNDERCOUNCIL</Type>
 			<Description>TXT_KEY_UNDERCOUNCIL</Description>
 			<PopupText>TXT_KEY_POPUP_CHOOSE_ELECTION</PopupText>
