@@ -174,8 +174,8 @@ void CvGame::init(HandicapTypes eHandicap)
 		}
 	}
 
-//FfH: Added by Kael 05/28/2008
-    int iRndCiv = GC.getDefineINT("RANDOM_CIVILIZATION");
+//FfH: Added by Kael 05/28/2008, Removed by adrian
+    int iRndCiv = -1;//GC.getDefineINT("RANDOM_CIVILIZATION");
     if (iRndCiv != -1)
     {
         int iAlignment = 0;

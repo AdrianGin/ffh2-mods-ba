@@ -366,9 +366,10 @@ bool CvXMLLoadUtility::SetPostGlobalsGlobalDefines()
 		idx = FindInInfoClass(szVal);
 		GC.getDefinesVarSystem()->SetValue("FLAMES_SPREAD_EFFECT", idx);
 
-		SetGlobalDefine("GREAT_COMMANDER_PROMOTION", szVal);
-		idx = FindInInfoClass(szVal);
-		GC.getDefinesVarSystem()->SetValue("GREAT_COMMANDER_PROMOTION", idx);
+		//Adrian Removing Great Commander Promotion
+		//SetGlobalDefine("GREAT_COMMANDER_PROMOTION", szVal);
+		//idx = FindInInfoClass(szVal);
+		//GC.getDefinesVarSystem()->SetValue("GREAT_COMMANDER_PROMOTION", idx);
 
 		SetGlobalDefine("HIDDEN_NATIONALITY_PROMOTION", szVal);
 		idx = FindInInfoClass(szVal);
@@ -395,9 +396,9 @@ bool CvXMLLoadUtility::SetPostGlobalsGlobalDefines()
 		idx = FindInInfoClass(szVal);
 		GC.getDefinesVarSystem()->SetValue("STARTING_SETTLER_PROMOTION", idx);
 
-		SetGlobalDefine("SLAVE_UNIT", szVal);
-		idx = FindInInfoClass(szVal);
-		GC.getDefinesVarSystem()->SetValue("SLAVE_UNIT", idx);
+		//SetGlobalDefine("SLAVE_UNIT", szVal);
+		//idx = FindInInfoClass(szVal);
+		//GC.getDefinesVarSystem()->SetValue("SLAVE_UNIT", idx);
 
 		SetGlobalDefine("WEAPON_PROMOTION_TIER1", szVal);
 		idx = FindInInfoClass(szVal);
@@ -454,9 +455,9 @@ bool CvXMLLoadUtility::SetPostGlobalsGlobalDefines()
         idx = FindInInfoClass(szVal);
         GC.getDefinesVarSystem()->SetValue("PROMOTION_CHANNELING3", idx);
 
-        SetGlobalDefine("SPELL_CONVERT_CITY_RANTINE", szVal);
-        idx = FindInInfoClass(szVal);
-        GC.getDefinesVarSystem()->SetValue("SPELL_CONVERT_CITY_RANTINE", idx);
+        //SetGlobalDefine("SPELL_CONVERT_CITY_RANTINE", szVal);
+        //idx = FindInInfoClass(szVal);
+        //GC.getDefinesVarSystem()->SetValue("SPELL_CONVERT_CITY_RANTINE", idx);
 
         SetGlobalDefine("SPELL_DISRUPT", szVal);
         idx = FindInInfoClass(szVal);
@@ -470,9 +471,9 @@ bool CvXMLLoadUtility::SetPostGlobalsGlobalDefines()
         idx = FindInInfoClass(szVal);
         GC.getDefinesVarSystem()->SetValue("SPELL_HASTE", idx);
 
-        SetGlobalDefine("SPELL_TEACH_SPELLCASTING", szVal);
-        idx = FindInInfoClass(szVal);
-        GC.getDefinesVarSystem()->SetValue("SPELL_TEACH_SPELLCASTING", idx);
+        //SetGlobalDefine("SPELL_TEACH_SPELLCASTING", szVal);
+        //idx = FindInInfoClass(szVal);
+        //GC.getDefinesVarSystem()->SetValue("SPELL_TEACH_SPELLCASTING", idx);
 
         SetGlobalDefine("TECH_FESTIVALS", szVal);
         idx = FindInInfoClass(szVal);
@@ -486,34 +487,34 @@ bool CvXMLLoadUtility::SetPostGlobalsGlobalDefines()
         idx = FindInInfoClass(szVal);
         GC.getDefinesVarSystem()->SetValue("TECH_WAY_OF_THE_EARTHMOTHER", idx);
 
-        SetGlobalDefine("UNIT_FIREBALL", szVal);
-        idx = FindInInfoClass(szVal);
-        GC.getDefinesVarSystem()->SetValue("UNIT_FIREBALL", idx);
+        //SetGlobalDefine("UNIT_FIREBALL", szVal);
+        //idx = FindInInfoClass(szVal);
+        //GC.getDefinesVarSystem()->SetValue("UNIT_FIREBALL", idx);
 
-        SetGlobalDefine("UNIT_GOVANNON", szVal);
-        idx = FindInInfoClass(szVal);
-        GC.getDefinesVarSystem()->SetValue("UNIT_GOVANNON", idx);
+        //SetGlobalDefine("UNIT_GOVANNON", szVal);
+        //idx = FindInInfoClass(szVal);
+        //GC.getDefinesVarSystem()->SetValue("UNIT_GOVANNON", idx);
 
 		//Removed by Adrian
         //SetGlobalDefine("UNIT_LOKI", szVal);
         //idx = FindInInfoClass(szVal);
         //GC.getDefinesVarSystem()->SetValue("UNIT_LOKI", idx);
 
-        SetGlobalDefine("UNIT_PYRE_ZOMBIE", szVal);
-        idx = FindInInfoClass(szVal);
-        GC.getDefinesVarSystem()->SetValue("UNIT_PYRE_ZOMBIE", idx);
+        //SetGlobalDefine("UNIT_PYRE_ZOMBIE", szVal);
+        //idx = FindInInfoClass(szVal);
+        //GC.getDefinesVarSystem()->SetValue("UNIT_PYRE_ZOMBIE", idx);
 
-        SetGlobalDefine("UNIT_RANTINE", szVal);
-        idx = FindInInfoClass(szVal);
-        GC.getDefinesVarSystem()->SetValue("UNIT_RANTINE", idx);
+        //SetGlobalDefine("UNIT_RANTINE", szVal);
+        //idx = FindInInfoClass(szVal);
+        //GC.getDefinesVarSystem()->SetValue("UNIT_RANTINE", idx);
 
-        SetGlobalDefine("UNIT_VAMPIRE", szVal);
-        idx = FindInInfoClass(szVal);
-        GC.getDefinesVarSystem()->SetValue("UNIT_VAMPIRE", idx);
+        //SetGlobalDefine("UNIT_VAMPIRE", szVal);
+        //idx = FindInInfoClass(szVal);
+        //GC.getDefinesVarSystem()->SetValue("UNIT_VAMPIRE", idx);
 
-        SetGlobalDefine("UNIT_VAMPIRE_LORD", szVal);
-        idx = FindInInfoClass(szVal);
-        GC.getDefinesVarSystem()->SetValue("UNIT_VAMPIRE_LORD", idx);
+        //SetGlobalDefine("UNIT_VAMPIRE_LORD", szVal);
+        //idx = FindInInfoClass(szVal);
+        //GC.getDefinesVarSystem()->SetValue("UNIT_VAMPIRE_LORD", idx);
 
         SetGlobalDefine("UNITCLASS_SCOUT", szVal);
         idx = FindInInfoClass(szVal);

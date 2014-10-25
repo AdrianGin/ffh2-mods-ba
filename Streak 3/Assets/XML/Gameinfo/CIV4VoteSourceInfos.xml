@@ -13,7 +13,7 @@
 			<SecretaryGeneralText>TXT_KEY_UNDERCOUNCIL_LEADER</SecretaryGeneralText>
 			<iVoteInterval>15</iVoteInterval>
 			<FreeSpecialist>NONE</FreeSpecialist>
-			<Civic>CIVIC_UNDERCOUNCIL</Civic>
+			<Civic>NONE</Civic>
 			<ReligionYields/>
 			<ReligionCommerces/>
 		</VoteSourceInfo>

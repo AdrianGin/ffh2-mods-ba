@@ -677,7 +677,8 @@ void CvPlayerAI::AI_doTurnUnitsPost()
 /** Block City counters from becoming Pyre Zombies                 								**/
 /**						                                            							**/
 /*************************************************************************************************/
-                            if (GC.getDefineINT("UNIT_PYRE_ZOMBIE") != NO_UNIT)
+                            /*
+							if (GC.getDefineINT("UNIT_PYRE_ZOMBIE") != NO_UNIT)
                             {
                                 if ((UnitTypes)iI==GC.getDefineINT("UNIT_PYRE_ZOMBIE"))
                                 {
@@ -686,7 +687,7 @@ void CvPlayerAI::AI_doTurnUnitsPost()
                                         iValue=-10000;
                                     }
                                 }
-                            }
+                            }*/
 /*************************************************************************************************/
 /**	END	                                        												**/
 /*************************************************************************************************/

@@ -12481,7 +12481,7 @@ bool CvCivilizationInfo::read(CvXMLLoadUtility* pXML)
 /**																			                    **/
 /**	                                                                 							**/
 /*************************************************************************************************/
-	pXML->GetChildXmlValByName(szTextVal, "eBestDefender1", "UNITCLASS_ARCHER");
+	/*pXML->GetChildXmlValByName(szTextVal, "eBestDefender1", "UNITCLASS_ARCHER");
 	m_eBestDefender1 = (UnitClassTypes)GC.getInfoTypeForString(szTextVal);
     pXML->GetChildXmlValByName(szTextVal, "eBestDefender2", "UNITCLASS_LONGBOWMAN");
 	m_eBestDefender2 = (UnitClassTypes)GC.getInfoTypeForString(szTextVal);
@@ -12493,7 +12493,7 @@ bool CvCivilizationInfo::read(CvXMLLoadUtility* pXML)
     pXML->GetChildXmlValByName(szTextVal, "eBestPatrol2", "UNITCLASS_RANGER");
 	m_eBestPatrol2 = (UnitClassTypes)GC.getInfoTypeForString(szTextVal);
 	pXML->GetChildXmlValByName(szTextVal, "eBestPatrol3");
-	m_eBestPatrol3 = (UnitClassTypes)GC.getInfoTypeForString(szTextVal);
+	m_eBestPatrol3 = (UnitClassTypes)GC.getInfoTypeForString(szTextVal);*/
 
 /*************************************************************************************************/
 /**	END	                                        												**/

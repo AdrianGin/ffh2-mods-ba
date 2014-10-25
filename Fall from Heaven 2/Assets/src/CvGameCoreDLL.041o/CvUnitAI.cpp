@@ -21476,7 +21476,7 @@ void CvUnitAI::AI_heromove()
 
 bool CvUnitAI::AI_Govannonmove()
 {
-    int iTeach = GC.getDefineINT("SPELL_TEACH_SPELLCASTING");
+    int iTeach = NO_SPELL;
     if (iTeach != NO_SPELL)
     {
         if (canCast(iTeach,false))
@@ -21662,7 +21662,7 @@ bool CvUnitAI::AI_Rantinemove()
 	}
 	else
 	{
-	    int iConvert = GC.getDefineINT("SPELL_CONVERT_CITY_RANTINE");
+	    int iConvert = NO_SPELL;
 	    if (iConvert != NO_SPELL)
 	    {
             CvCity* pLoopCity;

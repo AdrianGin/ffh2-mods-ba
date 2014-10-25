@@ -767,7 +767,7 @@
             <Description>TXT_KEY_SPELL_IMPERSONATE_LEADER</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
             <Help>TXT_KEY_SPELL_IMPERSONATE_LEADER_HELP</Help>
-            <UnitClassPrereq>UNITCLASS_GIBBON</UnitClassPrereq>
+            <UnitClassPrereq>NONE</UnitClassPrereq>
             <bInCityOnly>1</bInCityOnly>
             <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
             <bHasCasted>1</bHasCasted>

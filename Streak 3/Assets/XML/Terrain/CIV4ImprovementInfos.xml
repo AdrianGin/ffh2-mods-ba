@@ -4556,7 +4556,7 @@
 			<PrereqCivilization>NONE</PrereqCivilization>
 			<PythonAtRange/>
 			<PythonOnMove/>
-			<SpawnUnitType>UNIT_LIZARDMAN</SpawnUnitType>
+			<SpawnUnitType>NONE</SpawnUnitType>
 		</ImprovementInfo>
 		<ImprovementInfo>
 			<Type>IMPROVEMENT_SEVEN_PINES</Type>

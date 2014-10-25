@@ -15474,7 +15474,8 @@ void CvUnit::castCreateUnit(int spell)
 	    {
             if (GC.getSpellInfo((SpellTypes)spell).isCopyCastersPromotions())
             {
-                if (!GC.getPromotionInfo((PromotionTypes)iI).isEquipment() && !GC.getPromotionInfo((PromotionTypes)iI).isRace() && iI != GC.getDefineINT("GREAT_COMMANDER_PROMOTION"))
+				//Removed Great Commander Promotion check.
+                if (!GC.getPromotionInfo((PromotionTypes)iI).isEquipment() && !GC.getPromotionInfo((PromotionTypes)iI).isRace())
                 {
                     pUnit->setHasPromotion((PromotionTypes)iI, true);
                 }
@@ -15513,13 +15514,14 @@ void CvUnit::castCreateUnit(int spell)
 				pUnit->AI_update();
 			}
         }
-        else if (pUnit->getUnitType()==GC.getDefineINT("UNIT_FIREBALL"))
+		//Adrian removed fireball.
+        /*else if (pUnit->getUnitType()==GC.getDefineINT("UNIT_FIREBALL"))
         {
             if (pUnit->bombard())
             {
                 return;
             }
-        }
+        }*/
         if (pUnit->getDuration()>0)
         {
             if (pUnit->getMoves()>0)
@@ -16806,6 +16808,7 @@ void CvUnit::combatWon(CvUnit* pLoser, bool bAttacking)
             gDLL->getInterfaceIFace()->playGeneralSound("AS3D_UN_GRENADE_EXPLODE", plot()->getPoint());
         }
     }
+/*
     if ((m_pUnitInfo->getEnslavementChance() + GET_PLAYER(getOwnerINLINE()).getEnslavementChance()) > 0)
     {
         if (getDuration() == 0 && pLoser->isAlive() && !pLoser->isAnimal() && iUnit == NO_UNIT)
@@ -16815,7 +16818,8 @@ void CvUnit::combatWon(CvUnit* pLoser, bool bAttacking)
                 iUnit = GC.getDefineINT("SLAVE_UNIT");
             }
         }
-    }
+    }*/
+
     if (m_pUnitInfo->getPromotionFromCombat() != NO_PROMOTION)
     {
         if (pLoser->isAlive())
@@ -16872,13 +16876,14 @@ void CvUnit::combatWon(CvUnit* pLoser, bool bAttacking)
             {
                 pUnit->setDuration(getDuration());
             }
+			/*
             if (iUnit == GC.getDefineINT("SLAVE_UNIT"))
             {
                 if (pLoser->getRace() != NO_PROMOTION)
                 {
                     pUnit->setHasPromotion((PromotionTypes)pLoser->getRace(), true);
                 }
-            }
+            }*/
             if (bConvert)
             {
                 pLoser->setDamage(75, NO_PLAYER, false);
