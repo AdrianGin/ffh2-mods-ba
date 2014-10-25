@@ -747,23 +747,6 @@
             <Button>Art/Interface/Buttons/Spells/Feast.dds</Button>
         </SpellInfo>
         <SpellInfo>
-            <Type>SPELL_FEED</Type>
-            <Description>TXT_KEY_SPELL_FEED</Description>
-            <Civilopedia>TXT_KEY_SPELL_FEED_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_FEED_HELP</Help>
-            <PromotionPrereq1>PROMOTION_VAMPIRE</PromotionPrereq1>
-            <UnitInStackPrereq>UNIT_BLOODPET</UnitInStackPrereq>
-            <bAllowAI>1</bAllowAI>
-            <iAIWeight>10</iAIWeight>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <PyResult>spellFeed(pCaster)</PyResult>
-            <PyRequirement>reqFeed(pCaster)</PyRequirement>
-            <Effect>EFFECT_SACRIFICE</Effect>
-            <Sound>AS3D_SPELL_FEED</Sound>
-            <Button>Art/Interface/Buttons/Spells/Feed.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
             <Type>SPELL_FIREBALL</Type>
             <Description>TXT_KEY_SPELL_FIREBALL</Description>
             <Civilopedia>TXT_KEY_UNIT_FIREBALL_PEDIA</Civilopedia>
@@ -1761,24 +1744,6 @@
             <Effect>EFFECT_SPELL1</Effect>
             <Sound>AS3D_SPELL_ENCHANTMENT</Sound>
             <Button>Art/Interface/Buttons/Promotions/Spellstaff.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_SPORES</Type>
-            <Description>TXT_KEY_SPELL_SPORES</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <UnitPrereq>UNIT_MYCONID</UnitPrereq>
-            <bAllowAI>1</bAllowAI>
-            <bCausesWar>1</bCausesWar>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <bResistable>1</bResistable>
-            <iRange>1</iRange>
-            <bImmuneTeam>1</bImmuneTeam>
-            <bImmuneNotAlive>1</bImmuneNotAlive>
-            <iImmobileTurns>3</iImmobileTurns>
-            <Effect>EFFECT_SPORES</Effect>
-            <Sound>AS3D_SPELL_CONTAGION</Sound>
-            <Button>Art/Interface/Buttons/Spells/Spores.dds</Button>
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_SPRING</Type>
@@ -2781,25 +2746,6 @@
             <Sound>AS3D_SPELL_TRAIN</Sound>
             <bGraphicalOnly>1</bGraphicalOnly>
             <Button>Art/Interface/Buttons/Units/Axeman Doviello.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_UPGRADE_DOVIELLO_WARRIOR</Type>
-            <Description>TXT_KEY_SPELL_UPGRADE_DOVIELLO_WARRIOR</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <UnitClassPrereq>UNITCLASS_WORKER</UnitClassPrereq>
-            <CivilizationPrereq>NONE</CivilizationPrereq>
-            <bAllowAI>1</bAllowAI>
-            <iAIWeight>25</iAIWeight>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <ConvertUnitType>UNIT_BEASTMAN</ConvertUnitType>
-            <bAbility>1</bAbility>
-            <iCost>20</iCost>
-            <PyRequirement>reqUpgradeDovielloWarrior(pCaster)</PyRequirement>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_TRAIN</Sound>
-            <bGraphicalOnly>1</bGraphicalOnly>
-            <Button>Art/Interface/Buttons/Units/Beastman.dds</Button>
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_UPGRADE_WOLF_RIDER</Type>
