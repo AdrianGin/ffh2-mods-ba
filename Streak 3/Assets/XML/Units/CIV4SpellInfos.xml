@@ -7,23 +7,6 @@
 <Civ4SpellInfos xmlns="x-schema:CIV4UnitSpellSchema.xml">
     <SpellInfos>
         <SpellInfo>
-            <Type>SPELL_ADD_TO_FLESH_GOLEM</Type>
-            <Description>TXT_KEY_SPELL_ADD_TO_FLESH_GOLEM</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_ADD_TO_FLESH_GOLEM_HELP</Help>
-            <UnitInStackPrereq>UNIT_FLESH_GOLEM</UnitInStackPrereq>
-            <bCasterMustBeAlive>1</bCasterMustBeAlive>
-            <bCasterNoDuration>1</bCasterNoDuration>
-            <bHasCasted>1</bHasCasted>
-            <bIgnoreHasCasted>1</bIgnoreHasCasted>
-            <bSacrificeCaster>1</bSacrificeCaster>
-            <PyResult>spellAddToFleshGolem(pCaster)</PyResult>
-            <PyRequirement>reqAddToFleshGolem(pCaster)</PyRequirement>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_GRAFT_FLESH</Sound>
-            <Button>Art/Interface/Buttons/Spells/Graftflesh.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
             <Type>SPELL_ADD_TO_WOLF_PACK</Type>
             <Description>TXT_KEY_SPELL_ADD_TO_WOLF_PACK</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
@@ -728,20 +711,6 @@
             <Button>Art/Interface/Buttons/Spells/Feast.dds</Button>
         </SpellInfo>
         <SpellInfo>
-            <Type>SPELL_FIREBALL</Type>
-            <Description>TXT_KEY_SPELL_FIREBALL</Description>
-            <Civilopedia>TXT_KEY_UNIT_FIREBALL_PEDIA</Civilopedia>
-            <PromotionPrereq1>PROMOTION_FIRE2</PromotionPrereq1>
-            <bAllowAI>1</bAllowAI>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <CreateUnitType>UNIT_FIREBALL</CreateUnitType>
-            <iCreateUnitNum>1</iCreateUnitNum>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_FIREBALL</Sound>
-            <Button>Art/Interface/Buttons/Units/Fireball.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
             <Type>SPELL_FLAMING_ARROWS</Type>
             <Description>TXT_KEY_SPELL_FLAMING_ARROWS</Description>
             <Civilopedia>TXT_KEY_SPELL_FLAMING_ARROWS_PEDIA</Civilopedia>
@@ -855,21 +824,6 @@
             <Sound>AS3D_SPELL_TRAIN</Sound>
             <bGraphicalOnly>1</bGraphicalOnly>
             <Button>Art/Interface/Buttons/Units/greatengineer.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_GRAFT_FLESH</Type>
-            <Description>TXT_KEY_SPELL_GRAFT_FLESH</Description>
-            <Civilopedia>TXT_KEY_SPELL_GRAFT_FLESH_PEDIA</Civilopedia>
-            <PromotionPrereq1>PROMOTION_BODY3</PromotionPrereq1>
-            <bAllowAI>1</bAllowAI>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <CreateUnitType>UNIT_FLESH_GOLEM</CreateUnitType>
-            <iCreateUnitNum>1</iCreateUnitNum>
-            <bPermanentUnitCreate>1</bPermanentUnitCreate>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_GRAFT_FLESH</Sound>
-            <Button>Art/Interface/Buttons/Units/Flesh Golem.dds</Button>
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_HASTE</Type>
@@ -1802,20 +1756,6 @@
             <Effect>EFFECT_SPELL2</Effect>
             <Sound>AS3D_SPELL_EINHERJAR</Sound>
             <Button>Art/Interface/Buttons/Units/Einherjar.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_SUMMON_FIRE_ELEMENTAL</Type>
-            <Description>TXT_KEY_SPELL_SUMMON_FIRE_ELEMENTAL</Description>
-            <Civilopedia>TXT_KEY_SPELL_SUMMON_FIRE_ELEMENTAL_PEDIA</Civilopedia>
-            <PromotionPrereq1>PROMOTION_FIRE3</PromotionPrereq1>
-            <bAllowAI>1</bAllowAI>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <CreateUnitType>UNIT_FIRE_ELEMENTAL</CreateUnitType>
-            <iCreateUnitNum>1</iCreateUnitNum>
-            <Effect>EFFECT_FIRE_SUMMON</Effect>
-            <Sound>AS3D_SPELL_FIRE_ELEMENTAL</Sound>
-            <Button>Art/Interface/Buttons/Units/Fire Elemental.dds</Button>
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_SUMMON_ICE_ELEMENTAL</Type>
