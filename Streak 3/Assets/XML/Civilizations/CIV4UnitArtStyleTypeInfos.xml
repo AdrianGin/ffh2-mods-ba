@@ -18,14 +18,6 @@
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
-					<UnitType>UNIT_SWORDSMAN</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_SWORDSMAN_AMURITES</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_SWORDSMAN_AMURITES</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_SWORDSMAN_AMURITES</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
 					<UnitType>UNIT_WARRIOR</UnitType>
 					<UnitMeshGroup>
 						<EarlyArtDefineTag>ART_DEF_UNIT_WARRIOR_AMURITES</EarlyArtDefineTag>
@@ -48,14 +40,6 @@
 		<UnitArtStyleTypeInfo>
 			<Type>UNIT_ARTSTYLE_BABOON</Type>
 			<StyleUnits>
-				<StyleUnit>
-					<UnitType>UNIT_ARCHMAGE</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_BABOON</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_BABOON</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_BABOON</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
 			</StyleUnits>
 		</UnitArtStyleTypeInfo>
 		<UnitArtStyleTypeInfo>
@@ -67,14 +51,6 @@
 						<EarlyArtDefineTag>ART_DEF_UNIT_SCOUT_BALSERAPHS</EarlyArtDefineTag>
 						<LateArtDefineTag>ART_DEF_UNIT_SCOUT_BALSERAPHS</LateArtDefineTag>
 						<MiddleArtDefineTag>ART_DEF_UNIT_SCOUT_BALSERAPHS</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_SWORDSMAN</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_SWORDSMAN_BALSERAPHS</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_SWORDSMAN_BALSERAPHS</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_SWORDSMAN_BALSERAPHS</MiddleArtDefineTag>
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
@@ -167,22 +143,6 @@
 		<UnitArtStyleTypeInfo>
 			<Type>UNIT_ARTSTYLE_CALABIM</Type>
 			<StyleUnits>
-				<StyleUnit>
-					<UnitType>UNIT_ARCHMAGE</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_ARCHMAGE_CALABIM</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_ARCHMAGE_CALABIM</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_ARCHMAGE_CALABIM</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_MAGE</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_MAGE_CALABIM</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_MAGE_CALABIM</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_MAGE_CALABIM</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
 			</StyleUnits>
 		</UnitArtStyleTypeInfo>
 		<UnitArtStyleTypeInfo>
@@ -201,14 +161,6 @@
 		<UnitArtStyleTypeInfo>
 			<Type>UNIT_ARTSTYLE_ORC</Type>
 			<StyleUnits>
-				<StyleUnit>
-					<UnitType>UNIT_MAGE</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_MAGE_CLAN_OF_EMBERS</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_MAGE_CLAN_OF_EMBERS</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_MAGE_CLAN_OF_EMBERS</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
 				<StyleUnit>
 					<UnitType>UNIT_SETTLER</UnitType>
 					<UnitMeshGroup>
@@ -290,14 +242,6 @@
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
-					<UnitType>UNIT_ARCHMAGE</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_ARCHMAGE_SVARTALFAR</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_ARCHMAGE_SVARTALFAR</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_ARCHMAGE_SVARTALFAR</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
 					<UnitType>UNIT_SCOUT</UnitType>
 					<UnitMeshGroup>
 						<EarlyArtDefineTag>ART_DEF_UNIT_SCOUT_SVARTALFAR</EarlyArtDefineTag>
@@ -321,14 +265,6 @@
 						<EarlyArtDefineTag>ART_DEF_UNIT_SETTLER_CHILD_SVARTALFAR</EarlyArtDefineTag>
 						<LateArtDefineTag>ART_DEF_UNIT_SETTLER_CHILD_SVARTALFAR</LateArtDefineTag>
 						<MiddleArtDefineTag>ART_DEF_UNIT_SETTLER_CHILD_SVARTALFAR</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_SWORDSMAN</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_SWORDSMAN_SVARTALFAR</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_SWORDSMAN_SVARTALFAR</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_SWORDSMAN_SVARTALFAR</MiddleArtDefineTag>
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
@@ -376,14 +312,6 @@
 						<EarlyArtDefineTag>ART_DEF_UNIT_HORSEMAN_DOVIELLO</EarlyArtDefineTag>
 						<LateArtDefineTag>ART_DEF_UNIT_HORSEMAN_DOVIELLO</LateArtDefineTag>
 						<MiddleArtDefineTag>ART_DEF_UNIT_HORSEMAN_DOVIELLO</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_MAGE</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_MAGE_DOVIELLO</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_MAGE_DOVIELLO</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_MAGE_DOVIELLO</MiddleArtDefineTag>
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
@@ -483,14 +411,6 @@
 						<EarlyArtDefineTag>ART_DEF_UNIT_ARCHER_GRIGORI_B</EarlyArtDefineTag>
 						<LateArtDefineTag>ART_DEF_UNIT_ARCHER_GRIGORI_B</LateArtDefineTag>
 						<MiddleArtDefineTag>ART_DEF_UNIT_ARCHER_GRIGORI_B</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_MAGE</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_MAGE_GRIGORI</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_MAGE_GRIGORI</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_MAGE_GRIGORI</MiddleArtDefineTag>
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
@@ -601,14 +521,6 @@
 			<Type>UNIT_ARTSTYLE_ILLIANS</Type>
 			<StyleUnits>
 				<StyleUnit>
-					<UnitType>UNIT_ARCHMAGE</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_ARCHMAGE_ILLIANS</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_ARCHMAGE_ILLIANS</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_ARCHMAGE_ILLIANS</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
 					<UnitType>UNIT_AXEMAN</UnitType>
 					<UnitMeshGroup>
 						<EarlyArtDefineTag>ART_DEF_UNIT_AXEMAN_ILLIANS</EarlyArtDefineTag>
@@ -624,14 +536,6 @@
 						<EarlyArtDefineTag>ART_DEF_UNIT_AXEMAN_ILLIANS</EarlyArtDefineTag>
 						<LateArtDefineTag>ART_DEF_UNIT_AXEMAN_ILLIANS</LateArtDefineTag>
 						<MiddleArtDefineTag>ART_DEF_UNIT_AXEMAN_ILLIANS</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_MAGE</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_MAGE_ILLIANS</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_MAGE_ILLIANS</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_MAGE_ILLIANS</MiddleArtDefineTag>
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
@@ -689,14 +593,6 @@
 						<EarlyArtDefineTag>ART_DEF_UNIT_ARCHER_INFERNAL</EarlyArtDefineTag>
 						<LateArtDefineTag>ART_DEF_UNIT_ARCHER_INFERNAL</LateArtDefineTag>
 						<MiddleArtDefineTag>ART_DEF_UNIT_ARCHER_INFERNAL</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_ARCHMAGE</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_ARCHMAGE_INFERNAL</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_ARCHMAGE_INFERNAL</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_ARCHMAGE_INFERNAL</MiddleArtDefineTag>
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
@@ -811,14 +707,6 @@
 			<Type>UNIT_ARTSTYLE_DWARF</Type>
 			<StyleUnits>
 				<StyleUnit>
-					<UnitType>UNIT_ARCHMAGE</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_ARCHMAGE_LUCHUIRP</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_ARCHMAGE_LUCHUIRP</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_ARCHMAGE_LUCHUIRP</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
 					<UnitType>UNIT_SCOUT</UnitType>
 					<UnitMeshGroup>
 						<EarlyArtDefineTag>ART_DEF_UNIT_SCOUT_KHAZAD</EarlyArtDefineTag>
@@ -884,14 +772,6 @@
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
-					<UnitType>UNIT_SWORDSMAN</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_SWORDSMAN_KURIOTATES</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_SWORDSMAN_KURIOTATES</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_SWORDSMAN_KURIOTATES</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
 					<UnitType>UNIT_WAR_ELEPHANT</UnitType>
 					<UnitMeshGroup>
 						<EarlyArtDefineTag>ART_DEF_UNIT_WAR_ELEPHANT_KURIOTATES</EarlyArtDefineTag>
@@ -946,14 +826,6 @@
 						<EarlyArtDefineTag>ART_DEF_UNIT_SETTLER_CHILD_LANUN</EarlyArtDefineTag>
 						<LateArtDefineTag>ART_DEF_UNIT_SETTLER_CHILD_LANUN</LateArtDefineTag>
 						<MiddleArtDefineTag>ART_DEF_UNIT_SETTLER_CHILD_LANUN</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_SWORDSMAN</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_SWORDSMAN_LANUN</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_SWORDSMAN_LANUN</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_SWORDSMAN_LANUN</MiddleArtDefineTag>
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
@@ -1027,14 +899,6 @@
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
-					<UnitType>UNIT_ARCHMAGE</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_ARCHMAGE_LJOSALFAR</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_ARCHMAGE_LJOSALFAR</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_ARCHMAGE_LJOSALFAR</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
 					<UnitType>UNIT_SCOUT</UnitType>
 					<UnitMeshGroup>
 						<EarlyArtDefineTag>ART_DEF_UNIT_SCOUT_LJOSALFAR</EarlyArtDefineTag>
@@ -1058,14 +922,6 @@
 						<EarlyArtDefineTag>ART_DEF_UNIT_SETTLER_CHILD_LJOSALFAR</EarlyArtDefineTag>
 						<LateArtDefineTag>ART_DEF_UNIT_SETTLER_CHILD_LJOSALFAR</LateArtDefineTag>
 						<MiddleArtDefineTag>ART_DEF_UNIT_SETTLER_CHILD_LJOSALFAR</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_SWORDSMAN</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_SWORDSMAN_LJOSALFAR</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_SWORDSMAN_LJOSALFAR</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_SWORDSMAN_LJOSALFAR</MiddleArtDefineTag>
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
@@ -1131,14 +987,6 @@
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
-					<UnitType>UNIT_ARCHMAGE</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_ARCHMAGE_MALAKIM</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_ARCHMAGE_MALAKIM</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_ARCHMAGE_MALAKIM</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
 					<UnitType>UNIT_SCOUT</UnitType>
 					<UnitMeshGroup>
 						<EarlyArtDefineTag>ART_DEF_UNIT_SCOUT_MALAKIM</EarlyArtDefineTag>
@@ -1162,14 +1010,6 @@
 						<EarlyArtDefineTag>ART_DEF_UNIT_SETTLER_CHILD_MALAKIM</EarlyArtDefineTag>
 						<LateArtDefineTag>ART_DEF_UNIT_SETTLER_CHILD_MALAKIM</LateArtDefineTag>
 						<MiddleArtDefineTag>ART_DEF_UNIT_SETTLER_CHILD_MALAKIM</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_SWORDSMAN</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_SWORDSMAN_MALAKIM</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_SWORDSMAN_MALAKIM</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_SWORDSMAN_MALAKIM</MiddleArtDefineTag>
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
@@ -1240,14 +1080,6 @@
 						<EarlyArtDefineTag>ART_DEF_UNIT_HORSEMAN_SHEAIM</EarlyArtDefineTag>
 						<LateArtDefineTag>ART_DEF_UNIT_HORSEMAN_SHEAIM</LateArtDefineTag>
 						<MiddleArtDefineTag>ART_DEF_UNIT_HORSEMAN_SHEAIM</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_MAGE</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_MAGE_SHEAIM</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_MAGE_SHEAIM</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_MAGE_SHEAIM</MiddleArtDefineTag>
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
