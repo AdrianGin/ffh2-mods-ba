@@ -354,25 +354,6 @@
             <Button>Art/Interface/Buttons/Spells/Domination.dds</Button>
         </SpellInfo>
         <SpellInfo>
-            <Type>SPELL_DROP_CROWN_OF_AKHARIEN</Type>
-            <Description>TXT_KEY_SPELL_DROP_CROWN_OF_AKHARIEN</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <PromotionPrereq1>PROMOTION_CROWN_OF_AKHARIEN</PromotionPrereq1>
-            <bAllowAI>1</bAllowAI>
-            <bInBordersOnly>1</bInBordersOnly>
-            <bInCityOnly>1</bInCityOnly>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <RemovePromotionType1>PROMOTION_CROWN_OF_AKHARIEN</RemovePromotionType1>
-            <bBuffCasterOnly>1</bBuffCasterOnly>
-            <CreateBuildingType>BUILDING_CROWN_OF_AKHARIEN</CreateBuildingType>
-            <bAbility>1</bAbility>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_TRAIN</Sound>
-            <bGraphicalOnly>1</bGraphicalOnly>
-            <Button>Art/Interface/Buttons/Equipment/CrownOfAkharien.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
             <Type>SPELL_ENCHANT_SPELLSTAFF</Type>
             <Description>TXT_KEY_SPELL_ENCHANT_SPELLSTAFF</Description>
             <Civilopedia>TXT_KEY_SPELL_ENCHANT_SPELLSTAFF_PEDIA</Civilopedia>
@@ -1558,25 +1539,6 @@
             <Sound>AS3D_SPELL_TRAIN</Sound>
             <bGraphicalOnly>1</bGraphicalOnly>
             <Button>Art/Interface/Buttons/Equipment/BlackMirror.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_TAKE_CROWN_OF_AKHARIEN_BUILDING</Type>
-            <Description>TXT_KEY_SPELL_TAKE_CROWN_OF_AKHARIEN</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_TAKE_EQUIPMENT_HELP</Help>
-            <BuildingPrereq>BUILDING_CROWN_OF_AKHARIEN</BuildingPrereq>
-            <bInBordersOnly>1</bInBordersOnly>
-            <bInCityOnly>1</bInCityOnly>
-            <bHasCasted>1</bHasCasted>
-            <AddPromotionType1>PROMOTION_CROWN_OF_AKHARIEN</AddPromotionType1>
-            <bBuffCasterOnly>1</bBuffCasterOnly>
-            <bAbility>1</bAbility>
-            <PyResult>spellTakeEquipmentBuilding(pCaster,'EQUIPMENT_CROWN_OF_AKHARIEN')</PyResult>
-            <PyRequirement>reqTakeEquipmentBuilding(pCaster,'EQUIPMENT_CROWN_OF_AKHARIEN')</PyRequirement>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_TRAIN</Sound>
-            <bGraphicalOnly>1</bGraphicalOnly>
-            <Button>Art/Interface/Buttons/Equipment/CrownOfAkharien.dds</Button>
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_TAKE_CROWN_OF_AKHARIEN_PROMOTION</Type>
