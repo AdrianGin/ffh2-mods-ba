@@ -73,12 +73,13 @@ def showMainInterface():
 def numPlotListButtons():
 	return mainInterface.numPlotListButtons()
 
-#FfH: Added by Talchas 05/19/2007
+#FfH: Added by Talchas 05/19/2007, Adrian Removed Trophy Hall
 trophyHall = CvTrophyHall.CvTrophyHall()
 def showTrophyHall():
-	if (-1 != CyGame().getActivePlayer()):
+	return
+	#if (-1 != CyGame().getActivePlayer()):
 		#infoScreen.showScreen(-1, 1, 1)
-		trophyHall.interfaceScreen()
+		#trophyHall.interfaceScreen()
 #FfH: End Add
 
 techChooser = CvTechChooser.CvTechChooser()
