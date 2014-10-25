@@ -175,30 +175,6 @@
 			<VictoryThresholds/>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
-			<Type>BUILDINGCLASS_SHRINE_OF_SIRONA</Type>
-			<Description>TXT_KEY_BUILDING_SHRINE_OF_SIRONA</Description>
-			<iMaxGlobalInstances>1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iExtraPlayerInstances>0</iExtraPlayerInstances>
-			<bNoLimit>0</bNoLimit>
-			<bMonument>0</bMonument>
-			<DefaultBuilding>BUILDING_SHRINE_OF_SIRONA</DefaultBuilding>
-			<VictoryThresholds/>
-		</BuildingClassInfo>
-		<BuildingClassInfo>
-			<Type>BUILDINGCLASS_SHRINE_OF_THE_CHAMPION</Type>
-			<Description>TXT_KEY_BUILDING_SHRINE_OF_THE_CHAMPION</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>1</iMaxPlayerInstances>
-			<iExtraPlayerInstances>0</iExtraPlayerInstances>
-			<bNoLimit>0</bNoLimit>
-			<bMonument>0</bMonument>
-			<DefaultBuilding>BUILDING_SHRINE_OF_THE_CHAMPION</DefaultBuilding>
-			<VictoryThresholds/>
-		</BuildingClassInfo>
-		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_SHIPYARD</Type>
 			<Description>TXT_KEY_BUILDING_SHIPYARD</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
@@ -328,18 +304,6 @@
 			<bNoLimit>0</bNoLimit>
 			<bMonument>0</bMonument>
 			<DefaultBuilding>BUILDING_MAGE_GUILD</DefaultBuilding>
-			<VictoryThresholds/>
-		</BuildingClassInfo>
-		<BuildingClassInfo>
-			<Type>BUILDINGCLASS_SOUL_FORGE</Type>
-			<Description>NONE</Description>
-			<iMaxGlobalInstances>1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iExtraPlayerInstances>0</iExtraPlayerInstances>
-			<bNoLimit>0</bNoLimit>
-			<bMonument>0</bMonument>
-			<DefaultBuilding>BUILDING_SOUL_FORGE</DefaultBuilding>
 			<VictoryThresholds/>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
@@ -655,18 +619,6 @@
 			<VictoryThresholds/>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
-			<Type>BUILDINGCLASS_BONE_PALACE</Type>
-			<Description>TXT_KEY_BUILDING_BONE_PALACE</Description>
-			<iMaxGlobalInstances>1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iExtraPlayerInstances>0</iExtraPlayerInstances>
-			<bNoLimit>0</bNoLimit>
-			<bMonument>0</bMonument>
-			<DefaultBuilding>BUILDING_BONE_PALACE</DefaultBuilding>
-			<VictoryThresholds/>
-		</BuildingClassInfo>
-		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_HALL_OF_KINGS</Type>
 			<Description>TXT_KEY_BUILDING_HALL_OF_KINGS</Description>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -688,18 +640,6 @@
 			<bNoLimit>0</bNoLimit>
 			<bMonument>0</bMonument>
 			<DefaultBuilding>BUILDING_PROPHECY_OF_RAGNAROK</DefaultBuilding>
-			<VictoryThresholds/>
-		</BuildingClassInfo>
-		<BuildingClassInfo>
-			<Type>BUILDINGCLASS_TEMPLE_OF_TEMPORENCE</Type>
-			<Description>TXT_KEY_BUILDING_TEMPLE_OF_TEMPORENCE</Description>
-			<iMaxGlobalInstances>1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iExtraPlayerInstances>0</iExtraPlayerInstances>
-			<bNoLimit>0</bNoLimit>
-			<bMonument>0</bMonument>
-			<DefaultBuilding>BUILDING_TEMPLE_OF_TEMPORENCE</DefaultBuilding>
 			<VictoryThresholds/>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
@@ -751,18 +691,6 @@
 			<VictoryThresholds/>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
-			<Type>BUILDINGCLASS_SYLIVENS_PERFECT_LYRE</Type>
-			<Description>TXT_KEY_BUILDING_SYLIVENS_PERFECT_LYRE</Description>
-			<iMaxGlobalInstances>1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iExtraPlayerInstances>0</iExtraPlayerInstances>
-			<bNoLimit>0</bNoLimit>
-			<bMonument>0</bMonument>
-			<DefaultBuilding>BUILDING_SYLIVENS_PERFECT_LYRE</DefaultBuilding>
-			<VictoryThresholds/>
-		</BuildingClassInfo>
-		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_CROWN_OF_AKHARIEN</Type>
 			<Description>TXT_KEY_BUILDING_CROWN_OF_AKHARIEN</Description>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -772,18 +700,6 @@
 			<bNoLimit>0</bNoLimit>
 			<bMonument>0</bMonument>
 			<DefaultBuilding>BUILDING_CROWN_OF_AKHARIEN</DefaultBuilding>
-			<VictoryThresholds/>
-		</BuildingClassInfo>
-		<BuildingClassInfo>
-			<Type>BUILDINGCLASS_FORBIDDEN_PALACE</Type>
-			<Description>TXT_KEY_BUILDING_FORBIDDEN_PALACE</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>1</iMaxPlayerInstances>
-			<iExtraPlayerInstances>0</iExtraPlayerInstances>
-			<bNoLimit>0</bNoLimit>
-			<bMonument>0</bMonument>
-			<DefaultBuilding>BUILDING_FORBIDDEN_PALACE</DefaultBuilding>
 			<VictoryThresholds/>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
