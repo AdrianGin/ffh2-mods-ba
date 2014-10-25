@@ -24453,7 +24453,6 @@
             <bHeadquarters>0</bHeadquarters>
             <Events>
                 <Event>EVENT_CLAIRONE_1</Event>
-                <Event>EVENT_CLAIRONE_2</Event>
             </Events>
             <PrereqEvents>
             </PrereqEvents>

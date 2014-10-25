@@ -227,10 +227,6 @@
 		<iDefineIntVal>12</iDefineIntVal>
 	</Define>
 	<Define>
-		<DefineName>GREAT_COMMANDER_PROMOTION</DefineName>
-		<DefineTextVal>PROMOTION_GREAT_COMMANDER</DefineTextVal>
-	</Define>
-	<Define>
 		<DefineName>HELLFIRE_CHANCE</DefineName>
 		<iDefineIntVal>200</iDefineIntVal>
 	</Define>
