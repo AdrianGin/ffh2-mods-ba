@@ -1844,20 +1844,6 @@
             <Button>Art/Interface/Buttons/Spells/Stoneskin.dds</Button>
         </SpellInfo>
         <SpellInfo>
-            <Type>SPELL_SUMMON_AIR_ELEMENTAL</Type>
-            <Description>TXT_KEY_SPELL_SUMMON_AIR_ELEMENTAL</Description>
-            <Civilopedia>TXT_KEY_SPELL_SUMMON_AIR_ELEMENTAL_PEDIA</Civilopedia>
-            <PromotionPrereq1>PROMOTION_AIR3</PromotionPrereq1>
-            <bAllowAI>1</bAllowAI>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <CreateUnitType>UNIT_AIR_ELEMENTAL</CreateUnitType>
-            <iCreateUnitNum>1</iCreateUnitNum>
-            <Effect>EFFECT_AIR_SUMMON</Effect>
-            <Sound>AS3D_SPELL_AIR_ELEMENTAL</Sound>
-            <Button>Art/Interface/Buttons/Units/Air Elemental.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
             <Type>SPELL_SUMMON_DJINN</Type>
             <Description>TXT_KEY_SPELL_SUMMON_DJINN</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>

@@ -235,7 +235,6 @@
             <iAngry>0</iAngry>
             <iUnhealthy>0</iUnhealthy>
             <UnitsRequired>
-                <UnitClass>UNITCLASS_ADEPT</UnitClass>
                 <UnitClass>UNITCLASS_MAGE</UnitClass>
                 <UnitClass>UNITCLASS_ARCHMAGE</UnitClass>
             </UnitsRequired>
@@ -3503,7 +3502,6 @@
             <bHeadquarters>0</bHeadquarters>
             <Events>
                 <Event>EVENT_CITY_FEUD_ARSON_1</Event>
-                <Event>EVENT_CITY_FEUD_ARSON_2</Event>
                 <Event>EVENT_CITY_FEUD_ARSON_3</Event>
             </Events>
             <PrereqEvents>
@@ -5435,7 +5433,6 @@
             <Events>
                 <Event>EVENT_ENCHANTER_1</Event>
                 <Event>EVENT_ENCHANTER_2</Event>
-                <Event>EVENT_ENCHANTER_3</Event>
             </Events>
             <PrereqEvents>
             </PrereqEvents>
@@ -8002,7 +7999,6 @@
             <bPickCorporation>0</bPickCorporation>
             <bHeadquarters>0</bHeadquarters>
             <Events>
-                <Event>EVENT_GUILD_OF_THE_NINE_MERC_1_1</Event>
                 <Event>EVENT_GUILD_OF_THE_NINE_MERC_1_2</Event>
                 <Event>EVENT_DEAL_REFUSE</Event>
             </Events>
@@ -9949,7 +9945,6 @@
             <bHeadquarters>0</bHeadquarters>
             <Events>
                 <Event>EVENT_IMMIGRANTS_1</Event>
-                <Event>EVENT_IMMIGRANTS_2</Event>
                 <Event>EVENT_IMMIGRANTS_3</Event>
                 <Event>EVENT_IMMIGRANTS_4</Event>
                 <Event>EVENT_IMMIGRANTS_6</Event>

@@ -62,14 +62,6 @@
 			<Type>UNIT_ARTSTYLE_BALSERAPHS</Type>
 			<StyleUnits>
 				<StyleUnit>
-					<UnitType>UNIT_ADEPT</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_ADEPT_BALSERAPHS</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_ADEPT_BALSERAPHS</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_ADEPT_BALSERAPHS</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
 					<UnitType>UNIT_CATAPULT</UnitType>
 					<UnitMeshGroup>
 						<EarlyArtDefineTag>ART_DEF_UNIT_CATAPULT_BALSERAPHS</EarlyArtDefineTag>
@@ -208,14 +200,6 @@
 			<Type>UNIT_ARTSTYLE_CALABIM</Type>
 			<StyleUnits>
 				<StyleUnit>
-					<UnitType>UNIT_ADEPT</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_ADEPT_CALABIM</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_ADEPT_CALABIM</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_ADEPT_CALABIM</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
 					<UnitType>UNIT_ARCHMAGE</UnitType>
 					<UnitMeshGroup>
 						<EarlyArtDefineTag>ART_DEF_UNIT_ARCHMAGE_CALABIM</EarlyArtDefineTag>
@@ -309,14 +293,6 @@
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
-					<UnitType>UNIT_SHAMAN</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_ADEPT_CLAN_OF_EMBERS</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_ADEPT_CLAN_OF_EMBERS</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_ADEPT_CLAN_OF_EMBERS</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
 					<UnitType>UNIT_WARRIOR</UnitType>
 					<UnitMeshGroup>
 						<EarlyArtDefineTag>ART_DEF_UNIT_WARRIOR_CLAN_OF_EMBERS</EarlyArtDefineTag>
@@ -368,14 +344,6 @@
 		<UnitArtStyleTypeInfo>
 			<Type>UNIT_ARTSTYLE_DARK_ELF</Type>
 			<StyleUnits>
-				<StyleUnit>
-					<UnitType>UNIT_ADEPT</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_ADEPT_SVARTALFAR</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_ADEPT_SVARTALFAR</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_ADEPT_SVARTALFAR</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
 				<StyleUnit>
 					<UnitType>UNIT_ARCHER</UnitType>
 					<UnitMeshGroup>
@@ -553,14 +521,6 @@
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
-					<UnitType>UNIT_SHAMAN</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_ADEPT_DOVIELLO</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_ADEPT_DOVIELLO</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_ADEPT_DOVIELLO</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
 					<UnitType>UNIT_WAR_ELEPHANT</UnitType>
 					<UnitMeshGroup>
 						<EarlyArtDefineTag>ART_DEF_UNIT_WAR_ELEPHANT_DOVIELLO</EarlyArtDefineTag>
@@ -573,14 +533,6 @@
 		<UnitArtStyleTypeInfo>
 			<Type>UNIT_ARTSTYLE_ELOHIM</Type>
 			<StyleUnits>
-				<StyleUnit>
-					<UnitType>UNIT_ADEPT</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_ADEPT_ELOHIM</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_ADEPT_ELOHIM</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_ADEPT_ELOHIM</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
 				<StyleUnit>
 					<UnitType>UNIT_ARCHER</UnitType>
 					<UnitMeshGroup>
@@ -774,14 +726,6 @@
 		<UnitArtStyleTypeInfo>
 			<Type>UNIT_ARTSTYLE_ILLIANS</Type>
 			<StyleUnits>
-				<StyleUnit>
-					<UnitType>UNIT_ADEPT</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_ADEPT_ILLIANS</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_ADEPT_ILLIANS</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_ADEPT_ILLIANS</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
 				<StyleUnit>
 					<UnitType>UNIT_ARCHMAGE</UnitType>
 					<UnitMeshGroup>
@@ -1046,14 +990,6 @@
 			<Type>UNIT_ARTSTYLE_DWARF</Type>
 			<StyleUnits>
 				<StyleUnit>
-					<UnitType>UNIT_ADEPT</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_ADEPT_KHAZAD</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_ADEPT_KHAZAD</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_ADEPT_KHAZAD</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
 					<UnitType>UNIT_ARCHMAGE</UnitType>
 					<UnitMeshGroup>
 						<EarlyArtDefineTag>ART_DEF_UNIT_ARCHMAGE_LUCHUIRP</EarlyArtDefineTag>
@@ -1164,14 +1100,6 @@
 			<Type>UNIT_ARTSTYLE_LANUN</Type>
 			<StyleUnits>
 				<StyleUnit>
-					<UnitType>UNIT_ADEPT</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_ADEPT_LANUN</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_ADEPT_LANUN</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_ADEPT_LANUN</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
 					<UnitType>UNIT_ARCHER</UnitType>
 					<UnitMeshGroup>
 						<EarlyArtDefineTag>ART_DEF_UNIT_ARCHER_LANUN</EarlyArtDefineTag>
@@ -1276,14 +1204,6 @@
 			<Type>UNIT_ARTSTYLE_ELF</Type>
 			<StyleUnits>
 				<StyleUnit>
-					<UnitType>UNIT_ADEPT</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_ADEPT_LJOSALFAR</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_ADEPT_LJOSALFAR</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_ADEPT_LJOSALFAR</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
 					<UnitType>UNIT_ARCHER</UnitType>
 					<UnitMeshGroup>
 						<EarlyArtDefineTag>ART_DEF_UNIT_ARCHER_LJOSALFAR</EarlyArtDefineTag>
@@ -1387,14 +1307,6 @@
 		<UnitArtStyleTypeInfo>
 			<Type>UNIT_ARTSTYLE_MALAKIM</Type>
 			<StyleUnits>
-				<StyleUnit>
-					<UnitType>UNIT_ADEPT</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_ADEPT_MALAKIM</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_ADEPT_MALAKIM</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_ADEPT_MALAKIM</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
 				<StyleUnit>
 					<UnitType>UNIT_ARCHER</UnitType>
 					<UnitMeshGroup>
@@ -1509,14 +1421,6 @@
 			<Type>UNIT_ARTSTYLE_SHEAIM</Type>
 			<StyleUnits>
 				<StyleUnit>
-					<UnitType>UNIT_ADEPT</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_ADEPT_SHEAIM</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_ADEPT_SHEAIM</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_ADEPT_SHEAIM</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
 					<UnitType>UNIT_ARCHER</UnitType>
 					<UnitMeshGroup>
 						<EarlyArtDefineTag>ART_DEF_UNIT_ARCHER_SHEAIM</EarlyArtDefineTag>
@@ -1610,14 +1514,6 @@
 		<UnitArtStyleTypeInfo>
 			<Type>UNIT_ARTSTYLE_SIDAR</Type>
 			<StyleUnits>
-				<StyleUnit>
-					<UnitType>UNIT_ADEPT</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_ADEPT_SIDAR</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_ADEPT_SIDAR</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_ADEPT_SIDAR</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
 				<StyleUnit>
 					<UnitType>UNIT_AXEMAN</UnitType>
 					<UnitMeshGroup>
