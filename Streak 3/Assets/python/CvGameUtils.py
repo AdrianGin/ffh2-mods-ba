@@ -304,14 +304,14 @@ class CvGameUtils:
 			if eUnit == gc.getInfoTypeForString('UNIT_DEMAGOG'):
 				if pPlayer.getUnitClassCount(gc.getInfoTypeForString('UNITCLASS_DEMAGOG')) > 6:
 					return True
-			if eUnit == gc.getInfoTypeForString('UNIT_SETTLER'):		
-				if pPlayer.getCivilizationType() == gc.getInfoTypeForString('CIVILIZATION_KHAZAD'):
-					if pPlayer.getUnitClassCountPlusMaking(gc.getInfoTypeForString('UNITCLASS_SETTLER')) > 0:
-						if eTeam.isHasTech(gc.getInfoTypeForString('TECH_FESTIVALS')) == False:
-							return True
-				if pPlayer.getUnitClassCountPlusMaking(gc.getInfoTypeForString('UNITCLASS_SETTLER')) > 1:
-					if eTeam.isHasTech(gc.getInfoTypeForString('TECH_FESTIVALS')) == False:
-						return True
+#			if eUnit == gc.getInfoTypeForString('UNIT_SETTLER'):		
+#				if pPlayer.getCivilizationType() == gc.getInfoTypeForString('CIVILIZATION_KHAZAD'):
+#					if pPlayer.getUnitClassCountPlusMaking(gc.getInfoTypeForString('UNITCLASS_SETTLER')) > 0:
+#						if eTeam.isHasTech(gc.getInfoTypeForString('TECH_FESTIVALS')) == False:
+#							return True
+#				if pPlayer.getUnitClassCountPlusMaking(gc.getInfoTypeForString('UNITCLASS_SETTLER')) > 1:
+#					if eTeam.isHasTech(gc.getInfoTypeForString('TECH_FESTIVALS')) == False:
+#						return True
 
 			if eUnit == gc.getInfoTypeForString('UNIT_WORKER'):
 				if pPlayer.getNumCities() + 2 <= pPlayer.getUnitClassCountPlusMaking(gc.getInfoTypeForString('UNITCLASS_WORKER')):
@@ -379,13 +379,13 @@ class CvGameUtils:
 			if pCity.getPopulation() <= 5:
 				return True
 
-		if pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_CULTURAL_VALUES')) == gc.getInfoTypeForString('CIVIC_CRUSADE'):
-			if eUnit == gc.getInfoTypeForString('UNIT_WORKER'):
-				return True
-			if eUnit == gc.getInfoTypeForString('UNIT_SETTLER'):
-				return True
-			if eUnit == gc.getInfoTypeForString('UNIT_WORKBOAT'):
-				return True
+		#if pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_CULTURAL_VALUES')) == gc.getInfoTypeForString('CIVIC_CRUSADE'):
+		#	if eUnit == gc.getInfoTypeForString('UNIT_WORKER'):
+		#		return True
+		#	if eUnit == gc.getInfoTypeForString('UNIT_SETTLER'):
+		#		return True
+		#	if eUnit == gc.getInfoTypeForString('UNIT_WORKBOAT'):
+		#		return True
 
 		if eUnit == gc.getInfoTypeForString('UNIT_ACHERON'):
 			if gc.getGame().isOption(GameOptionTypes.GAMEOPTION_NO_ACHERON):

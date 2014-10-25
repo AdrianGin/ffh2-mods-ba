@@ -2055,8 +2055,9 @@ def spellRaiseSkeleton(caster):
 
 def reqRally(caster):
 	pPlayer = gc.getPlayer(caster.getOwner())
-	if pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_CULTURAL_VALUES')) != gc.getInfoTypeForString('CIVIC_CRUSADE'):
-		return False
+	return False
+#	if pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_CULTURAL_VALUES')) != gc.getInfoTypeForString('CIVIC_CRUSADE'):
+#		return False
 	if pPlayer.isHuman() == False:
 		if pPlayer.getNumCities() < 5:
 			return False
@@ -2179,8 +2180,8 @@ def reqRecruitMercenary(caster):
 	pPlayer = gc.getPlayer(caster.getOwner())
 	if pPlayer.isHuman() == False:
 		pPlot = caster.plot()
-		if pPlayer.getCivilizationType() == gc.getInfoTypeForString('CIVILIZATION_KHAZAD'):
-			return False
+		#if pPlayer.getCivilizationType() == gc.getInfoTypeForString('CIVILIZATION_KHAZAD'):
+		#	return False
 		iX = caster.getX()
 		iY = caster.getY()
 		eTeam = gc.getTeam(pPlayer.getTeam())
