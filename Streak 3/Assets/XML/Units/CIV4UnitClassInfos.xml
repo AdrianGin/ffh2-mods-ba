@@ -389,15 +389,6 @@
 			<DefaultUnit>UNIT_AZER</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
-			<Type>UNITCLASS_TEUTORIX</Type>
-			<Description>TXT_KEY_UNIT_TEUTORIX</Description>
-			<iMaxGlobalInstances>1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_TEUTORIX</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
 			<Type>EQUIPMENTCLASS_GOLDEN_HAMMER</Type>
 			<Description>TXT_KEY_EQUIPMENT_GOLDEN_HAMMER</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
