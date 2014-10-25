@@ -258,25 +258,6 @@
             <Button>Art/Interface/Buttons/Units/Commander.dds</Button>
         </SpellInfo>
         <SpellInfo>
-            <Type>SPELL_CONVERT_CITY_RANTINE</Type>
-            <Description>TXT_KEY_SPELL_CONVERT_CITY</Description>
-            <Civilopedia>TXT_KEY_SPELL_CONVERT_CITY_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_CONVERT_CITY_HELP</Help>
-            <UnitClassPrereq>UNITCLASS_RANTINE</UnitClassPrereq>
-            <bAllowAI>1</bAllowAI>
-            <bInCityOnly>1</bInCityOnly>
-            <iAIWeight>1000</iAIWeight>
-            <iAIWeightCity>1000</iAIWeightCity>
-            <bHasCasted>1</bHasCasted>
-            <bAbility>1</bAbility>
-            <PyResult>spellConvertCityRantine(pCaster)</PyResult>
-            <PyRequirement>reqConvertCityRantine(pCaster)</PyRequirement>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_DOMINATION</Sound>
-            <bGraphicalOnly>1</bGraphicalOnly>
-            <Button>Art/Interface/Buttons/Spells/Convertcity.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
             <Type>SPELL_COURAGE</Type>
             <Description>TXT_KEY_SPELL_COURAGE</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
@@ -1276,22 +1257,6 @@
             <Button>Art/Interface/Buttons/Equipment/Treasure.dds</Button>
         </SpellInfo>
         <SpellInfo>
-            <Type>SPELL_PEACE</Type>
-            <Description>TXT_KEY_SPELL_PEACE</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_PEACE_HELP</Help>
-            <UnitClassPrereq>UNITCLASS_CORLINDALE</UnitClassPrereq>
-            <bAllowAI>1</bAllowAI>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <bSacrificeCaster>1</bSacrificeCaster>
-            <PyResult>spellPeace(pCaster)</PyResult>
-            <PyRequirement>reqPeace(pCaster)</PyRequirement>
-            <Effect>EFFECT_CREATION</Effect>
-            <Sound>AS3D_SPELL_CURE_DISEASE</Sound>
-            <Button>Art/Interface/Buttons/Spells/Peace.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
             <Type>SPELL_PEACE_SEVEN_PINES</Type>
             <Description>TXT_KEY_SPELL_PEACE</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
@@ -1710,17 +1675,6 @@
             <Effect>EFFECT_SWORDS_SPARKS</Effect>
             <Sound>AS3D_SPELL_ENCHANTMENT</Sound>
             <Button>Art/Interface/Buttons/Promotions/Shadowwalk.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_SING</Type>
-            <Description>TXT_KEY_SPELL_SING</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_SING_HELP</Help>
-            <UnitClassPrereq>UNITCLASS_GUYBRUSH</UnitClassPrereq>
-            <bIgnoreHasCasted>1</bIgnoreHasCasted>
-            <bAbility>1</bAbility>
-            <PyResult>spellSing(pCaster)</PyResult>
-            <Button>Art/Interface/Buttons/Spells/Sing.dds</Button>
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_SIRONAS_TOUCH</Type>

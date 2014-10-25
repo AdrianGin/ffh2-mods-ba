@@ -307,10 +307,6 @@
 		<DefineTextVal>SPECIALUNIT_SPELL</DefineTextVal>
 	</Define>
 	<Define>
-		<DefineName>SPELL_CONVERT_CITY_RANTINE</DefineName>
-		<DefineTextVal>SPELL_CONVERT_CITY_RANTINE</DefineTextVal>
-	</Define>
-	<Define>
 		<DefineName>SPELL_DISRUPT</DefineName>
 		<DefineTextVal>SPELL_DISRUPT</DefineTextVal>
 	</Define>
@@ -365,10 +361,6 @@
 	<Define>
 		<DefineName>UNIT_PYRE_ZOMBIE</DefineName>
 		<DefineTextVal>UNIT_PYRE_ZOMBIE</DefineTextVal>
-	</Define>
-	<Define>
-		<DefineName>UNIT_RANTINE</DefineName>
-		<DefineTextVal>UNIT_RANTINE</DefineTextVal>
 	</Define>
 	<Define>
 		<DefineName>UNIT_VAMPIRE</DefineName>
