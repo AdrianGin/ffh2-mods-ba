@@ -667,26 +667,6 @@
 			<iMinBarbarians>0</iMinBarbarians>
 		</GoodyInfo>
 		<GoodyInfo>
-			<Type>GOODY_EXPLORE_LAIR_SPAWN_FROSTLING</Type>
-			<Description>TXT_KEY_GOODY_EXPLORE_LAIR_SPAWN_FROSTLING</Description>
-			<Sound/>
-			<iGold>0</iGold>
-			<iGoldRand1>0</iGoldRand1>
-			<iGoldRand2>0</iGoldRand2>
-			<iMapOffset>0</iMapOffset>
-			<iMapRange>0</iMapRange>
-			<iMapProb>0</iMapProb>
-			<iExperience>0</iExperience>
-			<iHealing>0</iHealing>
-			<iDamagePrereq>0</iDamagePrereq>
-			<bTech>0</bTech>
-			<bBad>1</bBad>
-			<UnitClass>NONE</UnitClass>
-			<BarbarianClass>UNITCLASS_FROSTLING</BarbarianClass>
-			<iBarbarianUnitProb>30</iBarbarianUnitProb>
-			<iMinBarbarians>1</iMinBarbarians>
-		</GoodyInfo>
-		<GoodyInfo>
 			<Type>GOODY_EXPLORE_LAIR_SPAWN_SCORPION</Type>
 			<Description>TXT_KEY_GOODY_EXPLORE_LAIR_SPAWN_SCORPION</Description>
 			<Sound/>
