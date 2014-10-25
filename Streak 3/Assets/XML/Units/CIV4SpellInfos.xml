@@ -354,63 +354,6 @@
             <Button>Art/Interface/Buttons/Spells/Domination.dds</Button>
         </SpellInfo>
         <SpellInfo>
-            <Type>SPELL_DROP_CROWN_OF_AKHARIEN</Type>
-            <Description>TXT_KEY_SPELL_DROP_CROWN_OF_AKHARIEN</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <PromotionPrereq1>PROMOTION_CROWN_OF_AKHARIEN</PromotionPrereq1>
-            <bAllowAI>1</bAllowAI>
-            <bInBordersOnly>1</bInBordersOnly>
-            <bInCityOnly>1</bInCityOnly>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <RemovePromotionType1>PROMOTION_CROWN_OF_AKHARIEN</RemovePromotionType1>
-            <bBuffCasterOnly>1</bBuffCasterOnly>
-            <CreateBuildingType>BUILDING_CROWN_OF_AKHARIEN</CreateBuildingType>
-            <bAbility>1</bAbility>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_TRAIN</Sound>
-            <bGraphicalOnly>1</bGraphicalOnly>
-            <Button>Art/Interface/Buttons/Equipment/CrownOfAkharien.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_DROP_DRAGONS_HORDE</Type>
-            <Description>TXT_KEY_SPELL_DROP_DRAGONS_HORDE</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <PromotionPrereq1>PROMOTION_DRAGONS_HORDE</PromotionPrereq1>
-            <bAllowAI>1</bAllowAI>
-            <bInBordersOnly>1</bInBordersOnly>
-            <bInCityOnly>1</bInCityOnly>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <RemovePromotionType1>PROMOTION_DRAGONS_HORDE</RemovePromotionType1>
-            <bBuffCasterOnly>1</bBuffCasterOnly>
-            <CreateBuildingType>BUILDING_THE_DRAGONS_HORDE</CreateBuildingType>
-            <bAbility>1</bAbility>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_TRAIN</Sound>
-            <bGraphicalOnly>1</bGraphicalOnly>
-            <Button>Art/Interface/Buttons/Equipment/DragonsHorde.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_DROP_SYLIVENS_PERFECT_LYRE</Type>
-            <Description>TXT_KEY_SPELL_DROP_SYLIVENS_PERFECT_LYRE</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <PromotionPrereq1>PROMOTION_SYLIVENS_PERFECT_LYRE</PromotionPrereq1>
-            <bAllowAI>1</bAllowAI>
-            <bInBordersOnly>1</bInBordersOnly>
-            <bInCityOnly>1</bInCityOnly>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <RemovePromotionType1>PROMOTION_SYLIVENS_PERFECT_LYRE</RemovePromotionType1>
-            <bBuffCasterOnly>1</bBuffCasterOnly>
-            <CreateBuildingType>BUILDING_SYLIVENS_PERFECT_LYRE</CreateBuildingType>
-            <bAbility>1</bAbility>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_TRAIN</Sound>
-            <bGraphicalOnly>1</bGraphicalOnly>
-            <Button>Art/Interface/Buttons/Equipment/SylivensPerfectLyre.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
             <Type>SPELL_ENCHANT_SPELLSTAFF</Type>
             <Description>TXT_KEY_SPELL_ENCHANT_SPELLSTAFF</Description>
             <Civilopedia>TXT_KEY_SPELL_ENCHANT_SPELLSTAFF_PEDIA</Civilopedia>
@@ -1382,21 +1325,6 @@
             <Button>Art/Interface/Buttons/Promotions/Shadowwalk.dds</Button>
         </SpellInfo>
         <SpellInfo>
-            <Type>SPELL_SIRONAS_TOUCH</Type>
-            <Description>TXT_KEY_SPELL_SIRONAS_TOUCH</Description>
-            <Civilopedia>TXT_KEY_SPELL_SIRONAS_TOUCH_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_SIRONAS_TOUCH_HELP</Help>
-            <BuildingClassOwnedPrereq>BUILDINGCLASS_SHRINE_OF_SIRONA</BuildingClassOwnedPrereq>
-            <bAllowAI>1</bAllowAI>
-            <bCasterMustBeAlive>1</bCasterMustBeAlive>
-            <bIgnoreHasCasted>1</bIgnoreHasCasted>
-            <PyResult>spellSironasTouch(pCaster)</PyResult>
-            <PyRequirement>reqSironasTouch(pCaster)</PyRequirement>
-            <Effect>EFFECT_CREATION</Effect>
-            <Sound>AS3D_SPELL_HEAL</Sound>
-            <Button>Art/Interface/Buttons/Spells/Sironas Touch.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
             <Type>SPELL_SLAVE_TRADE_BUY</Type>
             <Description>TXT_KEY_SPELL_SLAVE_TRADE_BUY</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
@@ -1613,25 +1541,6 @@
             <Button>Art/Interface/Buttons/Equipment/BlackMirror.dds</Button>
         </SpellInfo>
         <SpellInfo>
-            <Type>SPELL_TAKE_CROWN_OF_AKHARIEN_BUILDING</Type>
-            <Description>TXT_KEY_SPELL_TAKE_CROWN_OF_AKHARIEN</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_TAKE_EQUIPMENT_HELP</Help>
-            <BuildingPrereq>BUILDING_CROWN_OF_AKHARIEN</BuildingPrereq>
-            <bInBordersOnly>1</bInBordersOnly>
-            <bInCityOnly>1</bInCityOnly>
-            <bHasCasted>1</bHasCasted>
-            <AddPromotionType1>PROMOTION_CROWN_OF_AKHARIEN</AddPromotionType1>
-            <bBuffCasterOnly>1</bBuffCasterOnly>
-            <bAbility>1</bAbility>
-            <PyResult>spellTakeEquipmentBuilding(pCaster,'EQUIPMENT_CROWN_OF_AKHARIEN')</PyResult>
-            <PyRequirement>reqTakeEquipmentBuilding(pCaster,'EQUIPMENT_CROWN_OF_AKHARIEN')</PyRequirement>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_TRAIN</Sound>
-            <bGraphicalOnly>1</bGraphicalOnly>
-            <Button>Art/Interface/Buttons/Equipment/CrownOfAkharien.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
             <Type>SPELL_TAKE_CROWN_OF_AKHARIEN_PROMOTION</Type>
             <Description>TXT_KEY_SPELL_TAKE_CROWN_OF_AKHARIEN</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
@@ -1698,25 +1607,6 @@
             <Sound>AS3D_SPELL_TRAIN</Sound>
             <bGraphicalOnly>1</bGraphicalOnly>
             <Button>Art/Interface/Buttons/Equipment/CrownOfCommand.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_TAKE_DRAGONS_HORDE_BUILDING</Type>
-            <Description>TXT_KEY_SPELL_TAKE_DRAGONS_HORDE</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_TAKE_EQUIPMENT_HELP</Help>
-            <BuildingPrereq>BUILDING_THE_DRAGONS_HORDE</BuildingPrereq>
-            <bInBordersOnly>1</bInBordersOnly>
-            <bInCityOnly>1</bInCityOnly>
-            <bHasCasted>1</bHasCasted>
-            <AddPromotionType1>PROMOTION_DRAGONS_HORDE</AddPromotionType1>
-            <bBuffCasterOnly>1</bBuffCasterOnly>
-            <bAbility>1</bAbility>
-            <PyResult>spellTakeEquipmentBuilding(pCaster,'EQUIPMENT_DRAGONS_HORDE')</PyResult>
-            <PyRequirement>reqTakeEquipmentBuilding(pCaster,'EQUIPMENT_DRAGONS_HORDE')</PyRequirement>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_TRAIN</Sound>
-            <bGraphicalOnly>1</bGraphicalOnly>
-            <Button>Art/Interface/Buttons/Equipment/DragonsHorde.dds</Button>
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_TAKE_DRAGONS_HORDE_PROMOTION</Type>
@@ -2147,25 +2037,6 @@
             <Sound>AS3D_SPELL_TRAIN</Sound>
             <bGraphicalOnly>1</bGraphicalOnly>
             <Button>Art/Interface/Buttons/Equipment/StaffOfSouls.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_TAKE_SYLIVENS_PERFECT_LYRE_BUILDING</Type>
-            <Description>TXT_KEY_SPELL_TAKE_SYLIVENS_PERFECT_LYRE</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_TAKE_EQUIPMENT_HELP</Help>
-            <BuildingPrereq>BUILDING_SYLIVENS_PERFECT_LYRE</BuildingPrereq>
-            <bInBordersOnly>1</bInBordersOnly>
-            <bInCityOnly>1</bInCityOnly>
-            <bHasCasted>1</bHasCasted>
-            <AddPromotionType1>PROMOTION_SYLIVENS_PERFECT_LYRE</AddPromotionType1>
-            <bBuffCasterOnly>1</bBuffCasterOnly>
-            <bAbility>1</bAbility>
-            <PyResult>spellTakeEquipmentBuilding(pCaster,'EQUIPMENT_SYLIVENS_PERFECT_LYRE')</PyResult>
-            <PyRequirement>reqTakeEquipmentBuilding(pCaster,'EQUIPMENT_SYLIVENS_PERFECT_LYRE')</PyRequirement>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_TRAIN</Sound>
-            <bGraphicalOnly>1</bGraphicalOnly>
-            <Button>Art/Interface/Buttons/Equipment/SylivensPerfectLyre.dds</Button>
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_TAKE_SYLIVENS_PERFECT_LYRE_PROMOTION</Type>

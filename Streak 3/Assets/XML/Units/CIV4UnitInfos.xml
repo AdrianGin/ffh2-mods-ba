@@ -2562,10 +2562,6 @@
 			<GreatPeoples>
             </GreatPeoples>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_CROWN_OF_AKHARIEN</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
 			</Buildings>
 			<ForceBuildings>
             </ForceBuildings>
@@ -2976,10 +2972,6 @@
 			<GreatPeoples>
             </GreatPeoples>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_THE_DRAGONS_HORDE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
 			</Buildings>
 			<ForceBuildings>
             </ForceBuildings>
@@ -5645,10 +5637,6 @@
 			<GreatPeoples>
             </GreatPeoples>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_SYLIVENS_PERFECT_LYRE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
 			</Buildings>
 			<ForceBuildings>
             </ForceBuildings>
