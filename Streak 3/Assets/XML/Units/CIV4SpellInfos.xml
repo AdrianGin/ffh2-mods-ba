@@ -111,35 +111,6 @@
             <Button>Art/Interface/Buttons/Promotions/Blur.dds</Button>
         </SpellInfo>
         <SpellInfo>
-            <Type>SPELL_BURNING_BLOOD</Type>
-            <Description>TXT_KEY_SPELL_BURNING_BLOOD</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <UnitPrereq>UNIT_MOROI</UnitPrereq>
-            <bHasCasted>1</bHasCasted>
-            <AddPromotionType1>PROMOTION_BURNING_BLOOD</AddPromotionType1>
-            <bBuffCasterOnly>1</bBuffCasterOnly>
-            <Effect>EFFECT_BURNING_BLOOD</Effect>
-            <Sound>AS3D_SPELL_BURNING_BLOOD</Sound>
-            <bGraphicalOnly>1</bGraphicalOnly>
-            <Button>Art/Interface/Buttons/Promotions/Burningblood.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_CALL_BLIZZARD</Type>
-            <Description>TXT_KEY_SPELL_CALL_BLIZZARD</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_CALL_BLIZZARD_HELP</Help>
-            <UnitClassPrereq>UNITCLASS_PRIEST_OF_WINTER</UnitClassPrereq>
-            <bAllowAI>1</bAllowAI>
-            <iAIWeight>50</iAIWeight>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <PyResult>spellCallBlizzard(pCaster)</PyResult>
-            <PyRequirement>reqCallBlizzard(pCaster)</PyRequirement>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_CONTAGION</Sound>
-            <Button>Art/Interface/Buttons/TerrainFeatures/Blizzard.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
             <Type>SPELL_CALL_FORM</Type>
             <Description>TXT_KEY_SPELL_CALL_FORM</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
@@ -1678,20 +1649,6 @@
             <Effect>EFFECT_STONESKIN</Effect>
             <Sound>AS3D_SPELL_STONESKIN</Sound>
             <Button>Art/Interface/Buttons/Spells/Stoneskin.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_SUMMON_MISTFORM</Type>
-            <Description>TXT_KEY_SPELL_SUMMON_MISTFORM</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <PromotionPrereq1>PROMOTION_SHADOW3</PromotionPrereq1>
-            <bAllowAI>1</bAllowAI>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <CreateUnitType>UNIT_MISTFORM</CreateUnitType>
-            <iCreateUnitNum>1</iCreateUnitNum>
-            <Effect>EFFECT_SPELL2</Effect>
-            <Sound>AS3D_SPELL_KRAKEN</Sound>
-            <Button>Art/Interface/Buttons/Units/Mistform.dds</Button>
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_SUMMON_SAND_LION</Type>

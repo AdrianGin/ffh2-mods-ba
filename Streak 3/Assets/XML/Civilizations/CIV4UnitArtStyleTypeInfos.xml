@@ -226,14 +226,6 @@
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
-					<UnitType>UNIT_PALADIN</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_PALADIN_CLAN_OF_EMBERS</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_PALADIN_CLAN_OF_EMBERS</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_PALADIN_CLAN_OF_EMBERS</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
 					<UnitType>UNIT_SETTLER</UnitType>
 					<UnitMeshGroup>
 						<EarlyArtDefineTag>ART_DEF_UNIT_SETTLER_MALE_CLAN_OF_EMBERS</EarlyArtDefineTag>
@@ -667,14 +659,6 @@
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
-					<UnitType>UNIT_PHALANX</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_PHALANX_ILLIANS</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_PHALANX_ILLIANS</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_PHALANX_ILLIANS</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
 					<UnitType>UNIT_SCOUT</UnitType>
 					<UnitMeshGroup>
 						<EarlyArtDefineTag>ART_DEF_UNIT_SCOUT_ILLIANS</EarlyArtDefineTag>
@@ -923,14 +907,6 @@
 		<UnitArtStyleTypeInfo>
 			<Type>UNIT_ARTSTYLE_KURIOTATES</Type>
 			<StyleUnits>
-				<StyleUnit>
-					<UnitType>UNIT_PHALANX</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_PHALANX_KURIOTATES</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_PHALANX_KURIOTATES</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_PHALANX_KURIOTATES</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
 				<StyleUnit>
 					<UnitType>UNIT_SCOUT</UnitType>
 					<UnitMeshGroup>
@@ -1194,15 +1170,6 @@
 						<MiddleArtDefineTag>ART_DEF_UNIT_ARCHMAGE_MALAKIM</MiddleArtDefineTag>
 					</UnitMeshGroup>
 				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_PHALANX</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_PHALANX_MALAKIM</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_PHALANX_MALAKIM</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_PHALANX_MALAKIM</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				
 				<StyleUnit>
 					<UnitType>UNIT_SCOUT</UnitType>
 					<UnitMeshGroup>
