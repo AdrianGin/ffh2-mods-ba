@@ -12467,7 +12467,7 @@
         </UnitArtInfo>
         <UnitArtInfo>
             <Type>ART_DEF_UNIT_SCOUT_DOVIELLO</Type>
-            <Button>Art/Interface/Buttons/Units/Scout Doviello.dds</Button>
+            <Button>Art/Interface/Buttons/Units/Scout.dds</Button>
             <fScale>0.44</fScale>
             <fInterfaceScale>1</fInterfaceScale>
             <bActAsLand>0</bActAsLand>
