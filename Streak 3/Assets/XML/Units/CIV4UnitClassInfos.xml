@@ -92,15 +92,6 @@
 			<DefaultUnit>UNIT_SEVERED_SOUL</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
-			<Type>UNITCLASS_AURIC_ASCENDED</Type>
-			<Description>TXT_KEY_UNIT_AURIC_ASCENDED</Description>
-			<iMaxGlobalInstances>1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_AURIC_ASCENDED</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
 			<Type>UNITCLASS_HIGH_PRIEST_OF_WINTER</Type>
 			<Description>TXT_KEY_UNIT_HIGH_PRIEST_OF_WINTER</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
@@ -272,15 +263,6 @@
 			<DefaultUnit>UNIT_DRIFA</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
-			<Type>UNITCLASS_AURIC</Type>
-			<Description>TXT_KEY_LEADER_AURIC</Description>
-			<iMaxGlobalInstances>1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_AURIC</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
 			<Type>UNITCLASS_BATTERING_RAM</Type>
 			<Description>TXT_KEY_UNIT_BATTERING_RAM</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
@@ -443,15 +425,6 @@
 			<DefaultUnit>EQUIPMENT_ORTHUSS_AXE</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
-			<Type>EQUIPMENTCLASS_PIECES_OF_BARNAXUS</Type>
-			<Description>TXT_KEY_EQUIPMENT_PIECES_OF_BARNAXUS</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>EQUIPMENT_PIECES_OF_BARNAXUS</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
 			<Type>EQUIPMENTCLASS_ROD_OF_WINDS</Type>
 			<Description>TXT_KEY_EQUIPMENT_ROD_OF_WINDS</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
@@ -459,15 +432,6 @@
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>EQUIPMENT_ROD_OF_WINDS</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>UNITCLASS_ALAZKAN</Type>
-			<Description>TXT_KEY_UNIT_ALAZKAN</Description>
-			<iMaxGlobalInstances>1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_ALAZKAN</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
 			<Type>UNITCLASS_LEVIATHAN</Type>
@@ -711,33 +675,6 @@
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_GOVANNON</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>UNITCLASS_BARNAXUS</Type>
-			<Description>TXT_KEY_UNIT_BARNAXUS</Description>
-			<iMaxGlobalInstances>1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_BARNAXUS</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>UNITCLASS_ABASHI</Type>
-			<Description>TXT_KEY_UNIT_ABASHI</Description>
-			<iMaxGlobalInstances>1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_ABASHI</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>UNITCLASS_ACHERON</Type>
-			<Description>TXT_KEY_UNIT_ACHERON</Description>
-			<iMaxGlobalInstances>1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_ACHERON</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
 			<Type>UNITCLASS_BASIUM</Type>

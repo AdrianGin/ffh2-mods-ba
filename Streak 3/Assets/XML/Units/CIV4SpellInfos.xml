@@ -1509,25 +1509,6 @@
             <Button>Art/Interface/Buttons/Spells/Rally.dds</Button>
         </SpellInfo>
         <SpellInfo>
-            <Type>SPELL_REBUILD_BARNAXUS</Type>
-            <Description>TXT_KEY_SPELL_REBUILD_BARNAXUS</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_REBUILD_BARNAXUS_HELP</Help>
-            <PromotionPrereq1>PROMOTION_PIECES_OF_BARNAXUS</PromotionPrereq1>
-            <bAllowAI>1</bAllowAI>
-            <bInCityOnly>1</bInCityOnly>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <RemovePromotionType1>PROMOTION_PIECES_OF_BARNAXUS</RemovePromotionType1>
-            <bBuffCasterOnly>1</bBuffCasterOnly>
-            <bAbility>1</bAbility>
-            <PyResult>spellRebuildBarnaxus(pCaster)</PyResult>
-            <PyRequirement>reqRebuildBarnaxus(pCaster)</PyRequirement>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_REPAIR</Sound>
-            <Button>Art/Interface/Buttons/Units/Barnaxus.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
             <Type>SPELL_RECRUIT</Type>
             <Description>TXT_KEY_SPELL_RECRUIT</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
@@ -1881,27 +1862,6 @@
             <PyResult>spellSnowfall(pCaster)</PyResult>
             <Effect>EFFECT_SNOWFALL</Effect>
             <Sound>AS3D_SPELL_SPRING</Sound>
-            <Button>Art/Interface/Buttons/Spells/Snowfall.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_SNOWFALL_GREATOR</Type>
-            <Description>TXT_KEY_SPELL_SNOWFALL</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_SNOWFALL_HELP</Help>
-            <UnitClassPrereq>UNITCLASS_AURIC_ASCENDED</UnitClassPrereq>
-            <bAllowAI>1</bAllowAI>
-            <bCausesWar>1</bCausesWar>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <iRange>2</iRange>
-            <iDamage>80</iDamage>
-            <iDamageLimit>100</iDamageLimit>
-            <DamageType>DAMAGE_COLD</DamageType>
-            <bImmuneTeam>1</bImmuneTeam>
-            <PyResult>spellSnowfallGreator(pCaster)</PyResult>
-            <Effect>EFFECT_SNOWFALL_GREATOR</Effect>
-            <Sound>AS3D_SPELL_SPRING</Sound>
-            <bGraphicalOnly>1</bGraphicalOnly>
             <Button>Art/Interface/Buttons/Spells/Snowfall.dds</Button>
         </SpellInfo>
         <SpellInfo>
@@ -2574,42 +2534,6 @@
             <Sound>AS3D_SPELL_TRAIN</Sound>
             <bGraphicalOnly>1</bGraphicalOnly>
             <Button>Art/Interface/Buttons/Equipment/Orthussaxe.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_TAKE_PIECES_OF_BARNAXUS_PROMOTION</Type>
-            <Description>TXT_KEY_SPELL_TAKE_PIECES_OF_BARNAXUS</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_TAKE_EQUIPMENT_HELP</Help>
-            <PromotionInStackPrereq>PROMOTION_PIECES_OF_BARNAXUS</PromotionInStackPrereq>
-            <bAllowAI>1</bAllowAI>
-            <iAIWeight>50</iAIWeight>
-            <bHasCasted>1</bHasCasted>
-            <bAbility>1</bAbility>
-            <PyResult>spellTakeEquipmentPromotion(pCaster,'EQUIPMENT_PIECES_OF_BARNAXUS')</PyResult>
-            <PyRequirement>reqTakeEquipmentPromotion(pCaster,'EQUIPMENT_PIECES_OF_BARNAXUS')</PyRequirement>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_TRAIN</Sound>
-            <bGraphicalOnly>1</bGraphicalOnly>
-            <Button>Art/Interface/Buttons/Units/Barnaxus.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_TAKE_PIECES_OF_BARNAXUS_UNIT</Type>
-            <Description>TXT_KEY_SPELL_TAKE_PIECES_OF_BARNAXUS</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_TAKE_EQUIPMENT_HELP</Help>
-            <UnitInStackPrereq>EQUIPMENT_PIECES_OF_BARNAXUS</UnitInStackPrereq>
-            <bAllowAI>1</bAllowAI>
-            <iAIWeight>50</iAIWeight>
-            <bHasCasted>1</bHasCasted>
-            <AddPromotionType1>PROMOTION_PIECES_OF_BARNAXUS</AddPromotionType1>
-            <bBuffCasterOnly>1</bBuffCasterOnly>
-            <bAbility>1</bAbility>
-            <PyResult>spellTakeEquipmentUnit(pCaster,'EQUIPMENT_PIECES_OF_BARNAXUS')</PyResult>
-            <PyRequirement>reqTakeEquipmentUnit(pCaster,'EQUIPMENT_PIECES_OF_BARNAXUS')</PyRequirement>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_TRAIN</Sound>
-            <bGraphicalOnly>1</bGraphicalOnly>
-            <Button>Art/Interface/Buttons/Units/Barnaxus.dds</Button>
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_TAKE_POTION_OF_INVISIBILITY_PROMOTION</Type>

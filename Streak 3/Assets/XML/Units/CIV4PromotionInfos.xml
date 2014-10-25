@@ -5146,15 +5146,6 @@
             <iPromotionCombatMod>50</iPromotionCombatMod>
         </PromotionInfo>
         <PromotionInfo>
-            <Type>PROMOTION_PIECES_OF_BARNAXUS</Type>
-            <Description>TXT_KEY_EQUIPMENT_PIECES_OF_BARNAXUS</Description>
-            <Help>TXT_KEY_PROMOTION_PIECES_OF_BARNAXUS_PEDIA</Help>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_NEVER</TechPrereq>
-            <Button>Art/Interface/Buttons/Units/Barnaxus.dds</Button>
-            <bEquipment>1</bEquipment>
-        </PromotionInfo>
-        <PromotionInfo>
             <Type>PROMOTION_PLAGUE_CARRIER</Type>
             <Description>TXT_KEY_PROMOTION_PLAGUE_CARRIER</Description>
             <Help>TXT_KEY_PROMOTION_PLAGUE_CARRIER_PEDIA</Help>
