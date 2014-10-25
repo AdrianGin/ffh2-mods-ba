@@ -56,15 +56,6 @@
 			<DefaultUnit>UNIT_SON_OF_THE_INFERNO</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
-			<Type>UNITCLASS_HERNE</Type>
-			<Description>TXT_KEY_UNIT_HERNE</Description>
-			<iMaxGlobalInstances>1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_HERNE</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
 			<Type>UNITCLASS_SUPPLIES</Type>
 			<Description>TXT_KEY_UNIT_SUPPLIES</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
@@ -180,15 +171,6 @@
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_PRIEST_OF_WINTER</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>UNITCLASS_MOKKA</Type>
-			<Description>TXT_KEY_UNIT_MOKKA</Description>
-			<iMaxGlobalInstances>1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_MOKKA</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
 			<Type>EQUIPMENTCLASS_BLACK_MIRROR</Type>
@@ -389,15 +371,6 @@
 			<DefaultUnit>EQUIPMENT_JADE_TORC</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
-			<Type>EQUIPMENTCLASS_ORTHUSS_AXE</Type>
-			<Description>TXT_KEY_EQUIPMENT_ORTHUSS_AXE</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>EQUIPMENT_ORTHUSS_AXE</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
 			<Type>EQUIPMENTCLASS_ROD_OF_WINDS</Type>
 			<Description>TXT_KEY_EQUIPMENT_ROD_OF_WINDS</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
@@ -405,15 +378,6 @@
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>EQUIPMENT_ROD_OF_WINDS</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>UNITCLASS_LEVIATHAN</Type>
-			<Description>TXT_KEY_UNIT_LEVIATHAN</Description>
-			<iMaxGlobalInstances>1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_LEVIATHAN</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
 			<Type>UNITCLASS_MARGALARD</Type>
@@ -578,15 +542,6 @@
 			<DefaultUnit>UNIT_GUYBRUSH</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
-			<Type>UNITCLASS_BLACK_WIND</Type>
-			<Description>TXT_KEY_UNIT_BLACK_WIND</Description>
-			<iMaxGlobalInstances>1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_BLACK_WIND</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
 			<Type>UNITCLASS_MAN_O_WAR</Type>
 			<Description>TXT_KEY_UNIT_MAN_O_WAR</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
@@ -695,15 +650,6 @@
 			<DefaultUnit>UNIT_LOSHA</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
-			<Type>UNITCLASS_ORTHUS</Type>
-			<Description>TXT_KEY_UNIT_ORTHUS</Description>
-			<iMaxGlobalInstances>1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_ORTHUS</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
 			<Type>UNITCLASS_RATHUS</Type>
 			<Description>TXT_KEY_UNIT_RATHUS</Description>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -711,15 +657,6 @@
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_RATHUS</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>UNITCLASS_WAR_MACHINE</Type>
-			<Description>TXT_KEY_UNIT_WAR_MACHINE</Description>
-			<iMaxGlobalInstances>1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_WAR_MACHINE</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
 			<Type>UNITCLASS_GUARDIAN_VINES</Type>

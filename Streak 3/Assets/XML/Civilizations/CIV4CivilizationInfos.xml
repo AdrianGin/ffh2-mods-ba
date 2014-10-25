@@ -497,7 +497,7 @@
             <CivTrait>NONE</CivTrait>
             <DefaultRace>PROMOTION_ORC</DefaultRace>
             <Help></Help>
-            <Hero>UNIT_ORTHUS</Hero>
+            <Hero>NONE</Hero>
             <MaintainFeatures>
             </MaintainFeatures>
         </CivilizationInfo>

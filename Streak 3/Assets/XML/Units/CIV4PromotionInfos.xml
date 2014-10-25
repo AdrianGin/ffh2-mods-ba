@@ -5111,21 +5111,6 @@
             </DamageTypeResists>
         </PromotionInfo>
         <PromotionInfo>
-            <Type>PROMOTION_ORTHUSS_AXE</Type>
-            <Description>TXT_KEY_EQUIPMENT_ORTHUSS_AXE</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_NEVER</TechPrereq>
-            <bBlitz>1</bBlitz>
-            <Button>Art/Interface/Buttons/Equipment/Orthussaxe.dds</Button>
-            <bEquipment>1</bEquipment>
-            <DamageTypeCombats>
-                <DamageTypeCombat>
-                    <DamageType>DAMAGE_FIRE</DamageType>
-                    <iCombat>1</iCombat>
-                </DamageTypeCombat>
-            </DamageTypeCombats>
-        </PromotionInfo>
-        <PromotionInfo>
             <Type>PROMOTION_PERFECT_SIGHT</Type>
             <Description>TXT_KEY_PROMOTION_PERFECT_SIGHT</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
