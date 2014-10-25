@@ -11671,7 +11671,6 @@
             <bHeadquarters>0</bHeadquarters>
             <Events>
                 <Event>EVENT_MARY_1</Event>
-                <Event>EVENT_MARY_2</Event>
             </Events>
             <PrereqEvents>
             </PrereqEvents>
