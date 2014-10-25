@@ -5596,8 +5596,6 @@
             <iUnhealthy>0</iUnhealthy>
             <UnitsRequired>
                 <UnitClass>UNITCLASS_GALLEY</UnitClass>
-                <UnitClass>UNITCLASS_MAN_O_WAR</UnitClass>
-                <UnitClass>UNITCLASS_FRIGATE</UnitClass>
             </UnitsRequired>
             <iNumUnits>1</iNumUnits>
             <iNumUnitsGlobal>0</iNumUnitsGlobal>
@@ -9536,7 +9534,6 @@
             <bHeadquarters>0</bHeadquarters>
             <Events>
                 <Event>EVENT_HUNTER_1</Event>
-                <Event>EVENT_HUNTER_2</Event>
                 <Event>EVENT_HUNTER_4</Event>
                 <Event>EVENT_HUNTER_6</Event>
             </Events>
