@@ -62,22 +62,6 @@
 			<Type>UNIT_ARTSTYLE_BALSERAPHS</Type>
 			<StyleUnits>
 				<StyleUnit>
-					<UnitType>UNIT_GALLEY</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_GALLEY_BALSERAPHS</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_GALLEY_BALSERAPHS</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_GALLEY_BALSERAPHS</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_HAWK</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_PARROT</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_PARROT</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_PARROT</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
 					<UnitType>UNIT_SCOUT</UnitType>
 					<UnitMeshGroup>
 						<EarlyArtDefineTag>ART_DEF_UNIT_SCOUT_BALSERAPHS</EarlyArtDefineTag>
@@ -274,14 +258,6 @@
 		<UnitArtStyleTypeInfo>
 			<Type>UNIT_ARTSTYLE_SVARTALFAR</Type>
 			<StyleUnits>
-				<StyleUnit>
-					<UnitType>UNIT_HAWK</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_RAVEN</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_RAVEN</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_RAVEN</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
 				<StyleUnit>
 					<UnitType>UNIT_WAR_ELEPHANT</UnitType>
 					<UnitMeshGroup>
@@ -798,14 +774,6 @@
 		<UnitArtStyleTypeInfo>
 			<Type>UNIT_ARTSTYLE_INFERNAL</Type>
 			<StyleUnits>
-				<StyleUnit>
-					<UnitType>UNIT_HAWK</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_RAVEN</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_RAVEN</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_RAVEN</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
 			</StyleUnits>
 		</UnitArtStyleTypeInfo>
 		<UnitArtStyleTypeInfo>
@@ -1267,14 +1235,6 @@
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
-					<UnitType>UNIT_HAWK</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_RAVEN</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_RAVEN</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_RAVEN</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
 					<UnitType>UNIT_HORSEMAN</UnitType>
 					<UnitMeshGroup>
 						<EarlyArtDefineTag>ART_DEF_UNIT_HORSEMAN_SHEAIM</EarlyArtDefineTag>
@@ -1345,14 +1305,6 @@
 						<EarlyArtDefineTag>ART_DEF_UNIT_AXEMAN_SIDAR</EarlyArtDefineTag>
 						<LateArtDefineTag>ART_DEF_UNIT_AXEMAN_SIDAR</LateArtDefineTag>
 						<MiddleArtDefineTag>ART_DEF_UNIT_AXEMAN_SIDAR</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_HAWK</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_RAVEN</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_RAVEN</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_RAVEN</MiddleArtDefineTag>
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>

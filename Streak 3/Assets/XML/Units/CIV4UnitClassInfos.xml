@@ -38,15 +38,6 @@
 <!-- NEW END -->
 <!-- NEW END -->
 		<UnitClassInfo>
-			<Type>UNITCLASS_SCORPION</Type>
-			<Description>TXT_KEY_UNIT_SCORPION</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_SCORPION</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
 			<Type>EQUIPMENTCLASS_GODSLAYER</Type>
 			<Description>TXT_KEY_EQUIPMENT_GODSLAYER</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
@@ -308,15 +299,6 @@
 			<DefaultUnit>UNIT_WATER_ELEMENTAL</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
-			<Type>UNITCLASS_TRIREME</Type>
-			<Description>TXT_KEY_UNIT_TRIREME</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_TRIREME</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
 			<Type>UNITCLASS_GIBBON</Type>
 			<Description>TXT_KEY_UNIT_GIBBON</Description>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -342,15 +324,6 @@
 			<iMaxPlayerInstances>4</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_ARCHMAGE</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>UNITCLASS_HAWK</Type>
-			<Description>TXT_KEY_UNIT_HAWK</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_HAWK</DefaultUnit>
 		</UnitClassInfo><UnitClassInfo>
 			<Type>UNITCLASS_PALADIN</Type>
 			<Description>TXT_KEY_UNIT_PALADIN</Description>
@@ -377,15 +350,6 @@
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_WORKBOAT</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>UNITCLASS_GALLEY</Type>
-			<Description>TXT_KEY_UNIT_GALLEY</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_GALLEY</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
 			<Type>UNITCLASS_MAGE</Type>
@@ -476,24 +440,6 @@
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_WAR_ELEPHANT</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>UNITCLASS_PROPHET</Type>
-			<Description>TXT_KEY_UNIT_GREAT_PROPHET</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_PROPHET</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>UNITCLASS_SCIENTIST</Type>
-			<Description>TXT_KEY_UNIT_GREAT_SCIENTIST</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_SCIENTIST</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
 			<Type>UNITCLASS_MERCHANT</Type>

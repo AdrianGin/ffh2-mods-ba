@@ -39,7 +39,7 @@
 			<iCost>25</iCost>
 			<iCrime>0</iCrime>
 			<iFreeUnits>1</iFreeUnits>
-			<FreeUnitClass>UNITCLASS_SCIENTIST</FreeUnitClass>
+			<FreeUnitClass>NONE</FreeUnitClass>
 			<NoBonus/>
 			<PyResult/>
 		</VoteInfo>

@@ -392,10 +392,6 @@
             <ReligionChanges>
             </ReligionChanges>
             <SpecialistCounts>
-                <SpecialistCount>
-                    <SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
-                    <iSpecialistCount>1</iSpecialistCount>
-                </SpecialistCount>
             </SpecialistCounts>
             <FreeSpecialistCounts>
             </FreeSpecialistCounts>
@@ -622,10 +618,6 @@
             <ReligionChanges>
             </ReligionChanges>
             <SpecialistCounts>
-                <SpecialistCount>
-                    <SpecialistType>SPECIALIST_PRIEST</SpecialistType>
-                    <iSpecialistCount>1</iSpecialistCount>
-                </SpecialistCount>
             </SpecialistCounts>
             <FreeSpecialistCounts>
             </FreeSpecialistCounts>
@@ -856,10 +848,6 @@
             <ReligionChanges>
             </ReligionChanges>
             <SpecialistCounts>
-                <SpecialistCount>
-                    <SpecialistType>SPECIALIST_PRIEST</SpecialistType>
-                    <iSpecialistCount>1</iSpecialistCount>
-                </SpecialistCount>
             </SpecialistCounts>
             <FreeSpecialistCounts>
             </FreeSpecialistCounts>
@@ -975,7 +963,7 @@
             <FreeBuilding>NONE</FreeBuilding>
             <FreePromotion>NONE</FreePromotion>
             <CivicOption>NONE</CivicOption>
-            <GreatPeopleUnitClass>UNITCLASS_PROPHET</GreatPeopleUnitClass>
+            <GreatPeopleUnitClass>NONE</GreatPeopleUnitClass>
             <iGreatPeopleRateChange>1</iGreatPeopleRateChange>
             <iHurryAngerModifier>0</iHurryAngerModifier>
             <bBorderObstacle>0</bBorderObstacle>
@@ -1094,10 +1082,6 @@
             <ReligionChanges>
             </ReligionChanges>
             <SpecialistCounts>
-                <SpecialistCount>
-                    <SpecialistType>SPECIALIST_PRIEST</SpecialistType>
-                    <iSpecialistCount>1</iSpecialistCount>
-                </SpecialistCount>
             </SpecialistCounts>
             <FreeSpecialistCounts>
             </FreeSpecialistCounts>
@@ -1133,22 +1117,6 @@
                 </BuildingClassNeeded>
             </BuildingClassNeededs>
             <SpecialistYieldChanges>
-                <SpecialistYieldChange>
-                    <SpecialistType>SPECIALIST_PRIEST</SpecialistType>
-                    <YieldChanges>
-                        <iYield>0</iYield>
-                        <iYield>1</iYield>
-                        <iYield>0</iYield>
-                    </YieldChanges>
-                </SpecialistYieldChange>
-                <SpecialistYieldChange>
-                    <SpecialistType>SPECIALIST_GREAT_PRIEST</SpecialistType>
-                    <YieldChanges>
-                        <iYield>0</iYield>
-                        <iYield>1</iYield>
-                        <iYield>0</iYield>
-                    </YieldChanges>
-                </SpecialistYieldChange>
             </SpecialistYieldChanges>
             <BonusYieldModifiers>
             </BonusYieldModifiers>
@@ -1229,7 +1197,7 @@
             <FreeBuilding>NONE</FreeBuilding>
             <FreePromotion>NONE</FreePromotion>
             <CivicOption>NONE</CivicOption>
-            <GreatPeopleUnitClass>UNITCLASS_PROPHET</GreatPeopleUnitClass>
+            <GreatPeopleUnitClass>NONE</GreatPeopleUnitClass>
             <iGreatPeopleRateChange>1</iGreatPeopleRateChange>
             <iHurryAngerModifier>0</iHurryAngerModifier>
             <bBorderObstacle>0</bBorderObstacle>
@@ -1348,10 +1316,6 @@
             <ReligionChanges>
             </ReligionChanges>
             <SpecialistCounts>
-                <SpecialistCount>
-                    <SpecialistType>SPECIALIST_PRIEST</SpecialistType>
-                    <iSpecialistCount>2</iSpecialistCount>
-                </SpecialistCount>
             </SpecialistCounts>
             <FreeSpecialistCounts>
             </FreeSpecialistCounts>
@@ -1387,22 +1351,6 @@
                 </BuildingClassNeeded>
             </BuildingClassNeededs>
             <SpecialistYieldChanges>
-                <SpecialistYieldChange>
-                    <SpecialistType>SPECIALIST_PRIEST</SpecialistType>
-                    <YieldChanges>
-                        <iYield>0</iYield>
-                        <iYield>1</iYield>
-                        <iYield>0</iYield>
-                    </YieldChanges>
-                </SpecialistYieldChange>
-                <SpecialistYieldChange>
-                    <SpecialistType>SPECIALIST_GREAT_PRIEST</SpecialistType>
-                    <YieldChanges>
-                        <iYield>0</iYield>
-                        <iYield>1</iYield>
-                        <iYield>0</iYield>
-                    </YieldChanges>
-                </SpecialistYieldChange>
             </SpecialistYieldChanges>
             <BonusYieldModifiers>
             </BonusYieldModifiers>
@@ -1483,7 +1431,7 @@
             <FreeBuilding>NONE</FreeBuilding>
             <FreePromotion>NONE</FreePromotion>
             <CivicOption>NONE</CivicOption>
-            <GreatPeopleUnitClass>UNITCLASS_PROPHET</GreatPeopleUnitClass>
+            <GreatPeopleUnitClass>NONE</GreatPeopleUnitClass>
             <iGreatPeopleRateChange>1</iGreatPeopleRateChange>
             <iHurryAngerModifier>0</iHurryAngerModifier>
             <bBorderObstacle>0</bBorderObstacle>
@@ -1602,10 +1550,6 @@
             <ReligionChanges>
             </ReligionChanges>
             <SpecialistCounts>
-                <SpecialistCount>
-                    <SpecialistType>SPECIALIST_PRIEST</SpecialistType>
-                    <iSpecialistCount>2</iSpecialistCount>
-                </SpecialistCount>
             </SpecialistCounts>
             <FreeSpecialistCounts>
             </FreeSpecialistCounts>
@@ -1641,22 +1585,6 @@
                 </BuildingClassNeeded>
             </BuildingClassNeededs>
             <SpecialistYieldChanges>
-                <SpecialistYieldChange>
-                    <SpecialistType>SPECIALIST_PRIEST</SpecialistType>
-                    <YieldChanges>
-                        <iYield>0</iYield>
-                        <iYield>2</iYield>
-                        <iYield>0</iYield>
-                    </YieldChanges>
-                </SpecialistYieldChange>
-                <SpecialistYieldChange>
-                    <SpecialistType>SPECIALIST_GREAT_PRIEST</SpecialistType>
-                    <YieldChanges>
-                        <iYield>0</iYield>
-                        <iYield>2</iYield>
-                        <iYield>0</iYield>
-                    </YieldChanges>
-                </SpecialistYieldChange>
             </SpecialistYieldChanges>
             <BonusYieldModifiers>
             </BonusYieldModifiers>
@@ -1737,7 +1665,7 @@
             <FreeBuilding>NONE</FreeBuilding>
             <FreePromotion>NONE</FreePromotion>
             <CivicOption>NONE</CivicOption>
-            <GreatPeopleUnitClass>UNITCLASS_PROPHET</GreatPeopleUnitClass>
+            <GreatPeopleUnitClass>NONE</GreatPeopleUnitClass>
             <iGreatPeopleRateChange>1</iGreatPeopleRateChange>
             <iHurryAngerModifier>0</iHurryAngerModifier>
             <bBorderObstacle>0</bBorderObstacle>
@@ -1856,10 +1784,6 @@
             <ReligionChanges>
             </ReligionChanges>
             <SpecialistCounts>
-                <SpecialistCount>
-                    <SpecialistType>SPECIALIST_PRIEST</SpecialistType>
-                    <iSpecialistCount>2</iSpecialistCount>
-                </SpecialistCount>
             </SpecialistCounts>
             <FreeSpecialistCounts>
             </FreeSpecialistCounts>
@@ -1895,22 +1819,6 @@
                 </BuildingClassNeeded>
             </BuildingClassNeededs>
             <SpecialistYieldChanges>
-                <SpecialistYieldChange>
-                    <SpecialistType>SPECIALIST_PRIEST</SpecialistType>
-                    <YieldChanges>
-                        <iYield>0</iYield>
-                        <iYield>2</iYield>
-                        <iYield>0</iYield>
-                    </YieldChanges>
-                </SpecialistYieldChange>
-                <SpecialistYieldChange>
-                    <SpecialistType>SPECIALIST_GREAT_PRIEST</SpecialistType>
-                    <YieldChanges>
-                        <iYield>0</iYield>
-                        <iYield>2</iYield>
-                        <iYield>0</iYield>
-                    </YieldChanges>
-                </SpecialistYieldChange>
             </SpecialistYieldChanges>
             <BonusYieldModifiers>
             </BonusYieldModifiers>
@@ -1991,7 +1899,7 @@
             <FreeBuilding>NONE</FreeBuilding>
             <FreePromotion>NONE</FreePromotion>
             <CivicOption>NONE</CivicOption>
-            <GreatPeopleUnitClass>UNITCLASS_PROPHET</GreatPeopleUnitClass>
+            <GreatPeopleUnitClass>NONE</GreatPeopleUnitClass>
             <iGreatPeopleRateChange>1</iGreatPeopleRateChange>
             <iHurryAngerModifier>0</iHurryAngerModifier>
             <bBorderObstacle>0</bBorderObstacle>
@@ -2110,10 +2018,6 @@
             <ReligionChanges>
             </ReligionChanges>
             <SpecialistCounts>
-                <SpecialistCount>
-                    <SpecialistType>SPECIALIST_PRIEST</SpecialistType>
-                    <iSpecialistCount>3</iSpecialistCount>
-                </SpecialistCount>
             </SpecialistCounts>
             <FreeSpecialistCounts>
             </FreeSpecialistCounts>
@@ -2149,22 +2053,6 @@
                 </BuildingClassNeeded>
             </BuildingClassNeededs>
             <SpecialistYieldChanges>
-                <SpecialistYieldChange>
-                    <SpecialistType>SPECIALIST_PRIEST</SpecialistType>
-                    <YieldChanges>
-                        <iYield>0</iYield>
-                        <iYield>3</iYield>
-                        <iYield>0</iYield>
-                    </YieldChanges>
-                </SpecialistYieldChange>
-                <SpecialistYieldChange>
-                    <SpecialistType>SPECIALIST_GREAT_PRIEST</SpecialistType>
-                    <YieldChanges>
-                        <iYield>0</iYield>
-                        <iYield>3</iYield>
-                        <iYield>0</iYield>
-                    </YieldChanges>
-                </SpecialistYieldChange>
             </SpecialistYieldChanges>
             <BonusYieldModifiers>
             </BonusYieldModifiers>
@@ -3844,7 +3732,7 @@
             <FreeBuilding>BUILDINGCLASS_MAGE_GUILD</FreeBuilding>
             <FreePromotion>NONE</FreePromotion>
             <CivicOption>NONE</CivicOption>
-            <GreatPeopleUnitClass>UNITCLASS_SCIENTIST</GreatPeopleUnitClass>
+            <GreatPeopleUnitClass>NONE</GreatPeopleUnitClass>
             <iGreatPeopleRateChange>2</iGreatPeopleRateChange>
             <iHurryAngerModifier>0</iHurryAngerModifier>
             <bBorderObstacle>0</bBorderObstacle>
@@ -3963,10 +3851,6 @@
             <ReligionChanges>
             </ReligionChanges>
             <SpecialistCounts>
-                <SpecialistCount>
-                    <SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
-                    <iSpecialistCount>1</iSpecialistCount>
-                </SpecialistCount>
             </SpecialistCounts>
             <FreeSpecialistCounts>
             </FreeSpecialistCounts>
@@ -4078,7 +3962,7 @@
             <FreeBuilding>NONE</FreeBuilding>
             <FreePromotion>NONE</FreePromotion>
             <CivicOption>NONE</CivicOption>
-            <GreatPeopleUnitClass>UNITCLASS_PROPHET</GreatPeopleUnitClass>
+            <GreatPeopleUnitClass>NONE</GreatPeopleUnitClass>
             <iGreatPeopleRateChange>2</iGreatPeopleRateChange>
             <iHurryAngerModifier>0</iHurryAngerModifier>
             <bBorderObstacle>0</bBorderObstacle>
@@ -7281,7 +7165,7 @@
             <FreeBuilding>NONE</FreeBuilding>
             <FreePromotion>PROMOTION_SPIRIT_GUIDE</FreePromotion>
             <CivicOption>NONE</CivicOption>
-            <GreatPeopleUnitClass>UNITCLASS_PROPHET</GreatPeopleUnitClass>
+            <GreatPeopleUnitClass>NONE</GreatPeopleUnitClass>
             <iGreatPeopleRateChange>1</iGreatPeopleRateChange>
             <iHurryAngerModifier>0</iHurryAngerModifier>
             <bBorderObstacle>0</bBorderObstacle>
@@ -8400,7 +8284,7 @@
             <FreeBuilding>NONE</FreeBuilding>
             <FreePromotion>NONE</FreePromotion>
             <CivicOption>NONE</CivicOption>
-            <GreatPeopleUnitClass>UNITCLASS_SCIENTIST</GreatPeopleUnitClass>
+            <GreatPeopleUnitClass>NONE</GreatPeopleUnitClass>
             <iGreatPeopleRateChange>2</iGreatPeopleRateChange>
             <iHurryAngerModifier>0</iHurryAngerModifier>
             <bBorderObstacle>0</bBorderObstacle>
@@ -11156,10 +11040,6 @@
             <ReligionChanges>
             </ReligionChanges>
             <SpecialistCounts>
-                <SpecialistCount>
-                    <SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
-                    <iSpecialistCount>1</iSpecialistCount>
-                </SpecialistCount>
             </SpecialistCounts>
             <FreeSpecialistCounts>
             </FreeSpecialistCounts>
@@ -13589,7 +13469,7 @@
             <FreeBuilding>NONE</FreeBuilding>
             <FreePromotion>NONE</FreePromotion>
             <CivicOption>NONE</CivicOption>
-            <GreatPeopleUnitClass>UNITCLASS_SCIENTIST</GreatPeopleUnitClass>
+            <GreatPeopleUnitClass>NONE</GreatPeopleUnitClass>
             <iGreatPeopleRateChange>2</iGreatPeopleRateChange>
             <iHurryAngerModifier>0</iHurryAngerModifier>
             <bBorderObstacle>0</bBorderObstacle>
@@ -13710,10 +13590,6 @@
             <SpecialistCounts>
             </SpecialistCounts>
             <FreeSpecialistCounts>
-                <FreeSpecialistCount>
-                    <SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
-                    <iFreeSpecialistCount>1</iFreeSpecialistCount>
-                </FreeSpecialistCount>
             </FreeSpecialistCounts>
             <CommerceFlexibles>
             </CommerceFlexibles>
@@ -13791,22 +13667,6 @@
             <PrereqTrait>NONE</PrereqTrait>
             <RemovePromotion>NONE</RemovePromotion>
             <SpecialistCommerceChanges>
-                <SpecialistCommerceChange>
-                    <SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
-                    <CommerceChanges>
-                        <iCommerce>0</iCommerce>
-                        <iCommerce>1</iCommerce>
-                        <iCommerce>0</iCommerce>
-                    </CommerceChanges>
-                </SpecialistCommerceChange>
-                <SpecialistCommerceChange>
-                    <SpecialistType>SPECIALIST_GREAT_SCIENTIST</SpecialistType>
-                    <CommerceChanges>
-                        <iCommerce>0</iCommerce>
-                        <iCommerce>1</iCommerce>
-                        <iCommerce>0</iCommerce>
-                    </CommerceChanges>
-                </SpecialistCommerceChange>
             </SpecialistCommerceChanges>
         </BuildingInfo>
         <BuildingInfo>
@@ -17301,7 +17161,7 @@
             <FreeBuilding>NONE</FreeBuilding>
             <FreePromotion>NONE</FreePromotion>
             <CivicOption>NONE</CivicOption>
-            <GreatPeopleUnitClass>UNITCLASS_SCIENTIST</GreatPeopleUnitClass>
+            <GreatPeopleUnitClass>NONE</GreatPeopleUnitClass>
             <iGreatPeopleRateChange>1</iGreatPeopleRateChange>
             <iHurryAngerModifier>0</iHurryAngerModifier>
             <bBorderObstacle>0</bBorderObstacle>
@@ -17640,10 +17500,6 @@
             <ReligionChanges>
             </ReligionChanges>
             <SpecialistCounts>
-                <SpecialistCount>
-                    <SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
-                    <iSpecialistCount>1</iSpecialistCount>
-                </SpecialistCount>
             </SpecialistCounts>
             <FreeSpecialistCounts>
             </FreeSpecialistCounts>
@@ -18658,7 +18514,7 @@
             <FreeBuilding>NONE</FreeBuilding>
             <FreePromotion>NONE</FreePromotion>
             <CivicOption>NONE</CivicOption>
-            <GreatPeopleUnitClass>UNITCLASS_PROPHET</GreatPeopleUnitClass>
+            <GreatPeopleUnitClass>NONE</GreatPeopleUnitClass>
             <iGreatPeopleRateChange>2</iGreatPeopleRateChange>
             <iHurryAngerModifier>0</iHurryAngerModifier>
             <bBorderObstacle>0</bBorderObstacle>
@@ -20371,10 +20227,6 @@
             <ReligionChanges>
             </ReligionChanges>
             <SpecialistCounts>
-                <SpecialistCount>
-                    <SpecialistType>SPECIALIST_PRIEST</SpecialistType>
-                    <iSpecialistCount>1</iSpecialistCount>
-                </SpecialistCount>
             </SpecialistCounts>
             <FreeSpecialistCounts>
             </FreeSpecialistCounts>
@@ -20610,10 +20462,6 @@
             <ReligionChanges>
             </ReligionChanges>
             <SpecialistCounts>
-                <SpecialistCount>
-                    <SpecialistType>SPECIALIST_PRIEST</SpecialistType>
-                    <iSpecialistCount>1</iSpecialistCount>
-                </SpecialistCount>
             </SpecialistCounts>
             <FreeSpecialistCounts>
             </FreeSpecialistCounts>
@@ -20845,10 +20693,6 @@
             <ReligionChanges>
             </ReligionChanges>
             <SpecialistCounts>
-                <SpecialistCount>
-                    <SpecialistType>SPECIALIST_PRIEST</SpecialistType>
-                    <iSpecialistCount>1</iSpecialistCount>
-                </SpecialistCount>
             </SpecialistCounts>
             <FreeSpecialistCounts>
             </FreeSpecialistCounts>
@@ -26071,34 +25915,10 @@
                     </CommerceChanges>
                 </SpecialistCommerceChange>
                 <SpecialistCommerceChange>
-                    <SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
-                    <CommerceChanges>
-                        <iCommerce>0</iCommerce>
-                        <iCommerce>1</iCommerce>
-                        <iCommerce>0</iCommerce>
-                    </CommerceChanges>
-                </SpecialistCommerceChange>
-                <SpecialistCommerceChange>
-                    <SpecialistType>SPECIALIST_GREAT_ARTIST</SpecialistType>
-                    <CommerceChanges>
-                        <iCommerce>0</iCommerce>
-                        <iCommerce>0</iCommerce>
-                        <iCommerce>1</iCommerce>
-                    </CommerceChanges>
-                </SpecialistCommerceChange>
-                <SpecialistCommerceChange>
                     <SpecialistType>SPECIALIST_GREAT_MERCHANT</SpecialistType>
                     <CommerceChanges>
                         <iCommerce>1</iCommerce>
                         <iCommerce>0</iCommerce>
-                        <iCommerce>0</iCommerce>
-                    </CommerceChanges>
-                </SpecialistCommerceChange>
-                <SpecialistCommerceChange>
-                    <SpecialistType>SPECIALIST_GREAT_SCIENTIST</SpecialistType>
-                    <CommerceChanges>
-                        <iCommerce>0</iCommerce>
-                        <iCommerce>1</iCommerce>
                         <iCommerce>0</iCommerce>
                     </CommerceChanges>
                 </SpecialistCommerceChange>
@@ -26832,7 +26652,7 @@
             <FreeBuilding>NONE</FreeBuilding>
             <FreePromotion>PROMOTION_PROPHECY_MARK</FreePromotion>
             <CivicOption>NONE</CivicOption>
-            <GreatPeopleUnitClass>UNITCLASS_PROPHET</GreatPeopleUnitClass>
+            <GreatPeopleUnitClass>NONE</GreatPeopleUnitClass>
             <iGreatPeopleRateChange>2</iGreatPeopleRateChange>
             <iHurryAngerModifier>0</iHurryAngerModifier>
             <bBorderObstacle>0</bBorderObstacle>
@@ -26951,10 +26771,6 @@
             <ReligionChanges>
             </ReligionChanges>
             <SpecialistCounts>
-                <SpecialistCount>
-                    <SpecialistType>SPECIALIST_PRIEST</SpecialistType>
-                    <iSpecialistCount>1</iSpecialistCount>
-                </SpecialistCount>
             </SpecialistCounts>
             <FreeSpecialistCounts>
             </FreeSpecialistCounts>
@@ -27750,7 +27566,7 @@
             <FreeBuilding>NONE</FreeBuilding>
             <FreePromotion>NONE</FreePromotion>
             <CivicOption>NONE</CivicOption>
-            <GreatPeopleUnitClass>UNITCLASS_PROPHET</GreatPeopleUnitClass>
+            <GreatPeopleUnitClass>NONE</GreatPeopleUnitClass>
             <iGreatPeopleRateChange>2</iGreatPeopleRateChange>
             <iHurryAngerModifier>0</iHurryAngerModifier>
             <bBorderObstacle>0</bBorderObstacle>
@@ -27983,7 +27799,7 @@
             <FreeBuilding>NONE</FreeBuilding>
             <FreePromotion>NONE</FreePromotion>
             <CivicOption>NONE</CivicOption>
-            <GreatPeopleUnitClass>UNITCLASS_PROPHET</GreatPeopleUnitClass>
+            <GreatPeopleUnitClass>NONE</GreatPeopleUnitClass>
             <iGreatPeopleRateChange>3</iGreatPeopleRateChange>
             <iHurryAngerModifier>0</iHurryAngerModifier>
             <bBorderObstacle>0</bBorderObstacle>
@@ -30684,7 +30500,7 @@
             <FreeBuilding>BUILDINGCLASS_OBSIDIAN_GATE</FreeBuilding>
             <FreePromotion>NONE</FreePromotion>
             <CivicOption>NONE</CivicOption>
-            <GreatPeopleUnitClass>UNITCLASS_SCIENTIST</GreatPeopleUnitClass>
+            <GreatPeopleUnitClass>NONE</GreatPeopleUnitClass>
             <iGreatPeopleRateChange>1</iGreatPeopleRateChange>
             <iHurryAngerModifier>0</iHurryAngerModifier>
             <bBorderObstacle>0</bBorderObstacle>
@@ -31322,14 +31138,6 @@
             <PrereqTrait>NONE</PrereqTrait>
             <RemovePromotion>NONE</RemovePromotion>
             <SpecialistCommerceChanges>
-                <SpecialistCommerceChange>
-                    <SpecialistType>SPECIALIST_GREAT_ARTIST</SpecialistType>
-                    <CommerceChanges>
-                        <iCommerce>0</iCommerce>
-                        <iCommerce>0</iCommerce>
-                        <iCommerce>2</iCommerce>
-                    </CommerceChanges>
-                </SpecialistCommerceChange>
             </SpecialistCommerceChanges>
         </BuildingInfo>
         <BuildingInfo>
@@ -34722,7 +34530,7 @@
             <FreeBuilding>NONE</FreeBuilding>
             <FreePromotion>NONE</FreePromotion>
             <CivicOption>NONE</CivicOption>
-            <GreatPeopleUnitClass>UNITCLASS_SCIENTIST</GreatPeopleUnitClass>
+            <GreatPeopleUnitClass>NONE</GreatPeopleUnitClass>
             <iGreatPeopleRateChange>0</iGreatPeopleRateChange>
             <iHurryAngerModifier>0</iHurryAngerModifier>
             <bBorderObstacle>0</bBorderObstacle>
