@@ -481,7 +481,7 @@ class CvEventManager:
 					cf.addPopup(CyTranslator().getText("TXT_KEY_POPUP_ORTHUS_CREATION",()), str(gc.getUnitInfo(iUnit).getImage()))
 
 		if not CyGame().isOption(gc.getInfoTypeForString('GAMEOPTION_NO_PLOT_COUNTER')):
-			cf.doHellTerrain()
+#			cf.doHellTerrain()
 
 		if CyGame().getWBMapScript():
 			sf.doTurn()
