@@ -808,22 +808,6 @@
             <FreeTechs>
             </FreeTechs>
             <AIFreeTechs>
-                <FreeTech>
-                    <TechType>TECH_EXPLORATION</TechType>
-                    <bFreeTech>1</bFreeTech>
-                </FreeTech>
-                <FreeTech>
-                    <TechType>TECH_AGRICULTURE</TechType>
-                    <bFreeTech>1</bFreeTech>
-                </FreeTech>
-                <FreeTech>
-                    <TechType>TECH_CRAFTING</TechType>
-                    <bFreeTech>1</bFreeTech>
-                </FreeTech>
-                <FreeTech>
-                    <TechType>TECH_ANCIENT_CHANTS</TechType>
-                    <bFreeTech>1</bFreeTech>
-                </FreeTech>
             </AIFreeTechs>
             <iAIFreeXP>8</iAIFreeXP>
             <iLairSpawnRate>6</iLairSpawnRate>
