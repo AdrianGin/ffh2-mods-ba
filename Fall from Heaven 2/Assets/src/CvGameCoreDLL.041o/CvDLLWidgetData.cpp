@@ -4425,7 +4425,7 @@ void CvDLLWidgetData::parseDescriptionHelp(CvWidgetDataStruct &widgetDataStruct,
 		break;
 
 //FfH: Added by Kael 07/23/2007
-	case CIVILOPEDIA_PAGE_HERO:
+//	case CIVILOPEDIA_PAGE_HERO:
 //FfH: End Add
 
 	case CIVILOPEDIA_PAGE_UNIT:
@@ -4458,7 +4458,7 @@ void CvDLLWidgetData::parseDescriptionHelp(CvWidgetDataStruct &widgetDataStruct,
 		break;
 
 //FfH: Added by Kael 08/26/2008
-	case CIVILOPEDIA_PAGE_UNIQUE_FEATURE:
+//	case CIVILOPEDIA_PAGE_UNIQUE_FEATURE:
 //FfH: End Add
 
 	case CIVILOPEDIA_PAGE_IMPROVEMENT:
@@ -4535,7 +4535,8 @@ void CvDLLWidgetData::parseDescriptionHelp(CvWidgetDataStruct &widgetDataStruct,
 			}
 		}
 		break;
-	case CIVILOPEDIA_PAGE_CORPORATION:
+		//Adrian, removing corporation page
+/*	case CIVILOPEDIA_PAGE_CORPORATION:
 		{
 			CorporationTypes eCorporation = (CorporationTypes)widgetDataStruct.m_iData2;
 			if (NO_CORPORATION != eCorporation)
@@ -4544,6 +4545,8 @@ void CvDLLWidgetData::parseDescriptionHelp(CvWidgetDataStruct &widgetDataStruct,
 			}
 		}
 		break;
+
+		*/
 	case CIVILOPEDIA_PAGE_CIVIC:
 		{
 			CivicTypes eCivic = (CivicTypes)widgetDataStruct.m_iData2;
@@ -4562,7 +4565,9 @@ void CvDLLWidgetData::parseDescriptionHelp(CvWidgetDataStruct &widgetDataStruct,
 			}
 		}
 		break;
-	case CIVILOPEDIA_PAGE_CONCEPT:
+
+	//Removing concepts by Adrian
+	/*case CIVILOPEDIA_PAGE_CONCEPT:
 		{
 			ConceptTypes eConcept = (ConceptTypes)widgetDataStruct.m_iData2;
 			if (NO_CONCEPT != eConcept)
@@ -4579,7 +4584,9 @@ void CvDLLWidgetData::parseDescriptionHelp(CvWidgetDataStruct &widgetDataStruct,
 				szBuffer.assign(GC.getNewConceptInfo(eConcept).getDescription());
 			}
 		}
-		break;
+		break;*/
+
+
 	case CIVILOPEDIA_PAGE_SPECIALIST:
 		{
 			SpecialistTypes eSpecialist = (SpecialistTypes)widgetDataStruct.m_iData2;

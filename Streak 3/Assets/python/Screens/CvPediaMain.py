@@ -117,12 +117,12 @@ class CvPediaMain( CvPediaScreen.CvPediaScreen ):
 		self.mapCategories = { 
 			CivilopediaPageTypes.CIVILOPEDIA_PAGE_TECH	: self.placeTechs, 
 			CivilopediaPageTypes.CIVILOPEDIA_PAGE_UNIT	: self.placeUnits, 
-			CivilopediaPageTypes.CIVILOPEDIA_PAGE_HERO	: self.placeHeros, 
+#			CivilopediaPageTypes.CIVILOPEDIA_PAGE_HERO	: self.placeHeroes, 
 			CivilopediaPageTypes.CIVILOPEDIA_PAGE_BUILDING	: self.placeBuildings, 
 			CivilopediaPageTypes.CIVILOPEDIA_PAGE_WONDER	: self.placeWonders, 
 			CivilopediaPageTypes.CIVILOPEDIA_PAGE_TERRAIN	: self.placeTerrains,
 			CivilopediaPageTypes.CIVILOPEDIA_PAGE_FEATURE	: self.placeFeatures,
-			CivilopediaPageTypes.CIVILOPEDIA_PAGE_UNIQUE_FEATURE	: self.placeUniqueFeatures,
+#			CivilopediaPageTypes.CIVILOPEDIA_PAGE_UNIQUE_FEATURE	: self.placeUniqueFeatures,
 			CivilopediaPageTypes.CIVILOPEDIA_PAGE_BONUS	: self.placeBoni, 
 			CivilopediaPageTypes.CIVILOPEDIA_PAGE_IMPROVEMENT	: self.placeImprovements,
 			CivilopediaPageTypes.CIVILOPEDIA_PAGE_SPECIALIST	: self.placeSpecialists,
@@ -135,12 +135,12 @@ class CvPediaMain( CvPediaScreen.CvPediaScreen ):
 			CivilopediaPageTypes.CIVILOPEDIA_PAGE_CIV	: self.placeCivs,
 			CivilopediaPageTypes.CIVILOPEDIA_PAGE_LEADER	: self.placeLeaders,
 			CivilopediaPageTypes.CIVILOPEDIA_PAGE_RELIGION	: self.placeReligions,
-			CivilopediaPageTypes.CIVILOPEDIA_PAGE_CORPORATION	: self.placeCorporations,
+#			CivilopediaPageTypes.CIVILOPEDIA_PAGE_CORPORATION	: self.placeCorporations,
 			CivilopediaPageTypes.CIVILOPEDIA_PAGE_CIVIC	: self.placeCivics,
 			CivilopediaPageTypes.CIVILOPEDIA_PAGE_PROJECT	: self.placeProjects,
-			CivilopediaPageTypes.CIVILOPEDIA_PAGE_CONCEPT	: self.placeConcepts,
-			CivilopediaPageTypes.CIVILOPEDIA_PAGE_CONCEPT_NEW	: self.placeNewConcepts,
-			CivilopediaPageTypes.CIVILOPEDIA_PAGE_HINTS	: self.placeHints,
+#			CivilopediaPageTypes.CIVILOPEDIA_PAGE_CONCEPT	: self.placeConcepts,
+#			CivilopediaPageTypes.CIVILOPEDIA_PAGE_CONCEPT_NEW	: self.placeNewConcepts,
+#			CivilopediaPageTypes.CIVILOPEDIA_PAGE_HINTS	: self.placeHints,
 			CivilopediaPageTypes.CIVILOPEDIA_PAGE_SPELL : self.placeSpells,
 			}
 		
@@ -156,7 +156,7 @@ class CvPediaMain( CvPediaScreen.CvPediaScreen ):
 		self.szCategoryTech = localText.getText("TXT_KEY_PEDIA_CATEGORY_TECH", ())		
 		self.szCategoryUnit = localText.getText("TXT_KEY_PEDIA_CATEGORY_UNIT", ())		
 #FfH: Added by Chalid Heros 06/03/2006##
-		self.szCategoryHero = localText.getText("TXT_KEY_PEDIA_CATEGORY_HERO", ())		
+#		self.szCategoryHero = localText.getText("TXT_KEY_PEDIA_CATEGORY_HERO", ())		
 #FfH: End Add##
 		self.szCategoryBuilding = localText.getText("TXT_KEY_PEDIA_CATEGORY_BUILDING", ())		
 		self.szCategoryWonder = localText.getText("TXT_KEY_CONCEPT_WONDERS", ())		
@@ -206,10 +206,11 @@ class CvPediaMain( CvPediaScreen.CvPediaScreen ):
 								self.szCategoryReligion, 
 #								self.szCategoryCorporation, 
 								self.szCategoryCivic, 
-								self.szCategoryProject]
+								self.szCategoryProject,]
 #								self.szCategoryConcept,
-#								self.szCategoryConceptNew
-#								self.szCategoryHints]
+#								self.szCategoryConceptNew,
+#								self.szCategoryHints,]
+								
 								
 		# Create a new screen
 		screen = self.getScreen()

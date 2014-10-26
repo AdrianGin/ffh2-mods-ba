@@ -945,8 +945,8 @@ HandleInputMap = {  MAIN_INTERFACE : mainInterface,
 					PEDIA_CIVILIZATION : pediaMainScreen,
 					PEDIA_LEADER : pediaMainScreen,
 					PEDIA_RELIGION : pediaMainScreen,
-					PEDIA_CORPORATION : pediaMainScreen,
-					PEDIA_HISTORY : pediaMainScreen,
+#					PEDIA_CORPORATION : pediaMainScreen,
+#					PEDIA_HISTORY : pediaMainScreen,
 					WORLDBUILDER_SCREEN : worldBuilderScreen,
 					WORLDBUILDER_DIPLOMACY_SCREEN : worldBuilderDiplomacyScreen,
 					
@@ -974,9 +974,9 @@ HandleNavigationMap = {
 					PEDIA_CIVIC : pediaMainScreen,
 					PEDIA_CIVILIZATION : pediaMainScreen,
 					PEDIA_LEADER : pediaMainScreen,
-					PEDIA_HISTORY : pediaMainScreen,
+#					PEDIA_HISTORY : pediaMainScreen,
 					PEDIA_RELIGION : pediaMainScreen,
-					PEDIA_CORPORATION : pediaMainScreen,
+#					PEDIA_CORPORATION : pediaMainScreen,
 				
 				# add new screens here
 					PEDIA_SPELL : pediaMainScreen

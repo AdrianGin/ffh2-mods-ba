@@ -117,7 +117,7 @@ class CvPediaMain( CvPediaScreen.CvPediaScreen ):
 		self.mapCategories = { 
 			CivilopediaPageTypes.CIVILOPEDIA_PAGE_TECH	: self.placeTechs, 
 			CivilopediaPageTypes.CIVILOPEDIA_PAGE_UNIT	: self.placeUnits, 
-			CivilopediaPageTypes.CIVILOPEDIA_PAGE_HERO	: self.placeHeros, 
+#			CivilopediaPageTypes.CIVILOPEDIA_PAGE_HERO	: self.placeHeros, 
 			CivilopediaPageTypes.CIVILOPEDIA_PAGE_BUILDING	: self.placeBuildings, 
 			CivilopediaPageTypes.CIVILOPEDIA_PAGE_WONDER	: self.placeWonders, 
 			CivilopediaPageTypes.CIVILOPEDIA_PAGE_TERRAIN	: self.placeTerrains,
