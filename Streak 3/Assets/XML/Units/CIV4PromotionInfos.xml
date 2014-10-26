@@ -299,7 +299,7 @@
             <Description>TXT_KEY_PROMOTION_BLITZ</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_DRILL4</PromotionPrereq>
-            <TechPrereq>TECH_MILITARY_STRATEGY</TechPrereq>
+            <TechPrereq>NONE</TechPrereq>
             <bBlitz>1</bBlitz>
             <UnitCombats>
                 <UnitCombat>
@@ -1934,7 +1934,7 @@
             <Description>TXT_KEY_PROMOTION_EXTENSION2</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_EXTENSION1</PromotionPrereq>
-            <TechPrereq>TECH_ARCANE_LORE</TechPrereq>
+            <TechPrereq>NONE</TechPrereq>
             <UnitCombats>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
@@ -3278,7 +3278,7 @@
             <Description>TXT_KEY_PROMOTION_MARKSMAN</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_COMBAT4</PromotionPrereq>
-            <TechPrereq>TECH_PRECISION</TechPrereq>
+            <TechPrereq>NONE</TechPrereq>
             <UnitCombats>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
@@ -3928,7 +3928,7 @@
             <Description>TXT_KEY_PROMOTION_SCOURGE</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_COMBAT1</PromotionPrereq>
-            <TechPrereq>TECH_WAY_OF_THE_WICKED</TechPrereq>
+            <TechPrereq>NONE</TechPrereq>
             <UnitCombatMods>
                 <UnitCombatMod>
                     <UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
@@ -4491,7 +4491,7 @@
             <Description>TXT_KEY_PROMOTION_SUBDUE_BEASTS</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_SUBDUE_ANIMAL</PromotionPrereq>
-            <TechPrereq>TECH_ANIMAL_MASTERY</TechPrereq>
+            <TechPrereq>NONE</TechPrereq>
             <UnitCombatMods>
                 <UnitCombatMod>
                     <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
@@ -4574,7 +4574,7 @@
             <Description>TXT_KEY_PROMOTION_UNDEAD_SLAYING</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_COMBAT1</PromotionPrereq>
-            <TechPrereq>TECH_WAY_OF_THE_WISE</TechPrereq>
+            <TechPrereq>NONE</TechPrereq>
             <UnitCombats>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>

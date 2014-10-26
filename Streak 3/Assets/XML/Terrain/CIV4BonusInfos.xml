@@ -2234,9 +2234,9 @@
             </FeatureBooleans>
             <FeatureTerrainBooleans>
             </FeatureTerrainBooleans>
-            <bModifierPerBonus>1</bModifierPerBonus>
+            <bModifierPerBonus>0</bModifierPerBonus>
             <iBadAttitude>0</iBadAttitude>
-            <iDiscoverRandModifier>20</iDiscoverRandModifier>
+            <iDiscoverRandModifier>0</iDiscoverRandModifier>
             <iGreatPeopleRateModifier>0</iGreatPeopleRateModifier>
             <iHealChange>0</iHealChange>
             <iHealChangeEnemy>0</iHealChangeEnemy>
