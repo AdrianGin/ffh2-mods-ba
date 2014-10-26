@@ -4483,7 +4483,7 @@ void CvDLLWidgetData::parseDescriptionHelp(CvWidgetDataStruct &widgetDataStruct,
 //FfH: Added by Kael 08/26/2008
 	case CIVILOPEDIA_PAGE_EFFECT:
 	case CIVILOPEDIA_PAGE_ITEM:
-	case CIVILOPEDIA_PAGE_RACE:
+//	case CIVILOPEDIA_PAGE_RACE:
 //FfH: End Add
 
 	case CIVILOPEDIA_PAGE_PROMOTION:

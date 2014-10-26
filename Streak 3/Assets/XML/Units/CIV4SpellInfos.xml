@@ -424,7 +424,7 @@
             <Description>TXT_KEY_SPELL_ROAR</Description>
             <Civilopedia>TXT_KEY_SPELL_ROAR_PEDIA</Civilopedia>
             <Help>TXT_KEY_SPELL_ROAR_HELP</Help>
-            <PromotionPrereq1>PROMOTION_DRAGON</PromotionPrereq1>
+            <PromotionPrereq1>NONE</PromotionPrereq1>
             <bAllowAI>1</bAllowAI>
             <iAIWeight>30</iAIWeight>
             <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
@@ -491,7 +491,7 @@
             <Type>SPELL_SPRINT</Type>
             <Description>TXT_KEY_SPELL_SPRINT</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <PromotionPrereq1>PROMOTION_CENTAUR</PromotionPrereq1>
+            <PromotionPrereq1>NONE</PromotionPrereq1>
             <bHasCasted>1</bHasCasted>
             <AddPromotionType1>PROMOTION_HASTED</AddPromotionType1>
             <AddPromotionType2>PROMOTION_FATIGUED</AddPromotionType2>
