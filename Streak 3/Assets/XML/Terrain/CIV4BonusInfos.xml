@@ -263,10 +263,6 @@
                     <TerrainType>TERRAIN_GRASS</TerrainType>
                     <bFeatureTerrain>1</bFeatureTerrain>
                 </FeatureTerrainBoolean>
-                <FeatureTerrainBoolean>
-                    <TerrainType>TERRAIN_MARSH</TerrainType>
-                    <bFeatureTerrain>1</bFeatureTerrain>
-                </FeatureTerrainBoolean>
             </FeatureTerrainBooleans>
             <bModifierPerBonus>0</bModifierPerBonus>
             <iBadAttitude>0</iBadAttitude>
@@ -2039,10 +2035,6 @@
             <bNormalize>0</bNormalize>
             <TerrainBooleans>
                 <TerrainBoolean>
-                    <TerrainType>TERRAIN_SHALLOWS</TerrainType>
-                    <bTerrain>1</bTerrain>
-                </TerrainBoolean>
-                <TerrainBoolean>
                     <TerrainType>TERRAIN_GRASS</TerrainType>
                     <bTerrain>1</bTerrain>
                 </TerrainBoolean>
@@ -2052,10 +2044,6 @@
                 </TerrainBoolean>
                 <TerrainBoolean>
                     <TerrainType>TERRAIN_DESERT</TerrainType>
-                    <bTerrain>1</bTerrain>
-                </TerrainBoolean>
-                <TerrainBoolean>
-                    <TerrainType>TERRAIN_MARSH</TerrainType>
                     <bTerrain>1</bTerrain>
                 </TerrainBoolean>
                 <TerrainBoolean>

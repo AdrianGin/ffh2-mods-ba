@@ -4164,22 +4164,10 @@
             <bAmphib>1</bAmphib>
             <bRiver>1</bRiver>
             <TerrainAttacks>
-                <TerrainAttack>
-                    <TerrainType>TERRAIN_MARSH</TerrainType>
-                    <iTerrainAttack>10</iTerrainAttack>
-                </TerrainAttack>
             </TerrainAttacks>
             <TerrainDefenses>
-                <TerrainDefense>
-                    <TerrainType>TERRAIN_MARSH</TerrainType>
-                    <iTerrainDefense>10</iTerrainDefense>
-                </TerrainDefense>
             </TerrainDefenses>
             <TerrainDoubleMoves>
-                <TerrainDoubleMove>
-                    <TerrainType>TERRAIN_MARSH</TerrainType>
-                    <bTerrainDoubleMove>1</bTerrainDoubleMove>
-                </TerrainDoubleMove>
             </TerrainDoubleMoves>
             <Button>Art/Interface/Buttons/Promotions/Lizardman.dds</Button>
             <bRace>1</bRace>
