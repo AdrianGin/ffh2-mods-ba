@@ -48,7 +48,7 @@
             <bIgnoreIrrigation>0</bIgnoreIrrigation>
             <bWaterWork>0</bWaterWork>
             <iGridX>1</iGridX>
-            <iGridY>40</iGridY>
+            <iGridY>2</iGridY>
             <DomainExtraMoves>
             </DomainExtraMoves>
             <CommerceFlexible>
@@ -120,7 +120,7 @@
             <bIgnoreIrrigation>0</bIgnoreIrrigation>
             <bWaterWork>0</bWaterWork>
             <iGridX>2</iGridX>
-            <iGridY>39</iGridY>
+            <iGridY>1</iGridY>
             <DomainExtraMoves>
             </DomainExtraMoves>
             <CommerceFlexible>
@@ -193,7 +193,7 @@
             <bIgnoreIrrigation>0</bIgnoreIrrigation>
             <bWaterWork>0</bWaterWork>
             <iGridX>3</iGridX>
-            <iGridY>39</iGridY>
+            <iGridY>1</iGridY>
             <DomainExtraMoves>
             </DomainExtraMoves>
             <CommerceFlexible>
@@ -266,7 +266,7 @@
             <bIgnoreIrrigation>0</bIgnoreIrrigation>
             <bWaterWork>0</bWaterWork>
             <iGridX>4</iGridX>
-            <iGridY>39</iGridY>
+            <iGridY>1</iGridY>
             <DomainExtraMoves>
             </DomainExtraMoves>
             <CommerceFlexible>
@@ -339,7 +339,7 @@
             <bIgnoreIrrigation>0</bIgnoreIrrigation>
             <bWaterWork>0</bWaterWork>
             <iGridX>2</iGridX>
-            <iGridY>41</iGridY>
+            <iGridY>3</iGridY>
             <DomainExtraMoves>
             </DomainExtraMoves>
             <CommerceFlexible>
@@ -412,7 +412,7 @@
             <bIgnoreIrrigation>0</bIgnoreIrrigation>
             <bWaterWork>0</bWaterWork>
             <iGridX>3</iGridX>
-            <iGridY>41</iGridY>
+            <iGridY>3</iGridY>
             <DomainExtraMoves>
             </DomainExtraMoves>
             <CommerceFlexible>
@@ -485,7 +485,7 @@
             <bIgnoreIrrigation>0</bIgnoreIrrigation>
             <bWaterWork>0</bWaterWork>
             <iGridX>4</iGridX>
-            <iGridY>41</iGridY>
+            <iGridY>3</iGridY>
             <DomainExtraMoves>
             </DomainExtraMoves>
             <CommerceFlexible>
@@ -558,7 +558,7 @@
             <bIgnoreIrrigation>0</bIgnoreIrrigation>
             <bWaterWork>1</bWaterWork>
             <iGridX>2</iGridX>
-            <iGridY>43</iGridY>
+            <iGridY>5</iGridY>
             <DomainExtraMoves>
             </DomainExtraMoves>
             <CommerceFlexible>
@@ -635,7 +635,7 @@
             <bIgnoreIrrigation>0</bIgnoreIrrigation>
             <bWaterWork>0</bWaterWork>
             <iGridX>3</iGridX>
-            <iGridY>43</iGridY>
+            <iGridY>5</iGridY>
             <DomainExtraMoves>
             </DomainExtraMoves>
             <CommerceFlexible>
@@ -712,7 +712,7 @@
             <bIgnoreIrrigation>0</bIgnoreIrrigation>
             <bWaterWork>0</bWaterWork>
             <iGridX>2</iGridX>
-            <iGridY>45</iGridY>
+            <iGridY>7</iGridY>
             <DomainExtraMoves>
             </DomainExtraMoves>
             <CommerceFlexible>
@@ -785,7 +785,7 @@
             <bIgnoreIrrigation>0</bIgnoreIrrigation>
             <bWaterWork>0</bWaterWork>
             <iGridX>3</iGridX>
-            <iGridY>45</iGridY>
+            <iGridY>7</iGridY>
             <DomainExtraMoves>
             </DomainExtraMoves>
             <CommerceFlexible>
@@ -858,7 +858,7 @@
             <bIgnoreIrrigation>0</bIgnoreIrrigation>
             <bWaterWork>0</bWaterWork>
             <iGridX>4</iGridX>
-            <iGridY>45</iGridY>
+            <iGridY>7</iGridY>
             <DomainExtraMoves>
             </DomainExtraMoves>
             <CommerceFlexible>
@@ -931,7 +931,7 @@
             <bIgnoreIrrigation>0</bIgnoreIrrigation>
             <bWaterWork>0</bWaterWork>
             <iGridX>2</iGridX>
-            <iGridY>47</iGridY>
+            <iGridY>9</iGridY>
             <DomainExtraMoves>
             </DomainExtraMoves>
             <CommerceFlexible>
@@ -1004,7 +1004,7 @@
             <bIgnoreIrrigation>0</bIgnoreIrrigation>
             <bWaterWork>0</bWaterWork>
             <iGridX>3</iGridX>
-            <iGridY>47</iGridY>
+            <iGridY>9</iGridY>
             <DomainExtraMoves>
             </DomainExtraMoves>
             <CommerceFlexible>
@@ -1077,7 +1077,7 @@
             <bIgnoreIrrigation>0</bIgnoreIrrigation>
             <bWaterWork>0</bWaterWork>
             <iGridX>4</iGridX>
-            <iGridY>47</iGridY>
+            <iGridY>9</iGridY>
             <DomainExtraMoves>
             </DomainExtraMoves>
             <CommerceFlexible>
@@ -1150,7 +1150,7 @@
             <bIgnoreIrrigation>0</bIgnoreIrrigation>
             <bWaterWork>0</bWaterWork>
             <iGridX>1</iGridX>
-            <iGridY>50</iGridY>
+            <iGridY>12</iGridY>
             <DomainExtraMoves>
             </DomainExtraMoves>
             <CommerceFlexible>
@@ -1222,7 +1222,7 @@
             <bIgnoreIrrigation>0</bIgnoreIrrigation>
             <bWaterWork>0</bWaterWork>
             <iGridX>2</iGridX>
-            <iGridY>49</iGridY>
+            <iGridY>11</iGridY>
             <DomainExtraMoves>
             </DomainExtraMoves>
             <CommerceFlexible>
@@ -1295,7 +1295,7 @@
             <bIgnoreIrrigation>0</bIgnoreIrrigation>
             <bWaterWork>0</bWaterWork>
             <iGridX>3</iGridX>
-            <iGridY>49</iGridY>
+            <iGridY>11</iGridY>
             <DomainExtraMoves>
             </DomainExtraMoves>
             <CommerceFlexible>
@@ -1368,7 +1368,7 @@
             <bIgnoreIrrigation>0</bIgnoreIrrigation>
             <bWaterWork>0</bWaterWork>
             <iGridX>4</iGridX>
-            <iGridY>49</iGridY>
+            <iGridY>11</iGridY>
             <DomainExtraMoves>
             </DomainExtraMoves>
             <CommerceFlexible>
@@ -1441,7 +1441,7 @@
             <bIgnoreIrrigation>0</bIgnoreIrrigation>
             <bWaterWork>0</bWaterWork>
             <iGridX>2</iGridX>
-            <iGridY>51</iGridY>
+            <iGridY>13</iGridY>
             <DomainExtraMoves>
             </DomainExtraMoves>
             <CommerceFlexible>
@@ -1514,7 +1514,7 @@
             <bIgnoreIrrigation>0</bIgnoreIrrigation>
             <bWaterWork>0</bWaterWork>
             <iGridX>3</iGridX>
-            <iGridY>51</iGridY>
+            <iGridY>13</iGridY>
             <DomainExtraMoves>
             </DomainExtraMoves>
             <CommerceFlexible>
@@ -1587,7 +1587,7 @@
             <bIgnoreIrrigation>0</bIgnoreIrrigation>
             <bWaterWork>0</bWaterWork>
             <iGridX>4</iGridX>
-            <iGridY>51</iGridY>
+            <iGridY>13</iGridY>
             <DomainExtraMoves>
             </DomainExtraMoves>
             <CommerceFlexible>
@@ -1660,7 +1660,7 @@
             <bIgnoreIrrigation>0</bIgnoreIrrigation>
             <bWaterWork>0</bWaterWork>
             <iGridX>2</iGridX>
-            <iGridY>53</iGridY>
+            <iGridY>15</iGridY>
             <DomainExtraMoves>
             </DomainExtraMoves>
             <CommerceFlexible>
@@ -1733,7 +1733,7 @@
             <bIgnoreIrrigation>0</bIgnoreIrrigation>
             <bWaterWork>0</bWaterWork>
             <iGridX>3</iGridX>
-            <iGridY>53</iGridY>
+            <iGridY>15</iGridY>
             <DomainExtraMoves>
             </DomainExtraMoves>
             <CommerceFlexible>
@@ -1806,7 +1806,7 @@
             <bIgnoreIrrigation>0</bIgnoreIrrigation>
             <bWaterWork>0</bWaterWork>
             <iGridX>4</iGridX>
-            <iGridY>53</iGridY>
+            <iGridY>15</iGridY>
             <DomainExtraMoves>
             </DomainExtraMoves>
             <CommerceFlexible>
@@ -1879,7 +1879,7 @@
             <bIgnoreIrrigation>0</bIgnoreIrrigation>
             <bWaterWork>0</bWaterWork>
             <iGridX>2</iGridX>
-            <iGridY>55</iGridY>
+            <iGridY>17</iGridY>
             <DomainExtraMoves>
             </DomainExtraMoves>
             <CommerceFlexible>
@@ -1952,7 +1952,7 @@
             <bIgnoreIrrigation>0</bIgnoreIrrigation>
             <bWaterWork>0</bWaterWork>
             <iGridX>3</iGridX>
-            <iGridY>55</iGridY>
+            <iGridY>17</iGridY>
             <DomainExtraMoves>
             </DomainExtraMoves>
             <CommerceFlexible>
@@ -2025,7 +2025,7 @@
             <bIgnoreIrrigation>0</bIgnoreIrrigation>
             <bWaterWork>0</bWaterWork>
             <iGridX>4</iGridX>
-            <iGridY>55</iGridY>
+            <iGridY>17</iGridY>
             <DomainExtraMoves>
             </DomainExtraMoves>
             <CommerceFlexible>
@@ -2098,7 +2098,7 @@
             <bIgnoreIrrigation>0</bIgnoreIrrigation>
             <bWaterWork>0</bWaterWork>
             <iGridX>2</iGridX>
-            <iGridY>57</iGridY>
+            <iGridY>19</iGridY>
             <DomainExtraMoves>
             </DomainExtraMoves>
             <CommerceFlexible>
@@ -2171,7 +2171,7 @@
             <bIgnoreIrrigation>0</bIgnoreIrrigation>
             <bWaterWork>0</bWaterWork>
             <iGridX>3</iGridX>
-            <iGridY>57</iGridY>
+            <iGridY>19</iGridY>
             <DomainExtraMoves>
             </DomainExtraMoves>
             <CommerceFlexible>
@@ -2244,7 +2244,7 @@
             <bIgnoreIrrigation>0</bIgnoreIrrigation>
             <bWaterWork>0</bWaterWork>
             <iGridX>4</iGridX>
-            <iGridY>57</iGridY>
+            <iGridY>19</iGridY>
             <DomainExtraMoves>
             </DomainExtraMoves>
             <CommerceFlexible>
