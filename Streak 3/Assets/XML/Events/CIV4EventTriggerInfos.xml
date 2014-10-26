@@ -5952,7 +5952,6 @@
             <bHeadquarters>0</bHeadquarters>
             <Events>
                 <Event>EVENT_GOBLIN_WASTE_1</Event>
-                <Event>EVENT_GOBLIN_WASTE_2</Event>
             </Events>
             <PrereqEvents>
             </PrereqEvents>
@@ -15943,7 +15942,6 @@
             <bHeadquarters>0</bHeadquarters>
             <Events>
                 <Event>EVENT_SOBS_1</Event>
-                <Event>EVENT_SOBS_2</Event>
                 <Event>EVENT_SOBS_3</Event>
             </Events>
             <PrereqEvents>
