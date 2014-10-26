@@ -16567,7 +16567,7 @@
             <iTechPercent>0</iTechPercent>
             <iTechCostPercent>0</iTechCostPercent>
             <iTechMinTurnsLeft>0</iTechMinTurnsLeft>
-            <PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+            <PrereqTech>NONE</PrereqTech>
             <UnitClass>UNITCLASS_AXEMAN</UnitClass>
             <iNumFreeUnits>1</iNumFreeUnits>
             <bDisbandUnit>0</bDisbandUnit>
@@ -16668,7 +16668,7 @@
             <iTechPercent>0</iTechPercent>
             <iTechCostPercent>0</iTechCostPercent>
             <iTechMinTurnsLeft>0</iTechMinTurnsLeft>
-            <PrereqTech>TECH_ARCHERY</PrereqTech>
+            <PrereqTech>NONE</PrereqTech>
             <UnitClass>UNITCLASS_ARCHER</UnitClass>
             <iNumFreeUnits>1</iNumFreeUnits>
             <bDisbandUnit>0</bDisbandUnit>
@@ -39425,7 +39425,7 @@
             <iTechPercent>0</iTechPercent>
             <iTechCostPercent>0</iTechCostPercent>
             <iTechMinTurnsLeft>0</iTechMinTurnsLeft>
-            <PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+            <PrereqTech>NONE</PrereqTech>
             <UnitClass>UNITCLASS_AXEMAN</UnitClass>
             <iNumFreeUnits>1</iNumFreeUnits>
             <bDisbandUnit>0</bDisbandUnit>
@@ -39526,7 +39526,7 @@
             <iTechPercent>0</iTechPercent>
             <iTechCostPercent>0</iTechCostPercent>
             <iTechMinTurnsLeft>0</iTechMinTurnsLeft>
-            <PrereqTech>TECH_ARCHERY</PrereqTech>
+            <PrereqTech>NONE</PrereqTech>
             <UnitClass>UNITCLASS_ARCHER</UnitClass>
             <iNumFreeUnits>1</iNumFreeUnits>
             <bDisbandUnit>0</bDisbandUnit>
@@ -39627,7 +39627,7 @@
             <iTechPercent>0</iTechPercent>
             <iTechCostPercent>0</iTechCostPercent>
             <iTechMinTurnsLeft>0</iTechMinTurnsLeft>
-            <PrereqTech>TECH_HORSEBACK_RIDING</PrereqTech>
+            <PrereqTech>NONE</PrereqTech>
             <UnitClass>UNITCLASS_HORSEMAN</UnitClass>
             <iNumFreeUnits>1</iNumFreeUnits>
             <bDisbandUnit>0</bDisbandUnit>
