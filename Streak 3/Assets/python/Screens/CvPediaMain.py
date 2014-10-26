@@ -206,9 +206,9 @@ class CvPediaMain( CvPediaScreen.CvPediaScreen ):
 								self.szCategoryReligion, 
 #								self.szCategoryCorporation, 
 								self.szCategoryCivic, 
-								self.szCategoryProject,  
+								self.szCategoryProject]
 #								self.szCategoryConcept,
-#								self.szCategoryConceptNew,
+#								self.szCategoryConceptNew
 #								self.szCategoryHints]
 								
 		# Create a new screen
