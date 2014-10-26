@@ -62,22 +62,6 @@
             <Button>Art/Interface/Buttons/Units/Battering Ram.dds</Button>
         </SpellInfo>
         <SpellInfo>
-            <Type>SPELL_CREATE_PUPPET_LOKI</Type>
-            <Description>TXT_KEY_SPELL_CREATE_PUPPET</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <UnitClassPrereq>NONE</UnitClassPrereq>
-            <bAllowAI>1</bAllowAI>
-            <iAIWeight>1000</iAIWeight>
-            <bHasCasted>1</bHasCasted>
-            <CreateUnitType>UNIT_PUPPET_LOKI</CreateUnitType>
-            <iCreateUnitNum>1</iCreateUnitNum>
-            <bCopyCastersPromotions>1</bCopyCastersPromotions>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_CREATE_PUPPET</Sound>
-            <bGraphicalOnly>1</bGraphicalOnly>
-            <Button>Art/Interface/Buttons/Units/Puppet.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
             <Type>SPELL_CREW_BUCCANEERS</Type>
             <Description>TXT_KEY_SPELL_CREW_BUCCANEERS</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
@@ -488,19 +472,6 @@
             <Button>Art/Interface/Buttons/Spells/Mother Lode.dds</Button>
         </SpellInfo>
         <SpellInfo>
-            <Type>SPELL_OPEN_CHEST</Type>
-            <Description>TXT_KEY_SPELL_OPEN_CHEST</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <UnitInStackPrereq>EQUIPMENT_TREASURE</UnitInStackPrereq>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <bAbility>1</bAbility>
-            <PyResult>spellOpenChest(pCaster)</PyResult>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_ENCHANTMENT</Sound>
-            <Button>Art/Interface/Buttons/Equipment/Treasure.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
             <Type>SPELL_PROMOTE_SETTLEMENT</Type>
             <Description>TXT_KEY_SPELL_PROMOTE_SETTLEMENT</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
@@ -728,56 +699,6 @@
             <Effect>EFFECT_STONESKIN</Effect>
             <Sound>AS3D_SPELL_STONESKIN</Sound>
             <Button>Art/Interface/Buttons/Spells/Stoneskin.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_UPGRADE_ARCHER</Type>
-            <Description>TXT_KEY_SPELL_UPGRADE_ARCHER</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <UnitPrereq>UNIT_GOBLIN_SCORPION_CLAN</UnitPrereq>
-            <CivilizationPrereq>CIVILIZATION_BARBARIAN</CivilizationPrereq>
-            <TechPrereq>TECH_ARCHERY</TechPrereq>
-            <bAllowAI>1</bAllowAI>
-            <iAIWeight>300</iAIWeight>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <ConvertUnitType>UNIT_ARCHER_SCORPION_CLAN</ConvertUnitType>
-            <bAbility>1</bAbility>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_TRAIN</Sound>
-            <bGraphicalOnly>1</bGraphicalOnly>
-            <Button>Art/Interface/Buttons/Units/Archer Scorpion Clan.dds</Button>
-        </SpellInfo><SpellInfo>
-            <Type>SPELL_UPGRADE_WOLF_RIDER</Type>
-            <Description>TXT_KEY_SPELL_UPGRADE_WOLF_RIDER</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <UnitPrereq>UNIT_GOBLIN_SCORPION_CLAN</UnitPrereq>
-            <CivilizationPrereq>CIVILIZATION_BARBARIAN</CivilizationPrereq>
-            <TechPrereq>TECH_HORSEBACK_RIDING</TechPrereq>
-            <bAllowAI>1</bAllowAI>
-            <iAIWeight>300</iAIWeight>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <ConvertUnitType>UNIT_WOLF_RIDER_SCORPION_CLAN</ConvertUnitType>
-            <bAbility>1</bAbility>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_TRAIN</Sound>
-            <bGraphicalOnly>1</bGraphicalOnly>
-            <Button>Art/Interface/Buttons/Units/Wolf Rider Scorpion Clan.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_WALL_OF_STONE</Type>
-            <Description>TXT_KEY_SPELL_WALL_OF_STONE</Description>
-            <Civilopedia>TXT_KEY_SPELL_WALL_OF_STONE_PEDIA</Civilopedia>
-            <PromotionPrereq1>PROMOTION_EARTH1</PromotionPrereq1>
-            <PromotionPrereq2>PROMOTION_CHANNELING1</PromotionPrereq2>
-            <bAllowAI>1</bAllowAI>
-            <iAIWeightCity>50</iAIWeightCity>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <CreateBuildingType>BUILDING_WALL_OF_STONE</CreateBuildingType>
-            <Effect>EFFECT_CREATION</Effect>
-            <Sound>AS3D_SPELL_HOPE</Sound>
-            <Button>Art/Interface/Buttons/Buildings/Wall.dds</Button>
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_WARCRY</Type>
