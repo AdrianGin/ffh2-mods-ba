@@ -3741,21 +3741,6 @@
             </DamageTypeResists>
         </PromotionInfo>
         <PromotionInfo>
-            <Type>PROMOTION_JADE_TORC</Type>
-            <Description>TXT_KEY_EQUIPMENT_JADE_TORC</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_NEVER</TechPrereq>
-            <Button>Art/Interface/Buttons/Equipment/JadeTorc.dds</Button>
-            <bEquipment>1</bEquipment>
-            <iResistMagic>20</iResistMagic>
-            <DamageTypeResists>
-                <DamageTypeResist>
-                    <DamageType>DAMAGE_POISON</DamageType>
-                    <iResist>100</iResist>
-                </DamageTypeResist>
-            </DamageTypeResists>
-        </PromotionInfo>
-        <PromotionInfo>
             <Type>PROMOTION_KEEN_SIGHT</Type>
             <Description>TXT_KEY_PROMOTION_KEEN_SIGHT</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
@@ -4894,22 +4879,6 @@
             <Button>,Art/Interface/Buttons/Promotions/Navigation2.dds,Art/Interface/Buttons/Promotions_Atlas.dds,8,4</Button>
         </PromotionInfo>
         <PromotionInfo>
-            <Type>PROMOTION_NETHER_BLADE</Type>
-            <Description>TXT_KEY_EQUIPMENT_NETHER_BLADE</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_NEVER</TechPrereq>
-            <Button>Art/Interface/Buttons/Equipment/NetherBlade.dds</Button>
-            <bEquipment>1</bEquipment>
-            <PromotionCombatType>PROMOTION_HERO</PromotionCombatType>
-            <iPromotionCombatMod>80</iPromotionCombatMod>
-            <DamageTypeCombats>
-                <DamageTypeCombat>
-                    <DamageType>DAMAGE_DEATH</DamageType>
-                    <iCombat>2</iCombat>
-                </DamageTypeCombat>
-            </DamageTypeCombats>
-        </PromotionInfo>
-        <PromotionInfo>
             <Type>PROMOTION_NOMAD</Type>
             <Description>TXT_KEY_PROMOTION_NOMAD</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
@@ -5152,22 +5121,6 @@
             <iSpellCasterXP>20</iSpellCasterXP>
         </PromotionInfo>
         <PromotionInfo>
-            <Type>PROMOTION_POTION_OF_INVISIBILITY</Type>
-            <Description>TXT_KEY_EQUIPMENT_POTION_OF_INVISIBILITY</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_NEVER</TechPrereq>
-            <Button>Art/Interface/Buttons/Equipment/PotionOfInvisibility.dds</Button>
-            <bEquipment>1</bEquipment>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_POTION_OF_RESTORATION</Type>
-            <Description>TXT_KEY_EQUIPMENT_POTION_OF_RESTORATION</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_NEVER</TechPrereq>
-            <Button>Art/Interface/Buttons/Equipment/PotionOfRestoration.dds</Button>
-            <bEquipment>1</bEquipment>
-        </PromotionInfo>
-        <PromotionInfo>
             <Type>PROMOTION_PRECISION</Type>
             <Description>TXT_KEY_PROMOTION_PRECISION</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
@@ -5293,20 +5246,6 @@
             <bRemovedWhenHealed>1</bRemovedWhenHealed>
             <iAIWeight>50</iAIWeight>
             <iMinLevel>-1</iMinLevel>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_ROD_OF_WINDS</Type>
-            <Description>TXT_KEY_EQUIPMENT_ROD_OF_WINDS</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_NEVER</TechPrereq>
-            <Button>Art/Interface/Buttons/Equipment/RodOfWinds.dds</Button>
-            <bEquipment>1</bEquipment>
-            <BonusAffinities>
-                <BonusAffinity>
-                    <BonusType>BONUS_MANA_AIR</BonusType>
-                    <iAffinity>1</iAffinity>
-                </BonusAffinity>
-            </BonusAffinities>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_RUSTED</Type>

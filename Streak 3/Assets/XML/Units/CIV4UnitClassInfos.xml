@@ -47,24 +47,6 @@
 			<DefaultUnit>EQUIPMENT_WAR</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
-			<Type>EQUIPMENTCLASS_POTION_OF_INVISIBILITY</Type>
-			<Description>TXT_KEY_EQUIPMENT_POTION_OF_INVISIBILITY</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>EQUIPMENT_POTION_OF_INVISIBILITY</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>EQUIPMENTCLASS_POTION_OF_RESTORATION</Type>
-			<Description>TXT_KEY_EQUIPMENT_POTION_OF_RESTORATION</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>EQUIPMENT_POTION_OF_RESTORATION</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
 			<Type>EQUIPMENTCLASS_TIMOR_MASK</Type>
 			<Description>TXT_KEY_EQUIPMENT_TIMOR_MASK</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
@@ -162,33 +144,6 @@
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_AZER</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>EQUIPMENTCLASS_NETHER_BLADE</Type>
-			<Description>TXT_KEY_EQUIPMENT_NETHER_BLADE</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>EQUIPMENT_NETHER_BLADE</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>EQUIPMENTCLASS_JADE_TORC</Type>
-			<Description>TXT_KEY_EQUIPMENT_JADE_TORC</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>EQUIPMENT_JADE_TORC</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>EQUIPMENTCLASS_ROD_OF_WINDS</Type>
-			<Description>TXT_KEY_EQUIPMENT_ROD_OF_WINDS</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>EQUIPMENT_ROD_OF_WINDS</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
 			<Type>UNITCLASS_MARGALARD</Type>
