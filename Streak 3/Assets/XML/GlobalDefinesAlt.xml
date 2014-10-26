@@ -260,7 +260,7 @@
 	</Define>
 	<Define>
 		<DefineName>PIRATE_COVE_IMPROVEMENT</DefineName>
-		<DefineTextVal>IMPROVEMENT_PIRATE_COVE</DefineTextVal>
+		<DefineTextVal>NONE</DefineTextVal>
 	</Define>
 	<Define>
 		<DefineName>PLANAR_GATE_CHANCE</DefineName>

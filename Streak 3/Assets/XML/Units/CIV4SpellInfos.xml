@@ -368,19 +368,6 @@
             <Button>Art/Interface/Buttons/Promotions/Enchantedblade.dds</Button>
         </SpellInfo>
         <SpellInfo>
-            <Type>SPELL_ENTER_PORTAL</Type>
-            <Description>TXT_KEY_SPELL_ENTER_PORTAL</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_ENTER_PORTAL_HELP</Help>
-            <ImprovementPrereq>IMPROVEMENT_PORTAL</ImprovementPrereq>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <PyResult>spellEnterPortal(pCaster)</PyResult>
-            <Effect>EFFECT_SPELL2</Effect>
-            <Sound>AS3D_SPELL_ENCHANTMENT</Sound>
-            <Button>Art/Interface/Buttons/Improvements/Portal.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
             <Type>SPELL_ENTERTAIN</Type>
             <Description>TXT_KEY_SPELL_ENTERTAIN</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
@@ -395,66 +382,6 @@
             <Effect>EFFECT_SPELL2</Effect>
             <Sound>AS3D_SPELL_CHEER</Sound>
             <Button>Art/Interface/Buttons/Spells/Entertain.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_EXPLORE_LAIR_AIFON_ISLE</Type>
-            <Description>TXT_KEY_SPELL_EXPLORE_LAIR</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <ImprovementPrereq>IMPROVEMENT_AIFON_ISLE</ImprovementPrereq>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <bAbility>1</bAbility>
-            <PyResult>spellExploreLairEpic(pCaster)</PyResult>
-            <PyRequirement>reqExploreLair(pCaster)</PyRequirement>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_HASTE</Sound>
-            <bGraphicalOnly>1</bGraphicalOnly>
-            <Button>Art/Interface/Buttons/Spells/Explore Lair.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_EXPLORE_LAIR_PYRE_OF_THE_SERAPHIC</Type>
-            <Description>TXT_KEY_SPELL_EXPLORE_LAIR</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <ImprovementPrereq>IMPROVEMENT_PYRE_OF_THE_SERAPHIC</ImprovementPrereq>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <bAbility>1</bAbility>
-            <PyResult>spellExploreLairEpic(pCaster)</PyResult>
-            <PyRequirement>reqExploreLair(pCaster)</PyRequirement>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_HASTE</Sound>
-            <bGraphicalOnly>1</bGraphicalOnly>
-            <Button>Art/Interface/Buttons/Spells/Explore Lair.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_EXPLORE_LAIR_RUINS</Type>
-            <Description>TXT_KEY_SPELL_EXPLORE_LAIR</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <ImprovementPrereq>IMPROVEMENT_RUINS</ImprovementPrereq>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <bAbility>1</bAbility>
-            <PyResult>spellExploreLair(pCaster)</PyResult>
-            <PyRequirement>reqExploreLair(pCaster)</PyRequirement>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_HASTE</Sound>
-            <bGraphicalOnly>1</bGraphicalOnly>
-            <Button>Art/Interface/Buttons/Spells/Explore Lair.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_EXPLORE_LAIR_SHIP_WRECK</Type>
-            <Description>TXT_KEY_SPELL_EXPLORE_LAIR</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <ImprovementPrereq>IMPROVEMENT_SHIP_WRECK</ImprovementPrereq>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <bAbility>1</bAbility>
-            <PyResult>spellExploreLair(pCaster)</PyResult>
-            <PyRequirement>reqExploreLair(pCaster)</PyRequirement>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_HASTE</Sound>
-            <bGraphicalOnly>1</bGraphicalOnly>
-            <Button>Art/Interface/Buttons/Spells/Explore Lair.dds</Button>
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_FAIR_WINDS</Type>
@@ -906,40 +833,6 @@
             <Button>Art/Interface/Buttons/Equipment/Treasure.dds</Button>
         </SpellInfo>
         <SpellInfo>
-            <Type>SPELL_PEACE_SEVEN_PINES</Type>
-            <Description>TXT_KEY_SPELL_PEACE</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_PEACE_HELP</Help>
-            <ImprovementPrereq>IMPROVEMENT_SEVEN_PINES</ImprovementPrereq>
-            <bAllowAI>1</bAllowAI>
-            <bInBordersOnly>1</bInBordersOnly>
-            <bHasCasted>1</bHasCasted>
-            <PyResult>spellPeaceSevenPines(pCaster)</PyResult>
-            <PyRequirement>reqPeaceSevenPines(pCaster)</PyRequirement>
-            <Effect>EFFECT_CREATION</Effect>
-            <Sound>AS3D_SPELL_CURE_DISEASE</Sound>
-            <bGraphicalOnly>1</bGraphicalOnly>
-            <Button>Art/Interface/Buttons/Spells/Peace.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_PIRATE_COVE</Type>
-            <Description>TXT_KEY_SPELL_PIRATE_COVE</Description>
-            <Civilopedia>TXT_KEY_SPELL_PIRATE_COVE_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_PIRATE_COVE_HELP</Help>
-            <UnitPrereq>UNIT_WORKBOAT</UnitPrereq>
-            <CivilizationPrereq>NONE</CivilizationPrereq>
-            <bAllowAI>1</bAllowAI>
-            <iAIWeight>300</iAIWeight>
-            <bHasCasted>1</bHasCasted>
-            <CreateImprovementType>IMPROVEMENT_PIRATE_COVE</CreateImprovementType>
-            <bAbility>1</bAbility>
-            <bSacrificeCaster>1</bSacrificeCaster>
-            <PyRequirement>reqPirateCove(pCaster)</PyRequirement>
-            <Effect>EFFECT_CREATION</Effect>
-            <Sound>AS3D_SPELL_PIRATE_COVE</Sound>
-            <Button>Art/Interface/Buttons/Improvements/Pirate Cove.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
             <Type>SPELL_POISONED_BLADE</Type>
             <Description>TXT_KEY_SPELL_POISONED_BLADE</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
@@ -1062,24 +955,6 @@
             <Effect>EFFECT_CREATION</Effect>
             <Sound>AS3D_SPELL_BLESS</Sound>
             <Button>Art/Interface/Buttons/Promotions/Regeneration.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_RELEASE_FROM_CAGE</Type>
-            <Description>TXT_KEY_SPELL_RELEASE_FROM_CAGE</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_RELEASE_FROM_CAGE_HELP</Help>
-            <ImprovementPrereq>IMPROVEMENT_CAGE</ImprovementPrereq>
-            <bAllowAI>1</bAllowAI>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <RemovePromotionType1>PROMOTION_HELD</RemovePromotionType1>
-            <bImmuneEnemy>1</bImmuneEnemy>
-            <bAbility>1</bAbility>
-            <PyResult>spellReleaseFromCage(pCaster)</PyResult>
-            <Effect>EFFECT_CREATION</Effect>
-            <Sound>AS3D_SPELL_BLESS</Sound>
-            <bGraphicalOnly>1</bGraphicalOnly>
-            <Button>Art/Interface/Buttons/Improvements/Cage.dds</Button>
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_RELIGIOUS_FERVOR</Type>
@@ -1208,23 +1083,6 @@
             <Effect>EFFECT_SPELL1</Effect>
             <Sound>AS3D_SPELL_DEFILE</Sound>
             <Button>Art/Interface/Buttons/Promotions/Rusted.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_SACRIFICE_PYRE</Type>
-            <Description>TXT_KEY_SPELL_SACRIFICE</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_SACRIFICE_HELP</Help>
-            <PromotionPrereq1>PROMOTION_ANGEL</PromotionPrereq1>
-            <ImprovementPrereq>IMPROVEMENT_PYRE_OF_THE_SERAPHIC</ImprovementPrereq>
-            <bCasterNoDuration>1</bCasterNoDuration>
-            <bHasCasted>1</bHasCasted>
-            <bAbility>1</bAbility>
-            <bSacrificeCaster>1</bSacrificeCaster>
-            <PyResult>spellSacrificePyre(pCaster)</PyResult>
-            <Effect>EFFECT_SACRIFICE</Effect>
-            <Sound>AS3D_SPELL_SACRIFICE</Sound>
-            <bGraphicalOnly>1</bGraphicalOnly>
-            <Button>Art/Interface/Buttons/Spells/Sacrifice.dds</Button>
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_SANCTIFY</Type>
