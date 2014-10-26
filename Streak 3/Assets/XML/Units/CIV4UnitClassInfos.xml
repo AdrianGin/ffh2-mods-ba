@@ -38,69 +38,6 @@
 <!-- NEW END -->
 <!-- NEW END -->
 		<UnitClassInfo>
-			<Type>EQUIPMENTCLASS_GODSLAYER</Type>
-			<Description>TXT_KEY_EQUIPMENT_GODSLAYER</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>EQUIPMENT_GODSLAYER</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>EQUIPMENTCLASS_ATHAME</Type>
-			<Description>TXT_KEY_EQUIPMENT_ATHAME</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>EQUIPMENT_ATHAME</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>EQUIPMENTCLASS_CROWN_OF_COMMAND</Type>
-			<Description>TXT_KEY_EQUIPMENT_CROWN_OF_COMMAND</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>EQUIPMENT_CROWN_OF_COMMAND</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>EQUIPMENTCLASS_WAR</Type>
-			<Description>TXT_KEY_EQUIPMENT_WAR</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>EQUIPMENT_WAR</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>EQUIPMENTCLASS_POTION_OF_INVISIBILITY</Type>
-			<Description>TXT_KEY_EQUIPMENT_POTION_OF_INVISIBILITY</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>EQUIPMENT_POTION_OF_INVISIBILITY</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>EQUIPMENTCLASS_POTION_OF_RESTORATION</Type>
-			<Description>TXT_KEY_EQUIPMENT_POTION_OF_RESTORATION</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>EQUIPMENT_POTION_OF_RESTORATION</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>EQUIPMENTCLASS_TIMOR_MASK</Type>
-			<Description>TXT_KEY_EQUIPMENT_TIMOR_MASK</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>EQUIPMENT_TIMOR_MASK</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
 			<Type>EQUIPMENTCLASS_TREASURE</Type>
 			<Description>TXT_KEY_EQUIPMENT_TREASURE</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
@@ -108,15 +45,6 @@
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>EQUIPMENT_TREASURE</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>EQUIPMENTCLASS_BLACK_MIRROR</Type>
-			<Description>TXT_KEY_EQUIPMENT_BLACK_MIRROR</Description>
-			<iMaxGlobalInstances>1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>EQUIPMENT_BLACK_MIRROR</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
 			<Type>UNITCLASS_PUPPET_LOKI</Type>
@@ -155,60 +83,6 @@
 			<DefaultUnit>UNIT_BATTERING_RAM</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
-			<Type>EQUIPMENTCLASS_SCORCHED_STAFF</Type>
-			<Description>TXT_KEY_EQUIPMENT_SCORCHED_STAFF</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>EQUIPMENT_SCORCHED_STAFF</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>EQUIPMENTCLASS_STAFF_OF_SOULS</Type>
-			<Description>TXT_KEY_EQUIPMENT_STAFF_OF_SOULS</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>EQUIPMENT_STAFF_OF_SOULS</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>EQUIPMENTCLASS_GELA</Type>
-			<Description>TXT_KEY_EQUIPMENT_GELA</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>EQUIPMENT_GELA</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>EQUIPMENTCLASS_DRAGONS_HORDE</Type>
-			<Description>TXT_KEY_EQUIPMENT_DRAGONS_HORDE</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>EQUIPMENT_DRAGONS_HORDE</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>EQUIPMENTCLASS_SYLIVENS_PERFECT_LYRE</Type>
-			<Description>TXT_KEY_EQUIPMENT_SYLIVENS_PERFECT_LYRE</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>EQUIPMENT_SYLIVENS_PERFECT_LYRE</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>EQUIPMENTCLASS_CROWN_OF_AKHARIEN</Type>
-			<Description>TXT_KEY_EQUIPMENT_CROWN_OF_AKHARIEN</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>EQUIPMENT_CROWN_OF_AKHARIEN</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
 			<Type>UNITCLASS_AZER</Type>
 			<Description>TXT_KEY_UNIT_AZER</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
@@ -216,60 +90,6 @@
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_AZER</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>EQUIPMENTCLASS_GOLDEN_HAMMER</Type>
-			<Description>TXT_KEY_EQUIPMENT_GOLDEN_HAMMER</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>EQUIPMENT_GOLDEN_HAMMER</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>EQUIPMENTCLASS_EMPTY_BIER</Type>
-			<Description>TXT_KEY_EQUIPMENT_EMPTY_BIER</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>EQUIPMENT_EMPTY_BIER</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>EQUIPMENTCLASS_NETHER_BLADE</Type>
-			<Description>TXT_KEY_EQUIPMENT_NETHER_BLADE</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>EQUIPMENT_NETHER_BLADE</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>EQUIPMENTCLASS_HEALING_SALVE</Type>
-			<Description>TXT_KEY_EQUIPMENT_HEALING_SALVE</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>EQUIPMENT_HEALING_SALVE</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>EQUIPMENTCLASS_JADE_TORC</Type>
-			<Description>TXT_KEY_EQUIPMENT_JADE_TORC</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>EQUIPMENT_JADE_TORC</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>EQUIPMENTCLASS_ROD_OF_WINDS</Type>
-			<Description>TXT_KEY_EQUIPMENT_ROD_OF_WINDS</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>EQUIPMENT_ROD_OF_WINDS</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
 			<Type>UNITCLASS_MARGALARD</Type>

@@ -170,7 +170,6 @@
             <bHeadquarters>0</bHeadquarters>
             <Events>
                 <Event>EVENT_ALCHEMIST_1</Event>
-                <Event>EVENT_ALCHEMIST_2</Event>
                 <Event>EVENT_ALCHEMIST_3</Event>
             </Events>
             <PrereqEvents>
@@ -10215,7 +10214,6 @@
             <bHeadquarters>0</bHeadquarters>
             <Events>
                 <Event>EVENT_METEOR_1</Event>
-                <Event>EVENT_METEOR_2</Event>
                 <Event>EVENT_METEOR_3</Event>
             </Events>
             <PrereqEvents>
