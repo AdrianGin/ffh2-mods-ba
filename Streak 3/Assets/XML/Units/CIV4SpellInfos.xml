@@ -25,23 +25,6 @@
             <Button>Art/Interface/Buttons/Spells/Arcane Lacuna.dds</Button>
         </SpellInfo>
         <SpellInfo>
-            <Type>SPELL_ARDOR</Type>
-            <Description>TXT_KEY_SPELL_ARDOR</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_ARDOR_HELP</Help>
-            <CivilizationPrereq>NONE</CivilizationPrereq>
-            <bAllowAI>1</bAllowAI>
-            <bGlobal>1</bGlobal>
-            <iAIWeight>300</iAIWeight>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <PyResult>spellArdor(pCaster)</PyResult>
-            <PyRequirement>reqArdor(pCaster)</PyRequirement>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_DISPEL_MAGIC</Sound>
-            <Button>Art/Interface/Buttons/Spells/Ardor.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
             <Type>SPELL_CREATE_BATTERING_RAM</Type>
             <Description>TXT_KEY_SPELL_CREATE_BATTERING_RAM</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
@@ -169,39 +152,6 @@
             <Button>Art/Interface/Buttons/Spells/Declarenationality.dds</Button>
         </SpellInfo>
         <SpellInfo>
-            <Type>SPELL_DISRUPT</Type>
-            <Description>TXT_KEY_SPELL_DISRUPT</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_DISRUPT_HELP</Help>
-            <UnitClassPrereq>NONE</UnitClassPrereq>
-            <bAllowAI>1</bAllowAI>
-            <bInCityOnly>1</bInCityOnly>
-            <iAIWeight>50</iAIWeight>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <PyResult>spellDisrupt(pCaster)</PyResult>
-            <PyRequirement>reqDisrupt(pCaster)</PyRequirement>
-            <Effect>EFFECT_SPELL2</Effect>
-            <Sound>AS3D_SPELL_REVOLT</Sound>
-            <Button>Art/Interface/Buttons/Spells/Disrupt.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_ENTERTAIN</Type>
-            <Description>TXT_KEY_SPELL_ENTERTAIN</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_ENTERTAIN_HELP</Help>
-            <UnitClassPrereq>NONE</UnitClassPrereq>
-            <bAllowAI>1</bAllowAI>
-            <bInCityOnly>1</bInCityOnly>
-            <iAIWeight>50</iAIWeight>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <PyResult>spellEntertain(pCaster)</PyResult>
-            <Effect>EFFECT_SPELL2</Effect>
-            <Sound>AS3D_SPELL_CHEER</Sound>
-            <Button>Art/Interface/Buttons/Spells/Entertain.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
             <Type>SPELL_FAIR_WINDS</Type>
             <Description>TXT_KEY_SPELL_FAIR_WINDS</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
@@ -233,23 +183,6 @@
             <Effect>EFFECT_SACRIFICE</Effect>
             <Sound>AS3D_SPELL_FEAST</Sound>
             <Button>Art/Interface/Buttons/Spells/Feast.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_FOR_THE_HORDE</Type>
-            <Description>TXT_KEY_SPELL_FOR_THE_HORDE</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_FOR_THE_HORDE_HELP</Help>
-            <CivilizationPrereq>NONE</CivilizationPrereq>
-            <bAllowAI>1</bAllowAI>
-            <bGlobal>1</bGlobal>
-            <iAIWeight>300</iAIWeight>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <PyResult>spellForTheHorde(pCaster)</PyResult>
-            <PyRequirement>reqForTheHorde(pCaster)</PyRequirement>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_INSPIRATION</Sound>
-            <Button>Art/Interface/Buttons/Spells/For the Horde.dds</Button>
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_GIFT_VAMPIRISM</Type>
@@ -335,22 +268,6 @@
             <Button>Art/Interface/Buttons/Spells/Hyborems Whisper.dds</Button>
         </SpellInfo>
         <SpellInfo>
-            <Type>SPELL_IMPERSONATE_LEADER</Type>
-            <Description>TXT_KEY_SPELL_IMPERSONATE_LEADER</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_IMPERSONATE_LEADER_HELP</Help>
-            <UnitClassPrereq>NONE</UnitClassPrereq>
-            <bInCityOnly>1</bInCityOnly>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <bSacrificeCaster>1</bSacrificeCaster>
-            <PyResult>spellImpersonateLeader(pCaster)</PyResult>
-            <PyRequirement>reqImpersonateLeader(pCaster)</PyRequirement>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_HOPE</Sound>
-            <Button>Art/Interface/Buttons/Spells/Impersonate Leader.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
             <Type>SPELL_INQUISITION</Type>
             <Description>TXT_KEY_SPELL_INQUISITION</Description>
             <Civilopedia>TXT_KEY_SPELL_INQUISITION_PEDIA</Civilopedia>
@@ -366,57 +283,6 @@
             <Effect>EFFECT_CREATION</Effect>
             <Sound>AS3D_SPELL_INQUISITION</Sound>
             <Button>Art/Interface/Buttons/Spells/Inquisition.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_INTO_THE_MIST</Type>
-            <Description>TXT_KEY_SPELL_INTO_THE_MIST</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_INTO_THE_MIST_HELP</Help>
-            <CivilizationPrereq>NONE</CivilizationPrereq>
-            <bAllowAI>1</bAllowAI>
-            <bGlobal>1</bGlobal>
-            <iAIWeight>300</iAIWeight>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <PyResult>spellIntoTheMist(pCaster)</PyResult>
-            <PyRequirement>reqIntoTheMist(pCaster)</PyRequirement>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_BLESS</Sound>
-            <Button>Art/Interface/Buttons/Spells/Into the Mist.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_KIDNAP</Type>
-            <Description>TXT_KEY_SPELL_KIDNAP</Description>
-            <Civilopedia>TXT_KEY_SPELL_KIDNAP_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_KIDNAP_HELP</Help>
-            <UnitCombatPrereq>UNITCOMBAT_RECON</UnitCombatPrereq>
-            <CivilizationPrereq>NONE</CivilizationPrereq>
-            <bCausesWar>1</bCausesWar>
-            <bInCityOnly>1</bInCityOnly>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <PyResult>spellKidnap(pCaster)</PyResult>
-            <PyRequirement>reqKidnap(pCaster)</PyRequirement>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_BLESS</Sound>
-            <Button>Art/Interface/Buttons/Spells/Kidnap.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_LEGENDS</Type>
-            <Description>TXT_KEY_SPELL_LEGENDS</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_LEGENDS_HELP</Help>
-            <CivilizationPrereq>NONE</CivilizationPrereq>
-            <bAllowAI>1</bAllowAI>
-            <bGlobal>1</bGlobal>
-            <iAIWeight>300</iAIWeight>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <PyResult>spellLegends(pCaster)</PyResult>
-            <PyRequirement>reqLegends(pCaster)</PyRequirement>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_BLESS</Sound>
-            <Button>Art/Interface/Buttons/Spells/Legends.dds</Button>
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_MAELSTROM</Type>
@@ -505,22 +371,6 @@
             <Button>Art/Interface/Buttons/Spells/Raging Seas.dds</Button>
         </SpellInfo>
         <SpellInfo>
-            <Type>SPELL_RALLY</Type>
-            <Description>TXT_KEY_SPELL_RALLY</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_RALLY_HELP</Help>
-            <bAllowAI>1</bAllowAI>
-            <bGlobal>1</bGlobal>
-            <iAIWeight>300</iAIWeight>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <PyResult>spellRally(pCaster)</PyResult>
-            <PyRequirement>reqRally(pCaster)</PyRequirement>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_RECRUIT</Sound>
-            <Button>Art/Interface/Buttons/Spells/Rally.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
             <Type>SPELL_RECRUIT</Type>
             <Description>TXT_KEY_SPELL_RECRUIT</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
@@ -568,23 +418,6 @@
             <Effect>EFFECT_SPELL1</Effect>
             <Sound>AS3D_SPELL_INSPIRATION</Sound>
             <Button>Art/Interface/Buttons/Spells/Revelry.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_RIVER_OF_BLOOD</Type>
-            <Description>TXT_KEY_SPELL_RIVER_OF_BLOOD</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_RIVER_OF_BLOOD_HELP</Help>
-            <CivilizationPrereq>NONE</CivilizationPrereq>
-            <bAllowAI>1</bAllowAI>
-            <bGlobal>1</bGlobal>
-            <iAIWeight>300</iAIWeight>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <PyResult>spellRiverOfBlood(pCaster)</PyResult>
-            <PyRequirement>reqRiverOfBlood(pCaster)</PyRequirement>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_INSPIRATION</Sound>
-            <Button>Art/Interface/Buttons/Spells/River of Blood.dds</Button>
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_ROAR</Type>
@@ -670,23 +503,6 @@
             <Button>Art/Interface/Buttons/Spells/Sprint.dds</Button>
         </SpellInfo>
         <SpellInfo>
-            <Type>SPELL_STASIS</Type>
-            <Description>TXT_KEY_SPELL_STASIS</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_STASIS_HELP</Help>
-            <CivilizationPrereq>NONE</CivilizationPrereq>
-            <bAllowAI>1</bAllowAI>
-            <bGlobal>1</bGlobal>
-            <iAIWeight>50</iAIWeight>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <PyResult>spellStasis(pCaster)</PyResult>
-            <PyRequirement>reqStasis(pCaster)</PyRequirement>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_HASTE</Sound>
-            <Button>Art/Interface/Buttons/Spells/Stasis.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
             <Type>SPELL_STONESKIN</Type>
             <Description>TXT_KEY_SPELL_STONESKIN</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
@@ -701,23 +517,6 @@
             <Button>Art/Interface/Buttons/Spells/Stoneskin.dds</Button>
         </SpellInfo>
         <SpellInfo>
-            <Type>SPELL_WARCRY</Type>
-            <Description>TXT_KEY_SPELL_WARCRY</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_WARCRY_HELP</Help>
-            <CivilizationPrereq>NONE</CivilizationPrereq>
-            <bAllowAI>1</bAllowAI>
-            <bGlobal>1</bGlobal>
-            <iAIWeight>300</iAIWeight>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <PyResult>spellWarcry(pCaster)</PyResult>
-            <PyRequirement>reqWarcry(pCaster)</PyRequirement>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_INSPIRATION</Sound>
-            <Button>Art/Interface/Buttons/Promotions/Warcry.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
             <Type>SPELL_WATER_WALKING</Type>
             <Description>TXT_KEY_SPELL_WATER_WALKING</Description>
             <Civilopedia>TXT_KEY_SPELL_WATER_WALKING_PEDIA</Civilopedia>
@@ -730,57 +529,6 @@
             <Effect>EFFECT_CREATION</Effect>
             <Sound>AS3D_SPELL_WATER</Sound>
             <Button>Art/Interface/Buttons/Promotions/Waterwalking.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_WILD_HUNT</Type>
-            <Description>TXT_KEY_SPELL_WILD_HUNT</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_WILD_HUNT_HELP</Help>
-            <CivilizationPrereq>NONE</CivilizationPrereq>
-            <bAllowAI>1</bAllowAI>
-            <bGlobal>1</bGlobal>
-            <iAIWeight>300</iAIWeight>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <PyResult>spellWildHunt(pCaster)</PyResult>
-            <PyRequirement>reqWildHunt(pCaster)</PyRequirement>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_WILD_HUNT</Sound>
-            <Button>Art/Interface/Buttons/Spells/Wild Hunt.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_WORLDBREAK</Type>
-            <Description>TXT_KEY_SPELL_WORLDBREAK</Description>
-            <Civilopedia>TXT_KEY_SPELL_WORLDBREAK_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_WORLDBREAK_HELP</Help>
-            <CivilizationPrereq>NONE</CivilizationPrereq>
-            <bAllowAI>1</bAllowAI>
-            <bGlobal>1</bGlobal>
-            <iAIWeight>300</iAIWeight>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <PyResult>spellWorldbreak(pCaster)</PyResult>
-            <PyRequirement>reqWorldbreak(pCaster)</PyRequirement>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_DEFILE</Sound>
-            <Button>Art/Interface/Buttons/Spells/Worldbreak.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_SHARPEN_SENSES</Type>
-            <Description>TXT_KEY_SHARPEN_SENSES</Description>
-            <Civilopedia>TXT_KEY_SPELL_SHARPEN_SENSES_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_SHARPEN_SENSES_HELP</Help>
-            <CivilizationPrereq>NONE</CivilizationPrereq>
-            <bAllowAI>1</bAllowAI>
-            <bGlobal>1</bGlobal>
-            <iAIWeight>300</iAIWeight>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <PyResult>spellSharpenSenses(pCaster)</PyResult>
-            <PyRequirement>reqSharpenSenses(pCaster)</PyRequirement>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_BLESS</Sound>
-            <Button>Art/Interface/Buttons/Spells/Veil of Night.dds</Button>
         </SpellInfo>
     </SpellInfos>
 </Civ4SpellInfos>
