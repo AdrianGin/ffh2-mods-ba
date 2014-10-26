@@ -458,10 +458,6 @@
                     <BuildingType>NONE</BuildingType>
                 </Building>
                 <Building>
-                    <BuildingClassType>BUILDINGCLASS_MONUMENT</BuildingClassType>
-                    <BuildingType>NONE</BuildingType>
-                </Building>
-                <Building>
                     <BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
                     <BuildingType>NONE</BuildingType>
                 </Building>
