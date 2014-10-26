@@ -697,7 +697,7 @@
 			<Type>BUILD_MANA_AIR</Type>
 			<Description>TXT_KEY_BUILD_MANA_AIR</Description>
 			<Help/>
-			<PrereqTech>TECH_ELEMENTALISM</PrereqTech>
+			<PrereqTech>TECH_ARCANE1</PrereqTech>
 			<iTime>1200</iTime>
 			<iCost>0</iCost>
 			<bKill>0</bKill>
@@ -745,7 +745,7 @@
 			<Type>BUILD_MANA_EARTH</Type>
 			<Description>TXT_KEY_BUILD_MANA_EARTH</Description>
 			<Help/>
-			<PrereqTech>TECH_ELEMENTALISM</PrereqTech>
+			<PrereqTech>TECH_ARCANE1</PrereqTech>
 			<iTime>1200</iTime>
 			<iCost>0</iCost>
 			<bKill>0</bKill>
@@ -793,7 +793,7 @@
 			<Type>BUILD_MANA_FIRE</Type>
 			<Description>TXT_KEY_BUILD_MANA_FIRE</Description>
 			<Help/>
-			<PrereqTech>TECH_ELEMENTALISM</PrereqTech>
+			<PrereqTech>TECH_ARCANE1</PrereqTech>
 			<iTime>1200</iTime>
 			<iCost>0</iCost>
 			<bKill>0</bKill>
@@ -841,7 +841,7 @@
 			<Type>BUILD_MANA_WATER</Type>
 			<Description>TXT_KEY_BUILD_MANA_WATER</Description>
 			<Help/>
-			<PrereqTech>TECH_ELEMENTALISM</PrereqTech>
+			<PrereqTech>TECH_ARCANE1</PrereqTech>
 			<iTime>1200</iTime>
 			<iCost>0</iCost>
 			<bKill>0</bKill>
