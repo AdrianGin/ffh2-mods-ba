@@ -19,18 +19,6 @@
 			<VictoryThresholds/>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
-			<Type>BUILDINGCLASS_GORILLA_CAGE</Type>
-			<Description>TXT_KEY_BUILDING_GORILLA_CAGE</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iExtraPlayerInstances>0</iExtraPlayerInstances>
-			<bNoLimit>0</bNoLimit>
-			<bMonument>0</bMonument>
-			<DefaultBuilding>BUILDING_GORILLA_CAGE</DefaultBuilding>
-			<VictoryThresholds/>
-		</BuildingClassInfo>
-		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_MAGE_GUILD</Type>
 			<Description>NONE</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
@@ -52,90 +40,6 @@
 			<bNoLimit>0</bNoLimit>
 			<bMonument>0</bMonument>
 			<DefaultBuilding>NONE</DefaultBuilding>
-			<VictoryThresholds/>
-		</BuildingClassInfo>
-		<BuildingClassInfo>
-			<Type>BUILDINGCLASS_WOLF_PEN</Type>
-			<Description>TXT_KEY_BUILDING_WOLF_PEN</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iExtraPlayerInstances>0</iExtraPlayerInstances>
-			<bNoLimit>0</bNoLimit>
-			<bMonument>0</bMonument>
-			<DefaultBuilding>BUILDING_WOLF_PEN</DefaultBuilding>
-			<VictoryThresholds/>
-		</BuildingClassInfo>
-		<BuildingClassInfo>
-			<Type>BUILDINGCLASS_LION_CAGE</Type>
-			<Description>TXT_KEY_BUILDING_LION_CAGE</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iExtraPlayerInstances>0</iExtraPlayerInstances>
-			<bNoLimit>0</bNoLimit>
-			<bMonument>0</bMonument>
-			<DefaultBuilding>BUILDING_LION_CAGE</DefaultBuilding>
-			<VictoryThresholds/>
-		</BuildingClassInfo>
-		<BuildingClassInfo>
-			<Type>BUILDINGCLASS_TIGER_CAGE</Type>
-			<Description>TXT_KEY_BUILDING_TIGER_CAGE</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iExtraPlayerInstances>0</iExtraPlayerInstances>
-			<bNoLimit>0</bNoLimit>
-			<bMonument>0</bMonument>
-			<DefaultBuilding>BUILDING_TIGER_CAGE</DefaultBuilding>
-			<VictoryThresholds/>
-		</BuildingClassInfo>
-		<BuildingClassInfo>
-			<Type>BUILDINGCLASS_HUMAN_CAGE</Type>
-			<Description>TXT_KEY_BUILDING_HUMAN_CAGE</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iExtraPlayerInstances>0</iExtraPlayerInstances>
-			<bNoLimit>0</bNoLimit>
-			<bMonument>0</bMonument>
-			<DefaultBuilding>BUILDING_HUMAN_CAGE</DefaultBuilding>
-			<VictoryThresholds/>
-		</BuildingClassInfo>
-		<BuildingClassInfo>
-			<Type>BUILDINGCLASS_DWARF_CAGE</Type>
-			<Description>TXT_KEY_BUILDING_DWARF_CAGE</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iExtraPlayerInstances>0</iExtraPlayerInstances>
-			<bNoLimit>0</bNoLimit>
-			<bMonument>0</bMonument>
-			<DefaultBuilding>BUILDING_DWARF_CAGE</DefaultBuilding>
-			<VictoryThresholds/>
-		</BuildingClassInfo>
-		<BuildingClassInfo>
-			<Type>BUILDINGCLASS_ELF_CAGE</Type>
-			<Description>TXT_KEY_BUILDING_ELF_CAGE</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iExtraPlayerInstances>0</iExtraPlayerInstances>
-			<bNoLimit>0</bNoLimit>
-			<bMonument>0</bMonument>
-			<DefaultBuilding>BUILDING_ELF_CAGE</DefaultBuilding>
-			<VictoryThresholds/>
-		</BuildingClassInfo>
-		<BuildingClassInfo>
-			<Type>BUILDINGCLASS_ORC_CAGE</Type>
-			<Description>TXT_KEY_BUILDING_ORC_CAGE</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iExtraPlayerInstances>0</iExtraPlayerInstances>
-			<bNoLimit>0</bNoLimit>
-			<bMonument>0</bMonument>
-			<DefaultBuilding>BUILDING_ORC_CAGE</DefaultBuilding>
 			<VictoryThresholds/>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
