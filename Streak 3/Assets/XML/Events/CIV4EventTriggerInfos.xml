@@ -3907,7 +3907,6 @@
             <Events>
                 <Event>EVENT_CONTROVERSIAL_PHILOSOPHER_1</Event>
                 <Event>EVENT_CONTROVERSIAL_PHILOSOPHER_2</Event>
-                <Event>EVENT_CONTROVERSIAL_PHILOSOPHER_3</Event>
             </Events>
             <PrereqEvents>
             </PrereqEvents>
@@ -17383,7 +17382,6 @@
             <bPickCorporation>0</bPickCorporation>
             <bHeadquarters>0</bHeadquarters>
             <Events>
-                <Event>EVENT_SMUGGLERS_1</Event>
                 <Event>EVENT_SMUGGLERS_2</Event>
             </Events>
             <PrereqEvents>
