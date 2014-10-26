@@ -185,13 +185,13 @@ class CvPediaMain( CvPediaScreen.CvPediaScreen ):
 		self.listCategories = [ self.szCategoryTech, 
 								self.szCategoryUnit, 
 #FfH: Added by Chalid Heros 06/03/2006##
-								self.szCategoryHero, 
+#								self.szCategoryHero, 
 #FfH: End Add##
 								self.szCategoryBuilding,
 								self.szCategoryWonder,
 								self.szCategoryTerrain, 
 								self.szCategoryFeature, 
-								self.szCategoryUniqueFeature, 
+#								self.szCategoryUniqueFeature, 
 								self.szCategoryBonus, 
 								self.szCategoryImprovement, 
 								self.szCategorySpecialist, 
@@ -204,12 +204,12 @@ class CvPediaMain( CvPediaScreen.CvPediaScreen ):
 								self.szCategoryCiv, 
 								self.szCategoryLeader,
 								self.szCategoryReligion, 
-								self.szCategoryCorporation, 
+#								self.szCategoryCorporation, 
 								self.szCategoryCivic, 
 								self.szCategoryProject,  
-								self.szCategoryConcept,
-								self.szCategoryConceptNew,
-								self.szCategoryHints]
+#								self.szCategoryConcept,
+#								self.szCategoryConceptNew,
+#								self.szCategoryHints]
 								
 		# Create a new screen
 		screen = self.getScreen()
