@@ -2825,7 +2825,7 @@
 			<PrereqReligion>NONE</PrereqReligion>
 			<PrereqCorporation>NONE</PrereqCorporation>
 			<PrereqBuilding>NONE</PrereqBuilding>
-			<PrereqTech>TECH_FISHING</PrereqTech>
+			<PrereqTech>TECH_FISH1</PrereqTech>
 			<TechTypes>
             </TechTypes>
 			<BonusType>NONE</BonusType>
