@@ -2078,7 +2078,7 @@
             <BonusClassType>BONUSCLASS_MANA</BonusClassType>
             <ArtDefineTag>ART_DEF_BONUS_MANA_FIRE</ArtDefineTag>
             <TechReveal>NONE</TechReveal>
-            <TechCityTrade>TECH_KNOWLEDGE_OF_THE_ETHER</TechCityTrade>
+            <TechCityTrade>NONE</TechCityTrade>
             <TechObsolete>NONE</TechObsolete>
             <YieldChanges>
                 <iYieldChange>0</iYieldChange>

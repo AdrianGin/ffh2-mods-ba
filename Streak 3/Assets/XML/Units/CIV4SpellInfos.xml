@@ -48,7 +48,7 @@
             <UnitCombatPrereq>UNITCOMBAT_MELEE</UnitCombatPrereq>
             <CivilizationPrereq>NONE</CivilizationPrereq>
             <FeatureOrPrereq1>FEATURE_FOREST</FeatureOrPrereq1>
-            <TechPrereq>TECH_ENGINEERING</TechPrereq>
+            <TechPrereq>NONE</TechPrereq>
             <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
             <bHasCasted>1</bHasCasted>
             <CreateUnitType>UNIT_BATTERING_RAM</CreateUnitType>
@@ -272,7 +272,7 @@
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
             <Help>TXT_KEY_SPELL_GIFTS_OF_NANTOSUELTA_HELP</Help>
             <CivilizationPrereq>NONE</CivilizationPrereq>
-            <TechPrereq>TECH_MASONRY</TechPrereq>
+            <TechPrereq>NONE</TechPrereq>
             <bAllowAI>1</bAllowAI>
             <bGlobal>1</bGlobal>
             <iAIWeight>300</iAIWeight>
@@ -459,7 +459,7 @@
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
             <Help>TXT_KEY_SPELL_MOTHER_LODE_HELP</Help>
             <CivilizationPrereq>NONE</CivilizationPrereq>
-            <TechPrereq>TECH_MINING</TechPrereq>
+            <TechPrereq>NONE</TechPrereq>
             <bAllowAI>1</bAllowAI>
             <bGlobal>1</bGlobal>
             <iAIWeight>300</iAIWeight>
@@ -558,7 +558,7 @@
             <Civilopedia>TXT_KEY_SPELL_REVELRY_PEDIA</Civilopedia>
             <Help>TXT_KEY_SPELL_REVELRY_HELP</Help>
             <CivilizationPrereq>NONE</CivilizationPrereq>
-            <TechPrereq>TECH_FESTIVALS</TechPrereq>
+            <TechPrereq>NONE</TechPrereq>
             <bAllowAI>1</bAllowAI>
             <bGlobal>1</bGlobal>
             <iAIWeight>300</iAIWeight>

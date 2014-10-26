@@ -629,7 +629,7 @@
             <Type>PROMOTION_CITY_GARRISON1</Type>
             <Description>TXT_KEY_PROMOTION_GARRISON1</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_WARFARE</TechPrereq>
+            <TechPrereq>NONE</TechPrereq>
             <iCityDefense>30</iCityDefense>
             <UnitCombats>
                 <UnitCombat>
@@ -683,7 +683,7 @@
             <Type>PROMOTION_CITY_RAIDER1</Type>
             <Description>TXT_KEY_PROMOTION_CITYRAIDER1</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_WARFARE</TechPrereq>
+            <TechPrereq>NONE</TechPrereq>
             <iCityAttack>30</iCityAttack>
             <UnitCombats>
                 <UnitCombat>
@@ -3363,7 +3363,7 @@
             <Type>PROMOTION_MOBILITY1</Type>
             <Description>TXT_KEY_PROMOTION_MOBILITY1</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_HORSEBACK_RIDING</TechPrereq>
+            <TechPrereq>NONE</TechPrereq>
             <iMovesChange>1</iMovesChange>
             <UnitCombats>
                 <UnitCombat>
@@ -4469,7 +4469,7 @@
             <Description>TXT_KEY_PROMOTION_SUBDUE_ANIMAL</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_COMBAT1</PromotionPrereq>
-            <TechPrereq>TECH_ANIMAL_HUSBANDRY</TechPrereq>
+            <TechPrereq>NONE</TechPrereq>
             <UnitCombatMods>
                 <UnitCombatMod>
                     <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
