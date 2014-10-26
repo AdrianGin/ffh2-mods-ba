@@ -4802,7 +4802,6 @@
             <bHeadquarters>0</bHeadquarters>
             <Events>
                 <Event>EVENT_ENCHANTER_1</Event>
-                <Event>EVENT_ENCHANTER_2</Event>
             </Events>
             <PrereqEvents>
             </PrereqEvents>
@@ -13661,7 +13660,6 @@
             <bHeadquarters>0</bHeadquarters>
             <Events>
                 <Event>EVENT_SICKNESS_1</Event>
-                <Event>EVENT_SICKNESS_2</Event>
             </Events>
             <PrereqEvents>
             </PrereqEvents>

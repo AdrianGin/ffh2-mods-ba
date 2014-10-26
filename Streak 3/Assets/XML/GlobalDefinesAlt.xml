@@ -311,10 +311,6 @@
 		<DefineTextVal>SPELL_FEAST</DefineTextVal>
 	</Define>
 	<Define>
-		<DefineName>SPELL_HASTE</DefineName>
-		<DefineTextVal>SPELL_HASTE</DefineTextVal>
-	</Define>
-	<Define>
 		<DefineName>SPELL_RESIST_CHANCE_BASE</DefineName>
 		<iDefineIntVal>20</iDefineIntVal>
 	</Define>

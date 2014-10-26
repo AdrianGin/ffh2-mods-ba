@@ -42,24 +42,6 @@
             <Button>Art/Interface/Buttons/Spells/Ardor.dds</Button>
         </SpellInfo>
         <SpellInfo>
-            <Type>SPELL_BLINDING_LIGHT</Type>
-            <Description>TXT_KEY_SPELL_BLINDING_LIGHT</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <PromotionPrereq1>PROMOTION_SUN2</PromotionPrereq1>
-            <bAllowAI>1</bAllowAI>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <bResistable>1</bResistable>
-            <iRange>1</iRange>
-            <iResistModify>30</iResistModify>
-            <bImmuneTeam>1</bImmuneTeam>
-            <bImmuneNeutral>1</bImmuneNeutral>
-            <iImmobileTurns>2</iImmobileTurns>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_CHARM_PERSON</Sound>
-            <Button>Art/Interface/Buttons/Spells/Blinding Light.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
             <Type>SPELL_BLUR</Type>
             <Description>TXT_KEY_SPELL_BLUR</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
@@ -267,23 +249,6 @@
             <Button>Art/Interface/Buttons/Spells/Destroy Undead.dds</Button>
         </SpellInfo>
         <SpellInfo>
-            <Type>SPELL_DISPEL_MAGIC</Type>
-            <Description>TXT_KEY_SPELL_DISPEL_MAGIC</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_DISPEL_MAGIC_HELP</Help>
-            <PromotionPrereq1>PROMOTION_METAMAGIC2</PromotionPrereq1>
-            <bAllowAI>1</bAllowAI>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <iRange>2</iRange>
-            <bDispel>1</bDispel>
-            <PyResult>spellDispelMagic(pCaster)</PyResult>
-            <PyRequirement>reqDispelMagic(pCaster)</PyRequirement>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_DISPEL_MAGIC</Sound>
-            <Button>Art/Interface/Buttons/Spells/Dispel Magic.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
             <Type>SPELL_DISRUPT</Type>
             <Description>TXT_KEY_SPELL_DISRUPT</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
@@ -321,36 +286,6 @@
             <Effect>EFFECT_SPELL1</Effect>
             <Sound>AS3D_SPELL_DOMINATION</Sound>
             <Button>Art/Interface/Buttons/Spells/Domination.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_ENCHANT_SPELLSTAFF</Type>
-            <Description>TXT_KEY_SPELL_ENCHANT_SPELLSTAFF</Description>
-            <Civilopedia>TXT_KEY_SPELL_ENCHANT_SPELLSTAFF_PEDIA</Civilopedia>
-            <PromotionPrereq1>PROMOTION_ENCHANTMENT3</PromotionPrereq1>
-            <bAllowAI>1</bAllowAI>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <AddPromotionType1>PROMOTION_SPELLSTAFF</AddPromotionType1>
-            <bBuffCasterOnly>1</bBuffCasterOnly>
-            <Effect>EFFECT_SWORDS_SPARKS</Effect>
-            <Sound>AS3D_SPELL_ENCHANTMENT</Sound>
-            <Button>Art/Interface/Buttons/Promotions/Spellstaff.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_ENCHANTED_BLADE</Type>
-            <Description>TXT_KEY_SPELL_ENCHANTED_BLADE</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <PromotionPrereq1>PROMOTION_ENCHANTMENT1</PromotionPrereq1>
-            <PromotionPrereq2>PROMOTION_CHANNELING1</PromotionPrereq2>
-            <bAllowAI>1</bAllowAI>
-            <iAIWeightWar>100</iAIWeightWar>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <AddPromotionType1>PROMOTION_ENCHANTED_BLADE</AddPromotionType1>
-            <RemovePromotionType1>PROMOTION_RUSTED</RemovePromotionType1>
-            <Effect>EFFECT_ENCHANTED_BLADE</Effect>
-            <Sound>AS3D_SPELL_ENCHANTMENT</Sound>
-            <Button>Art/Interface/Buttons/Promotions/Enchantedblade.dds</Button>
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_ENTERTAIN</Type>
@@ -402,34 +337,6 @@
             <Button>Art/Interface/Buttons/Spells/Feast.dds</Button>
         </SpellInfo>
         <SpellInfo>
-            <Type>SPELL_FLAMING_ARROWS</Type>
-            <Description>TXT_KEY_SPELL_FLAMING_ARROWS</Description>
-            <Civilopedia>TXT_KEY_SPELL_FLAMING_ARROWS_PEDIA</Civilopedia>
-            <PromotionPrereq1>PROMOTION_ENCHANTMENT2</PromotionPrereq1>
-            <bAllowAI>1</bAllowAI>
-            <iAIWeightWar>100</iAIWeightWar>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <AddPromotionType1>PROMOTION_FLAMING_ARROWS</AddPromotionType1>
-            <Effect>EFFECT_SWORDS_SPARKS</Effect>
-            <Sound>AS3D_SPELL_ENCHANTMENT</Sound>
-            <Button>Art/Interface/Buttons/Promotions/FlamingArrows.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_FLOATING_EYE</Type>
-            <Description>TXT_KEY_SPELL_FLOATING_EYE</Description>
-            <Civilopedia>TXT_KEY_SPELL_FLOATING_EYE_PEDIA</Civilopedia>
-            <PromotionPrereq1>PROMOTION_METAMAGIC1</PromotionPrereq1>
-            <bAllowAI>1</bAllowAI>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <CreateUnitType>NONE</CreateUnitType>
-            <iCreateUnitNum>1</iCreateUnitNum>
-            <Effect>EFFECT_SPELL2</Effect>
-            <Sound>AS3D_SPELL_KRAKEN</Sound>
-            <Button>Art/Interface/Buttons/Units/Floating Eye.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
             <Type>SPELL_FOR_THE_HORDE</Type>
             <Description>TXT_KEY_SPELL_FOR_THE_HORDE</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
@@ -478,24 +385,6 @@
             <Effect>EFFECT_SPELL1</Effect>
             <Sound>AS3D_SPELL_HOPE</Sound>
             <Button>Art/Interface/Buttons/Spells/Gifts of Nantosuelta.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_HASTE</Type>
-            <Description>TXT_KEY_SPELL_HASTE</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <PromotionPrereq1>PROMOTION_BODY1</PromotionPrereq1>
-            <PromotionPrereq2>PROMOTION_CHANNELING1</PromotionPrereq2>
-            <bAllowAI>1</bAllowAI>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <AddPromotionType1>PROMOTION_HASTED</AddPromotionType1>
-            <RemovePromotionType1>PROMOTION_SLOW</RemovePromotionType1>
-            <bImmuneNeutral>1</bImmuneNeutral>
-            <bImmuneEnemy>1</bImmuneEnemy>
-            <bImmuneNotAlive>1</bImmuneNotAlive>
-            <Effect>EFFECT_WIND_SWIRL</Effect>
-            <Sound>AS3D_SPELL_HASTE</Sound>
-            <Button>Art/Interface/Buttons/Promotions/Hasted.dds</Button>
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_HEAL</Type>
@@ -665,22 +554,6 @@
             <Button>Art/Interface/Buttons/Spells/Legends.dds</Button>
         </SpellInfo>
         <SpellInfo>
-            <Type>SPELL_LOYALTY</Type>
-            <Description>TXT_KEY_SPELL_LOYALTY</Description>
-            <Civilopedia>TXT_KEY_SPELL_LOYALTY_PEDIA</Civilopedia>
-            <PromotionPrereq1>PROMOTION_LAW1</PromotionPrereq1>
-            <PromotionPrereq2>PROMOTION_CHANNELING1</PromotionPrereq2>
-            <bAllowAI>1</bAllowAI>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <AddPromotionType1>PROMOTION_LOYALTY</AddPromotionType1>
-            <bImmuneNeutral>1</bImmuneNeutral>
-            <bImmuneEnemy>1</bImmuneEnemy>
-            <Effect>EFFECT_CREATION</Effect>
-            <Sound>AS3D_SPELL_BLESS</Sound>
-            <Button>Art/Interface/Buttons/Promotions/Loyalty.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
             <Type>SPELL_MAELSTROM</Type>
             <Description>TXT_KEY_SPELL_MAELSTROM</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
@@ -825,20 +698,6 @@
             <Button>Art/Interface/Buttons/Spells/Recruit.dds</Button>
         </SpellInfo>
         <SpellInfo>
-            <Type>SPELL_REGENERATION</Type>
-            <Description>TXT_KEY_SPELL_REGENERATION</Description>
-            <Civilopedia>TXT_KEY_SPELL_REGENERATION_PEDIA</Civilopedia>
-            <PromotionPrereq1>PROMOTION_BODY2</PromotionPrereq1>
-            <bAllowAI>1</bAllowAI>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <AddPromotionType1>PROMOTION_REGENERATION</AddPromotionType1>
-            <bImmuneNotAlive>1</bImmuneNotAlive>
-            <Effect>EFFECT_CREATION</Effect>
-            <Sound>AS3D_SPELL_BLESS</Sound>
-            <Button>Art/Interface/Buttons/Promotions/Regeneration.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
             <Type>SPELL_RELIGIOUS_FERVOR</Type>
             <Description>TXT_KEY_SPELL_RELIGIOUS_FERVOR</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
@@ -854,24 +713,6 @@
             <Effect>EFFECT_SPELL1</Effect>
             <Sound>AS3D_SPELL_INSPIRATION</Sound>
             <Button>Art/Interface/Buttons/Spells/Religious Fervor.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_REPAIR</Type>
-            <Description>TXT_KEY_SPELL_REPAIR</Description>
-            <Civilopedia>TXT_KEY_SPELL_REPAIR_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_REPAIR_HELP</Help>
-            <PromotionPrereq1>PROMOTION_ENCHANTMENT1</PromotionPrereq1>
-            <PromotionPrereq2>PROMOTION_DWARF</PromotionPrereq2>
-            <bAllowAI>1</bAllowAI>
-            <iAIWeightWar>50</iAIWeightWar>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <bAbility>1</bAbility>
-            <PyResult>spellRepair(pCaster,20)</PyResult>
-            <PyRequirement>reqRepair(pCaster)</PyRequirement>
-            <Effect>EFFECT_CREATION</Effect>
-            <Sound>AS3D_SPELL_REPAIR</Sound>
-            <Button>Art/Interface/Buttons/Spells/Repair.dds</Button>
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_RESSURECTION</Type>
@@ -944,29 +785,6 @@
             <Button>Art/Interface/Buttons/Spells/Roar.dds</Button>
         </SpellInfo>
         <SpellInfo>
-            <Type>SPELL_RUST</Type>
-            <Description>TXT_KEY_SPELL_RUST</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <PromotionPrereq1>PROMOTION_ENTROPY1</PromotionPrereq1>
-            <PromotionPrereq2>PROMOTION_CHANNELING1</PromotionPrereq2>
-            <bAllowAI>1</bAllowAI>
-            <iAIWeightWar>100</iAIWeightWar>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <bResistable>1</bResistable>
-            <iRange>1</iRange>
-            <iResistModify>20</iResistModify>
-            <AddPromotionType1>PROMOTION_RUSTED</AddPromotionType1>
-            <RemovePromotionType1>PROMOTION_BRONZE_WEAPONS</RemovePromotionType1>
-            <RemovePromotionType2>PROMOTION_IRON_WEAPONS</RemovePromotionType2>
-            <RemovePromotionType3>PROMOTION_MITHRIL_WEAPONS</RemovePromotionType3>
-            <bImmuneTeam>1</bImmuneTeam>
-            <bImmuneNeutral>1</bImmuneNeutral>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_DEFILE</Sound>
-            <Button>Art/Interface/Buttons/Promotions/Rusted.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
             <Type>SPELL_SANCTIFY</Type>
             <Description>TXT_KEY_SPELL_SANCTIFY</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
@@ -1001,24 +819,6 @@
             <Button>Art/Interface/Buttons/Spells/Sanctuary.dds</Button>
         </SpellInfo>
         <SpellInfo>
-            <Type>SPELL_SCORCH</Type>
-            <Description>TXT_KEY_SPELL_SCORCH</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_SCORCH_HELP</Help>
-            <PromotionPrereq1>PROMOTION_SUN1</PromotionPrereq1>
-            <PromotionPrereq2>PROMOTION_CHANNELING1</PromotionPrereq2>
-            <bAllowAI>1</bAllowAI>
-            <bAllowAutomateTerrain>1</bAllowAutomateTerrain>
-            <bCausesWar>1</bCausesWar>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <PyResult>spellScorch(pCaster)</PyResult>
-            <PyRequirement>reqScorch(pCaster)</PyRequirement>
-            <Effect>EFFECT_SCORCH</Effect>
-            <Sound>AS3D_SPELL_DEFILE</Sound>
-            <Button>Art/Interface/Buttons/Spells/Scorch.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
             <Type>SPELL_SHADOWWALK</Type>
             <Description>TXT_KEY_SPELL_SHADOWWALK</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
@@ -1047,45 +847,6 @@
             <Sound>AS3D_SPELL_ENCHANTMENT</Sound>
             <bGraphicalOnly>1</bGraphicalOnly>
             <Button>Art/Interface/Buttons/Units/Slave.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_SLOW</Type>
-            <Description>TXT_KEY_SPELL_SLOW</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <PromotionPrereq1>PROMOTION_ICE1</PromotionPrereq1>
-            <PromotionPrereq2>PROMOTION_CHANNELING1</PromotionPrereq2>
-            <bAllowAI>1</bAllowAI>
-            <iAIWeightWar>50</iAIWeightWar>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <bResistable>1</bResistable>
-            <iRange>1</iRange>
-            <AddPromotionType1>PROMOTION_SLOW</AddPromotionType1>
-            <RemovePromotionType1>PROMOTION_HASTED</RemovePromotionType1>
-            <bImmuneTeam>1</bImmuneTeam>
-            <bImmuneNeutral>1</bImmuneNeutral>
-            <Effect>EFFECT_SLOW</Effect>
-            <Sound>AS3D_SPELL_SPRING</Sound>
-            <Button>Art/Interface/Buttons/Promotions/Slow.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_SNOWFALL</Type>
-            <Description>TXT_KEY_SPELL_SNOWFALL</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_SNOWFALL_HELP</Help>
-            <PromotionPrereq1>PROMOTION_ICE3</PromotionPrereq1>
-            <bAllowAI>1</bAllowAI>
-            <bCausesWar>1</bCausesWar>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <iRange>1</iRange>
-            <iDamage>40</iDamage>
-            <iDamageLimit>80</iDamageLimit>
-            <DamageType>DAMAGE_COLD</DamageType>
-            <PyResult>spellSnowfall(pCaster)</PyResult>
-            <Effect>EFFECT_SNOWFALL</Effect>
-            <Sound>AS3D_SPELL_SPRING</Sound>
-            <Button>Art/Interface/Buttons/Spells/Snowfall.dds</Button>
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_SPELLSTAFF</Type>
@@ -1166,20 +927,6 @@
             <Button>Art/Interface/Buttons/Spells/Stoneskin.dds</Button>
         </SpellInfo>
         <SpellInfo>
-            <Type>SPELL_SUMMON_WRAITH</Type>
-            <Description>TXT_KEY_SPELL_SUMMON_WRAITH</Description>
-            <Civilopedia>TXT_KEY_SPELL_SUMMON_WRAITH_PEDIA</Civilopedia>
-            <PromotionPrereq1>PROMOTION_DEATH3</PromotionPrereq1>
-            <bAllowAI>1</bAllowAI>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <CreateUnitType>NONE</CreateUnitType>
-            <iCreateUnitNum>1</iCreateUnitNum>
-            <Effect>EFFECT_WRAITH_SUMMON</Effect>
-            <Sound>AS3D_SPELL_WRAITH</Sound>
-            <Button>Art/Interface/Buttons/Units/Wraith.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
             <Type>SPELL_TRUST</Type>
             <Description>TXT_KEY_SPELL_TRUST</Description>
             <Civilopedia>TXT_KEY_SPELL_TRUST_PEDIA</Civilopedia>
@@ -1230,20 +977,6 @@
             <Sound>AS3D_SPELL_TRAIN</Sound>
             <bGraphicalOnly>1</bGraphicalOnly>
             <Button>Art/Interface/Buttons/Units/Wolf Rider Scorpion Clan.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_VALOR</Type>
-            <Description>TXT_KEY_SPELL_VALOR</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <PromotionPrereq1>PROMOTION_LAW3</PromotionPrereq1>
-            <bAllowAI>1</bAllowAI>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <AddPromotionType1>PROMOTION_VALOR</AddPromotionType1>
-            <bImmuneNotAlive>1</bImmuneNotAlive>
-            <Effect>EFFECT_CREATION</Effect>
-            <Sound>AS3D_SPELL_BLESS</Sound>
-            <Button>Art/Interface/Buttons/Promotions/Valor.dds</Button>
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_VEIL_OF_NIGHT</Type>
@@ -1341,27 +1074,6 @@
             <Effect>EFFECT_SPELL1</Effect>
             <Sound>AS3D_SPELL_WILD_HUNT</Sound>
             <Button>Art/Interface/Buttons/Spells/Wild Hunt.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_WITHER</Type>
-            <Description>TXT_KEY_SPELL_WITHER</Description>
-            <Civilopedia>TXT_KEY_SPELL_WITHER_PEDIA</Civilopedia>
-            <PromotionPrereq1>PROMOTION_ENTROPY3</PromotionPrereq1>
-            <bAllowAI>1</bAllowAI>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <bResistable>1</bResistable>
-            <iRange>1</iRange>
-            <iDamage>10</iDamage>
-            <iDamageLimit>40</iDamageLimit>
-            <DamageType>DAMAGE_DEATH</DamageType>
-            <AddPromotionType1>PROMOTION_WITHERED</AddPromotionType1>
-            <bImmuneTeam>1</bImmuneTeam>
-            <bImmuneNeutral>1</bImmuneNeutral>
-            <bImmuneNotAlive>1</bImmuneNotAlive>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_DEFILE</Sound>
-            <Button>Art/Interface/Buttons/Promotions/Withered.dds</Button>
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_WORLDBREAK</Type>
