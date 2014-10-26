@@ -419,30 +419,6 @@
             <UnitAIWeightModifiers>
             </UnitAIWeightModifiers>
             <ImprovementWeightModifiers>
-                 <ImprovementWeightModifier>
-                    <ImprovementType>IMPROVEMENT_MANA_CHAOS</ImprovementType>
-                    <iWeightModifier>-40</iWeightModifier>
-                 </ImprovementWeightModifier>
-                 <ImprovementWeightModifier>
-                    <ImprovementType>IMPROVEMENT_MANA_DEATH</ImprovementType>
-                    <iWeightModifier>-40</iWeightModifier>
-                 </ImprovementWeightModifier>
-                 <ImprovementWeightModifier>
-                    <ImprovementType>IMPROVEMENT_MANA_ENTROPY</ImprovementType>
-                    <iWeightModifier>-40</iWeightModifier>
-                 </ImprovementWeightModifier>
-                 <ImprovementWeightModifier>
-                    <ImprovementType>IMPROVEMENT_CITADEL</ImprovementType>
-                    <iWeightModifier>40</iWeightModifier>
-                 </ImprovementWeightModifier>
-                 <ImprovementWeightModifier>
-                    <ImprovementType>IMPROVEMENT_MANA_LAW</ImprovementType>
-                    <iWeightModifier>20</iWeightModifier>
-                 </ImprovementWeightModifier>
-                 <ImprovementWeightModifier>
-                    <ImprovementType>IMPROVEMENT_MANA_SPIRIT</ImprovementType>
-                    <iWeightModifier>20</iWeightModifier>
-                 </ImprovementWeightModifier>
             </ImprovementWeightModifiers>
             <DiplomacyIntroMusicPeace>
                  <DiploMusicPeaceEra>
@@ -1025,30 +1001,6 @@
             <UnitAIWeightModifiers>
             </UnitAIWeightModifiers>
             <ImprovementWeightModifiers>
-                 <ImprovementWeightModifier>
-                    <ImprovementType>IMPROVEMENT_MANA_CHAOS</ImprovementType>
-                    <iWeightModifier>-40</iWeightModifier>
-                 </ImprovementWeightModifier>
-                 <ImprovementWeightModifier>
-                    <ImprovementType>IMPROVEMENT_MANA_DEATH</ImprovementType>
-                    <iWeightModifier>-40</iWeightModifier>
-                 </ImprovementWeightModifier>
-                 <ImprovementWeightModifier>
-                    <ImprovementType>IMPROVEMENT_MANA_ENTROPY</ImprovementType>
-                    <iWeightModifier>-40</iWeightModifier>
-                 </ImprovementWeightModifier>
-                 <ImprovementWeightModifier>
-                    <ImprovementType>IMPROVEMENT_CITADEL</ImprovementType>
-                    <iWeightModifier>40</iWeightModifier>
-                 </ImprovementWeightModifier>
-                 <ImprovementWeightModifier>
-                    <ImprovementType>IMPROVEMENT_MANA_LAW</ImprovementType>
-                    <iWeightModifier>20</iWeightModifier>
-                 </ImprovementWeightModifier>
-                 <ImprovementWeightModifier>
-                    <ImprovementType>IMPROVEMENT_MANA_SPIRIT</ImprovementType>
-                    <iWeightModifier>20</iWeightModifier>
-                 </ImprovementWeightModifier>
             </ImprovementWeightModifiers>
             <DiplomacyIntroMusicPeace>
                  <DiploMusicPeaceEra>
@@ -1631,30 +1583,6 @@
             <UnitAIWeightModifiers>
             </UnitAIWeightModifiers>
             <ImprovementWeightModifiers>
-                 <ImprovementWeightModifier>
-                    <ImprovementType>IMPROVEMENT_MANA_CHAOS</ImprovementType>
-                    <iWeightModifier>-40</iWeightModifier>
-                 </ImprovementWeightModifier>
-                 <ImprovementWeightModifier>
-                    <ImprovementType>IMPROVEMENT_MANA_DEATH</ImprovementType>
-                    <iWeightModifier>-40</iWeightModifier>
-                 </ImprovementWeightModifier>
-                 <ImprovementWeightModifier>
-                    <ImprovementType>IMPROVEMENT_MANA_ENTROPY</ImprovementType>
-                    <iWeightModifier>-40</iWeightModifier>
-                 </ImprovementWeightModifier>
-                 <ImprovementWeightModifier>
-                    <ImprovementType>IMPROVEMENT_CITADEL</ImprovementType>
-                    <iWeightModifier>40</iWeightModifier>
-                 </ImprovementWeightModifier>
-                 <ImprovementWeightModifier>
-                    <ImprovementType>IMPROVEMENT_MANA_LAW</ImprovementType>
-                    <iWeightModifier>20</iWeightModifier>
-                 </ImprovementWeightModifier>
-                 <ImprovementWeightModifier>
-                    <ImprovementType>IMPROVEMENT_MANA_SPIRIT</ImprovementType>
-                    <iWeightModifier>20</iWeightModifier>
-                 </ImprovementWeightModifier>
             </ImprovementWeightModifiers>
             <DiplomacyIntroMusicPeace>
                  <DiploMusicPeaceEra>
@@ -2245,30 +2173,6 @@
             <UnitAIWeightModifiers>
             </UnitAIWeightModifiers>
             <ImprovementWeightModifiers>
-                 <ImprovementWeightModifier>
-                    <ImprovementType>IMPROVEMENT_MANA_CHAOS</ImprovementType>
-                    <iWeightModifier>-40</iWeightModifier>
-                 </ImprovementWeightModifier>
-                 <ImprovementWeightModifier>
-                    <ImprovementType>IMPROVEMENT_MANA_DEATH</ImprovementType>
-                    <iWeightModifier>-40</iWeightModifier>
-                 </ImprovementWeightModifier>
-                 <ImprovementWeightModifier>
-                    <ImprovementType>IMPROVEMENT_MANA_ENTROPY</ImprovementType>
-                    <iWeightModifier>-40</iWeightModifier>
-                 </ImprovementWeightModifier>
-                 <ImprovementWeightModifier>
-                    <ImprovementType>IMPROVEMENT_CITADEL</ImprovementType>
-                    <iWeightModifier>40</iWeightModifier>
-                 </ImprovementWeightModifier>
-                 <ImprovementWeightModifier>
-                    <ImprovementType>IMPROVEMENT_MANA_LAW</ImprovementType>
-                    <iWeightModifier>20</iWeightModifier>
-                 </ImprovementWeightModifier>
-                 <ImprovementWeightModifier>
-                    <ImprovementType>IMPROVEMENT_MANA_SPIRIT</ImprovementType>
-                    <iWeightModifier>20</iWeightModifier>
-                 </ImprovementWeightModifier>
             </ImprovementWeightModifiers>
             <DiplomacyIntroMusicPeace>
                  <DiploMusicPeaceEra>
