@@ -235,21 +235,6 @@
             <Button>Art/Interface/Buttons/Spells/Curedisease.dds</Button>
         </SpellInfo>
         <SpellInfo>
-            <Type>SPELL_DANCE_OF_BLADES</Type>
-            <Description>TXT_KEY_SPELL_DANCE_OF_BLADES</Description>
-            <Civilopedia>TXT_KEY_SPELL_DANCE_OF_BLADES_PEDIA</Civilopedia>
-            <PromotionPrereq1>PROMOTION_CHAOS1</PromotionPrereq1>
-            <PromotionPrereq2>PROMOTION_CHANNELING1</PromotionPrereq2>
-            <bAllowAI>1</bAllowAI>
-            <iAIWeightWar>50</iAIWeightWar>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <AddPromotionType1>PROMOTION_DANCE_OF_BLADES</AddPromotionType1>
-            <Effect>EFFECT_WIND_SWIRL</Effect>
-            <Sound>AS3D_SPELL_HASTE</Sound>
-            <Button>Art/Interface/Buttons/Promotions/Danceofblades.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
             <Type>SPELL_DECLARE_NATIONALITY</Type>
             <Description>TXT_KEY_SPELL_DECLARE_NATIONALITY</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
@@ -747,22 +732,6 @@
             <Effect>EFFECT_SPELL1</Effect>
             <Sound>AS3D_SPELL_ENCHANTMENT</Sound>
             <Button>Art/Interface/Buttons/Spells/Mother Lode.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_MUTATION</Type>
-            <Description>TXT_KEY_SPELL_MUTATION</Description>
-            <Civilopedia>TXT_KEY_SPELL_MUTATION_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_MUTATION_HELP</Help>
-            <PromotionPrereq1>PROMOTION_CHAOS2</PromotionPrereq1>
-            <bAllowAI>1</bAllowAI>
-            <iAIWeightWar>10</iAIWeightWar>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <AddPromotionType1>PROMOTION_MUTATED</AddPromotionType1>
-            <bImmuneNotAlive>1</bImmuneNotAlive>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_MUTATION</Sound>
-            <Button>Art/Interface/Buttons/Promotions/Mutated.dds</Button>
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_OPEN_CHEST</Type>
@@ -1393,22 +1362,6 @@
             <Effect>EFFECT_SPELL1</Effect>
             <Sound>AS3D_SPELL_DEFILE</Sound>
             <Button>Art/Interface/Buttons/Promotions/Withered.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_WONDER</Type>
-            <Description>TXT_KEY_SPELL_WONDER</Description>
-            <Civilopedia>TXT_KEY_SPELL_WONDER_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_WONDER_HELP</Help>
-            <PromotionPrereq1>PROMOTION_CHAOS3</PromotionPrereq1>
-            <bAllowAI>1</bAllowAI>
-            <bCausesWar>1</bCausesWar>
-            <iAIWeight>300</iAIWeight>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <PyResult>spellWonder(pCaster)</PyResult>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_DEFILE</Sound>
-            <Button>Art/Interface/Buttons/Spells/Wonder.dds</Button>
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_WORLDBREAK</Type>
