@@ -28,21 +28,21 @@
 				</FeatureStruct>
 				<FeatureStruct>
 					<FeatureType>FEATURE_FOREST</FeatureType>
-					<PrereqTech>TECH_MINING</PrereqTech>
+					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
 					<iTime>250</iTime>
 					<iProduction>20</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
 				<FeatureStruct>
 					<FeatureType>FEATURE_FOREST_NEW</FeatureType>
-					<PrereqTech>TECH_MINING</PrereqTech>
+					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
 					<iTime>0</iTime>
 					<iProduction>0</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
 				<FeatureStruct>
 					<FeatureType>FEATURE_FOREST_BURNT</FeatureType>
-					<PrereqTech>TECH_MINING</PrereqTech>
+					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
 					<iTime>125</iTime>
 					<iProduction>0</iProduction>
 					<bRemove>1</bRemove>
@@ -76,21 +76,21 @@
 				</FeatureStruct>
 				<FeatureStruct>
 					<FeatureType>FEATURE_FOREST</FeatureType>
-					<PrereqTech>TECH_MINING</PrereqTech>
+					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
 					<iTime>250</iTime>
 					<iProduction>20</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
 				<FeatureStruct>
 					<FeatureType>FEATURE_FOREST_NEW</FeatureType>
-					<PrereqTech>TECH_MINING</PrereqTech>
+					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
 					<iTime>0</iTime>
 					<iProduction>0</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
 				<FeatureStruct>
 					<FeatureType>FEATURE_FOREST_BURNT</FeatureType>
-					<PrereqTech>TECH_MINING</PrereqTech>
+					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
 					<iTime>125</iTime>
 					<iProduction>0</iProduction>
 					<bRemove>1</bRemove>
@@ -124,21 +124,21 @@
 				</FeatureStruct>
 				<FeatureStruct>
 					<FeatureType>FEATURE_FOREST</FeatureType>
-					<PrereqTech>TECH_MINING</PrereqTech>
+					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
 					<iTime>250</iTime>
 					<iProduction>20</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
 				<FeatureStruct>
 					<FeatureType>FEATURE_FOREST_NEW</FeatureType>
-					<PrereqTech>TECH_MINING</PrereqTech>
+					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
 					<iTime>0</iTime>
 					<iProduction>0</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
 				<FeatureStruct>
 					<FeatureType>FEATURE_FOREST_BURNT</FeatureType>
-					<PrereqTech>TECH_MINING</PrereqTech>
+					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
 					<iTime>125</iTime>
 					<iProduction>0</iProduction>
 					<bRemove>1</bRemove>
@@ -300,21 +300,21 @@
 				</FeatureStruct>
 				<FeatureStruct>
 					<FeatureType>FEATURE_FOREST</FeatureType>
-					<PrereqTech>TECH_MINING</PrereqTech>
+					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
 					<iTime>250</iTime>
 					<iProduction>20</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
 				<FeatureStruct>
 					<FeatureType>FEATURE_FOREST_NEW</FeatureType>
-					<PrereqTech>TECH_MINING</PrereqTech>
+					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
 					<iTime>0</iTime>
 					<iProduction>0</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
 				<FeatureStruct>
 					<FeatureType>FEATURE_FOREST_BURNT</FeatureType>
-					<PrereqTech>TECH_MINING</PrereqTech>
+					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
 					<iTime>125</iTime>
 					<iProduction>0</iProduction>
 					<bRemove>1</bRemove>
@@ -386,21 +386,21 @@
 				</FeatureStruct>
 				<FeatureStruct>
 					<FeatureType>FEATURE_FOREST</FeatureType>
-					<PrereqTech>TECH_MINING</PrereqTech>
+					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
 					<iTime>250</iTime>
 					<iProduction>20</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
 				<FeatureStruct>
 					<FeatureType>FEATURE_FOREST_NEW</FeatureType>
-					<PrereqTech>TECH_MINING</PrereqTech>
+					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
 					<iTime>0</iTime>
 					<iProduction>0</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
 				<FeatureStruct>
 					<FeatureType>FEATURE_FOREST_BURNT</FeatureType>
-					<PrereqTech>TECH_MINING</PrereqTech>
+					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
 					<iTime>125</iTime>
 					<iProduction>0</iProduction>
 					<bRemove>1</bRemove>
@@ -453,14 +453,14 @@
 				</FeatureStruct>
 				<FeatureStruct>
 					<FeatureType>FEATURE_FOREST</FeatureType>
-					<PrereqTech>TECH_MINING</PrereqTech>
+					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
 					<iTime>250</iTime>
 					<iProduction>20</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
 				<FeatureStruct>
 					<FeatureType>FEATURE_FOREST_BURNT</FeatureType>
-					<PrereqTech>TECH_MINING</PrereqTech>
+					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
 					<iTime>125</iTime>
 					<iProduction>0</iProduction>
 					<bRemove>1</bRemove>
@@ -494,21 +494,21 @@
 				</FeatureStruct>
 				<FeatureStruct>
 					<FeatureType>FEATURE_FOREST</FeatureType>
-					<PrereqTech>TECH_MINING</PrereqTech>
+					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
 					<iTime>250</iTime>
 					<iProduction>20</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
 				<FeatureStruct>
 					<FeatureType>FEATURE_FOREST_NEW</FeatureType>
-					<PrereqTech>TECH_MINING</PrereqTech>
+					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
 					<iTime>0</iTime>
 					<iProduction>0</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
 				<FeatureStruct>
 					<FeatureType>FEATURE_FOREST_BURNT</FeatureType>
-					<PrereqTech>TECH_MINING</PrereqTech>
+					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
 					<iTime>125</iTime>
 					<iProduction>0</iProduction>
 					<bRemove>1</bRemove>
@@ -542,21 +542,21 @@
 				</FeatureStruct>
 				<FeatureStruct>
 					<FeatureType>FEATURE_FOREST</FeatureType>
-					<PrereqTech>TECH_MINING</PrereqTech>
+					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
 					<iTime>250</iTime>
 					<iProduction>20</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
 				<FeatureStruct>
 					<FeatureType>FEATURE_FOREST_NEW</FeatureType>
-					<PrereqTech>TECH_MINING</PrereqTech>
+					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
 					<iTime>0</iTime>
 					<iProduction>0</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
 				<FeatureStruct>
 					<FeatureType>FEATURE_FOREST_BURNT</FeatureType>
-					<PrereqTech>TECH_MINING</PrereqTech>
+					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
 					<iTime>125</iTime>
 					<iProduction>0</iProduction>
 					<bRemove>1</bRemove>
@@ -635,21 +635,21 @@
 				</FeatureStruct>
 				<FeatureStruct>
 					<FeatureType>FEATURE_FOREST</FeatureType>
-					<PrereqTech>TECH_MINING</PrereqTech>
+					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
 					<iTime>250</iTime>
 					<iProduction>20</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
 				<FeatureStruct>
 					<FeatureType>FEATURE_FOREST_NEW</FeatureType>
-					<PrereqTech>TECH_MINING</PrereqTech>
+					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
 					<iTime>0</iTime>
 					<iProduction>0</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
 				<FeatureStruct>
 					<FeatureType>FEATURE_FOREST_BURNT</FeatureType>
-					<PrereqTech>TECH_MINING</PrereqTech>
+					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
 					<iTime>125</iTime>
 					<iProduction>0</iProduction>
 					<bRemove>1</bRemove>
@@ -714,21 +714,21 @@
 				</FeatureStruct>
 				<FeatureStruct>
 					<FeatureType>FEATURE_FOREST</FeatureType>
-					<PrereqTech>TECH_MINING</PrereqTech>
+					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
 					<iTime>250</iTime>
 					<iProduction>20</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
 				<FeatureStruct>
 					<FeatureType>FEATURE_FOREST_NEW</FeatureType>
-					<PrereqTech>TECH_MINING</PrereqTech>
+					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
 					<iTime>0</iTime>
 					<iProduction>0</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
 				<FeatureStruct>
 					<FeatureType>FEATURE_FOREST_BURNT</FeatureType>
-					<PrereqTech>TECH_MINING</PrereqTech>
+					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
 					<iTime>125</iTime>
 					<iProduction>0</iProduction>
 					<bRemove>1</bRemove>
@@ -762,21 +762,21 @@
 				</FeatureStruct>
 				<FeatureStruct>
 					<FeatureType>FEATURE_FOREST</FeatureType>
-					<PrereqTech>TECH_MINING</PrereqTech>
+					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
 					<iTime>250</iTime>
 					<iProduction>20</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
 				<FeatureStruct>
 					<FeatureType>FEATURE_FOREST_NEW</FeatureType>
-					<PrereqTech>TECH_MINING</PrereqTech>
+					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
 					<iTime>0</iTime>
 					<iProduction>0</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
 				<FeatureStruct>
 					<FeatureType>FEATURE_FOREST_BURNT</FeatureType>
-					<PrereqTech>TECH_MINING</PrereqTech>
+					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
 					<iTime>125</iTime>
 					<iProduction>0</iProduction>
 					<bRemove>1</bRemove>
@@ -810,21 +810,21 @@
 				</FeatureStruct>
 				<FeatureStruct>
 					<FeatureType>FEATURE_FOREST</FeatureType>
-					<PrereqTech>TECH_MINING</PrereqTech>
+					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
 					<iTime>250</iTime>
 					<iProduction>20</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
 				<FeatureStruct>
 					<FeatureType>FEATURE_FOREST_NEW</FeatureType>
-					<PrereqTech>TECH_MINING</PrereqTech>
+					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
 					<iTime>0</iTime>
 					<iProduction>0</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
 				<FeatureStruct>
 					<FeatureType>FEATURE_FOREST_BURNT</FeatureType>
-					<PrereqTech>TECH_MINING</PrereqTech>
+					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
 					<iTime>125</iTime>
 					<iProduction>0</iProduction>
 					<bRemove>1</bRemove>
@@ -858,21 +858,21 @@
 				</FeatureStruct>
 				<FeatureStruct>
 					<FeatureType>FEATURE_FOREST</FeatureType>
-					<PrereqTech>TECH_MINING</PrereqTech>
+					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
 					<iTime>250</iTime>
 					<iProduction>20</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
 				<FeatureStruct>
 					<FeatureType>FEATURE_FOREST_NEW</FeatureType>
-					<PrereqTech>TECH_MINING</PrereqTech>
+					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
 					<iTime>0</iTime>
 					<iProduction>0</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
 				<FeatureStruct>
 					<FeatureType>FEATURE_FOREST_BURNT</FeatureType>
-					<PrereqTech>TECH_MINING</PrereqTech>
+					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
 					<iTime>125</iTime>
 					<iProduction>0</iProduction>
 					<bRemove>1</bRemove>
