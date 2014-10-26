@@ -99,8 +99,8 @@ HUD_Main_Extra_1_Height = 10
 HUD_Main_Extra_1_Width = 10
 
 #FfH: Added by Kael 10/29/2007
-manaTypes1 = [ 'BONUS_MANA_AIR','BONUS_MANA_BODY','BONUS_MANA_CHAOS','BONUS_MANA_DEATH','BONUS_MANA_EARTH','BONUS_MANA_ENCHANTMENT','BONUS_MANA_ENTROPY','BONUS_MANA_FIRE','BONUS_MANA_ICE' ]
-manaTypes2 = [ 'BONUS_MANA_LAW','BONUS_MANA_LIFE','BONUS_MANA_METAMAGIC','BONUS_MANA_MIND','BONUS_MANA_NATURE','BONUS_MANA_SHADOW','BONUS_MANA_SPIRIT','BONUS_MANA_SUN','BONUS_MANA_WATER' ]
+manaTypes1 = [ 'BONUS_MANA_AIR', 'BONUS_MANA_EARTH']
+manaTypes2 = [ 'BONUS_MANA_FIRE', 'BONUS_MANA_WATER' ]
 #FfH: End Add
 
 g_NumEmphasizeInfos = 0
@@ -3410,7 +3410,7 @@ class CvMainInterface:
 				screen.setText( szName, "Background", szBuffer, CvUtil.FONT_RIGHT_JUSTIFY, 80, yCoord + (iCount * iBtnHeight) + 24, -0.3, FontTypes.SMALL_FONT, WidgetTypes.WIDGET_PEDIA_JUMP_TO_BONUS, iBonus, -1 )
 				screen.show( szName )
 				iCount = iCount + 1
-			screen.setPanelSize( "ManaBackground", 6, yCoord + 18, (iWidth * 2) + 12, (iBtnHeight * 9) + 12 )
+			screen.setPanelSize( "ManaBackground", 6, yCoord + 18, (iWidth * 2) + 12, (iBtnHeight * 2) + 12 )
 			screen.show( "ManaBackground" )
 #FfH: End Add
 
