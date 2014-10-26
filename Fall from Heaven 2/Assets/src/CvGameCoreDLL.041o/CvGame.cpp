@@ -6237,26 +6237,31 @@ void CvGame::doHolyCity()
 			{
 				if (GET_TEAM((TeamTypes)iJ).isAlive())
 				{
-					if (GET_TEAM((TeamTypes)iJ).isHasTech((TechTypes)(GC.getReligionInfo((ReligionTypes)iI).getTechPrereq())))
+					//Added check so Relgion TechPreReq must be valid and not None.
+					if((TechTypes)GC.getReligionInfo((ReligionTypes)iI).getTechPrereq() != NO_TECH )
 					{
-						if (GET_TEAM((TeamTypes)iJ).getNumCities() > 0)
+
+						if (GET_TEAM((TeamTypes)iJ).isHasTech((TechTypes)(GC.getReligionInfo((ReligionTypes)iI).getTechPrereq())))
 						{
-							iValue = getSorenRandNum(10, "Found Religion (Team)");
-
-							for (iK = 0; iK < GC.getNumReligionInfos(); iK++)
+							if (GET_TEAM((TeamTypes)iJ).getNumCities() > 0)
 							{
-								int iReligionCount = GET_TEAM((TeamTypes)iJ).getHasReligionCount((ReligionTypes)iK);
+								iValue = getSorenRandNum(10, "Found Religion (Team)");
 
-								if (iReligionCount > 0)
+								for (iK = 0; iK < GC.getNumReligionInfos(); iK++)
 								{
-									iValue += iReligionCount * 20;
-								}
-							}
+									int iReligionCount = GET_TEAM((TeamTypes)iJ).getHasReligionCount((ReligionTypes)iK);
 
-							if (iValue < iBestValue)
-							{
-								iBestValue = iValue;
-								eBestTeam = ((TeamTypes)iJ);
+									if (iReligionCount > 0)
+									{
+										iValue += iReligionCount * 20;
+									}
+								}
+
+								if (iValue < iBestValue)
+								{
+									iBestValue = iValue;
+									eBestTeam = ((TeamTypes)iJ);
+								}
 							}
 						}
 					}
