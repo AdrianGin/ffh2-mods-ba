@@ -332,8 +332,8 @@ class CvEventManager:
 		iData1, iData2, iData3, iData4, iData5 = argsList
 
 #FfH Card Game: begin
-#		print("Modder's net message!")
-#		CvUtil.pyPrint( 'onModNetMessage' )
+		print("Modder's net message!")
+		CvUtil.pyPrint( 'onModNetMessage' )
 		if iData1 == CvUtil.Somnium : # iData1 == 0 : Solmnium message, iData2 = function, iData3 to iData5 = parameters
 			if iData2 == 0 :
 				if (iData3 == gc.getGame().getActivePlayer()):
@@ -480,7 +480,7 @@ class CvEventManager:
 					cf.addUnit(iUnit)
 					cf.addPopup(CyTranslator().getText("TXT_KEY_POPUP_ORTHUS_CREATION",()), str(gc.getUnitInfo(iUnit).getImage()))
 
-		if not CyGame().isOption(gc.getInfoTypeForString('GAMEOPTION_NO_PLOT_COUNTER')):
+#		if not CyGame().isOption(gc.getInfoTypeForString('GAMEOPTION_NO_PLOT_COUNTER')):
 #			cf.doHellTerrain()
 
 		if CyGame().getWBMapScript():
