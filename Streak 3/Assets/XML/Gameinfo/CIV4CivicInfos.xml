@@ -95,5 +95,6 @@
             <PrereqCivilization>NONE</PrereqCivilization>
             <PrereqReligion>NONE</PrereqReligion>
         </CivicInfo>
+               
     </CivicInfos>
 </Civ4CivicInfos>

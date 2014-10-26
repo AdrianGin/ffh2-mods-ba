@@ -4177,7 +4177,8 @@ bool CvGame::isDiploVote(VoteSourceTypes eVoteSource) const
     {
         if (GET_PLAYER((PlayerTypes)iPlayer).isFullMember(eVoteSource))
         {
-            iCount += 1;
+			//Removed by Adrian, bug as vote mechanic is always tied to a Civic.
+            //iCount += 1;
         }
     }
     if (iCount >= 2)

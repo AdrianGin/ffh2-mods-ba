@@ -15,8 +15,8 @@
 		</PlayerColorInfo>
 		<PlayerColorInfo>
 			<Type>PLAYERCOLOR_EARTH</Type>
-			<ColorTypePrimary>COLOR_PLAYER_MIDDLE_GREEN</ColorTypePrimary>
-			<ColorTypeSecondary>COLOR_PLAYER_LIGHT_BROWN</ColorTypeSecondary>
+			<ColorTypePrimary>COLOR_PLAYER_DARK_GREEN</ColorTypePrimary>
+			<ColorTypeSecondary>COLOR_PLAYER_LIGHT_GREEN</ColorTypeSecondary>
 			<TextColorType>COLOR_PLAYER_MIDDLE_GREEN</TextColorType>
 		</PlayerColorInfo>
 		<PlayerColorInfo>
