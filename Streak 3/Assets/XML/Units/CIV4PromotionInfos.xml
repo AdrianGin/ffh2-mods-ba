@@ -1841,14 +1841,6 @@
             <iPromotionCombatMod>40</iPromotionCombatMod>
         </PromotionInfo>
         <PromotionInfo>
-            <Type>PROMOTION_DRAGONS_HORDE</Type>
-            <Description>TXT_KEY_EQUIPMENT_DRAGONS_HORDE</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_NEVER</TechPrereq>
-            <Button>Art/Interface/Buttons/Equipment/DragonsHorde.dds</Button>
-            <bEquipment>1</bEquipment>
-        </PromotionInfo>
-        <PromotionInfo>
             <Type>PROMOTION_DRILL1</Type>
             <Description>TXT_KEY_PROMOTION_DRILL1</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
@@ -5266,20 +5258,6 @@
             <iMinLevel>-1</iMinLevel>
         </PromotionInfo>
         <PromotionInfo>
-            <Type>PROMOTION_SCORCHED_STAFF</Type>
-            <Description>TXT_KEY_EQUIPMENT_SCORCHED_STAFF</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_NEVER</TechPrereq>
-            <Button>Art/Interface/Buttons/Equipment/ScorchedStaff.dds</Button>
-            <bEquipment>1</bEquipment>
-            <BonusAffinities>
-                <BonusAffinity>
-                    <BonusType>BONUS_MANA_FIRE</BonusType>
-                    <iAffinity>1</iAffinity>
-                </BonusAffinity>
-            </BonusAffinities>
-        </PromotionInfo>
-        <PromotionInfo>
             <Type>PROMOTION_SCOURGE</Type>
             <Description>TXT_KEY_PROMOTION_SCOURGE</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
@@ -5951,26 +5929,6 @@
             <PromotionPrereqAnd>PROMOTION_CHANNELING3</PromotionPrereqAnd>
         </PromotionInfo>
         <PromotionInfo>
-            <Type>PROMOTION_STAFF_OF_SOULS</Type>
-            <Description>TXT_KEY_EQUIPMENT_STAFF_OF_SOULS</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_NEVER</TechPrereq>
-            <Button>Art/Interface/Buttons/Equipment/StaffOfSouls.dds</Button>
-            <bEquipment>1</bEquipment>
-            <DamageTypeCombats>
-                <DamageTypeCombat>
-                    <DamageType>DAMAGE_DEATH</DamageType>
-                    <iCombat>3</iCombat>
-                </DamageTypeCombat>
-            </DamageTypeCombats>
-            <BonusAffinities>
-                <BonusAffinity>
-                    <BonusType>BONUS_MANA_DEATH</BonusType>
-                    <iAffinity>1</iAffinity>
-                </BonusAffinity>
-            </BonusAffinities>
-        </PromotionInfo>
-        <PromotionInfo>
             <Type>PROMOTION_STARTING_SETTLER</Type>
             <Description>TXT_KEY_PROMOTION_STARTING_SETTLER</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
@@ -6259,24 +6217,6 @@
             <PromotionPrereqAnd>PROMOTION_CHANNELING3</PromotionPrereqAnd>
         </PromotionInfo>
         <PromotionInfo>
-            <Type>PROMOTION_SYLIVENS_PERFECT_LYRE</Type>
-            <Description>TXT_KEY_EQUIPMENT_SYLIVENS_PERFECT_LYRE</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_NEVER</TechPrereq>
-            <Button>Art/Interface/Buttons/Equipment/SylivensPerfectLyre.dds</Button>
-            <bEquipment>1</bEquipment>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_TIMOR_MASK</Type>
-            <Description>TXT_KEY_EQUIPMENT_TIMOR_MASK</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_NEVER</TechPrereq>
-            <Button>Art/Interface/Buttons/Equipment/TimorMask.dds</Button>
-            <bEquipment>1</bEquipment>
-            <bFear>1</bFear>
-            <bImmuneToFear>1</bImmuneToFear>
-        </PromotionInfo>
-        <PromotionInfo>
             <Type>PROMOTION_TWINCAST</Type>
             <Description>TXT_KEY_PROMOTION_TWINCAST</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
@@ -6444,21 +6384,6 @@
                     <iResist>-50</iResist>
                 </DamageTypeResist>
             </DamageTypeResists>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_WAR</Type>
-            <Description>TXT_KEY_EQUIPMENT_WAR</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_NEVER</TechPrereq>
-            <Button>Art/Interface/Buttons/Equipment/War.dds</Button>
-            <bEquipment>1</bEquipment>
-            <iModifyGlobalCounterOnCombat>1</iModifyGlobalCounterOnCombat>
-            <DamageTypeCombats>
-                <DamageTypeCombat>
-                    <DamageType>DAMAGE_UNHOLY</DamageType>
-                    <iCombat>3</iCombat>
-                </DamageTypeCombat>
-            </DamageTypeCombats>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_WARCRY</Type>

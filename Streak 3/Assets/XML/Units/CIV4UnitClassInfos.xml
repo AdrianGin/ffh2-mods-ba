@@ -38,24 +38,6 @@
 <!-- NEW END -->
 <!-- NEW END -->
 		<UnitClassInfo>
-			<Type>EQUIPMENTCLASS_WAR</Type>
-			<Description>TXT_KEY_EQUIPMENT_WAR</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>EQUIPMENT_WAR</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>EQUIPMENTCLASS_TIMOR_MASK</Type>
-			<Description>TXT_KEY_EQUIPMENT_TIMOR_MASK</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>EQUIPMENT_TIMOR_MASK</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
 			<Type>EQUIPMENTCLASS_TREASURE</Type>
 			<Description>TXT_KEY_EQUIPMENT_TREASURE</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
@@ -99,42 +81,6 @@
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_BATTERING_RAM</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>EQUIPMENTCLASS_SCORCHED_STAFF</Type>
-			<Description>TXT_KEY_EQUIPMENT_SCORCHED_STAFF</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>EQUIPMENT_SCORCHED_STAFF</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>EQUIPMENTCLASS_STAFF_OF_SOULS</Type>
-			<Description>TXT_KEY_EQUIPMENT_STAFF_OF_SOULS</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>EQUIPMENT_STAFF_OF_SOULS</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>EQUIPMENTCLASS_DRAGONS_HORDE</Type>
-			<Description>TXT_KEY_EQUIPMENT_DRAGONS_HORDE</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>EQUIPMENT_DRAGONS_HORDE</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>EQUIPMENTCLASS_SYLIVENS_PERFECT_LYRE</Type>
-			<Description>TXT_KEY_EQUIPMENT_SYLIVENS_PERFECT_LYRE</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>EQUIPMENT_SYLIVENS_PERFECT_LYRE</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
 			<Type>UNITCLASS_AZER</Type>
