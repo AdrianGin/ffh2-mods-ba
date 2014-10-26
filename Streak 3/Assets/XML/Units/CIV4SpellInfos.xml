@@ -495,25 +495,6 @@
             <Button>Art/Interface/Buttons/Spells/Gifts of Nantosuelta.dds</Button>
         </SpellInfo>
         <SpellInfo>
-            <Type>SPELL_GIVE_HAMMER_TO_CRAFTSMAN</Type>
-            <Description>TXT_KEY_SPELL_GIVE_HAMMER_TO_CRAFTSMAN</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <UnitClassPrereq>EQUIPMENTCLASS_GOLDEN_HAMMER</UnitClassPrereq>
-            <bAllowAI>1</bAllowAI>
-            <bInBordersOnly>1</bInBordersOnly>
-            <bInCityOnly>1</bInCityOnly>
-            <iAIWeight>20</iAIWeight>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <bAbility>1</bAbility>
-            <bSacrificeCaster>1</bSacrificeCaster>
-            <PyResult>spellGiveHammerToCraftsman(pCaster)</PyResult>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_TRAIN</Sound>
-            <bGraphicalOnly>1</bGraphicalOnly>
-            <Button>Art/Interface/Buttons/Units/greatengineer.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
             <Type>SPELL_HASTE</Type>
             <Description>TXT_KEY_SPELL_HASTE</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
@@ -546,25 +527,6 @@
             <Effect>EFFECT_CREATION</Effect>
             <Sound>AS3D_SPELL_HEAL</Sound>
             <Button>Art/Interface/Buttons/Spells/Heal.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_HEALING_SALVE</Type>
-            <Description>TXT_KEY_SPELL_HEALING_SALVE</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_HEALING_SALVE_HELP</Help>
-            <PromotionPrereq1>PROMOTION_HEALING_SALVE</PromotionPrereq1>
-            <bAllowAI>1</bAllowAI>
-            <iAIWeight>100</iAIWeight>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <RemovePromotionType1>PROMOTION_HEALING_SALVE</RemovePromotionType1>
-            <bBuffCasterOnly>1</bBuffCasterOnly>
-            <bAbility>1</bAbility>
-            <PyResult>spellHealingSalve(pCaster)</PyResult>
-            <PyRequirement>reqHealingSalve(pCaster)</PyRequirement>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_ENCHANTMENT</Sound>
-            <Button>Art/Interface/Buttons/Equipment/HealingSalve.dds</Button>
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_HIDE</Type>
@@ -1315,150 +1277,6 @@
             <Button>Art/Interface/Buttons/Equipment/DragonsHorde.dds</Button>
         </SpellInfo>
         <SpellInfo>
-            <Type>SPELL_TAKE_EMPTY_BIER_PROMOTION</Type>
-            <Description>TXT_KEY_SPELL_TAKE_EMPTY_BIER</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_TAKE_EQUIPMENT_HELP</Help>
-            <PromotionInStackPrereq>PROMOTION_EMPTY_BIER</PromotionInStackPrereq>
-            <bAllowAI>1</bAllowAI>
-            <iAIWeight>50</iAIWeight>
-            <bHasCasted>1</bHasCasted>
-            <bAbility>1</bAbility>
-            <PyResult>spellTakeEquipmentPromotion(pCaster,'EQUIPMENT_EMPTY_BIER')</PyResult>
-            <PyRequirement>reqTakeEquipmentPromotion(pCaster,'EQUIPMENT_EMPTY_BIER')</PyRequirement>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_TRAIN</Sound>
-            <bGraphicalOnly>1</bGraphicalOnly>
-            <Button>Art/Interface/Buttons/Equipment/EmptyBier.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_TAKE_EMPTY_BIER_UNIT</Type>
-            <Description>TXT_KEY_SPELL_TAKE_EMPTY_BIER</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_TAKE_EQUIPMENT_HELP</Help>
-            <UnitInStackPrereq>EQUIPMENT_EMPTY_BIER</UnitInStackPrereq>
-            <bAllowAI>1</bAllowAI>
-            <iAIWeight>50</iAIWeight>
-            <bHasCasted>1</bHasCasted>
-            <AddPromotionType1>PROMOTION_EMPTY_BIER</AddPromotionType1>
-            <bBuffCasterOnly>1</bBuffCasterOnly>
-            <bAbility>1</bAbility>
-            <PyResult>spellTakeEquipmentUnit(pCaster,'EQUIPMENT_EMPTY_BIER')</PyResult>
-            <PyRequirement>reqTakeEquipmentUnit(pCaster,'EQUIPMENT_EMPTY_BIER')</PyRequirement>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_TRAIN</Sound>
-            <bGraphicalOnly>1</bGraphicalOnly>
-            <Button>Art/Interface/Buttons/Equipment/EmptyBier.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_TAKE_GELA_PROMOTION</Type>
-            <Description>TXT_KEY_SPELL_TAKE_GELA</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_TAKE_EQUIPMENT_HELP</Help>
-            <PromotionInStackPrereq>PROMOTION_GELA</PromotionInStackPrereq>
-            <bAllowAI>1</bAllowAI>
-            <iAIWeight>50</iAIWeight>
-            <bHasCasted>1</bHasCasted>
-            <bAbility>1</bAbility>
-            <PyResult>spellTakeEquipmentPromotion(pCaster,'EQUIPMENT_GELA')</PyResult>
-            <PyRequirement>reqTakeEquipmentPromotion(pCaster,'EQUIPMENT_GELA')</PyRequirement>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_TRAIN</Sound>
-            <bGraphicalOnly>1</bGraphicalOnly>
-            <Button>Art/Interface/Buttons/Equipment/Gela.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_TAKE_GELA_UNIT</Type>
-            <Description>TXT_KEY_SPELL_TAKE_GELA</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_TAKE_EQUIPMENT_HELP</Help>
-            <UnitInStackPrereq>EQUIPMENT_GELA</UnitInStackPrereq>
-            <bAllowAI>1</bAllowAI>
-            <iAIWeight>50</iAIWeight>
-            <bHasCasted>1</bHasCasted>
-            <AddPromotionType1>PROMOTION_GELA</AddPromotionType1>
-            <bBuffCasterOnly>1</bBuffCasterOnly>
-            <bAbility>1</bAbility>
-            <PyResult>spellTakeEquipmentUnit(pCaster,'EQUIPMENT_GELA')</PyResult>
-            <PyRequirement>reqTakeEquipmentUnit(pCaster,'EQUIPMENT_GELA')</PyRequirement>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_TRAIN</Sound>
-            <bGraphicalOnly>1</bGraphicalOnly>
-            <Button>Art/Interface/Buttons/Equipment/Gela.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_TAKE_GOLDEN_HAMMER_PROMOTION</Type>
-            <Description>TXT_KEY_SPELL_TAKE_GOLDEN_HAMMER</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_TAKE_EQUIPMENT_HELP</Help>
-            <PromotionInStackPrereq>PROMOTION_GOLDEN_HAMMER</PromotionInStackPrereq>
-            <bAllowAI>1</bAllowAI>
-            <iAIWeight>50</iAIWeight>
-            <bHasCasted>1</bHasCasted>
-            <bAbility>1</bAbility>
-            <PyResult>spellTakeEquipmentPromotion(pCaster,'EQUIPMENT_GOLDEN_HAMMER')</PyResult>
-            <PyRequirement>reqTakeEquipmentPromotion(pCaster,'EQUIPMENT_GOLDEN_HAMMER')</PyRequirement>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_TRAIN</Sound>
-            <bGraphicalOnly>1</bGraphicalOnly>
-            <Button>Art/Interface/Buttons/Equipment/GoldenHammer.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_TAKE_GOLDEN_HAMMER_UNIT</Type>
-            <Description>TXT_KEY_SPELL_TAKE_GOLDEN_HAMMER</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_TAKE_EQUIPMENT_HELP</Help>
-            <UnitInStackPrereq>EQUIPMENT_GOLDEN_HAMMER</UnitInStackPrereq>
-            <bAllowAI>1</bAllowAI>
-            <iAIWeight>50</iAIWeight>
-            <bHasCasted>1</bHasCasted>
-            <AddPromotionType1>PROMOTION_GOLDEN_HAMMER</AddPromotionType1>
-            <bBuffCasterOnly>1</bBuffCasterOnly>
-            <bAbility>1</bAbility>
-            <PyResult>spellTakeEquipmentUnit(pCaster,'EQUIPMENT_GOLDEN_HAMMER')</PyResult>
-            <PyRequirement>reqTakeEquipmentUnit(pCaster,'EQUIPMENT_GOLDEN_HAMMER')</PyRequirement>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_TRAIN</Sound>
-            <bGraphicalOnly>1</bGraphicalOnly>
-            <Button>Art/Interface/Buttons/Equipment/GoldenHammer.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_TAKE_HEALING_SALVE_PROMOTION</Type>
-            <Description>TXT_KEY_SPELL_TAKE_HEALING_SALVE</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_TAKE_EQUIPMENT_HELP</Help>
-            <PromotionInStackPrereq>PROMOTION_HEALING_SALVE</PromotionInStackPrereq>
-            <bAllowAI>1</bAllowAI>
-            <iAIWeight>50</iAIWeight>
-            <bHasCasted>1</bHasCasted>
-            <bAbility>1</bAbility>
-            <PyResult>spellTakeEquipmentPromotion(pCaster,'EQUIPMENT_HEALING_SALVE')</PyResult>
-            <PyRequirement>reqTakeEquipmentPromotion(pCaster,'EQUIPMENT_HEALING_SALVE')</PyRequirement>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_TRAIN</Sound>
-            <bGraphicalOnly>1</bGraphicalOnly>
-            <Button>Art/Interface/Buttons/Equipment/HealingSalve.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_TAKE_HEALING_SALVE_UNIT</Type>
-            <Description>TXT_KEY_SPELL_TAKE_HEALING_SALVE</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_TAKE_EQUIPMENT_HELP</Help>
-            <UnitInStackPrereq>EQUIPMENT_HEALING_SALVE</UnitInStackPrereq>
-            <bAllowAI>1</bAllowAI>
-            <iAIWeight>50</iAIWeight>
-            <bHasCasted>1</bHasCasted>
-            <AddPromotionType1>PROMOTION_HEALING_SALVE</AddPromotionType1>
-            <bBuffCasterOnly>1</bBuffCasterOnly>
-            <bAbility>1</bAbility>
-            <PyResult>spellTakeEquipmentUnit(pCaster,'EQUIPMENT_HEALING_SALVE')</PyResult>
-            <PyRequirement>reqTakeEquipmentUnit(pCaster,'EQUIPMENT_HEALING_SALVE')</PyRequirement>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_TRAIN</Sound>
-            <bGraphicalOnly>1</bGraphicalOnly>
-            <Button>Art/Interface/Buttons/Equipment/HealingSalve.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
             <Type>SPELL_TAKE_JADE_TORC_PROMOTION</Type>
             <Description>TXT_KEY_SPELL_TAKE_JADE_TORC</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
@@ -1781,42 +1599,6 @@
             <Sound>AS3D_SPELL_TRAIN</Sound>
             <bGraphicalOnly>1</bGraphicalOnly>
             <Button>Art/Interface/Buttons/Equipment/TimorMask.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_TAKE_GODSLAYER_PROMOTION</Type>
-            <Description>TXT_KEY_SPELL_TAKE_GODSLAYER</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_TAKE_EQUIPMENT_HELP</Help>
-            <PromotionInStackPrereq>PROMOTION_GODSLAYER</PromotionInStackPrereq>
-            <bAllowAI>1</bAllowAI>
-            <iAIWeight>50</iAIWeight>
-            <bHasCasted>1</bHasCasted>
-            <bAbility>1</bAbility>
-            <PyResult>spellTakeEquipmentPromotion(pCaster,'EQUIPMENT_GODSLAYER')</PyResult>
-            <PyRequirement>reqTakeEquipmentPromotion(pCaster,'EQUIPMENT_GODSLAYER')</PyRequirement>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_TRAIN</Sound>
-            <bGraphicalOnly>1</bGraphicalOnly>
-            <Button>Art/Interface/Buttons/Equipment/Godslayer.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_TAKE_GODSLAYER_UNIT</Type>
-            <Description>TXT_KEY_SPELL_TAKE_GODSLAYER</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_TAKE_EQUIPMENT_HELP</Help>
-            <UnitInStackPrereq>EQUIPMENT_GODSLAYER</UnitInStackPrereq>
-            <bAllowAI>1</bAllowAI>
-            <iAIWeight>50</iAIWeight>
-            <bHasCasted>1</bHasCasted>
-            <AddPromotionType1>PROMOTION_GODSLAYER</AddPromotionType1>
-            <bBuffCasterOnly>1</bBuffCasterOnly>
-            <bAbility>1</bAbility>
-            <PyResult>spellTakeEquipmentUnit(pCaster,'EQUIPMENT_GODSLAYER')</PyResult>
-            <PyRequirement>reqTakeEquipmentUnit(pCaster,'EQUIPMENT_GODSLAYER')</PyRequirement>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_TRAIN</Sound>
-            <bGraphicalOnly>1</bGraphicalOnly>
-            <Button>Art/Interface/Buttons/Equipment/Godslayer.dds</Button>
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_TAKE_WAR_PROMOTION</Type>

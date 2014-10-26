@@ -38,15 +38,6 @@
 <!-- NEW END -->
 <!-- NEW END -->
 		<UnitClassInfo>
-			<Type>EQUIPMENTCLASS_GODSLAYER</Type>
-			<Description>TXT_KEY_EQUIPMENT_GODSLAYER</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>EQUIPMENT_GODSLAYER</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
 			<Type>EQUIPMENTCLASS_WAR</Type>
 			<Description>TXT_KEY_EQUIPMENT_WAR</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
@@ -146,15 +137,6 @@
 			<DefaultUnit>EQUIPMENT_STAFF_OF_SOULS</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
-			<Type>EQUIPMENTCLASS_GELA</Type>
-			<Description>TXT_KEY_EQUIPMENT_GELA</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>EQUIPMENT_GELA</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
 			<Type>EQUIPMENTCLASS_DRAGONS_HORDE</Type>
 			<Description>TXT_KEY_EQUIPMENT_DRAGONS_HORDE</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
@@ -182,24 +164,6 @@
 			<DefaultUnit>UNIT_AZER</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
-			<Type>EQUIPMENTCLASS_GOLDEN_HAMMER</Type>
-			<Description>TXT_KEY_EQUIPMENT_GOLDEN_HAMMER</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>EQUIPMENT_GOLDEN_HAMMER</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>EQUIPMENTCLASS_EMPTY_BIER</Type>
-			<Description>TXT_KEY_EQUIPMENT_EMPTY_BIER</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>EQUIPMENT_EMPTY_BIER</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
 			<Type>EQUIPMENTCLASS_NETHER_BLADE</Type>
 			<Description>TXT_KEY_EQUIPMENT_NETHER_BLADE</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
@@ -207,15 +171,6 @@
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>EQUIPMENT_NETHER_BLADE</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>EQUIPMENTCLASS_HEALING_SALVE</Type>
-			<Description>TXT_KEY_EQUIPMENT_HEALING_SALVE</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>EQUIPMENT_HEALING_SALVE</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
 			<Type>EQUIPMENTCLASS_JADE_TORC</Type>

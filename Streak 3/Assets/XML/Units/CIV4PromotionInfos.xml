@@ -2253,17 +2253,6 @@
             <iMinLevel>-1</iMinLevel>
         </PromotionInfo>
         <PromotionInfo>
-            <Type>PROMOTION_EMPTY_BIER</Type>
-            <Description>TXT_KEY_EQUIPMENT_EMPTY_BIER</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_NEVER</TechPrereq>
-            <Button>Art/Interface/Buttons/Equipment/EmptyBier.dds</Button>
-            <bDoubleFortifyBonus>1</bDoubleFortifyBonus>
-            <bEquipment>1</bEquipment>
-            <iAIWeight>100</iAIWeight>
-            <iExtraCombatDefense>2</iExtraCombatDefense>
-        </PromotionInfo>
-        <PromotionInfo>
             <Type>PROMOTION_ENCHANTED_BLADE</Type>
             <Description>TXT_KEY_PROMOTION_ENCHANTED_BLADE</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
@@ -3037,75 +3026,6 @@
             </TerrainDoubleMoves>
         </PromotionInfo>
         <PromotionInfo>
-            <Type>PROMOTION_GELA</Type>
-            <Description>TXT_KEY_EQUIPMENT_GELA</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_NEVER</TechPrereq>
-            <Button>Art/Interface/Buttons/Equipment/Gela.dds</Button>
-            <bEquipment>1</bEquipment>
-            <iAIWeight>100</iAIWeight>
-            <DamageTypeCombats>
-                <DamageTypeCombat>
-                    <DamageType>DAMAGE_UNHOLY</DamageType>
-                    <iCombat>2</iCombat>
-                </DamageTypeCombat>
-            </DamageTypeCombats>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_GODSLAYER</Type>
-            <Description>TXT_KEY_EQUIPMENT_GODSLAYER</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_NEVER</TechPrereq>
-            <Button>Art/Interface/Buttons/Equipment/Godslayer.dds</Button>
-            <bEquipment>1</bEquipment>
-            <iAIWeight>100</iAIWeight>
-            <iExtraCombatStr>3</iExtraCombatStr>
-            <iExtraCombatDefense>3</iExtraCombatDefense>
-            <iResistMagic>100</iResistMagic>
-            <iGroupSize>1</iGroupSize>
-            <PromotionCombatType>PROMOTION_AVATAR</PromotionCombatType>
-            <iPromotionCombatMod>1000</iPromotionCombatMod>
-            <DamageTypeResists>
-                <DamageTypeResist>
-                    <DamageType>DAMAGE_COLD</DamageType>
-                    <iResist>100</iResist>
-                </DamageTypeResist>
-                <DamageTypeResist>
-                    <DamageType>DAMAGE_DEATH</DamageType>
-                    <iResist>100</iResist>
-                </DamageTypeResist>
-                <DamageTypeResist>
-                    <DamageType>DAMAGE_FIRE</DamageType>
-                    <iResist>100</iResist>
-                </DamageTypeResist>
-                <DamageTypeResist>
-                    <DamageType>DAMAGE_HOLY</DamageType>
-                    <iResist>100</iResist>
-                </DamageTypeResist>
-                <DamageTypeResist>
-                    <DamageType>DAMAGE_LIGHTNING</DamageType>
-                    <iResist>100</iResist>
-                </DamageTypeResist>
-                <DamageTypeResist>
-                    <DamageType>DAMAGE_POISON</DamageType>
-                    <iResist>100</iResist>
-                </DamageTypeResist>
-                <DamageTypeResist>
-                    <DamageType>DAMAGE_UNHOLY</DamageType>
-                    <iResist>100</iResist>
-                </DamageTypeResist>
-            </DamageTypeResists>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_GOLDEN_HAMMER</Type>
-            <Description>TXT_KEY_EQUIPMENT_GOLDEN_HAMMER</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_NEVER</TechPrereq>
-            <Button>Art/Interface/Buttons/Equipment/GoldenHammer.dds</Button>
-            <bEquipment>1</bEquipment>
-            <iExtraCombatStr>1</iExtraCombatStr>
-        </PromotionInfo>
-        <PromotionInfo>
             <Type>PROMOTION_GOLEM</Type>
             <Description>TXT_KEY_PROMOTION_GOLEM</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
@@ -3187,14 +3107,6 @@
             <iAIWeight>50</iAIWeight>
             <iExpireChance>100</iExpireChance>
             <iMinLevel>-1</iMinLevel>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_HEALING_SALVE</Type>
-            <Description>TXT_KEY_EQUIPMENT_HEALING_SALVE</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_NEVER</TechPrereq>
-            <Button>Art/Interface/Buttons/Equipment/HealingSalve.dds</Button>
-            <bEquipment>1</bEquipment>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_HEAVY</Type>
