@@ -30,7 +30,7 @@
             <FreeStartEra>NONE</FreeStartEra>
             <MaxStartEra>NONE</MaxStartEra>
             <ObsoleteTech>NONE</ObsoleteTech>
-            <PrereqTech>TECH_SORCERY</PrereqTech>
+            <PrereqTech>TECH_IMPERIAL_AGE</PrereqTech>
             <TechTypes>
             </TechTypes>
             <Bonus>NONE</Bonus>
@@ -256,7 +256,7 @@
             <FreeStartEra>NONE</FreeStartEra>
             <MaxStartEra>NONE</MaxStartEra>
             <ObsoleteTech>NONE</ObsoleteTech>
-            <PrereqTech>TECH_ARCHERY</PrereqTech>
+            <PrereqTech>TECH_ARCHERY1</PrereqTech>
             <TechTypes>
             </TechTypes>
             <Bonus>NONE</Bonus>
@@ -703,7 +703,7 @@
             <FreeStartEra>NONE</FreeStartEra>
             <MaxStartEra>NONE</MaxStartEra>
             <ObsoleteTech>NONE</ObsoleteTech>
-            <PrereqTech>TECH_MYSTICISM</PrereqTech>
+            <PrereqTech>TECH_FEUDAL_AGE</PrereqTech>
             <TechTypes>
             </TechTypes>
             <Bonus>NONE</Bonus>
@@ -1368,7 +1368,7 @@
             <FreeStartEra>NONE</FreeStartEra>
             <MaxStartEra>NONE</MaxStartEra>
             <ObsoleteTech>NONE</ObsoleteTech>
-            <PrereqTech>TECH_AGRICULTURE</PrereqTech>
+            <PrereqTech>TECH_FOOD1</PrereqTech>
             <TechTypes>
             </TechTypes>
             <Bonus>NONE</Bonus>
@@ -1604,7 +1604,7 @@
             <FreeStartEra>NONE</FreeStartEra>
             <MaxStartEra>NONE</MaxStartEra>
             <ObsoleteTech>NONE</ObsoleteTech>
-            <PrereqTech>TECH_AGRICULTURE</PrereqTech>
+            <PrereqTech>TECH_FEUDAL_AGE</PrereqTech>
             <TechTypes>
             </TechTypes>
             <Bonus>NONE</Bonus>
@@ -2262,7 +2262,7 @@
             <FreeStartEra>NONE</FreeStartEra>
             <MaxStartEra>NONE</MaxStartEra>
             <ObsoleteTech>NONE</ObsoleteTech>
-            <PrereqTech>TECH_TRADE</PrereqTech>
+            <PrereqTech>TECH_MELEE1</PrereqTech>
             <TechTypes>
             </TechTypes>
             <Bonus>NONE</Bonus>
@@ -2705,7 +2705,7 @@
             <FreeStartEra>NONE</FreeStartEra>
             <MaxStartEra>NONE</MaxStartEra>
             <ObsoleteTech>NONE</ObsoleteTech>
-            <PrereqTech>TECH_WRITING</PrereqTech>
+            <PrereqTech>TECH_CASTLE_AGE</PrereqTech>
             <TechTypes>
             </TechTypes>
             <Bonus>NONE</Bonus>
@@ -3151,7 +3151,7 @@
             <FreeStartEra>NONE</FreeStartEra>
             <MaxStartEra>NONE</MaxStartEra>
             <ObsoleteTech>NONE</ObsoleteTech>
-            <PrereqTech>TECH_KNOWLEDGE_OF_THE_ETHER</PrereqTech>
+            <PrereqTech>TECH_ARCANE1</PrereqTech>
             <TechTypes>
             </TechTypes>
             <Bonus>NONE</Bonus>
@@ -3379,7 +3379,7 @@
             <FreeStartEra>NONE</FreeStartEra>
             <MaxStartEra>NONE</MaxStartEra>
             <ObsoleteTech>NONE</ObsoleteTech>
-            <PrereqTech>TECH_FESTIVALS</PrereqTech>
+            <PrereqTech>TECH_FEUDAL_AGE</PrereqTech>
             <TechTypes>
             </TechTypes>
             <Bonus>NONE</Bonus>
@@ -4722,7 +4722,7 @@
             <FreeStartEra>NONE</FreeStartEra>
             <MaxStartEra>NONE</MaxStartEra>
             <ObsoleteTech>NONE</ObsoleteTech>
-            <PrereqTech>NONE</PrereqTech>
+            <PrereqTech>TECH_FEUDAL_AGE</PrereqTech>
             <TechTypes>
             </TechTypes>
             <Bonus>NONE</Bonus>
@@ -4954,7 +4954,7 @@
             <FreeStartEra>NONE</FreeStartEra>
             <MaxStartEra>NONE</MaxStartEra>
             <ObsoleteTech>NONE</ObsoleteTech>
-            <PrereqTech>TECH_SANITATION</PrereqTech>
+            <PrereqTech>TECH_IMPERIAL_AGE</PrereqTech>
             <TechTypes>
             </TechTypes>
             <Bonus>NONE</Bonus>
@@ -5174,7 +5174,7 @@
             <FreeStartEra>NONE</FreeStartEra>
             <MaxStartEra>NONE</MaxStartEra>
             <ObsoleteTech>NONE</ObsoleteTech>
-            <PrereqTech>TECH_CONSTRUCTION</PrereqTech>
+            <PrereqTech>TECH_ARCHERY2</PrereqTech>
             <TechTypes>
             </TechTypes>
             <Bonus>NONE</Bonus>
@@ -5398,7 +5398,7 @@
             <FreeStartEra>NONE</FreeStartEra>
             <MaxStartEra>NONE</MaxStartEra>
             <ObsoleteTech>NONE</ObsoleteTech>
-            <PrereqTech>TECH_HORSEBACK_RIDING</PrereqTech>
+            <PrereqTech>TECH_MOUNTED1</PrereqTech>
             <TechTypes>
             </TechTypes>
             <Bonus>NONE</Bonus>
@@ -5841,7 +5841,7 @@
             <FreeStartEra>NONE</FreeStartEra>
             <MaxStartEra>NONE</MaxStartEra>
             <ObsoleteTech>NONE</ObsoleteTech>
-            <PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+            <PrereqTech>TECH_MELEE1</PrereqTech>
             <TechTypes>
             </TechTypes>
             <Bonus>NONE</Bonus>
@@ -6493,7 +6493,7 @@
             <FreeStartEra>NONE</FreeStartEra>
             <MaxStartEra>NONE</MaxStartEra>
             <ObsoleteTech>NONE</ObsoleteTech>
-            <PrereqTech>TECH_MASONRY</PrereqTech>
+            <PrereqTech>TECH_CASTLE_AGE</PrereqTech>
             <TechTypes>
             </TechTypes>
             <Bonus>NONE</Bonus>
