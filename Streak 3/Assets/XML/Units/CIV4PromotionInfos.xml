@@ -192,48 +192,6 @@
             <bMutation>1</bMutation>
         </PromotionInfo>
         <PromotionInfo>
-            <Type>PROMOTION_ANGEL</Type>
-            <Description>TXT_KEY_PROMOTION_ANGEL</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_NEVER</TechPrereq>
-            <Button>Art/Interface/Buttons/Promotions/Angel.dds</Button>
-            <bImmuneToFear>1</bImmuneToFear>
-            <bNotAlive>1</bNotAlive>
-            <bRace>1</bRace>
-            <DamageTypeResists>
-                <DamageTypeResist>
-                    <DamageType>DAMAGE_DEATH</DamageType>
-                    <iResist>50</iResist>
-                </DamageTypeResist>
-                <DamageTypeResist>
-                    <DamageType>DAMAGE_FIRE</DamageType>
-                    <iResist>20</iResist>
-                </DamageTypeResist>
-                <DamageTypeResist>
-                    <DamageType>DAMAGE_HOLY</DamageType>
-                    <iResist>100</iResist>
-                </DamageTypeResist>
-                <DamageTypeResist>
-                    <DamageType>DAMAGE_POISON</DamageType>
-                    <iResist>100</iResist>
-                </DamageTypeResist>
-            </DamageTypeResists>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_AVATAR</Type>
-            <Description>TXT_KEY_PROMOTION_AVATAR</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_NEVER</TechPrereq>
-            <Button>Art/Interface/Buttons/Promotions/Avatar.dds</Button>
-            <bImmuneToCapture>1</bImmuneToCapture>
-            <bImmuneToFear>1</bImmuneToFear>
-            <bImmuneToMagic>1</bImmuneToMagic>
-            <bNotAlive>1</bNotAlive>
-            <bRace>1</bRace>
-            <iBetterDefenderThanPercent>1000</iBetterDefenderThanPercent>
-            <iCasterResistModify>-50</iCasterResistModify>
-        </PromotionInfo>
-        <PromotionInfo>
             <Type>PROMOTION_BARRAGE1</Type>
             <Description>TXT_KEY_PROMOTION_BARRAGE1</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
@@ -535,14 +493,6 @@
             <Button>Art/Interface/Buttons/Promotions/Cannibalize.dds</Button>
             <bMutation>1</bMutation>
             <iCombatHealPercent>10</iCombatHealPercent>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_CENTAUR</Type>
-            <Description>TXT_KEY_PROMOTION_CENTAUR</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_NEVER</TechPrereq>
-            <Button>Art/Interface/Buttons/Promotions/Centaur.dds</Button>
-            <bRace>1</bRace>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_CHANNELING1</Type>
@@ -1335,35 +1285,6 @@
             <iMinLevel>-1</iMinLevel>
         </PromotionInfo>
         <PromotionInfo>
-            <Type>PROMOTION_DARK_ELF</Type>
-            <Description>TXT_KEY_PROMOTION_ELF</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_NEVER</TechPrereq>
-            <FeatureAttacks>
-                <FeatureAttack>
-                    <FeatureType>FEATURE_FOREST</FeatureType>
-                    <iFeatureAttack>10</iFeatureAttack>
-                </FeatureAttack>
-            </FeatureAttacks>
-            <FeatureDoubleMoves>
-                <FeatureDoubleMove>
-                    <FeatureType>FEATURE_FOREST</FeatureType>
-                    <bFeatureDoubleMove>1</bFeatureDoubleMove>
-                </FeatureDoubleMove>
-            </FeatureDoubleMoves>
-            <bGraphicalOnly>1</bGraphicalOnly>
-            <Button>Art/Interface/Buttons/Promotions/Elf.dds</Button>
-            <bRace>1</bRace>
-            <iWorkRateModify>-20</iWorkRateModify>
-            <UnitArtStyleType>UNIT_ARTSTYLE_DARK_ELF</UnitArtStyleType>
-            <DamageTypeResists>
-                <DamageTypeResist>
-                    <DamageType>DAMAGE_COLD</DamageType>
-                    <iResist>-25</iResist>
-                </DamageTypeResist>
-            </DamageTypeResists>
-        </PromotionInfo>
-        <PromotionInfo>
             <Type>PROMOTION_DEFENSIVE</Type>
             <Description>TXT_KEY_PROMOTION_DEFENSIVE</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
@@ -1465,22 +1386,12 @@
             <iMinLevel>-1</iMinLevel>
         </PromotionInfo>
         <PromotionInfo>
-            <Type>PROMOTION_DRAGON</Type>
-            <Description>TXT_KEY_PROMOTION_DRAGON</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_NEVER</TechPrereq>
-            <Button>Art/Interface/Buttons/Promotions/Dragon.dds</Button>
-            <bFear>1</bFear>
-            <bImmuneToFear>1</bImmuneToFear>
-            <bRace>1</bRace>
-        </PromotionInfo>
-        <PromotionInfo>
             <Type>PROMOTION_DRAGON_SLAYING</Type>
             <Description>TXT_KEY_PROMOTION_DRAGON_SLAYING</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_COMBAT5</PromotionPrereq>
             <Button>Art/Interface/Buttons/Promotions/Dragonslaying.dds</Button>
-            <PromotionCombatType>PROMOTION_DRAGON</PromotionCombatType>
+            <PromotionCombatType>NONE</PromotionCombatType>
             <iPromotionCombatMod>40</iPromotionCombatMod>
         </PromotionInfo>
         <PromotionInfo>
@@ -1654,23 +1565,6 @@
             <iDefensiveStrikeDamage>5</iDefensiveStrikeDamage>
         </PromotionInfo>
         <PromotionInfo>
-            <Type>PROMOTION_DWARF</Type>
-            <Description>TXT_KEY_PROMOTION_DWARF</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_NEVER</TechPrereq>
-            <bHillsDoubleMove>1</bHillsDoubleMove>
-            <Button>Art/Interface/Buttons/Promotions/Dwarf.dds</Button>
-            <bRace>1</bRace>
-            <iWorkRateModify>25</iWorkRateModify>
-            <UnitArtStyleType>UNIT_ARTSTYLE_DWARF</UnitArtStyleType>
-            <DamageTypeResists>
-                <DamageTypeResist>
-                    <DamageType>DAMAGE_POISON</DamageType>
-                    <iResist>25</iResist>
-                </DamageTypeResist>
-            </DamageTypeResists>
-        </PromotionInfo>
-        <PromotionInfo>
             <Type>PROMOTION_EARTH1</Type>
             <Description>TXT_KEY_PROMOTION_EARTH1</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
@@ -1788,54 +1682,6 @@
             <Button>Art/Interface/Buttons/Promotions/Earth3.dds</Button>
             <iAIWeight>150</iAIWeight>
             <PromotionPrereqAnd>PROMOTION_CHANNELING3</PromotionPrereqAnd>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_ELEMENTAL</Type>
-            <Description>TXT_KEY_PROMOTION_ELEMENTAL</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_NEVER</TechPrereq>
-            <Button>Art/Interface/Buttons/Promotions/Elemental.dds</Button>
-            <bImmuneToFear>1</bImmuneToFear>
-            <bNotAlive>1</bNotAlive>
-            <bRace>1</bRace>
-            <DamageTypeResists>
-                <DamageTypeResist>
-                    <DamageType>DAMAGE_DEATH</DamageType>
-                    <iResist>100</iResist>
-                </DamageTypeResist>
-                <DamageTypeResist>
-                    <DamageType>DAMAGE_POISON</DamageType>
-                    <iResist>100</iResist>
-                </DamageTypeResist>
-            </DamageTypeResists>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_ELF</Type>
-            <Description>TXT_KEY_PROMOTION_ELF</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_NEVER</TechPrereq>
-            <FeatureAttacks>
-                <FeatureAttack>
-                    <FeatureType>FEATURE_FOREST</FeatureType>
-                    <iFeatureAttack>10</iFeatureAttack>
-                </FeatureAttack>
-            </FeatureAttacks>
-            <FeatureDoubleMoves>
-                <FeatureDoubleMove>
-                    <FeatureType>FEATURE_FOREST</FeatureType>
-                    <bFeatureDoubleMove>1</bFeatureDoubleMove>
-                </FeatureDoubleMove>
-            </FeatureDoubleMoves>
-            <Button>Art/Interface/Buttons/Promotions/Elf.dds</Button>
-            <bRace>1</bRace>
-            <iWorkRateModify>-20</iWorkRateModify>
-            <UnitArtStyleType>UNIT_ARTSTYLE_ELF</UnitArtStyleType>
-            <DamageTypeResists>
-                <DamageTypeResist>
-                    <DamageType>DAMAGE_COLD</DamageType>
-                    <iResist>-25</iResist>
-                </DamageTypeResist>
-            </DamageTypeResists>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_EMPOWER1</Type>
@@ -2346,86 +2192,6 @@
             <PromotionPrereqAnd>PROMOTION_COMBAT3</PromotionPrereqAnd>
         </PromotionInfo>
         <PromotionInfo>
-            <Type>PROMOTION_FROSTLING</Type>
-            <Description>TXT_KEY_PROMOTION_FROSTLING</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_NEVER</TechPrereq>
-            <TerrainAttacks>
-                <TerrainAttack>
-                    <TerrainType>TERRAIN_SNOW</TerrainType>
-                    <iTerrainAttack>25</iTerrainAttack>
-                </TerrainAttack>
-                <TerrainAttack>
-                    <TerrainType>TERRAIN_TUNDRA</TerrainType>
-                    <iTerrainAttack>10</iTerrainAttack>
-                </TerrainAttack>
-                <TerrainAttack>
-                    <TerrainType>TERRAIN_DESERT</TerrainType>
-                    <iTerrainAttack>-25</iTerrainAttack>
-                </TerrainAttack>
-            </TerrainAttacks>
-            <TerrainDefenses>
-                <TerrainDefense>
-                    <TerrainType>TERRAIN_SNOW</TerrainType>
-                    <iTerrainDefense>25</iTerrainDefense>
-                </TerrainDefense>
-                <TerrainDefense>
-                    <TerrainType>TERRAIN_TUNDRA</TerrainType>
-                    <iTerrainDefense>10</iTerrainDefense>
-                </TerrainDefense>
-                <TerrainDefense>
-                    <TerrainType>TERRAIN_DESERT</TerrainType>
-                    <iTerrainDefense>-25</iTerrainDefense>
-                </TerrainDefense>
-            </TerrainDefenses>
-            <Button>Art/Interface/Buttons/Promotions/Frostling.dds</Button>
-            <bRace>1</bRace>
-            <DamageTypeCombats>
-                <DamageTypeCombat>
-                    <DamageType>DAMAGE_COLD</DamageType>
-                    <iCombat>1</iCombat>
-                </DamageTypeCombat>
-            </DamageTypeCombats>
-            <DamageTypeResists>
-                <DamageTypeResist>
-                    <DamageType>DAMAGE_COLD</DamageType>
-                    <iResist>100</iResist>
-                </DamageTypeResist>
-                <DamageTypeResist>
-                    <DamageType>DAMAGE_FIRE</DamageType>
-                    <iResist>-50</iResist>
-                </DamageTypeResist>
-            </DamageTypeResists>
-            <TerrainDoubleMoves>
-                <TerrainDoubleMove>
-                    <TerrainType>TERRAIN_SNOW</TerrainType>
-                    <bTerrainDoubleMove>1</bTerrainDoubleMove>
-                </TerrainDoubleMove>
-            </TerrainDoubleMoves>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_GOLEM</Type>
-            <Description>TXT_KEY_PROMOTION_GOLEM</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_NEVER</TechPrereq>
-            <iNeutralHealChange>-5</iNeutralHealChange>
-            <iFriendlyHealChange>-10</iFriendlyHealChange>
-            <Button>Art/Interface/Buttons/Promotions/Golem.dds</Button>
-            <bImmuneToFear>1</bImmuneToFear>
-            <bNotAlive>1</bNotAlive>
-            <bRace>1</bRace>
-            <DamageTypeResists>
-                <DamageTypeResist>
-                    <DamageType>DAMAGE_DEATH</DamageType>
-                    <iResist>100</iResist>
-                </DamageTypeResist>
-                <DamageTypeResist>
-                    <DamageType>DAMAGE_POISON</DamageType>
-                    <iResist>100</iResist>
-                </DamageTypeResist>
-            </DamageTypeResists>
-        </PromotionInfo>
-        <PromotionInfo>
             <Type>PROMOTION_GUARDSMAN</Type>
             <Description>TXT_KEY_PROMOTION_GUARDSMAN</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
@@ -2866,36 +2632,13 @@
             <iMinLevel>-1</iMinLevel>
         </PromotionInfo>
         <PromotionInfo>
-            <Type>PROMOTION_ILLUSION</Type>
-            <Description>TXT_KEY_PROMOTION_ILLUSION</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_NEVER</TechPrereq>
-            <Button>Art/Interface/Buttons/Promotions/Illusion.dds</Button>
-            <bNotAlive>1</bNotAlive>
-            <bRace>1</bRace>
-            <iCombatHealPercent>100</iCombatHealPercent>
-            <iCombatLimit>90</iCombatLimit>
-            <PromotionSummonPerk>PROMOTION_ILLUSION</PromotionSummonPerk>
-            <UnitArtStyleType>UNIT_ARTSTYLE_ILLUSION</UnitArtStyleType>
-            <DamageTypeResists>
-                <DamageTypeResist>
-                    <DamageType>DAMAGE_DEATH</DamageType>
-                    <iResist>100</iResist>
-                </DamageTypeResist>
-                <DamageTypeResist>
-                    <DamageType>DAMAGE_POISON</DamageType>
-                    <iResist>100</iResist>
-                </DamageTypeResist>
-            </DamageTypeResists>
-        </PromotionInfo>
-        <PromotionInfo>
             <Type>PROMOTION_ILLUSIONIST</Type>
             <Description>TXT_KEY_PROMOTION_ILLUSIONIST</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <TechPrereq>TECH_NEVER</TechPrereq>
             <Button>Art/Interface/Buttons/Promotions/Illusionist.dds</Button>
             <iMinLevel>-1</iMinLevel>
-            <PromotionSummonPerk>PROMOTION_ILLUSION</PromotionSummonPerk>
+            <PromotionSummonPerk>NONE</PromotionSummonPerk>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_IMMORTAL</Type>
@@ -3071,29 +2814,6 @@
                 <DamageTypeResist>
                     <DamageType>DAMAGE_LIGHTNING</DamageType>
                     <iResist>50</iResist>
-                </DamageTypeResist>
-            </DamageTypeResists>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_LIZARDMAN</Type>
-            <Description>TXT_KEY_PROMOTION_LIZARDMAN</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_NEVER</TechPrereq>
-            <bAmphib>1</bAmphib>
-            <bRiver>1</bRiver>
-            <TerrainAttacks>
-            </TerrainAttacks>
-            <TerrainDefenses>
-            </TerrainDefenses>
-            <TerrainDoubleMoves>
-            </TerrainDoubleMoves>
-            <Button>Art/Interface/Buttons/Promotions/Lizardman.dds</Button>
-            <bRace>1</bRace>
-            <UnitArtStyleType>UNIT_ARTSTYLE_LIZARDMAN</UnitArtStyleType>
-            <DamageTypeResists>
-                <DamageTypeResist>
-                    <DamageType>DAMAGE_POISON</DamageType>
-                    <iResist>10</iResist>
                 </DamageTypeResist>
             </DamageTypeResists>
         </PromotionInfo>
@@ -3563,28 +3283,6 @@
             <iMinLevel>-1</iMinLevel>
         </PromotionInfo>
         <PromotionInfo>
-            <Type>PROMOTION_ORC</Type>
-            <Description>TXT_KEY_PROMOTION_ORC</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_NEVER</TechPrereq>
-            <FeatureAttacks>
-                <FeatureAttack>
-                    <FeatureType>FEATURE_JUNGLE</FeatureType>
-                    <iFeatureAttack>10</iFeatureAttack>
-                </FeatureAttack>
-            </FeatureAttacks>
-            <Button>Art/Interface/Buttons/Promotions/Orc.dds</Button>
-            <bRace>1</bRace>
-            <iWorkRateModify>-10</iWorkRateModify>
-            <UnitArtStyleType>UNIT_ARTSTYLE_ORC</UnitArtStyleType>
-            <DamageTypeResists>
-                <DamageTypeResist>
-                    <DamageType>DAMAGE_FIRE</DamageType>
-                    <iResist>25</iResist>
-                </DamageTypeResist>
-            </DamageTypeResists>
-        </PromotionInfo>
-        <PromotionInfo>
             <Type>PROMOTION_PERFECT_SIGHT</Type>
             <Description>TXT_KEY_PROMOTION_PERFECT_SIGHT</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
@@ -3601,7 +3299,7 @@
             </UnitCombats>
             <Button>Art/Interface/Buttons/Promotions/PerfectSight.dds</Button>
             <bSeeInvisible>1</bSeeInvisible>
-            <PromotionCombatType>PROMOTION_ILLUSION</PromotionCombatType>
+            <PromotionCombatType>NONE</PromotionCombatType>
             <iPromotionCombatMod>50</iPromotionCombatMod>
         </PromotionInfo>
         <PromotionInfo>
@@ -3835,18 +3533,6 @@
             <Button>Art/Interface/Buttons/Promotions/ProphecyMark.dds</Button>
             <iMinLevel>-1</iMinLevel>
             <iModifyGlobalCounter>1</iModifyGlobalCounter>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_PUPPET</Type>
-            <Description>TXT_KEY_PROMOTION_PUPPET</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <iCombatPercent>-20</iCombatPercent>
-            <Button>Art/Interface/Buttons/Promotions/Puppet.dds</Button>
-            <bNotAlive>1</bNotAlive>
-            <bRace>1</bRace>
-            <iCasterResistModify>20</iCasterResistModify>
-            <iSpellDamageModify>-10</iSpellDamageModify>
-            <PromotionSummonPerk>PROMOTION_PUPPET</PromotionSummonPerk>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_RECRUITER</Type>
@@ -4542,34 +4228,6 @@
             <PromotionPrereqAnd>PROMOTION_HERO</PromotionPrereqAnd>
         </PromotionInfo>
         <PromotionInfo>
-            <Type>PROMOTION_UNDEAD</Type>
-            <Description>TXT_KEY_PROMOTION_UNDEAD</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_NEVER</TechPrereq>
-            <Button>Art/Interface/Buttons/Promotions/Undead.dds</Button>
-            <bImmuneToFear>1</bImmuneToFear>
-            <bNotAlive>1</bNotAlive>
-            <bRace>1</bRace>
-            <DamageTypeResists>
-                <DamageTypeResist>
-                    <DamageType>DAMAGE_DEATH</DamageType>
-                    <iResist>100</iResist>
-                </DamageTypeResist>
-                <DamageTypeResist>
-                    <DamageType>DAMAGE_HOLY</DamageType>
-                    <iResist>-50</iResist>
-                </DamageTypeResist>
-                <DamageTypeResist>
-                    <DamageType>DAMAGE_POISON</DamageType>
-                    <iResist>100</iResist>
-                </DamageTypeResist>
-                <DamageTypeResist>
-                    <DamageType>DAMAGE_UNHOLY</DamageType>
-                    <iResist>50</iResist>
-                </DamageTypeResist>
-            </DamageTypeResists>
-        </PromotionInfo>
-        <PromotionInfo>
             <Type>PROMOTION_UNDEAD_SLAYING</Type>
             <Description>TXT_KEY_PROMOTION_UNDEAD_SLAYING</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
@@ -4590,7 +4248,7 @@
                 </UnitCombat>
             </UnitCombats>
             <Button>Art/Interface/Buttons/Promotions/Undeadslaying.dds</Button>
-            <PromotionCombatType>PROMOTION_UNDEAD</PromotionCombatType>
+            <PromotionCombatType>NONE</PromotionCombatType>
             <iPromotionCombatMod>40</iPromotionCombatMod>
         </PromotionInfo>
         <PromotionInfo>
