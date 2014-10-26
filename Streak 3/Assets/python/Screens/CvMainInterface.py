@@ -429,11 +429,13 @@ class CvMainInterface:
 		screen.setImageButton( "ReligiousAdvisorButton", "", iBtnX, iBtnY, iBtnWidth, iBtnWidth, WidgetTypes.WIDGET_ACTION, gc.getControlInfo(ControlTypes.CONTROL_RELIGION_SCREEN).getActionInfoIndex(), -1 )
 		screen.setStyle( "ReligiousAdvisorButton", "Button_HUDAdvisorReligious_Style" )
 		screen.hide( "ReligiousAdvisorButton" )
-		
-		iBtnX += iBtnAdvance
-		screen.setImageButton( "CorporationAdvisorButton", "", iBtnX, iBtnY, iBtnWidth, iBtnWidth, WidgetTypes.WIDGET_ACTION, gc.getControlInfo(ControlTypes.CONTROL_CORPORATION_SCREEN).getActionInfoIndex(), -1 )
-		screen.setStyle( "CorporationAdvisorButton", "Button_HUDAdvisorCorporation_Style" )
-		screen.hide( "CorporationAdvisorButton" )
+
+#Removed Somnium Button
+#Adrian		
+		#iBtnX += iBtnAdvance
+		#screen.setImageButton( "CorporationAdvisorButton", "", iBtnX, iBtnY, iBtnWidth, iBtnWidth, WidgetTypes.WIDGET_ACTION, gc.getControlInfo(ControlTypes.CONTROL_CORPORATION_SCREEN).getActionInfoIndex(), -1 )
+		#screen.setStyle( "CorporationAdvisorButton", "Button_HUDAdvisorCorporation_Style" )
+		#screen.hide( "CorporationAdvisorButton" )
 		
 		iBtnX += iBtnAdvance
 		screen.setImageButton( "VictoryAdvisorButton", "", iBtnX, iBtnY, iBtnWidth, iBtnWidth, WidgetTypes.WIDGET_ACTION, gc.getControlInfo(ControlTypes.CONTROL_VICTORY_SCREEN).getActionInfoIndex(), -1 )
@@ -451,10 +453,13 @@ class CvMainInterface:
 #			screen.setImageButton( "EspionageAdvisorButton", "", iBtnX, iBtnY, iBtnWidth, iBtnWidth, WidgetTypes.WIDGET_ACTION, gc.getControlInfo(ControlTypes.CONTROL_ESPIONAGE_SCREEN).getActionInfoIndex(), -1 )
 #			screen.setStyle( "EspionageAdvisorButton", "Button_HUDAdvisorEspionage_Style" )
 #			screen.hide( "EspionageAdvisorButton" )
-		iBtnX += iBtnAdvance
-		screen.setImageButton( "EspionageAdvisorButton", "", iBtnX, iBtnY, iBtnWidth, iBtnWidth, WidgetTypes.WIDGET_ACTION, gc.getControlInfo(ControlTypes.CONTROL_ESPIONAGE_SCREEN).getActionInfoIndex(), -1 )
-		screen.setStyle( "EspionageAdvisorButton", "Button_HUDAdvisorEspionage_Style" )
-		screen.hide( "EspionageAdvisorButton" )
+
+#Removed Scenario Button
+#Adrian		
+#		iBtnX += iBtnAdvance
+#		screen.setImageButton( "EspionageAdvisorButton", "", iBtnX, iBtnY, iBtnWidth, iBtnWidth, WidgetTypes.WIDGET_ACTION, gc.getControlInfo(ControlTypes.CONTROL_ESPIONAGE_SCREEN).getActionInfoIndex(), -1 )
+#		screen.setStyle( "EspionageAdvisorButton", "Button_HUDAdvisorEspionage_Style" )
+#		screen.hide( "EspionageAdvisorButton" )
 #FfH: End Modify
 
 		# City Tabs
@@ -1113,7 +1118,7 @@ class CvMainInterface:
 			screen.show( "ForeignAdvisorButton" )
 			screen.show( "TechAdvisorButton" )
 			screen.show( "CivicsAdvisorButton" )
-			screen.show( "ReligiousAdvisorButton" )
+#			screen.show( "ReligiousAdvisorButton" )
 			screen.show( "CorporationAdvisorButton" )
 			screen.show( "FinanceAdvisorButton" )
 			screen.show( "MilitaryAdvisorButton" )
@@ -1125,13 +1130,13 @@ class CvMainInterface:
 #			screen.moveToFront( "TrophyButton" )
 #FfH: End Add
 
-			screen.moveToFront( "EspionageAdvisorButton" )
+#			screen.moveToFront( "EspionageAdvisorButton" )
 			screen.moveToFront( "DomesticAdvisorButton" )
 			screen.moveToFront( "ForeignAdvisorButton" )
 			screen.moveToFront( "TechAdvisorButton" )
 			screen.moveToFront( "CivicsAdvisorButton" )
 			screen.moveToFront( "ReligiousAdvisorButton" )
-			screen.moveToFront( "CorporationAdvisorButton" )
+#			screen.moveToFront( "CorporationAdvisorButton" )
 			screen.moveToFront( "FinanceAdvisorButton" )
 			screen.moveToFront( "MilitaryAdvisorButton" )
 			screen.moveToFront( "VictoryAdvisorButton" )
@@ -1183,13 +1188,13 @@ class CvMainInterface:
 #			screen.show( "TrophyButton" )
 #FfH: End Add
 
-			screen.show( "EspionageAdvisorButton" )
+#			screen.show( "EspionageAdvisorButton" )
 			screen.show( "DomesticAdvisorButton" )
 			screen.show( "ForeignAdvisorButton" )
 			screen.show( "TechAdvisorButton" )
 			screen.show( "CivicsAdvisorButton" )
 			screen.show( "ReligiousAdvisorButton" )
-			screen.show( "CorporationAdvisorButton" )
+#			screen.show( "CorporationAdvisorButton" )
 			screen.show( "FinanceAdvisorButton" )
 			screen.show( "MilitaryAdvisorButton" )
 			screen.show( "VictoryAdvisorButton" )
@@ -1200,13 +1205,13 @@ class CvMainInterface:
 #			screen.moveToFront( "TrophyButton" )
 #FfH: End Add
 
-			screen.moveToFront( "EspionageAdvisorButton" )
+#			screen.moveToFront( "EspionageAdvisorButton" )
 			screen.moveToFront( "DomesticAdvisorButton" )
 			screen.moveToFront( "ForeignAdvisorButton" )
 			screen.moveToFront( "TechAdvisorButton" )
 			screen.moveToFront( "CivicsAdvisorButton" )
 			screen.moveToFront( "ReligiousAdvisorButton" )
-			screen.moveToFront( "CorporationAdvisorButton" )
+#			screen.moveToFront( "CorporationAdvisorButton" )
 			screen.moveToFront( "FinanceAdvisorButton" )
 			screen.moveToFront( "MilitaryAdvisorButton" )
 			screen.moveToFront( "VictoryAdvisorButton" )
@@ -1229,13 +1234,13 @@ class CvMainInterface:
 #			screen.show( "TrophyButton" )
 #FfH: End Add
 
-			screen.show( "EspionageAdvisorButton" )
+#			screen.show( "EspionageAdvisorButton" )
 			screen.show( "DomesticAdvisorButton" )
 			screen.show( "ForeignAdvisorButton" )
 			screen.show( "TechAdvisorButton" )
 			screen.show( "CivicsAdvisorButton" )
 			screen.show( "ReligiousAdvisorButton" )
-			screen.show( "CorporationAdvisorButton" )
+#			screen.show( "CorporationAdvisorButton" )
 			screen.show( "FinanceAdvisorButton" )
 			screen.show( "MilitaryAdvisorButton" )
 			screen.show( "VictoryAdvisorButton" )
@@ -1246,13 +1251,13 @@ class CvMainInterface:
 #			screen.moveToFront( "TrophyButton" )
 #FfH: End Add
 
-			screen.moveToFront( "EspionageAdvisorButton" )
+#			screen.moveToFront( "EspionageAdvisorButton" )
 			screen.moveToFront( "DomesticAdvisorButton" )
 			screen.moveToFront( "ForeignAdvisorButton" )
 			screen.moveToFront( "TechAdvisorButton" )
 			screen.moveToFront( "CivicsAdvisorButton" )
 			screen.moveToFront( "ReligiousAdvisorButton" )
-			screen.moveToFront( "CorporationAdvisorButton" )
+#			screen.moveToFront( "CorporationAdvisorButton" )
 			screen.moveToFront( "FinanceAdvisorButton" )
 			screen.moveToFront( "MilitaryAdvisorButton" )
 			screen.moveToFront( "VictoryAdvisorButton" )

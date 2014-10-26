@@ -67,42 +67,42 @@
 			<Description>TXT_KEY_GAME_OPTION_THAW</Description>
 			<Help>TXT_KEY_GAME_OPTION_THAW_HELP</Help>
 			<bDefault>0</bDefault>
-			<bVisible>1</bVisible>
+			<bVisible>0</bVisible>
 		</GameOptionInfo>
 		<GameOptionInfo>
 			<Type>GAMEOPTION_CHALLENGE_CUT_LOSERS</Type>
 			<Description>TXT_KEY_GAME_OPTION_CHALLENGE_CUT_LOSERS</Description>
 			<Help>TXT_KEY_GAME_OPTION_CHALLENGE_CUT_LOSERS_HELP</Help>
 			<bDefault>0</bDefault>
-			<bVisible>1</bVisible>
+			<bVisible>0</bVisible>
 		</GameOptionInfo>
 		<GameOptionInfo>
 			<Type>GAMEOPTION_CHALLENGE_HIGH_TO_LOW</Type>
 			<Description>TXT_KEY_GAME_OPTION_CHALLENGE_HIGH_TO_LOW</Description>
 			<Help>TXT_KEY_GAME_OPTION_CHALLENGE_HIGH_TO_LOW_HELP</Help>
 			<bDefault>0</bDefault>
-			<bVisible>1</bVisible>
+			<bVisible>0</bVisible>
 		</GameOptionInfo>
 		<GameOptionInfo>
 			<Type>GAMEOPTION_CHALLENGE_INCREASING_DIFFICULTY</Type>
 			<Description>TXT_KEY_GAME_OPTION_CHALLENGE_INCREASING_DIFFICULTY</Description>
 			<Help>TXT_KEY_GAME_OPTION_CHALLENGE_INCREASING_DIFFICULTY_HELP</Help>
 			<bDefault>0</bDefault>
-			<bVisible>1</bVisible>
+			<bVisible>0</bVisible>
 		</GameOptionInfo>
 		<GameOptionInfo>
 			<Type>GAMEOPTION_AI_NO_BUILDING_PREREQS</Type>
 			<Description>TXT_KEY_GAME_OPTION_AI_NO_BUILDING_PREREQS</Description>
 			<Help>TXT_KEY_GAME_OPTION_AI_NO_BUILDING_PREREQS_HELP</Help>
 			<bDefault>0</bDefault>
-			<bVisible>1</bVisible>
+			<bVisible>0</bVisible>
 		</GameOptionInfo>
 		<GameOptionInfo>
 			<Type>GAMEOPTION_AI_NO_MINIMUM_LEVEL</Type>
 			<Description>TXT_KEY_GAME_OPTION_AI_NO_MINIMUM_LEVEL</Description>
 			<Help>TXT_KEY_GAME_OPTION_AI_NO_MINIMUM_LEVEL_HELP</Help>
 			<bDefault>0</bDefault>
-			<bVisible>1</bVisible>
+			<bVisible>0</bVisible>
 		</GameOptionInfo>
 		<GameOptionInfo>
 			<Type>GAMEOPTION_NO_CITY_RAZING</Type>
@@ -263,21 +263,21 @@
 			<Description>TXT_KEY_GAME_OPTION_DOUBLE_GLOBAL_COUNTER</Description>
 			<Help>TXT_KEY_GAME_OPTION_DOUBLE_GLOBAL_COUNTER_HELP</Help>
 			<bDefault>0</bDefault>
-			<bVisible>1</bVisible>
+			<bVisible>0</bVisible>
 		</GameOptionInfo>
 		<GameOptionInfo>
 			<Type>GAMEOPTION_NO_GLOBAL_COUNTER</Type>
 			<Description>TXT_KEY_GAME_OPTION_NO_GLOBAL_COUNTER</Description>
 			<Help>TXT_KEY_GAME_OPTION_NO_GLOBAL_COUNTER_HELP</Help>
-			<bDefault>0</bDefault>
-			<bVisible>1</bVisible>
+			<bDefault>1</bDefault>
+			<bVisible>0</bVisible>
 		</GameOptionInfo>
 		<GameOptionInfo>
 			<Type>GAMEOPTION_NO_HYBOREM_OR_BASIUM</Type>
 			<Description>TXT_KEY_GAME_OPTION_NO_HYBOREM_OR_BASIUM</Description>
 			<Help>TXT_KEY_GAME_OPTION_NO_HYBOREM_OR_BASIUM_HELP</Help>
 			<bDefault>1</bDefault>
-			<bVisible>1</bVisible>
+			<bVisible>0</bVisible>
 		</GameOptionInfo>
 		<GameOptionInfo>
 			<Type>GAMEOPTION_NO_LAIRS</Type>
@@ -291,7 +291,7 @@
 			<Description>TXT_KEY_GAME_OPTION_NO_PLOT_COUNTER</Description>
 			<Help>TXT_KEY_GAME_OPTION_NO_PLOT_COUNTER_HELP</Help>
 			<bDefault>0</bDefault>
-			<bVisible>1</bVisible>
+			<bVisible>0</bVisible>
 		</GameOptionInfo>
 		<GameOptionInfo>
 			<Type>GAMEOPTION_FLEXIBLE_DIFFICULTY</Type>
@@ -319,49 +319,49 @@
 			<Description>TXT_KEY_GAME_OPTION_NO_RELIGION_0</Description>
 			<Help>TXT_KEY_GAME_OPTION_NO_RELIGION_0_HELP</Help>
 			<bDefault>0</bDefault>
-			<bVisible>1</bVisible>
+			<bVisible>0</bVisible>
 		</GameOptionInfo>
 		<GameOptionInfo>
 			<Type>GAMEOPTION_NO_RELIGION_1</Type>
 			<Description>TXT_KEY_GAME_OPTION_NO_RELIGION_1</Description>
 			<Help>TXT_KEY_GAME_OPTION_NO_RELIGION_1_HELP</Help>
 			<bDefault>0</bDefault>
-			<bVisible>1</bVisible>
+			<bVisible>0</bVisible>
 		</GameOptionInfo>
 		<GameOptionInfo>
 			<Type>GAMEOPTION_NO_RELIGION_2</Type>
 			<Description>TXT_KEY_GAME_OPTION_NO_RELIGION_2</Description>
 			<Help>TXT_KEY_GAME_OPTION_NO_RELIGION_2_HELP</Help>
 			<bDefault>0</bDefault>
-			<bVisible>1</bVisible>
+			<bVisible>0</bVisible>
 		</GameOptionInfo>
 		<GameOptionInfo>
 			<Type>GAMEOPTION_NO_RELIGION_3</Type>
 			<Description>TXT_KEY_GAME_OPTION_NO_RELIGION_3</Description>
 			<Help>TXT_KEY_GAME_OPTION_NO_RELIGION_3_HELP</Help>
 			<bDefault>0</bDefault>
-			<bVisible>1</bVisible>
+			<bVisible>0</bVisible>
 		</GameOptionInfo>
 		<GameOptionInfo>
 			<Type>GAMEOPTION_NO_RELIGION_4</Type>
 			<Description>TXT_KEY_GAME_OPTION_NO_RELIGION_4</Description>
 			<Help>TXT_KEY_GAME_OPTION_NO_RELIGION_4_HELP</Help>
 			<bDefault>0</bDefault>
-			<bVisible>1</bVisible>
+			<bVisible>0</bVisible>
 		</GameOptionInfo>
 		<GameOptionInfo>
 			<Type>GAMEOPTION_NO_RELIGION_5</Type>
 			<Description>TXT_KEY_GAME_OPTION_NO_RELIGION_5</Description>
 			<Help>TXT_KEY_GAME_OPTION_NO_RELIGION_5_HELP</Help>
 			<bDefault>0</bDefault>
-			<bVisible>1</bVisible>
+			<bVisible>0</bVisible>
 		</GameOptionInfo>
 		<GameOptionInfo>
 			<Type>GAMEOPTION_NO_RELIGION_6</Type>
 			<Description>TXT_KEY_GAME_OPTION_NO_RELIGION_6</Description>
 			<Help>TXT_KEY_GAME_OPTION_NO_RELIGION_6_HELP</Help>
 			<bDefault>0</bDefault>
-			<bVisible>1</bVisible>
+			<bVisible>0</bVisible>
 		</GameOptionInfo>
 		<GameOptionInfo>
 			<Type>GAMEOPTION_NO_WORLD_SPELLS</Type>
@@ -375,21 +375,21 @@
 			<Description>TXT_KEY_GAME_OPTION_NO_ACHERON</Description>
 			<Help>TXT_KEY_GAME_OPTION_NO_ACHERON_HELP</Help>
 			<bDefault>1</bDefault>
-			<bVisible>1</bVisible>
+			<bVisible>0</bVisible>
 		</GameOptionInfo>
 		<GameOptionInfo>
 			<Type>GAMEOPTION_NO_DUIN</Type>
 			<Description>TXT_KEY_GAME_OPTION_NO_DUIN</Description>
 			<Help>TXT_KEY_GAME_OPTION_NO_DUIN_HELP</Help>
-			<bDefault>0</bDefault>
-			<bVisible>1</bVisible>
+			<bDefault>1</bDefault>
+			<bVisible>0</bVisible>
 		</GameOptionInfo>
 		<GameOptionInfo>
 			<Type>GAMEOPTION_NO_ORTHUS</Type>
 			<Description>TXT_KEY_GAME_OPTION_NO_ORTHUS</Description>
 			<Help>TXT_KEY_GAME_OPTION_NO_ORTHUS_HELP</Help>
 			<bDefault>1</bDefault>
-			<bVisible>1</bVisible>
+			<bVisible>0</bVisible>
 		</GameOptionInfo>
 		<GameOptionInfo>
 			<Type>GAMEOPTION_WB_AGAINST_THE_GREY</Type>
