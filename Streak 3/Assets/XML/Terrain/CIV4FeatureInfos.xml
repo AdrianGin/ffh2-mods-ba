@@ -1023,10 +1023,6 @@
 			<bNukeImmune>0</bNukeImmune>
 			<OnUnitChangeTo/>
 			<TerrainBooleans>
-				<TerrainBoolean>
-					<TerrainType>TERRAIN_BURNING_SANDS</TerrainType>
-					<bTerrain>1</bTerrain>
-				</TerrainBoolean>
 			</TerrainBooleans>
 			<FootstepSounds>
 				<FootstepSound>
@@ -1139,10 +1135,6 @@
 			<bNukeImmune>0</bNukeImmune>
 			<OnUnitChangeTo/>
 			<TerrainBooleans>
-				<TerrainBoolean>
-					<TerrainType>TERRAIN_BURNING_SANDS</TerrainType>
-					<bTerrain>1</bTerrain>
-				</TerrainBoolean>
 			</TerrainBooleans>
 			<FootstepSounds>
 				<FootstepSound>
