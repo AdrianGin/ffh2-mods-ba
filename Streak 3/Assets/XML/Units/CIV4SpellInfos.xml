@@ -1066,23 +1066,6 @@
             <Button>Art/Interface/Buttons/Spells/Recruit.dds</Button>
         </SpellInfo>
         <SpellInfo>
-            <Type>SPELL_RECRUIT_MERCENARY</Type>
-            <Description>TXT_KEY_SPELL_RECRUIT_MERCENARY</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_RECRUIT_MERCENARY_HELP</Help>
-            <BuildingClassOwnedPrereq>BUILDINGCLASS_GUILD_OF_THE_NINE</BuildingClassOwnedPrereq>
-            <bAllowAI>1</bAllowAI>
-            <bInBordersOnly>1</bInBordersOnly>
-            <bInCityOnly>1</bInCityOnly>
-            <bHasCasted>1</bHasCasted>
-            <iCost>180</iCost>
-            <PyResult>spellRecruitMercenary(pCaster)</PyResult>
-            <PyRequirement>reqRecruitMercenary(pCaster)</PyRequirement>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_RECRUIT</Sound>
-            <Button>Art/Interface/Buttons/Units/Mercenary.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
             <Type>SPELL_REGENERATION</Type>
             <Description>TXT_KEY_SPELL_REGENERATION</Description>
             <Civilopedia>TXT_KEY_SPELL_REGENERATION_PEDIA</Civilopedia>
