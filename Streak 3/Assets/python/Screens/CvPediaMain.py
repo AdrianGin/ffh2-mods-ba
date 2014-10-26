@@ -137,11 +137,11 @@ class CvPediaMain( CvPediaScreen.CvPediaScreen ):
 			CivilopediaPageTypes.CIVILOPEDIA_PAGE_RELIGION	: self.placeReligions,
 #			CivilopediaPageTypes.CIVILOPEDIA_PAGE_CORPORATION	: self.placeCorporations,
 			CivilopediaPageTypes.CIVILOPEDIA_PAGE_CIVIC	: self.placeCivics,
-			CivilopediaPageTypes.CIVILOPEDIA_PAGE_PROJECT	: self.placeProjects,
+#			CivilopediaPageTypes.CIVILOPEDIA_PAGE_PROJECT	: self.placeProjects,
 #			CivilopediaPageTypes.CIVILOPEDIA_PAGE_CONCEPT	: self.placeConcepts,
 #			CivilopediaPageTypes.CIVILOPEDIA_PAGE_CONCEPT_NEW	: self.placeNewConcepts,
 #			CivilopediaPageTypes.CIVILOPEDIA_PAGE_HINTS	: self.placeHints,
-			CivilopediaPageTypes.CIVILOPEDIA_PAGE_SPELL : self.placeSpells,
+#			CivilopediaPageTypes.CIVILOPEDIA_PAGE_SPELL : self.placeSpells,
 			}
 		
 	def getScreen(self):
@@ -205,8 +205,8 @@ class CvPediaMain( CvPediaScreen.CvPediaScreen ):
 								self.szCategoryLeader,
 								self.szCategoryReligion, 
 #								self.szCategoryCorporation, 
-								self.szCategoryCivic, 
-								self.szCategoryProject,]
+								self.szCategoryCivic, ]
+#								self.szCategoryProject,]
 #								self.szCategoryConcept,
 #								self.szCategoryConceptNew,
 #								self.szCategoryHints,]

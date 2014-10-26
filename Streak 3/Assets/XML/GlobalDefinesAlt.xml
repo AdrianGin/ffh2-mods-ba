@@ -11,6 +11,12 @@
 		<iDefineIntVal>0</iDefineIntVal>
 	</Define>
 	<Define>
+		<DefineName>SCORE_WONDER_FACTOR</DefineName>
+		<!--Score you get if you have all the wonders-->
+		<iDefineIntVal>200</iDefineIntVal>
+	</Define>
+	
+	<Define>
 		<DefineName>START_YEAR</DefineName>
 		<iDefineIntVal>0</iDefineIntVal>
 	</Define>
