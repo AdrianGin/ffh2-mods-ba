@@ -701,21 +701,6 @@
             <Button>Art/Interface/Buttons/Spells/Stoneskin.dds</Button>
         </SpellInfo>
         <SpellInfo>
-            <Type>SPELL_WALL_OF_STONE</Type>
-            <Description>TXT_KEY_SPELL_WALL_OF_STONE</Description>
-            <Civilopedia>TXT_KEY_SPELL_WALL_OF_STONE_PEDIA</Civilopedia>
-            <PromotionPrereq1>PROMOTION_EARTH1</PromotionPrereq1>
-            <PromotionPrereq2>PROMOTION_CHANNELING1</PromotionPrereq2>
-            <bAllowAI>1</bAllowAI>
-            <iAIWeightCity>50</iAIWeightCity>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <CreateBuildingType>BUILDING_WALL_OF_STONE</CreateBuildingType>
-            <Effect>EFFECT_CREATION</Effect>
-            <Sound>AS3D_SPELL_HOPE</Sound>
-            <Button>Art/Interface/Buttons/Buildings/Wall.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
             <Type>SPELL_WARCRY</Type>
             <Description>TXT_KEY_SPELL_WARCRY</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
