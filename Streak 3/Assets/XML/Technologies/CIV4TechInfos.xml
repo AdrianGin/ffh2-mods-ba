@@ -3663,7 +3663,7 @@
                 </Flavor>
             </Flavors>
             <OrPreReqs>
-                    <PrereqTech>TECH_MATHEMATICS</PrereqTech>
+                    <PrereqTech>NONE</PrereqTech>
             </OrPreReqs>
             <AndPreReqs>
                     <PrereqTech>TECH_CONSTRUCTION</PrereqTech>
