@@ -314,7 +314,7 @@
 	</Define>
 	<Define>
 		<DefineName>SPELL_FEAST</DefineName>
-		<DefineTextVal>SPELL_FEAST</DefineTextVal>
+		<DefineTextVal>NONE</DefineTextVal>
 	</Define>
  	<Define>
 		<DefineName>SPELL_HASTE</DefineName>
