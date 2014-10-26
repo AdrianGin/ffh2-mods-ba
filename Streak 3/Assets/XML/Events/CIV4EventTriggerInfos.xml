@@ -2784,7 +2784,7 @@
             </PrereqEvents>
             <bPrereqEventPlot>0</bPrereqEventPlot>
             <OrPreReqs>
-                <PrereqTech>TECH_SORCERY</PrereqTech>
+                <PrereqTech>NONE</PrereqTech>
             </OrPreReqs>
             <AndPreReqs>
             </AndPreReqs>
@@ -3291,7 +3291,7 @@
             </PrereqEvents>
             <bPrereqEventPlot>0</bPrereqEventPlot>
             <OrPreReqs>
-                <PrereqTech>TECH_TRADE</PrereqTech>
+                <PrereqTech>NONE</PrereqTech>
             </OrPreReqs>
             <AndPreReqs>
             </AndPreReqs>
@@ -3595,7 +3595,7 @@
             </PrereqEvents>
             <bPrereqEventPlot>0</bPrereqEventPlot>
             <OrPreReqs>
-                <PrereqTech>TECH_PHILOSOPHY</PrereqTech>
+                <PrereqTech>NONE</PrereqTech>
             </OrPreReqs>
             <AndPreReqs>
             </AndPreReqs>
@@ -3696,7 +3696,7 @@
             </PrereqEvents>
             <bPrereqEventPlot>0</bPrereqEventPlot>
             <OrPreReqs>
-                <PrereqTech>TECH_TRADE</PrereqTech>
+                <PrereqTech>NONE</PrereqTech>
             </OrPreReqs>
             <AndPreReqs>
             </AndPreReqs>
@@ -4095,7 +4095,7 @@
             </PrereqEvents>
             <bPrereqEventPlot>0</bPrereqEventPlot>
             <OrPreReqs>
-                <PrereqTech>TECH_WRITING</PrereqTech>
+                <PrereqTech>NONE</PrereqTech>
             </OrPreReqs>
             <AndPreReqs>
             </AndPreReqs>
@@ -4199,7 +4199,7 @@
             </PrereqEvents>
             <bPrereqEventPlot>0</bPrereqEventPlot>
             <OrPreReqs>
-                <PrereqTech>TECH_PHILOSOPHY</PrereqTech>
+                <PrereqTech>NONE</PrereqTech>
             </OrPreReqs>
             <AndPreReqs>
             </AndPreReqs>
@@ -6763,8 +6763,7 @@
             </PrereqEvents>
             <bPrereqEventPlot>0</bPrereqEventPlot>
             <OrPreReqs>
-                <PrereqTech>TECH_IRON_WORKING</PrereqTech>
-                <PrereqTech>TECH_POISONS</PrereqTech>
+                <PrereqTech>NONE</PrereqTech>
             </OrPreReqs>
             <AndPreReqs>
             </AndPreReqs>
@@ -6967,7 +6966,7 @@
             </PrereqEvents>
             <bPrereqEventPlot>0</bPrereqEventPlot>
             <OrPreReqs>
-                <PrereqTech>TECH_OPTICS</PrereqTech>
+                <PrereqTech>NONE</PrereqTech>
             </OrPreReqs>
             <AndPreReqs>
             </AndPreReqs>
@@ -7169,7 +7168,7 @@
             </PrereqEvents>
             <bPrereqEventPlot>0</bPrereqEventPlot>
             <OrPreReqs>
-                <PrereqTech>TECH_IRON_WORKING</PrereqTech>
+                <PrereqTech>NONE</PrereqTech>
             </OrPreReqs>
             <AndPreReqs>
             </AndPreReqs>
@@ -13667,7 +13666,7 @@
             <AndPreReqs>
             </AndPreReqs>
             <ObsoleteTechs>
-                <ObsoleteTech>TECH_MEDICINE</ObsoleteTech>
+                <ObsoleteTech>NONE</ObsoleteTech>
             </ObsoleteTechs>
             <bRecurring>1</bRecurring>
             <bTeam>0</bTeam>
@@ -17068,7 +17067,7 @@
             </PrereqEvents>
             <bPrereqEventPlot>0</bPrereqEventPlot>
             <OrPreReqs>
-                <PrereqTech>TECH_WRITING</PrereqTech>
+                <PrereqTech>NONE</PrereqTech>
             </OrPreReqs>
             <AndPreReqs>
             </AndPreReqs>
@@ -17977,7 +17976,7 @@
             </PrereqEvents>
             <bPrereqEventPlot>0</bPrereqEventPlot>
             <OrPreReqs>
-                <PrereqTech>TECH_MEDICINE</PrereqTech>
+                <PrereqTech>NONE</PrereqTech>
             </OrPreReqs>
             <AndPreReqs>
             </AndPreReqs>
@@ -18179,7 +18178,7 @@
             </PrereqEvents>
             <bPrereqEventPlot>0</bPrereqEventPlot>
             <OrPreReqs>
-                <PrereqTech>TECH_ANIMAL_MASTERY</PrereqTech>
+                <PrereqTech>NONE</PrereqTech>
             </OrPreReqs>
             <AndPreReqs>
             </AndPreReqs>
@@ -18481,7 +18480,7 @@
             </PrereqEvents>
             <bPrereqEventPlot>0</bPrereqEventPlot>
             <OrPreReqs>
-                <PrereqTech>TECH_PRIESTHOOD</PrereqTech>
+                <PrereqTech>NONE</PrereqTech>
             </OrPreReqs>
             <AndPreReqs>
             </AndPreReqs>

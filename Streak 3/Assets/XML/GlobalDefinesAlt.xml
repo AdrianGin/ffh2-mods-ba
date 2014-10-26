@@ -316,6 +316,10 @@
 		<DefineName>SPELL_FEAST</DefineName>
 		<DefineTextVal>SPELL_FEAST</DefineTextVal>
 	</Define>
+ 	<Define>
+		<DefineName>SPELL_HASTE</DefineName>
+		<DefineTextVal>NONE</DefineTextVal>
+	</Define>	
 	<Define>
 		<DefineName>SPELL_RESIST_CHANCE_BASE</DefineName>
 		<iDefineIntVal>20</iDefineIntVal>
@@ -334,15 +338,15 @@
 	</Define>
 	<Define>
 		<DefineName>TECH_FESTIVALS</DefineName>
-		<DefineTextVal>TECH_FESTIVALS</DefineTextVal>
+		<DefineTextVal>NONE</DefineTextVal>
 	</Define>
 	<Define>
 		<DefineName>TECH_TAXATION</DefineName>
-		<DefineTextVal>TECH_TAXATION</DefineTextVal>
+		<DefineTextVal>NONE</DefineTextVal>
 	</Define>
 	<Define>
 		<DefineName>TECH_WAY_OF_THE_EARTHMOTHER</DefineName>
-		<DefineTextVal>TECH_WAY_OF_THE_EARTHMOTHER</DefineTextVal>
+		<DefineTextVal>NONE</DefineTextVal>
 	</Define>
 	<Define>
 		<DefineName>TILES_PER_SPAWN</DefineName>
