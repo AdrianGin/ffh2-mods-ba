@@ -456,6 +456,7 @@ class CvEventManager:
 		return
 
 	def onBeginGameTurn(self, argsList):
+	
 		'Called at the beginning of the end of each turn'
 		iGameTurn = argsList[0]
 
@@ -495,6 +496,7 @@ class CvEventManager:
 	def onEndGameTurn(self, argsList):
 		'Called at the end of the end of each turn'
 		iGameTurn = argsList[0]
+		return
 		
 	def onBeginPlayerTurn(self, argsList):
 		'Called at the beginning of a players turn'
@@ -502,33 +504,38 @@ class CvEventManager:
 		pPlayer = gc.getPlayer(iPlayer)
 		player = PyPlayer(iPlayer)		
 
-		if pPlayer.getStateReligion() == gc.getInfoTypeForString('RELIGION_THE_ASHEN_VEIL'):
-			if pPlayer.getCurrentEra() != gc.getInfoTypeForString('ERA_VEIL'):
-				pPlayer.setCurrentEra(gc.getInfoTypeForString('ERA_VEIL'))
+		
 
-		if pPlayer.getStateReligion() == gc.getInfoTypeForString('RELIGION_THE_ORDER'):
-			if pPlayer.getCurrentEra() != gc.getInfoTypeForString('ERA_ORDE'):
-				pPlayer.setCurrentEra(gc.getInfoTypeForString('ERA_ORDE'))
+#		if pPlayer.getStateReligion() == gc.getInfoTypeForString('RELIGION_THE_ASHEN_VEIL'):
+#			if pPlayer.getCurrentEra() != gc.getInfoTypeForString('ERA_VEIL'):
+#				pPlayer.setCurrentEra(gc.getInfoTypeForString('ERA_VEIL'))
+#
+#		if pPlayer.getStateReligion() == gc.getInfoTypeForString('RELIGION_THE_ORDER'):
+#			if pPlayer.getCurrentEra() != gc.getInfoTypeForString('ERA_ORDE'):
+#				pPlayer.setCurrentEra(gc.getInfoTypeForString('ERA_ORDE'))
+#
 
-		if pPlayer.getStateReligion() == gc.getInfoTypeForString('RELIGION_FELLOWSHIP_OF_LEAVES'):
-			if pPlayer.getCurrentEra() != gc.getInfoTypeForString('ERA_LEAF'):
-				pPlayer.setCurrentEra(gc.getInfoTypeForString('ERA_LEAF'))
+#		if pPlayer.getStateReligion() == gc.getInfoTypeForString('RELIGION_FELLOWSHIP_OF_LEAVES'):
+#			if pPlayer.getCurrentEra() != gc.getInfoTypeForString('ERA_LEAF'):
+#				pPlayer.setCurrentEra(gc.getInfoTypeForString('ERA_LEAF'))
+#
+#		if pPlayer.getStateReligion() == gc.getInfoTypeForString('RELIGION_RUNES_OF_KILMORPH'):
+#			if pPlayer.getCurrentEra() != gc.getInfoTypeForString('ERA_RUNE'):
+#				pPlayer.setCurrentEra(gc.getInfoTypeForString('ERA_RUNE'))
 
-		if pPlayer.getStateReligion() == gc.getInfoTypeForString('RELIGION_RUNES_OF_KILMORPH'):
-			if pPlayer.getCurrentEra() != gc.getInfoTypeForString('ERA_RUNE'):
-				pPlayer.setCurrentEra(gc.getInfoTypeForString('ERA_RUNE'))
-
-		if pPlayer.getStateReligion() == gc.getInfoTypeForString('RELIGION_OCTOPUS_OVERLORDS'):
-			if pPlayer.getCurrentEra() != gc.getInfoTypeForString('ERA_OCTO'):
-				pPlayer.setCurrentEra(gc.getInfoTypeForString('ERA_OCTO'))
-
-		if pPlayer.getStateReligion() == gc.getInfoTypeForString('RELIGION_THE_EMPYREAN'):
-			if pPlayer.getCurrentEra() != gc.getInfoTypeForString('ERA_EMPY'):
-				pPlayer.setCurrentEra(gc.getInfoTypeForString('ERA_EMPY'))
-
-		if pPlayer.getStateReligion() == gc.getInfoTypeForString('RELIGION_COUNCIL_OF_ESUS'):
-			if pPlayer.getCurrentEra() != gc.getInfoTypeForString('ERA_COUN'):
-				pPlayer.setCurrentEra(gc.getInfoTypeForString('ERA_COUN'))
+#		if pPlayer.getStateReligion() == gc.getInfoTypeForString('RELIGION_OCTOPUS_OVERLORDS'):
+#			if pPlayer.getCurrentEra() != gc.getInfoTypeForString('ERA_OCTO'):
+#				pPlayer.setCurrentEra(gc.getInfoTypeForString('ERA_OCTO'))
+#
+#		if pPlayer.getStateReligion() == gc.getInfoTypeForString('RELIGION_THE_EMPYREAN'):
+#			if pPlayer.getCurrentEra() != gc.getInfoTypeForString('ERA_EMPY'):
+#				pPlayer.setCurrentEra(gc.getInfoTypeForString('ERA_EMPY'))
+#
+#		if pPlayer.getStateReligion() == gc.getInfoTypeForString('RELIGION_COUNCIL_OF_ESUS'):
+#			if pPlayer.getCurrentEra() != gc.getInfoTypeForString('ERA_COUN'):
+#				pPlayer.setCurrentEra(gc.getInfoTypeForString('ERA_COUN'))
+#
+		
 
 		if not pPlayer.isHuman():
 			if not CyGame().getWBMapScript():
@@ -542,6 +549,9 @@ class CvEventManager:
 
 #		if pPlayer.getCivilizationType() == gc.getInfoTypeForString('CIVILIZATION_LUCHUIRP'):
 #			cf.doTurnLuchuirp(iPlayer)
+
+
+		
 
 		if pPlayer.hasTrait(gc.getInfoTypeForString('TRAIT_INSANE')):
 			if CyGame().getSorenRandNum(1000, "Insane") < 20:
