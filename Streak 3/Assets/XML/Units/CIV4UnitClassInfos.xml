@@ -47,24 +47,6 @@
 			<DefaultUnit>EQUIPMENT_GODSLAYER</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
-			<Type>EQUIPMENTCLASS_ATHAME</Type>
-			<Description>TXT_KEY_EQUIPMENT_ATHAME</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>EQUIPMENT_ATHAME</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>EQUIPMENTCLASS_CROWN_OF_COMMAND</Type>
-			<Description>TXT_KEY_EQUIPMENT_CROWN_OF_COMMAND</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>EQUIPMENT_CROWN_OF_COMMAND</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
 			<Type>EQUIPMENTCLASS_WAR</Type>
 			<Description>TXT_KEY_EQUIPMENT_WAR</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
@@ -108,15 +90,6 @@
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>EQUIPMENT_TREASURE</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>EQUIPMENTCLASS_BLACK_MIRROR</Type>
-			<Description>TXT_KEY_EQUIPMENT_BLACK_MIRROR</Description>
-			<iMaxGlobalInstances>1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>EQUIPMENT_BLACK_MIRROR</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
 			<Type>UNITCLASS_PUPPET_LOKI</Type>
@@ -198,15 +171,6 @@
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>EQUIPMENT_SYLIVENS_PERFECT_LYRE</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
-			<Type>EQUIPMENTCLASS_CROWN_OF_AKHARIEN</Type>
-			<Description>TXT_KEY_EQUIPMENT_CROWN_OF_AKHARIEN</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>EQUIPMENT_CROWN_OF_AKHARIEN</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
 			<Type>UNITCLASS_AZER</Type>

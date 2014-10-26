@@ -220,21 +220,6 @@
             </DamageTypeResists>
         </PromotionInfo>
         <PromotionInfo>
-            <Type>PROMOTION_ATHAME</Type>
-            <Description>TXT_KEY_EQUIPMENT_ATHAME</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_NEVER</TechPrereq>
-            <Button>Art/Interface/Buttons/Equipment/Athame.dds</Button>
-            <bEquipment>1</bEquipment>
-            <PromotionCombatApply>PROMOTION_PLAGUED</PromotionCombatApply>
-            <DamageTypeCombats>
-                <DamageTypeCombat>
-                    <DamageType>DAMAGE_POISON</DamageType>
-                    <iCombat>3</iCombat>
-                </DamageTypeCombat>
-            </DamageTypeCombats>
-        </PromotionInfo>
-        <PromotionInfo>
             <Type>PROMOTION_AVATAR</Type>
             <Description>TXT_KEY_PROMOTION_AVATAR</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
@@ -308,14 +293,6 @@
                 </UnitCombat>
             </UnitCombats>
             <Button>,Art/Interface/Buttons/Promotions/Barrage3.dds,Art/Interface/Buttons/Promotions_Atlas.dds,6,1</Button>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_BLACK_MIRROR</Type>
-            <Description>TXT_KEY_EQUIPMENT_BLACK_MIRROR</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_NEVER</TechPrereq>
-            <Button>Art/Interface/Buttons/Equipment/BlackMirror.dds</Button>
-            <bEquipment>1</bEquipment>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_BLITZ</Type>
@@ -1536,15 +1513,6 @@
             <PromotionRandomApply>PROMOTION_ENRAGED</PromotionRandomApply>
         </PromotionInfo>
         <PromotionInfo>
-            <Type>PROMOTION_CROWN_OF_AKHARIEN</Type>
-            <Description>TXT_KEY_EQUIPMENT_CROWN_OF_AKHARIEN</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_NEVER</TechPrereq>
-            <Button>Art/Interface/Buttons/Equipment/CrownOfAkharien.dds</Button>
-            <bEquipment>1</bEquipment>
-            <bImmuneToMagic>1</bImmuneToMagic>
-        </PromotionInfo>
-        <PromotionInfo>
             <Type>PROMOTION_CROWN_OF_BRILLANCE</Type>
             <Description>TXT_KEY_PROMOTION_CROWN_OF_BRILLANCE</Description>
             <Help>TXT_KEY_PROMOTION_CROWN_OF_BRILLANCE_PEDIA</Help>
@@ -1557,15 +1525,6 @@
             <iExpireChance>25</iExpireChance>
             <iMinLevel>-1</iMinLevel>
             <PyPerTurn>effectCrownOfBrillance(pCaster)</PyPerTurn>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_CROWN_OF_COMMAND</Type>
-            <Description>TXT_KEY_EQUIPMENT_CROWN_OF_COMMAND</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_NEVER</TechPrereq>
-            <Button>Art/Interface/Buttons/Equipment/CrownOfCommand.dds</Button>
-            <bEquipment>1</bEquipment>
-            <iCombatCapturePercent>30</iCombatCapturePercent>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_DANCE_OF_BLADES</Type>
