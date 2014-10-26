@@ -310,7 +310,7 @@
 	</Define>
 	<Define>
 		<DefineName>SPELL_DISRUPT</DefineName>
-		<DefineTextVal>SPELL_DISRUPT</DefineTextVal>
+		<DefineTextVal>NONE</DefineTextVal>
 	</Define>
 	<Define>
 		<DefineName>SPELL_FEAST</DefineName>
