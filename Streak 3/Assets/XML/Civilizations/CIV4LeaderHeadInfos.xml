@@ -577,7 +577,7 @@
             <iAIValueMage>100</iAIValueMage>
             <iAttitudeBadBonus>2</iAttitudeBadBonus>
             <iEconomyTechValue>130</iEconomyTechValue>
-            <iFavoriteEarlyMilTech>TECH_BRONZE_WORKING</iFavoriteEarlyMilTech>
+            <iFavoriteEarlyMilTech>NONE</iFavoriteEarlyMilTech>
             <iFavoriteEarlyReligion>NONE</iFavoriteEarlyReligion>
             <iFavoriteEarlyWonder>NONE</iFavoriteEarlyWonder>
             <iFavoriteLateWonder>NONE</iFavoriteLateWonder>
@@ -1159,7 +1159,7 @@
             <iAIValueMage>100</iAIValueMage>
             <iAttitudeBadBonus>2</iAttitudeBadBonus>
             <iEconomyTechValue>130</iEconomyTechValue>
-            <iFavoriteEarlyMilTech>TECH_BRONZE_WORKING</iFavoriteEarlyMilTech>
+            <iFavoriteEarlyMilTech>NONE</iFavoriteEarlyMilTech>
             <iFavoriteEarlyReligion>NONE</iFavoriteEarlyReligion>
             <iFavoriteEarlyWonder>NONE</iFavoriteEarlyWonder>
             <iFavoriteLateWonder>NONE</iFavoriteLateWonder>
@@ -1741,7 +1741,7 @@
             <iAIValueMage>100</iAIValueMage>
             <iAttitudeBadBonus>2</iAttitudeBadBonus>
             <iEconomyTechValue>130</iEconomyTechValue>
-            <iFavoriteEarlyMilTech>TECH_BRONZE_WORKING</iFavoriteEarlyMilTech>
+            <iFavoriteEarlyMilTech>NONE</iFavoriteEarlyMilTech>
             <iFavoriteEarlyReligion>NONE</iFavoriteEarlyReligion>
             <iFavoriteEarlyWonder>NONE</iFavoriteEarlyWonder>
             <iFavoriteLateWonder>NONE</iFavoriteLateWonder>
@@ -2331,7 +2331,7 @@
             <iAIValueMage>100</iAIValueMage>
             <iAttitudeBadBonus>2</iAttitudeBadBonus>
             <iEconomyTechValue>130</iEconomyTechValue>
-            <iFavoriteEarlyMilTech>TECH_BRONZE_WORKING</iFavoriteEarlyMilTech>
+            <iFavoriteEarlyMilTech>NONE</iFavoriteEarlyMilTech>
             <iFavoriteEarlyReligion>NONE</iFavoriteEarlyReligion>
             <iFavoriteEarlyWonder>NONE</iFavoriteEarlyWonder>
             <iFavoriteLateWonder>NONE</iFavoriteLateWonder>
