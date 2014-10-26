@@ -42,40 +42,6 @@
             <Button>Art/Interface/Buttons/Spells/Ardor.dds</Button>
         </SpellInfo>
         <SpellInfo>
-            <Type>SPELL_BLUR</Type>
-            <Description>TXT_KEY_SPELL_BLUR</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <PromotionPrereq1>PROMOTION_SHADOW1</PromotionPrereq1>
-            <PromotionPrereq2>PROMOTION_CHANNELING1</PromotionPrereq2>
-            <bAllowAI>1</bAllowAI>
-            <iAIWeightWar>50</iAIWeightWar>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <AddPromotionType1>PROMOTION_BLUR</AddPromotionType1>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_CHARM_PERSON</Sound>
-            <Button>Art/Interface/Buttons/Promotions/Blur.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_CHARM_PERSON</Type>
-            <Description>TXT_KEY_SPELL_CHARM_PERSON</Description>
-            <Civilopedia>TXT_KEY_SPELL_CHARM_PERSON_PEDIA</Civilopedia>
-            <PromotionPrereq1>PROMOTION_MIND2</PromotionPrereq1>
-            <bAllowAI>1</bAllowAI>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <bResistable>1</bResistable>
-            <iRange>1</iRange>
-            <iResistModify>20</iResistModify>
-            <AddPromotionType1>PROMOTION_CHARMED</AddPromotionType1>
-            <bImmuneTeam>1</bImmuneTeam>
-            <bImmuneNeutral>1</bImmuneNeutral>
-            <bImmuneNotAlive>1</bImmuneNotAlive>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_CHARM_PERSON</Sound>
-            <Button>Art/Interface/Buttons/Promotions/Charmed.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
             <Type>SPELL_COURAGE</Type>
             <Description>TXT_KEY_SPELL_COURAGE</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
@@ -234,21 +200,6 @@
             <Button>Art/Interface/Buttons/Spells/Declarenationality.dds</Button>
         </SpellInfo>
         <SpellInfo>
-            <Type>SPELL_DESTROY_UNDEAD</Type>
-            <Description>TXT_KEY_SPELL_DESTROY_UNDEAD</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_DESTROY_UNDEAD_HELP</Help>
-            <PromotionPrereq1>PROMOTION_LIFE2</PromotionPrereq1>
-            <bAllowAI>1</bAllowAI>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <PyResult>spellDestroyUndead(pCaster)</PyResult>
-            <PyRequirement>reqDestroyUndead(pCaster)</PyRequirement>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_DESTROY_UNDEAD</Sound>
-            <Button>Art/Interface/Buttons/Spells/Destroy Undead.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
             <Type>SPELL_DISRUPT</Type>
             <Description>TXT_KEY_SPELL_DISRUPT</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
@@ -264,28 +215,6 @@
             <Effect>EFFECT_SPELL2</Effect>
             <Sound>AS3D_SPELL_REVOLT</Sound>
             <Button>Art/Interface/Buttons/Spells/Disrupt.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_DOMINATION</Type>
-            <Description>TXT_KEY_SPELL_DOMINATION</Description>
-            <Civilopedia>TXT_KEY_SPELL_DOMINATION_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_DOMINATION_HELP</Help>
-            <PromotionPrereq1>PROMOTION_MIND3</PromotionPrereq1>
-            <bAllowAI>1</bAllowAI>
-            <iAIWeight>50</iAIWeight>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <bResistable>1</bResistable>
-            <iRange>1</iRange>
-            <iResistModify>10</iResistModify>
-            <bImmuneTeam>1</bImmuneTeam>
-            <bImmuneNeutral>1</bImmuneNeutral>
-            <bImmuneNotAlive>1</bImmuneNotAlive>
-            <PyResult>spellDomination(pCaster)</PyResult>
-            <PyRequirement>reqDomination(pCaster)</PyRequirement>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_DOMINATION</Sound>
-            <Button>Art/Interface/Buttons/Spells/Domination.dds</Button>
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_ENTERTAIN</Type>
@@ -484,23 +413,6 @@
             <Effect>EFFECT_CREATION</Effect>
             <Sound>AS3D_SPELL_INQUISITION</Sound>
             <Button>Art/Interface/Buttons/Spells/Inquisition.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_INSPIRATION</Type>
-            <Description>TXT_KEY_SPELL_INSPIRATION</Description>
-            <Civilopedia>TXT_KEY_SPELL_INSPIRATION_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_INSPIRATION_HELP</Help>
-            <PromotionPrereq1>PROMOTION_MIND1</PromotionPrereq1>
-            <PromotionPrereq2>PROMOTION_CHANNELING1</PromotionPrereq2>
-            <bAllowAI>1</bAllowAI>
-            <bInCityOnly>1</bInCityOnly>
-            <iAIWeightCity>50</iAIWeightCity>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <CreateBuildingType>BUILDING_INSPIRATION</CreateBuildingType>
-            <Effect>EFFECT_CREATION</Effect>
-            <Sound>AS3D_SPELL_INSPIRATION</Sound>
-            <Button>Art/Interface/Buttons/Buildings/Inspiration.dds</Button>
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_INTO_THE_MIST</Type>
@@ -715,23 +627,6 @@
             <Button>Art/Interface/Buttons/Spells/Religious Fervor.dds</Button>
         </SpellInfo>
         <SpellInfo>
-            <Type>SPELL_RESSURECTION</Type>
-            <Description>TXT_KEY_SPELL_RESSURECTION</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_RESSURECTION_HELP</Help>
-            <PromotionPrereq1>PROMOTION_LIFE3</PromotionPrereq1>
-            <bAllowAI>1</bAllowAI>
-            <iAIWeight>300</iAIWeight>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <iDelay>7</iDelay>
-            <PyResult>spellRessurection(pCaster)</PyResult>
-            <PyRequirement>reqRessurection(pCaster)</PyRequirement>
-            <Effect>EFFECT_RESSURECTION</Effect>
-            <Sound>AS3D_SPELL_CURE_DISEASE</Sound>
-            <Button>Art/Interface/Buttons/Spells/Ressurection.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
             <Type>SPELL_REVELRY</Type>
             <Description>TXT_KEY_SPELL_REVELRY</Description>
             <Civilopedia>TXT_KEY_SPELL_REVELRY_PEDIA</Civilopedia>
@@ -783,40 +678,6 @@
             <Effect>EFFECT_SPELL1</Effect>
             <Sound>AS3D_SPELL_DEMON</Sound>
             <Button>Art/Interface/Buttons/Spells/Roar.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_SANCTIFY</Type>
-            <Description>TXT_KEY_SPELL_SANCTIFY</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_SANCTIFY_HELP</Help>
-            <PromotionPrereq1>PROMOTION_LIFE1</PromotionPrereq1>
-            <PromotionPrereq2>PROMOTION_CHANNELING1</PromotionPrereq2>
-            <bAllowAI>1</bAllowAI>
-            <bAllowAutomateTerrain>1</bAllowAutomateTerrain>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <PyResult>spellSanctify(pCaster)</PyResult>
-            <PyRequirement>reqSanctify(pCaster)</PyRequirement>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_SANCTIFY</Sound>
-            <Button>Art/Interface/Buttons/Spells/Sanctify.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_SANCTUARY</Type>
-            <Description>TXT_KEY_SPELL_SANCTUARY</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_SANCTUARY_HELP</Help>
-            <CivilizationPrereq>NONE</CivilizationPrereq>
-            <bAllowAI>1</bAllowAI>
-            <bGlobal>1</bGlobal>
-            <iAIWeight>300</iAIWeight>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <PyResult>spellSanctuary(pCaster)</PyResult>
-            <PyRequirement>reqSanctuary(pCaster)</PyRequirement>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_SANCTIFY</Sound>
-            <Button>Art/Interface/Buttons/Spells/Sanctuary.dds</Button>
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_SHADOWWALK</Type>
@@ -959,8 +820,7 @@
             <Sound>AS3D_SPELL_TRAIN</Sound>
             <bGraphicalOnly>1</bGraphicalOnly>
             <Button>Art/Interface/Buttons/Units/Archer Scorpion Clan.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
+        </SpellInfo><SpellInfo>
             <Type>SPELL_UPGRADE_WOLF_RIDER</Type>
             <Description>TXT_KEY_SPELL_UPGRADE_WOLF_RIDER</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
@@ -977,40 +837,6 @@
             <Sound>AS3D_SPELL_TRAIN</Sound>
             <bGraphicalOnly>1</bGraphicalOnly>
             <Button>Art/Interface/Buttons/Units/Wolf Rider Scorpion Clan.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_VEIL_OF_NIGHT</Type>
-            <Description>TXT_KEY_SPELL_VEIL_OF_NIGHT</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_VEIL_OF_NIGHT_HELP</Help>
-            <CivilizationPrereq>NONE</CivilizationPrereq>
-            <bAllowAI>1</bAllowAI>
-            <bGlobal>1</bGlobal>
-            <iAIWeight>300</iAIWeight>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <PyResult>spellVeilOfNight(pCaster)</PyResult>
-            <PyRequirement>reqVeilOfNight(pCaster)</PyRequirement>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_SANCTIFY</Sound>
-            <Button>Art/Interface/Buttons/Spells/Veil of Night.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_VITALIZE</Type>
-            <Description>TXT_KEY_SPELL_VITALIZE</Description>
-            <Civilopedia>TXT_KEY_SPELL_VITALIZE_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_VITALIZE_HELP</Help>
-            <PromotionPrereq1>PROMOTION_NATURE3</PromotionPrereq1>
-            <bAllowAI>1</bAllowAI>
-            <bAllowAutomateTerrain>1</bAllowAutomateTerrain>
-            <iAIWeight>10</iAIWeight>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <PyResult>spellVitalize(pCaster)</PyResult>
-            <PyRequirement>reqVitalize(pCaster)</PyRequirement>
-            <Effect>EFFECT_VITALIZE</Effect>
-            <Sound>AS3D_SPELL_SANCTIFY</Sound>
-            <Button>Art/Interface/Buttons/Spells/Vitalize.dds</Button>
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_WALL_OF_STONE</Type>
@@ -1108,23 +934,6 @@
             <Effect>EFFECT_SPELL1</Effect>
             <Sound>AS3D_SPELL_BLESS</Sound>
             <Button>Art/Interface/Buttons/Spells/Veil of Night.dds</Button>
-        </SpellInfo>        
-        <SpellInfo>
-            <Type>SPELL_HEALING_WATERS</Type>
-            <Description>TXT_KEY_SPELL_HEALING_WATERS</Description>
-            <Civilopedia>TXT_KEY_SPELL_HEALING_WATERS_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_HEALING_WATERS_HELP</Help>
-            <PromotionPrereq1>PROMOTION_LIFE1</PromotionPrereq1>
-            <PromotionPrereq2>PROMOTION_CHANNELING1</PromotionPrereq2>
-            <bAllowAI>1</bAllowAI>
-            <bInCityOnly>1</bInCityOnly>
-            <iAIWeightCity>50</iAIWeightCity>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <CreateBuildingType>BUILDING_HEALING_WATERS</CreateBuildingType>
-            <Effect>EFFECT_CREATION</Effect>
-            <Sound>AS3D_SPELL_INSPIRATION</Sound>
-            <Button>,Art/Interface/Buttons/Buildings/Wall.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,5,8</Button>
         </SpellInfo>
     </SpellInfos>
 </Civ4SpellInfos>
