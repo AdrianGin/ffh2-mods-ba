@@ -263,10 +263,6 @@
             <PrereqBonuses>
             </PrereqBonuses>
             <ProductionTraits>
-                <ProductionTrait>
-                    <ProductionTraitType>TRAIT_DEFENDER</ProductionTraitType>
-                    <iProductionTrait>100</iProductionTrait>
-                </ProductionTrait>
             </ProductionTraits>
             <HappinessTraits>
             </HappinessTraits>
@@ -302,9 +298,9 @@
             <bPrereqReligion>0</bPrereqReligion>
             <bCenterInCity>0</bCenterInCity>
             <iAIWeight>0</iAIWeight>
-            <iCost>100</iCost>
+            <iCost>150</iCost>
             <iHurryCostModifier>0</iHurryCostModifier>
-            <iAdvancedStartCost>100</iAdvancedStartCost>
+            <iAdvancedStartCost>150</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
             <iMinAreaSize>-1</iMinAreaSize>
             <iConquestProb>25</iConquestProb>
@@ -354,7 +350,7 @@
             <iForeignTradeRouteModifier>0</iForeignTradeRouteModifier>
             <iGlobalPopulationChange>0</iGlobalPopulationChange>
             <iFreeTechs>0</iFreeTechs>
-            <iDefense>10</iDefense>
+            <iDefense>0</iDefense>
             <iBombardDefense>0</iBombardDefense>
             <iAllCityDefense>0</iAllCityDefense>
             <iEspionageDefense>0</iEspionageDefense>
@@ -405,6 +401,10 @@
             <BonusProductionModifiers>
             </BonusProductionModifiers>
             <UnitCombatFreeExperiences>
+				<UnitCombatFreeExperience>
+					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+                    <iExperience>2</iExperience>
+				</UnitCombatFreeExperience>
             </UnitCombatFreeExperiences>
             <DomainFreeExperiences>
             </DomainFreeExperiences>
@@ -1209,9 +1209,9 @@
             <bPrereqReligion>0</bPrereqReligion>
             <bCenterInCity>0</bCenterInCity>
             <iAIWeight>0</iAIWeight>
-            <iCost>250</iCost>
+            <iCost>150</iCost>
             <iHurryCostModifier>0</iHurryCostModifier>
-            <iAdvancedStartCost>100</iAdvancedStartCost>
+            <iAdvancedStartCost>150</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
             <iMinAreaSize>-1</iMinAreaSize>
             <iConquestProb>25</iConquestProb>
@@ -1242,7 +1242,7 @@
             <iWarWearinessModifier>0</iWarWearinessModifier>
             <iGlobalWarWearinessModifier>0</iGlobalWarWearinessModifier>
             <iEnemyWarWearinessModifier>0</iEnemyWarWearinessModifier>
-            <iHealRateChange>25</iHealRateChange>
+            <iHealRateChange>0</iHealRateChange>
             <iHealth>0</iHealth>
             <iAreaHealth>0</iAreaHealth>
             <iGlobalHealth>0</iGlobalHealth>
@@ -1254,10 +1254,10 @@
             <iMilitaryProductionModifier>0</iMilitaryProductionModifier>
             <iSpaceProductionModifier>0</iSpaceProductionModifier>
             <iGlobalSpaceProductionModifier>0</iGlobalSpaceProductionModifier>
-            <iTradeRoutes>1</iTradeRoutes>
+            <iTradeRoutes>0</iTradeRoutes>
             <iCoastalTradeRoutes>0</iCoastalTradeRoutes>
             <iGlobalTradeRoutes>0</iGlobalTradeRoutes>
-            <iTradeRouteModifier>25</iTradeRouteModifier>
+            <iTradeRouteModifier>0</iTradeRouteModifier>
             <iForeignTradeRouteModifier>0</iForeignTradeRouteModifier>
             <iGlobalPopulationChange>0</iGlobalPopulationChange>
             <iFreeTechs>0</iFreeTechs>
@@ -1308,14 +1308,14 @@
             <BonusHealthChanges>
             </BonusHealthChanges>
             <BonusHappinessChanges>
-                <BonusHappinessChange>
-                    <BonusType>BONUS_WINE</BonusType>
-                    <iHappinessChange>1</iHappinessChange>
-                </BonusHappinessChange>
             </BonusHappinessChanges>
             <BonusProductionModifiers>
             </BonusProductionModifiers>
             <UnitCombatFreeExperiences>
+				<UnitCombatFreeExperience>
+					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <iExperience>2</iExperience>
+				</UnitCombatFreeExperience>
             </UnitCombatFreeExperiences>
             <DomainFreeExperiences>
             </DomainFreeExperiences>
@@ -1352,7 +1352,7 @@
             <bRequiresCaster>0</bRequiresCaster>
             <bSeeInvisible>0</bSeeInvisible>
             <bUnhappyProduction>0</bUnhappyProduction>
-            <iCrime>5</iCrime>
+            <iCrime>0</iCrime>
             <iFreePromotionPick>0</iFreePromotionPick>
             <iGlobalResistEnemyModify>0</iGlobalResistEnemyModify>
             <iGlobalResistModify>0</iGlobalResistModify>
@@ -1625,10 +1625,6 @@
             <PrereqBonuses>
             </PrereqBonuses>
             <ProductionTraits>
-                <ProductionTrait>
-                    <ProductionTraitType>TRAIT_ARCANE</ProductionTraitType>
-                    <iProductionTrait>100</iProductionTrait>
-                </ProductionTrait>
             </ProductionTraits>
             <HappinessTraits>
             </HappinessTraits>
@@ -1664,9 +1660,9 @@
             <bPrereqReligion>0</bPrereqReligion>
             <bCenterInCity>0</bCenterInCity>
             <iAIWeight>0</iAIWeight>
-            <iCost>120</iCost>
+            <iCost>150</iCost>
             <iHurryCostModifier>0</iHurryCostModifier>
-            <iAdvancedStartCost>100</iAdvancedStartCost>
+            <iAdvancedStartCost>150</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
             <iMinAreaSize>-1</iMinAreaSize>
             <iConquestProb>25</iConquestProb>
@@ -1767,6 +1763,10 @@
             <BonusProductionModifiers>
             </BonusProductionModifiers>
             <UnitCombatFreeExperiences>
+				<UnitCombatFreeExperience>
+					<UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+                    <iExperience>2</iExperience>
+				</UnitCombatFreeExperience>
             </UnitCombatFreeExperiences>
             <DomainFreeExperiences>
             </DomainFreeExperiences>
@@ -3429,10 +3429,6 @@
             <PrereqBonuses>
             </PrereqBonuses>
             <ProductionTraits>
-                <ProductionTrait>
-                    <ProductionTraitType>TRAIT_AGGRESSIVE</ProductionTraitType>
-                    <iProductionTrait>100</iProductionTrait>
-                </ProductionTrait>
             </ProductionTraits>
             <HappinessTraits>
             </HappinessTraits>
@@ -3468,9 +3464,9 @@
             <bPrereqReligion>0</bPrereqReligion>
             <bCenterInCity>0</bCenterInCity>
             <iAIWeight>0</iAIWeight>
-            <iCost>120</iCost>
+            <iCost>150</iCost>
             <iHurryCostModifier>0</iHurryCostModifier>
-            <iAdvancedStartCost>100</iAdvancedStartCost>
+            <iAdvancedStartCost>150</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
             <iMinAreaSize>-1</iMinAreaSize>
             <iConquestProb>25</iConquestProb>
@@ -3571,6 +3567,10 @@
             <BonusProductionModifiers>
             </BonusProductionModifiers>
             <UnitCombatFreeExperiences>
+				<UnitCombatFreeExperience>
+					<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+                    <iExperience>2</iExperience>
+				</UnitCombatFreeExperience>
             </UnitCombatFreeExperiences>
             <DomainFreeExperiences>
             </DomainFreeExperiences>
@@ -3791,6 +3791,10 @@
             <BonusProductionModifiers>
             </BonusProductionModifiers>
             <UnitCombatFreeExperiences>
+				<UnitCombatFreeExperience>
+					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+                    <iExperience>2</iExperience>
+				</UnitCombatFreeExperience>
             </UnitCombatFreeExperiences>
             <DomainFreeExperiences>
             </DomainFreeExperiences>
@@ -3912,9 +3916,9 @@
             <bPrereqReligion>0</bPrereqReligion>
             <bCenterInCity>0</bCenterInCity>
             <iAIWeight>0</iAIWeight>
-            <iCost>100</iCost>
+            <iCost>150</iCost>
             <iHurryCostModifier>0</iHurryCostModifier>
-            <iAdvancedStartCost>100</iAdvancedStartCost>
+            <iAdvancedStartCost>150</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
             <iMinAreaSize>-1</iMinAreaSize>
             <iConquestProb>25</iConquestProb>
@@ -4015,6 +4019,10 @@
             <BonusProductionModifiers>
             </BonusProductionModifiers>
             <UnitCombatFreeExperiences>
+				<UnitCombatFreeExperience>
+					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <iExperience>2</iExperience>
+				</UnitCombatFreeExperience>
             </UnitCombatFreeExperiences>
             <DomainFreeExperiences>
             </DomainFreeExperiences>
