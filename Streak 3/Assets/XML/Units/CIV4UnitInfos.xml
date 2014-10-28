@@ -1360,7 +1360,7 @@
 				<iRangedWaveSize>1</iRangedWaveSize>
 				<UnitMeshGroup>
 					<iRequired>1</iRequired>
-					<EarlyArtDefineTag>ART_DEF_UNIT_MARKSMAN</EarlyArtDefineTag>
+					<EarlyArtDefineTag>ART_DEF_UNIT_MARKSMAN_SVARTALFAR</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
 			<FormationType>FORMATION_TYPE_RANGED</FormationType>
@@ -2210,13 +2210,13 @@
 			<iAsset>4</iAsset>
 			<iPower>8</iPower>
 			<UnitMeshGroups>
-				<iGroupSize>2</iGroupSize>
+				<iGroupSize>1</iGroupSize>
 				<fMaxSpeed>1.25</fMaxSpeed>
 				<fPadTime>1</fPadTime>
 				<iMeleeWaveSize>2</iMeleeWaveSize>
-				<iRangedWaveSize>2</iRangedWaveSize>
+				<iRangedWaveSize>1</iRangedWaveSize>
 				<UnitMeshGroup>
-					<iRequired>2</iRequired>
+					<iRequired>1</iRequired>
 					<EarlyArtDefineTag>ART_DEF_UNIT_CATAPULT</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
@@ -2429,12 +2429,8 @@
 				<iMeleeWaveSize>2</iMeleeWaveSize>
 				<iRangedWaveSize>0</iRangedWaveSize>
 				<UnitMeshGroup>
-					<iRequired>1</iRequired>
-					<EarlyArtDefineTag>ART_DEF_UNIT_HUNTER</EarlyArtDefineTag>
-				</UnitMeshGroup>
-				<UnitMeshGroup>
-					<iRequired>1</iRequired>
-					<EarlyArtDefineTag>ART_DEF_UNIT_WOLF</EarlyArtDefineTag>
+					<iRequired>2</iRequired>
+					<EarlyArtDefineTag>ART_DEF_UNIT_BEASTMASTER</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
 			<FormationType>FORMATION_TYPE_DEFAULT</FormationType>

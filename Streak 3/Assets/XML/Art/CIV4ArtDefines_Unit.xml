@@ -10173,7 +10173,7 @@
         <UnitArtInfo>
             <Type>ART_DEF_UNIT_MARKSMAN_SVARTALFAR</Type>
             <Button>Art/Interface/Buttons/Units/Marksman Svartalfar.dds</Button>
-            <fScale>0.4</fScale>
+            <fScale>0.44</fScale>
             <fInterfaceScale>1</fInterfaceScale>
             <bActAsLand>0</bActAsLand>
             <bActAsAir>0</bActAsAir>
