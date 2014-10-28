@@ -221,7 +221,7 @@
 				<iRangedWaveSize>0</iRangedWaveSize>
 				<UnitMeshGroup>
 					<iRequired>1</iRequired>
-					<EarlyArtDefineTag>ART_DEF_UNIT_ADEPT</EarlyArtDefineTag>
+					<EarlyArtDefineTag>ART_DEF_UNIT_ARCHMAGE_AMURITES</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
 			<FormationType>FORMATION_TYPE_DEFAULT</FormationType>
@@ -232,6 +232,14 @@
 			<bGraphicalOnly>0</bGraphicalOnly>
 			<iHotKeyPriority>0</iHotKeyPriority>
 			<FreePromotions>
+				<FreePromotion>
+					<PromotionType>PROMOTION_CHANNELING1</PromotionType>
+					<bFreePromotion>1</bFreePromotion>
+				</FreePromotion>
+				<FreePromotion>
+					<PromotionType>PROMOTION_CHANNELING2</PromotionType>
+					<bFreePromotion>1</bFreePromotion>
+				</FreePromotion>
 				<FreePromotion>
 					<PromotionType>PROMOTION_CHANNELING3</PromotionType>
 					<bFreePromotion>1</bFreePromotion>
@@ -458,7 +466,7 @@
 				<iRangedWaveSize>0</iRangedWaveSize>
 				<UnitMeshGroup>
 					<iRequired>1</iRequired>
-					<EarlyArtDefineTag>ART_DEF_UNIT_ADEPT</EarlyArtDefineTag>
+					<EarlyArtDefineTag>ART_DEF_UNIT_WIZARD</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
 			<FormationType>FORMATION_TYPE_DEFAULT</FormationType>
@@ -469,6 +477,10 @@
 			<bGraphicalOnly>0</bGraphicalOnly>
 			<iHotKeyPriority>0</iHotKeyPriority>
 			<FreePromotions>
+				<FreePromotion>
+					<PromotionType>PROMOTION_CHANNELING1</PromotionType>
+					<bFreePromotion>1</bFreePromotion>
+				</FreePromotion>
 				<FreePromotion>
 					<PromotionType>PROMOTION_CHANNELING2</PromotionType>
 					<bFreePromotion>1</bFreePromotion>
@@ -695,7 +707,7 @@
 				<iRangedWaveSize>0</iRangedWaveSize>
 				<UnitMeshGroup>
 					<iRequired>1</iRequired>
-					<EarlyArtDefineTag>ART_DEF_UNIT_ADEPT</EarlyArtDefineTag>
+					<EarlyArtDefineTag>ART_DEF_UNIT_ADEPT_AMURITES</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
 			<FormationType>FORMATION_TYPE_DEFAULT</FormationType>
