@@ -1812,7 +1812,7 @@
         <UnitArtInfo>
             <Type>ART_DEF_UNIT_ARQUEBUS</Type>
             <Button>,Art/Interface/Buttons/Units/Musketman.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,6,1</Button>
-            <fScale>0.46</fScale>
+            <fScale>0.44</fScale>
             <fInterfaceScale>1</fInterfaceScale>
             <bActAsLand>0</bActAsLand>
             <bActAsAir>0</bActAsAir>
@@ -3921,7 +3921,7 @@
         <UnitArtInfo>
             <Type>ART_DEF_UNIT_CHAMPION</Type>
             <Button>Art/Interface/Buttons/Units/Champion.dds</Button>
-            <fScale>0.44</fScale>
+            <fScale>0.45</fScale>
             <fInterfaceScale>1</fInterfaceScale>
             <bActAsLand>0</bActAsLand>
             <bActAsAir>0</bActAsAir>
@@ -4982,7 +4982,7 @@
         <UnitArtInfo>
             <Type>ART_DEF_UNIT_CROSSBOWMAN_BANNOR</Type>
             <Button>Art/Interface/Buttons/Units/Crossbowman Bannor.dds</Button>
-            <fScale>0.44</fScale>
+            <fScale>0.45</fScale>
             <fInterfaceScale>1</fInterfaceScale>
             <bActAsLand>0</bActAsLand>
             <bActAsAir>0</bActAsAir>
@@ -10976,7 +10976,7 @@
         <UnitArtInfo>
             <Type>ART_DEF_UNIT_PHALANX</Type>
             <Button>Art/Interface/Buttons/Units/Phalanx.dds</Button>
-            <fScale>0.42</fScale>
+            <fScale>0.44</fScale>
             <fInterfaceScale>1</fInterfaceScale>
             <bActAsLand>0</bActAsLand>
             <bActAsAir>0</bActAsAir>
@@ -14654,7 +14654,7 @@
         <UnitArtInfo>
             <Type>ART_DEF_UNIT_WAR_ELEPHANT_DOVIELLO</Type>
             <Button>Art/Interface/Buttons/Units/War Elephant Doviello.dds</Button>
-            <fScale>0.32</fScale>
+            <fScale>0.37</fScale>
             <fInterfaceScale>0.6</fInterfaceScale>
             <bActAsLand>0</bActAsLand>
             <bActAsAir>0</bActAsAir>
