@@ -455,7 +455,6 @@
             <Description>TXT_KEY_PROMOTION_CANNIBALIZE</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_COMBAT2</PromotionPrereq>
-            <PromotionPrereqOr1>PROMOTION_UNDEAD</PromotionPrereqOr1>
             <UnitCombats>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
@@ -1386,15 +1385,6 @@
             <iMinLevel>-1</iMinLevel>
         </PromotionInfo>
         <PromotionInfo>
-            <Type>PROMOTION_DRAGON_SLAYING</Type>
-            <Description>TXT_KEY_PROMOTION_DRAGON_SLAYING</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_COMBAT5</PromotionPrereq>
-            <Button>Art/Interface/Buttons/Promotions/Dragonslaying.dds</Button>
-            <PromotionCombatType>NONE</PromotionCombatType>
-            <iPromotionCombatMod>40</iPromotionCombatMod>
-        </PromotionInfo>
-        <PromotionInfo>
             <Type>PROMOTION_DRILL1</Type>
             <Description>TXT_KEY_PROMOTION_DRILL1</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
@@ -1826,7 +1816,6 @@
             <Description>TXT_KEY_PROMOTION_FEAR</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_COMBAT5</PromotionPrereq>
-            <PromotionPrereqOr1>PROMOTION_UNDEAD</PromotionPrereqOr1>
             <UnitCombats>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
@@ -3283,26 +3272,6 @@
             <iMinLevel>-1</iMinLevel>
         </PromotionInfo>
         <PromotionInfo>
-            <Type>PROMOTION_PERFECT_SIGHT</Type>
-            <Description>TXT_KEY_PROMOTION_PERFECT_SIGHT</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_SENTRY2</PromotionPrereq>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/PerfectSight.dds</Button>
-            <bSeeInvisible>1</bSeeInvisible>
-            <PromotionCombatType>NONE</PromotionCombatType>
-            <iPromotionCombatMod>50</iPromotionCombatMod>
-        </PromotionInfo>
-        <PromotionInfo>
             <Type>PROMOTION_PLAGUE_CARRIER</Type>
             <Description>TXT_KEY_PROMOTION_PLAGUE_CARRIER</Description>
             <Help>TXT_KEY_PROMOTION_PLAGUE_CARRIER_PEDIA</Help>
@@ -4226,30 +4195,6 @@
             <bTwincast>1</bTwincast>
             <iAIWeight>300</iAIWeight>
             <PromotionPrereqAnd>PROMOTION_HERO</PromotionPrereqAnd>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_UNDEAD_SLAYING</Type>
-            <Description>TXT_KEY_PROMOTION_UNDEAD_SLAYING</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_COMBAT1</PromotionPrereq>
-            <TechPrereq>NONE</TechPrereq>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Undeadslaying.dds</Button>
-            <PromotionCombatType>NONE</PromotionCombatType>
-            <iPromotionCombatMod>40</iPromotionCombatMod>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_UNHOLY_TAINT</Type>

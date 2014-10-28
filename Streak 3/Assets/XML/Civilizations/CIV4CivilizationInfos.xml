@@ -491,7 +491,7 @@
             <CivilizationActionSound></CivilizationActionSound>
             <bGraphicalOnly>0</bGraphicalOnly>
             <CivTrait>NONE</CivTrait>
-            <DefaultRace>PROMOTION_ORC</DefaultRace>
+            <DefaultRace>NONE</DefaultRace>
             <Help></Help>
             <Hero>NONE</Hero>
             <MaintainFeatures>

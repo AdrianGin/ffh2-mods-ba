@@ -3455,7 +3455,7 @@ int CvPlot::getUnitPlotCapacity() const
 
 	if( this->isHills() )
 	{
-		iMaxUnit += GC.getDefineINT("HIILS_CAPACITY_MODIFIER");
+		iMaxUnit += GC.getDefineINT("HILLS_CAPACITY_MODIFIER");
 	}
 
 	if( this->isCity(true) )

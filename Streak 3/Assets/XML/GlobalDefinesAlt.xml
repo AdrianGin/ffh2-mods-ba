@@ -10,6 +10,12 @@
 		<DefineName>MODS_SHOULD_OVERRIDE_GLOBAL_DEFINES_HERE</DefineName>
 		<iDefineIntVal>0</iDefineIntVal>
 	</Define>
+	
+	<Define>
+		<DefineName>HILLS_EXTRA_DEFENSE</DefineName>
+		<iDefineIntVal>20</iDefineIntVal>
+	</Define>	
+	
 	<Define>
 		<DefineName>SCORE_WONDER_FACTOR</DefineName>
 		<!--Score you get if you have all the wonders-->
@@ -418,7 +424,7 @@
                 <iDefineIntVal>100</iDefineIntVal>
         </Define>
 	<Define>
-		<DefineName>HIILS_CAPACITY_MODIFIER</DefineName>
+		<DefineName>HILLS_CAPACITY_MODIFIER</DefineName>
 		<iDefineIntVal>-20</iDefineIntVal>
 	</Define>
         <Define>
