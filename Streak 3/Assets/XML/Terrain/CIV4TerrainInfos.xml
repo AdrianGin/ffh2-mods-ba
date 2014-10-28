@@ -1324,7 +1324,7 @@
 			<iSeeFrom>0</iSeeFrom>
 			<iSeeThrough>0</iSeeThrough>
 			<iBuildModifier>0</iBuildModifier>
-			<iDefense>0</iDefense>
+			<iDefense>50</iDefense>
 			<Button>Art/Interface\Buttons\WorldBuilder\Terrain_Hill.dds</Button>
 			<FootstepSounds>
 				<FootstepSound>
