@@ -123,7 +123,7 @@
 			<Description>TXT_KEY_UNIT_WAR_ELEPHANT</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iMaxPlayerInstances>3</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_WAR_ELEPHANT</DefaultUnit>
 		</UnitClassInfo>

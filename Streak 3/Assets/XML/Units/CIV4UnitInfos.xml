@@ -235,7 +235,7 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<bAnimal>0</bAnimal>
 			<bFood>0</bFood>
-			<bNoBadGoodies>1</bNoBadGoodies>
+			<bNoBadGoodies>0</bNoBadGoodies>
 			<bOnlyDefensive>0</bOnlyDefensive>
 			<bNoCapture>0</bNoCapture>
 			<bQuickCombat>0</bQuickCombat>
@@ -259,7 +259,7 @@
 			<bCanMoveImpassable>0</bCanMoveImpassable>
 			<bCanMoveAllTerrain>0</bCanMoveAllTerrain>
 			<bFlatMovementCost>0</bFlatMovementCost>
-			<bIgnoreTerrainCost>0</bIgnoreTerrainCost>
+			<bIgnoreTerrainCost>1</bIgnoreTerrainCost>
 			<bNukeImmune>0</bNukeImmune>
 			<bPrereqBonuses>0</bPrereqBonuses>
 			<bPrereqReligion>0</bPrereqReligion>
@@ -425,10 +425,6 @@
 			<bGraphicalOnly>0</bGraphicalOnly>
 			<iHotKeyPriority>0</iHotKeyPriority>
 			<FreePromotions>
-				<FreePromotion>
-					<PromotionType>PROMOTION_SENTRY</PromotionType>
-					<bFreePromotion>1</bFreePromotion>
-				</FreePromotion>
             </FreePromotions>
 			<LeaderPromotion>NONE</LeaderPromotion>
 			<iLeaderExperience>0</iLeaderExperience>
@@ -592,7 +588,7 @@
 			<iCollateralDamageLimit>0</iCollateralDamageLimit>
 			<iCollateralDamageMaxUnits>0</iCollateralDamageMaxUnits>
 			<iCityAttack>0</iCityAttack>
-			<iCityDefense>50</iCityDefense>
+			<iCityDefense>20</iCityDefense>
 			<iAnimalCombat>0</iAnimalCombat>
 			<iHillsAttack>0</iHillsAttack>
 			<iHillsDefense>0</iHillsDefense>
@@ -1050,7 +1046,7 @@
 			<iCollateralDamage>0</iCollateralDamage>
 			<iCollateralDamageLimit>0</iCollateralDamageLimit>
 			<iCollateralDamageMaxUnits>0</iCollateralDamageMaxUnits>
-			<iCityAttack>10</iCityAttack>
+			<iCityAttack>0</iCityAttack>
 			<iCityDefense>0</iCityDefense>
 			<iAnimalCombat>0</iAnimalCombat>
 			<iHillsAttack>0</iHillsAttack>
@@ -1269,7 +1265,7 @@
 			<iChanceFirstStrikes>0</iChanceFirstStrikes>
 			<iInterceptionProbability>0</iInterceptionProbability>
 			<iEvasionProbability>0</iEvasionProbability>
-			<iWithdrawalProb>25</iWithdrawalProb>
+			<iWithdrawalProb>20</iWithdrawalProb>
 			<iCollateralDamage>0</iCollateralDamage>
 			<iCollateralDamageLimit>0</iCollateralDamageLimit>
 			<iCollateralDamageMaxUnits>0</iCollateralDamageMaxUnits>
@@ -1489,10 +1485,10 @@
 			<iCollateralDamageLimit>0</iCollateralDamageLimit>
 			<iCollateralDamageMaxUnits>0</iCollateralDamageMaxUnits>
 			<iCityAttack>0</iCityAttack>
-			<iCityDefense>25</iCityDefense>
+			<iCityDefense>20</iCityDefense>
 			<iAnimalCombat>0</iAnimalCombat>
 			<iHillsAttack>0</iHillsAttack>
-			<iHillsDefense>25</iHillsDefense>
+			<iHillsDefense>20</iHillsDefense>
 			<TerrainNatives>
             </TerrainNatives>
 			<FeatureNatives>
@@ -1558,8 +1554,6 @@
 			<LeaderPromotion>NONE</LeaderPromotion>
 			<iLeaderExperience>0</iLeaderExperience>
 			<iCombatDefense>5</iCombatDefense>
-			<iDefensiveStrikeChance>20</iDefensiveStrikeChance>
-			<iDefensiveStrikeDamage>10</iDefensiveStrikeDamage>
 			<iTier>2</iTier>
 			<PrereqBuildingClass>NONE</PrereqBuildingClass>
 		</UnitInfo>
@@ -2873,13 +2867,13 @@
 			<Flavors>
             </Flavors>
 			<iAIWeight>0</iAIWeight>
-			<iCost>90</iCost>
+			<iCost>100</iCost>
 			<iHurryCostModifier>0</iHurryCostModifier>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
-			<iUnitPlotCost>20</iUnitPlotCost>
+			<iUnitPlotCost>40</iUnitPlotCost>
 			<bNoRevealMap>0</bNoRevealMap>
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
@@ -2912,7 +2906,7 @@
 			<iChanceFirstStrikes>0</iChanceFirstStrikes>
 			<iInterceptionProbability>0</iInterceptionProbability>
 			<iEvasionProbability>0</iEvasionProbability>
-			<iWithdrawalProb>25</iWithdrawalProb>
+			<iWithdrawalProb>0</iWithdrawalProb>
 			<iCollateralDamage>0</iCollateralDamage>
 			<iCollateralDamageLimit>0</iCollateralDamageLimit>
 			<iCollateralDamageMaxUnits>0</iCollateralDamageMaxUnits>
@@ -2938,10 +2932,6 @@
 			<UnitClassDefenseMods>
             </UnitClassDefenseMods>
 			<UnitCombatMods>
-				<UnitCombatMod>
-					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-					<iUnitCombatMod>50</iUnitCombatMod>
-				</UnitCombatMod>
 			</UnitCombatMods>
 			<UnitCombatCollateralImmunes>
             </UnitCombatCollateralImmunes>
@@ -2982,7 +2972,7 @@
 			<LeaderPromotion>NONE</LeaderPromotion>
 			<iLeaderExperience>0</iLeaderExperience>
 			<iCombatDefense>7</iCombatDefense>
-			<iMinLevel>1</iMinLevel>
+			<iMinLevel>0</iMinLevel>
 			<iTier>3</iTier>
 		</UnitInfo>
 	</UnitInfos>
