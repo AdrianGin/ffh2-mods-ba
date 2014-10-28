@@ -63,14 +63,6 @@
             <FavoriteCivic>NONE</FavoriteCivic>
             <FavoriteReligion>NONE</FavoriteReligion>
             <Traits>
-                 <Trait>
-                    <TraitType>TRAIT_INDUSTRIOUS</TraitType>
-                    <bTrait>1</bTrait>
-                 </Trait>
-                 <Trait>
-                    <TraitType>TRAIT_SPIRITUAL</TraitType>
-                    <bTrait>1</bTrait>
-                 </Trait>
             </Traits>
             <Flavors>
                  <Flavor>
@@ -645,14 +637,6 @@
             <FavoriteCivic>NONE</FavoriteCivic>
             <FavoriteReligion>NONE</FavoriteReligion>
             <Traits>
-                 <Trait>
-                    <TraitType>TRAIT_INDUSTRIOUS</TraitType>
-                    <bTrait>1</bTrait>
-                 </Trait>
-                 <Trait>
-                    <TraitType>TRAIT_SPIRITUAL</TraitType>
-                    <bTrait>1</bTrait>
-                 </Trait>
             </Traits>
             <Flavors>
                  <Flavor>
@@ -1227,14 +1211,6 @@
             <FavoriteCivic>NONE</FavoriteCivic>
             <FavoriteReligion>NONE</FavoriteReligion>
             <Traits>
-                 <Trait>
-                    <TraitType>TRAIT_INDUSTRIOUS</TraitType>
-                    <bTrait>1</bTrait>
-                 </Trait>
-                 <Trait>
-                    <TraitType>TRAIT_SPIRITUAL</TraitType>
-                    <bTrait>1</bTrait>
-                 </Trait>
             </Traits>
             <Flavors>
                  <Flavor>
@@ -1817,14 +1793,6 @@
             <FavoriteCivic>NONE</FavoriteCivic>
             <FavoriteReligion>NONE</FavoriteReligion>
             <Traits>
-                 <Trait>
-                    <TraitType>TRAIT_INDUSTRIOUS</TraitType>
-                    <bTrait>1</bTrait>
-                 </Trait>
-                 <Trait>
-                    <TraitType>TRAIT_SPIRITUAL</TraitType>
-                    <bTrait>1</bTrait>
-                 </Trait>
             </Traits>
             <Flavors>
                  <Flavor>
