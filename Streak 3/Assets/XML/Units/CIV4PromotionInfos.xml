@@ -486,17 +486,17 @@
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_CITY_GARRISON1</Type>
-            <Description>TXT_KEY_PROMOTION_GARRISON1</Description>
+            <Description>Garrison I</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>NONE</TechPrereq>
+            <TechPrereq>TECH_FEUDAL_AGE</TechPrereq>
             <iCityDefense>30</iCityDefense>
             <UnitCombats>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
+                </UnitCombat>                
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
@@ -505,13 +505,18 @@
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_CITY_GARRISON2</Type>
-            <Description>TXT_KEY_PROMOTION_GARRISON2</Description>
+            <Description>Garrison II</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_CITY_GARRISON1</PromotionPrereq>
+            <PromotionPrereq>PROMOTION_CITY_GARRISON1</PromotionPrereq>            
+            <TechPrereq>TECH_CASTLE_AGE</TechPrereq>
             <iCityDefense>30</iCityDefense>
             <UnitCombats>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>                
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
@@ -520,19 +525,18 @@
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_CITY_GARRISON3</Type>
-            <Description>TXT_KEY_PROMOTION_GARRISON3</Description>
+            <Description>Garrison III</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_CITY_GARRISON2</PromotionPrereq>
+            <PromotionPrereq>PROMOTION_CITY_GARRISON2</PromotionPrereq>            
+            <TechPrereq>TECH_IMPERIAL_AGE</TechPrereq>
             <iCityDefense>30</iCityDefense>
-            <UnitCombatMods>
-                <UnitCombatMod>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-                    <iUnitCombatMod>20</iUnitCombatMod>
-                </UnitCombatMod>
-            </UnitCombatMods>
             <UnitCombats>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>                
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
@@ -540,23 +544,11 @@
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_CITY_RAIDER1</Type>
-            <Description>TXT_KEY_PROMOTION_CITYRAIDER1</Description>
+            <Description>City Raider I</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>NONE</TechPrereq>
+            <TechPrereq>TECH_FEUDAL_AGE</TechPrereq>
             <iCityAttack>30</iCityAttack>
             <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
@@ -567,19 +559,12 @@
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_CITY_RAIDER2</Type>
-            <Description>TXT_KEY_PROMOTION_CITYRAIDER2</Description>
+            <Description>City Raider II</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_CITY_RAIDER1</PromotionPrereq>
+            <PromotionPrereq>PROMOTION_CITY_RAIDER1</PromotionPrereq>            
+            <TechPrereq>TECH_CASTLE_AGE</TechPrereq>
             <iCityAttack>30</iCityAttack>
             <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
@@ -590,25 +575,14 @@
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_CITY_RAIDER3</Type>
-            <Description>TXT_KEY_PROMOTION_CITYRAIDER3</Description>
+            <Description>City Raider III</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_CITY_RAIDER2</PromotionPrereq>
+            <PromotionPrereq>PROMOTION_CITY_RAIDER2</PromotionPrereq>  
+            <TechPrereq>TECH_IMPERIAL_AGE</TechPrereq>
             <iCityAttack>30</iCityAttack>
             <UnitCombatMods>
-                <UnitCombatMod>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-                    <iUnitCombatMod>20</iUnitCombatMod>
-                </UnitCombatMod>
             </UnitCombatMods>
             <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
