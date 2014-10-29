@@ -11094,7 +11094,7 @@
         </UnitArtInfo>
         <UnitArtInfo>
             <Type>ART_DEF_UNIT_PHALANX_HIPPUS</Type>
-            <Button>Art/Interface/Buttons/Units/Phalanx Hippus.dds</Button>
+            <Button>Art/Interface/Buttons/Units/Assassin Hippus.dds</Button>
             <fScale>0.44</fScale>
             <fInterfaceScale>1</fInterfaceScale>
             <bActAsLand>0</bActAsLand>

@@ -10,8 +10,8 @@
             <BuildingClass>BUILDINGCLASS_ALCHEMY_LAB</BuildingClass>
             <Type>BUILDING_ALCHEMY_LAB</Type>
             <SpecialBuildingType>NONE</SpecialBuildingType>
-            <Description>TXT_KEY_BUILDING_ALCHEMY_LAB</Description>
-            <Civilopedia>TXT_KEY_BUILDING_ALCHEMY_LAB_PEDIA</Civilopedia>
+            <Description>Alchemy Lab</Description>
+            <Civilopedia></Civilopedia>
             <Strategy></Strategy>
             <Help></Help>
             <Advisor>ADVISOR_SCIENCE</Advisor>
@@ -72,9 +72,9 @@
             <bPrereqReligion>0</bPrereqReligion>
             <bCenterInCity>0</bCenterInCity>
             <iAIWeight>0</iAIWeight>
-            <iCost>300</iCost>
+            <iCost>320</iCost>
             <iHurryCostModifier>0</iHurryCostModifier>
-            <iAdvancedStartCost>100</iAdvancedStartCost>
+            <iAdvancedStartCost>320</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
             <iMinAreaSize>-1</iMinAreaSize>
             <iConquestProb>25</iConquestProb>
@@ -143,8 +143,8 @@
             </YieldModifiers>
             <CommerceChanges>
                 <iCommerce>0</iCommerce>
-                <iCommerce>4</iCommerce>
-                <iCommerce>0</iCommerce>
+                <iCommerce>6</iCommerce>
+                <iCommerce>1</iCommerce>
             </CommerceChanges>
             <ObsoleteSafeCommerceChanges>
             </ObsoleteSafeCommerceChanges>
@@ -152,7 +152,7 @@
             </CommerceChangeDoubleTimes>
             <CommerceModifiers>
                 <iCommerce>0</iCommerce>
-                <iCommerce>10</iCommerce>
+                <iCommerce>15</iCommerce>
                 <iCommerce>0</iCommerce>
             </CommerceModifiers>
             <GlobalCommerceModifiers>
@@ -199,10 +199,6 @@
             <ImprovementFreeSpecialists>
             </ImprovementFreeSpecialists>
             <Flavors>
-                <Flavor>
-                    <FlavorType>FLAVOR_SCIENCE</FlavorType>
-                    <iFlavor>10</iFlavor>
-                </Flavor>
             </Flavors>
             <HotKey></HotKey>
             <bAltDown>0</bAltDown>
@@ -236,8 +232,8 @@
             <BuildingClass>BUILDINGCLASS_ARCHERY_RANGE</BuildingClass>
             <Type>BUILDING_ARCHERY_RANGE</Type>
             <SpecialBuildingType>NONE</SpecialBuildingType>
-            <Description>TXT_KEY_BUILDING_ARCHERY_RANGE</Description>
-            <Civilopedia>TXT_KEY_BUILDING_ARCHERY_RANGE_PEDIA</Civilopedia>
+            <Description>Archery Range</Description>
+            <Civilopedia></Civilopedia>
             <Strategy></Strategy>
             <Help></Help>
             <Advisor>ADVISOR_MILITARY</Advisor>
@@ -464,8 +460,8 @@
             <BuildingClass>BUILDINGCLASS_ELDER_COUNCIL</BuildingClass>
             <Type>BUILDING_ELDER_COUNCIL</Type>
             <SpecialBuildingType>NONE</SpecialBuildingType>
-            <Description>TXT_KEY_BUILDING_ELDER_COUNCIL</Description>
-            <Civilopedia>TXT_KEY_BUILDING_ELDER_COUNCIL_PEDIA</Civilopedia>
+            <Description>Elder Council</Description>
+            <Civilopedia></Civilopedia>
             <Strategy></Strategy>
             <Help></Help>
             <Advisor>ADVISOR_SCIENCE</Advisor>
@@ -491,10 +487,6 @@
             <PrereqBonuses>
             </PrereqBonuses>
             <ProductionTraits>
-                <ProductionTrait>
-                    <ProductionTraitType>TRAIT_PHILOSOPHICAL</ProductionTraitType>
-                    <iProductionTrait>100</iProductionTrait>
-                </ProductionTrait>
             </ProductionTraits>
             <HappinessTraits>
             </HappinessTraits>
@@ -530,9 +522,9 @@
             <bPrereqReligion>0</bPrereqReligion>
             <bCenterInCity>1</bCenterInCity>
             <iAIWeight>0</iAIWeight>
-            <iCost>60</iCost>
+            <iCost>90</iCost>
             <iHurryCostModifier>0</iHurryCostModifier>
-            <iAdvancedStartCost>100</iAdvancedStartCost>
+            <iAdvancedStartCost>90</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
             <iMinAreaSize>-1</iMinAreaSize>
             <iConquestProb>25</iConquestProb>
@@ -601,8 +593,8 @@
             </YieldModifiers>
             <CommerceChanges>
                 <iCommerce>0</iCommerce>
-                <iCommerce>2</iCommerce>
-                <iCommerce>0</iCommerce>
+                <iCommerce>3</iCommerce>
+                <iCommerce>1</iCommerce>
             </CommerceChanges>
             <ObsoleteSafeCommerceChanges>
             </ObsoleteSafeCommerceChanges>
@@ -654,10 +646,6 @@
             <ImprovementFreeSpecialists>
             </ImprovementFreeSpecialists>
             <Flavors>
-                <Flavor>
-                    <FlavorType>FLAVOR_SCIENCE</FlavorType>
-                    <iFlavor>10</iFlavor>
-                </Flavor>
             </Flavors>
             <HotKey></HotKey>
             <bAltDown>0</bAltDown>
@@ -691,8 +679,8 @@
             <BuildingClass>BUILDINGCLASS_GRANARY</BuildingClass>
             <Type>BUILDING_GRANARY</Type>
             <SpecialBuildingType>NONE</SpecialBuildingType>
-            <Description>TXT_KEY_BUILDING_GRANARY</Description>
-            <Civilopedia>TXT_KEY_BUILDING_GRANARY_PEDIA</Civilopedia>
+            <Description>Granary</Description>
+            <Civilopedia></Civilopedia>
             <Strategy></Strategy>
             <Help></Help>
             <Advisor>ADVISOR_GROWTH</Advisor>
@@ -718,10 +706,6 @@
             <PrereqBonuses>
             </PrereqBonuses>
             <ProductionTraits>
-                <ProductionTrait>
-                    <ProductionTraitType>TRAIT_EXPANSIVE</ProductionTraitType>
-                    <iProductionTrait>100</iProductionTrait>
-                </ProductionTrait>
             </ProductionTraits>
             <HappinessTraits>
             </HappinessTraits>
@@ -757,9 +741,9 @@
             <bPrereqReligion>0</bPrereqReligion>
             <bCenterInCity>0</bCenterInCity>
             <iAIWeight>0</iAIWeight>
-            <iCost>120</iCost>
+            <iCost>80</iCost>
             <iHurryCostModifier>0</iHurryCostModifier>
-            <iAdvancedStartCost>100</iAdvancedStartCost>
+            <iAdvancedStartCost>80</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
             <iMinAreaSize>-1</iMinAreaSize>
             <iConquestProb>25</iConquestProb>
@@ -777,7 +761,7 @@
             <iGlobalHurryModifier>0</iGlobalHurryModifier>
             <iExperience>0</iExperience>
             <iGlobalExperience>0</iGlobalExperience>
-            <iFoodKept>20</iFoodKept>
+            <iFoodKept>0</iFoodKept>
             <iAirlift>0</iAirlift>
             <iAirModifier>0</iAirModifier>
             <iAirUnitCapacity>0</iAirUnitCapacity>
@@ -823,10 +807,16 @@
             <GlobalSeaPlotYieldChanges>
             </GlobalSeaPlotYieldChanges>
             <YieldChanges>
+                <iYield>2</iYield>
+                <iYield>0</iYield>
+                <iYield>0</iYield>
             </YieldChanges>
             <YieldModifiers>
             </YieldModifiers>
             <CommerceChanges>
+                <iCommerce>0</iCommerce>
+                <iCommerce>0</iCommerce>
+                <iCommerce>1</iCommerce>
             </CommerceChanges>
             <ObsoleteSafeCommerceChanges>
             </ObsoleteSafeCommerceChanges>
@@ -854,18 +844,6 @@
             </CommerceChangeOriginalOwners>
             <ConstructSound>AS2D_BUILD_GRANARY</ConstructSound>
             <BonusHealthChanges>
-                <BonusHealthChange>
-                    <BonusType>BONUS_CORN</BonusType>
-                    <iHealthChange>1</iHealthChange>
-                </BonusHealthChange>
-                <BonusHealthChange>
-                    <BonusType>BONUS_RICE</BonusType>
-                    <iHealthChange>1</iHealthChange>
-                </BonusHealthChange>
-                <BonusHealthChange>
-                    <BonusType>BONUS_WHEAT</BonusType>
-                    <iHealthChange>1</iHealthChange>
-                </BonusHealthChange>
             </BonusHealthChanges>
             <BonusHappinessChanges>
             </BonusHappinessChanges>
@@ -890,10 +868,6 @@
             <ImprovementFreeSpecialists>
             </ImprovementFreeSpecialists>
             <Flavors>
-                <Flavor>
-                    <FlavorType>FLAVOR_GROWTH</FlavorType>
-                    <iFlavor>10</iFlavor>
-                </Flavor>
             </Flavors>
             <HotKey></HotKey>
             <bAltDown>0</bAltDown>
@@ -927,8 +901,8 @@
             <BuildingClass>BUILDINGCLASS_HERBALIST</BuildingClass>
             <Type>BUILDING_HERBALIST</Type>
             <SpecialBuildingType>NONE</SpecialBuildingType>
-            <Description>TXT_KEY_BUILDING_HERBALIST</Description>
-            <Civilopedia>TXT_KEY_BUILDING_PLACEHOLDER_PEDIA</Civilopedia>
+            <Description>Herbalist</Description>
+            <Civilopedia></Civilopedia>
             <Strategy></Strategy>
             <Help></Help>
             <Advisor>ADVISOR_GROWTH</Advisor>
@@ -989,9 +963,9 @@
             <bPrereqReligion>0</bPrereqReligion>
             <bCenterInCity>0</bCenterInCity>
             <iAIWeight>0</iAIWeight>
-            <iCost>90</iCost>
+            <iCost>120</iCost>
             <iHurryCostModifier>0</iHurryCostModifier>
-            <iAdvancedStartCost>100</iAdvancedStartCost>
+            <iAdvancedStartCost>120</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
             <iMinAreaSize>-1</iMinAreaSize>
             <iConquestProb>25</iConquestProb>
@@ -1026,7 +1000,7 @@
             <iHealth>1</iHealth>
             <iAreaHealth>0</iAreaHealth>
             <iGlobalHealth>0</iGlobalHealth>
-            <iHappiness>0</iHappiness>
+            <iHappiness>1</iHappiness>
             <iAreaHappiness>0</iAreaHappiness>
             <iGlobalHappiness>0</iGlobalHappiness>
             <iStateReligionHappiness>0</iStateReligionHappiness>
@@ -1059,6 +1033,9 @@
             <YieldModifiers>
             </YieldModifiers>
             <CommerceChanges>
+                <iCommerce>0</iCommerce>
+                <iCommerce>0</iCommerce>
+                <iCommerce>1</iCommerce>
             </CommerceChanges>
             <ObsoleteSafeCommerceChanges>
             </ObsoleteSafeCommerceChanges>
@@ -1110,10 +1087,6 @@
             <ImprovementFreeSpecialists>
             </ImprovementFreeSpecialists>
             <Flavors>
-                <Flavor>
-                    <FlavorType>FLAVOR_GROWTH</FlavorType>
-                    <iFlavor>10</iFlavor>
-                </Flavor>
             </Flavors>
             <HotKey></HotKey>
             <bAltDown>0</bAltDown>
@@ -1147,8 +1120,8 @@
             <BuildingClass>BUILDINGCLASS_INN</BuildingClass>
             <Type>BUILDING_INN</Type>
             <SpecialBuildingType>NONE</SpecialBuildingType>
-            <Description>TXT_KEY_BUILDING_INN</Description>
-            <Civilopedia>TXT_KEY_BUILDING_INN_PEDIA</Civilopedia>
+            <Description>Inn</Description>
+            <Civilopedia></Civilopedia>
             <Strategy></Strategy>
             <Help></Help>
             <Advisor>ADVISOR_ECONOMY</Advisor>
@@ -1334,10 +1307,6 @@
             <ImprovementFreeSpecialists>
             </ImprovementFreeSpecialists>
             <Flavors>
-                <Flavor>
-                    <FlavorType>FLAVOR_GOLD</FlavorType>
-                    <iFlavor>10</iFlavor>
-                </Flavor>
             </Flavors>
             <HotKey></HotKey>
             <bAltDown>0</bAltDown>
@@ -1371,8 +1340,8 @@
             <BuildingClass>BUILDINGCLASS_LIBRARY</BuildingClass>
             <Type>BUILDING_LIBRARY</Type>
             <SpecialBuildingType>NONE</SpecialBuildingType>
-            <Description>TXT_KEY_BUILDING_LIBRARY</Description>
-            <Civilopedia>TXT_KEY_BUILDING_PLACEHOLDER_PEDIA</Civilopedia>
+            <Description>Library</Description>
+            <Civilopedia></Civilopedia>
             <Strategy></Strategy>
             <Help></Help>
             <Advisor>ADVISOR_SCIENCE</Advisor>
@@ -1398,10 +1367,6 @@
             <PrereqBonuses>
             </PrereqBonuses>
             <ProductionTraits>
-                <ProductionTrait>
-                    <ProductionTraitType>TRAIT_PHILOSOPHICAL</ProductionTraitType>
-                    <iProductionTrait>100</iProductionTrait>
-                </ProductionTrait>
             </ProductionTraits>
             <HappinessTraits>
             </HappinessTraits>
@@ -1437,9 +1402,9 @@
             <bPrereqReligion>0</bPrereqReligion>
             <bCenterInCity>0</bCenterInCity>
             <iAIWeight>0</iAIWeight>
-            <iCost>120</iCost>
+            <iCost>180</iCost>
             <iHurryCostModifier>0</iHurryCostModifier>
-            <iAdvancedStartCost>100</iAdvancedStartCost>
+            <iAdvancedStartCost>180</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
             <iMinAreaSize>-1</iMinAreaSize>
             <iConquestProb>25</iConquestProb>
@@ -1507,6 +1472,9 @@
             <YieldModifiers>
             </YieldModifiers>
             <CommerceChanges>
+                <iCommerce>0</iCommerce>
+                <iCommerce>0</iCommerce>
+                <iCommerce>1</iCommerce>
             </CommerceChanges>
             <ObsoleteSafeCommerceChanges>
             </ObsoleteSafeCommerceChanges>
@@ -1561,10 +1529,6 @@
             <ImprovementFreeSpecialists>
             </ImprovementFreeSpecialists>
             <Flavors>
-                <Flavor>
-                    <FlavorType>FLAVOR_SCIENCE</FlavorType>
-                    <iFlavor>10</iFlavor>
-                </Flavor>
             </Flavors>
             <HotKey></HotKey>
             <bAltDown>0</bAltDown>
@@ -1598,8 +1562,8 @@
             <BuildingClass>BUILDINGCLASS_MAGE_GUILD</BuildingClass>
             <Type>BUILDING_MAGE_GUILD</Type>
             <SpecialBuildingType>NONE</SpecialBuildingType>
-            <Description>TXT_KEY_BUILDING_MAGE_GUILD</Description>
-            <Civilopedia>TXT_KEY_BUILDING_MAGE_GUILD_PEDIA</Civilopedia>
+            <Description>Mage Guild</Description>
+            <Civilopedia></Civilopedia>
             <Strategy></Strategy>
             <Help></Help>
             <Advisor>ADVISOR_MILITARY</Advisor>
@@ -1826,8 +1790,8 @@
             <BuildingClass>BUILDINGCLASS_MARKET</BuildingClass>
             <Type>BUILDING_MARKET</Type>
             <SpecialBuildingType>NONE</SpecialBuildingType>
-            <Description>TXT_KEY_BUILDING_MARKET</Description>
-            <Civilopedia>TXT_KEY_BUILDING_MARKET_PEDIA</Civilopedia>
+            <Description>Market</Description>
+            <Civilopedia></Civilopedia>
             <Strategy></Strategy>
             <Help></Help>
             <Advisor>ADVISOR_ECONOMY</Advisor>
@@ -1846,17 +1810,13 @@
             <FreeStartEra>NONE</FreeStartEra>
             <MaxStartEra>NONE</MaxStartEra>
             <ObsoleteTech>NONE</ObsoleteTech>
-            <PrereqTech>TECH_FEUDAL_AGE</PrereqTech>
+            <PrereqTech>TECH_CASTLE_AGE</PrereqTech>
             <TechTypes>
             </TechTypes>
             <Bonus>NONE</Bonus>
             <PrereqBonuses>
             </PrereqBonuses>
             <ProductionTraits>
-                <ProductionTrait>
-                    <ProductionTraitType>TRAIT_FINANCIAL</ProductionTraitType>
-                    <iProductionTrait>100</iProductionTrait>
-                </ProductionTrait>
             </ProductionTraits>
             <HappinessTraits>
             </HappinessTraits>
@@ -1892,9 +1852,9 @@
             <bPrereqReligion>0</bPrereqReligion>
             <bCenterInCity>1</bCenterInCity>
             <iAIWeight>0</iAIWeight>
-            <iCost>60</iCost>
+            <iCost>240</iCost>
             <iHurryCostModifier>0</iHurryCostModifier>
-            <iAdvancedStartCost>100</iAdvancedStartCost>
+            <iAdvancedStartCost>240</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
             <iMinAreaSize>-1</iMinAreaSize>
             <iConquestProb>25</iConquestProb>
@@ -1926,10 +1886,10 @@
             <iGlobalWarWearinessModifier>0</iGlobalWarWearinessModifier>
             <iEnemyWarWearinessModifier>0</iEnemyWarWearinessModifier>
             <iHealRateChange>0</iHealRateChange>
-            <iHealth>0</iHealth>
+            <iHealth>2</iHealth>
             <iAreaHealth>0</iAreaHealth>
             <iGlobalHealth>0</iGlobalHealth>
-            <iHappiness>0</iHappiness>
+            <iHappiness>2</iHappiness>
             <iAreaHappiness>0</iAreaHappiness>
             <iGlobalHappiness>0</iGlobalHappiness>
             <iStateReligionHappiness>0</iStateReligionHappiness>
@@ -1962,9 +1922,9 @@
             <YieldModifiers>
             </YieldModifiers>
             <CommerceChanges>
-                <iCommerce>3</iCommerce>
-                <iCommerce>-1</iCommerce>
                 <iCommerce>0</iCommerce>
+                <iCommerce>0</iCommerce>
+                <iCommerce>1</iCommerce>
             </CommerceChanges>
             <ObsoleteSafeCommerceChanges>
             </ObsoleteSafeCommerceChanges>
@@ -1983,10 +1943,6 @@
             <ReligionChanges>
             </ReligionChanges>
             <SpecialistCounts>
-                <SpecialistCount>
-                    <SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
-                    <iSpecialistCount>1</iSpecialistCount>
-                </SpecialistCount>
             </SpecialistCounts>
             <FreeSpecialistCounts>
             </FreeSpecialistCounts>
@@ -2020,10 +1976,6 @@
             <ImprovementFreeSpecialists>
             </ImprovementFreeSpecialists>
             <Flavors>
-                <Flavor>
-                    <FlavorType>FLAVOR_GOLD</FlavorType>
-                    <iFlavor>10</iFlavor>
-                </Flavor>
             </Flavors>
             <HotKey></HotKey>
             <bAltDown>0</bAltDown>
@@ -2038,7 +1990,7 @@
             <bRequiresCaster>0</bRequiresCaster>
             <bSeeInvisible>0</bSeeInvisible>
             <bUnhappyProduction>0</bUnhappyProduction>
-            <iCrime>5</iCrime>
+            <iCrime>0</iCrime>
             <iFreePromotionPick>0</iFreePromotionPick>
             <iGlobalResistEnemyModify>0</iGlobalResistEnemyModify>
             <iGlobalResistModify>0</iGlobalResistModify>
@@ -2950,8 +2902,8 @@
             <BuildingClass>BUILDINGCLASS_PALISADE</BuildingClass>
             <Type>BUILDING_PALISADE</Type>
             <SpecialBuildingType>NONE</SpecialBuildingType>
-            <Description>TXT_KEY_BUILDING_PALISADE</Description>
-            <Civilopedia>TXT_KEY_BUILDING_PLACEHOLDER_PEDIA</Civilopedia>
+            <Description>Palisade</Description>
+            <Civilopedia></Civilopedia>
             <Strategy></Strategy>
             <Help></Help>
             <Advisor>ADVISOR_MILITARY</Advisor>
@@ -3012,9 +2964,9 @@
             <bPrereqReligion>0</bPrereqReligion>
             <bCenterInCity>1</bCenterInCity>
             <iAIWeight>0</iAIWeight>
-            <iCost>40</iCost>
+            <iCost>60</iCost>
             <iHurryCostModifier>0</iHurryCostModifier>
-            <iAdvancedStartCost>40</iAdvancedStartCost>
+            <iAdvancedStartCost>60</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
             <iMinAreaSize>-1</iMinAreaSize>
             <iConquestProb>25</iConquestProb>
@@ -3178,9 +3130,9 @@
             <BuildingClass>BUILDINGCLASS_PUBLIC_BATHS</BuildingClass>
             <Type>BUILDING_PUBLIC_BATHS</Type>
             <SpecialBuildingType>NONE</SpecialBuildingType>
-            <Description>TXT_KEY_BUILDING_PUBLIC_BATHS</Description>
-            <Civilopedia>TXT_KEY_BUILDING_PLACEHOLDER_PEDIA</Civilopedia>
-            <Strategy>TXT_KEY_BUILDING_PUBLIC_BATHS_STRATEGY</Strategy>
+            <Description>Public Baths</Description>
+            <Civilopedia></Civilopedia>
+            <Strategy></Strategy>
             <Help></Help>
             <Advisor>ADVISOR_GROWTH</Advisor>
             <ArtDefineTag>ART_DEF_BUILDING_PUBLIC_BATHS</ArtDefineTag>
@@ -3240,9 +3192,9 @@
             <bPrereqReligion>0</bPrereqReligion>
             <bCenterInCity>1</bCenterInCity>
             <iAIWeight>0</iAIWeight>
-            <iCost>150</iCost>
+            <iCost>320</iCost>
             <iHurryCostModifier>0</iHurryCostModifier>
-            <iAdvancedStartCost>100</iAdvancedStartCost>
+            <iAdvancedStartCost>320</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
             <iMinAreaSize>-1</iMinAreaSize>
             <iConquestProb>25</iConquestProb>
@@ -3274,7 +3226,7 @@
             <iGlobalWarWearinessModifier>0</iGlobalWarWearinessModifier>
             <iEnemyWarWearinessModifier>0</iEnemyWarWearinessModifier>
             <iHealRateChange>0</iHealRateChange>
-            <iHealth>-1</iHealth>
+            <iHealth>3</iHealth>
             <iAreaHealth>0</iAreaHealth>
             <iGlobalHealth>0</iGlobalHealth>
             <iHappiness>3</iHappiness>
@@ -3310,6 +3262,9 @@
             <YieldModifiers>
             </YieldModifiers>
             <CommerceChanges>
+                <iCommerce>0</iCommerce>
+                <iCommerce>0</iCommerce>
+                <iCommerce>1</iCommerce>
             </CommerceChanges>
             <ObsoleteSafeCommerceChanges>
             </ObsoleteSafeCommerceChanges>
@@ -3361,10 +3316,6 @@
             <ImprovementFreeSpecialists>
             </ImprovementFreeSpecialists>
             <Flavors>
-                <Flavor>
-                    <FlavorType>FLAVOR_GROWTH</FlavorType>
-                    <iFlavor>10</iFlavor>
-                </Flavor>
             </Flavors>
             <HotKey></HotKey>
             <bAltDown>0</bAltDown>
@@ -3379,7 +3330,7 @@
             <bRequiresCaster>0</bRequiresCaster>
             <bSeeInvisible>0</bSeeInvisible>
             <bUnhappyProduction>0</bUnhappyProduction>
-            <iCrime>5</iCrime>
+            <iCrime>0</iCrime>
             <iFreePromotionPick>0</iFreePromotionPick>
             <iGlobalResistEnemyModify>0</iGlobalResistEnemyModify>
             <iGlobalResistModify>0</iGlobalResistModify>
@@ -3398,8 +3349,8 @@
             <BuildingClass>BUILDINGCLASS_SIEGE_WORKSHOP</BuildingClass>
             <Type>BUILDING_SIEGE_WORKSHOP</Type>
             <SpecialBuildingType>NONE</SpecialBuildingType>
-            <Description>TXT_KEY_BUILDING_SIEGE_WORKSHOP</Description>
-            <Civilopedia>TXT_KEY_BUILDING_PLACEHOLDER_PEDIA</Civilopedia>
+            <Description>Siege Workshop</Description>
+            <Civilopedia></Civilopedia>
             <Strategy></Strategy>
             <Help></Help>
             <Advisor>ADVISOR_MILITARY</Advisor>
@@ -3622,8 +3573,8 @@
             <BuildingClass>BUILDINGCLASS_STABLE</BuildingClass>
             <Type>BUILDING_STABLE</Type>
             <SpecialBuildingType>NONE</SpecialBuildingType>
-            <Description>TXT_KEY_BUILDING_STABLE</Description>
-            <Civilopedia>TXT_KEY_BUILDING_PLACEHOLDER_PEDIA</Civilopedia>
+            <Description>Stable</Description>
+            <Civilopedia></Civilopedia>
             <Strategy></Strategy>
             <Help></Help>
             <Advisor>ADVISOR_MILITARY</Advisor>
@@ -3684,9 +3635,9 @@
             <bPrereqReligion>0</bPrereqReligion>
             <bCenterInCity>0</bCenterInCity>
             <iAIWeight>0</iAIWeight>
-            <iCost>100</iCost>
+            <iCost>150</iCost>
             <iHurryCostModifier>0</iHurryCostModifier>
-            <iAdvancedStartCost>100</iAdvancedStartCost>
+            <iAdvancedStartCost>150</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
             <iMinAreaSize>-1</iMinAreaSize>
             <iConquestProb>25</iConquestProb>
@@ -3809,14 +3760,6 @@
             <ImprovementFreeSpecialists>
             </ImprovementFreeSpecialists>
             <Flavors>
-                <Flavor>
-                    <FlavorType>FLAVOR_GOLD</FlavorType>
-                    <iFlavor>20</iFlavor>
-                </Flavor>
-                <Flavor>
-                    <FlavorType>FLAVOR_MILITARY</FlavorType>
-                    <iFlavor>5</iFlavor>
-                </Flavor>
             </Flavors>
             <HotKey></HotKey>
             <bAltDown>0</bAltDown>
@@ -3850,8 +3793,8 @@
             <BuildingClass>BUILDINGCLASS_TRAINING_YARD</BuildingClass>
             <Type>BUILDING_TRAINING_YARD</Type>
             <SpecialBuildingType>NONE</SpecialBuildingType>
-            <Description>TXT_KEY_BUILDING_TRAINING_YARD</Description>
-            <Civilopedia>TXT_KEY_BUILDING_TRAINING_YARD_PEDIA</Civilopedia>
+            <Description>Training Yard</Description>
+            <Civilopedia></Civilopedia>
             <Strategy></Strategy>
             <Help></Help>
             <Advisor>ADVISOR_MILITARY</Advisor>
@@ -4037,10 +3980,6 @@
             <ImprovementFreeSpecialists>
             </ImprovementFreeSpecialists>
             <Flavors>
-                <Flavor>
-                    <FlavorType>FLAVOR_MILITARY</FlavorType>
-                    <iFlavor>20</iFlavor>
-                </Flavor>
             </Flavors>
             <HotKey></HotKey>
             <bAltDown>0</bAltDown>
@@ -4136,9 +4075,9 @@
             <bPrereqReligion>0</bPrereqReligion>
             <bCenterInCity>1</bCenterInCity>
             <iAIWeight>0</iAIWeight>
-            <iCost>120</iCost>
+            <iCost>150</iCost>
             <iHurryCostModifier>0</iHurryCostModifier>
-            <iAdvancedStartCost>120</iAdvancedStartCost>
+            <iAdvancedStartCost>150</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
             <iMinAreaSize>-1</iMinAreaSize>
             <iConquestProb>25</iConquestProb>
@@ -4356,9 +4295,9 @@
             <bPrereqReligion>0</bPrereqReligion>
             <bCenterInCity>1</bCenterInCity>
             <iAIWeight>0</iAIWeight>
-            <iCost>160</iCost>
+            <iCost>210</iCost>
             <iHurryCostModifier>0</iHurryCostModifier>
-            <iAdvancedStartCost>160</iAdvancedStartCost>
+            <iAdvancedStartCost>210</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
             <iMinAreaSize>-1</iMinAreaSize>
             <iConquestProb>25</iConquestProb>
@@ -4389,7 +4328,7 @@
             <iWarWearinessModifier>0</iWarWearinessModifier>
             <iGlobalWarWearinessModifier>0</iGlobalWarWearinessModifier>
             <iEnemyWarWearinessModifier>0</iEnemyWarWearinessModifier>
-            <iHealRateChange>0</iHealRateChange>
+            <iHealRateChange>10</iHealRateChange>
             <iHealth>0</iHealth>
             <iAreaHealth>0</iAreaHealth>
             <iGlobalHealth>0</iGlobalHealth>
