@@ -417,7 +417,7 @@
 			<Type>BUILD_ROAD</Type>
 			<Description>TXT_KEY_BUILD_ROAD</Description>
 			<Help/>
-			<PrereqTech>NONE</PrereqTech>
+			<PrereqTech>TECH_DARK_AGE</PrereqTech>
 			<iTime>200</iTime>
 			<iCost>0</iCost>
 			<bKill>0</bKill>
@@ -436,7 +436,7 @@
 			<Type>BUILD_FARM</Type>
 			<Description>TXT_KEY_BUILD_FARM</Description>
 			<Help/>
-			<PrereqTech>NONE</PrereqTech>
+			<PrereqTech>TECH_DARK_AGE</PrereqTech>
 			<iTime>500</iTime>
 			<iCost>0</iCost>
 			<bKill>0</bKill>
@@ -477,7 +477,7 @@
 			<Type>BUILD_MINE</Type>
 			<Description>TXT_KEY_BUILD_MINE</Description>
 			<Help/>
-			<PrereqTech>NONE</PrereqTech>
+			<PrereqTech>TECH_DARK_AGE</PrereqTech>
 			<iTime>400</iTime>
 			<iCost>0</iCost>
 			<bKill>0</bKill>
@@ -525,7 +525,7 @@
 			<Type>BUILD_COTTAGE</Type>
 			<Description>TXT_KEY_BUILD_COTTAGE</Description>
 			<Help/>
-			<PrereqTech>NONE</PrereqTech>
+			<PrereqTech>TECH_DARK_AGE</PrereqTech>
 			<iTime>400</iTime>
 			<iCost>0</iCost>
 			<bKill>0</bKill>
