@@ -7,20 +7,6 @@
 <Civ4PromotionInfos xmlns="x-schema:CIV4UnitSchema.xml">
     <PromotionInfos>
         <PromotionInfo>
-            <Type>PROMOTION_ACCURACY</Type>
-            <Description>TXT_KEY_PROMOTION_ACCURACY</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_BARRAGE1</PromotionPrereq>
-            <iBombardRateChange>20</iBombardRateChange>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>,Art/Interface/Buttons/Promotions/Accuracy.dds,Art/Interface/Buttons/Promotions_Atlas.dds,1,1</Button>
-        </PromotionInfo>
-        <PromotionInfo>
             <Type>PROMOTION_AERONS_CHOSEN</Type>
             <Description>TXT_KEY_PROMOTION_AERONS_CHOSEN</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
@@ -185,14 +171,11 @@
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_BARRAGE1</Type>
-            <Description>TXT_KEY_PROMOTION_BARRAGE1</Description>
+            <Description>Barrage I</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
-            <iCollateralDamageChange>40</iCollateralDamageChange>
+            <TechPrereq>TECH_ARCHERY2</TechPrereq>
+            <iCollateralDamageChange>30</iCollateralDamageChange>
             <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
@@ -203,16 +186,10 @@
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_BARRAGE2</Type>
-            <Description>TXT_KEY_PROMOTION_BARRAGE2</Description>
+            <Description>Barrage II</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_BARRAGE1</PromotionPrereq>
-            <iCollateralDamageChange>60</iCollateralDamageChange>
-            <UnitCombatMods>
-                <UnitCombatMod>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-                    <iUnitCombatMod>20</iUnitCombatMod>
-                </UnitCombatMod>
-            </UnitCombatMods>
+            <iCollateralDamageChange>50</iCollateralDamageChange>
             <UnitCombats>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
@@ -228,10 +205,10 @@
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_BARRAGE3</Type>
-            <Description>TXT_KEY_PROMOTION_BARRAGE3</Description>
+            <Description>Barrage III</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_BARRAGE2</PromotionPrereq>
-            <iCollateralDamageChange>100</iCollateralDamageChange>
+            <iCollateralDamageChange>80</iCollateralDamageChange>
             <UnitCombats>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
