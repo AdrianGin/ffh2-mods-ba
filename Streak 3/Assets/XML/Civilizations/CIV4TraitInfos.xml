@@ -471,10 +471,6 @@
 			<CommerceChanges/>
 			<CommerceModifiers/>
 			<FreePromotions>
-				<FreePromotion>
-					<PromotionType>PROMOTION_MAGIC_RESISTANCE</PromotionType>
-					<bFreePromotion>1</bFreePromotion>
-				</FreePromotion>
 			</FreePromotions>
 			<FreePromotionUnitCombats>
 				<FreePromotionUnitCombat>
@@ -679,10 +675,6 @@
 			<CommerceChanges/>
 			<CommerceModifiers/>
 			<FreePromotions>
-				<FreePromotion>
-					<PromotionType>PROMOTION_SUMMONER</PromotionType>
-					<bFreePromotion>1</bFreePromotion>
-				</FreePromotion>
 			</FreePromotions>
 			<FreePromotionUnitCombats>
 				<FreePromotionUnitCombat>

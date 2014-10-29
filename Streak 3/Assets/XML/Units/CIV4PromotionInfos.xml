@@ -348,36 +348,6 @@
             <CaptureUnitCombat>UNITCOMBAT_NAVAL</CaptureUnitCombat>
         </PromotionInfo>
         <PromotionInfo>
-            <Type>PROMOTION_BOUNTY_HUNTER</Type>
-            <Description>TXT_KEY_PROMOTION_BOUNTY_HUNTER</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_COMBAT3</PromotionPrereq>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/BountyHunter.dds</Button>
-            <iGoldFromCombat>2</iGoldFromCombat>
-        </PromotionInfo>
-        <PromotionInfo>
             <Type>PROMOTION_BRONZE_WEAPONS</Type>
             <Description>TXT_KEY_PROMOTION_BRONZE_WEAPONS</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
@@ -449,49 +419,6 @@
             <iCombatPercentDefense>20</iCombatPercentDefense>
             <iExpireChance>10</iExpireChance>
             <iMinLevel>-1</iMinLevel>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_CANNIBALIZE</Type>
-            <Description>TXT_KEY_PROMOTION_CANNIBALIZE</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_COMBAT2</PromotionPrereq>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Cannibalize.dds</Button>
-            <bMutation>1</bMutation>
-            <iCombatHealPercent>10</iCombatHealPercent>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_CHANNELING1</Type>
@@ -705,54 +632,6 @@
                 </UnitCombat>
             </UnitCombats>
             <Button>,Art/Interface/Buttons/Promotions/CityRaider3.dds,Art/Interface/Buttons/Promotions_Atlas.dds,7,2</Button>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_COLD_RESISTANCE</Type>
-            <Description>TXT_KEY_PROMOTION_COLD_RESISTANCE</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_MAGIC_RESISTANCE</PromotionPrereq>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/ColdResistance.dds</Button>
-            <bMutation>1</bMutation>
-            <DamageTypeResists>
-                <DamageTypeResist>
-                    <DamageType>DAMAGE_COLD</DamageType>
-                    <iResist>50</iResist>
-                </DamageTypeResist>
-            </DamageTypeResists>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_COMBAT1</Type>
@@ -1024,53 +903,6 @@
             <PromotionSummonPerk>PROMOTION_EMPOWER5</PromotionSummonPerk>
         </PromotionInfo>
         <PromotionInfo>
-            <Type>PROMOTION_COMMAND1</Type>
-            <Description>TXT_KEY_PROMOTION_COMMAND1</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereqOr1>PROMOTION_CHANNELING2</PromotionPrereqOr1>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Command1.dds</Button>
-            <iCombatCapturePercent>10</iCombatCapturePercent>
-            <PromotionNextLevel>PROMOTION_COMMAND2</PromotionNextLevel>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_COMMAND2</Type>
-            <Description>TXT_KEY_PROMOTION_COMMAND2</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_COMMAND1</PromotionPrereq>
-            <PromotionPrereqOr1>PROMOTION_CHANNELING3</PromotionPrereqOr1>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Command2.dds</Button>
-            <iCombatCapturePercent>20</iCombatCapturePercent>
-            <PromotionNextLevel>PROMOTION_COMMAND3</PromotionNextLevel>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_COMMAND3</Type>
-            <Description>TXT_KEY_PROMOTION_COMMAND3</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_COMMAND2</PromotionPrereq>
-            <PromotionPrereqOr1>PROMOTION_CHANNELING3</PromotionPrereqOr1>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Command3.dds</Button>
-            <iCombatCapturePercent>20</iCombatCapturePercent>
-            
-        </PromotionInfo>
-        <PromotionInfo>
             <Type>PROMOTION_COMMANDO</Type>
             <Description>TXT_KEY_PROMOTION_COMMANDO</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
@@ -1282,24 +1114,6 @@
             <iAIWeight>50</iAIWeight>
             <iExpireChance>100</iExpireChance>
             <iMinLevel>-1</iMinLevel>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_DEFENSIVE</Type>
-            <Description>TXT_KEY_PROMOTION_DEFENSIVE</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereqOr1>PROMOTION_COMBAT2</PromotionPrereqOr1>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Defensive.dds</Button>
-            <bDoubleFortifyBonus>1</bDoubleFortifyBonus>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_DEXTEROUS</Type>
@@ -1750,38 +1564,6 @@
             <Button>Art/Interface/Buttons/Promotions/Expandedhull.dds</Button>
         </PromotionInfo>
         <PromotionInfo>
-            <Type>PROMOTION_EXTENSION1</Type>
-            <Description>TXT_KEY_PROMOTION_EXTENSION1</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_CHANNELING1</PromotionPrereq>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Extension1.dds</Button>
-            <iAIWeight>50</iAIWeight>
-            <PromotionSummonPerk>PROMOTION_MOBILITY1</PromotionSummonPerk>
-            <PromotionNextLevel>PROMOTION_EXTENSION2</PromotionNextLevel>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_EXTENSION2</Type>
-            <Description>TXT_KEY_PROMOTION_EXTENSION2</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_EXTENSION1</PromotionPrereq>
-            <TechPrereq>NONE</TechPrereq>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Extension2.dds</Button>
-            <iAIWeight>100</iAIWeight>
-            <PromotionSummonPerk>PROMOTION_MOBILITY2</PromotionSummonPerk>
-        </PromotionInfo>
-        <PromotionInfo>
             <Type>PROMOTION_FAIR_WINDS</Type>
             <Description>TXT_KEY_PROMOTION_FAIR_WINDS</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
@@ -1810,93 +1592,6 @@
             <iCombatPercentDefense>-10</iCombatPercentDefense>
             <iExpireChance>50</iExpireChance>
             <iMinLevel>-1</iMinLevel>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_FEAR</Type>
-            <Description>TXT_KEY_PROMOTION_FEAR</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_COMBAT5</PromotionPrereq>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Fear.dds</Button>
-            <bFear>1</bFear>
-            <iAIWeight>100</iAIWeight>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_FIRE_RESISTANCE</Type>
-            <Description>TXT_KEY_PROMOTION_FIRE_RESISTANCE</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_MAGIC_RESISTANCE</PromotionPrereq>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/FireResistance.dds</Button>
-            <bMutation>1</bMutation>
-            <DamageTypeResists>
-                <DamageTypeResist>
-                    <DamageType>DAMAGE_FIRE</DamageType>
-                    <iResist>50</iResist>
-                </DamageTypeResist>
-            </DamageTypeResists>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_FIRE1</Type>
@@ -2275,218 +1970,6 @@
             <iGroupSize>1</iGroupSize>
         </PromotionInfo>
         <PromotionInfo>
-            <Type>PROMOTION_HEROIC_DEFENSE</Type>
-            <Description>TXT_KEY_PROMOTION_HEROIC_DEFENSE</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_HERO</PromotionPrereq>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Heroicdefense.dds</Button>
-            <bMutation>1</bMutation>
-            <iAIWeight>20</iAIWeight>
-            <iExtraCombatDefense>1</iExtraCombatDefense>
-            <PromotionPrereqAnd>PROMOTION_COMBAT5</PromotionPrereqAnd>
-            <PromotionNextLevel>PROMOTION_HEROIC_DEFENSE2</PromotionNextLevel>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_HEROIC_DEFENSE2</Type>
-            <Description>TXT_KEY_PROMOTION_HEROIC_DEFENSE2</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_HEROIC_DEFENSE</PromotionPrereq>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Heroicdefense2.dds</Button>
-            <iAIWeight>40</iAIWeight>
-            <iExtraCombatDefense>1</iExtraCombatDefense>
-            <PromotionPrereqAnd>PROMOTION_COMBAT5</PromotionPrereqAnd>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_HEROIC_STRENGTH</Type>
-            <Description>TXT_KEY_PROMOTION_HEROIC_STRENGTH</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_HERO</PromotionPrereq>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Heroicstrength.dds</Button>
-            <bMutation>1</bMutation>
-            <iAIWeight>20</iAIWeight>
-            <iExtraCombatStr>1</iExtraCombatStr>
-            <PromotionPrereqAnd>PROMOTION_COMBAT5</PromotionPrereqAnd>
-            <PromotionNextLevel>PROMOTION_HEROIC_STRENGTH2</PromotionNextLevel>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_HEROIC_STRENGTH2</Type>
-            <Description>TXT_KEY_PROMOTION_HEROIC_STRENGTH2</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_HEROIC_STRENGTH</PromotionPrereq>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Heroicstrength2.dds</Button>
-            <iAIWeight>40</iAIWeight>
-            <iExtraCombatStr>1</iExtraCombatStr>
-            <PromotionPrereqAnd>PROMOTION_COMBAT5</PromotionPrereqAnd>
-        </PromotionInfo>
-        <PromotionInfo>
             <Type>PROMOTION_HIDDEN</Type>
             <Description>TXT_KEY_PROMOTION_HIDDEN</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
@@ -2688,21 +2171,6 @@
             </DamageTypeResists>
         </PromotionInfo>
         <PromotionInfo>
-            <Type>PROMOTION_INQUISITOR</Type>
-            <Description>TXT_KEY_PROMOTION_INQUISITOR</Description>
-            <Help>TXT_KEY_PROMOTION_INQUISITOR_HELP</Help>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_CHANNELING2</PromotionPrereq>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Inquisitor.dds</Button>
-            <iAIWeight>10</iAIWeight>
-        </PromotionInfo>
-        <PromotionInfo>
             <Type>PROMOTION_INVISIBLE</Type>
             <Description>TXT_KEY_PROMOTION_INVISIBLE</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
@@ -2732,20 +2200,6 @@
             </DamageTypeResists>
         </PromotionInfo>
         <PromotionInfo>
-            <Type>PROMOTION_KEEN_SIGHT</Type>
-            <Description>TXT_KEY_PROMOTION_KEEN_SIGHT</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_DRILL4</PromotionPrereq>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/KeenSight.dds</Button>
-            <iDefensiveStrikeChance>20</iDefensiveStrikeChance>
-        </PromotionInfo>
-        <PromotionInfo>
             <Type>PROMOTION_LIGHT</Type>
             <Description>TXT_KEY_PROMOTION_LIGHT</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
@@ -2757,54 +2211,6 @@
             <bMutation>1</bMutation>
             <iCombatPercentDefense>-20</iCombatPercentDefense>
             <iMinLevel>-1</iMinLevel>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_LIGHTNING_RESISTANCE</Type>
-            <Description>TXT_KEY_PROMOTION_LIGHTNING_RESISTANCE</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_MAGIC_RESISTANCE</PromotionPrereq>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/LightningResistance.dds</Button>
-            <bMutation>1</bMutation>
-            <DamageTypeResists>
-                <DamageTypeResist>
-                    <DamageType>DAMAGE_LIGHTNING</DamageType>
-                    <iResist>50</iResist>
-                </DamageTypeResist>
-            </DamageTypeResists>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_LONGSHOREMEN</Type>
@@ -2892,67 +2298,6 @@
                 <DamageTypeResist>
                     <DamageType>DAMAGE_LIGHTNING</DamageType>
                     <iResist>50</iResist>
-                </DamageTypeResist>
-            </DamageTypeResists>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_MAGIC_RESISTANCE</Type>
-            <Description>TXT_KEY_PROMOTION_MAGIC_RESISTANCE</Description>
-            <Help>TXT_KEY_PROMOTION_MAGIC_RESISTANCE_PEDIA</Help>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_COMBAT3</PromotionPrereq>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Magicresistance.dds</Button>
-            <iResistMagic>20</iResistMagic>
-            <DamageTypeResists>
-                <DamageTypeResist>
-                    <DamageType>DAMAGE_COLD</DamageType>
-                    <iResist>20</iResist>
-                </DamageTypeResist>
-                <DamageTypeResist>
-                    <DamageType>DAMAGE_DEATH</DamageType>
-                    <iResist>20</iResist>
-                </DamageTypeResist>
-                <DamageTypeResist>
-                    <DamageType>DAMAGE_FIRE</DamageType>
-                    <iResist>20</iResist>
-                </DamageTypeResist>
-                <DamageTypeResist>
-                    <DamageType>DAMAGE_LIGHTNING</DamageType>
-                    <iResist>20</iResist>
                 </DamageTypeResist>
             </DamageTypeResists>
         </PromotionInfo>
@@ -3339,54 +2684,6 @@
             <iMinLevel>-1</iMinLevel>
         </PromotionInfo>
         <PromotionInfo>
-            <Type>PROMOTION_POISON_RESISTANCE</Type>
-            <Description>TXT_KEY_PROMOTION_POISON_RESISTANCE</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_MAGIC_RESISTANCE</PromotionPrereq>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/PoisonResistance.dds</Button>
-            <bMutation>1</bMutation>
-            <DamageTypeResists>
-                <DamageTypeResist>
-                    <DamageType>DAMAGE_POISON</DamageType>
-                    <iResist>50</iResist>
-                </DamageTypeResist>
-            </DamageTypeResists>
-        </PromotionInfo>
-        <PromotionInfo>
             <Type>PROMOTION_POISONED</Type>
             <Description>TXT_KEY_PROMOTION_POISONED</Description>
             <Help>TXT_KEY_PROMOTION_POISONED_PEDIA</Help>
@@ -3444,20 +2741,6 @@
             <iCasterResistModify>-10</iCasterResistModify>
             <iMinLevel>-1</iMinLevel>
             <iSpellCasterXP>20</iSpellCasterXP>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_PRECISION</Type>
-            <Description>TXT_KEY_PROMOTION_PRECISION</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_DRILL4</PromotionPrereq>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Precision.dds</Button>
-            <iDefensiveStrikeDamage>10</iDefensiveStrikeDamage>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_PROPHECY_MARK</Type>
@@ -3577,34 +2860,6 @@
             <iAIWeight>-50</iAIWeight>
             <iCombatPercentDefense>-10</iCombatPercentDefense>
             <iMinLevel>-1</iMinLevel>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_SCOURGE</Type>
-            <Description>TXT_KEY_PROMOTION_SCOURGE</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_COMBAT1</PromotionPrereq>
-            <TechPrereq>NONE</TechPrereq>
-            <UnitCombatMods>
-                <UnitCombatMod>
-                    <UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
-                    <iUnitCombatMod>40</iUnitCombatMod>
-                </UnitCombatMod>
-            </UnitCombatMods>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Scourge.dds</Button>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_SENTRY</Type>
@@ -4118,83 +3373,6 @@
             <iExtraCombatStr>1</iExtraCombatStr>
             <iExtraCombatDefense>1</iExtraCombatDefense>
             <iMinLevel>-1</iMinLevel>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_SUBDUE_ANIMAL</Type>
-            <Description>TXT_KEY_PROMOTION_SUBDUE_ANIMAL</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_COMBAT1</PromotionPrereq>
-            <TechPrereq>NONE</TechPrereq>
-            <UnitCombatMods>
-                <UnitCombatMod>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
-                    <iUnitCombatMod>25</iUnitCombatMod>
-                </UnitCombatMod>
-            </UnitCombatMods>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Animalhusbandry.dds</Button>
-            <iAIWeight>300</iAIWeight>
-            <CaptureUnitCombat>UNITCOMBAT_ANIMAL</CaptureUnitCombat>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_SUBDUE_BEASTS</Type>
-            <Description>TXT_KEY_PROMOTION_SUBDUE_BEASTS</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_SUBDUE_ANIMAL</PromotionPrereq>
-            <TechPrereq>NONE</TechPrereq>
-            <UnitCombatMods>
-                <UnitCombatMod>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
-                    <iUnitCombatMod>25</iUnitCombatMod>
-                </UnitCombatMod>
-            </UnitCombatMods>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/SubdueBeasts.dds</Button>
-            <iAIWeight>300</iAIWeight>
-            <CaptureUnitCombat>UNITCOMBAT_BEAST</CaptureUnitCombat>
-            <PromotionPrereqAnd>PROMOTION_COMBAT3</PromotionPrereqAnd>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_SUMMONER</Type>
-            <Description>TXT_KEY_PROMOTION_SUMMONER</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_HERO</PromotionPrereq>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Summoner.dds</Button>
-            <iAIWeight>100</iAIWeight>
-            <PromotionSummonPerk>PROMOTION_COMBAT1</PromotionSummonPerk>
-            <PromotionPrereqAnd>PROMOTION_COMBAT5</PromotionPrereqAnd>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_TWINCAST</Type>
-            <Description>TXT_KEY_PROMOTION_TWINCAST</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_COMBAT5</PromotionPrereq>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Twincast.dds</Button>
-            <bTwincast>1</bTwincast>
-            <iAIWeight>300</iAIWeight>
-            <PromotionPrereqAnd>PROMOTION_HERO</PromotionPrereqAnd>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_UNHOLY_TAINT</Type>

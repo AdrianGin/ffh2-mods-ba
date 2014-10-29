@@ -33657,10 +33657,6 @@
             <UnitPromotion></UnitPromotion>
             <UnitName></UnitName>
             <UnitCombatPromotions>
-                <UnitCombatPromotion>
-                    <UnitCombat>UNITCOMBAT_RECON</UnitCombat>
-                    <UnitPromotion>PROMOTION_MAGIC_RESISTANCE</UnitPromotion>
-                </UnitCombatPromotion>
             </UnitCombatPromotions>
             <UnitClassPromotions>
             </UnitClassPromotions>
