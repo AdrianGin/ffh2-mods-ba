@@ -637,7 +637,7 @@
             <Type>PROMOTION_COMBAT1</Type>
             <Description>TXT_KEY_PROMOTION_COMBAT1</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
-            <iCombatPercent>20</iCombatPercent>
+            <iCombatPercent>10</iCombatPercent>
             <UnitCombats>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
@@ -682,9 +682,8 @@
             </UnitCombats>
             <Button>,Art/Interface/Buttons/Promotions/Combat1.dds,Art/Interface/Buttons/Promotions_Atlas.dds,8,2</Button>
             <bMutation>1</bMutation>
-            <iCombatPercentDefense>20</iCombatPercentDefense>
-            <iSpellDamageModify>5</iSpellDamageModify>
-            <PromotionSummonPerk>PROMOTION_EMPOWER1</PromotionSummonPerk>
+            <iCombatPercentDefense>0</iCombatPercentDefense>
+            <iSpellDamageModify>0</iSpellDamageModify>
             <PromotionNextLevel>PROMOTION_COMBAT2</PromotionNextLevel>
         </PromotionInfo>
         <PromotionInfo>
@@ -692,7 +691,7 @@
             <Description>TXT_KEY_PROMOTION_COMBAT2</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_COMBAT1</PromotionPrereq>
-            <iCombatPercent>20</iCombatPercent>
+            <iCombatPercent>15</iCombatPercent>
             <UnitCombats>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
@@ -736,9 +735,8 @@
                 </UnitCombat>
             </UnitCombats>
             <Button>,Art/Interface/Buttons/Promotions/Combat2.dds,Art/Interface/Buttons/Promotions_Atlas.dds,1,6</Button>
-            <iCombatPercentDefense>20</iCombatPercentDefense>
-            <iSpellDamageModify>5</iSpellDamageModify>
-            <PromotionSummonPerk>PROMOTION_EMPOWER2</PromotionSummonPerk>
+            <iCombatPercentDefense>0</iCombatPercentDefense>
+            <iSpellDamageModify>0</iSpellDamageModify>
             <PromotionNextLevel>PROMOTION_COMBAT3</PromotionNextLevel>
         </PromotionInfo>
         <PromotionInfo>
@@ -790,9 +788,8 @@
                 </UnitCombat>
             </UnitCombats>
             <Button>,Art/Interface/Buttons/Promotions/Combat3.dds,Art/Interface/Buttons/Promotions_Atlas.dds,2,6</Button>
-            <iCombatPercentDefense>20</iCombatPercentDefense>
-            <iSpellDamageModify>5</iSpellDamageModify>
-            <PromotionSummonPerk>PROMOTION_EMPOWER3</PromotionSummonPerk>
+            <iCombatPercentDefense>0</iCombatPercentDefense>
+            <iSpellDamageModify>0</iSpellDamageModify>
             <PromotionNextLevel>PROMOTION_COMBAT4</PromotionNextLevel>
         </PromotionInfo>
         <PromotionInfo>
@@ -800,7 +797,7 @@
             <Description>TXT_KEY_PROMOTION_COMBAT4</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_COMBAT3</PromotionPrereq>
-            <iCombatPercent>20</iCombatPercent>
+            <iCombatPercent>25</iCombatPercent>
             <UnitCombats>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
@@ -844,9 +841,8 @@
                 </UnitCombat>
             </UnitCombats>
             <Button>,Art/Interface/Buttons/Promotions/Combat4.dds,Art/Interface/Buttons/Promotions_Atlas.dds,3,6</Button>
-            <iCombatPercentDefense>20</iCombatPercentDefense>
-            <iSpellDamageModify>5</iSpellDamageModify>
-            <PromotionSummonPerk>PROMOTION_EMPOWER4</PromotionSummonPerk>
+            <iCombatPercentDefense>0</iCombatPercentDefense>
+            <iSpellDamageModify>0</iSpellDamageModify>
             <PromotionNextLevel>PROMOTION_COMBAT5</PromotionNextLevel>
         </PromotionInfo>
         <PromotionInfo>
@@ -854,7 +850,7 @@
             <Description>TXT_KEY_PROMOTION_COMBAT5</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_COMBAT4</PromotionPrereq>
-            <iCombatPercent>20</iCombatPercent>
+            <iCombatPercent>30</iCombatPercent>
             <UnitCombats>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
@@ -898,9 +894,8 @@
                 </UnitCombat>
             </UnitCombats>
             <Button>,Art/Interface/Buttons/Promotions/Combat5.dds,Art/Interface/Buttons/Promotions_Atlas.dds,4,6</Button>
-            <iCombatPercentDefense>20</iCombatPercentDefense>
-            <iSpellDamageModify>5</iSpellDamageModify>
-            <PromotionSummonPerk>PROMOTION_EMPOWER5</PromotionSummonPerk>
+            <iCombatPercentDefense>0</iCombatPercentDefense>
+            <iSpellDamageModify>0</iSpellDamageModify>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_COMMANDO</Type>
@@ -981,13 +976,13 @@
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_COVER</Type>
-            <Description>TXT_KEY_PROMOTION_COVER</Description>
+            <Description>Cover I</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_COMBAT1</PromotionPrereq>
             <UnitCombatMods>
                 <UnitCombatMod>
                     <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-                    <iUnitCombatMod>40</iUnitCombatMod>
+                    <iUnitCombatMod>25</iUnitCombatMod>
                 </UnitCombatMod>
             </UnitCombatMods>
             <UnitCombats>
@@ -1021,18 +1016,26 @@
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_COVER2</Type>
-            <Description>TXT_KEY_PROMOTION_COVER2</Description>
+            <Description>Cover II</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_COVER</PromotionPrereq>
             <UnitCombatMods>
                 <UnitCombatMod>
                     <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-                    <iUnitCombatMod>40</iUnitCombatMod>
+                    <iUnitCombatMod>30</iUnitCombatMod>
                 </UnitCombatMod>
             </UnitCombatMods>
             <UnitCombats>
                 <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -1043,10 +1046,53 @@
                     <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
             </UnitCombats>
             <Button>,Art/Interface/Buttons/Promotions/Cover.dds,Art/Interface/Buttons/Promotions_Atlas.dds,2,5</Button>
-            <PromotionPrereqAnd>PROMOTION_COMBAT3</PromotionPrereqAnd>
+            <PromotionNextLevel>PROMOTION_COVER3</PromotionNextLevel>
         </PromotionInfo>
+        <PromotionInfo>
+            <Type>PROMOTION_COVER3</Type>
+            <Description>Cover III</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PromotionPrereq>PROMOTION_COVER2</PromotionPrereq>
+            <UnitCombatMods>
+                <UnitCombatMod>
+                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+                    <iUnitCombatMod>35</iUnitCombatMod>
+                </UnitCombatMod>
+            </UnitCombatMods>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>,Art/Interface/Buttons/Promotions/Cover.dds,Art/Interface/Buttons/Promotions_Atlas.dds,2,5</Button>
+        </PromotionInfo>        
         <PromotionInfo>
             <Type>PROMOTION_CRAZED</Type>
             <Description>TXT_KEY_PROMOTION_CRAZED</Description>
@@ -1809,13 +1855,13 @@
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_FORMATION</Type>
-            <Description>TXT_KEY_PROMOTION_FORMATION</Description>
+            <Description>Formation I</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_COMBAT2</PromotionPrereq>
+            <PromotionPrereq>PROMOTION_COMBAT1</PromotionPrereq>
             <UnitCombatMods>
                 <UnitCombatMod>
                     <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-                    <iUnitCombatMod>40</iUnitCombatMod>
+                    <iUnitCombatMod>25</iUnitCombatMod>
                 </UnitCombatMod>
             </UnitCombatMods>
             <UnitCombats>
@@ -1849,13 +1895,13 @@
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_FORMATION2</Type>
-            <Description>TXT_KEY_PROMOTION_FORMATION2</Description>
+            <Description>Formation II</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_FORMATION</PromotionPrereq>
             <UnitCombatMods>
                 <UnitCombatMod>
                     <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-                    <iUnitCombatMod>40</iUnitCombatMod>
+                    <iUnitCombatMod>30</iUnitCombatMod>
                 </UnitCombatMod>
             </UnitCombatMods>
             <UnitCombats>
@@ -1868,13 +1914,64 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
             <Button>,Art/Interface/Buttons/Promotions/Formation.dds,Art/Interface/Buttons/Promotions_Atlas.dds,1,2</Button>
-            <PromotionPrereqAnd>PROMOTION_COMBAT3</PromotionPrereqAnd>
+            <PromotionNextLevel>PROMOTION_FORMATION3</PromotionNextLevel>
         </PromotionInfo>
+        <PromotionInfo>
+            <Type>PROMOTION_FORMATION3</Type>
+            <Description>Formation III</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PromotionPrereq>PROMOTION_FORMATION2</PromotionPrereq>
+            <UnitCombatMods>
+                <UnitCombatMod>
+                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+                    <iUnitCombatMod>35</iUnitCombatMod>
+                </UnitCombatMod>
+            </UnitCombatMods>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>,Art/Interface/Buttons/Promotions/Formation.dds,Art/Interface/Buttons/Promotions_Atlas.dds,1,2</Button>
+        </PromotionInfo>        
         <PromotionInfo>
             <Type>PROMOTION_GUARDSMAN</Type>
             <Description>TXT_KEY_PROMOTION_GUARDSMAN</Description>
@@ -3067,13 +3164,13 @@
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_SHOCK</Type>
-            <Description>TXT_KEY_PROMOTION_SHOCK</Description>
+            <Description>Shock I</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_COMBAT1</PromotionPrereq>
             <UnitCombatMods>
                 <UnitCombatMod>
                     <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-                    <iUnitCombatMod>40</iUnitCombatMod>
+                    <iUnitCombatMod>25</iUnitCombatMod>
                 </UnitCombatMod>
             </UnitCombatMods>
             <UnitCombats>
@@ -3107,13 +3204,13 @@
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_SHOCK2</Type>
-            <Description>TXT_KEY_PROMOTION_SHOCK2</Description>
+            <Description>Shock II</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_SHOCK</PromotionPrereq>
             <UnitCombatMods>
                 <UnitCombatMod>
                     <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-                    <iUnitCombatMod>40</iUnitCombatMod>
+                    <iUnitCombatMod>30</iUnitCombatMod>
                 </UnitCombatMod>
             </UnitCombatMods>
             <UnitCombats>
@@ -3126,12 +3223,63 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
             </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Shock2.dds</Button>
-            <PromotionPrereqAnd>PROMOTION_COMBAT3</PromotionPrereqAnd>
+            <Button>Art/Interface/Buttons/Promotions/Shock.dds</Button>
+            <PromotionNextLevel>PROMOTION_SHOCK3</PromotionNextLevel>
+        </PromotionInfo>
+        <PromotionInfo>
+            <Type>PROMOTION_SHOCK3</Type>
+            <Description>Shock III</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PromotionPrereq>PROMOTION_SHOCK2</PromotionPrereq>
+            <UnitCombatMods>
+                <UnitCombatMod>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <iUnitCombatMod>35</iUnitCombatMod>
+                </UnitCombatMod>
+            </UnitCombatMods>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Promotions/Shock.dds</Button>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_SINISTER</Type>
