@@ -44,7 +44,7 @@
 	</Define>
 	<Define>
 		<DefineName>RIVER_ATTACK_MODIFIER</DefineName>
-		<iDefineIntVal>-20</iDefineIntVal>
+		<iDefineIntVal>-40</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>GREAT_PEOPLE_THRESHOLD_INCREASE</DefineName>

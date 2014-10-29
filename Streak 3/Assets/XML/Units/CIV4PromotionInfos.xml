@@ -157,7 +157,7 @@
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_AMPHIBIOUS</Type>
-            <Description>TXT_KEY_PROMOTION_AMPHIBIOUS</Description>
+            <Description>Amphibious</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_COMBAT2</PromotionPrereq>
             <bAmphib>1</bAmphib>
@@ -165,14 +165,6 @@
             <UnitCombats>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -254,22 +246,13 @@
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_BLITZ</Type>
-            <Description>TXT_KEY_PROMOTION_BLITZ</Description>
+            <Description>Blitz</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_DRILL4</PromotionPrereq>
-            <TechPrereq>NONE</TechPrereq>
+            <PromotionPrereq>PROMOTION_COMBAT3</PromotionPrereq>
             <bBlitz>1</bBlitz>
             <UnitCombats>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -2512,9 +2495,9 @@
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_MOBILITY1</Type>
-            <Description>TXT_KEY_PROMOTION_MOBILITY1</Description>
+            <Description>Mobility I</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>NONE</TechPrereq>
+            <PromotionPrereq>PROMOTION_COMBAT1</PromotionPrereq>
             <iMovesChange>1</iMovesChange>
             <UnitCombats>
                 <UnitCombat>
@@ -2522,19 +2505,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -2556,21 +2527,13 @@
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_MOBILITY2</Type>
-            <Description>TXT_KEY_PROMOTION_MOBILITY2</Description>
+            <Description>Mobility II</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_MOBILITY1</PromotionPrereq>
             <iMovesChange>1</iMovesChange>
             <UnitCombats>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
@@ -2960,21 +2923,13 @@
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_SENTRY</Type>
-            <Description>TXT_KEY_PROMOTION_SENTRY</Description>
+            <Description>Sentry I</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_COMBAT3</PromotionPrereq>
+            <PromotionPrereq>PROMOTION_COMBAT2</PromotionPrereq>
             <iVisibilityChange>1</iVisibilityChange>
             <UnitCombats>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -2993,10 +2948,6 @@
                     <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
             </UnitCombats>
             <Button>Art/Interface/Buttons/Promotions/Sentry1.dds</Button>
             <bMutation>1</bMutation>
@@ -3004,13 +2955,13 @@
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_SENTRY2</Type>
-            <Description>TXT_KEY_PROMOTION_SENTRY2</Description>
+            <Description>Sentry II</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_SENTRY</PromotionPrereq>
             <iVisibilityChange>1</iVisibilityChange>
             <UnitCombats>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
