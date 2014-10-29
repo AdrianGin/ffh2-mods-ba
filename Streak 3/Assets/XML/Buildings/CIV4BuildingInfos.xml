@@ -168,7 +168,7 @@
             <SpecialistCounts>
                 <SpecialistCount>
                     <SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
-                    <iSpecialistCount>4</iSpecialistCount>
+                    <iSpecialistCount>7</iSpecialistCount>
                 </SpecialistCount>
             </SpecialistCounts>
             <FreeSpecialistCounts>
@@ -398,7 +398,7 @@
             <SpecialistCounts>
                 <SpecialistCount>
                     <SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
-                    <iSpecialistCount>4</iSpecialistCount>
+                    <iSpecialistCount>7</iSpecialistCount>
                 </SpecialistCount>
             </SpecialistCounts>
             <FreeSpecialistCounts>
