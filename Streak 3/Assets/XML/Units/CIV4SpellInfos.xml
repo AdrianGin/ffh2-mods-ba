@@ -82,31 +82,47 @@
             <Button>Art/Interface/Buttons/Promotions/Skeletoncrew.dds</Button>
         </SpellInfo>
         <SpellInfo>
-            <Type>SPELL_CURE_DISEASE</Type>
-            <Description>TXT_KEY_SPELL_CURE_DISEASE</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <PromotionPrereq1>PROMOTION_MEDIC2</PromotionPrereq1>
+            <Type>SPELL_HEAL</Type>
+            <Description>Heal</Description>
+            <Civilopedia></Civilopedia>
+            <Help>TXT_KEY_SPELL_HEAL_HELP</Help>
+            <PromotionPrereq1>PROMOTION_CHANNELING1</PromotionPrereq1>
             <bAllowAI>1</bAllowAI>
             <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
             <bHasCasted>1</bHasCasted>
-            <RemovePromotionType1>PROMOTION_DISEASED</RemovePromotionType1>
-            <RemovePromotionType2>PROMOTION_PLAGUED</RemovePromotionType2>
-            <RemovePromotionType3>PROMOTION_WITHERED</RemovePromotionType3>
+            <PyResult>spellHeal(pCaster,8)</PyResult>
+            <PyRequirement>reqHeal(pCaster)</PyRequirement>
             <Effect>EFFECT_CREATION</Effect>
-            <Sound>AS3D_SPELL_CURE_DISEASE</Sound>
-            <Button>Art/Interface/Buttons/Spells/Curedisease.dds</Button>
+            <Sound>AS3D_SPELL_HEAL</Sound>
+            <Button>Art/Interface/Buttons/Spells/Heal.dds</Button>
         </SpellInfo>
         <SpellInfo>
-            <Type>SPELL_HEAL</Type>
-            <Description>TXT_KEY_SPELL_HEAL</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
+            <Type>SPELL_GREATER_HEALING</Type>
+            <Description>Greater Healing</Description>
+            <Civilopedia></Civilopedia>
             <Help>TXT_KEY_SPELL_HEAL_HELP</Help>
-            <PromotionPrereq1>PROMOTION_MEDIC3</PromotionPrereq1>
+            <PromotionPrereq1>PROMOTION_CHANNELING2</PromotionPrereq1>
             <bAllowAI>1</bAllowAI>
             <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
             <bHasCasted>1</bHasCasted>
             <RemovePromotionType1>PROMOTION_POISONED</RemovePromotionType1>
-            <PyResult>spellHeal(pCaster,20)</PyResult>
+            <PyResult>spellHeal(pCaster,15)</PyResult>
+            <PyRequirement>reqHeal(pCaster)</PyRequirement>
+            <Effect>EFFECT_CREATION</Effect>
+            <Sound>AS3D_SPELL_HEAL</Sound>
+            <Button>Art/Interface/Buttons/Spells/Heal.dds</Button>
+        </SpellInfo>
+        <SpellInfo>
+            <Type>SPELL_MASS_HEALING</Type>
+            <Description>Mass Healing</Description>
+            <Civilopedia></Civilopedia>
+            <Help>TXT_KEY_SPELL_HEAL_HELP</Help>
+            <PromotionPrereq1>PROMOTION_CHANNELING3</PromotionPrereq1>
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+            <bHasCasted>1</bHasCasted>
+            <RemovePromotionType1>PROMOTION_POISONED</RemovePromotionType1>
+            <PyResult>spellHeal(pCaster,30)</PyResult>
             <PyRequirement>reqHeal(pCaster)</PyRequirement>
             <Effect>EFFECT_CREATION</Effect>
             <Sound>AS3D_SPELL_HEAL</Sound>
