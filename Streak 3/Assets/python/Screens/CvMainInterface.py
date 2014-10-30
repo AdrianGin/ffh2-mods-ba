@@ -2058,20 +2058,20 @@ class CvMainInterface:
 				szText = CyGameTextMgr().getGoldStr(ePlayer)
 
 #FfH: Added by Kael 12/08/2007
-				if (gc.getPlayer(ePlayer).getCivilizationType() == gc.getInfoTypeForString('CIVILIZATION_KHAZAD') and gc.getPlayer(ePlayer).getNumCities() > 0):
-					iGold = gc.getPlayer(ePlayer).getGold() / gc.getPlayer(ePlayer).getNumCities()
-					if iGold <= 49:
-						szText = szText + " " + localText.getText("TXT_KEY_MISC_DWARVEN_VAULT_EMPTY", ())
-					if (iGold >= 50 and iGold <= 99):
-						szText = szText + " " + localText.getText("TXT_KEY_MISC_DWARVEN_VAULT_LOW", ())
-					if (iGold >= 150 and iGold <= 199):
-						szText = szText + " " + localText.getText("TXT_KEY_MISC_DWARVEN_VAULT_STOCKED", ())
-					if (iGold >= 200 and iGold <= 299):
-						szText = szText + " " + localText.getText("TXT_KEY_MISC_DWARVEN_VAULT_ABUNDANT", ())
-					if (iGold >= 300 and iGold <= 499):
-						szText = szText + " " + localText.getText("TXT_KEY_MISC_DWARVEN_VAULT_FULL", ())
-					if iGold >= 500:
-						szText = szText + " " + localText.getText("TXT_KEY_MISC_DWARVEN_VAULT_OVERFLOWING", ())
+#				if (gc.getPlayer(ePlayer).getCivilizationType() == gc.getInfoTypeForString('CIVILIZATION_KHAZAD') and gc.getPlayer(ePlayer).getNumCities() > 0):
+#					iGold = gc.getPlayer(ePlayer).getGold() / gc.getPlayer(ePlayer).getNumCities()
+#					if iGold <= 49:
+#						szText = szText + " " + localText.getText("TXT_KEY_MISC_DWARVEN_VAULT_EMPTY", ())
+#					if (iGold >= 50 and iGold <= 99):
+#						szText = szText + " " + localText.getText("TXT_KEY_MISC_DWARVEN_VAULT_LOW", ())
+#					if (iGold >= 150 and iGold <= 199):
+#						szText = szText + " " + localText.getText("TXT_KEY_MISC_DWARVEN_VAULT_STOCKED", ())
+#					if (iGold >= 200 and iGold <= 299):
+#						szText = szText + " " + localText.getText("TXT_KEY_MISC_DWARVEN_VAULT_ABUNDANT", ())
+#					if (iGold >= 300 and iGold <= 499):
+#						szText = szText + " " + localText.getText("TXT_KEY_MISC_DWARVEN_VAULT_FULL", ())
+#					if iGold >= 500:
+#						szText = szText + " " + localText.getText("TXT_KEY_MISC_DWARVEN_VAULT_OVERFLOWING", ())
 #FfH: End Add
 				iShift = 60
 				if (CyInterface().isCityScreenUp()):
@@ -3238,13 +3238,13 @@ class CvMainInterface:
 												szBuffer = szBuffer + szTempBuffer
 
 #FfH Alignment: Added by Kael 08/09/2007
-											if gc.getPlayer(ePlayer).getAlignment() == gc.getInfoTypeForString('ALIGNMENT_EVIL'):
-												szTempBuffer = " (" + localText.getColorText("TXT_KEY_ALIGNMENT_EVIL", (), gc.getInfoTypeForString("COLOR_RED")) + ")"
-											if gc.getPlayer(ePlayer).getAlignment() == gc.getInfoTypeForString('ALIGNMENT_NEUTRAL'):
-												szTempBuffer = " (" + localText.getColorText("TXT_KEY_ALIGNMENT_NEUTRAL", (), gc.getInfoTypeForString("COLOR_GREY")) + ")"
-											if gc.getPlayer(ePlayer).getAlignment() == gc.getInfoTypeForString('ALIGNMENT_GOOD'):
-												szTempBuffer = " (" + localText.getColorText("TXT_KEY_ALIGNMENT_GOOD", (), gc.getInfoTypeForString("COLOR_YELLOW")) + ")"
-											szBuffer = szBuffer + szTempBuffer
+#											if gc.getPlayer(ePlayer).getAlignment() == gc.getInfoTypeForString('ALIGNMENT_EVIL'):
+#												szTempBuffer = " (" + localText.getColorText("TXT_KEY_ALIGNMENT_EVIL", (), gc.getInfoTypeForString("COLOR_RED")) + ")"
+#											if gc.getPlayer(ePlayer).getAlignment() == gc.getInfoTypeForString('ALIGNMENT_NEUTRAL'):
+#												szTempBuffer = " (" + localText.getColorText("TXT_KEY_ALIGNMENT_NEUTRAL", (), gc.getInfoTypeForString("COLOR_GREY")) + ")"
+#											if gc.getPlayer(ePlayer).getAlignment() == gc.getInfoTypeForString('ALIGNMENT_GOOD'):
+#												szTempBuffer = " (" + localText.getColorText("TXT_KEY_ALIGNMENT_GOOD", (), gc.getInfoTypeForString("COLOR_YELLOW")) + ")"
+#											szBuffer = szBuffer + szTempBuffer
 #FfH: End Add
 
 										bEspionageCanSeeResearch = false
@@ -3254,8 +3254,8 @@ class CvMainInterface:
 												break
 
 #FfH: Added by Kael 10/01/2008
-										if gc.getPlayer(gc.getGame().getActivePlayer()).getNumBuilding(gc.getInfoTypeForString('BUILDING_EYES_AND_EARS_NETWORK')) > 0:
-											bEspionageCanSeeResearch = True
+#										if gc.getPlayer(gc.getGame().getActivePlayer()).getNumBuilding(gc.getInfoTypeForString('BUILDING_EYES_AND_EARS_NETWORK')) > 0:
+#											bEspionageCanSeeResearch = True
 #FfH: End Add
 
 										if (((gc.getPlayer(ePlayer).getTeam() == gc.getGame().getActiveTeam()) and (gc.getTeam(gc.getGame().getActiveTeam()).getNumMembers() > 1)) or (gc.getTeam(gc.getPlayer(ePlayer).getTeam()).isVassal(gc.getGame().getActiveTeam())) or gc.getGame().isDebugMode() or bEspionageCanSeeResearch):
