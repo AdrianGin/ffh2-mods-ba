@@ -3014,9 +3014,9 @@
 			<Flavors>
             </Flavors>
 			<iAIWeight>-999</iAIWeight>
-			<iCost>20</iCost>
+			<iCost>40</iCost>
 			<iHurryCostModifier>0</iHurryCostModifier>
-			<iAdvancedStartCost>20</iAdvancedStartCost>
+			<iAdvancedStartCost>40</iAdvancedStartCost>
 			<iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
