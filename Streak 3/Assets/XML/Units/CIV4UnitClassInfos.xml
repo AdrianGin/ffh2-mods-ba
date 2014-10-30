@@ -87,7 +87,7 @@
 			<Description></Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iMaxPlayerInstances>3</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_MARKSMAN</DefaultUnit>
 		</UnitClassInfo>
@@ -168,7 +168,7 @@
 			<Description></Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iMaxPlayerInstances>5</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_LANCER</DefaultUnit>
 		</UnitClassInfo>
