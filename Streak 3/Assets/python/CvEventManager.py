@@ -33,6 +33,8 @@ import CvCorporationScreen
 import OOSLogger
 #FfH: End Add
 
+from Popup import PyPopup
+
 # globals
 cf = CustomFunctions.CustomFunctions()
 gc = CyGlobalContext()
@@ -406,11 +408,6 @@ class CvEventManager:
 							if iTerrain == iDesert:
 								pPlot.setTempTerrainType(iPlains, CyGame().getSorenRandNum(90, "Bob") + 10)
 
-		for iPlayer in range(gc.getMAX_PLAYERS()):
-			player = gc.getPlayer(iPlayer)
-			if (player.isAlive() and player.isHuman()):
-				if player.getCivilizationType() == gc.getInfoTypeForString('CIVILIZATION_ELOHIM'):
-					cf.showUniqueImprovements(iPlayer)
 
 		if not gc.getGame().isNetworkMultiPlayer():
 			t = "TROPHY_FEAT_INTRODUCTION"
@@ -461,26 +458,7 @@ class CvEventManager:
 		iGameTurn = argsList[0]
 
 		iOrthusTurn = 75
-		if not CyGame().isUnitClassMaxedOut(gc.getInfoTypeForString('UNITCLASS_ORTHUS'), 0):
-			if not CyGame().isOption(gc.getInfoTypeForString('GAMEOPTION_NO_ORTHUS')):
-				bOrthus = False
-				if CyGame().getGameSpeedType() == gc.getInfoTypeForString('GAMESPEED_QUICK'):
-					if iGameTurn >= iOrthusTurn / 3 * 2:
-						bOrthus = True
-				if CyGame().getGameSpeedType() == gc.getInfoTypeForString('GAMESPEED_NORMAL'):
-					if iGameTurn >= iOrthusTurn:
-						bOrthus = True
-				if CyGame().getGameSpeedType() == gc.getInfoTypeForString('GAMESPEED_EPIC'):
-					if iGameTurn >= iOrthusTurn * 3 / 2:
-						bOrthus = True
-				if CyGame().getGameSpeedType() == gc.getInfoTypeForString('GAMESPEED_MARATHON'):
-					if iGameTurn >= iOrthusTurn * 3:
-						bOrthus = True
-				if bOrthus:
-					iUnit = gc.getInfoTypeForString('UNIT_ORTHUS')
-					cf.addUnit(iUnit)
-					cf.addPopup(CyTranslator().getText("TXT_KEY_POPUP_ORTHUS_CREATION",()), str(gc.getUnitInfo(iUnit).getImage()))
-
+		
 #		if not CyGame().isOption(gc.getInfoTypeForString('GAMEOPTION_NO_PLOT_COUNTER')):
 #			cf.doHellTerrain()
 
@@ -537,9 +515,9 @@ class CvEventManager:
 #
 		
 
-		if not pPlayer.isHuman():
-			if not CyGame().getWBMapScript():
-				cf.warScript(iPlayer)
+#		if not pPlayer.isHuman():
+#			if not CyGame().getWBMapScript():
+#				cf.warScript(iPlayer)
 
 #		if pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_CULTURAL_VALUES')) == gc.getInfoTypeForString('CIVIC_CRUSADE'):
 #			cf.doCrusade(iPlayer)
@@ -668,14 +646,6 @@ class CvEventManager:
 		iImprovement, iX, iY = argsList
 		pPlot = CyMap().plot(iX, iY)
 
-		if gc.getImprovementInfo(iImprovement).isUnique():
-			CyEngine().addLandmark(pPlot, CvUtil.convertToStr(gc.getImprovementInfo(iImprovement).getDescription()))
-
-			if iImprovement == gc.getInfoTypeForString('IMPROVEMENT_RING_OF_CARCER'):
-				pPlot.setMinLevel(15)
-				bPlayer = gc.getPlayer(gc.getBARBARIAN_PLAYER())
-				bPlayer.initUnit(gc.getInfoTypeForString('UNIT_BRIGIT_HELD'), pPlot.getX(), pPlot.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
-
 		if (not self.__LOG_IMPROVEMENT):
 			return
 		CvUtil.pyPrint('Improvement %s was built at %d, %d'
@@ -685,15 +655,6 @@ class CvEventManager:
 		'Improvement Destroyed'
 		iImprovement, iOwner, iX, iY = argsList
 
-		if gc.getImprovementInfo(iImprovement).isUnique():
-			pPlot = CyMap().plot(iX, iY)
-			CyEngine().removeLandmark(pPlot)
-
-			if iImprovement == gc.getInfoTypeForString('IMPROVEMENT_RING_OF_CARCER'):
-				pPlot.setMinLevel(-1)
-
-		if iImprovement == gc.getInfoTypeForString('IMPROVEMENT_NECROTOTEM'):
-			CyGame().changeGlobalCounter(-2)
 
 		if CyGame().getWBMapScript():
 			sf.onImprovementDestroyed(iImprovement, iOwner, iX, iY)
@@ -758,119 +719,6 @@ class CvEventManager:
 				popupInfo.setText(u"showWonderMovie")
 				popupInfo.addPopup(pCity.getOwner())
 
-		if iBuildingType == gc.getInfoTypeForString('BUILDING_INFERNAL_GRIMOIRE'):
-			if CyGame().getSorenRandNum(100, "Bob") <= 20:
-				pPlot2 = cf.findClearPlot(-1, pPlot)
-				if pPlot2 != -1:
-					bPlayer = gc.getPlayer(gc.getBARBARIAN_PLAYER())
-					newUnit = bPlayer.initUnit(gc.getInfoTypeForString('UNIT_BALOR'), pPlot2.getX(), pPlot2.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_NORTH)
-					CyInterface().addMessage(pCity.getOwner(),True,25,CyTranslator().getText("TXT_KEY_MESSAGE_INFERNAL_GRIMOIRE_BALOR",()),'AS2D_BALOR',1,'Art/Interface/Buttons/Units/Balor.dds',ColorTypes(7),newUnit.getX(),newUnit.getY(),True,True)
-					if pCity.getOwner() == CyGame().getActivePlayer():
-						cf.addPopup(CyTranslator().getText("TXT_KEY_POPUP_INFERNAL_GRIMOIRE_BALOR",()), 'art/interface/popups/Balor.dds')
-
-		if iBuildingType == gc.getInfoTypeForString('BUILDING_ALTAR_OF_THE_LUONNOTAR_FINAL'):
-			pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_ALTAR_OF_THE_LUONNOTAR_EXALTED'), 0)
-		if iBuildingType == gc.getInfoTypeForString('BUILDING_ALTAR_OF_THE_LUONNOTAR_EXALTED'):
-			pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_ALTAR_OF_THE_LUONNOTAR_DIVINE'), 0)
-		if iBuildingType == gc.getInfoTypeForString('BUILDING_ALTAR_OF_THE_LUONNOTAR_DIVINE'):
-			pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_ALTAR_OF_THE_LUONNOTAR_CONSECRATED'), 0)
-		if iBuildingType == gc.getInfoTypeForString('BUILDING_ALTAR_OF_THE_LUONNOTAR_CONSECRATED'):
-			pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_ALTAR_OF_THE_LUONNOTAR_BLESSED'), 0)
-		if iBuildingType == gc.getInfoTypeForString('BUILDING_ALTAR_OF_THE_LUONNOTAR_BLESSED'):
-			pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_ALTAR_OF_THE_LUONNOTAR_ANOINTED'), 0)
-		if iBuildingType == gc.getInfoTypeForString('BUILDING_ALTAR_OF_THE_LUONNOTAR_ANOINTED'):
-			pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_ALTAR_OF_THE_LUONNOTAR'), 0)
-
-		if iBuildingType == gc.getInfoTypeForString('BUILDING_MERCURIAN_GATE'):
-			iMercurianPlayer = cf.getOpenPlayer()
-			iTeam = pPlayer.getTeam()
-			pPlot2 = cf.findClearPlot(-1, pCity.plot())
-			if (iMercurianPlayer != -1 and pPlot2 != -1):
-				for i in range(pPlot.getNumUnits(), -1, -1):
-					pUnit = pPlot.getUnit(i)
-					pUnit.setXY(pPlot2.getX(), pPlot2.getY(), true, true, true)
-				CyGame().addPlayerAdvanced(iMercurianPlayer, iTeam, gc.getInfoTypeForString('LEADER_BASIUM'), gc.getInfoTypeForString('CIVILIZATION_MERCURIANS'))
-				gc.getPlayer(iMercurianPlayer).initUnit(gc.getInfoTypeForString('UNIT_BASIUM'), pPlot.getX(), pPlot.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_NORTH)
-				gc.getPlayer(iMercurianPlayer).initUnit(gc.getInfoTypeForString('UNIT_SETTLER'), pPlot.getX(), pPlot.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_NORTH)
-				gc.getPlayer(iMercurianPlayer).initUnit(gc.getInfoTypeForString('UNIT_ANGEL'), pPlot.getX(), pPlot.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_NORTH)
-				gc.getPlayer(iMercurianPlayer).initUnit(gc.getInfoTypeForString('UNIT_ANGEL'), pPlot.getX(), pPlot.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_NORTH)
-				gc.getPlayer(iMercurianPlayer).initUnit(gc.getInfoTypeForString('UNIT_ANGEL'), pPlot.getX(), pPlot.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_NORTH)
-				gc.getPlayer(iMercurianPlayer).initUnit(gc.getInfoTypeForString('UNIT_ANGEL'), pPlot.getX(), pPlot.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_NORTH)
-				gc.getPlayer(iMercurianPlayer).initUnit(gc.getInfoTypeForString('UNIT_ANGEL'), pPlot.getX(), pPlot.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_NORTH)
-				gc.getPlayer(iMercurianPlayer).initUnit(gc.getInfoTypeForString('UNIT_ANGEL'), pPlot.getX(), pPlot.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_NORTH)
-				gc.getPlayer(iMercurianPlayer).initUnit(gc.getInfoTypeForString('UNIT_WORKER'), pPlot.getX(), pPlot.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_NORTH)
-				gc.getPlayer(iMercurianPlayer).initUnit(gc.getInfoTypeForString('UNIT_WORKER'), pPlot.getX(), pPlot.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_NORTH)
-
-				if pPlayer.isHuman():
-					popupInfo = CyPopupInfo()
-					popupInfo.setButtonPopupType(ButtonPopupTypes.BUTTONPOPUP_PYTHON)
-					popupInfo.setText(CyTranslator().getText("TXT_KEY_POPUP_CONTROL_MERCURIANS",()))
-					popupInfo.setData1(player)
-					popupInfo.setData2(iMercurianPlayer)
-					popupInfo.addPythonButton(CyTranslator().getText("TXT_KEY_POPUP_YES", ()), "")
-					popupInfo.addPythonButton(CyTranslator().getText("TXT_KEY_POPUP_NO", ()), "")
-					popupInfo.setOnClickedPythonCallback("reassignPlayer")
-					popupInfo.addPopup(player)
-
-		if iBuildingType == gc.getInfoTypeForString('BUILDING_TOWER_OF_THE_ELEMENTS'):
-			lList = ['UNIT_AIR_ELEMENTAL', 'UNIT_EARTH_ELEMENTAL', 'UNIT_FIRE_ELEMENTAL', 'UNIT_WATER_ELEMENTAL']
-			iUnit = gc.getInfoTypeForString(lList[CyGame().getSorenRandNum(len(lList), "Pick Elemental")-1])
-			newUnit = pPlayer.initUnit(iUnit, pCity.getX(), pCity.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
-			newUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_HELD'), True)
-			CyInterface().addMessage(player,True,25,CyTranslator().getText("TXT_KEY_MESSAGE_TOWER_OF_THE_ELEMENTS_SPAWN",()),'',1,gc.getUnitInfo(iUnit).getButton(),ColorTypes(8),pCity.getX(),pCity.getY(),True,True)
-			iElemental = gc.getInfoTypeForString('PROMOTION_ELEMENTAL')
-			iStrong = gc.getInfoTypeForString('PROMOTION_STRONG')
-			apUnitList = PyPlayer(player).getUnitList()
-			for pUnit in apUnitList:
-				if pUnit.isHasPromotion(iElemental):
-					pUnit.setHasPromotion(iStrong, True)
-
-		if iBuildingType == gc.getInfoTypeForString('BUILDING_TOWER_OF_NECROMANCY'):
-			iUndead = gc.getInfoTypeForString('PROMOTION_UNDEAD')
-			iStrong = gc.getInfoTypeForString('PROMOTION_STRONG')
-			apUnitList = PyPlayer(player).getUnitList()
-			for pUnit in apUnitList:
-				if pUnit.isHasPromotion(iUndead):
-					pUnit.setHasPromotion(iStrong, True)
-
-		if iBuildingType == gc.getInfoTypeForString('BUILDING_TEMPLE_OF_THE_HAND'):
-			iSnow = gc.getInfoTypeForString('TERRAIN_SNOW')
-			iFlames = gc.getInfoTypeForString('FEATURE_FLAMES')
-			iFloodPlains = gc.getInfoTypeForString('FEATURE_FLOOD_PLAINS')
-			iForest = gc.getInfoTypeForString('FEATURE_FOREST')
-			iJungle = gc.getInfoTypeForString('FEATURE_JUNGLE')
-			iScrub = gc.getInfoTypeForString('FEATURE_SCRUB')
-			iSmoke = gc.getInfoTypeForString('IMPROVEMENT_SMOKE')
-			iX = pCity.getX()
-			iY = pCity.getY()
-			for iiX in range(iX-2, iX+3, 1):
-				for iiY in range(iY-2, iY+3, 1):
-					pLoopPlot = CyMap().plot(iiX,iiY)
-					if not pLoopPlot.isNone():
-						if not pLoopPlot.isWater():
-							pLoopPlot.setTerrainType(iSnow, True, True)
-							if pLoopPlot.getImprovementType() == iSmoke:
-								pLoopPlot.setImprovementType(-1)
-							iFeature = pLoopPlot.getFeatureType()
-							if iFeature == iForest:
-								pLoopPlot.setFeatureType(iForest, 2)
-							if iFeature == iJungle:
-								pLoopPlot.setFeatureType(iForest, 2)
-							if iFeature == iFlames:
-								pLoopPlot.setFeatureType(-1, -1)
-							if iFeature == iFloodPlains:
-								pLoopPlot.setFeatureType(-1, -1)
-							if iFeature == iScrub:
-								pLoopPlot.setFeatureType(-1, -1)
-			CyEngine().triggerEffect(gc.getInfoTypeForString('EFFECT_SNOWFALL'),pPlot.getPoint())
-
-		if iBuildingType == gc.getInfoTypeForString('BUILDING_GRAND_MENAGERIE'):
-			if pPlayer.isHuman():
-				if not CyGame().getWBMapScript():
-					t = "TROPHY_FEAT_GRAND_MENAGERIE"
-					if not CyGame().isHasTrophy(t):
-						CyGame().changeTrophyValue(t, 1)
-
 		CvAdvisorUtils.buildingBuiltFeats(pCity, iBuildingType)
 
 		if (not self.__LOG_BUILDING):
@@ -893,242 +741,7 @@ class CvEventManager:
 			popupInfo.setText(u"showWonderMovie")
 			popupInfo.addPopup(iPlayer)
 	
-		if iProjectType == gc.getInfoTypeForString('PROJECT_BANE_DIVINE'):
-			iCombatDisciple = gc.getInfoTypeForString('UNITCOMBAT_DISCIPLE')
-			for iLoopPlayer in range(gc.getMAX_PLAYERS()):
-				pLoopPlayer = gc.getPlayer(iLoopPlayer)
-				if pLoopPlayer.isAlive() :
-					apUnitList = PyPlayer(iLoopPlayer).getUnitList()
-					for pUnit in apUnitList:
-						if pUnit.getUnitCombatType() == iCombatDisciple:
-							pUnit.kill(False, pCity.getOwner())
 
-		if iProjectType == gc.getInfoTypeForString('PROJECT_GENESIS'):
-			cf.genesis(iPlayer)
-
-		if iProjectType == gc.getInfoTypeForString('PROJECT_GLORY_EVERLASTING'):
-			iDemon = gc.getInfoTypeForString('PROMOTION_DEMON')
-			iUndead = gc.getInfoTypeForString('PROMOTION_UNDEAD')
-			for iLoopPlayer in range(gc.getMAX_PLAYERS()):
-				pLoopPlayer = gc.getPlayer(iLoopPlayer)
-				player = PyPlayer(iLoopPlayer)
-				if pLoopPlayer.isAlive():
-					apUnitList = player.getUnitList()
-					for pUnit in apUnitList:
-						if (pUnit.isHasPromotion(iDemon) or pUnit.isHasPromotion(iUndead)):
-							pUnit.kill(False, iPlayer)
-
-		if iProjectType == gc.getInfoTypeForString('PROJECT_RITES_OF_OGHMA'):
-			i = 7
-			if CyMap().getWorldSize() == gc.getInfoTypeForString('WORLDSIZE_DUEL'):
-				i = i - 3
-			if CyMap().getWorldSize() == gc.getInfoTypeForString('WORLDSIZE_TINY'):
-				i = i - 2
-			if CyMap().getWorldSize() == gc.getInfoTypeForString('WORLDSIZE_SMALL'):
-				i = i - 1
-			if CyMap().getWorldSize() == gc.getInfoTypeForString('WORLDSIZE_LARGE'):
-				i = i + 1
-			if CyMap().getWorldSize() == gc.getInfoTypeForString('WORLDSIZE_HUGE'):
-				i = i + 3
-			cf.addBonus('BONUS_MANA',i,'Art/Interface/Buttons/WorldBuilder/mana_button.dds')
-
-		if iProjectType == gc.getInfoTypeForString('PROJECT_NATURES_REVOLT'):
-			bPlayer = gc.getPlayer(gc.getBARBARIAN_PLAYER())
-			py = PyPlayer(gc.getBARBARIAN_PLAYER())
-			iAxeman = gc.getInfoTypeForString('UNITCLASS_AXEMAN')
-			iBear = gc.getInfoTypeForString('UNIT_BEAR')
-			iHeroicDefense = gc.getInfoTypeForString('PROMOTION_HEROIC_DEFENSE')
-			iHeroicDefense2 = gc.getInfoTypeForString('PROMOTION_HEROIC_DEFENSE2')
-			iHeroicStrength = gc.getInfoTypeForString('PROMOTION_HEROIC_STRENGTH')
-			iHeroicStrength2 = gc.getInfoTypeForString('PROMOTION_HEROIC_STRENGTH2')
-			iHunter = gc.getInfoTypeForString('UNITCLASS_HUNTER')
-			iLion = gc.getInfoTypeForString('UNIT_LION')
-			iScout = gc.getInfoTypeForString('UNITCLASS_SCOUT')
-			iTiger = gc.getInfoTypeForString('UNIT_TIGER')
-			iWarrior = gc.getInfoTypeForString('UNITCLASS_WARRIOR')
-			iWolf = gc.getInfoTypeForString('UNIT_WOLF')
-			iWorker = gc.getInfoTypeForString('UNITCLASS_WORKER')
-			for pUnit in py.getUnitList():
-				bValid = False
-				if pUnit.getUnitClassType() == iWorker:
-					iNewUnit = iWolf
-					bValid = True
-				if pUnit.getUnitClassType() == iScout:
-					iNewUnit = iLion
-					bValid = True
-				if pUnit.getUnitClassType() == iWarrior:
-					iNewUnit = iLion
-					bValid = True
-				if pUnit.getUnitClassType() == iHunter:
-					iNewUnit = iTiger
-					bValid = True
-				if pUnit.getUnitClassType() == iAxeman:
-					iNewUnit = iBear
-					bValid = True
-				if bValid:
-					newUnit = bPlayer.initUnit(iNewUnit, pUnit.getX(), pUnit.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_NORTH)
-					newUnit = bPlayer.initUnit(iNewUnit, pUnit.getX(), pUnit.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_NORTH)
-					newUnit = bPlayer.initUnit(iNewUnit, pUnit.getX(), pUnit.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_NORTH)
-					pUnit.kill(True, PlayerTypes.NO_PLAYER)
-			for iLoopPlayer in range(gc.getMAX_PLAYERS()):
-				pLoopPlayer = gc.getPlayer(iLoopPlayer)
-				if pLoopPlayer.isAlive():
-					py = PyPlayer(iLoopPlayer)
-					for pUnit in py.getUnitList():
-						if pUnit.isAnimal():
-							pUnit.setHasPromotion(iHeroicDefense, True)
-							pUnit.setHasPromotion(iHeroicDefense2, True)
-							pUnit.setHasPromotion(iHeroicStrength, True)
-							pUnit.setHasPromotion(iHeroicStrength2, True)
-
-		if iProjectType == gc.getInfoTypeForString('PROJECT_BLOOD_OF_THE_PHOENIX'):
-			py = PyPlayer(iPlayer)
-			apUnitList = py.getUnitList()
-			for pUnit in apUnitList:
-				if pUnit.isAlive():
-					pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_IMMORTAL'), True)
-
-		if iProjectType == gc.getInfoTypeForString('PROJECT_PURGE_THE_UNFAITHFUL'):
-			for pyCity in PyPlayer(iPlayer).getCityList():
-				pCity2 = pyCity.GetCy()
-				iRnd = CyGame().getSorenRandNum(2, "Bob")
-				StateBelief = pPlayer.getStateReligion()
-				if StateBelief == gc.getInfoTypeForString('RELIGION_THE_ORDER'):
-					iRnd = iRnd - 1
-				for iTarget in range(gc.getNumReligionInfos()):
-					if (StateBelief != iTarget and pCity2.isHasReligion(iTarget) and pCity2.isHolyCityByType(iTarget) == False):
-						pCity2.setHasReligion(iTarget, False, True, True)
-						iRnd = iRnd + 1
-						for i in range(gc.getNumBuildingInfos()):
-							if gc.getBuildingInfo(i).getPrereqReligion() == iTarget:
-								pCity2.setNumRealBuilding(i, 0)
-				if iRnd > 0:
-					pCity2.setOccupationTimer(iRnd)
-
-		if iProjectType == gc.getInfoTypeForString('PROJECT_BIRTHRIGHT_REGAINED'):
-			pPlayer.setFeatAccomplished(FeatTypes.FEAT_GLOBAL_SPELL, False)
-
-		if iProjectType == gc.getInfoTypeForString('PROJECT_SAMHAIN'):
-			for pyCity in PyPlayer(iPlayer).getCityList():
-				pCity = pyCity.GetCy()
-				pCity.changeHappinessTimer(20)
-			iCount = CyGame().countCivPlayersAlive() + int(CyGame().getHandicapType()) - 5
-			for i in range(iCount):
-				cf.addUnit(gc.getInfoTypeForString('UNIT_FROSTLING'))
-				cf.addUnit(gc.getInfoTypeForString('UNIT_FROSTLING'))
-				cf.addUnit(gc.getInfoTypeForString('UNIT_FROSTLING_ARCHER'))
-				cf.addUnit(gc.getInfoTypeForString('UNIT_FROSTLING_WOLF_RIDER'))
-			cf.addUnit(gc.getInfoTypeForString('UNIT_MOKKA'))
-
-		if iProjectType == gc.getInfoTypeForString('PROJECT_THE_WHITE_HAND'):
-			newUnit1 = pPlayer.initUnit(gc.getInfoTypeForString('UNIT_PRIEST_OF_WINTER'), pCity.getX(), pCity.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
-			newUnit1.setName("Dumannios")
-			newUnit2 = pPlayer.initUnit(gc.getInfoTypeForString('UNIT_PRIEST_OF_WINTER'), pCity.getX(), pCity.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
-			newUnit2.setName("Riuros")
-			newUnit3 = pPlayer.initUnit(gc.getInfoTypeForString('UNIT_PRIEST_OF_WINTER'), pCity.getX(), pCity.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
-			newUnit3.setName("Anagantios")
-
-		if iProjectType == gc.getInfoTypeForString('PROJECT_THE_DEEPENING'):
-			iDesert = gc.getInfoTypeForString('TERRAIN_DESERT')
-			iGrass = gc.getInfoTypeForString('TERRAIN_GRASS')
-			iMarsh = gc.getInfoTypeForString('TERRAIN_MARSH')
-			iPlains = gc.getInfoTypeForString('TERRAIN_PLAINS')
-			iSnow = gc.getInfoTypeForString('TERRAIN_SNOW')
-			iTundra = gc.getInfoTypeForString('TERRAIN_TUNDRA')
-			iBlizzard = gc.getInfoTypeForString('FEATURE_BLIZZARD')
-			iTimer = 40 + (CyGame().getGameSpeedType() * 20)
-			for i in range (CyMap().numPlots()):
-				pPlot = CyMap().plotByIndex(i)
-				bValid = False
-				if pPlot.isWater() == False:
-					if CyGame().getSorenRandNum(100, "The Deepening") < 25:
-						iTerrain = pPlot.getTerrainType()
-						if iTerrain == iSnow:
-							bValid = True
-						if iTerrain == iTundra:
-							pPlot.setTempTerrainType(iSnow, CyGame().getSorenRandNum(iTimer, "Bob") + 10)
-							bValid = True
-						if iTerrain == iGrass or iTerrain == iMarsh:
-							pPlot.setTempTerrainType(iTundra, CyGame().getSorenRandNum(iTimer, "Bob") + 10)
-							bValid = True
-						if iTerrain == iPlains:
-							pPlot.setTempTerrainType(iTundra, CyGame().getSorenRandNum(iTimer, "Bob") + 10)
-							bValid = True
-						if iTerrain == iDesert:
-							pPlot.setTempTerrainType(iPlains, CyGame().getSorenRandNum(iTimer, "Bob") + 10)
-						if bValid:
-							if CyGame().getSorenRandNum(750, "The Deepening") < 10:
-								pPlot.setFeatureType(iBlizzard,-1)
-
-		if iProjectType == gc.getInfoTypeForString('PROJECT_STIR_FROM_SLUMBER'):
-			pPlayer.initUnit(gc.getInfoTypeForString('UNIT_DRIFA'), pCity.getX(), pCity.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
-
-		if iProjectType == gc.getInfoTypeForString('PROJECT_THE_DRAW'):
-			pPlayer.changeNoDiplomacyWithEnemies(1)
-			iTeam = pPlayer.getTeam()
-			eTeam = gc.getTeam(iTeam)
-			for iLoopTeam in range(gc.getMAX_TEAMS()):
-				if iLoopTeam != iTeam:
-					if iLoopTeam != gc.getPlayer(gc.getBARBARIAN_PLAYER()).getTeam():
-						eLoopTeam = gc.getTeam(iLoopTeam)
-						if eLoopTeam.isAlive():
-							if not eLoopTeam.isAVassal():
-								eTeam.declareWar(iLoopTeam, false, WarPlanTypes.WARPLAN_LIMITED)
-			py = PyPlayer(iPlayer)
-			for pUnit in py.getUnitList():
-				iDmg = pUnit.getDamage() * 2
-				if iDmg > 99:
-					iDmg = 99
-				if iDmg < 50:
-					iDmg = 50
-				pUnit.setDamage(iDmg, iPlayer)
-			for pyCity in PyPlayer(iPlayer).getCityList():
-				pLoopCity = pyCity.GetCy()
-				iPop = int(pLoopCity.getPopulation() / 2)
-				if iPop < 1:
-					iPop = 1
-				pLoopCity.setPopulation(iPop)
-
-		if iProjectType == gc.getInfoTypeForString('PROJECT_ASCENSION'):
-			pPlayer.initUnit(gc.getInfoTypeForString('UNIT_AURIC_ASCENDED'), pCity.getX(), pCity.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
-			if pPlayer.isHuman():
-				t = "TROPHY_FEAT_ASCENSION"
-				if not CyGame().isHasTrophy(t):
-					CyGame().changeTrophyValue(t, 1)
-			if not CyGame().getWBMapScript():
-				iBestPlayer = -1
-				iBestValue = 0
-				for iLoopPlayer in range(gc.getMAX_PLAYERS()):
-					pLoopPlayer = gc.getPlayer(iLoopPlayer)
-					if pLoopPlayer.isAlive():
-						if not pLoopPlayer.isBarbarian():
-							if pLoopPlayer.getTeam() != pPlayer.getTeam():
-								iValue = CyGame().getSorenRandNum(500, "Ascension")
-								if pLoopPlayer.isHuman():
-									iValue += 2000
-								iValue += (20 - CyGame().getPlayerRank(iLoopPlayer)) * 50
-								if iValue > iBestValue:
-									iBestValue = iValue
-									iBestPlayer = iLoopPlayer
-				if iBestPlayer != -1:
-					pBestPlayer = gc.getPlayer(iBestPlayer)
-					pBestCity = pBestPlayer.getCapitalCity()
-					if pBestPlayer.isHuman():
-						iEvent = CvUtil.findInfoTypeNum(gc.getEventTriggerInfo, gc.getNumEventTriggerInfos(),'EVENTTRIGGER_GODSLAYER')
-						triggerData = gc.getPlayer(iBestPlayer).initTriggeredData(iEvent, true, -1, pBestCity.getX(), pBestCity.getY(), iBestPlayer, -1, -1, -1, -1, -1)
-					else:
-						pBestPlayer.initUnit(gc.getInfoTypeForString('EQUIPMENT_GODSLAYER'), pBestCity.getX(), pBestCity.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
-
-		if iProjectType == gc.getInfoTypeForString('PROJECT_PACT_OF_THE_NILHORN'):
-			newUnit1 = pPlayer.initUnit(gc.getInfoTypeForString('UNIT_HILL_GIANT'), pCity.getX(), pCity.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_NORTH)
-			newUnit1.setHasPromotion(gc.getInfoTypeForString('PROMOTION_HIDDEN_NATIONALITY'), True)
-			newUnit1.setName("Larry")
-			newUnit2 = pPlayer.initUnit(gc.getInfoTypeForString('UNIT_HILL_GIANT'), pCity.getX(), pCity.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_NORTH)
-			newUnit2.setHasPromotion(gc.getInfoTypeForString('PROMOTION_HIDDEN_NATIONALITY'), True)
-			newUnit2.setName("Curly")
-			newUnit3 = pPlayer.initUnit(gc.getInfoTypeForString('UNIT_HILL_GIANT'), pCity.getX(), pCity.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_NORTH)
-			newUnit3.setHasPromotion(gc.getInfoTypeForString('PROMOTION_HIDDEN_NATIONALITY'), True)
-			newUnit3.setName("Moe")
 
 	def onSelectionGroupPushMission(self, argsList):
 		'selection group mission'
@@ -1170,25 +783,6 @@ class CvEventManager:
 		iChanneling2 = gc.getInfoTypeForString('PROMOTION_CHANNELING2')
 		iChanneling3 = gc.getInfoTypeForString('PROMOTION_CHANNELING3')
 		
-#Conquestmode for Heroes (still needed?)
-
-		if unit.getUnitClassType() == gc.getInfoTypeForString('UNITCLASS_DONAL'):
-			unit.startConquestMode()
-		if unit.getUnitClassType() == gc.getInfoTypeForString('UNITCLASS_DEMAGOG'):
-			unit.startConquestMode()
-		if unit.getUnitClassType() == gc.getInfoTypeForString('UNITCLASS_LOSHA'):
-			unit.startConquestMode()
-		if unit.getUnitType() == gc.getInfoTypeForString('UNIT_VAMPIRE'):
-			unit.setUnitAIType(gc.getInfoTypeForString('UNITAI_FEASTING')) 
-
-#Conquestmode for Religion Heros			
-		if pPlayer.isConquestMode():
-			if pPlayer.getFavoriteReligion()!=ReligionTypes.NO_RELIGION:
-				if unit.getUnitClassType()==gc.getReligionInfo(pPlayer.getFavoriteReligion()).getReligionHero1():
-					unit.startConquestMode()					
-				elif unit.getUnitClassType()==gc.getReligionInfo(pPlayer.getFavoriteReligion()).getReligionHero2():
-					unit.startConquestMode()					
-									
 		if unit.getUnitCombatType() == gc.getInfoTypeForString('UNITCOMBAT_ADEPT'):
 			iNum = pPlayer.getNumAvailableBonuses(gc.getInfoTypeForString('BONUS_MANA_AIR'))
 			if iNum > 1:
@@ -1197,27 +791,7 @@ class CvEventManager:
 					unit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_AIR2'), True)
 					if (iNum > 3 and unit.isHasPromotion(iChanneling3)):
 						unit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_AIR3'), True)
-			iNum = pPlayer.getNumAvailableBonuses(gc.getInfoTypeForString('BONUS_MANA_BODY'))
-			if iNum > 1:
-				unit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_BODY1'), True)
-				if (iNum > 2 and unit.isHasPromotion(iChanneling2)):
-					unit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_BODY2'), True)
-					if (iNum > 3 and unit.isHasPromotion(iChanneling3)):
-						unit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_BODY3'), True)
-			iNum = pPlayer.getNumAvailableBonuses(gc.getInfoTypeForString('BONUS_MANA_CHAOS'))
-			if iNum > 1:
-				unit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_CHAOS1'), True)
-				if (iNum > 2 and unit.isHasPromotion(iChanneling2)):
-					unit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_CHAOS2'), True)
-					if (iNum > 3 and unit.isHasPromotion(iChanneling3)):
-						unit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_CHAOS3'), True)
-			iNum = pPlayer.getNumAvailableBonuses(gc.getInfoTypeForString('BONUS_MANA_DEATH'))
-			if iNum > 1:
-				unit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_DEATH1'), True)
-				if (iNum > 2 and unit.isHasPromotion(iChanneling2)):
-					unit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_DEATH2'), True)
-					if (iNum > 3 and unit.isHasPromotion(iChanneling3)):
-						unit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_DEATH3'), True)
+
 			iNum = pPlayer.getNumAvailableBonuses(gc.getInfoTypeForString('BONUS_MANA_EARTH'))
 			if iNum > 1:
 				unit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_EARTH1'), True)
@@ -1225,20 +799,8 @@ class CvEventManager:
 					unit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_EARTH2'), True)
 					if (iNum > 3 and unit.isHasPromotion(iChanneling3)):
 						unit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_EARTH3'), True)
-			iNum = pPlayer.getNumAvailableBonuses(gc.getInfoTypeForString('BONUS_MANA_ENCHANTMENT'))
-			if iNum > 1:
-				unit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_ENCHANTMENT1'), True)
-				if (iNum > 2 and unit.isHasPromotion(iChanneling2)):
-					unit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_ENCHANTMENT2'), True)
-					if (iNum > 3 and unit.isHasPromotion(iChanneling3)):
-						unit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_ENCHANTMENT3'), True)
-			iNum = pPlayer.getNumAvailableBonuses(gc.getInfoTypeForString('BONUS_MANA_ENTROPY'))
-			if iNum > 1:
-				unit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_ENTROPY1'), True)
-				if (iNum > 2 and unit.isHasPromotion(iChanneling2)):
-					unit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_ENTROPY2'), True)
-					if (iNum > 3 and unit.isHasPromotion(iChanneling3)):
-						unit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_ENTROPY3'), True)
+
+
 			iNum = pPlayer.getNumAvailableBonuses(gc.getInfoTypeForString('BONUS_MANA_FIRE'))
 			if iNum > 1:
 				unit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_FIRE1'), True)
@@ -1246,69 +808,7 @@ class CvEventManager:
 					unit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_FIRE2'), True)
 					if (iNum > 3 and unit.isHasPromotion(iChanneling3)):
 						unit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_FIRE3'), True)
-			iNum = pPlayer.getNumAvailableBonuses(gc.getInfoTypeForString('BONUS_MANA_ICE'))
-			if iNum > 1:
-				unit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_ICE1'), True)
-				if (iNum > 2 and unit.isHasPromotion(iChanneling2)):
-					unit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_ICE2'), True)
-					if (iNum > 3 and unit.isHasPromotion(iChanneling3)):
-						unit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_ICE3'), True)
-			iNum = pPlayer.getNumAvailableBonuses(gc.getInfoTypeForString('BONUS_MANA_LAW'))
-			if iNum > 1:
-				unit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_LAW1'), True)
-				if (iNum > 2 and unit.isHasPromotion(iChanneling2)):
-					unit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_LAW2'), True)
-					if (iNum > 3 and unit.isHasPromotion(iChanneling3)):
-						unit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_LAW3'), True)
-			iNum = pPlayer.getNumAvailableBonuses(gc.getInfoTypeForString('BONUS_MANA_LIFE'))
-			if iNum > 1:
-				unit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_LIFE1'), True)
-				if (iNum > 2 and unit.isHasPromotion(iChanneling2)):
-					unit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_LIFE2'), True)
-					if (iNum > 3 and unit.isHasPromotion(iChanneling3)):
-						unit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_LIFE3'), True)
-			iNum = pPlayer.getNumAvailableBonuses(gc.getInfoTypeForString('BONUS_MANA_METAMAGIC'))
-			if iNum > 1:
-				unit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_METAMAGIC1'), True)
-				if (iNum > 2 and unit.isHasPromotion(iChanneling2)):
-					unit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_METAMAGIC2'), True)
-					if (iNum > 3 and unit.isHasPromotion(iChanneling3)):
-						unit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_METAMAGIC3'), True)
-			iNum = pPlayer.getNumAvailableBonuses(gc.getInfoTypeForString('BONUS_MANA_MIND'))
-			if iNum > 1:
-				unit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_MIND1'), True)
-				if (iNum > 2 and unit.isHasPromotion(iChanneling2)):
-					unit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_MIND2'), True)
-					if (iNum > 3 and unit.isHasPromotion(iChanneling3)):
-						unit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_MIND3'), True)
-			iNum = pPlayer.getNumAvailableBonuses(gc.getInfoTypeForString('BONUS_MANA_NATURE'))
-			if iNum > 1:
-				unit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_NATURE1'), True)
-				if (iNum > 2 and unit.isHasPromotion(iChanneling2)):
-					unit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_NATURE2'), True)
-					if (iNum > 3 and unit.isHasPromotion(iChanneling3)):
-						unit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_NATURE3'), True)
-			iNum = pPlayer.getNumAvailableBonuses(gc.getInfoTypeForString('BONUS_MANA_SHADOW'))
-			if iNum > 1:
-				unit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_SHADOW1'), True)
-				if (iNum > 2 and unit.isHasPromotion(iChanneling2)):
-					unit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_SHADOW2'), True)
-					if (iNum > 3 and unit.isHasPromotion(iChanneling3)):
-						unit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_SHADOW3'), True)
-			iNum = pPlayer.getNumAvailableBonuses(gc.getInfoTypeForString('BONUS_MANA_SPIRIT'))
-			if iNum > 1:
-				unit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_SPIRIT1'), True)
-				if (iNum > 2 and unit.isHasPromotion(iChanneling2)):
-					unit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_SPIRIT2'), True)
-					if (iNum > 3 and unit.isHasPromotion(iChanneling3)):
-						unit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_SPIRIT3'), True)
-			iNum = pPlayer.getNumAvailableBonuses(gc.getInfoTypeForString('BONUS_MANA_SUN'))
-			if iNum > 1:
-				unit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_SUN1'), True)
-				if (iNum > 2 and unit.isHasPromotion(iChanneling2)):
-					unit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_SUN2'), True)
-					if (iNum > 3 and unit.isHasPromotion(iChanneling3)):
-						unit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_SUN3'), True)
+			
 			iNum = pPlayer.getNumAvailableBonuses(gc.getInfoTypeForString('BONUS_MANA_WATER'))
 			if iNum > 1:
 				unit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_WATER1'), True)
@@ -1316,14 +816,6 @@ class CvEventManager:
 					unit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_WATER2'), True)
 					if (iNum > 3 and unit.isHasPromotion(iChanneling3)):
 						unit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_WATER3'), True)
-
-		if unit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_ELEMENTAL')):
-			if pPlayer.getNumBuilding(gc.getInfoTypeForString('BUILDING_TOWER_OF_THE_ELEMENTS')) > 0:
-				unit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_STRONG'), True)
-
-		if unit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_UNDEAD')):
-			if pPlayer.getNumBuilding(gc.getInfoTypeForString('BUILDING_TOWER_OF_NECROMANCY')) > 0:
-				unit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_STRONG'), True)
 
 		if CyGame().getWBMapScript():
 			sf.onUnitCreated(unit)
@@ -1340,121 +832,6 @@ class CvEventManager:
 
 		iFreeProm = unit.getFreePromotionPick()
 
-#Sephi
-					
-#UNITAI for AdeptUnits
-		if ((not pPlayer.isHuman()) and (not pPlayer.isBarbarian())):
-			if unit.getUnitClassType() == gc.getInfoTypeForString('UNITCLASS_ADEPT'):
-				terraformersneeded=pPlayer.getNumCities()/4
-				if pPlayer.isHasTech(gc.getInfoTypeForString('TECH_SORCERY')):			
-					terraformersneeded=terraformersneeded+2
-				numberterraformer=0
-				for pUnit in player.getUnitList():
-					if pUnit.getUnitAIType() == gc.getInfoTypeForString('UNITAI_TERRAFORMER'):
-						numberterraformer = numberterraformer+1
-					if pUnit.getUnitAIType() == gc.getInfoTypeForString('UNITAI_MANA_UPGRADE'):
-						numberterraformer = numberterraformer+1					
-				if 	numberterraformer<terraformersneeded:
-					unit.setUnitAIType(gc.getInfoTypeForString('UNITAI_TERRAFORMER'))
-				else:				
-					pPlot = unit.plot()
-					numbermages=0
-					if pPlot.AI_neededPermDefenseReserve(2)>0:
-						unit.setUnitAIType(gc.getInfoTypeForString('UNITAI_MAGE'))					
-					else:							
-						unit.setUnitAIType(gc.getInfoTypeForString('UNITAI_WARWIZARD'))						
-
-#UNITAI for Terraformers
-			if unit.getUnitType() == gc.getInfoTypeForString('UNIT_DEVOUT'):			
-				numberterraformer=0
-				for pUnit in player.getUnitList():
-					if pUnit.getUnitType() == gc.getInfoTypeForString('UNIT_DEVOUT'):
-						if pUnit.getUnitAIType() == gc.getInfoTypeForString('UNITAI_TERRAFORMER'):
-							numberterraformer = numberterraformer+1
-				if 	numberterraformer<(pPlayer.getNumCities()*CyGame().getGlobalCounter()/100):
-					unit.setUnitAIType(gc.getInfoTypeForString('UNITAI_TERRAFORMER'))
-				elif numberterraformer<3:
-					unit.setUnitAIType(gc.getInfoTypeForString('UNITAI_TERRAFORMER'))
-
-			if unit.getUnitType() == gc.getInfoTypeForString('UNIT_PRIEST_OF_LEAVES'):			
-				if pPlayer.getStateReligion()==gc.getInfoTypeForString('RELIGION_FELLOWSHIP_OF_LEAVES'):			
-					numberterraformer=0
-					for pUnit in player.getUnitList():
-						if pUnit.getUnitType() == gc.getInfoTypeForString('UNIT_PRIEST_OF_LEAVES'):
-							if pUnit.getUnitAIType() == gc.getInfoTypeForString('UNITAI_TERRAFORMER'):
-								numberterraformer = numberterraformer+1
-					if 	((numberterraformer*3)<pPlayer.getNumCities()):
-						unit.setUnitAIType(gc.getInfoTypeForString('UNITAI_TERRAFORMER'))
-					elif numberterraformer<4:
-						unit.setUnitAIType(gc.getInfoTypeForString('UNITAI_TERRAFORMER'))
-		
-		if unit.getUnitType() == gc.getInfoTypeForString('UNIT_BEAST_OF_AGARES'):
-			if city.getCivilizationType() != gc.getInfoTypeForString('CIVILIZATION_INFERNAL'):
-				iPop = city.getPopulation() - 4
-				if iPop <= 1:
-					iPop = 1
-				city.setPopulation(iPop)
-				city.setOccupationTimer(4)
-
-		if city.getNumRealBuilding(gc.getInfoTypeForString('BUILDING_CHANCEL_OF_GUARDIANS')) > 0:
-			if CyGame().getSorenRandNum(100, "Chancel of Guardians") < 20:
-				unit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_DEFENSIVE'), True)
-
-		if (city.getNumRealBuilding(gc.getInfoTypeForString('BUILDING_CAVE_OF_ANCESTORS')) > 0 and unit.getUnitCombatType() == (gc.getInfoTypeForString('UNITCOMBAT_ADEPT'))):
-			i = 0
-			for iBonus in range(gc.getNumBonusInfos()):
-				if gc.getBonusInfo(iBonus).getBonusClassType() == gc.getInfoTypeForString('BONUSCLASS_MANA'):
-					if city.hasBonus(iBonus):
-						i = i + 1
-			if i >= 1:
-				unit.changeExperience(i, -1, False, False, False)
-
-		if unit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_GOLEM')):
-			if city.getNumRealBuilding(gc.getInfoTypeForString('BUILDING_BLASTING_WORKSHOP')) > 0:
-				unit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_FIRE2'), True)
-			if city.getNumRealBuilding(gc.getInfoTypeForString('BUILDING_PALLENS_ENGINE')) > 0:
-				unit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_PERFECT_SIGHT'), True)
-			if city.getNumRealBuilding(gc.getInfoTypeForString('BUILDING_ADULARIA_CHAMBER')) > 0:
-				unit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_HIDDEN'), True)
-
-		if city.getNumRealBuilding(gc.getInfoTypeForString('BUILDING_ASYLUM')) > 0:
-			if unit.isAlive():
-				if isWorldUnitClass(unit.getUnitClassType()) == False:
-					if CyGame().getSorenRandNum(100, "Bob") <= 10:
-						unit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_CRAZED'), True)
-						unit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_ENRAGED'), True)
-
-		if unit.getUnitType() == gc.getInfoTypeForString('UNIT_ACHERON'):
-			unit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_HELD'), True)
-			city.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_THE_DRAGONS_HORDE'), 1)
-			iX = city.getX()
-			iY = city.getY()
-			for iiX in range(iX-1, iX+2, 1):
-				for iiY in range(iY-1, iY+2, 1):
-					pPlot = CyMap().plot(iiX,iiY)
-					if (pPlot.getFeatureType() == gc.getInfoTypeForString('FEATURE_FOREST') or pPlot.getFeatureType() == gc.getInfoTypeForString('FEATURE_JUNGLE')):
-						pPlot.setFeatureType(gc.getInfoTypeForString('FEATURE_FLAMES'), 0)
-			cf.addPopup(CyTranslator().getText("TXT_KEY_POPUP_ACHERON_CREATION",()), str(gc.getUnitInfo(unit.getUnitType()).getImage()))
-
-		if unit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_DWARF')):
-			if city.getNumRealBuilding(gc.getInfoTypeForString('BUILDING_BREWERY')) > 0:
-				unit.changeExperience(2, -1, False, False, False)
-
-		if unit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_DEMON')):
-			if city.getNumRealBuilding(gc.getInfoTypeForString('BUILDING_DEMONS_ALTAR')) > 0:
-				unit.changeExperience(2, -1, False, False, False)
-
-		if unit.getFreePromotionPick() < iFreeProm:
-			unit.changeFreePromotionPick(iFreeProm - unit.getFreePromotionPick())
-
-		if city.getNumRealBuilding(gc.getInfoTypeForString('BUILDING_WARRENS')) > 0:
-			if isWorldUnitClass(unit.getUnitClassType()) == False:
-				if isNationalUnitClass(unit.getUnitClassType()) == False:
-					if unit.getUnitCombatType() != gc.getInfoTypeForString('UNITCOMBAT_SIEGE'):
-						if unit.getUnitCombatType() != gc.getInfoTypeForString('UNITCOMBAT_NAVAL'):
-							newUnit = pPlayer.initUnit(unit.getUnitType(), city.getX(), city.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
-							city.applyBuildEffects(newUnit)
-
 		CvAdvisorUtils.unitBuiltFeats(city, unit)
 		
 		if (not self.__LOG_UNITBUILD):
@@ -1469,58 +846,6 @@ class CvEventManager:
 		player = PyPlayer(iPlayer)
 		attacker = PyPlayer(iAttacker)
 		pPlayer = gc.getPlayer(iPlayer)
-
-		if (unit.isAlive() and unit.isImmortal() == False):
-			iX = unit.getX()
-			iY = unit.getY()
-			iSoulForge = gc.getInfoTypeForString('BUILDING_SOUL_FORGE')
-			for iiX in range(iX-1, iX+2, 1):
-				for iiY in range(iY-1, iY+2, 1):
-					pPlot2 = CyMap().plot(iiX,iiY)
-					if pPlot2.isCity():
-						pCity = pPlot2.getPlotCity()
-						if pCity.getNumRealBuilding(iSoulForge) > 0:
-							pCity.changeProduction(unit.getExperience() + 10)
-							CyInterface().addMessage(pCity.getOwner(),True,25,CyTranslator().getText("TXT_KEY_MESSAGE_SOUL_FORGE",()),'AS2D_DISCOVERBONUS',1,'Art/Interface/Buttons/Buildings/Soulforge.dds',ColorTypes(7),pCity.getX(),pCity.getY(),True,True)
-			pPlot = CyMap().plot(iX,iY)
-			if pPlot.isCity():
-				pCity = pPlot.getPlotCity()
-				if pCity.getNumRealBuilding(gc.getInfoTypeForString('BUILDING_MOKKAS_CAULDRON')) > 0:
-					if pCity.getOwner() == unit.getOwner():
-						iUnit = cf.getUnholyVersion(unit)
-						if iUnit != -1:
-							newUnit = pPlayer.initUnit(iUnit, pCity.getX(), pCity.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
-							newUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_DEMON'), True)
-							newUnit.setDamage(50, PlayerTypes.NO_PLAYER)
-							newUnit.finishMoves()
-							szBuffer = gc.getUnitInfo(newUnit.getUnitType()).getDescription()
-							CyInterface().addMessage(unit.getOwner(),True,25,CyTranslator().getText("TXT_KEY_MESSAGE_MOKKAS_CAULDRON",((szBuffer, ))),'AS2D_DISCOVERBONUS',1,'Art/Interface/Buttons/Buildings/Mokkas Cauldron.dds',ColorTypes(7),pCity.getX(),pCity.getY(),True,True)
-
-			if (unit.getReligion() == gc.getInfoTypeForString('RELIGION_COUNCIL_OF_ESUS') or unit.getReligion() == gc.getInfoTypeForString('RELIGION_THE_ASHEN_VEIL') or unit.getReligion() == gc.getInfoTypeForString('RELIGION_OCTOPUS_OVERLORDS') or unit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_DEATH1')) or unit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_ENTROPY1'))):
-				cf.giftUnit(gc.getInfoTypeForString('UNIT_MANES'), gc.getInfoTypeForString('CIVILIZATION_INFERNAL'), 0, unit.plot(), unit.getOwner())
-				cf.giftUnit(gc.getInfoTypeForString('UNIT_MANES'), gc.getInfoTypeForString('CIVILIZATION_INFERNAL'), 0, unit.plot(), unit.getOwner())
-
-			if (unit.getReligion() == gc.getInfoTypeForString('RELIGION_THE_EMPYREAN') or unit.getReligion() == gc.getInfoTypeForString('RELIGION_THE_ORDER') or unit.getReligion() == gc.getInfoTypeForString('RELIGION_RUNES_OF_KILMORPH') or (unit.getUnitCombatType() != gc.getInfoTypeForString('UNITCOMBAT_ANIMAL') and pPlayer.getCivilizationType() == gc.getInfoTypeForString('CIVILIZATION_MERCURIANS'))):
-				cf.giftUnit(gc.getInfoTypeForString('UNIT_ANGEL'), gc.getInfoTypeForString('CIVILIZATION_MERCURIANS'), unit.getExperience(), unit.plot(), unit.getOwner())
-
-			if unit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_SPIRIT_GUIDE')):
-				if unit.getExperience() > 0:
-					py = PyPlayer(iPlayer)
-					lUnits = []
-					for pLoopUnit in py.getUnitList():
-						if pLoopUnit.isAlive():
-							if not pLoopUnit.isOnlyDefensive():
-								if not pLoopUnit.isDelayedDeath():
-									lUnits.append(pLoopUnit)
-					if len(lUnits) > 0:
-						pUnit = lUnits[CyGame().getSorenRandNum(len(lUnits), "Spirit Guide")-1]
-						iXP = unit.getExperience() / 2
-						pUnit.changeExperience(iXP, -1, false, false, false)
-						unit.changeExperience(iXP * -1, -1, false, false, false)
-						CyInterface().addMessage(unit.getOwner(),True,25,CyTranslator().getText("TXT_KEY_MESSAGE_SPIRIT_GUIDE",()),'AS2D_DISCOVERBONUS',1,'Art/Interface/Buttons/Promotions/SpiritGuide.dds',ColorTypes(7),pUnit.getX(),pUnit.getY(),True,True)
-
-		if unit.getUnitType() == gc.getInfoTypeForString('UNIT_ACHERON'):
-			unit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_HELD'), False)
 
 		if CyGame().getWBMapScript():
 			sf.onUnitKilled(unit, iAttacker)
@@ -1628,225 +953,6 @@ class CvEventManager:
 		if (iPlayer != -1 and iPlayer != gc.getBARBARIAN_PLAYER()):
 			pPlayer = gc.getPlayer(iPlayer)
 			
-#Sephi	
-#Go into Conquest Mode
-			if pPlayer.getCivilizationType() == gc.getInfoTypeForString('CIVILIZATION_AMURITES'):
-				if iTechType == gc.getInfoTypeForString('TECH_BOWYERS'):
-					pPlayer.startConquestMode()
-			
-			if pPlayer.getLeaderType() == gc.getInfoTypeForString('LEADER_PERPENTACH'):
-				if iTechType == gc.getInfoTypeForString('TECH_CONSTRUCTION'):
-					pPlayer.startConquestMode()
-
-			if pPlayer.getLeaderType() == gc.getInfoTypeForString('LEADER_KEELYN'):
-				if iTechType == gc.getInfoTypeForString('TECH_IRON_WORKING'):
-					pPlayer.startConquestMode()
-
-			if pPlayer.getCivilizationType() == gc.getInfoTypeForString('CIVILIZATION_BALSERAPHS'):
-				if iTechType == gc.getInfoTypeForString('TECH_IRON_WORKING'):
-					pPlayer.startConquestMode()
-					
-			if pPlayer.getCivilizationType() == gc.getInfoTypeForString('CIVILIZATION_BANNOR'):											
-				if iTechType == gc.getInfoTypeForString('TECH_FANATICISM'):			
-					pPlayer.startConquestMode()
-
-			if pPlayer.getLeaderType() == gc.getInfoTypeForString('LEADER_ALEXIS'):
-				if iTechType == gc.getInfoTypeForString('TECH_BRONZE_WORKING'):
-					pPlayer.startConquestMode()
-			elif pPlayer.getCivilizationType() == gc.getInfoTypeForString('CIVILIZATION_CALABIM'):											 
-				if iTechType == gc.getInfoTypeForString('TECH_FEUDALISM'):
-					pPlayer.startConquestMode()
-
-			if pPlayer.getCivilizationType() == gc.getInfoTypeForString('CIVILIZATION_CLAN_OF_EMBERS'):											 
-				if iTechType == gc.getInfoTypeForString('TECH_MASONRY'):
-					pPlayer.startConquestMode()
-
-			if pPlayer.getCivilizationType() == gc.getInfoTypeForString('CIVILIZATION_DOVIELLO'):											 
-				if iTechType == gc.getInfoTypeForString('TECH_FESTIVALS'):
-					pPlayer.startConquestMode()
-
-			if pPlayer.getCivilizationType() == gc.getInfoTypeForString('CIVILIZATION_ELOHIM'):
-				if iTechType == gc.getInfoTypeForString('TECH_PRIESTHOOD'):
-					pPlayer.startConquestMode()
-
-			if pPlayer.getCivilizationType() == gc.getInfoTypeForString('CIVILIZATION_GRIGORI'):
-				if iTechType == gc.getInfoTypeForString('TECH_MEDICINE'):
-					pPlayer.startConquestMode()
-					
-			if pPlayer.getLeaderType() == gc.getInfoTypeForString('LEADER_TASUNKE'):
-				if iTechType == gc.getInfoTypeForString('TECH_HORSEBACK_RIDING'):
-					pPlayer.startConquestMode()
-					
-			elif pPlayer.getLeaderType() == gc.getInfoTypeForString('LEADER_RHOANNA'):
-				if iTechType == gc.getInfoTypeForString('TECH_STIRRUPS'):
-					pPlayer.startConquestMode()
-
-			if pPlayer.getCivilizationType() == gc.getInfoTypeForString('CIVILIZATION_HIPPUS'):
-				if iTechType == gc.getInfoTypeForString('TECH_STIRRUPS'):
-					pPlayer.startConquestMode()
-					
-			if pPlayer.getCivilizationType() == gc.getInfoTypeForString('CIVILIZATION_ILLIANS'):
-				if iTechType == gc.getInfoTypeForString('TECH_IRON_WORKING'):
-					pPlayer.startConquestMode()
-
-			if pPlayer.getCivilizationType() == gc.getInfoTypeForString('CIVILIZATION_INFERNAL'):
-				if iTechType == gc.getInfoTypeForString('TECH_IRON_WORKING'):
-					pPlayer.startConquestMode()
-					
-			if pPlayer.getCivilizationType() == gc.getInfoTypeForString('CIVILIZATION_KHAZAD'):
-				if iTechType == gc.getInfoTypeForString('TECH_IRON_WORKING'):
-					pPlayer.startConquestMode()
-
-			if pPlayer.getCivilizationType() == gc.getInfoTypeForString('CIVILIZATION_KURIOTATES'):
-				if iTechType == gc.getInfoTypeForString('TECH_STIRRUPS'):
-					pPlayer.startConquestMode()
-					
-					
-			if pPlayer.getCivilizationType() == gc.getInfoTypeForString('CIVILIZATION_LANUN'):
-				if iTechType == gc.getInfoTypeForString('TECH_IRON_WORKING'):
-					pPlayer.startConquestMode()
-
-			if pPlayer.getCivilizationType() == gc.getInfoTypeForString('CIVILIZATION_LJOSALFAR'):											 
-				if iTechType == gc.getInfoTypeForString('TECH_SORCERY'):
-					pPlayer.startConquestMode()
-
-			if pPlayer.getCivilizationType() == gc.getInfoTypeForString('CIVILIZATION_LUCHUIRP'):											 
-				if iTechType == gc.getInfoTypeForString('TECH_SORCERY'):
-					pPlayer.startConquestMode()
-
-			if pPlayer.getCivilizationType() == gc.getInfoTypeForString('CIVILIZATION_MALAKIM'):
-				if iTechType == gc.getInfoTypeForString('TECH_PRIESTHOOD'):
-					pPlayer.startConquestMode()
-
-			if pPlayer.getCivilizationType() == gc.getInfoTypeForString('CIVILIZATION_MERCURIANS'):
-				if iTechType == gc.getInfoTypeForString('TECH_IRON_WORKING'):
-					pPlayer.startConquestMode()
-					
-			if pPlayer.getCivilizationType() == gc.getInfoTypeForString('CIVILIZATION_SHEAIM'):
-				if iTechType == gc.getInfoTypeForString('TECH_BRONZE_WORKING'):
-					pPlayer.startConquestMode()
-
-			if pPlayer.getCivilizationType() == gc.getInfoTypeForString('CIVILIZATION_SIDAR'):
-				if iTechType == gc.getInfoTypeForString('TECH_POISONS'):
-					pPlayer.startConquestMode()
-					
-			if pPlayer.getCivilizationType() == gc.getInfoTypeForString('CIVILIZATION_SVARTALFAR'):											 
-				if iTechType == gc.getInfoTypeForString('TECH_SORCERY'):
-					pPlayer.startConquestMode()
-					
-			iReligion = -1
-			if iTechType == gc.getInfoTypeForString('TECH_CORRUPTION_OF_SPIRIT'):
-				iUnit = gc.getInfoTypeForString('UNIT_DISCIPLE_THE_ASHEN_VEIL')
-				iReligion = gc.getInfoTypeForString('RELIGION_THE_ASHEN_VEIL')
-			if iTechType == gc.getInfoTypeForString('TECH_ORDERS_FROM_HEAVEN'):
-				iUnit = gc.getInfoTypeForString('UNIT_DISCIPLE_THE_ORDER')
-				iReligion = gc.getInfoTypeForString('RELIGION_THE_ORDER')
-			if iTechType == gc.getInfoTypeForString('TECH_WAY_OF_THE_FORESTS'):
-				iUnit = gc.getInfoTypeForString('UNIT_DISCIPLE_FELLOWSHIP_OF_LEAVES')
-				iReligion = gc.getInfoTypeForString('RELIGION_FELLOWSHIP_OF_LEAVES')
-			if iTechType == gc.getInfoTypeForString('TECH_WAY_OF_THE_EARTHMOTHER'):
-				iUnit = gc.getInfoTypeForString('UNIT_DISCIPLE_RUNES_OF_KILMORPH')
-				iReligion = gc.getInfoTypeForString('RELIGION_RUNES_OF_KILMORPH')
-			if iTechType == gc.getInfoTypeForString('TECH_MESSAGE_FROM_THE_DEEP'):
-				iUnit = gc.getInfoTypeForString('UNIT_DISCIPLE_OCTOPUS_OVERLORDS')
-				iReligion = gc.getInfoTypeForString('RELIGION_OCTOPUS_OVERLORDS')
-			if iTechType == gc.getInfoTypeForString('TECH_HONOR'):
-				iUnit = gc.getInfoTypeForString('UNIT_DISCIPLE_EMPYREAN')
-				iReligion = gc.getInfoTypeForString('RELIGION_THE_EMPYREAN')
-			if iTechType == gc.getInfoTypeForString('TECH_DECEPTION'):
-				iUnit = gc.getInfoTypeForString('UNIT_NIGHTWATCH')
-				iReligion = gc.getInfoTypeForString('RELIGION_COUNCIL_OF_ESUS')
-			if iReligion != -1:
-				if (iReligion==pPlayer.getFavoriteReligion()):
-					pPlayer.getCapitalCity().setHasReligion(iReligion,True,True,True)			
-				if CyGame().isReligionFounded(iReligion):
-					cf.giftUnit(iUnit, pPlayer.getCivilizationType(), 0, -1, -1)
-					
-		if not gc.getGame().isOption(GameOptionTypes.GAMEOPTION_NO_HYBOREM_OR_BASIUM):
-			if (iTechType == gc.getInfoTypeForString('TECH_INFERNAL_PACT') and iPlayer != -1):
-				iCount = 0
-				for iTeam in range(gc.getMAX_TEAMS()):
-					eTeam = gc.getTeam(iTeam)
-					if eTeam.isHasTech(gc.getInfoTypeForString('TECH_INFERNAL_PACT')):
-						iCount = iCount + 1
-				if iCount == 1:
-					iInfernalPlayer = cf.getOpenPlayer()
-					pBestPlot = -1
-					iBestPlot = -1
-					for i in range (CyMap().numPlots()):
-						pPlot = CyMap().plotByIndex(i)
-						iPlot = -1
-						if pPlot.isWater() == False:
-							if pPlot.getNumUnits() == 0:
-								if pPlot.isCity() == False:
-									if pPlot.isImpassable() == False:
-										iPlot = CyGame().getSorenRandNum(500, "Place Hyborem")
-										iPlot = iPlot + (pPlot.area().getNumTiles() * 2)
-										iPlot = iPlot + (pPlot.area().getNumUnownedTiles() * 10)
-										if pPlot.isOwned() == False:
-											iPlot = iPlot + 500
-										if pPlot.getOwner() == iPlayer:
-											iPlot = iPlot + 200
-						if iPlot > iBestPlot:
-							iBestPlot = iPlot
-							pBestPlot = pPlot
-					if (iInfernalPlayer != -1 and pBestPlot != -1):
-						CyGame().addPlayerAdvanced(iInfernalPlayer, -1, gc.getInfoTypeForString('LEADER_HYBOREM'), gc.getInfoTypeForString('CIVILIZATION_INFERNAL'))
-						iFounderTeam = gc.getPlayer(iPlayer).getTeam()
-						eFounderTeam = gc.getTeam(gc.getPlayer(iPlayer).getTeam())
-						iInfernalTeam = gc.getPlayer(iInfernalPlayer).getTeam()
-						eInfernalTeam = gc.getTeam(iInfernalTeam)
-						for iTech in range(gc.getNumTechInfos()):
-							if eFounderTeam.isHasTech(iTech):
-								eInfernalTeam.setHasTech(iTech, true, iInfernalPlayer, true, false)
-						eFounderTeam.signOpenBorders(iFounderTeam)
-						eInfernalTeam.signOpenBorders(iInfernalTeam)
-						iBarbTeam = gc.getPlayer(gc.getBARBARIAN_PLAYER()).getTeam()
-						eInfernalTeam.makePeace(iBarbTeam)
-						for iTeam in range(gc.getMAX_TEAMS()):
-							if iTeam != iBarbTeam:
-								eTeam = gc.getTeam(iTeam)
-								if eTeam.isAlive():
-									if eFounderTeam.isAtWar(iTeam):
-										eInfernalTeam.declareWar(iTeam, false, WarPlanTypes.WARPLAN_LIMITED)
-						pInfernalPlayer = gc.getPlayer(iInfernalPlayer)
-						pInfernalPlayer.AI_changeAttitudeExtra(iPlayer,4)
-						newUnit1 = pInfernalPlayer.initUnit(gc.getInfoTypeForString('UNIT_HYBOREM'), pBestPlot.getX(), pBestPlot.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_NORTH)
-						newUnit1.setHasPromotion(gc.getInfoTypeForString('PROMOTION_IMMORTAL'), true)
-						newUnit1.setHasCasted(true)
-						newUnit2 = pInfernalPlayer.initUnit(gc.getInfoTypeForString('UNIT_LONGBOWMAN'), pBestPlot.getX(), pBestPlot.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_NORTH)
-						newUnit2.setHasPromotion(gc.getInfoTypeForString('PROMOTION_MOBILITY1'), true)
-						newUnit3 = pInfernalPlayer.initUnit(gc.getInfoTypeForString('UNIT_LONGBOWMAN'), pBestPlot.getX(), pBestPlot.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_NORTH)
-						newUnit3.setHasPromotion(gc.getInfoTypeForString('PROMOTION_MOBILITY1'), true)
-						newUnit4 = pInfernalPlayer.initUnit(gc.getInfoTypeForString('UNIT_CHAMPION'), pBestPlot.getX(), pBestPlot.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_NORTH)
-						newUnit4.setHasPromotion(gc.getInfoTypeForString('PROMOTION_IRON_WEAPONS'), true)
-						newUnit4.setHasPromotion(gc.getInfoTypeForString('PROMOTION_MOBILITY1'), true)
-						newUnit5 = pInfernalPlayer.initUnit(gc.getInfoTypeForString('UNIT_CHAMPION'), pBestPlot.getX(), pBestPlot.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_NORTH)
-						newUnit5.setHasPromotion(gc.getInfoTypeForString('PROMOTION_IRON_WEAPONS'), true)
-						newUnit5.setHasPromotion(gc.getInfoTypeForString('PROMOTION_MOBILITY1'), true)
-						newUnit6 = pInfernalPlayer.initUnit(gc.getInfoTypeForString('UNIT_WORKER'), pBestPlot.getX(), pBestPlot.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_NORTH)
-						newUnit6.setHasPromotion(gc.getInfoTypeForString('PROMOTION_DEMON'), true)
-						newUnit7 = pInfernalPlayer.initUnit(gc.getInfoTypeForString('UNIT_IMP'), pBestPlot.getX(), pBestPlot.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_NORTH)
-						newUnit7.setHasPromotion(gc.getInfoTypeForString('PROMOTION_MOBILITY1'), true)
-						newUnit8 = pInfernalPlayer.initUnit(gc.getInfoTypeForString('UNIT_MANES'), pBestPlot.getX(), pBestPlot.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_NORTH)
-						newUnit9 = pInfernalPlayer.initUnit(gc.getInfoTypeForString('UNIT_MANES'), pBestPlot.getX(), pBestPlot.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_NORTH)
-						newUnit10 = pInfernalPlayer.initUnit(gc.getInfoTypeForString('UNIT_MANES'), pBestPlot.getX(), pBestPlot.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_NORTH)
-						newUnit11 = pInfernalPlayer.initUnit(gc.getInfoTypeForString('UNIT_SETTLER'), pBestPlot.getX(), pBestPlot.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_NORTH)
-						newUnit11.setHasPromotion(gc.getInfoTypeForString('PROMOTION_STARTING_SETTLER'), true)
-						newUnit11.setHasPromotion(gc.getInfoTypeForString('PROMOTION_DEMON'), true)
-						newUnit12 = pInfernalPlayer.initUnit(gc.getInfoTypeForString('UNIT_SETTLER'), pBestPlot.getX(), pBestPlot.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_NORTH)
-						newUnit12.setHasPromotion(gc.getInfoTypeForString('PROMOTION_STARTING_SETTLER'), true)
-						newUnit12.setHasPromotion(gc.getInfoTypeForString('PROMOTION_DEMON'), true)
-						if gc.getPlayer(iPlayer).isHuman():
-							popupInfo = CyPopupInfo()
-							popupInfo.setButtonPopupType(ButtonPopupTypes.BUTTONPOPUP_PYTHON)
-							popupInfo.setText(CyTranslator().getText("TXT_KEY_POPUP_CONTROL_INFERNAL",()))
-							popupInfo.setData1(iPlayer)
-							popupInfo.setData2(iInfernalPlayer)
-							popupInfo.addPythonButton(CyTranslator().getText("TXT_KEY_POPUP_YES", ()), "")
-							popupInfo.addPythonButton(CyTranslator().getText("TXT_KEY_POPUP_NO", ()), "")
-							popupInfo.setOnClickedPythonCallback("reassignPlayer")
-							popupInfo.addPopup(iPlayer)
 
 		if CyGame().getWBMapScript():
 			sf.onTechAcquired(iTechType, iTeam, iPlayer, bAnnounce)
@@ -2089,36 +1195,6 @@ class CvEventManager:
 		pPlot = city.plot()
 		pPlayer = gc.getPlayer(city.getOwner())
 		
-		if pPlayer.getCivilizationType() == gc.getInfoTypeForString('CIVILIZATION_INFERNAL'):
-			city.setHasReligion(gc.getInfoTypeForString('RELIGION_THE_ASHEN_VEIL'), True, True, True)
-			city.setPopulation(3)
-			city.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_ELDER_COUNCIL'), 1)
-			city.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_TRAINING_YARD'), 1)
-			city.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_OBSIDIAN_GATE'), 1)
-			city.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_FORGE'), 1)
-			city.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_MAGE_GUILD'), 1)
-			city.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_DEMONIC_CITIZENS'), 1)
-
-		if pPlayer.getCivilizationType() == gc.getInfoTypeForString('CIVILIZATION_BARBARIAN'):
-			eTeam = gc.getTeam(gc.getPlayer(gc.getBARBARIAN_PLAYER()).getTeam())
-			iUnit = gc.getInfoTypeForString('UNIT_WARRIOR')
-			if (eTeam.isHasTech(gc.getInfoTypeForString('TECH_BRONZE_WORKING')) or CyGame().getStartEra() > gc.getInfoTypeForString('ERA_ANCIENT') ):
-				iUnit = gc.getInfoTypeForString('UNIT_AXEMAN')
-			if (eTeam.isHasTech(gc.getInfoTypeForString('TECH_IRON_WORKING')) or CyGame().getStartEra() > gc.getInfoTypeForString('ERA_CLASSICAL') ):
-				iUnit = gc.getInfoTypeForString('UNIT_OGRE')
-			newUnit = pPlayer.initUnit(iUnit, city.getX(), city.getY(), UnitAITypes.UNITAI_ATTACK, DirectionTypes.DIRECTION_SOUTH)
-			newUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_ORC'), true)
-			iUnit = gc.getInfoTypeForString('UNIT_ARCHER')
-			if eTeam.isHasTech(gc.getInfoTypeForString('TECH_BOWYERS')):
-				iUnit = gc.getInfoTypeForString('UNIT_LONGBOWMAN')
-			newUnit2 = pPlayer.initUnit(iUnit, city.getX(), city.getY(), UnitAITypes.UNITAI_CITY_DEFENSE, DirectionTypes.DIRECTION_SOUTH)
-			newUnit3 = pPlayer.initUnit(iUnit, city.getX(), city.getY(), UnitAITypes.UNITAI_CITY_DEFENSE, DirectionTypes.DIRECTION_SOUTH)
-			newUnit2.setHasPromotion(gc.getInfoTypeForString('PROMOTION_ORC'), true)
-			newUnit3.setHasPromotion(gc.getInfoTypeForString('PROMOTION_ORC'), true)
-			if eTeam.isHasTech(gc.getInfoTypeForString('TECH_ARCHERY')) == False:
-				newUnit2.setHasPromotion(gc.getInfoTypeForString('PROMOTION_WEAK'), true)
-				newUnit3.setHasPromotion(gc.getInfoTypeForString('PROMOTION_WEAK'), true)
-
 		if CyGame().getWBMapScript():
 			sf.onCityBuilt(city)
 
@@ -2140,27 +1216,6 @@ class CvEventManager:
 #						iEvent = CvUtil.findInfoTypeNum(gc.getEventTriggerInfo, gc.getNumEventTriggerInfos(),'EVENTTRIGGER_PARTISANS')
 #						if iEvent != -1 and gc.getGame().isEventActive(iEvent) and owner.getEventTriggerWeight(iEvent) >= 0:
 #							triggerData = owner.initTriggeredData(iEvent, true, -1, city.getX(), city.getY(), iPlayer, city.getID(), -1, -1, -1, -1)
-
-		iAngel = gc.getInfoTypeForString('UNIT_ANGEL')
-		iInfernal = gc.getInfoTypeForString('CIVILIZATION_INFERNAL')
-		iManes = gc.getInfoTypeForString('UNIT_MANES')
-		iMercurians = gc.getInfoTypeForString('CIVILIZATION_MERCURIANS')
-		pPlayer = gc.getPlayer(iPlayer)
-		if gc.getPlayer(city.getOriginalOwner()).getAlignment() == gc.getInfoTypeForString('ALIGNMENT_EVIL'):
-			if gc.getPlayer(city.getOriginalOwner()).getCivilizationType() != iInfernal:
-				for i in range(city.getPopulation()):
-					cf.giftUnit(iManes, iInfernal, 0, city.plot(), city.getOwner())
-
-		if gc.getPlayer(city.getOriginalOwner()).getAlignment() == gc.getInfoTypeForString('ALIGNMENT_NEUTRAL'):
-			for i in range((city.getPopulation() / 4) + 1):
-				cf.giftUnit(iManes, iInfernal, 0, city.plot(), city.getOwner())
-				cf.giftUnit(iManes, iInfernal, 0, city.plot(), city.getOwner())
-				cf.giftUnit(iAngel, iMercurians, 0, city.plot(), city.getOwner())
-
-		if gc.getPlayer(city.getOriginalOwner()).getAlignment() == gc.getInfoTypeForString('ALIGNMENT_GOOD'):
-			for i in range((city.getPopulation() / 2) + 1):
-				cf.giftUnit(iAngel, iMercurians, 0, city.plot(), city.getOwner())
-
 		if CyGame().getWBMapScript():
 			sf.onCityRazed(city, iPlayer)
 
@@ -2171,19 +1226,6 @@ class CvEventManager:
 		iPreviousOwner,iNewOwner,pCity,bConquest,bTrade = argsList
 		pPlayer = gc.getPlayer(iNewOwner)
 
-		if gc.getPlayer(iPreviousOwner).getCivilizationType() == gc.getInfoTypeForString('CIVILIZATION_INFERNAL'):
-			pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_OBSIDIAN_GATE'), 0)
-
-		if pPlayer.getCivilizationType() == gc.getInfoTypeForString('CIVILIZATION_INFERNAL'):
-			pCity.setHasReligion(gc.getInfoTypeForString('RELIGION_THE_ORDER'), False, True, True)
-			pCity.setHasReligion(gc.getInfoTypeForString('RELIGION_THE_ASHEN_VEIL'), True, True, True)
-			pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_ELDER_COUNCIL'), 1)
-			pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_TRAINING_YARD'), 1)
-			pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_OBSIDIAN_GATE'), 1)
-			pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_FORGE'), 1)
-			pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_MAGE_GUILD'), 1)
-			pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_DEMONIC_CITIZENS'), 1)
-			
 		if CyGame().getWBMapScript():
 			sf.onCityAcquired(iPreviousOwner, iNewOwner, pCity, bConquest, bTrade)
 
@@ -2225,164 +1267,7 @@ class CvEventManager:
 		pPlot = pCity.plot()
 		iPlayer = pCity.getOwner()
 		pPlayer = gc.getPlayer(iPlayer)
-
-		if pCity.getNumRealBuilding(gc.getInfoTypeForString('BUILDING_CITADEL_OF_LIGHT')) > 0:
-			iX = pCity.getX()
-			iY = pCity.getY()
-			eTeam = gc.getTeam(pPlayer.getTeam())
-			iBestValue = 0
-			pBestPlot = -1
-			for iiX in range(iX-2, iX+3, 1):
-				for iiY in range(iY-2, iY+3, 1):
-					pLoopPlot = CyMap().plot(iiX,iiY)
-					bEnemy = false
-					bNeutral = false
-					iValue = 0
-					if not pLoopPlot.isNone():
-						if pLoopPlot.isVisibleEnemyUnit(iPlayer):
-							for i in range(pLoopPlot.getNumUnits()):
-								pUnit = pLoopPlot.getUnit(i)
-								if eTeam.isAtWar(pUnit.getTeam()):
-									iValue += 5 * pUnit.baseCombatStr()
-								else:
-									bNeutral = true
-							if (iValue > iBestValue and bNeutral == false):
-								iBestValue = iValue
-								pBestPlot = pLoopPlot
-			if pBestPlot != -1:
-				for i in range(pBestPlot.getNumUnits()):
-					pUnit = pBestPlot.getUnit(i)
-					pUnit.doDamageNoCaster(20, 40, gc.getInfoTypeForString('DAMAGE_FIRE'), False)
-				if (pBestPlot.getFeatureType() == gc.getInfoTypeForString('FEATURE_FOREST') or pBestPlot.getFeatureType() == gc.getInfoTypeForString('FEATURE_JUNGLE')):
-					bValid = True
-					iImprovement = pPlot.getImprovementType()
-					if iImprovement != -1 :
-						if gc.getImprovementInfo(iImprovement).isPermanent():
-							bValid = False
-					if bValid:
-						if CyGame().getSorenRandNum(100, "Flames Spread") <= gc.getDefineINT('FLAMES_SPREAD_CHANCE'):
-							pBestPlot.setImprovementType(gc.getInfoTypeForString('IMPROVEMENT_SMOKE'))
-				CyEngine().triggerEffect(gc.getInfoTypeForString('EFFECT_PILLAR_OF_FIRE'),pBestPlot.getPoint())
-
-		if pCity.getNumRealBuilding(gc.getInfoTypeForString('BUILDING_HALL_OF_MIRRORS')) > 0:
-			if CyGame().getSorenRandNum(100, "Hall of Mirrors") <= 100:
-				pUnit = -1
-				iX = pCity.getX()
-				iY = pCity.getY()
-				eTeam = gc.getTeam(pPlayer.getTeam())
-				for iiX in range(iX-1, iX+2, 1):
-					for iiY in range(iY-1, iY+2, 1):
-						pLoopPlot = CyMap().plot(iiX,iiY)
-						if not pLoopPlot.isNone():
-							if pLoopPlot.isVisibleEnemyUnit(iPlayer):
-								for i in range(pLoopPlot.getNumUnits()):
-									pUnit2 = pLoopPlot.getUnit(i)
-									if eTeam.isAtWar(pUnit2.getTeam()):
-										pUnit = pUnit2
-				if pUnit != -1:
-					newUnit = pPlayer.initUnit(pUnit.getUnitType(), pCity.getX(), pCity.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_NORTH)
-					newUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_ILLUSION'), true)
-					if pPlayer.hasTrait(gc.getInfoTypeForString('TRAIT_SUMMONER')):
-						newUnit.setDuration(5)
-					else:
-						newUnit.setDuration(3)
-
-		if pCity.getNumRealBuilding(gc.getInfoTypeForString('BUILDING_EYES_AND_EARS_NETWORK')) > 0:
-			iArete = gc.getInfoTypeForString('TECH_ARETE')
-			iHiddenPaths = gc.getInfoTypeForString('TECH_HIDDEN_PATHS')
-			iInfernalPact = gc.getInfoTypeForString('TECH_INFERNAL_PACT')
-			iMindStapling = gc.getInfoTypeForString('TECH_MIND_STAPLING')
-			iSeafaring = gc.getInfoTypeForString('TECH_SEAFARING')
-			eTeam = gc.getTeam(pPlayer.getTeam())
-			listTeams = []
-			for iPlayer2 in range(gc.getMAX_PLAYERS()):
-				pPlayer2 = gc.getPlayer(iPlayer2)
-				if (pPlayer2.isAlive() and iPlayer2 != iPlayer):
-					iTeam2 = pPlayer2.getTeam()
-					if eTeam.isOpenBorders(iTeam2):
-						listTeams.append(gc.getTeam(iTeam2))
-			if len(listTeams) >= 3:
-				for iTech in range(gc.getNumTechInfos()):
-					if (iTech != iArete and iTech != iMindStapling and iTech != iHiddenPaths and iTech != iInfernalPact and iTech != iSeafaring):
-						if eTeam.isHasTech(iTech) == False:
-							iCount = 0
-							for i in range(len(listTeams)):
-								if listTeams[i].isHasTech(iTech):
-									iCount = iCount + 1
-							if iCount >= 3:
-								eTeam.setHasTech(iTech, True, iPlayer, False, True)
-								CyInterface().addMessage(iPlayer,True,25,CyTranslator().getText("TXT_KEY_MESSAGE_EYES_AND_EARS_NETWORK_FREE_TECH",()),'AS2D_TECH_DING',1,'Art/Interface/Buttons/Buildings/Eyesandearsnetwork.dds',ColorTypes(8),pCity.getX(),pCity.getY(),True,True)
-
-		if pCity.getNumRealBuilding(gc.getInfoTypeForString('BUILDING_PLANAR_GATE')) > 0:
-			iMax = 1
-			iMult = 1
-			if CyGame().getGlobalCounter() >= 50:
-				iMax = 2
-				iMult = 1.5
-			if CyGame().getGlobalCounter() >= 75:
-				iMax = 3
-				iMult = 2
-			if CyGame().getGlobalCounter() == 100:
-				iMax = 4
-				iMult = 2.5
-			if CyGame().getSorenRandNum(10000, "Planar Gate") <= gc.getDefineINT('PLANAR_GATE_CHANCE') * iMult:
-				listUnits = []
-				iMax = iMax * pPlayer.countNumBuildings(gc.getInfoTypeForString('BUILDING_PLANAR_GATE'))
-				if pCity.getNumBuilding(gc.getInfoTypeForString('BUILDING_GAMBLING_HOUSE')) > 0:
-					if pPlayer.getUnitClassCount(gc.getInfoTypeForString('UNITCLASS_REVELERS')) < iMax:
-						listUnits.append(gc.getInfoTypeForString('UNIT_REVELERS'))
-				if pCity.getNumBuilding(gc.getInfoTypeForString('BUILDING_MAGE_GUILD')) > 0:
-					if pPlayer.getUnitClassCount(gc.getInfoTypeForString('UNITCLASS_MOBIUS_WITCH')) < iMax:
-						listUnits.append(gc.getInfoTypeForString('UNIT_MOBIUS_WITCH'))
-				if pCity.getNumBuilding(gc.getInfoTypeForString('BUILDING_CARNIVAL')) > 0:
-					if pPlayer.getUnitClassCount(gc.getInfoTypeForString('UNITCLASS_CHAOS_MARAUDER')) < iMax:
-						listUnits.append(gc.getInfoTypeForString('UNIT_CHAOS_MARAUDER'))
-				if pCity.getNumBuilding(gc.getInfoTypeForString('BUILDING_GROVE')) > 0:
-					if pPlayer.getUnitClassCount(gc.getInfoTypeForString('UNITCLASS_MANTICORE')) < iMax:
-						listUnits.append(gc.getInfoTypeForString('UNIT_MANTICORE'))
-				if pCity.getNumBuilding(gc.getInfoTypeForString('BUILDING_PUBLIC_BATHS')) > 0:
-					if pPlayer.getUnitClassCount(gc.getInfoTypeForString('UNITCLASS_SUCCUBUS')) < iMax:
-						listUnits.append(gc.getInfoTypeForString('UNIT_SUCCUBUS'))
-				if pCity.getNumBuilding(gc.getInfoTypeForString('BUILDING_OBSIDIAN_GATE')) > 0:
-					if pPlayer.getUnitClassCount(gc.getInfoTypeForString('UNITCLASS_MINOTAUR')) < iMax:
-						listUnits.append(gc.getInfoTypeForString('UNIT_MINOTAUR'))
-				if pCity.getNumBuilding(gc.getInfoTypeForString('BUILDING_TEMPLE_OF_THE_VEIL')) > 0:
-					if pPlayer.getUnitClassCount(gc.getInfoTypeForString('UNITCLASS_TAR_DEMON')) < iMax:
-						listUnits.append(gc.getInfoTypeForString('UNIT_TAR_DEMON'))
-				if len(listUnits) > 0:
-					iUnit = listUnits[CyGame().getSorenRandNum(len(listUnits), "Planar Gate")]
-					newUnit = pPlayer.initUnit(iUnit, pPlot.getX(), pPlot.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
-					CyInterface().addMessage(iPlayer,True,25,CyTranslator().getText("TXT_KEY_MESSAGE_PLANAR_GATE",()),'AS2D_DISCOVERBONUS',1,gc.getUnitInfo(newUnit.getUnitType()).getButton(),ColorTypes(8),pCity.getX(),pCity.getY(),True,True)
-					if iUnit == gc.getInfoTypeForString('UNIT_MOBIUS_WITCH'):
-						promotions = [ 'PROMOTION_AIR1','PROMOTION_BODY1','PROMOTION_CHAOS1','PROMOTION_DEATH1','PROMOTION_EARTH1','PROMOTION_ENCHANTMENT1','PROMOTION_ENTROPY1','PROMOTION_FIRE1','PROMOTION_LAW1','PROMOTION_LIFE1','PROMOTION_MIND1','PROMOTION_NATURE1','PROMOTION_SHADOW1','PROMOTION_SPIRIT1','PROMOTION_SUN1','PROMOTION_WATER1' ]
-						newUnit.setLevel(4)
-						newUnit.setExperience(14, -1)
-						for i in promotions:
-							if CyGame().getSorenRandNum(10, "Bob") == 1:
-								newUnit.setHasPromotion(gc.getInfoTypeForString(i), True)
-
-		if gc.getPlayer(pCity.getOwner()).getCivilizationType() == gc.getInfoTypeForString('CIVILIZATION_INFERNAL'):
-			if pCity.isHasReligion(gc.getInfoTypeForString('RELIGION_THE_ORDER')):
-				pCity.setHasReligion(gc.getInfoTypeForString('RELIGION_THE_ORDER'), False, True, True)
-			if pCity.isHasReligion(gc.getInfoTypeForString('RELIGION_THE_ASHEN_VEIL')) == False:
-				pCity.setHasReligion(gc.getInfoTypeForString('RELIGION_THE_ASHEN_VEIL'), True, True, True)
-
-		if gc.getPlayer(pCity.getOwner()).getCivilizationType() == gc.getInfoTypeForString('CIVILIZATION_MERCURIANS'):
-			if pCity.isHasReligion(gc.getInfoTypeForString('RELIGION_THE_ASHEN_VEIL')):
-				pCity.setHasReligion(gc.getInfoTypeForString('RELIGION_THE_ASHEN_VEIL'), False, True, True)
-
-		if pCity.getNumRealBuilding(gc.getInfoTypeForString('BUILDING_SHRINE_OF_SIRONA')) > 0:
-			pPlayer.setFeatAccomplished(FeatTypes.FEAT_HEAL_UNIT_PER_TURN, True)
-
-		if pCity.getNumRealBuilding(gc.getInfoTypeForString('BUILDING_THE_DRAGONS_HORDE')) > 0:
-			if pPlayer.isBarbarian():
-				if CyGame().getSorenRandNum(100, "Bob") <= gc.getHandicapInfo(gc.getGame().getHandicapType()).getLairSpawnRate():
-					iUnit = gc.getInfoTypeForString('UNIT_DISCIPLE_OF_ACHERON')
-					eTeam = gc.getTeam(pPlayer.getTeam())
-					if eTeam.isHasTech(gc.getInfoTypeForString('TECH_SORCERY')):
-						iUnit = gc.getInfoTypeForString('UNIT_SON_OF_THE_INFERNO')
-					newUnit = pPlayer.initUnit(iUnit, pPlot.getX(), pPlot.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
-
+		
 		CvAdvisorUtils.cityAdvise(pCity, iPlayer)
 	
 	def onCityBuildingUnit(self, argsList):
