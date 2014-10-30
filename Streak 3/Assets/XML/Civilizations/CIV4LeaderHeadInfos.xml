@@ -10,7 +10,7 @@
     <LeaderHeadInfo>
             <Type>LEADER_AIR</Type>
             <Description>Air Leader</Description>
-            <Civilopedia>TXT_KEY_LEADER_CAPRIA_PEDIA</Civilopedia>
+            <Civilopedia></Civilopedia>
             <ArtDefineTag>ART_DEF_LEADER_CAPRIA</ArtDefineTag>
             <iBaseAttitude>2</iBaseAttitude>
             <iBasePeaceWeight>4</iBasePeaceWeight>
@@ -584,8 +584,8 @@
 		<LeaderHeadInfo>
             <Type>LEADER_EARTH</Type>
             <Description>Earth Leader</Description>
-            <Civilopedia>TXT_KEY_LEADER_CAPRIA_PEDIA</Civilopedia>
-            <ArtDefineTag>ART_DEF_LEADER_CAPRIA</ArtDefineTag>
+            <Civilopedia></Civilopedia>
+            <ArtDefineTag>ART_DEF_LEADER_TASUNKE</ArtDefineTag>
             <iBaseAttitude>2</iBaseAttitude>
             <iBasePeaceWeight>4</iBasePeaceWeight>
             <iPeaceWeightRand>3</iPeaceWeightRand>
@@ -1158,8 +1158,8 @@
         <LeaderHeadInfo>
             <Type>LEADER_WATER</Type>
             <Description>Water Leader</Description>
-            <Civilopedia>TXT_KEY_LEADER_CAPRIA_PEDIA</Civilopedia>
-            <ArtDefineTag>ART_DEF_LEADER_CAPRIA</ArtDefineTag>
+            <Civilopedia></Civilopedia>
+            <ArtDefineTag>ART_DEF_LEADER_ETHNE</ArtDefineTag>
             <iBaseAttitude>2</iBaseAttitude>
             <iBasePeaceWeight>4</iBasePeaceWeight>
             <iPeaceWeightRand>3</iPeaceWeightRand>
@@ -1740,8 +1740,8 @@
     <LeaderHeadInfo>
             <Type>LEADER_FIRE</Type>
             <Description>Fire Leader</Description>
-            <Civilopedia>TXT_KEY_LEADER_CAPRIA_PEDIA</Civilopedia>
-            <ArtDefineTag>ART_DEF_LEADER_CAPRIA</ArtDefineTag>
+            <Civilopedia></Civilopedia>
+            <ArtDefineTag>ART_DEF_LEADER_DAIN</ArtDefineTag>
             <iBaseAttitude>2</iBaseAttitude>
             <iBasePeaceWeight>4</iBasePeaceWeight>
             <iPeaceWeightRand>3</iPeaceWeightRand>

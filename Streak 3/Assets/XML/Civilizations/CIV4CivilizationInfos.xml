@@ -12,7 +12,7 @@
             <Description>Air Clan</Description>
             <ShortDescription>Air Clan</ShortDescription>
             <Adjective>Air Clan</Adjective>
-            <Civilopedia>NONE</Civilopedia>
+            <Civilopedia></Civilopedia>
             <DefaultPlayerColor>PLAYERCOLOR_AIR</DefaultPlayerColor>
             <ArtDefineTag>ART_DEF_CIVILIZATION_KURIOTATES</ArtDefineTag>
             <ArtStyleType>ARTSTYLE_BANNOR</ArtStyleType>
@@ -113,7 +113,7 @@
             <Description>Earth Clan</Description>
             <ShortDescription>Earth Clan</ShortDescription>
             <Adjective>Earth Clan</Adjective>
-            <Civilopedia>NONE</Civilopedia>
+            <Civilopedia></Civilopedia>
             <DefaultPlayerColor>PLAYERCOLOR_EARTH</DefaultPlayerColor>
             <ArtDefineTag>ART_DEF_CIVILIZATION_KURIOTATES</ArtDefineTag>
             <ArtStyleType>ARTSTYLE_BANNOR</ArtStyleType>
@@ -214,7 +214,7 @@
             <Description>Fire Clan</Description>
             <ShortDescription>Fire Clan</ShortDescription>
             <Adjective>Fire Clan</Adjective>
-            <Civilopedia>NONE</Civilopedia>
+            <Civilopedia></Civilopedia>
             <DefaultPlayerColor>PLAYERCOLOR_FIRE</DefaultPlayerColor>
             <ArtDefineTag>ART_DEF_CIVILIZATION_KURIOTATES</ArtDefineTag>
             <ArtStyleType>ARTSTYLE_BANNOR</ArtStyleType>
@@ -315,7 +315,7 @@
             <Description>Water Clan</Description>
             <ShortDescription>Water Clan</ShortDescription>
             <Adjective>Water Clan</Adjective>
-            <Civilopedia>NONE</Civilopedia>
+            <Civilopedia></Civilopedia>
             <DefaultPlayerColor>PLAYERCOLOR_WATER</DefaultPlayerColor>
             <ArtDefineTag>ART_DEF_CIVILIZATION_KURIOTATES</ArtDefineTag>
             <ArtStyleType>ARTSTYLE_BANNOR</ArtStyleType>
@@ -416,7 +416,7 @@
             <Description>TXT_KEY_CIV_BARBARIAN_DESC</Description>
             <ShortDescription>TXT_KEY_CIV_BARBARIAN_SHORT_DESC</ShortDescription>
             <Adjective>TXT_KEY_CIV_BARBARIAN_ADJECTIVE</Adjective>
-            <Civilopedia>TXT_KEY_CIV_BARBARIAN_PEDIA</Civilopedia>
+            <Civilopedia></Civilopedia>
             <DefaultPlayerColor>PLAYERCOLOR_BLACK</DefaultPlayerColor>
             <ArtDefineTag>ART_DEF_CIVILIZATION_BARBARIAN</ArtDefineTag>
             <ArtStyleType>ARTSTYLE_BARBARIAN</ArtStyleType>

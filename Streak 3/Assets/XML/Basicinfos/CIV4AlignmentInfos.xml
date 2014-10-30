@@ -8,15 +8,15 @@
 	<AlignmentInfos>
 		<AlignmentInfo>
 			<Type>ALIGNMENT_GOOD</Type>
-			<Description>TXT_KEY_ALIGNMENT_GOOD</Description>
+			<Description></Description>
 		</AlignmentInfo>
 		<AlignmentInfo>
 			<Type>ALIGNMENT_NEUTRAL</Type>
-			<Description>TXT_KEY_ALIGNMENT_NEUTRAL</Description>
+			<Description></Description>
 		</AlignmentInfo>
 		<AlignmentInfo>
 			<Type>ALIGNMENT_EVIL</Type>
-			<Description>TXT_KEY_ALIGNMENT_EVIL</Description>
+			<Description></Description>
 		</AlignmentInfo>
 	</AlignmentInfos>
 </Civ4AlignmentInfos>
