@@ -1435,10 +1435,10 @@
 			<bNoCapture>0</bNoCapture>
 			<bQuickCombat>0</bQuickCombat>
 			<bRivalTerritory>0</bRivalTerritory>
-			<bMilitaryHappiness>1</bMilitaryHappiness>
+			<bMilitaryHappiness>0</bMilitaryHappiness>
 			<bMilitarySupport>1</bMilitarySupport>
 			<bMilitaryProduction>1</bMilitaryProduction>
-			<bPillage>1</bPillage>
+			<bPillage>0</bPillage>
 			<bSpy>0</bSpy>
 			<bSabotage>0</bSabotage>
 			<bDestroy>0</bDestroy>
@@ -1514,9 +1514,9 @@
 			<Flavors>
             </Flavors>
 			<iAIWeight>0</iAIWeight>
-			<iCost>180</iCost>
+			<iCost>200</iCost>
 			<iHurryCostModifier>0</iHurryCostModifier>
-			<iAdvancedStartCost>100</iAdvancedStartCost>
+			<iAdvancedStartCost>200</iAdvancedStartCost>
 			<iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
@@ -1544,7 +1544,7 @@
 			<FeaturePassableTechs>
             </FeaturePassableTechs>
 			<iCombat>8</iCombat>
-			<iCombatLimit>100</iCombatLimit>
+			<iCombatLimit>80</iCombatLimit>
 			<iAirCombat>0</iAirCombat>
 			<iAirCombatLimit>0</iAirCombatLimit>
 			<iXPValueAttack>8</iXPValueAttack>
@@ -1553,10 +1553,10 @@
 			<iChanceFirstStrikes>0</iChanceFirstStrikes>
 			<iInterceptionProbability>0</iInterceptionProbability>
 			<iEvasionProbability>0</iEvasionProbability>
-			<iWithdrawalProb>25</iWithdrawalProb>
+			<iWithdrawalProb>80</iWithdrawalProb>
 			<iCollateralDamage>100</iCollateralDamage>
-			<iCollateralDamageLimit>60</iCollateralDamageLimit>
-			<iCollateralDamageMaxUnits>7</iCollateralDamageMaxUnits>
+			<iCollateralDamageLimit>50</iCollateralDamageLimit>
+			<iCollateralDamageMaxUnits>5</iCollateralDamageMaxUnits>
 			<iCityAttack>0</iCityAttack>
 			<iCityDefense>0</iCityDefense>
 			<iAnimalCombat>0</iAnimalCombat>
@@ -1587,7 +1587,7 @@
 			<BonusProductionModifiers>
             </BonusProductionModifiers>
 			<iBombRate>0</iBombRate>
-			<iBombardRate>20</iBombardRate>
+			<iBombardRate>25</iBombardRate>
 			<SpecialCargo>NONE</SpecialCargo>
 			<DomainCargo>NONE</DomainCargo>
 			<iCargo>0</iCargo>
@@ -1940,9 +1940,9 @@
 			<Flavors>
             </Flavors>
 			<iAIWeight>0</iAIWeight>
-			<iCost>90</iCost>
+			<iCost>180</iCost>
 			<iHurryCostModifier>0</iHurryCostModifier>
-			<iAdvancedStartCost>90</iAdvancedStartCost>
+			<iAdvancedStartCost>180</iAdvancedStartCost>
 			<iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
@@ -1970,7 +1970,7 @@
 			<FeaturePassableTechs>
             </FeaturePassableTechs>
 			<iCombat>6</iCombat>
-			<iCombatLimit>75</iCombatLimit>
+			<iCombatLimit>70</iCombatLimit>
 			<iAirCombat>0</iAirCombat>
 			<iAirCombatLimit>0</iAirCombatLimit>
 			<iXPValueAttack>8</iXPValueAttack>
@@ -1981,8 +1981,8 @@
 			<iEvasionProbability>0</iEvasionProbability>
 			<iWithdrawalProb>80</iWithdrawalProb>
 			<iCollateralDamage>100</iCollateralDamage>
-			<iCollateralDamageLimit>70</iCollateralDamageLimit>
-			<iCollateralDamageMaxUnits>6</iCollateralDamageMaxUnits>
+			<iCollateralDamageLimit>40</iCollateralDamageLimit>
+			<iCollateralDamageMaxUnits>4</iCollateralDamageMaxUnits>
 			<iCityAttack>0</iCityAttack>
 			<iCityDefense>0</iCityDefense>
 			<iAnimalCombat>0</iAnimalCombat>
@@ -2013,7 +2013,7 @@
 			<BonusProductionModifiers>
             </BonusProductionModifiers>
 			<iBombRate>0</iBombRate>
-			<iBombardRate>25</iBombardRate>
+			<iBombardRate>20</iBombardRate>
 			<SpecialCargo>NONE</SpecialCargo>
 			<DomainCargo>NONE</DomainCargo>
 			<iCargo>0</iCargo>
@@ -2160,9 +2160,9 @@
 			<Flavors>
             </Flavors>
 			<iAIWeight>0</iAIWeight>
-			<iCost>90</iCost>
+			<iCost>110</iCost>
 			<iHurryCostModifier>0</iHurryCostModifier>
-			<iAdvancedStartCost>90</iAdvancedStartCost>
+			<iAdvancedStartCost>110</iAdvancedStartCost>
 			<iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
@@ -2190,7 +2190,7 @@
 			<FeaturePassableTechs>
             </FeaturePassableTechs>
 			<iCombat>4</iCombat>
-			<iCombatLimit>75</iCombatLimit>
+			<iCombatLimit>60</iCombatLimit>
 			<iAirCombat>0</iAirCombat>
 			<iAirCombatLimit>0</iAirCombatLimit>
 			<iXPValueAttack>8</iXPValueAttack>
@@ -2201,8 +2201,8 @@
 			<iEvasionProbability>0</iEvasionProbability>
 			<iWithdrawalProb>80</iWithdrawalProb>
 			<iCollateralDamage>100</iCollateralDamage>
-			<iCollateralDamageLimit>50</iCollateralDamageLimit>
-			<iCollateralDamageMaxUnits>6</iCollateralDamageMaxUnits>
+			<iCollateralDamageLimit>30</iCollateralDamageLimit>
+			<iCollateralDamageMaxUnits>3</iCollateralDamageMaxUnits>
 			<iCityAttack>0</iCityAttack>
 			<iCityDefense>0</iCityDefense>
 			<iAnimalCombat>0</iAnimalCombat>
