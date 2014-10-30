@@ -2371,7 +2371,7 @@
             <Type>PROMOTION_NAVIGATION1</Type>
             <Description>TXT_KEY_PROMOTION_NAVIGATION1</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_FLANKING1</PromotionPrereq>
+            <PromotionPrereq>PROMOTION_COMBAT1</PromotionPrereq>
             <iMovesChange>1</iMovesChange>
             <UnitCombats>
                 <UnitCombat>
