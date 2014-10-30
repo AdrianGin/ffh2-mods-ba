@@ -37,6 +37,30 @@
 			<bWhiteFlag>0</bWhiteFlag>
 		</CivilizationArtInfo>
 		<CivilizationArtInfo>
+			<Type>ART_DEF_CIVILIZATION_AIR</Type>
+			<Button>Art/Interface/Buttons/Worldbuilder/Air.dds</Button>
+			<Path>Art/Interface/TeamColor/Kuriotatesflag.dds</Path>
+			<bWhiteFlag>0</bWhiteFlag>
+		</CivilizationArtInfo>
+		<CivilizationArtInfo>
+			<Type>ART_DEF_CIVILIZATION_EARTH</Type>
+			<Button>Art/Interface/Buttons/Worldbuilder/Earth.dds</Button>
+			<Path>Art/Interface/TeamColor/Kuriotatesflag.dds</Path>
+			<bWhiteFlag>0</bWhiteFlag>
+		</CivilizationArtInfo>
+		<CivilizationArtInfo>
+			<Type>ART_DEF_CIVILIZATION_FIRE</Type>
+			<Button>Art/Interface/Buttons/Worldbuilder/Fire.dds</Button>
+			<Path>Art/Interface/TeamColor/Kuriotatesflag.dds</Path>
+			<bWhiteFlag>0</bWhiteFlag>
+		</CivilizationArtInfo>
+		<CivilizationArtInfo>
+			<Type>ART_DEF_CIVILIZATION_WATER</Type>
+			<Button>Art/Interface/Buttons/Worldbuilder/Water.dds</Button>
+			<Path>Art/Interface/TeamColor/Kuriotatesflag.dds</Path>
+			<bWhiteFlag>0</bWhiteFlag>
+		</CivilizationArtInfo>
+		<CivilizationArtInfo>
 			<Type>ART_DEF_CIVILIZATION_KURIOTATES</Type>
 			<Button>,Art/Interface/Teamcolor/Kuriotatesbutton.dds</Button>
 			<Path>Art/Interface/TeamColor/Kuriotatesflag.dds</Path>

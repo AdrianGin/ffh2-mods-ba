@@ -14,7 +14,7 @@
             <Adjective>Air Clan</Adjective>
             <Civilopedia></Civilopedia>
             <DefaultPlayerColor>PLAYERCOLOR_AIR</DefaultPlayerColor>
-            <ArtDefineTag>ART_DEF_CIVILIZATION_KURIOTATES</ArtDefineTag>
+            <ArtDefineTag>ART_DEF_CIVILIZATION_AIR</ArtDefineTag>
             <ArtStyleType>ARTSTYLE_BANNOR</ArtStyleType>
             <UnitArtStyleType>NONE</UnitArtStyleType>
             <bPlayable>1</bPlayable>
@@ -115,7 +115,7 @@
             <Adjective>Earth Clan</Adjective>
             <Civilopedia></Civilopedia>
             <DefaultPlayerColor>PLAYERCOLOR_EARTH</DefaultPlayerColor>
-            <ArtDefineTag>ART_DEF_CIVILIZATION_KURIOTATES</ArtDefineTag>
+            <ArtDefineTag>ART_DEF_CIVILIZATION_EARTH</ArtDefineTag>
             <ArtStyleType>ARTSTYLE_BANNOR</ArtStyleType>
             <UnitArtStyleType>NONE</UnitArtStyleType>
             <bPlayable>1</bPlayable>
@@ -216,7 +216,7 @@
             <Adjective>Fire Clan</Adjective>
             <Civilopedia></Civilopedia>
             <DefaultPlayerColor>PLAYERCOLOR_FIRE</DefaultPlayerColor>
-            <ArtDefineTag>ART_DEF_CIVILIZATION_KURIOTATES</ArtDefineTag>
+            <ArtDefineTag>ART_DEF_CIVILIZATION_FIRE</ArtDefineTag>
             <ArtStyleType>ARTSTYLE_BANNOR</ArtStyleType>
             <UnitArtStyleType>NONE</UnitArtStyleType>
             <bPlayable>1</bPlayable>
@@ -317,7 +317,7 @@
             <Adjective>Water Clan</Adjective>
             <Civilopedia></Civilopedia>
             <DefaultPlayerColor>PLAYERCOLOR_WATER</DefaultPlayerColor>
-            <ArtDefineTag>ART_DEF_CIVILIZATION_KURIOTATES</ArtDefineTag>
+            <ArtDefineTag>ART_DEF_CIVILIZATION_WATER</ArtDefineTag>
             <ArtStyleType>ARTSTYLE_BANNOR</ArtStyleType>
             <UnitArtStyleType>NONE</UnitArtStyleType>
             <bPlayable>1</bPlayable>
