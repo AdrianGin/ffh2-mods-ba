@@ -130,6 +130,7 @@
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_HIDE</Type>
+            <Description>Hide</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
             <PromotionPrereq1>PROMOTION_STEALTH</PromotionPrereq1>
             <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
@@ -160,7 +161,8 @@
             <Button>Art/Interface/Buttons/Spells/Maelstrom.dds</Button>
         </SpellInfo>
         <SpellInfo>
-            <Type>SPELL_HASTE</Type>
+            <Type>SPELL_HASTE</Type>            
+            <Description>Haste</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
             <PromotionPrereq1>PROMOTION_AIR1</PromotionPrereq1>
             <bAllowAI>1</bAllowAI>
@@ -177,6 +179,7 @@
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_BLUR</Type>
+            <Description>Blur</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
             <PromotionPrereq1>PROMOTION_AIR1</PromotionPrereq1>
             <bAllowAI>1</bAllowAI>
@@ -190,6 +193,7 @@
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_BLOOM</Type>
+            <Description>Bloom</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
             <PromotionPrereq1>PROMOTION_EARTH1</PromotionPrereq1>
             <bAllowAI>1</bAllowAI>
@@ -205,6 +209,7 @@
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_ENCHANTED_BLADE</Type>
+            <Description>Enchanted Blade</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
             <PromotionPrereq1>PROMOTION_EARTH1</PromotionPrereq1>
             <bAllowAI>1</bAllowAI>
@@ -218,6 +223,7 @@
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_TREETOP_DEFENCE</Type>
+            <Description>Treetop Defence</Description>
             <Help>TXT_KEY_SPELL_TREETOP_DEFENCE_HELP</Help>
             <PromotionPrereq1>PROMOTION_EARTH1</PromotionPrereq1>
             <FeatureOrPrereq1>FEATURE_FOREST</FeatureOrPrereq1>
@@ -232,6 +238,7 @@
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_SCORCH</Type>
+            <Description>Scorch</Description>
             <Help>TXT_KEY_SPELL_SCORCH_HELP</Help>
             <PromotionPrereq1>PROMOTION_FIRE1</PromotionPrereq1>
             <bAllowAI>1</bAllowAI>
@@ -247,6 +254,7 @@
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_BLINDING_LIGHT</Type>
+            <Description>Blinding Light</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
             <PromotionPrereq1>PROMOTION_FIRE1</PromotionPrereq1>
             <bAllowAI>1</bAllowAI>
@@ -264,6 +272,7 @@
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_SLOW</Type>
+            <Description>Slow</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
             <PromotionPrereq1>PROMOTION_WATER1</PromotionPrereq1>
             <bAllowAI>1</bAllowAI>
@@ -282,6 +291,7 @@
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_DANCE_OF_BLADES</Type>
+            <Description>Dance of Blades</Description>
             <Civilopedia>TXT_KEY_SPELL_DANCE_OF_BLADES_PEDIA</Civilopedia>
             <PromotionPrereq1>PROMOTION_WATER1</PromotionPrereq1>
             <bAllowAI>1</bAllowAI>
@@ -295,6 +305,7 @@
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_RUST</Type>
+            <Description>Rust</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
             <PromotionPrereq1>PROMOTION_WATER1</PromotionPrereq1>
             <bAllowAI>1</bAllowAI>
@@ -312,6 +323,7 @@
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_SHADOWWALK</Type>
+            <Description>Shadow Walk</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
             <PromotionPrereq1>PROMOTION_AIR2</PromotionPrereq1>
             <bAllowAI>1</bAllowAI>
@@ -324,6 +336,7 @@
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_EARTHQUAKE</Type>
+            <Description>Earthquake</Description>
             <PromotionPrereq1>PROMOTION_EARTH2</PromotionPrereq1>
             <bAllowAI>1</bAllowAI>
             <bCausesWar>1</bCausesWar>
@@ -337,6 +350,7 @@
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_DISPEL_MAGIC</Type>
+            <Description>Dispel Magic</Description>
             <Help>TXT_KEY_SPELL_DISPEL_MAGIC_HELP</Help>
             <PromotionPrereq1>PROMOTION_EARTH2</PromotionPrereq1>
             <bAllowAI>1</bAllowAI>
@@ -352,6 +366,7 @@
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_FIREBALL</Type>
+            <Description>Fireball</Description>
             <Civilopedia>TXT_KEY_UNIT_FIREBALL_PEDIA</Civilopedia>
             <PromotionPrereq1>PROMOTION_FIRE2</PromotionPrereq1>
             <bAllowAI>1</bAllowAI>
@@ -365,6 +380,7 @@
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_RING_OF_FLAMES</Type>
+            <Description>Ring of Flames</Description>
             <PromotionPrereq1>PROMOTION_FIRE2</PromotionPrereq1>
             <bAllowAI>1</bAllowAI>
             <bCausesWar>1</bCausesWar>
@@ -381,6 +397,7 @@
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_SNOWFALL</Type>
+            <Description>Snowfall</Description>
             <Help>TXT_KEY_SPELL_SNOWFALL_HELP</Help>
             <PromotionPrereq1>PROMOTION_WATER2</PromotionPrereq1>
             <bAllowAI>1</bAllowAI>
