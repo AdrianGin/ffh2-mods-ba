@@ -4151,6 +4151,13 @@ bool CvUnit::canScrap() const
     {
         return false;
     }
+
+	if( !plot()->isCity() )
+	{
+		return false;
+	}
+
+
 //FfH: End Add
 
 	return true;
