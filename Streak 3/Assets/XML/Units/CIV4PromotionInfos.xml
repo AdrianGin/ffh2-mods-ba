@@ -3741,5 +3741,24 @@
             </DamageTypeResists>
         </PromotionInfo>
         
+        <PromotionInfo>
+            <Type>PROMOTION_ENCHANTED_BLADE</Type>
+            <Description>TXT_KEY_PROMOTION_ENCHANTED_BLADE</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <TechPrereq>TECH_NEVER</TechPrereq>
+            <iCombatPercent>20</iCombatPercent>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Promotions/Enchantedblade.dds</Button>
+            <bDispellable>1</bDispellable>
+            <bValidate>1</bValidate>
+            <iAIWeight>100</iAIWeight>
+            <iCombatPercentDefense>20</iCombatPercentDefense>
+            <iMinLevel>-1</iMinLevel>
+        </PromotionInfo>
     </PromotionInfos>
 </Civ4PromotionInfos>
