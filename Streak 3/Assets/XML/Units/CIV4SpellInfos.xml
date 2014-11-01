@@ -85,8 +85,8 @@
             <Type>SPELL_HEAL</Type>
             <Description>Heal</Description>
             <Civilopedia></Civilopedia>
-            <Help>TXT_KEY_SPELL_HEAL_HELP</Help>
-            <PromotionPrereq1>PROMOTION_CHANNELING1</PromotionPrereq1>
+            <Help></Help>
+            <PromotionPrereq1>PROMOTION_HEAL1</PromotionPrereq1>
             <bAllowAI>1</bAllowAI>
             <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
             <bHasCasted>1</bHasCasted>
@@ -100,8 +100,8 @@
             <Type>SPELL_GREATER_HEALING</Type>
             <Description>Greater Healing</Description>
             <Civilopedia></Civilopedia>
-            <Help>TXT_KEY_SPELL_HEAL_HELP</Help>
-            <PromotionPrereq1>PROMOTION_CHANNELING2</PromotionPrereq1>
+            <Help></Help>
+            <PromotionPrereq1>PROMOTION_HEAL2</PromotionPrereq1>
             <bAllowAI>1</bAllowAI>
             <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
             <bHasCasted>1</bHasCasted>
@@ -116,8 +116,8 @@
             <Type>SPELL_MASS_HEALING</Type>
             <Description>Mass Healing</Description>
             <Civilopedia></Civilopedia>
-            <Help>TXT_KEY_SPELL_HEAL_HELP</Help>
-            <PromotionPrereq1>PROMOTION_CHANNELING3</PromotionPrereq1>
+            <Help></Help>
+            <PromotionPrereq1>PROMOTION_HEAL3</PromotionPrereq1>
             <bAllowAI>1</bAllowAI>
             <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
             <bHasCasted>1</bHasCasted>
@@ -161,24 +161,7 @@
             <Button>Art/Interface/Buttons/Spells/Maelstrom.dds</Button>
         </SpellInfo>
         <SpellInfo>
-            <Type>SPELL_VITALIZE</Type>
-            <Description>TXT_KEY_SPELL_VITALIZE</Description>
-            <Civilopedia>TXT_KEY_SPELL_VITALIZE_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_VITALIZE_HELP</Help>
-            <PromotionPrereq1>PROMOTION_WATER2</PromotionPrereq1>
-            <bAllowAI>1</bAllowAI>
-            <bAllowAutomateTerrain>1</bAllowAutomateTerrain>
-            <iAIWeight>10</iAIWeight>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <PyResult>spellVitalize(pCaster)</PyResult>
-            <PyRequirement>reqVitalize(pCaster)</PyRequirement>
-            <Effect>EFFECT_VITALIZE</Effect>
-            <Sound>AS3D_SPELL_SANCTIFY</Sound>
-            <Button>Art/Interface/Buttons/Spells/Vitalize.dds</Button>
-        </SpellInfo>        
-        <SpellInfo>
-            <Type>SPELL_HASTE</Type>
+        <SpellInfo>            <Type>SPELL_HASTE</Type>
             <Description>TXT_KEY_SPELL_HASTE</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
             <PromotionPrereq1>PROMOTION_AIR1</PromotionPrereq1>
@@ -367,7 +350,7 @@
             <Description>TXT_KEY_SPELL_EARTHQUAKE</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
             <Help>TXT_KEY_SPELL_EARTHQUAKE_HELP</Help>
-            <PromotionPrereq2>PROMOTION_AIR2</PromotionPrereq2>
+            <PromotionPrereq2>PROMOTION_EARTH2</PromotionPrereq2>
             <bAllowAI>1</bAllowAI>
             <bCausesWar>1</bCausesWar>
             <bDisplayWhenDisabled>1</bDisplayWhenDisabled>

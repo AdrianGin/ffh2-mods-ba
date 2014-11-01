@@ -36,110 +36,36 @@
             <Button>Art/Interface/Buttons/Promotions/Air1.dds</Button>
             <iAIWeight>50</iAIWeight>
             <BonusPrereq>BONUS_MANA_AIR</BonusPrereq>
-            <PromotionNextLevel>PROMOTION_AIR2</PromotionNextLevel>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_AIR2</Type>
             <Description>TXT_KEY_PROMOTION_AIR2</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_AIR1</PromotionPrereq>
+            <PromotionPrereq>PROMOTION_CHANNELING2</PromotionPrereq>
             <UnitCombats>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
             <Button>Art/Interface/Buttons/Promotions/Air2.dds</Button>
             <iAIWeight>100</iAIWeight>
-            <PromotionPrereqAnd>PROMOTION_CHANNELING2</PromotionPrereqAnd>
-            <PromotionNextLevel>PROMOTION_AIR3</PromotionNextLevel>
+            <BonusPrereq>BONUS_MANA_AIR</BonusPrereq>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_AIR3</Type>
             <Description>TXT_KEY_PROMOTION_AIR3</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_AIR2</PromotionPrereq>
+            <PromotionPrereq>PROMOTION_CHANNELING3</PromotionPrereq>
             <UnitCombats>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
             </UnitCombats>
             <Button>Art/Interface/Buttons/Promotions/Air3.dds</Button>
             <iAIWeight>150</iAIWeight>
-            <PromotionPrereqAnd>PROMOTION_CHANNELING3</PromotionPrereqAnd>
+            <BonusPrereq>BONUS_MANA_AIR</BonusPrereq>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_AMPHIBIOUS</Type>
@@ -1230,110 +1156,36 @@
             <iAIWeight>50</iAIWeight>
             <BonusPrereq>BONUS_MANA_EARTH</BonusPrereq>
             <PromotionPrereqAnd>PROMOTION_CHANNELING1</PromotionPrereqAnd>
-            <PromotionNextLevel>PROMOTION_EARTH2</PromotionNextLevel>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_EARTH2</Type>
             <Description>TXT_KEY_PROMOTION_EARTH2</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_EARTH1</PromotionPrereq>
+            <PromotionPrereq>PROMOTION_CHANNELING2</PromotionPrereq>
             <UnitCombats>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
             </UnitCombats>
             <Button>Art/Interface/Buttons/Promotions/Earth2.dds</Button>
-            <iAIWeight>100</iAIWeight>
-            <PromotionPrereqAnd>PROMOTION_CHANNELING2</PromotionPrereqAnd>
-            <PromotionNextLevel>PROMOTION_EARTH3</PromotionNextLevel>
+            <iAIWeight>100</iAIWeight>            
+            <BonusPrereq>BONUS_MANA_EARTH</BonusPrereq>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_EARTH3</Type>
             <Description>TXT_KEY_PROMOTION_EARTH3</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_EARTH2</PromotionPrereq>
+            <PromotionPrereq>PROMOTION_CHANNELING3</PromotionPrereq>
             <UnitCombats>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
             </UnitCombats>
             <Button>Art/Interface/Buttons/Promotions/Earth3.dds</Button>
             <iAIWeight>150</iAIWeight>
-            <PromotionPrereqAnd>PROMOTION_CHANNELING3</PromotionPrereqAnd>
+            <BonusPrereq>BONUS_MANA_EARTH</BonusPrereq>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_EMPOWER1</Type>
@@ -1445,6 +1297,7 @@
             <Type>PROMOTION_FIRE1</Type>
             <Description>TXT_KEY_PROMOTION_FIRE1</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
+            <PromotionPrereq>PROMOTION_CHANNELING1</PromotionPrereq>
             <UnitCombats>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
@@ -1454,111 +1307,36 @@
             <Button>Art/Interface/Buttons/Promotions/Fire1.dds</Button>
             <iAIWeight>50</iAIWeight>
             <BonusPrereq>BONUS_MANA_FIRE</BonusPrereq>
-            <PromotionPrereqAnd>PROMOTION_CHANNELING1</PromotionPrereqAnd>
-            <PromotionNextLevel>PROMOTION_FIRE2</PromotionNextLevel>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_FIRE2</Type>
             <Description>TXT_KEY_PROMOTION_FIRE2</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_FIRE1</PromotionPrereq>
+            <PromotionPrereq>PROMOTION_CHANNELING2</PromotionPrereq>
             <UnitCombats>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
             <Button>Art/Interface/Buttons/Promotions/Fire2.dds</Button>
             <iAIWeight>100</iAIWeight>
-            <PromotionPrereqAnd>PROMOTION_CHANNELING2</PromotionPrereqAnd>
-            <PromotionNextLevel>PROMOTION_FIRE3</PromotionNextLevel>
+            <BonusPrereq>BONUS_MANA_FIRE</BonusPrereq>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_FIRE3</Type>
             <Description>TXT_KEY_PROMOTION_FIRE3</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_FIRE2</PromotionPrereq>
+            <PromotionPrereq>PROMOTION_CHANNELING3</PromotionPrereq>
             <UnitCombats>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
             </UnitCombats>
             <Button>Art/Interface/Buttons/Promotions/Fire3.dds</Button>
             <iAIWeight>150</iAIWeight>
-            <PromotionPrereqAnd>PROMOTION_CHANNELING3</PromotionPrereqAnd>
+            <BonusPrereq>BONUS_MANA_FIRE</BonusPrereq>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_FLAMING_ARROWS</Type>
@@ -3106,84 +2884,6 @@
             <iMinLevel>-1</iMinLevel>
         </PromotionInfo>
         <PromotionInfo>
-            <Type>PROMOTION_STONESKIN</Type>
-            <Description>TXT_KEY_PROMOTION_STONESKIN</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_NEVER</TechPrereq>
-            <iFirstStrikesChange>3</iFirstStrikesChange>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Stoneskin.dds</Button>
-            <bDispellable>1</bDispellable>
-            <bMutation>1</bMutation>
-            <bRemovedByCombat>1</bRemovedByCombat>
-            <iAIWeight>100</iAIWeight>
-            <iExtraCombatDefense>2</iExtraCombatDefense>
-            <iMinLevel>-1</iMinLevel>
-            <DamageTypeResists>
-                <DamageTypeResist>
-                    <DamageType>DAMAGE_COLD</DamageType>
-                    <iResist>50</iResist>
-                </DamageTypeResist>
-                <DamageTypeResist>
-                    <DamageType>DAMAGE_DEATH</DamageType>
-                    <iResist>50</iResist>
-                </DamageTypeResist>
-                <DamageTypeResist>
-                    <DamageType>DAMAGE_FIRE</DamageType>
-                    <iResist>50</iResist>
-                </DamageTypeResist>
-                <DamageTypeResist>
-                    <DamageType>DAMAGE_HOLY</DamageType>
-                    <iResist>50</iResist>
-                </DamageTypeResist>
-                <DamageTypeResist>
-                    <DamageType>DAMAGE_LIGHTNING</DamageType>
-                    <iResist>50</iResist>
-                </DamageTypeResist>
-                <DamageTypeResist>
-                    <DamageType>DAMAGE_POISON</DamageType>
-                    <iResist>50</iResist>
-                </DamageTypeResist>
-                <DamageTypeResist>
-                    <DamageType>DAMAGE_UNHOLY</DamageType>
-                    <iResist>50</iResist>
-                </DamageTypeResist>
-            </DamageTypeResists>
-        </PromotionInfo>
-        <PromotionInfo>
             <Type>PROMOTION_STRONG</Type>
             <Description>TXT_KEY_PROMOTION_STRONG</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
@@ -3311,18 +3011,6 @@
             <iMinLevel>-1</iMinLevel>
         </PromotionInfo>
         <PromotionInfo>
-            <Type>PROMOTION_WATER_WALKING</Type>
-            <Description>TXT_KEY_PROMOTION_WATER_WALKING</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_NEVER</TechPrereq>
-            <bAmphib>1</bAmphib>
-            <bRiver>1</bRiver>
-            <Button>Art/Interface/Buttons/Promotions/Waterwalking.dds</Button>
-            <bWaterWalking>1</bWaterWalking>
-            <iAIWeight>100</iAIWeight>
-            <iMinLevel>-1</iMinLevel>
-        </PromotionInfo>
-        <PromotionInfo>
             <Type>PROMOTION_WATER1</Type>
             <Description>TXT_KEY_PROMOTION_WATER1</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
@@ -3336,110 +3024,36 @@
             <Button>Art/Interface/Buttons/Promotions/Water1.dds</Button>
             <iAIWeight>50</iAIWeight>
             <BonusPrereq>BONUS_MANA_WATER</BonusPrereq>
-            <PromotionNextLevel>PROMOTION_WATER2</PromotionNextLevel>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_WATER2</Type>
             <Description>TXT_KEY_PROMOTION_WATER2</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_WATER1</PromotionPrereq>
+            <PromotionPrereq>PROMOTION_CHANNELING2</PromotionPrereq>
             <UnitCombats>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
             <Button>Art/Interface/Buttons/Promotions/Water2.dds</Button>
             <iAIWeight>100</iAIWeight>
-            <PromotionPrereqAnd>PROMOTION_CHANNELING2</PromotionPrereqAnd>
-            <PromotionNextLevel>PROMOTION_WATER3</PromotionNextLevel>
+            <BonusPrereq>BONUS_MANA_WATER</BonusPrereq>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_WATER3</Type>
             <Description>TXT_KEY_PROMOTION_WATER3</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_WATER2</PromotionPrereq>
+            <PromotionPrereq>PROMOTION_CHANNELING3</PromotionPrereq>
             <UnitCombats>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
             </UnitCombats>
             <Button>Art/Interface/Buttons/Promotions/Water3.dds</Button>
             <iAIWeight>150</iAIWeight>
-            <PromotionPrereqAnd>PROMOTION_CHANNELING3</PromotionPrereqAnd>
+            <BonusPrereq>BONUS_MANA_WATER</BonusPrereq>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_WEAK</Type>
@@ -3759,6 +3373,48 @@
             <iAIWeight>100</iAIWeight>
             <iCombatPercentDefense>20</iCombatPercentDefense>
             <iMinLevel>-1</iMinLevel>
+        </PromotionInfo>
+        <PromotionInfo>
+            <Type>PROMOTION_HEAL1</Type>
+            <Description>Heal I</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <TechPrereq>TECH_NEVER</TechPrereq>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Spells/Heal.dds</Button>
+            <iAIWeight>50</iAIWeight>
+        </PromotionInfo>
+        <PromotionInfo>
+            <Type>PROMOTION_HEAL2</Type>
+            <Description>Heal II</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <TechPrereq>TECH_NEVER</TechPrereq>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Spells/Heal.dds</Button>
+            <iAIWeight>50</iAIWeight>
+        </PromotionInfo>
+        <PromotionInfo>
+            <Type>PROMOTION_HEAL3</Type>
+            <Description>Heal III</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <TechPrereq>TECH_NEVER</TechPrereq>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Spells/Heal.dds</Button>
+            <iAIWeight>50</iAIWeight>
         </PromotionInfo>
     </PromotionInfos>
 </Civ4PromotionInfos>
