@@ -85,8 +85,8 @@
             <Type>SPELL_HEAL</Type>
             <Description>Heal</Description>
             <Civilopedia></Civilopedia>
-            <Help>TXT_KEY_SPELL_HEAL_HELP</Help>
-            <PromotionPrereq1>PROMOTION_CHANNELING1</PromotionPrereq1>
+            <Help></Help>
+            <PromotionPrereq1>PROMOTION_HEAL1</PromotionPrereq1>
             <bAllowAI>1</bAllowAI>
             <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
             <bHasCasted>1</bHasCasted>
@@ -100,8 +100,8 @@
             <Type>SPELL_GREATER_HEALING</Type>
             <Description>Greater Healing</Description>
             <Civilopedia></Civilopedia>
-            <Help>TXT_KEY_SPELL_HEAL_HELP</Help>
-            <PromotionPrereq1>PROMOTION_CHANNELING2</PromotionPrereq1>
+            <Help></Help>
+            <PromotionPrereq1>PROMOTION_HEAL2</PromotionPrereq1>
             <bAllowAI>1</bAllowAI>
             <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
             <bHasCasted>1</bHasCasted>
@@ -116,8 +116,8 @@
             <Type>SPELL_MASS_HEALING</Type>
             <Description>Mass Healing</Description>
             <Civilopedia></Civilopedia>
-            <Help>TXT_KEY_SPELL_HEAL_HELP</Help>
-            <PromotionPrereq1>PROMOTION_CHANNELING3</PromotionPrereq1>
+            <Help></Help>
+            <PromotionPrereq1>PROMOTION_HEAL3</PromotionPrereq1>
             <bAllowAI>1</bAllowAI>
             <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
             <bHasCasted>1</bHasCasted>

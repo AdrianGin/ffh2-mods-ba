@@ -3739,5 +3739,47 @@
             <iCombatPercentDefense>20</iCombatPercentDefense>
             <iMinLevel>-1</iMinLevel>
         </PromotionInfo>
+        <PromotionInfo>
+            <Type>PROMOTION_HEAL1</Type>
+            <Description>Heal</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <TechPrereq>TECH_NEVER</TechPrereq>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Spells/Heal.dds</Button>
+            <iAIWeight>50</iAIWeight>
+        </PromotionInfo>
+        <PromotionInfo>
+            <Type>PROMOTION_HEAL2</Type>
+            <Description>Greater Healing</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <TechPrereq>TECH_NEVER</TechPrereq>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Spells/Heal.dds</Button>
+            <iAIWeight>50</iAIWeight>
+        </PromotionInfo>
+        <PromotionInfo>
+            <Type>PROMOTION_HEAL3</Type>
+            <Description>Mass Healing</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <TechPrereq>TECH_NEVER</TechPrereq>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Spells/Heal.dds</Button>
+            <iAIWeight>50</iAIWeight>
+        </PromotionInfo>
     </PromotionInfos>
 </Civ4PromotionInfos>
