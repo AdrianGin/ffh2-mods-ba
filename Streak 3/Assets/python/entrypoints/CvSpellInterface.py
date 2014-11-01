@@ -3237,19 +3237,11 @@ def spellVeilOfNight(caster):
 
 def reqVitalize(caster):
 	pPlot = caster.plot()
-	if pPlot.getOwner() != caster.getOwner():
-		return False
+#	if pPlot.getOwner() != caster.getOwner():
+#		return False
 	if pPlot.isWater():
 		return false
 	if pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_GRASS'):
-		return False
-	if pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_BURNING_SANDS'):
-		return False
-	if pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_BROKEN_LANDS'):
-		return False
-	if pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_FIELDS_OF_PERDITION'):
-		return False
-	if pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_MARSH'):
 		return False
 	return True
 
@@ -3261,10 +3253,13 @@ def spellVitalize(caster):
 		pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True)
 	elif(pPlot.getTerrainType()==gc.getInfoTypeForString('TERRAIN_DESERT')):
 		pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True)
-		if pPlot.getFeatureType() == gc.getInfoTypeForString('FEATURE_SCRUB'):
-			pPlot.setFeatureType(-1, -1)
 	elif(pPlot.getTerrainType()==gc.getInfoTypeForString('TERRAIN_PLAINS')):
 		pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_GRASS'),True,True)
+		
+	if(pPlot.getFeatureType()==gc.getInfoTypeForString('FEATURE_FLOOD_PLAINS')):
+		pPlot.setFeatureType(-1,0)
+			
+		
 
 def reqWane(caster):
 	if caster.getUnitCombatType() == gc.getInfoTypeForString('UNITCOMBAT_ANIMAL'):
