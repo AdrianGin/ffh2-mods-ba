@@ -308,31 +308,29 @@
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_CHANNELING1</Type>
-            <Description>TXT_KEY_PROMOTION_CHANNELING1</Description>
-            <Help>TXT_KEY_PROMOTION_CHANNELING1_PEDIA</Help>
+            <Description>Channeling I</Description>
+            <Help></Help>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <Button>Art/Interface/Buttons/Promotions/Channeling1.dds</Button>
             <iBetterDefenderThanPercent>-25</iBetterDefenderThanPercent>
             <iMinLevel>-1</iMinLevel>
             <iSpellCasterXP>20</iSpellCasterXP>
-            <PromotionNextLevel>PROMOTION_CHANNELING2</PromotionNextLevel>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_CHANNELING2</Type>
-            <Description>TXT_KEY_PROMOTION_CHANNELING2</Description>
-            <Help>TXT_KEY_PROMOTION_CHANNELING2_PEDIA</Help>
+            <Description>Channeling II</Description>
+            <Help></Help>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <Button>Art/Interface/Buttons/Promotions/Channeling2.dds</Button>
             <iBetterDefenderThanPercent>-25</iBetterDefenderThanPercent>
             <iCasterResistModify>-10</iCasterResistModify>
             <iMinLevel>-1</iMinLevel>
             <iSpellCasterXP>30</iSpellCasterXP>
-            <PromotionNextLevel>PROMOTION_CHANNELING3</PromotionNextLevel>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_CHANNELING3</Type>
-            <Description>TXT_KEY_PROMOTION_CHANNELING3</Description>
-            <Help>TXT_KEY_PROMOTION_CHANNELING3_PEDIA</Help>
+            <Description>Channeling III</Description>
+            <Help></Help>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <Button>Art/Interface/Buttons/Promotions/Channeling3.dds</Button>
             <iBetterDefenderThanPercent>-25</iBetterDefenderThanPercent>
@@ -1155,7 +1153,7 @@
             <Button>Art/Interface/Buttons/Promotions/Earth1.dds</Button>
             <iAIWeight>50</iAIWeight>
             <BonusPrereq>BONUS_MANA_EARTH</BonusPrereq>
-            <PromotionPrereqAnd>PROMOTION_CHANNELING1</PromotionPrereqAnd>
+            <PromotionPrereq>PROMOTION_CHANNELING1</PromotionPrereq>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_EARTH2</Type>
@@ -3378,7 +3376,7 @@
             <Type>PROMOTION_HEAL1</Type>
             <Description>Heal I</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_NEVER</TechPrereq>
+            <PromotionPrereq>PROMOTION_CHANNELING1</PromotionPrereq>
             <UnitCombats>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
@@ -3392,7 +3390,7 @@
             <Type>PROMOTION_HEAL2</Type>
             <Description>Heal II</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_NEVER</TechPrereq>
+            <PromotionPrereq>PROMOTION_CHANNELING2</PromotionPrereq>
             <UnitCombats>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
@@ -3406,7 +3404,7 @@
             <Type>PROMOTION_HEAL3</Type>
             <Description>Heal III</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_NEVER</TechPrereq>
+            <PromotionPrereq>PROMOTION_CHANNELING3</PromotionPrereq>
             <UnitCombats>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
