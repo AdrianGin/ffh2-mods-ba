@@ -323,7 +323,6 @@
             <Sound>AS2D_IF_LEVELUP</Sound>
             <Button>Art/Interface/Buttons/Promotions/Channeling2.dds</Button>
             <iBetterDefenderThanPercent>-25</iBetterDefenderThanPercent>
-            <iCasterResistModify>-10</iCasterResistModify>
             <iMinLevel>-1</iMinLevel>
             <iSpellCasterXP>30</iSpellCasterXP>
         </PromotionInfo>
@@ -334,7 +333,6 @@
             <Sound>AS2D_IF_LEVELUP</Sound>
             <Button>Art/Interface/Buttons/Promotions/Channeling3.dds</Button>
             <iBetterDefenderThanPercent>-25</iBetterDefenderThanPercent>
-            <iCasterResistModify>-10</iCasterResistModify>
             <iMinLevel>-1</iMinLevel>
             <iSpellCasterXP>40</iSpellCasterXP>
         </PromotionInfo>
@@ -498,10 +496,6 @@
             <iCombatPercent>10</iCombatPercent>
             <UnitCombats>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
@@ -540,10 +534,6 @@
             <iCombatPercent>15</iCombatPercent>
             <UnitCombats>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
@@ -580,10 +570,6 @@
             <PromotionPrereq>PROMOTION_COMBAT2</PromotionPrereq>
             <iCombatPercent>20</iCombatPercent>
             <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
@@ -622,10 +608,6 @@
             <iCombatPercent>25</iCombatPercent>
             <UnitCombats>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
@@ -663,10 +645,6 @@
             <iCombatPercent>30</iCombatPercent>
             <UnitCombats>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
@@ -703,10 +681,6 @@
             <bEnemyRoute>1</bEnemyRoute>
             <iChanceFirstStrikesChange>1</iChanceFirstStrikesChange>
             <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
@@ -2022,10 +1996,6 @@
             <PromotionPrereq>PROMOTION_COMBAT1</PromotionPrereq>
             <iMovesChange>1</iMovesChange>
             <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
