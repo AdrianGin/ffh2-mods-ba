@@ -144,9 +144,9 @@
             <Button>Art/Interface/Buttons/Promotions/Hidden.dds</Button>
         </SpellInfo>
         <SpellInfo>
-            <Type>SPELL_MAELSTROM</Type>
-            <Description>TXT_KEY_SPELL_MAELSTROM</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
+            <Type>SPELL_THUNDERSTORM</Type>
+            <Description>Thunderstorm</Description>
+            <Civilopedia></Civilopedia>
             <PromotionPrereq1>PROMOTION_AIR2</PromotionPrereq1>
             <bAllowAI>1</bAllowAI>
             <bCausesWar>1</bCausesWar>
@@ -376,6 +376,120 @@
             <Effect>EFFECT_SPELL1</Effect>
             <Sound>AS3D_SPELL_DEFILE</Sound>
             <Button>Art/Interface/Buttons/Promotions/Rusted.dds</Button>
+        </SpellInfo>
+        <SpellInfo>
+            <Type>SPELL_SHADOWWALK</Type>
+            <Description>TXT_KEY_SPELL_SHADOWWALK</Description>
+            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
+            <PromotionPrereq1>PROMOTION_AIR2</PromotionPrereq1>
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+            <bHasCasted>1</bHasCasted>
+            <AddPromotionType1>PROMOTION_SHADOWWALK</AddPromotionType1>
+            <Effect>EFFECT_SWORDS_SPARKS</Effect>
+            <Sound>AS3D_SPELL_ENCHANTMENT</Sound>
+            <Button>Art/Interface/Buttons/Promotions/Shadowwalk.dds</Button>
+        </SpellInfo>
+        <SpellInfo>
+            <Type>SPELL_EARTHQUAKE</Type>
+            <Description>TXT_KEY_SPELL_EARTHQUAKE</Description>
+            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
+            <Help>TXT_KEY_SPELL_EARTHQUAKE_HELP</Help>
+            <PromotionPrereq2>PROMOTION_AIR2</PromotionPrereq2>
+            <bAllowAI>1</bAllowAI>
+            <bCausesWar>1</bCausesWar>
+            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+            <bHasCasted>1</bHasCasted>
+            <PyResult>spellEarthquake(pCaster)</PyResult>
+            <PyRequirement>reqEarthquake(pCaster)</PyRequirement>
+            <Effect>EFFECT_SNOWFALL</Effect>
+            <Sound>AS3D_SPELL_EARTHQUAKE</Sound>
+            <Button>Art/Interface/Buttons/Spells/Earthquake.dds</Button>
+        </SpellInfo>
+        <SpellInfo>
+            <Type>SPELL_DISPEL_MAGIC</Type>
+            <Description>TXT_KEY_SPELL_DISPEL_MAGIC</Description>
+            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
+            <Help>TXT_KEY_SPELL_DISPEL_MAGIC_HELP</Help>
+            <PromotionPrereq1>PROMOTION_EARTH2</PromotionPrereq1>
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+            <bHasCasted>1</bHasCasted>
+            <iRange>2</iRange>
+            <bDispel>1</bDispel>
+            <PyResult>spellDispelMagic(pCaster)</PyResult>
+            <PyRequirement>reqDispelMagic(pCaster)</PyRequirement>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS3D_SPELL_DISPEL_MAGIC</Sound>
+            <Button>Art/Interface/Buttons/Spells/Dispel Magic.dds</Button>
+        </SpellInfo>
+        <SpellInfo>
+            <Type>SPELL_FIREBALL</Type>
+            <Description>TXT_KEY_SPELL_FIREBALL</Description>
+            <Civilopedia>TXT_KEY_UNIT_FIREBALL_PEDIA</Civilopedia>
+            <PromotionPrereq1>PROMOTION_FIRE2</PromotionPrereq1>
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+            <bHasCasted>1</bHasCasted>
+            <CreateUnitType>UNIT_FIREBALL</CreateUnitType>
+            <iCreateUnitNum>1</iCreateUnitNum>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS3D_SPELL_FIREBALL</Sound>
+            <Button>Art/Interface/Buttons/Units/Fireball.dds</Button>
+        </SpellInfo>
+        <SpellInfo>
+            <Type>SPELL_RING_OF_FLAMES</Type>
+            <Description>TXT_KEY_SPELL_RING_OF_FLAMES</Description>
+            <Civilopedia>TXT_KEY_SPELL_RING_OF_FLAMES_PEDIA</Civilopedia>
+            <PromotionPrereq2>PROMOTION_FIRE2</PromotionPrereq2>
+            <bAllowAI>1</bAllowAI>
+            <bCausesWar>1</bCausesWar>
+            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+            <bHasCasted>1</bHasCasted>
+            <iRange>1</iRange>
+            <iDamage>15</iDamage>
+            <iDamageLimit>40</iDamageLimit>
+            <DamageType>DAMAGE_FIRE</DamageType>
+            <PyResult>spellRingofFlames(pCaster)</PyResult>
+            <Effect>EFFECT_RING_OF_FLAMES</Effect>
+            <Sound>AS3D_SPELL_FIREBALL</Sound>
+            <Button>Art/Interface/Buttons/Spells/Ringofflames.dds</Button>
+        </SpellInfo>
+        <SpellInfo>
+            <Type>SPELL_VITALIZE</Type>
+            <Description>TXT_KEY_SPELL_VITALIZE</Description>
+            <Civilopedia>TXT_KEY_SPELL_VITALIZE_PEDIA</Civilopedia>
+            <Help>TXT_KEY_SPELL_VITALIZE_HELP</Help>
+            <PromotionPrereq1>PROMOTION_WATER2</PromotionPrereq1>
+            <bAllowAI>1</bAllowAI>
+            <bAllowAutomateTerrain>1</bAllowAutomateTerrain>
+            <iAIWeight>10</iAIWeight>
+            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+            <bHasCasted>1</bHasCasted>
+            <PyResult>spellVitalize(pCaster)</PyResult>
+            <PyRequirement>reqVitalize(pCaster)</PyRequirement>
+            <Effect>EFFECT_VITALIZE</Effect>
+            <Sound>AS3D_SPELL_SANCTIFY</Sound>
+            <Button>Art/Interface/Buttons/Spells/Vitalize.dds</Button>
+        </SpellInfo>
+        <SpellInfo>
+            <Type>SPELL_SNOWFALL</Type>
+            <Description>TXT_KEY_SPELL_SNOWFALL</Description>
+            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
+            <Help>TXT_KEY_SPELL_SNOWFALL_HELP</Help>
+            <PromotionPrereq1>PROMOTION_WATER2</PromotionPrereq1>
+            <bAllowAI>1</bAllowAI>
+            <bCausesWar>1</bCausesWar>
+            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+            <bHasCasted>1</bHasCasted>
+            <iRange>1</iRange>
+            <iDamage>40</iDamage>
+            <iDamageLimit>80</iDamageLimit>
+            <DamageType>DAMAGE_COLD</DamageType>
+            <PyResult>spellSnowfall(pCaster)</PyResult>
+            <Effect>EFFECT_SNOWFALL</Effect>
+            <Sound>AS3D_SPELL_SPRING</Sound>
+            <Button>Art/Interface/Buttons/Spells/Snowfall.dds</Button>
         </SpellInfo>
     </SpellInfos>
 </Civ4SpellInfos>
