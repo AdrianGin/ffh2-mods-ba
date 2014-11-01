@@ -3335,6 +3335,27 @@
             <Button>,Art/Interface/Buttons/Promotions/Guerilla2.dds,Art/Interface/Buttons/Promotions_Atlas.dds,5,5</Button>
         </PromotionInfo>
         <PromotionInfo>
+            <Type>PROMOTION_ELEMENTAL</Type>
+            <Description>TXT_KEY_PROMOTION_ELEMENTAL</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <TechPrereq>TECH_NEVER</TechPrereq>
+            <Button>Art/Interface/Buttons/Promotions/Elemental.dds</Button>
+            <bImmuneToFear>1</bImmuneToFear>
+            <bNotAlive>1</bNotAlive>
+            <bRace>1</bRace>
+            <DamageTypeResists>
+                <DamageTypeResist>
+                    <DamageType>DAMAGE_DEATH</DamageType>
+                    <iResist>100</iResist>
+                </DamageTypeResist>
+                <DamageTypeResist>
+                    <DamageType>DAMAGE_POISON</DamageType>
+                    <iResist>100</iResist>
+                </DamageTypeResist>
+            </DamageTypeResists>
+        </PromotionInfo>
+        
+        <PromotionInfo>
             <Type>PROMOTION_ENCHANTED_BLADE</Type>
             <Description>TXT_KEY_PROMOTION_ENCHANTED_BLADE</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>

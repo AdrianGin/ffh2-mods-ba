@@ -2419,10 +2419,12 @@ def spellRingofFlames(caster):
 				if pPlot.getImprovementType() != -1:
 					if gc.getImprovementInfo(pPlot.getImprovementType()).isPermanent():
 						bValid = False
-				if bValid:
-					if (pPlot.getFeatureType() == gc.getInfoTypeForString('FEATURE_FOREST') or pPlot.getFeatureType() == gc.getInfoTypeForString('FEATURE_JUNGLE') or pPlot.getFeatureType() == gc.getInfoTypeForString('FEATURE_FOREST_NEW')):
-						if CyGame().getSorenRandNum(100, "Flames Spread") <= gc.getDefineINT('FLAMES_SPREAD_CHANCE'):
-							pPlot.setImprovementType(gc.getInfoTypeForString('IMPROVEMENT_SMOKE'))
+				#if bValid:
+				#	if (pPlot.getFeatureType() == gc.getInfoTypeForString('FEATURE_FOREST') or pPlot.getFeatureType() == gc.getInfoTypeForString('FEATURE_JUNGLE') or pPlot.getFeatureType() == gc.getInfoTypeForString('FEATURE_FOREST_NEW')):
+				#		if CyGame().getSorenRandNum(100, "Flames Spread") <= gc.getDefineINT('FLAMES_SPREAD_CHANCE'):
+				#			pPlot.setImprovementType(gc.getInfoTypeForString('IMPROVEMENT_SMOKE'))
+				
+				
 
 def reqRiverOfBlood(caster):
 	pPlayer = gc.getPlayer(caster.getOwner())
@@ -2646,7 +2648,7 @@ def reqSandLion(caster):
 def reqScorch(caster):
 	pPlot = caster.plot()
 	pPlayer = gc.getPlayer(caster.getOwner())
-	if (pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_PLAINS') or pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_FIELDS_OF_PERDITION')):
+	if (pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_PLAINS') or pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_GRASS') or pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_SNOW') or pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_TUNDRA')):
 		if pPlayer.isHuman() == False:
 			if caster.getOwner() == pPlot.getOwner():
 				return False
@@ -2664,14 +2666,23 @@ def reqScorch(caster):
 
 def spellScorch(caster):
 	pPlot = caster.plot()
-	if pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_PLAINS'):
+	
+
+	if pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_TUNDRA'):
 		pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_DESERT'),True,True)
-	if pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_FIELDS_OF_PERDITION'):
-		pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_BURNING_SANDS'),True,True)
+		
 	if pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_SNOW'):
 		pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_TUNDRA'),True,True)
-	if pPlot.isOwned():
-		cf.startWar(caster.getOwner(), pPlot.getOwner(), WarPlanTypes.WARPLAN_TOTAL)
+
+	if pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_PLAINS'):
+		pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_DESERT'),True,True)
+		
+	if pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_GRASS'):
+		pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True)
+			
+		
+	#if pPlot.isOwned():
+	#	cf.startWar(caster.getOwner(), pPlot.getOwner(), WarPlanTypes.WARPLAN_TOTAL)
 
 def spellSing(caster):
 	pPlot = caster.plot()
@@ -3226,19 +3237,11 @@ def spellVeilOfNight(caster):
 
 def reqVitalize(caster):
 	pPlot = caster.plot()
-	if pPlot.getOwner() != caster.getOwner():
-		return False
+#	if pPlot.getOwner() != caster.getOwner():
+#		return False
 	if pPlot.isWater():
 		return false
 	if pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_GRASS'):
-		return False
-	if pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_BURNING_SANDS'):
-		return False
-	if pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_BROKEN_LANDS'):
-		return False
-	if pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_FIELDS_OF_PERDITION'):
-		return False
-	if pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_MARSH'):
 		return False
 	return True
 
@@ -3250,10 +3253,13 @@ def spellVitalize(caster):
 		pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True)
 	elif(pPlot.getTerrainType()==gc.getInfoTypeForString('TERRAIN_DESERT')):
 		pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True)
-		if pPlot.getFeatureType() == gc.getInfoTypeForString('FEATURE_SCRUB'):
-			pPlot.setFeatureType(-1, -1)
 	elif(pPlot.getTerrainType()==gc.getInfoTypeForString('TERRAIN_PLAINS')):
 		pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_GRASS'),True,True)
+		
+	if(pPlot.getFeatureType()==gc.getInfoTypeForString('FEATURE_FLOOD_PLAINS')):
+		pPlot.setFeatureType(-1,0)
+			
+		
 
 def reqWane(caster):
 	if caster.getUnitCombatType() == gc.getInfoTypeForString('UNITCOMBAT_ANIMAL'):

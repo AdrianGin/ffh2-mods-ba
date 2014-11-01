@@ -178,6 +178,7 @@
             <Button>Art/Interface/Buttons/Units/Slave.dds</Button>
         </SpellInfo>
         <SpellInfo>
+
             <Type>SPELL_HASTE</Type>
             <Description>TXT_KEY_SPELL_HASTE</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
