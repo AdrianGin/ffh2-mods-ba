@@ -1889,7 +1889,14 @@ void CvUnit::updateCombat(bool bQuick)
 				return;
 			}
 
-			setMadeAttack(true);
+			//Units which cannot defend do not count as the attacker performing an attack
+			if (!pDefender->canDefend())	
+			{
+			}
+			else
+			{
+				setMadeAttack(true);
+			}
 
 			//rotate to face plot
 			DirectionTypes newDirection = estimateDirection(this->plot(), pDefender->plot());
@@ -1969,6 +1976,9 @@ void CvUnit::updateCombat(bool bQuick)
 
 			// Kill them!
 			pDefender->setDamage(GC.getMAX_HIT_POINTS());
+			
+
+
 		}
 		else
 		{
@@ -3463,7 +3473,15 @@ bool CvUnit::canMoveInto(const CvPlot* pPlot, bool bAttack, bool bDeclareWar, bo
 	{
 		if (isMadeAttack() && !isBlitz())
 		{
-			return false;
+			//Do a check that the plot has a valid defender.
+			CvUnit* pDefender = pPlot->getBestDefender(NO_PLAYER, getOwnerINLINE(), this, true);
+			if (!pDefender->canDefend() )
+			{
+			}
+			else
+			{
+				return false;
+			}
 		}
 	}
 

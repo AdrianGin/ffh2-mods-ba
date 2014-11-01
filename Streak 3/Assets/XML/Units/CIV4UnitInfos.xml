@@ -108,7 +108,7 @@
 			<PrereqTech>TECH_FISH1</PrereqTech>
 			<TechTypes>
 			</TechTypes>
-			<BonusType>BONUS_COPPER</BonusType>
+			<BonusType>NONE</BonusType>
 			<PrereqBonuses>
             </PrereqBonuses>
 			<ProductionTraits>
@@ -7557,6 +7557,10 @@
 			<FeatureImpassables>
             </FeatureImpassables>
 			<TerrainPassableTechs>
+				<TerrainPassableTech>
+					<TerrainType>TERRAIN_OCEAN</TerrainType>
+					<PassableTech>TECH_FISH2</PassableTech>
+				</TerrainPassableTech>
             </TerrainPassableTechs>
 			<FeaturePassableTechs>
             </FeaturePassableTechs>
