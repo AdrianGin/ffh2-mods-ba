@@ -1168,11 +1168,15 @@ void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szString, const CvUnit* pUnit, 
 						if (NO_TECH == (TechTypes) iTerrainPassableTech
 						 || !GET_PLAYER(pUnit->getOwnerINLINE()).isHasTech(iTerrainPassableTech))
 						{
-							const char cBullet = gDLL->getSymbolID(BULLET_CHAR);
-							const wchar* szCantEnter = gDLL->getText("TXT_KEY_UNIT_CANNOT_ENTER").GetCString();
-							const wchar* szTerrain = GC.getTerrainInfo((TerrainTypes) iI).getTextKeyWide();
-							szTempBuffer.Format(L"\n%c%s <link=literal>%s</link>", cBullet, szCantEnter, szTerrain);
-							szString.append(szTempBuffer);
+							//const char cBullet = gDLL->getSymbolID(BULLET_CHAR);
+							//const wchar* szCantEnter = gDLL->getText("TXT_KEY_UNIT_CANNOT_ENTER");
+							//const wchar* szTerrain = GC.getTerrainInfo((TerrainTypes) iI).getText();
+							//szTempBuffer.Format(L"%s %s", szCantEnter, szTerrain);
+
+							szString.append(NEWLINE);
+							szString.append(gDLL->getText("TXT_KEY_UNIT_CANNOT_ENTER"));
+							szString.append(L" ");
+							szString.append(GC.getTerrainInfo((TerrainTypes) iI).getText() );
 						}
 					}
 				}
@@ -1185,11 +1189,10 @@ void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szString, const CvUnit* pUnit, 
 						if (NO_TECH == (TechTypes) iFeaturePassableTech
 						 || !GET_PLAYER(pUnit->getOwnerINLINE()).isHasTech(iFeaturePassableTech))
 						{
-							const char cBullet = gDLL->getSymbolID(BULLET_CHAR);
-							const wchar* szCantEnter = gDLL->getText("TXT_KEY_UNIT_CANNOT_ENTER").GetCString();
-							const wchar* szFeature = GC.getFeatureInfo((FeatureTypes) iI).getTextKeyWide();
-							szTempBuffer.Format(L"\n%c%s <link=literal>%s</link>", cBullet, szCantEnter, szFeature);
-							szString.append(szTempBuffer);
+							szString.append(NEWLINE);
+							szString.append(gDLL->getText("TXT_KEY_UNIT_CANNOT_ENTER"));
+							szString.append(L" ");
+							szString.append(GC.getFeatureInfo((FeatureTypes) iI).getText() );
 						}
 					}
 				}

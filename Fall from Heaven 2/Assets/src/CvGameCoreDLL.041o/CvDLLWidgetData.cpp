@@ -158,8 +158,8 @@ void CvDLLWidgetData::parseHelp(CvWStringBuffer &szBuffer, CvWidgetDataStruct &w
 	case WIDGET_END_TURN:
 
 //FfH: Modified by Kael 09/16/2008
-//		szBuffer.append(gDLL->getText("TXT_KEY_WIDGET_END_TURN"));
-		szBuffer.append(gDLL->getText("TXT_KEY_WIDGET_END_TURN_AC", GC.getGameINLINE().getTrueGlobalCounter(), GC.getGameINLINE().getGlobalCounterLimit(), GC.getGameINLINE().getGlobalCounter()));
+		szBuffer.append(gDLL->getText("TXT_KEY_WIDGET_END_TURN"));
+//		szBuffer.append(gDLL->getText("TXT_KEY_WIDGET_END_TURN_AC", GC.getGameINLINE().getTrueGlobalCounter(), GC.getGameINLINE().getGlobalCounterLimit(), GC.getGameINLINE().getGlobalCounter()));
 //FfH: End Modify
 
 		break;
