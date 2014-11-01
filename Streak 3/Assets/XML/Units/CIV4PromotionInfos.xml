@@ -3375,8 +3375,8 @@
         <PromotionInfo>
             <Type>PROMOTION_HEAL1</Type>
             <Description>Heal I</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_CHANNELING1</PromotionPrereq>
+            <Sound>AS2D_IF_LEVELUP</Sound>            
+            <TechPrereq>TECH_NEVER</TechPrereq>
             <UnitCombats>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
@@ -3385,12 +3385,13 @@
             </UnitCombats>
             <Button>Art/Interface/Buttons/Spells/Heal.dds</Button>
             <iAIWeight>50</iAIWeight>
+            <iMinLevel>-1</iMinLevel>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_HEAL2</Type>
             <Description>Heal II</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_CHANNELING2</PromotionPrereq>
+            <TechPrereq>TECH_NEVER</TechPrereq>
             <UnitCombats>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
@@ -3399,12 +3400,13 @@
             </UnitCombats>
             <Button>Art/Interface/Buttons/Spells/Heal.dds</Button>
             <iAIWeight>50</iAIWeight>
+            <iMinLevel>-1</iMinLevel>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_HEAL3</Type>
             <Description>Heal III</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_CHANNELING3</PromotionPrereq>
+            <TechPrereq>TECH_NEVER</TechPrereq>
             <UnitCombats>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
@@ -3413,6 +3415,7 @@
             </UnitCombats>
             <Button>Art/Interface/Buttons/Spells/Heal.dds</Button>
             <iAIWeight>50</iAIWeight>
+            <iMinLevel>-1</iMinLevel>
         </PromotionInfo>
     </PromotionInfos>
 </Civ4PromotionInfos>
