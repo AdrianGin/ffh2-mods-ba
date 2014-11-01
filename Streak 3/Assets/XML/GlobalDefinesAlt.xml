@@ -368,7 +368,7 @@
 	</Define>
 	<Define>
 		<DefineName>WEAPON_PROMOTION_TIER1</DefineName>
-		<DefineTextVal>PROMOTION_BRONZE_WEAPONS</DefineTextVal>
+		<DefineTextVal>NONE</DefineTextVal>
 	</Define>
 	<Define>
 		<DefineName>WEAPON_PROMOTION_TIER2</DefineName>

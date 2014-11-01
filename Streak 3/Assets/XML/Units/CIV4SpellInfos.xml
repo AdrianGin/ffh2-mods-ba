@@ -130,8 +130,7 @@
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_HIDE</Type>
-            <Description>Hide</Description>
-            <Civilopedia></Civilopedia>
+            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
             <PromotionPrereq1>PROMOTION_STEALTH</PromotionPrereq1>
             <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
             <bHasCasted>1</bHasCasted>
@@ -161,27 +160,8 @@
             <Button>Art/Interface/Buttons/Spells/Maelstrom.dds</Button>
         </SpellInfo>
         <SpellInfo>
-            <Type>SPELL_SLAVE_TRADE_BUY</Type>
-            <Description>TXT_KEY_SPELL_SLAVE_TRADE_BUY</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_SLAVE_TRADE_BUY_HELP</Help>
-            <bInBordersOnly>1</bInBordersOnly>
-            <bInCityOnly>1</bInCityOnly>
-            <bPrereqSlaveTrade>1</bPrereqSlaveTrade>
-            <bHasCasted>1</bHasCasted>
-            <bAbility>1</bAbility>
-            <iCost>30</iCost>
-            <PyResult>spellSlaveTradeBuy(pCaster)</PyResult>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_ENCHANTMENT</Sound>
-            <bGraphicalOnly>1</bGraphicalOnly>
-            <Button>Art/Interface/Buttons/Units/Slave.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-
             <Type>SPELL_HASTE</Type>
-            <Description>Haste</Description>
-            <Civilopedia></Civilopedia>
+            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
             <PromotionPrereq1>PROMOTION_AIR1</PromotionPrereq1>
             <bAllowAI>1</bAllowAI>
             <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
@@ -197,8 +177,7 @@
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_BLUR</Type>
-            <Description>Blur</Description>
-            <Civilopedia></Civilopedia>
+            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
             <PromotionPrereq1>PROMOTION_AIR1</PromotionPrereq1>
             <bAllowAI>1</bAllowAI>
             <iAIWeightWar>50</iAIWeightWar>
@@ -211,8 +190,7 @@
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_BLOOM</Type>
-            <Description>Bloom</Description>
-            <Civilopedia></Civilopedia>
+            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
             <PromotionPrereq1>PROMOTION_EARTH1</PromotionPrereq1>
             <bAllowAI>1</bAllowAI>
             <bAllowAutomateTerrain>1</bAllowAutomateTerrain>
@@ -227,8 +205,7 @@
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_ENCHANTED_BLADE</Type>
-            <Description>Enchanted Blade</Description>
-            <Civilopedia></Civilopedia>
+            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
             <PromotionPrereq1>PROMOTION_EARTH1</PromotionPrereq1>
             <bAllowAI>1</bAllowAI>
             <iAIWeightWar>100</iAIWeightWar>
@@ -241,9 +218,7 @@
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_TREETOP_DEFENCE</Type>
-            <Description>Treetop Defence</Description>
-            <Civilopedia></Civilopedia>
-            <Help></Help>
+            <Help>TXT_KEY_SPELL_TREETOP_DEFENCE_HELP</Help>
             <PromotionPrereq1>PROMOTION_EARTH1</PromotionPrereq1>
             <FeatureOrPrereq1>FEATURE_FOREST</FeatureOrPrereq1>
             <bAllowAI>1</bAllowAI>
@@ -257,9 +232,7 @@
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_SCORCH</Type>
-            <Description>Scorch</Description>
-            <Civilopedia></Civilopedia>
-            <Help></Help>
+            <Help>TXT_KEY_SPELL_SCORCH_HELP</Help>
             <PromotionPrereq1>PROMOTION_FIRE1</PromotionPrereq1>
             <bAllowAI>1</bAllowAI>
             <bAllowAutomateTerrain>1</bAllowAutomateTerrain>
@@ -274,8 +247,7 @@
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_BLINDING_LIGHT</Type>
-            <Description>Blinding Light</Description>
-            <Civilopedia></Civilopedia>
+            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
             <PromotionPrereq1>PROMOTION_FIRE1</PromotionPrereq1>
             <bAllowAI>1</bAllowAI>
             <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
@@ -292,8 +264,7 @@
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_SLOW</Type>
-            <Description>Slow</Description>
-            <Civilopedia></Civilopedia>
+            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
             <PromotionPrereq1>PROMOTION_WATER1</PromotionPrereq1>
             <bAllowAI>1</bAllowAI>
             <iAIWeightWar>50</iAIWeightWar>
@@ -311,8 +282,7 @@
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_DANCE_OF_BLADES</Type>
-            <Description>Dance of Blades</Description>
-            <Civilopedia></Civilopedia>
+            <Civilopedia>TXT_KEY_SPELL_DANCE_OF_BLADES_PEDIA</Civilopedia>
             <PromotionPrereq1>PROMOTION_WATER1</PromotionPrereq1>
             <bAllowAI>1</bAllowAI>
             <iAIWeightWar>50</iAIWeightWar>
@@ -325,8 +295,7 @@
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_RUST</Type>
-            <Description>Rust</Description>
-            <Civilopedia></Civilopedia>
+            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
             <PromotionPrereq1>PROMOTION_WATER1</PromotionPrereq1>
             <bAllowAI>1</bAllowAI>
             <iAIWeightWar>100</iAIWeightWar>
@@ -343,8 +312,7 @@
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_SHADOWWALK</Type>
-            <Description>Shadow Walk</Description>
-            <Civilopedia></Civilopedia>
+            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
             <PromotionPrereq1>PROMOTION_AIR2</PromotionPrereq1>
             <bAllowAI>1</bAllowAI>
             <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
@@ -356,9 +324,6 @@
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_EARTHQUAKE</Type>
-            <Description>Earthquake</Description>
-            <Civilopedia></Civilopedia>
-            <Help></Help>
             <PromotionPrereq1>PROMOTION_EARTH2</PromotionPrereq1>
             <bAllowAI>1</bAllowAI>
             <bCausesWar>1</bCausesWar>
@@ -372,9 +337,7 @@
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_DISPEL_MAGIC</Type>
-            <Description>Dispel Magic</Description>
-            <Civilopedia></Civilopedia>
-            <Help></Help>
+            <Help>TXT_KEY_SPELL_DISPEL_MAGIC_HELP</Help>
             <PromotionPrereq1>PROMOTION_EARTH2</PromotionPrereq1>
             <bAllowAI>1</bAllowAI>
             <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
@@ -389,8 +352,7 @@
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_FIREBALL</Type>
-            <Description>Fireball</Description>
-            <Civilopedia></Civilopedia>
+            <Civilopedia>TXT_KEY_UNIT_FIREBALL_PEDIA</Civilopedia>
             <PromotionPrereq1>PROMOTION_FIRE2</PromotionPrereq1>
             <bAllowAI>1</bAllowAI>
             <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
@@ -403,8 +365,6 @@
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_RING_OF_FLAMES</Type>
-            <Description>Ring of Flames</Description>
-            <Civilopedia></Civilopedia>
             <PromotionPrereq1>PROMOTION_FIRE2</PromotionPrereq1>
             <bAllowAI>1</bAllowAI>
             <bCausesWar>1</bCausesWar>
@@ -420,27 +380,8 @@
             <Button>Art/Interface/Buttons/Spells/Ringofflames.dds</Button>
         </SpellInfo>
         <SpellInfo>
-            <Type>SPELL_VITALIZE</Type>
-            <Description>Vitalize</Description>
-            <Civilopedia></Civilopedia>
-            <Help></Help>
-            <PromotionPrereq1>PROMOTION_WATER2</PromotionPrereq1>
-            <bAllowAI>1</bAllowAI>
-            <bAllowAutomateTerrain>1</bAllowAutomateTerrain>
-            <iAIWeight>10</iAIWeight>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <PyResult>spellVitalize(pCaster)</PyResult>
-            <PyRequirement>reqVitalize(pCaster)</PyRequirement>
-            <Effect>EFFECT_VITALIZE</Effect>
-            <Sound>AS3D_SPELL_SANCTIFY</Sound>
-            <Button>Art/Interface/Buttons/Spells/Vitalize.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
             <Type>SPELL_SNOWFALL</Type>
-            <Description>Snowfall</Description>
-            <Civilopedia></Civilopedia>
-            <Help></Help>
+            <Help>TXT_KEY_SPELL_SNOWFALL_HELP</Help>
             <PromotionPrereq1>PROMOTION_WATER2</PromotionPrereq1>
             <bAllowAI>1</bAllowAI>
             <bCausesWar>1</bCausesWar>
