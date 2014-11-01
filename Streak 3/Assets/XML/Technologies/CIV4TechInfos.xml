@@ -2427,6 +2427,7 @@
                 </Flavor>
             </Flavors>
             <OrPreReqs>
+				<PrereqTech>TECH_MILITARY</PrereqTech>
             </OrPreReqs>
             <AndPreReqs>
             </AndPreReqs>
