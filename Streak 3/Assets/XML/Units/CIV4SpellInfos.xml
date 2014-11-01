@@ -178,34 +178,6 @@
             <Button>Art/Interface/Buttons/Units/Slave.dds</Button>
         </SpellInfo>
         <SpellInfo>
-            <Type>SPELL_STONESKIN</Type>
-            <Description>TXT_KEY_SPELL_STONESKIN</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
-            <PromotionPrereq1>PROMOTION_EARTH2</PromotionPrereq1>
-            <bAllowAI>1</bAllowAI>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <AddPromotionType1>PROMOTION_STONESKIN</AddPromotionType1>
-            <bBuffCasterOnly>1</bBuffCasterOnly>
-            <Effect>EFFECT_STONESKIN</Effect>
-            <Sound>AS3D_SPELL_STONESKIN</Sound>
-            <Button>Art/Interface/Buttons/Spells/Stoneskin.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_WATER_WALKING</Type>
-            <Description>TXT_KEY_SPELL_WATER_WALKING</Description>
-            <Civilopedia>TXT_KEY_SPELL_WATER_WALKING_PEDIA</Civilopedia>
-            <PromotionPrereq1>PROMOTION_WATER2</PromotionPrereq1>
-            <bAllowAI>1</bAllowAI>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <AddPromotionType1>PROMOTION_WATER_WALKING</AddPromotionType1>
-            <bBuffCasterOnly>1</bBuffCasterOnly>
-            <Effect>EFFECT_CREATION</Effect>
-            <Sound>AS3D_SPELL_WATER</Sound>
-            <Button>Art/Interface/Buttons/Promotions/Waterwalking.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
             <Type>SPELL_HASTE</Type>
             <Description>TXT_KEY_SPELL_HASTE</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
@@ -395,7 +367,7 @@
             <Description>TXT_KEY_SPELL_EARTHQUAKE</Description>
             <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
             <Help>TXT_KEY_SPELL_EARTHQUAKE_HELP</Help>
-            <PromotionPrereq2>PROMOTION_AIR2</PromotionPrereq2>
+            <PromotionPrereq2>PROMOTION_EARTH2</PromotionPrereq2>
             <bAllowAI>1</bAllowAI>
             <bCausesWar>1</bCausesWar>
             <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
