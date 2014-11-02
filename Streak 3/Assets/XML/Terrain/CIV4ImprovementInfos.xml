@@ -835,7 +835,7 @@
 			<iAirBombDefense>0</iAirBombDefense>
 			<iDefenseModifier>0</iDefenseModifier>
 			<iHappiness>0</iHappiness>
-			<iPillageGold>10</iPillageGold>
+			<iPillageGold>5</iPillageGold>
 			<!-- VKs Plot Capacity-->
 			<iUnitPlotSupport>0</iUnitPlotSupport>
 			<bOutsideBorders>0</bOutsideBorders>
@@ -1426,7 +1426,7 @@
 			<iAirBombDefense>0</iAirBombDefense>
 			<iDefenseModifier>0</iDefenseModifier>
 			<iHappiness>0</iHappiness>
-			<iPillageGold>10</iPillageGold>
+			<iPillageGold>5</iPillageGold>
 			<!-- VKs Plot Capacity-->
 			<iUnitPlotSupport>0</iUnitPlotSupport>
 			<bOutsideBorders>0</bOutsideBorders>
