@@ -683,6 +683,7 @@
 			<iLeaderExperience>0</iLeaderExperience>
 			<bFreeXP>1</bFreeXP>
 			<iCombatDefense>3</iCombatDefense>
+			<bNeverObsolete>1</bNeverObsolete>
 			<iFreePromotionPick>1</iFreePromotionPick>
 			<iTier>2</iTier>
 			<PrereqBuildingClass>NONE</PrereqBuildingClass>
@@ -932,6 +933,7 @@
 			<iLeaderExperience>0</iLeaderExperience>
 			<bFreeXP>1</bFreeXP>
 			<iCombatDefense>3</iCombatDefense>
+			<bNeverObsolete>1</bNeverObsolete>
 			<iFreePromotionPick>1</iFreePromotionPick>
 			<iTier>2</iTier>
 			<PrereqBuildingClass>NONE</PrereqBuildingClass>
@@ -1177,6 +1179,7 @@
 			<iLeaderExperience>0</iLeaderExperience>
 			<bFreeXP>1</bFreeXP>
 			<iCombatDefense>3</iCombatDefense>
+			<bNeverObsolete>1</bNeverObsolete>
 			<iFreePromotionPick>1</iFreePromotionPick>
 			<iTier>2</iTier>
 			<PrereqBuildingClass>NONE</PrereqBuildingClass>
@@ -1391,6 +1394,7 @@
 			<LeaderPromotion>NONE</LeaderPromotion>
 			<iLeaderExperience>0</iLeaderExperience>
 			<iCombatDefense>15</iCombatDefense>
+			<bNeverObsolete>1</bNeverObsolete>
 			<iMinLevel>0</iMinLevel>
 			<iTier>3</iTier>
 		</UnitInfo>
@@ -1844,6 +1848,7 @@
 			<LeaderPromotion>NONE</LeaderPromotion>
 			<iLeaderExperience>0</iLeaderExperience>
 			<iCombatDefense>5</iCombatDefense>
+			<bNeverObsolete>1</bNeverObsolete>
 			<iMinLevel>0</iMinLevel>
 			<iTier>4</iTier>
 			<PrereqBuildingClass>NONE</PrereqBuildingClass>
@@ -2064,6 +2069,7 @@
 			<bAIblockPatrol>1</bAIblockPatrol>
 			<bAIblockPermDefense>1</bAIblockPermDefense>
 			<iCombatDefense>6</iCombatDefense>
+			<bNeverObsolete>1</bNeverObsolete>
 			<iTier>4</iTier>
 		</UnitInfo>
 		<UnitInfo>
@@ -2278,6 +2284,7 @@
 			<LeaderPromotion>NONE</LeaderPromotion>
 			<iLeaderExperience>0</iLeaderExperience>
 			<iCombatDefense>9</iCombatDefense>
+			<bNeverObsolete>1</bNeverObsolete>
 			<iTier>4</iTier>
 		</UnitInfo>
 		<UnitInfo>
@@ -2490,6 +2497,7 @@
 			<bAIblockPatrol>1</bAIblockPatrol>
 			<bAIblockPermDefense>1</bAIblockPermDefense>
 			<iCombatDefense>4</iCombatDefense>
+			<bNeverObsolete>1</bNeverObsolete>
 			<iTier>2</iTier>
 		</UnitInfo>
 		<UnitInfo>
@@ -2710,6 +2718,7 @@
 			<bAIblockPatrol>1</bAIblockPatrol>
 			<bAIblockPermDefense>1</bAIblockPermDefense>
 			<iCombatDefense>3</iCombatDefense>
+			<bNeverObsolete>1</bNeverObsolete>
 			<iTier>2</iTier>
 		</UnitInfo>
 		<UnitInfo>
@@ -2754,7 +2763,8 @@
 			<bCanMoveImpassable>0</bCanMoveImpassable>
 			<bCanMoveAllTerrain>0</bCanMoveAllTerrain>
 			<bFlatMovementCost>0</bFlatMovementCost>
-			<bIgnoreTerrainCost>1</bIgnoreTerrainCost>
+			<bIgnoreTerrainCost>0</bIgnoreTerrainCost>
+			<bNeverObsolete>1</bNeverObsolete>
 			<bNukeImmune>0</bNukeImmune>
 			<bPrereqBonuses>0</bPrereqBonuses>
 			<bPrereqReligion>0</bPrereqReligion>
@@ -3579,6 +3589,7 @@
 			<LeaderPromotion>NONE</LeaderPromotion>
 			<iLeaderExperience>0</iLeaderExperience>
 			<iCombatDefense>10</iCombatDefense>
+			<bNeverObsolete>1</bNeverObsolete>
 			<iTier>4</iTier>
 			<iWeaponTier>3</iWeaponTier>
 		</UnitInfo>
@@ -3625,6 +3636,7 @@
 			<bCanMoveAllTerrain>0</bCanMoveAllTerrain>
 			<bFlatMovementCost>0</bFlatMovementCost>
 			<bIgnoreTerrainCost>0</bIgnoreTerrainCost>
+			<bNeverObsolete>1</bNeverObsolete>
 			<bNukeImmune>0</bNukeImmune>
 			<bPrereqBonuses>0</bPrereqBonuses>
 			<bPrereqReligion>0</bPrereqReligion>
@@ -4239,6 +4251,7 @@
 			<LeaderPromotion>NONE</LeaderPromotion>
 			<iLeaderExperience>0</iLeaderExperience>
 			<iCombatDefense>8</iCombatDefense>
+			<bNeverObsolete>1</bNeverObsolete>
 			<iTier>4</iTier>
 			<iWeaponTier>3</iWeaponTier>
 		</UnitInfo>
@@ -4285,6 +4298,7 @@
 			<bCanMoveAllTerrain>0</bCanMoveAllTerrain>
 			<bFlatMovementCost>0</bFlatMovementCost>
 			<bIgnoreTerrainCost>0</bIgnoreTerrainCost>
+			<bNeverObsolete>1</bNeverObsolete>
 			<bNukeImmune>0</bNukeImmune>
 			<bPrereqBonuses>0</bPrereqBonuses>
 			<bPrereqReligion>0</bPrereqReligion>
@@ -4730,6 +4744,7 @@
 			<bCanMoveAllTerrain>0</bCanMoveAllTerrain>
 			<bFlatMovementCost>0</bFlatMovementCost>
 			<bIgnoreTerrainCost>0</bIgnoreTerrainCost>
+			<bNeverObsolete>1</bNeverObsolete>
 			<bNukeImmune>0</bNukeImmune>
 			<bPrereqBonuses>0</bPrereqBonuses>
 			<bPrereqReligion>0</bPrereqReligion>
@@ -4958,6 +4973,7 @@
 			<bCanMoveAllTerrain>0</bCanMoveAllTerrain>
 			<bFlatMovementCost>0</bFlatMovementCost>
 			<bIgnoreTerrainCost>0</bIgnoreTerrainCost>
+			<bNeverObsolete>1</bNeverObsolete>
 			<bNukeImmune>0</bNukeImmune>
 			<bPrereqBonuses>0</bPrereqBonuses>
 			<bPrereqReligion>0</bPrereqReligion>
@@ -5351,6 +5367,7 @@
 			<bAIblockPatrol>1</bAIblockPatrol>
 			<bAIblockPermDefense>1</bAIblockPermDefense>
 			<iCombatDefense>1</iCombatDefense>
+			<bNeverObsolete>1</bNeverObsolete>
 			<iTier>2</iTier>
 		</UnitInfo>
 		<UnitInfo>
@@ -5396,6 +5413,7 @@
 			<bCanMoveAllTerrain>0</bCanMoveAllTerrain>
 			<bFlatMovementCost>0</bFlatMovementCost>
 			<bIgnoreTerrainCost>1</bIgnoreTerrainCost>
+			<bNeverObsolete>1</bNeverObsolete>
 			<bNukeImmune>0</bNukeImmune>
 			<bPrereqBonuses>0</bPrereqBonuses>
 			<bPrereqReligion>0</bPrereqReligion>
@@ -5620,6 +5638,7 @@
 			<bCanMoveAllTerrain>0</bCanMoveAllTerrain>
 			<bFlatMovementCost>0</bFlatMovementCost>
 			<bIgnoreTerrainCost>0</bIgnoreTerrainCost>
+			<bNeverObsolete>1</bNeverObsolete>
 			<bNukeImmune>0</bNukeImmune>
 			<bPrereqBonuses>0</bPrereqBonuses>
 			<bPrereqReligion>0</bPrereqReligion>
@@ -5843,6 +5862,7 @@
 			<bCanMoveAllTerrain>0</bCanMoveAllTerrain>
 			<bFlatMovementCost>0</bFlatMovementCost>
 			<bIgnoreTerrainCost>0</bIgnoreTerrainCost>
+			<bNeverObsolete>1</bNeverObsolete>
 			<bNukeImmune>0</bNukeImmune>
 			<bPrereqBonuses>0</bPrereqBonuses>
 			<bPrereqReligion>0</bPrereqReligion>
@@ -6075,6 +6095,7 @@
 			<bCanMoveAllTerrain>0</bCanMoveAllTerrain>
 			<bFlatMovementCost>0</bFlatMovementCost>
 			<bIgnoreTerrainCost>0</bIgnoreTerrainCost>
+			<bNeverObsolete>1</bNeverObsolete>
 			<bNukeImmune>0</bNukeImmune>
 			<bPrereqBonuses>0</bPrereqBonuses>
 			<bPrereqReligion>0</bPrereqReligion>
@@ -6483,6 +6504,7 @@
 			<LeaderPromotion>NONE</LeaderPromotion>
 			<iLeaderExperience>0</iLeaderExperience>
 			<iCombatDefense>4</iCombatDefense>
+			<bNeverObsolete>1</bNeverObsolete>
 			<iTier>2</iTier>
 			<PrereqBuildingClass>NONE</PrereqBuildingClass>
 		</UnitInfo>
@@ -6701,6 +6723,7 @@
             </FreePromotions>
 			<LeaderPromotion>NONE</LeaderPromotion>
 			<iLeaderExperience>0</iLeaderExperience>
+			<bNeverObsolete>1</bNeverObsolete>
 			<iCombatDefense>5</iCombatDefense>
 			<iTier>2</iTier>
 			<PrereqBuildingClass>NONE</PrereqBuildingClass>
@@ -8330,6 +8353,7 @@
 			<LeaderPromotion>NONE</LeaderPromotion>
 			<iLeaderExperience>0</iLeaderExperience>
 			<iCombatDefense>7</iCombatDefense>
+			<bNeverObsolete>1</bNeverObsolete>
 			<iMinLevel>0</iMinLevel>
 			<iTier>3</iTier>
 		</UnitInfo>
