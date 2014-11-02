@@ -16,7 +16,7 @@
             <iAIWeight>0</iAIWeight>
             <iAITradeModifier>0</iAITradeModifier>
             <iCost>1</iCost>
-            <iAdvancedStartCost>1</iAdvancedStartCost>
+            <iAdvancedStartCost>100</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
             <Era>ERA_ANCIENT</Era>
             <FirstFreeUnitClass>NONE</FirstFreeUnitClass>
@@ -88,7 +88,7 @@
             <iAIWeight>0</iAIWeight>
             <iAITradeModifier>0</iAITradeModifier>
             <iCost>180</iCost>
-            <iAdvancedStartCost>180</iAdvancedStartCost>
+            <iAdvancedStartCost>100</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
             <Era>ERA_ANCIENT</Era>
             <FirstFreeUnitClass>NONE</FirstFreeUnitClass>
@@ -161,7 +161,7 @@
             <iAIWeight>0</iAIWeight>
             <iAITradeModifier>0</iAITradeModifier>
             <iCost>540</iCost>
-            <iAdvancedStartCost>540</iAdvancedStartCost>
+            <iAdvancedStartCost>100</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
             <Era>ERA_ANCIENT</Era>
             <FirstFreeUnitClass>NONE</FirstFreeUnitClass>
@@ -234,7 +234,7 @@
             <iAIWeight>0</iAIWeight>
             <iAITradeModifier>0</iAITradeModifier>
             <iCost>1620</iCost>
-            <iAdvancedStartCost>1620</iAdvancedStartCost>
+            <iAdvancedStartCost>100</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
             <Era>ERA_ANCIENT</Era>
             <FirstFreeUnitClass>NONE</FirstFreeUnitClass>
@@ -307,7 +307,7 @@
             <iAIWeight>0</iAIWeight>
             <iAITradeModifier>0</iAITradeModifier>
             <iCost>120</iCost>
-            <iAdvancedStartCost>120</iAdvancedStartCost>
+            <iAdvancedStartCost>100</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
             <Era>ERA_ANCIENT</Era>
             <FirstFreeUnitClass>NONE</FirstFreeUnitClass>
@@ -380,7 +380,7 @@
             <iAIWeight>0</iAIWeight>
             <iAITradeModifier>0</iAITradeModifier>
             <iCost>360</iCost>
-            <iAdvancedStartCost>360</iAdvancedStartCost>
+            <iAdvancedStartCost>100</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
             <Era>ERA_ANCIENT</Era>
             <FirstFreeUnitClass>NONE</FirstFreeUnitClass>
@@ -453,7 +453,7 @@
             <iAIWeight>0</iAIWeight>
             <iAITradeModifier>0</iAITradeModifier>
             <iCost>1080</iCost>
-            <iAdvancedStartCost>1080</iAdvancedStartCost>
+            <iAdvancedStartCost>100</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
             <Era>ERA_ANCIENT</Era>
             <FirstFreeUnitClass>NONE</FirstFreeUnitClass>
@@ -526,7 +526,7 @@
             <iAIWeight>0</iAIWeight>
             <iAITradeModifier>0</iAITradeModifier>
             <iCost>120</iCost>
-            <iAdvancedStartCost>120</iAdvancedStartCost>
+            <iAdvancedStartCost>100</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
             <Era>ERA_ANCIENT</Era>
             <FirstFreeUnitClass>NONE</FirstFreeUnitClass>
@@ -599,7 +599,7 @@
             <iAIWeight>0</iAIWeight>
             <iAITradeModifier>0</iAITradeModifier>
             <iCost>240</iCost>
-            <iAdvancedStartCost>240</iAdvancedStartCost>
+            <iAdvancedStartCost>100</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
             <Era>ERA_ANCIENT</Era>
             <FirstFreeUnitClass>NONE</FirstFreeUnitClass>
@@ -680,7 +680,7 @@
             <iAIWeight>0</iAIWeight>
             <iAITradeModifier>0</iAITradeModifier>
             <iCost>120</iCost>
-            <iAdvancedStartCost>120</iAdvancedStartCost>
+            <iAdvancedStartCost>100</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
             <Era>ERA_ANCIENT</Era>
             <FirstFreeUnitClass>NONE</FirstFreeUnitClass>
@@ -753,7 +753,7 @@
             <iAIWeight>0</iAIWeight>
             <iAITradeModifier>0</iAITradeModifier>
             <iCost>360</iCost>
-            <iAdvancedStartCost>360</iAdvancedStartCost>
+            <iAdvancedStartCost>100</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
             <Era>ERA_ANCIENT</Era>
             <FirstFreeUnitClass>NONE</FirstFreeUnitClass>
@@ -826,7 +826,7 @@
             <iAIWeight>0</iAIWeight>
             <iAITradeModifier>0</iAITradeModifier>
             <iCost>1080</iCost>
-            <iAdvancedStartCost>1080</iAdvancedStartCost>
+            <iAdvancedStartCost>100</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
             <Era>ERA_ANCIENT</Era>
             <FirstFreeUnitClass>NONE</FirstFreeUnitClass>
@@ -899,7 +899,7 @@
             <iAIWeight>0</iAIWeight>
             <iAITradeModifier>0</iAITradeModifier>
             <iCost>120</iCost>
-            <iAdvancedStartCost>120</iAdvancedStartCost>
+            <iAdvancedStartCost>100</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
             <Era>ERA_ANCIENT</Era>
             <FirstFreeUnitClass>NONE</FirstFreeUnitClass>
@@ -972,7 +972,7 @@
             <iAIWeight>0</iAIWeight>
             <iAITradeModifier>0</iAITradeModifier>
             <iCost>360</iCost>
-            <iAdvancedStartCost>360</iAdvancedStartCost>
+            <iAdvancedStartCost>100</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
             <Era>ERA_ANCIENT</Era>
             <FirstFreeUnitClass>NONE</FirstFreeUnitClass>
@@ -1045,7 +1045,7 @@
             <iAIWeight>0</iAIWeight>
             <iAITradeModifier>0</iAITradeModifier>
             <iCost>1080</iCost>
-            <iAdvancedStartCost>1080</iAdvancedStartCost>
+            <iAdvancedStartCost>100</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
             <Era>ERA_ANCIENT</Era>
             <FirstFreeUnitClass>NONE</FirstFreeUnitClass>
@@ -1118,7 +1118,7 @@
             <iAIWeight>0</iAIWeight>
             <iAITradeModifier>0</iAITradeModifier>
             <iCost>1</iCost>
-            <iAdvancedStartCost>1</iAdvancedStartCost>
+            <iAdvancedStartCost>100</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
             <Era>ERA_ANCIENT</Era>
             <FirstFreeUnitClass>NONE</FirstFreeUnitClass>
@@ -1190,7 +1190,7 @@
             <iAIWeight>0</iAIWeight>
             <iAITradeModifier>0</iAITradeModifier>
             <iCost>120</iCost>
-            <iAdvancedStartCost>120</iAdvancedStartCost>
+            <iAdvancedStartCost>100</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
             <Era>ERA_ANCIENT</Era>
             <FirstFreeUnitClass>NONE</FirstFreeUnitClass>
@@ -1263,7 +1263,7 @@
             <iAIWeight>0</iAIWeight>
             <iAITradeModifier>0</iAITradeModifier>
             <iCost>360</iCost>
-            <iAdvancedStartCost>360</iAdvancedStartCost>
+            <iAdvancedStartCost>100</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
             <Era>ERA_ANCIENT</Era>
             <FirstFreeUnitClass>NONE</FirstFreeUnitClass>
@@ -1336,7 +1336,7 @@
             <iAIWeight>0</iAIWeight>
             <iAITradeModifier>0</iAITradeModifier>
             <iCost>1080</iCost>
-            <iAdvancedStartCost>1080</iAdvancedStartCost>
+            <iAdvancedStartCost>100</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
             <Era>ERA_ANCIENT</Era>
             <FirstFreeUnitClass>NONE</FirstFreeUnitClass>
@@ -1409,7 +1409,7 @@
             <iAIWeight>0</iAIWeight>
             <iAITradeModifier>0</iAITradeModifier>
             <iCost>120</iCost>
-            <iAdvancedStartCost>120</iAdvancedStartCost>
+            <iAdvancedStartCost>100</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
             <Era>ERA_ANCIENT</Era>
             <FirstFreeUnitClass>NONE</FirstFreeUnitClass>
@@ -1482,7 +1482,7 @@
             <iAIWeight>0</iAIWeight>
             <iAITradeModifier>0</iAITradeModifier>
             <iCost>360</iCost>
-            <iAdvancedStartCost>360</iAdvancedStartCost>
+            <iAdvancedStartCost>100</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
             <Era>ERA_ANCIENT</Era>
             <FirstFreeUnitClass>NONE</FirstFreeUnitClass>
@@ -1555,7 +1555,7 @@
             <iAIWeight>0</iAIWeight>
             <iAITradeModifier>0</iAITradeModifier>
             <iCost>1080</iCost>
-            <iAdvancedStartCost>1080</iAdvancedStartCost>
+            <iAdvancedStartCost>100</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
             <Era>ERA_ANCIENT</Era>
             <FirstFreeUnitClass>NONE</FirstFreeUnitClass>
@@ -1628,7 +1628,7 @@
             <iAIWeight>0</iAIWeight>
             <iAITradeModifier>0</iAITradeModifier>
             <iCost>120</iCost>
-            <iAdvancedStartCost>120</iAdvancedStartCost>
+            <iAdvancedStartCost>100</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
             <Era>ERA_ANCIENT</Era>
             <FirstFreeUnitClass>NONE</FirstFreeUnitClass>
@@ -1701,7 +1701,7 @@
             <iAIWeight>0</iAIWeight>
             <iAITradeModifier>0</iAITradeModifier>
             <iCost>360</iCost>
-            <iAdvancedStartCost>360</iAdvancedStartCost>
+            <iAdvancedStartCost>100</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
             <Era>ERA_ANCIENT</Era>
             <FirstFreeUnitClass>NONE</FirstFreeUnitClass>
@@ -1774,7 +1774,7 @@
             <iAIWeight>0</iAIWeight>
             <iAITradeModifier>0</iAITradeModifier>
             <iCost>1080</iCost>
-            <iAdvancedStartCost>1080</iAdvancedStartCost>
+            <iAdvancedStartCost>100</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
             <Era>ERA_ANCIENT</Era>
             <FirstFreeUnitClass>NONE</FirstFreeUnitClass>
@@ -1847,7 +1847,7 @@
             <iAIWeight>0</iAIWeight>
             <iAITradeModifier>0</iAITradeModifier>
             <iCost>120</iCost>
-            <iAdvancedStartCost>120</iAdvancedStartCost>
+            <iAdvancedStartCost>100</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
             <Era>ERA_ANCIENT</Era>
             <FirstFreeUnitClass>NONE</FirstFreeUnitClass>
@@ -1920,7 +1920,7 @@
             <iAIWeight>0</iAIWeight>
             <iAITradeModifier>0</iAITradeModifier>
             <iCost>360</iCost>
-            <iAdvancedStartCost>360</iAdvancedStartCost>
+            <iAdvancedStartCost>100</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
             <Era>ERA_ANCIENT</Era>
             <FirstFreeUnitClass>NONE</FirstFreeUnitClass>
@@ -1993,7 +1993,7 @@
             <iAIWeight>0</iAIWeight>
             <iAITradeModifier>0</iAITradeModifier>
             <iCost>1080</iCost>
-            <iAdvancedStartCost>1080</iAdvancedStartCost>
+            <iAdvancedStartCost>100</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
             <Era>ERA_ANCIENT</Era>
             <FirstFreeUnitClass>NONE</FirstFreeUnitClass>
@@ -2066,7 +2066,7 @@
             <iAIWeight>0</iAIWeight>
             <iAITradeModifier>0</iAITradeModifier>
             <iCost>120</iCost>
-            <iAdvancedStartCost>120</iAdvancedStartCost>
+            <iAdvancedStartCost>100</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
             <Era>ERA_ANCIENT</Era>
             <FirstFreeUnitClass>NONE</FirstFreeUnitClass>
@@ -2139,7 +2139,7 @@
             <iAIWeight>0</iAIWeight>
             <iAITradeModifier>0</iAITradeModifier>
             <iCost>360</iCost>
-            <iAdvancedStartCost>360</iAdvancedStartCost>
+            <iAdvancedStartCost>100</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
             <Era>ERA_ANCIENT</Era>
             <FirstFreeUnitClass>NONE</FirstFreeUnitClass>
@@ -2212,7 +2212,7 @@
             <iAIWeight>0</iAIWeight>
             <iAITradeModifier>0</iAITradeModifier>
             <iCost>1080</iCost>
-            <iAdvancedStartCost>1080</iAdvancedStartCost>
+            <iAdvancedStartCost>100</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
             <Era>ERA_ANCIENT</Era>
             <FirstFreeUnitClass>NONE</FirstFreeUnitClass>
