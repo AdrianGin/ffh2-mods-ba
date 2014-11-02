@@ -254,7 +254,7 @@
 			<Type>BUILD_FISHING_BOATS</Type>
 			<Description>TXT_KEY_BUILD_FISHING_BOATS</Description>
 			<Help/>
-			<PrereqTech>TECH_FISH1</PrereqTech>
+			<PrereqTech>TECH_FOOD1</PrereqTech>
 			<iTime>0</iTime>
 			<iCost>0</iCost>
 			<bKill>1</bKill>
@@ -273,7 +273,7 @@
 			<Type>BUILD_WHALING_BOATS</Type>
 			<Description>TXT_KEY_BUILD_WHALING_BOATS</Description>
 			<Help/>
-			<PrereqTech>TECH_FISH2</PrereqTech>
+			<PrereqTech>TECH_FOOD2</PrereqTech>
 			<iTime>0</iTime>
 			<iCost>0</iCost>
 			<bKill>1</bKill>

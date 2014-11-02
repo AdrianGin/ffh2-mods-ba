@@ -1126,7 +1126,7 @@
 			<ImprovementUpgrade/>
 			<TechYieldChanges>
 				<TechYieldChange>
-					<PrereqTech>TECH_FISH2</PrereqTech>
+					<PrereqTech>TECH_FOOD2</PrereqTech>
 					<TechYields>
 						<iYield>1</iYield>
 						<iYield>0</iYield>
