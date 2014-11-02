@@ -112,11 +112,11 @@
 			<iTilesPerGoody>0</iTilesPerGoody>
 			<iGoodyRange>0</iGoodyRange>
 			<iFeatureGrowth>0</iFeatureGrowth>
-			<iUpgradeTime>20</iUpgradeTime>
+			<iUpgradeTime>0</iUpgradeTime>
 			<iAirBombDefense>0</iAirBombDefense>
 			<iDefenseModifier>10</iDefenseModifier>
 			<iHappiness>0</iHappiness>
-			<iPillageGold>5</iPillageGold>
+			<iPillageGold>10</iPillageGold>
 			<!-- VKs Plot Capacity-->
 			<iUnitPlotSupport>20</iUnitPlotSupport>
 			<bOutsideBorders>1</bOutsideBorders>
@@ -145,7 +145,7 @@
 			<FeatureMakesValids>
             </FeatureMakesValids>
 			<ImprovementPillage/>
-			<ImprovementUpgrade>IMPROVEMENT_CASTLE</ImprovementUpgrade>
+			<ImprovementUpgrade>NONE</ImprovementUpgrade>
 			<TechYieldChanges>
             </TechYieldChanges>
 			<RouteYieldChanges>
@@ -155,8 +155,8 @@
 			<bUnique>0</bUnique>
 			<iAppearanceProbability>0</iAppearanceProbability>
 			<iHealRateChange>0</iHealRateChange>
-			<iRange>1</iRange>
-			<iRangeDefenseModifier>5</iRangeDefenseModifier>
+			<iRange>0</iRange>
+			<iRangeDefenseModifier>0</iRangeDefenseModifier>
 			<iVisibilityChange>0</iVisibilityChange>
 			<BonusConvert>NONE</BonusConvert>
 			<FeatureUpgrade>NONE</FeatureUpgrade>
@@ -190,11 +190,11 @@
 			<iTilesPerGoody>0</iTilesPerGoody>
 			<iGoodyRange>0</iGoodyRange>
 			<iFeatureGrowth>0</iFeatureGrowth>
-			<iUpgradeTime>40</iUpgradeTime>
+			<iUpgradeTime>0</iUpgradeTime>
 			<iAirBombDefense>0</iAirBombDefense>
-			<iDefenseModifier>25</iDefenseModifier>
+			<iDefenseModifier>20</iDefenseModifier>
 			<iHappiness>0</iHappiness>
-			<iPillageGold>10</iPillageGold>
+			<iPillageGold>20</iPillageGold>
 			<!-- VKs Plot Capacity-->
 			<iUnitPlotSupport>40</iUnitPlotSupport>
 			<bOutsideBorders>1</bOutsideBorders>
@@ -222,8 +222,8 @@
 			</TerrainMakesValids>
 			<FeatureMakesValids>
             </FeatureMakesValids>
-			<ImprovementPillage>IMPROVEMENT_FORT</ImprovementPillage>
-			<ImprovementUpgrade>IMPROVEMENT_CITADEL</ImprovementUpgrade>
+			<ImprovementPillage/>
+			<ImprovementUpgrade>NONE</ImprovementUpgrade>
 			<TechYieldChanges>
             </TechYieldChanges>
 			<RouteYieldChanges>
@@ -233,8 +233,8 @@
 			<bUnique>0</bUnique>
 			<iAppearanceProbability>0</iAppearanceProbability>
 			<iHealRateChange>10</iHealRateChange>
-			<iRange>2</iRange>
-			<iRangeDefenseModifier>10</iRangeDefenseModifier>
+			<iRange>1</iRange>
+			<iRangeDefenseModifier>5</iRangeDefenseModifier>
 			<iVisibilityChange>0</iVisibilityChange>
 			<BonusConvert>NONE</BonusConvert>
 			<FeatureUpgrade>NONE</FeatureUpgrade>
@@ -270,9 +270,9 @@
 			<iFeatureGrowth>0</iFeatureGrowth>
 			<iUpgradeTime>0</iUpgradeTime>
 			<iAirBombDefense>0</iAirBombDefense>
-			<iDefenseModifier>40</iDefenseModifier>
+			<iDefenseModifier>30</iDefenseModifier>
 			<iHappiness>0</iHappiness>
-			<iPillageGold>15</iPillageGold>
+			<iPillageGold>40</iPillageGold>
 			<!-- VKs Plot Capacity-->
 			<iUnitPlotSupport>60</iUnitPlotSupport>
 			<bOutsideBorders>1</bOutsideBorders>
@@ -300,8 +300,8 @@
 			</TerrainMakesValids>
 			<FeatureMakesValids>
             </FeatureMakesValids>
-			<ImprovementPillage>IMPROVEMENT_CASTLE</ImprovementPillage>
-			<ImprovementUpgrade/>
+			<ImprovementPillage/>
+			<ImprovementUpgrade>NONE</ImprovementUpgrade>
 			<TechYieldChanges>
             </TechYieldChanges>
 			<RouteYieldChanges>
@@ -310,9 +310,9 @@
 			<bRequiresPeak>0</bRequiresPeak>
 			<bUnique>0</bUnique>
 			<iAppearanceProbability>0</iAppearanceProbability>
-			<iHealRateChange>20</iHealRateChange>
-			<iRange>3</iRange>
-			<iRangeDefenseModifier>15</iRangeDefenseModifier>
+			<iHealRateChange>15</iHealRateChange>
+			<iRange>2</iRange>
+			<iRangeDefenseModifier>10</iRangeDefenseModifier>
 			<iVisibilityChange>1</iVisibilityChange>
 			<BonusConvert>NONE</BonusConvert>
 			<FeatureUpgrade>NONE</FeatureUpgrade>
