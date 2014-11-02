@@ -3475,12 +3475,16 @@ bool CvUnit::canMoveInto(const CvPlot* pPlot, bool bAttack, bool bDeclareWar, bo
 		{
 			//Do a check that the plot has a valid defender.
 			CvUnit* pDefender = pPlot->getBestDefender(NO_PLAYER, getOwnerINLINE(), this, true);
-			if (!pDefender->canDefend() )
+
+			if( pDefender != NULL )
 			{
-			}
-			else
-			{
-				return false;
+				if (!pDefender->canDefend() )
+				{
+				}
+				else
+				{
+					return false;
+				}
 			}
 		}
 	}
