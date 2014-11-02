@@ -10,7 +10,10 @@
 		<DefineName>MODS_SHOULD_OVERRIDE_GLOBAL_DEFINES_HERE</DefineName>
 		<iDefineIntVal>0</iDefineIntVal>
 	</Define>
-	
+	<Define>
+		<DefineName>RECON_VISIBILITY_RANGE</DefineName>
+		<iDefineIntVal>2</iDefineIntVal>
+	</Define>
 	<Define>
 		<DefineName>HILLS_EXTRA_DEFENSE</DefineName>
 		<iDefineIntVal>20</iDefineIntVal>
