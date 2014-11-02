@@ -4281,7 +4281,7 @@
             <FreeStartEra>NONE</FreeStartEra>
             <MaxStartEra>NONE</MaxStartEra>
             <ObsoleteTech>NONE</ObsoleteTech>
-            <PrereqTech>TECH_FEUDAL_AGE</PrereqTech>
+            <PrereqTech>TECH_ARCHERY1</PrereqTech>
             <TechTypes>
             </TechTypes>
             <Bonus>NONE</Bonus>
@@ -4501,7 +4501,7 @@
             <FreeStartEra>NONE</FreeStartEra>
             <MaxStartEra>NONE</MaxStartEra>
             <ObsoleteTech>NONE</ObsoleteTech>
-            <PrereqTech>TECH_CASTLE_AGE</PrereqTech>
+            <PrereqTech>TECH_ARCHERY2</PrereqTech>
             <TechTypes>
             </TechTypes>
             <Bonus>NONE</Bonus>
