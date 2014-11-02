@@ -75,7 +75,7 @@
             <iAIWeight>0</iAIWeight>
             <iCost>120</iCost>
             <iHurryCostModifier>0</iHurryCostModifier>
-            <iAdvancedStartCost>120</iAdvancedStartCost>
+            <iAdvancedStartCost>100</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
             <iMinAreaSize>-1</iMinAreaSize>
             <iConquestProb>25</iConquestProb>
@@ -305,7 +305,7 @@
             <iAIWeight>0</iAIWeight>
             <iCost>120</iCost>
             <iHurryCostModifier>0</iHurryCostModifier>
-            <iAdvancedStartCost>120</iAdvancedStartCost>
+            <iAdvancedStartCost>100</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
             <iMinAreaSize>-1</iMinAreaSize>
             <iConquestProb>25</iConquestProb>
@@ -534,9 +534,9 @@
             <bPrereqReligion>0</bPrereqReligion>
             <bCenterInCity>0</bCenterInCity>
             <iAIWeight>0</iAIWeight>
-            <iCost>320</iCost>
+            <iCost>200</iCost>
             <iHurryCostModifier>0</iHurryCostModifier>
-            <iAdvancedStartCost>320</iAdvancedStartCost>
+            <iAdvancedStartCost>100</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
             <iMinAreaSize>-1</iMinAreaSize>
             <iConquestProb>25</iConquestProb>
@@ -758,7 +758,7 @@
             <iAIWeight>0</iAIWeight>
             <iCost>150</iCost>
             <iHurryCostModifier>0</iHurryCostModifier>
-            <iAdvancedStartCost>150</iAdvancedStartCost>
+            <iAdvancedStartCost>100</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
             <iMinAreaSize>-1</iMinAreaSize>
             <iConquestProb>25</iConquestProb>
@@ -988,9 +988,9 @@
             <bPrereqReligion>0</bPrereqReligion>
             <bCenterInCity>1</bCenterInCity>
             <iAIWeight>0</iAIWeight>
-            <iCost>90</iCost>
+            <iCost>60</iCost>
             <iHurryCostModifier>0</iHurryCostModifier>
-            <iAdvancedStartCost>90</iAdvancedStartCost>
+            <iAdvancedStartCost>100</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
             <iMinAreaSize>-1</iMinAreaSize>
             <iConquestProb>25</iConquestProb>
@@ -1209,7 +1209,7 @@
             <iAIWeight>0</iAIWeight>
             <iCost>80</iCost>
             <iHurryCostModifier>0</iHurryCostModifier>
-            <iAdvancedStartCost>80</iAdvancedStartCost>
+            <iAdvancedStartCost>100</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
             <iMinAreaSize>-1</iMinAreaSize>
             <iConquestProb>25</iConquestProb>
@@ -1429,9 +1429,9 @@
             <bPrereqReligion>0</bPrereqReligion>
             <bCenterInCity>0</bCenterInCity>
             <iAIWeight>0</iAIWeight>
-            <iCost>120</iCost>
+            <iCost>90</iCost>
             <iHurryCostModifier>0</iHurryCostModifier>
-            <iAdvancedStartCost>120</iAdvancedStartCost>
+            <iAdvancedStartCost>100</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
             <iMinAreaSize>-1</iMinAreaSize>
             <iConquestProb>25</iConquestProb>
@@ -1648,9 +1648,9 @@
             <bPrereqReligion>0</bPrereqReligion>
             <bCenterInCity>0</bCenterInCity>
             <iAIWeight>0</iAIWeight>
-            <iCost>180</iCost>
+            <iCost>110</iCost>
             <iHurryCostModifier>0</iHurryCostModifier>
-            <iAdvancedStartCost>180</iAdvancedStartCost>
+            <iAdvancedStartCost>100</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
             <iMinAreaSize>-1</iMinAreaSize>
             <iConquestProb>25</iConquestProb>
@@ -1872,7 +1872,7 @@
             <iAIWeight>0</iAIWeight>
             <iCost>150</iCost>
             <iHurryCostModifier>0</iHurryCostModifier>
-            <iAdvancedStartCost>150</iAdvancedStartCost>
+            <iAdvancedStartCost>100</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
             <iMinAreaSize>-1</iMinAreaSize>
             <iConquestProb>25</iConquestProb>
@@ -2098,9 +2098,9 @@
             <bPrereqReligion>0</bPrereqReligion>
             <bCenterInCity>1</bCenterInCity>
             <iAIWeight>0</iAIWeight>
-            <iCost>240</iCost>
+            <iCost>165</iCost>
             <iHurryCostModifier>0</iHurryCostModifier>
-            <iAdvancedStartCost>240</iAdvancedStartCost>
+            <iAdvancedStartCost>100</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
             <iMinAreaSize>-1</iMinAreaSize>
             <iConquestProb>25</iConquestProb>
@@ -3434,7 +3434,7 @@
             <iAIWeight>0</iAIWeight>
             <iCost>60</iCost>
             <iHurryCostModifier>0</iHurryCostModifier>
-            <iAdvancedStartCost>60</iAdvancedStartCost>
+            <iAdvancedStartCost>100</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
             <iMinAreaSize>-1</iMinAreaSize>
             <iConquestProb>25</iConquestProb>
@@ -3660,9 +3660,9 @@
             <bPrereqReligion>0</bPrereqReligion>
             <bCenterInCity>1</bCenterInCity>
             <iAIWeight>0</iAIWeight>
-            <iCost>320</iCost>
+            <iCost>300</iCost>
             <iHurryCostModifier>0</iHurryCostModifier>
-            <iAdvancedStartCost>320</iAdvancedStartCost>
+            <iAdvancedStartCost>100</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
             <iMinAreaSize>-1</iMinAreaSize>
             <iConquestProb>25</iConquestProb>
@@ -3881,7 +3881,7 @@
             <iAIWeight>0</iAIWeight>
             <iCost>150</iCost>
             <iHurryCostModifier>0</iHurryCostModifier>
-            <iAdvancedStartCost>150</iAdvancedStartCost>
+            <iAdvancedStartCost>100</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
             <iMinAreaSize>-1</iMinAreaSize>
             <iConquestProb>25</iConquestProb>
@@ -4101,7 +4101,7 @@
             <iAIWeight>0</iAIWeight>
             <iCost>150</iCost>
             <iHurryCostModifier>0</iHurryCostModifier>
-            <iAdvancedStartCost>150</iAdvancedStartCost>
+            <iAdvancedStartCost>100</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
             <iMinAreaSize>-1</iMinAreaSize>
             <iConquestProb>25</iConquestProb>
@@ -4207,7 +4207,7 @@
                     <iExperience>2</iExperience>
 				</UnitCombatFreeExperience>
 				<UnitCombatFreeExperience>
-					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+					<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
                     <iExperience>2</iExperience>
 				</UnitCombatFreeExperience>
             </UnitCombatFreeExperiences>
@@ -4325,7 +4325,7 @@
             <iAIWeight>0</iAIWeight>
             <iCost>150</iCost>
             <iHurryCostModifier>0</iHurryCostModifier>
-            <iAdvancedStartCost>150</iAdvancedStartCost>
+            <iAdvancedStartCost>100</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
             <iMinAreaSize>-1</iMinAreaSize>
             <iConquestProb>25</iConquestProb>
@@ -4545,7 +4545,7 @@
             <iAIWeight>0</iAIWeight>
             <iCost>210</iCost>
             <iHurryCostModifier>0</iHurryCostModifier>
-            <iAdvancedStartCost>210</iAdvancedStartCost>
+            <iAdvancedStartCost>100</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
             <iMinAreaSize>-1</iMinAreaSize>
             <iConquestProb>25</iConquestProb>
