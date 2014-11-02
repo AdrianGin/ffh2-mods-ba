@@ -6,8 +6,7 @@
 <!-- -->
 <!-- Unit Infos -->
 <Civ4UnitInfos xmlns="x-schema:CIV4UnitSchema.xml">
-	<UnitInfos>
-<!-- NEW -->		
+	<UnitInfos>		
 		<UnitInfo>
 			<Class>UNITCLASS_SETTLER</Class>
 			<Type>UNIT_SETTLER</Type>
