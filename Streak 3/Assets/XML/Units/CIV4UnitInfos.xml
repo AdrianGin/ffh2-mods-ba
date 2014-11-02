@@ -6741,8 +6741,8 @@
 			<Invisible>NONE</Invisible>
 			<SeeInvisible>NONE</SeeInvisible>
 			<Description>TXT_KEY_UNIT_SETTLER</Description>
-			<Civilopedia>TXT_KEY_UNIT_SETTLER_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_UNIT_SETTLER_STRATEGY</Strategy>
+			<Civilopedia></Civilopedia>
+			<Strategy></Strategy>
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<bAnimal>0</bAnimal>
 			<bFood>1</bFood>
@@ -6962,8 +6962,8 @@
 			<Invisible>NONE</Invisible>
 			<SeeInvisible>NONE</SeeInvisible>
 			<Description>TXT_KEY_UNIT_WORKER</Description>
-			<Civilopedia>TXT_KEY_UNIT_WORKER_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_UNIT_WORKER_STRATEGY</Strategy>
+			<Civilopedia></Civilopedia>
+			<Strategy></Strategy>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<bAnimal>0</bAnimal>
 			<bFood>1</bFood>
@@ -7257,7 +7257,7 @@
 			<Invisible>NONE</Invisible>
 			<SeeInvisible>NONE</SeeInvisible>
 			<Description>TXT_KEY_UNIT_GREAT_MERCHANT</Description>
-			<Civilopedia>TXT_KEY_CONCEPT_GREAT_PEOPLE_PEDIA</Civilopedia>
+			<Civilopedia></Civilopedia>
 			<Strategy/>
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<bAnimal>0</bAnimal>
@@ -7477,8 +7477,8 @@
 			<Invisible>NONE</Invisible>
 			<SeeInvisible>NONE</SeeInvisible>
 			<Description>TXT_KEY_UNIT_WORK_BOAT</Description>
-			<Civilopedia>TXT_KEY_UNIT_WORK_BOAT_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_UNIT_WORK_BOAT_STRATEGY</Strategy>
+			<Civilopedia></Civilopedia>
+			<Strategy></Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<bAnimal>0</bAnimal>
 			<bFood>0</bFood>
@@ -7699,8 +7699,8 @@
 			<Invisible>NONE</Invisible>
 			<SeeInvisible>NONE</SeeInvisible>
 			<Description>TXT_KEY_UNIT_RAFT_BOAT</Description>
-			<Civilopedia>TXT_KEY_UNIT_RAFT_BOAT_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_UNIT_WORK_BOAT_STRATEGY</Strategy>
+			<Civilopedia></Civilopedia>
+			<Strategy></Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<bAnimal>0</bAnimal>
 			<bFood>0</bFood>
@@ -7941,7 +7941,7 @@
 			<Invisible>NONE</Invisible>
 			<SeeInvisible>NONE</SeeInvisible>
 			<Description>TXT_KEY_UNIT_GREAT_ENGINEER</Description>
-			<Civilopedia>TXT_KEY_CONCEPT_GREAT_PEOPLE_PEDIA</Civilopedia>
+			<Civilopedia></Civilopedia>
 			<Strategy/>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<bAnimal>0</bAnimal>
@@ -8380,8 +8380,8 @@
 			<Invisible>NONE</Invisible>
 			<SeeInvisible>NONE</SeeInvisible>
 			<Description>TXT_KEY_UNIT_FIREBALL</Description>
-			<Civilopedia>TXT_KEY_UNIT_FIREBALL_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_UNIT_FIREBALL_STRATEGY</Strategy>
+			<Civilopedia></Civilopedia>
+			<Strategy></Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<bAnimal>0</bAnimal>
 			<bFood>0</bFood>

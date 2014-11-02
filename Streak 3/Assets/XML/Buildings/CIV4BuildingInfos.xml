@@ -2258,7 +2258,7 @@
             <Type>BUILDING_PALACE_AIR</Type>
             <SpecialBuildingType>NONE</SpecialBuildingType>
             <Description>Air Palace</Description>
-            <Civilopedia></Civilopedia>
+            <Civilopedia>The palace of the Air Clan.</Civilopedia>
             <Strategy></Strategy>
             <Help></Help>
             <Advisor>ADVISOR_ECONOMY</Advisor>
@@ -2703,7 +2703,7 @@
             <Type>BUILDING_PALACE_EARTH</Type>
             <SpecialBuildingType>NONE</SpecialBuildingType>
             <Description>Earth Palace</Description>
-            <Civilopedia></Civilopedia>
+            <Civilopedia>The palace of the Earth Clan.</Civilopedia>
             <Strategy></Strategy>
             <Help></Help>
             <Advisor>ADVISOR_ECONOMY</Advisor>
@@ -2926,7 +2926,7 @@
             <Type>BUILDING_PALACE_FIRE</Type>
             <SpecialBuildingType>NONE</SpecialBuildingType>
             <Description>Fire Palace</Description>
-            <Civilopedia></Civilopedia>
+            <Civilopedia>The palace of the Fire Clan.</Civilopedia>
             <Strategy></Strategy>
             <Help></Help>
             <Advisor>ADVISOR_ECONOMY</Advisor>
@@ -3149,7 +3149,7 @@
             <Type>BUILDING_PALACE_WATER</Type>
             <SpecialBuildingType>NONE</SpecialBuildingType>
             <Description>Water Palace</Description>
-            <Civilopedia></Civilopedia>
+            <Civilopedia>The palace of the Water Clan.</Civilopedia>
             <Strategy></Strategy>
             <Help></Help>
             <Advisor>ADVISOR_ECONOMY</Advisor>
