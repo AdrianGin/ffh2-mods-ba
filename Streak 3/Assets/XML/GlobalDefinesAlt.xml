@@ -223,7 +223,7 @@
 	</Define>
 	<Define>
 		<DefineName>FLAMES_FEATURE</DefineName>
-		<DefineTextVal>FEATURE_FLAMES</DefineTextVal>
+		<DefineTextVal>NONE</DefineTextVal>
 	</Define>
 	<Define>
 		<DefineName>FLAMES_SPREAD_CHANCE</DefineName>

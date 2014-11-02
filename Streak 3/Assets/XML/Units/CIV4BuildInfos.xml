@@ -33,20 +33,6 @@
 					<iProduction>20</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
-				<FeatureStruct>
-					<FeatureType>FEATURE_FOREST_NEW</FeatureType>
-					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
-					<iTime>0</iTime>
-					<iProduction>0</iProduction>
-					<bRemove>1</bRemove>
-				</FeatureStruct>
-				<FeatureStruct>
-					<FeatureType>FEATURE_FOREST_BURNT</FeatureType>
-					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
-					<iTime>125</iTime>
-					<iProduction>0</iProduction>
-					<bRemove>1</bRemove>
-				</FeatureStruct>
 			</FeatureStructs>
 			<HotKey>KB_P</HotKey>
 			<bAltDown>0</bAltDown>
@@ -79,20 +65,6 @@
 					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
 					<iTime>250</iTime>
 					<iProduction>20</iProduction>
-					<bRemove>1</bRemove>
-				</FeatureStruct>
-				<FeatureStruct>
-					<FeatureType>FEATURE_FOREST_NEW</FeatureType>
-					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
-					<iTime>0</iTime>
-					<iProduction>0</iProduction>
-					<bRemove>1</bRemove>
-				</FeatureStruct>
-				<FeatureStruct>
-					<FeatureType>FEATURE_FOREST_BURNT</FeatureType>
-					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
-					<iTime>125</iTime>
-					<iProduction>0</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
 			</FeatureStructs>
@@ -129,20 +101,6 @@
 					<iProduction>20</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
-				<FeatureStruct>
-					<FeatureType>FEATURE_FOREST_NEW</FeatureType>
-					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
-					<iTime>0</iTime>
-					<iProduction>0</iProduction>
-					<bRemove>1</bRemove>
-				</FeatureStruct>
-				<FeatureStruct>
-					<FeatureType>FEATURE_FOREST_BURNT</FeatureType>
-					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
-					<iTime>125</iTime>
-					<iProduction>0</iProduction>
-					<bRemove>1</bRemove>
-				</FeatureStruct>
 			</FeatureStructs>
 			<HotKey>KB_P</HotKey>
 			<bAltDown>0</bAltDown>
@@ -175,20 +133,6 @@
 					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
 					<iTime>250</iTime>
 					<iProduction>20</iProduction>
-					<bRemove>1</bRemove>
-				</FeatureStruct>
-				<FeatureStruct>
-					<FeatureType>FEATURE_FOREST_NEW</FeatureType>
-					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
-					<iTime>0</iTime>
-					<iProduction>0</iProduction>
-					<bRemove>1</bRemove>
-				</FeatureStruct>
-				<FeatureStruct>
-					<FeatureType>FEATURE_FOREST_BURNT</FeatureType>
-					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
-					<iTime>125</iTime>
-					<iProduction>0</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
 			</FeatureStructs>
@@ -264,13 +208,6 @@
 					<iProduction>20</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
-				<FeatureStruct>
-					<FeatureType>FEATURE_FOREST_BURNT</FeatureType>
-					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
-					<iTime>125</iTime>
-					<iProduction>0</iProduction>
-					<bRemove>1</bRemove>
-				</FeatureStruct>
 			</FeatureStructs>
 			<HotKey>KB_C</HotKey>
 			<bAltDown>1</bAltDown>
@@ -303,20 +240,6 @@
 					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
 					<iTime>250</iTime>
 					<iProduction>20</iProduction>
-					<bRemove>1</bRemove>
-				</FeatureStruct>
-				<FeatureStruct>
-					<FeatureType>FEATURE_FOREST_NEW</FeatureType>
-					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
-					<iTime>0</iTime>
-					<iProduction>0</iProduction>
-					<bRemove>1</bRemove>
-				</FeatureStruct>
-				<FeatureStruct>
-					<FeatureType>FEATURE_FOREST_BURNT</FeatureType>
-					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
-					<iTime>125</iTime>
-					<iProduction>0</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
 			</FeatureStructs>
@@ -391,20 +314,6 @@
 					<iProduction>20</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
-				<FeatureStruct>
-					<FeatureType>FEATURE_FOREST_NEW</FeatureType>
-					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
-					<iTime>0</iTime>
-					<iProduction>0</iProduction>
-					<bRemove>1</bRemove>
-				</FeatureStruct>
-				<FeatureStruct>
-					<FeatureType>FEATURE_FOREST_BURNT</FeatureType>
-					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
-					<iTime>125</iTime>
-					<iProduction>0</iProduction>
-					<bRemove>1</bRemove>
-				</FeatureStruct>
 			</FeatureStructs>
 			<HotKey>KB_F</HotKey>
 			<bAltDown>0</bAltDown>
@@ -458,13 +367,6 @@
 					<iProduction>20</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
-				<FeatureStruct>
-					<FeatureType>FEATURE_FOREST_BURNT</FeatureType>
-					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
-					<iTime>125</iTime>
-					<iProduction>0</iProduction>
-					<bRemove>1</bRemove>
-				</FeatureStruct>
 			</FeatureStructs>
 			<HotKey>KB_I</HotKey>
 			<bAltDown>0</bAltDown>
@@ -499,20 +401,6 @@
 					<iProduction>20</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
-				<FeatureStruct>
-					<FeatureType>FEATURE_FOREST_NEW</FeatureType>
-					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
-					<iTime>0</iTime>
-					<iProduction>0</iProduction>
-					<bRemove>1</bRemove>
-				</FeatureStruct>
-				<FeatureStruct>
-					<FeatureType>FEATURE_FOREST_BURNT</FeatureType>
-					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
-					<iTime>125</iTime>
-					<iProduction>0</iProduction>
-					<bRemove>1</bRemove>
-				</FeatureStruct>
 			</FeatureStructs>
 			<HotKey>KB_M</HotKey>
 			<bAltDown>0</bAltDown>
@@ -545,20 +433,6 @@
 					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
 					<iTime>250</iTime>
 					<iProduction>20</iProduction>
-					<bRemove>1</bRemove>
-				</FeatureStruct>
-				<FeatureStruct>
-					<FeatureType>FEATURE_FOREST_NEW</FeatureType>
-					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
-					<iTime>0</iTime>
-					<iProduction>0</iProduction>
-					<bRemove>1</bRemove>
-				</FeatureStruct>
-				<FeatureStruct>
-					<FeatureType>FEATURE_FOREST_BURNT</FeatureType>
-					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
-					<iTime>125</iTime>
-					<iProduction>0</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
 			</FeatureStructs>
@@ -640,20 +514,6 @@
 					<iProduction>20</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
-				<FeatureStruct>
-					<FeatureType>FEATURE_FOREST_NEW</FeatureType>
-					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
-					<iTime>0</iTime>
-					<iProduction>0</iProduction>
-					<bRemove>1</bRemove>
-				</FeatureStruct>
-				<FeatureStruct>
-					<FeatureType>FEATURE_FOREST_BURNT</FeatureType>
-					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
-					<iTime>125</iTime>
-					<iProduction>0</iProduction>
-					<bRemove>1</bRemove>
-				</FeatureStruct>
 			</FeatureStructs>
 			<HotKey>KB_W</HotKey>
 			<bAltDown>0</bAltDown>
@@ -661,37 +521,6 @@
 			<bCtrlDown>0</bCtrlDown>
 			<iHotKeyPriority>1</iHotKeyPriority>
 			<Button>,Art/Interface/Buttons/Builds/BuildWinery.dds,Art/Interface/Buttons/Actions_Builds_LeaderHeads_Specialists_Atlas.dds,6,8</Button>
-		</BuildInfo>
-		
-		
-		
-		
-		<BuildInfo>
-			<Type>BUILD_SCRUB_FALLOUT</Type>
-			<Description>TXT_KEY_BUILD_SCRUB_FALLOUT</Description>
-			<Help/>
-			<PrereqTech>NONE</PrereqTech>
-			<iTime>0</iTime>
-			<iCost>0</iCost>
-			<bKill>0</bKill>
-			<ImprovementType>NONE</ImprovementType>
-			<RouteType>NONE</RouteType>
-			<EntityEvent>ENTITY_EVENT_IRRIGATE</EntityEvent>
-			<FeatureStructs>
-				<FeatureStruct>
-					<FeatureType>FEATURE_FALLOUT</FeatureType>
-					<PrereqTech>TECH_NEVER</PrereqTech>
-					<iTime>1800</iTime>
-					<iProduction>0</iProduction>
-					<bRemove>1</bRemove>
-				</FeatureStruct>
-			</FeatureStructs>
-			<HotKey>KB_S</HotKey>
-			<bAltDown>0</bAltDown>
-			<bShiftDown>0</bShiftDown>
-			<bCtrlDown>0</bCtrlDown>
-			<iHotKeyPriority>1</iHotKeyPriority>
-			<Button>,Art/Interface/Buttons/Builds/BuildScrubFallout.dds,Art/Interface/Buttons/Actions_Builds_LeaderHeads_Specialists_Atlas.dds,2,8</Button>
 		</BuildInfo>
 		<BuildInfo>
 			<Type>BUILD_MANA_AIR</Type>
@@ -717,20 +546,6 @@
 					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
 					<iTime>250</iTime>
 					<iProduction>20</iProduction>
-					<bRemove>1</bRemove>
-				</FeatureStruct>
-				<FeatureStruct>
-					<FeatureType>FEATURE_FOREST_NEW</FeatureType>
-					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
-					<iTime>0</iTime>
-					<iProduction>0</iProduction>
-					<bRemove>1</bRemove>
-				</FeatureStruct>
-				<FeatureStruct>
-					<FeatureType>FEATURE_FOREST_BURNT</FeatureType>
-					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
-					<iTime>125</iTime>
-					<iProduction>0</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
 			</FeatureStructs>
@@ -767,20 +582,6 @@
 					<iProduction>20</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
-				<FeatureStruct>
-					<FeatureType>FEATURE_FOREST_NEW</FeatureType>
-					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
-					<iTime>0</iTime>
-					<iProduction>0</iProduction>
-					<bRemove>1</bRemove>
-				</FeatureStruct>
-				<FeatureStruct>
-					<FeatureType>FEATURE_FOREST_BURNT</FeatureType>
-					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
-					<iTime>125</iTime>
-					<iProduction>0</iProduction>
-					<bRemove>1</bRemove>
-				</FeatureStruct>
 			</FeatureStructs>
 			<HotKey>KB_S</HotKey>
 			<bAltDown>0</bAltDown>
@@ -813,20 +614,6 @@
 					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
 					<iTime>250</iTime>
 					<iProduction>20</iProduction>
-					<bRemove>1</bRemove>
-				</FeatureStruct>
-				<FeatureStruct>
-					<FeatureType>FEATURE_FOREST_NEW</FeatureType>
-					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
-					<iTime>0</iTime>
-					<iProduction>0</iProduction>
-					<bRemove>1</bRemove>
-				</FeatureStruct>
-				<FeatureStruct>
-					<FeatureType>FEATURE_FOREST_BURNT</FeatureType>
-					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
-					<iTime>125</iTime>
-					<iProduction>0</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
 			</FeatureStructs>
@@ -863,20 +650,6 @@
 					<iProduction>20</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
-				<FeatureStruct>
-					<FeatureType>FEATURE_FOREST_NEW</FeatureType>
-					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
-					<iTime>0</iTime>
-					<iProduction>0</iProduction>
-					<bRemove>1</bRemove>
-				</FeatureStruct>
-				<FeatureStruct>
-					<FeatureType>FEATURE_FOREST_BURNT</FeatureType>
-					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
-					<iTime>125</iTime>
-					<iProduction>0</iProduction>
-					<bRemove>1</bRemove>
-				</FeatureStruct>
 			</FeatureStructs>
 			<HotKey>KB_S</HotKey>
 			<bAltDown>0</bAltDown>
@@ -911,20 +684,6 @@
 					<iProduction>20</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
-				<FeatureStruct>
-					<FeatureType>FEATURE_FOREST_NEW</FeatureType>
-					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
-					<iTime>0</iTime>
-					<iProduction>0</iProduction>
-					<bRemove>1</bRemove>
-				</FeatureStruct>
-				<FeatureStruct>
-					<FeatureType>FEATURE_FOREST_BURNT</FeatureType>
-					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
-					<iTime>125</iTime>
-					<iProduction>0</iProduction>
-					<bRemove>1</bRemove>
-				</FeatureStruct>
 			</FeatureStructs>
 			<HotKey>KB_F</HotKey>
 			<bAltDown>0</bAltDown>
@@ -957,20 +716,6 @@
 					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
 					<iTime>250</iTime>
 					<iProduction>20</iProduction>
-					<bRemove>1</bRemove>
-				</FeatureStruct>
-				<FeatureStruct>
-					<FeatureType>FEATURE_FOREST_NEW</FeatureType>
-					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
-					<iTime>0</iTime>
-					<iProduction>0</iProduction>
-					<bRemove>1</bRemove>
-				</FeatureStruct>
-				<FeatureStruct>
-					<FeatureType>FEATURE_FOREST_BURNT</FeatureType>
-					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
-					<iTime>125</iTime>
-					<iProduction>0</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
 			</FeatureStructs>
