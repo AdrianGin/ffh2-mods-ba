@@ -1320,6 +1320,7 @@
 				<PrereqTech>TECH_MELEE1</PrereqTech>
             </OrPreReqs>
             <AndPreReqs>
+                    <PrereqTech>TECH_FEUDAL_AGE</PrereqTech>
             </AndPreReqs>
             <Quote></Quote>
             <Sound>AS2D_TECH_DING</Sound>
@@ -1393,6 +1394,7 @@
 				<PrereqTech>TECH_MELEE2</PrereqTech>
             </OrPreReqs>
             <AndPreReqs>
+                    <PrereqTech>TECH_CASTLE_AGE</PrereqTech>
             </AndPreReqs>
             <Quote></Quote>
             <Sound>AS2D_TECH_DING</Sound>
@@ -1539,6 +1541,7 @@
 				<PrereqTech>TECH_MOUNTED1</PrereqTech>
             </OrPreReqs>
             <AndPreReqs>
+                    <PrereqTech>TECH_FEUDAL_AGE</PrereqTech>
             </AndPreReqs>
             <Quote></Quote>
             <Sound>AS2D_TECH_DING</Sound>
@@ -1612,6 +1615,7 @@
 				<PrereqTech>TECH_MOUNTED2</PrereqTech>
             </OrPreReqs>
             <AndPreReqs>
+                    <PrereqTech>TECH_CASTLE_AGE</PrereqTech>
             </AndPreReqs>
             <Quote></Quote>
             <Sound>AS2D_TECH_DING</Sound>
@@ -1758,6 +1762,7 @@
 				<PrereqTech>TECH_ARCHERY1</PrereqTech>
             </OrPreReqs>
             <AndPreReqs>
+                    <PrereqTech>TECH_FEUDAL_AGE</PrereqTech>
             </AndPreReqs>
             <Quote></Quote>
             <Sound>AS2D_TECH_DING</Sound>
@@ -1831,6 +1836,7 @@
 				<PrereqTech>TECH_ARCHERY2</PrereqTech>
             </OrPreReqs>
             <AndPreReqs>
+                    <PrereqTech>TECH_CASTLE_AGE</PrereqTech>
             </AndPreReqs>
             <Quote></Quote>
             <Sound>AS2D_TECH_DING</Sound>
@@ -1977,6 +1983,7 @@
 				<PrereqTech>TECH_ARCANE1</PrereqTech>
             </OrPreReqs>
             <AndPreReqs>
+                    <PrereqTech>TECH_FEUDAL_AGE</PrereqTech>
             </AndPreReqs>
             <Quote></Quote>
             <Sound>AS2D_TECH_DING</Sound>
@@ -2050,6 +2057,7 @@
 				<PrereqTech>TECH_ARCANE2</PrereqTech>
             </OrPreReqs>
             <AndPreReqs>
+                    <PrereqTech>TECH_CASTLE_AGE</PrereqTech>
             </AndPreReqs>
             <Quote></Quote>
             <Sound>AS2D_TECH_DING</Sound>
@@ -2196,6 +2204,7 @@
 				<PrereqTech>TECH_BEAST1</PrereqTech>
             </OrPreReqs>
             <AndPreReqs>
+                    <PrereqTech>TECH_FEUDAL_AGE</PrereqTech>
             </AndPreReqs>
             <Quote></Quote>
             <Sound>AS2D_TECH_DING</Sound>
@@ -2269,6 +2278,7 @@
 				<PrereqTech>TECH_BEAST2</PrereqTech>
             </OrPreReqs>
             <AndPreReqs>
+                    <PrereqTech>TECH_CASTLE_AGE</PrereqTech>
             </AndPreReqs>
             <Quote></Quote>
             <Sound>AS2D_TECH_DING</Sound>
@@ -2503,6 +2513,7 @@
 				<PrereqTech>TECH_NAVY1</PrereqTech>
             </OrPreReqs>
             <AndPreReqs>
+                    <PrereqTech>TECH_FEUDAL_AGE</PrereqTech>
             </AndPreReqs>
             <Quote></Quote>
             <Sound>AS2D_TECH_DING</Sound>
@@ -2576,6 +2587,7 @@
 				<PrereqTech>TECH_NAVY2</PrereqTech>
             </OrPreReqs>
             <AndPreReqs>
+                    <PrereqTech>TECH_CASTLE_AGE</PrereqTech>
             </AndPreReqs>
             <Quote></Quote>
             <Sound>AS2D_TECH_DING</Sound>

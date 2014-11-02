@@ -1490,7 +1490,7 @@
 			<PrereqReligion>NONE</PrereqReligion>
 			<PrereqCorporation>NONE</PrereqCorporation>
 			<PrereqBuilding>NONE</PrereqBuilding>
-			<PrereqTech>TECH_MELEE2</PrereqTech>
+			<PrereqTech>TECH_BEAST2</PrereqTech>
 			<TechTypes>
             </TechTypes>
 			<BonusType>NONE</BonusType>
@@ -2818,7 +2818,7 @@
 			<PrereqReligion>NONE</PrereqReligion>
 			<PrereqCorporation>NONE</PrereqCorporation>
 			<PrereqBuilding>NONE</PrereqBuilding>
-			<PrereqTech>TECH_MELEE1</PrereqTech>
+			<PrereqTech>TECH_BEAST1</PrereqTech>
 			<TechTypes>
             </TechTypes>
 			<BonusType>NONE</BonusType>
@@ -3025,7 +3025,7 @@
 			<PrereqReligion>NONE</PrereqReligion>
 			<PrereqCorporation>NONE</PrereqCorporation>
 			<PrereqBuilding>NONE</PrereqBuilding>
-			<PrereqTech>TECH_MELEE1</PrereqTech>
+			<PrereqTech>TECH_BEAST1</PrereqTech>
 			<TechTypes>
             </TechTypes>
 			<BonusType>NONE</BonusType>
