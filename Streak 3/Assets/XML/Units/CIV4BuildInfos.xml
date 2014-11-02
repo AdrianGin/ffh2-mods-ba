@@ -411,7 +411,7 @@
 			<bShiftDown>0</bShiftDown>
 			<bCtrlDown>1</bCtrlDown>
 			<iHotKeyPriority>0</iHotKeyPriority>
-			<Button>,Art/Interface/Buttons/Builds/BuildFort.dds,Art/Interface/Buttons/Actions_Builds_LeaderHeads_Specialists_Atlas.dds,7,9</Button>
+			<Button>Art/Interface/Buttons/Buildings/Palacegrigori.dds</Button>
 		</BuildInfo>
 		<BuildInfo>
 			<Type>BUILD_ROAD</Type>
@@ -931,7 +931,7 @@
 			<bShiftDown>0</bShiftDown>
 			<bCtrlDown>1</bCtrlDown>
 			<iHotKeyPriority>0</iHotKeyPriority>
-			<Button>,Art/Interface/Buttons/Builds/BuildFort.dds,Art/Interface/Buttons/Actions_Builds_LeaderHeads_Specialists_Atlas.dds,7,9</Button>
+			<Button>Art/Interface/Buttons/Buildings/Palaceinfernal.dds</Button>
 		</BuildInfo>
 		<BuildInfo>
 			<Type>BUILD_CITADEL</Type>
@@ -979,7 +979,7 @@
 			<bShiftDown>0</bShiftDown>
 			<bCtrlDown>1</bCtrlDown>
 			<iHotKeyPriority>0</iHotKeyPriority>
-			<Button>,Art/Interface/Buttons/Builds/BuildFort.dds,Art/Interface/Buttons/Actions_Builds_LeaderHeads_Specialists_Atlas.dds,7,9</Button>
+			<Button>Art/Interface/Buttons/Buildings/Palacekhazad.dds</Button>
 		</BuildInfo>
 	</BuildInfos>
 </Civ4BuildInfos>

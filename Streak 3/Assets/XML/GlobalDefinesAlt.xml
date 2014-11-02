@@ -187,6 +187,14 @@
 		<DefineTextVal>BUILD_FORT</DefineTextVal>
 	</Define>
 	<Define>
+		<DefineName>BUILD_CASTLE</DefineName>
+		<DefineTextVal>BUILD_CASTLE</DefineTextVal>
+	</Define>
+	<Define>
+		<DefineName>BUILD_CITADEL</DefineName>
+		<DefineTextVal>BUILD_CITADEL</DefineTextVal>
+	</Define>
+	<Define>
 		<DefineName>COMBAT_APPLY_CHANCE</DefineName>
 		<iDefineIntVal>50</iDefineIntVal>
 	</Define>
