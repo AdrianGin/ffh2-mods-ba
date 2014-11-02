@@ -9,7 +9,7 @@
 		<SpecialistInfo>
 			<Type>SPECIALIST_CITIZEN</Type>
 			<Description>TXT_KEY_SPECIALIST_CITIZEN</Description>
-			<Civilopedia>TXT_KEY_CONCEPT_SPECIALISTS_PEDIA</Civilopedia>
+			<Civilopedia></Civilopedia>
 			<Strategy>TXT_KEY_SPECIALIST_CITIZEN_STRATEGY</Strategy>
 			<Help/>
 			<Texture>Art/Interface/MainScreen/CityScreen/Citizen.dds</Texture>
@@ -34,7 +34,7 @@
 		<SpecialistInfo>
 			<Type>SPECIALIST_MERCHANT</Type>
 			<Description>TXT_KEY_SPECIALIST_MERCHANT</Description>
-			<Civilopedia>TXT_KEY_CONCEPT_SPECIALISTS_PEDIA</Civilopedia>
+			<Civilopedia></Civilopedia>
 			<Strategy>TXT_KEY_SPECIALIST_MERCHANT_STRATEGY</Strategy>
 			<Help/>
 			<Texture>Art/Interface/MainScreen/CityScreen/merchant.dds</Texture>
@@ -59,7 +59,7 @@
 		<SpecialistInfo>
 			<Type>SPECIALIST_ENGINEER</Type>
 			<Description>TXT_KEY_SPECIALIST_ENGINEER</Description>
-			<Civilopedia>TXT_KEY_CONCEPT_SPECIALISTS_PEDIA</Civilopedia>
+			<Civilopedia></Civilopedia>
 			<Strategy>TXT_KEY_SPECIALIST_ENGINEER_STRATEGY</Strategy>
 			<Help/>
 			<Texture>Art/Interface/MainScreen/CityScreen/engineer.dds</Texture>
@@ -84,7 +84,7 @@
 		<SpecialistInfo>
 			<Type>SPECIALIST_GREAT_MERCHANT</Type>
 			<Description>TXT_KEY_SPECIALIST_GREAT_MERCHANT</Description>
-			<Civilopedia>TXT_KEY_CONCEPT_GREAT_PEOPLE_PEDIA</Civilopedia>
+			<Civilopedia></Civilopedia>
 			<Strategy>TXT_KEY_SPECIALIST_GREAT_MERCHANT_STRATEGY</Strategy>
 			<Help/>
 			<Texture>Art/Interface/MainScreen/CityScreen/Great_Merchant.dds</Texture>
@@ -113,7 +113,7 @@
 		<SpecialistInfo>
 			<Type>SPECIALIST_GREAT_ENGINEER</Type>
 			<Description>TXT_KEY_SPECIALIST_GREAT_ENGINEER</Description>
-			<Civilopedia>TXT_KEY_CONCEPT_GREAT_PEOPLE_PEDIA</Civilopedia>
+			<Civilopedia></Civilopedia>
 			<Strategy>TXT_KEY_SPECIALIST_GREAT_ENGINEER_STRATEGY</Strategy>
 			<Help/>
 			<Texture>Art/Interface/MainScreen/CityScreen/Great_Engineer.dds</Texture>

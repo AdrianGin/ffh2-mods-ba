@@ -84,7 +84,7 @@
         <SpellInfo>
             <Type>SPELL_HEAL</Type>
             <Description>Heal</Description>
-            <Civilopedia></Civilopedia>
+            <Civilopedia>Heals 8HP to all units in the stack.</Civilopedia>
             <Help></Help>
             <PromotionPrereq1>PROMOTION_HEAL1</PromotionPrereq1>
             <bAllowAI>1</bAllowAI>
@@ -99,7 +99,7 @@
         <SpellInfo>
             <Type>SPELL_GREATER_HEALING</Type>
             <Description>Greater Healing</Description>
-            <Civilopedia></Civilopedia>
+            <Civilopedia>Heals 15HP to all units in the stack.</Civilopedia>
             <Help></Help>
             <PromotionPrereq1>PROMOTION_HEAL2</PromotionPrereq1>
             <bAllowAI>1</bAllowAI>
@@ -115,7 +115,7 @@
         <SpellInfo>
             <Type>SPELL_MASS_HEALING</Type>
             <Description>Mass Healing</Description>
-            <Civilopedia></Civilopedia>
+            <Civilopedia>Heals 30HP to all units in the stack.</Civilopedia>
             <Help></Help>
             <PromotionPrereq1>PROMOTION_HEAL3</PromotionPrereq1>
             <bAllowAI>1</bAllowAI>

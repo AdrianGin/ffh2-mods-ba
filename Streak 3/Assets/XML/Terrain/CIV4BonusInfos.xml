@@ -10,7 +10,7 @@
 		<BonusInfo>
             <Type>BONUS_COTTON</Type>
             <Description>TXT_KEY_BONUS_COTTON</Description>
-            <Civilopedia>TXT_KEY_BONUS_COTTON_PEDIA</Civilopedia>
+            <Civilopedia></Civilopedia>
             <BonusClassType>BONUSCLASS_GENERAL</BonusClassType>
             <ArtDefineTag>ART_DEF_BONUS_COTTON</ArtDefineTag>
             <TechReveal>TECH_COMMERCE1</TechReveal>
@@ -76,7 +76,7 @@
 		<BonusInfo>
             <Type>BONUS_SILK</Type>
             <Description>TXT_KEY_BONUS_SILK</Description>
-            <Civilopedia>TXT_KEY_BONUS_SILK_PEDIA</Civilopedia>
+            <Civilopedia></Civilopedia>
             <BonusClassType>BONUSCLASS_GENERAL</BonusClassType>
             <ArtDefineTag>ART_DEF_BONUS_SILK</ArtDefineTag>
             <TechReveal>TECH_COMMERCE2</TechReveal>
@@ -147,7 +147,7 @@
 		<BonusInfo>
             <Type>BONUS_INCENSE</Type>
             <Description>TXT_KEY_BONUS_INCENSE</Description>
-            <Civilopedia>TXT_KEY_BONUS_INCENSE_PEDIA</Civilopedia>
+            <Civilopedia></Civilopedia>
             <BonusClassType>BONUSCLASS_GENERAL</BonusClassType>
             <ArtDefineTag>ART_DEF_BONUS_INCENSE</ArtDefineTag>
             <TechReveal>TECH_COMMERCE3</TechReveal>
@@ -213,7 +213,7 @@
 		<BonusInfo>
             <Type>BONUS_DYE</Type>
             <Description>TXT_KEY_BONUS_DYE</Description>
-            <Civilopedia>TXT_KEY_BONUS_DYE_PEDIA</Civilopedia>
+            <Civilopedia></Civilopedia>
             <BonusClassType>BONUSCLASS_GENERAL</BonusClassType>
             <ArtDefineTag>ART_DEF_BONUS_DYE</ArtDefineTag>
             <TechReveal>TECH_COMMERCE1</TechReveal>
@@ -279,7 +279,7 @@
 		<BonusInfo>
             <Type>BONUS_SUGAR</Type>
             <Description>TXT_KEY_BONUS_SUGAR</Description>
-            <Civilopedia>TXT_KEY_BONUS_SUGAR_PEDIA</Civilopedia>
+            <Civilopedia></Civilopedia>
             <BonusClassType>BONUSCLASS_GENERAL</BonusClassType>
             <ArtDefineTag>ART_DEF_BONUS_SUGAR</ArtDefineTag>
             <TechReveal>TECH_FOOD2</TechReveal>
@@ -345,7 +345,7 @@
 		<BonusInfo>
             <Type>BONUS_BANANA</Type>
             <Description>TXT_KEY_BONUS_BANANA</Description>
-            <Civilopedia>TXT_KEY_BONUS_BANANA_PEDIA</Civilopedia>
+            <Civilopedia></Civilopedia>
             <BonusClassType>BONUSCLASS_GENERAL</BonusClassType>
             <ArtDefineTag>ART_DEF_BONUS_BANANA</ArtDefineTag>
             <TechReveal>TECH_FOOD1</TechReveal>
@@ -411,7 +411,7 @@
 		<BonusInfo>
             <Type>BONUS_MARBLE</Type>
             <Description>TXT_KEY_BONUS_MARBLE</Description>
-            <Civilopedia>TXT_KEY_BONUS_MARBLE_PEDIA</Civilopedia>
+            <Civilopedia></Civilopedia>
             <BonusClassType>BONUSCLASS_WONDER</BonusClassType>
             <ArtDefineTag>ART_DEF_BONUS_MARBLE</ArtDefineTag>
             <TechReveal>NONE</TechReveal>
@@ -481,7 +481,7 @@
 		<BonusInfo>
             <Type>BONUS_WINE</Type>
             <Description>TXT_KEY_BONUS_WINE</Description>
-            <Civilopedia>TXT_KEY_BONUS_WINE_PEDIA</Civilopedia>
+            <Civilopedia></Civilopedia>
             <BonusClassType>BONUSCLASS_GENERAL</BonusClassType>
             <ArtDefineTag>ART_DEF_BONUS_WINE</ArtDefineTag>
             <TechReveal>NONE</TechReveal>
@@ -544,7 +544,7 @@
 		<BonusInfo>
             <Type>BONUS_DEER</Type>
             <Description>TXT_KEY_BONUS_DEER</Description>
-            <Civilopedia>TXT_KEY_BONUS_DEER_PEDIA</Civilopedia>
+            <Civilopedia></Civilopedia>
             <BonusClassType>BONUSCLASS_GENERAL</BonusClassType>
             <ArtDefineTag>ART_DEF_BONUS_DEER</ArtDefineTag>
             <TechReveal>NONE</TechReveal>
@@ -614,7 +614,7 @@
 		<BonusInfo>
             <Type>BONUS_FUR</Type>
             <Description>TXT_KEY_BONUS_FUR</Description>
-            <Civilopedia>TXT_KEY_BONUS_FUR_PEDIA</Civilopedia>
+            <Civilopedia></Civilopedia>
             <BonusClassType>BONUSCLASS_GENERAL</BonusClassType>
             <ArtDefineTag>ART_DEF_BONUS_FUR</ArtDefineTag>
             <TechReveal>NONE</TechReveal>
@@ -692,7 +692,7 @@
 		<BonusInfo>
             <Type>BONUS_IVORY</Type>
             <Description>TXT_KEY_BONUS_IVORY</Description>
-            <Civilopedia>TXT_KEY_BONUS_IVORY_PEDIA</Civilopedia>
+            <Civilopedia></Civilopedia>
             <BonusClassType>BONUSCLASS_GENERAL</BonusClassType>
             <ArtDefineTag>ART_DEF_BONUS_IVORY</ArtDefineTag>
             <TechReveal>NONE</TechReveal>
@@ -762,7 +762,7 @@
 		<BonusInfo>
             <Type>BONUS_WHALE</Type>
             <Description>TXT_KEY_BONUS_WHALE</Description>
-            <Civilopedia>TXT_KEY_BONUS_WHALE_PEDIA</Civilopedia>
+            <Civilopedia></Civilopedia>
             <BonusClassType>BONUSCLASS_GENERAL</BonusClassType>
             <ArtDefineTag>ART_DEF_BONUS_WHALE</ArtDefineTag>
             <TechReveal>NONE</TechReveal>
@@ -824,7 +824,7 @@
 		<BonusInfo>
             <Type>BONUS_PEARL</Type>
             <Description>TXT_KEY_BONUS_PEARL</Description>
-            <Civilopedia>TXT_KEY_BONUS_PEARL_PEDIA</Civilopedia>
+            <Civilopedia></Civilopedia>
             <BonusClassType>BONUSCLASS_GENERAL</BonusClassType>
             <ArtDefineTag>ART_DEF_BONUS_PEARL</ArtDefineTag>
             <TechReveal>NONE</TechReveal>
@@ -890,7 +890,7 @@
 		<BonusInfo>
             <Type>BONUS_CRAB</Type>
             <Description>TXT_KEY_BONUS_CRAB</Description>
-            <Civilopedia>TXT_KEY_BONUS_CRAB_PEDIA</Civilopedia>
+            <Civilopedia></Civilopedia>
             <BonusClassType>BONUSCLASS_GENERAL</BonusClassType>
             <ArtDefineTag>ART_DEF_BONUS_CRAB</ArtDefineTag>
             <TechReveal>NONE</TechReveal>
@@ -952,7 +952,7 @@
 		<BonusInfo>
             <Type>BONUS_CLAM</Type>
             <Description>TXT_KEY_BONUS_CLAM</Description>
-            <Civilopedia>TXT_KEY_BONUS_CLAM_PEDIA</Civilopedia>
+            <Civilopedia></Civilopedia>
             <BonusClassType>BONUSCLASS_GENERAL</BonusClassType>
             <ArtDefineTag>ART_DEF_BONUS_CLAM</ArtDefineTag>
             <TechReveal>NONE</TechReveal>
@@ -1014,7 +1014,7 @@
 		<BonusInfo>
             <Type>BONUS_FISH</Type>
             <Description>TXT_KEY_BONUS_FISH</Description>
-            <Civilopedia>TXT_KEY_BONUS_FISH_PEDIA</Civilopedia>
+            <Civilopedia></Civilopedia>
             <BonusClassType>BONUSCLASS_GENERAL</BonusClassType>
             <ArtDefineTag>ART_DEF_BONUS_FISH</ArtDefineTag>
             <TechReveal>NONE</TechReveal>
@@ -1080,7 +1080,7 @@
 		<BonusInfo>
             <Type>BONUS_GEMS</Type>
             <Description>TXT_KEY_BONUS_GEMS</Description>
-            <Civilopedia>TXT_KEY_BONUS_GEMS_PEDIA</Civilopedia>
+            <Civilopedia></Civilopedia>
             <BonusClassType>BONUSCLASS_GENERAL</BonusClassType>
             <ArtDefineTag>ART_DEF_BONUS_GEMS</ArtDefineTag>
             <TechReveal>NONE</TechReveal>
@@ -1146,7 +1146,7 @@
 		<BonusInfo>
             <Type>BONUS_GOLD</Type>
             <Description>TXT_KEY_BONUS_GOLD</Description>
-            <Civilopedia>TXT_KEY_BONUS_GOLD_PEDIA</Civilopedia>
+            <Civilopedia></Civilopedia>
             <BonusClassType>BONUSCLASS_GENERAL</BonusClassType>
             <ArtDefineTag>ART_DEF_BONUS_GOLD</ArtDefineTag>
             <TechReveal>NONE</TechReveal>
@@ -1212,7 +1212,7 @@
 		<BonusInfo>
             <Type>BONUS_CORN</Type>
             <Description>TXT_KEY_BONUS_CORN</Description>
-            <Civilopedia>TXT_KEY_BONUS_CORN_PEDIA</Civilopedia>
+            <Civilopedia></Civilopedia>
             <BonusClassType>BONUSCLASS_GRAIN</BonusClassType>
             <ArtDefineTag>ART_DEF_BONUS_CORN</ArtDefineTag>
             <TechReveal>NONE</TechReveal>
@@ -1275,7 +1275,7 @@
 		<BonusInfo>
             <Type>BONUS_RICE</Type>
             <Description>TXT_KEY_BONUS_RICE</Description>
-            <Civilopedia>TXT_KEY_BONUS_RICE_PEDIA</Civilopedia>
+            <Civilopedia></Civilopedia>
             <BonusClassType>BONUSCLASS_GRAIN</BonusClassType>
             <ArtDefineTag>ART_DEF_BONUS_RICE</ArtDefineTag>
             <TechReveal>NONE</TechReveal>
@@ -1345,7 +1345,7 @@
 		<BonusInfo>
             <Type>BONUS_WHEAT</Type>
             <Description>TXT_KEY_BONUS_WHEAT</Description>
-            <Civilopedia>TXT_KEY_BONUS_WHEAT_PEDIA</Civilopedia>
+            <Civilopedia></Civilopedia>
             <BonusClassType>BONUSCLASS_GRAIN</BonusClassType>
             <ArtDefineTag>ART_DEF_BONUS_WHEAT</ArtDefineTag>
             <TechReveal>NONE</TechReveal>
@@ -1408,7 +1408,7 @@
 		<BonusInfo>
             <Type>BONUS_PIG</Type>
             <Description>TXT_KEY_BONUS_PIG</Description>
-            <Civilopedia>TXT_KEY_BONUS_PIG_PEDIA</Civilopedia>
+            <Civilopedia></Civilopedia>
             <BonusClassType>BONUSCLASS_LIVESTOCK</BonusClassType>
             <ArtDefineTag>ART_DEF_BONUS_PIG</ArtDefineTag>
             <TechReveal>NONE</TechReveal>
@@ -1478,7 +1478,7 @@
 		<BonusInfo>
             <Type>BONUS_SHEEP</Type>
             <Description>TXT_KEY_BONUS_SHEEP</Description>
-            <Civilopedia>TXT_KEY_BONUS_SHEEP_PEDIA</Civilopedia>
+            <Civilopedia></Civilopedia>
             <BonusClassType>BONUSCLASS_LIVESTOCK</BonusClassType>
             <ArtDefineTag>ART_DEF_BONUS_SHEEP</ArtDefineTag>
             <TechReveal>NONE</TechReveal>
@@ -1544,7 +1544,7 @@
 		<BonusInfo>
             <Type>BONUS_COW</Type>
             <Description>TXT_KEY_BONUS_COW</Description>
-            <Civilopedia>TXT_KEY_BONUS_COW_PEDIA</Civilopedia>
+            <Civilopedia></Civilopedia>
             <BonusClassType>BONUSCLASS_LIVESTOCK</BonusClassType>
             <ArtDefineTag>ART_DEF_BONUS_COW</ArtDefineTag>
             <TechReveal>NONE</TechReveal>
@@ -1610,7 +1610,7 @@
 		<BonusInfo>
             <Type>BONUS_HORSE</Type>
             <Description>TXT_KEY_BONUS_HORSE</Description>
-            <Civilopedia>TXT_KEY_BONUS_HORSE_PEDIA</Civilopedia>
+            <Civilopedia></Civilopedia>
             <BonusClassType>BONUSCLASS_RUSH</BonusClassType>
             <ArtDefineTag>ART_DEF_BONUS_HORSE</ArtDefineTag>
             <TechReveal>NONE</TechReveal>
@@ -1680,7 +1680,7 @@
 		<BonusInfo>
             <Type>BONUS_COPPER</Type>
             <Description>TXT_KEY_BONUS_COPPER</Description>
-            <Civilopedia>TXT_KEY_BONUS_COPPER_PEDIA</Civilopedia>
+            <Civilopedia></Civilopedia>
             <BonusClassType>BONUSCLASS_RUSH</BonusClassType>
             <ArtDefineTag>ART_DEF_BONUS_COPPER</ArtDefineTag>
             <TechReveal>TECH_FEUDAL_AGE</TechReveal>
@@ -1758,7 +1758,7 @@
 		<BonusInfo>
             <Type>BONUS_IRON</Type>
             <Description>TXT_KEY_BONUS_IRON</Description>
-            <Civilopedia>TXT_KEY_BONUS_IRON_PEDIA</Civilopedia>
+            <Civilopedia></Civilopedia>
             <BonusClassType>BONUSCLASS_RUSH</BonusClassType>
             <ArtDefineTag>ART_DEF_BONUS_IRON</ArtDefineTag>
             <TechReveal>TECH_CASTLE_AGE</TechReveal>
@@ -1836,7 +1836,7 @@
 		<BonusInfo>
             <Type>BONUS_MITHRIL</Type>
             <Description>TXT_KEY_BONUS_MITHRIL</Description>
-            <Civilopedia>TXT_KEY_BONUS_MITHRIL_PEDIA</Civilopedia>
+            <Civilopedia></Civilopedia>
             <BonusClassType>BONUSCLASS_RUSH</BonusClassType>
             <ArtDefineTag>ART_DEF_BONUS_SILVER</ArtDefineTag>
             <TechReveal>TECH_IMPERIAL_AGE</TechReveal>
@@ -1910,7 +1910,7 @@
 		<BonusInfo>
             <Type>BONUS_GUNPOWDER</Type>
             <Description>TXT_KEY_BONUS_GUNPOWDER</Description>
-            <Civilopedia>TXT_KEY_BONUS_GUNPOWDER_PEDIA</Civilopedia>
+            <Civilopedia></Civilopedia>
             <BonusClassType>BONUSCLASS_RUSH</BonusClassType>
             <ArtDefineTag>ART_DEF_BONUS_COAL</ArtDefineTag>
             <TechReveal>TECH_IMPERIAL_AGE</TechReveal>
@@ -1996,7 +1996,7 @@
         <BonusInfo>
             <Type>BONUS_MANA</Type>
             <Description>TXT_KEY_BONUS_MANA</Description>
-            <Civilopedia>TXT_KEY_BONUS_MANA_PEDIA</Civilopedia>
+            <Civilopedia></Civilopedia>
             <BonusClassType>BONUSCLASS_RAWMANA</BonusClassType>
             <ArtDefineTag>ART_DEF_BONUS_MANA</ArtDefineTag>
             <TechReveal>NONE</TechReveal>
@@ -2074,7 +2074,7 @@
         <BonusInfo>
             <Type>BONUS_MANA_FIRE</Type>
             <Description>TXT_KEY_BONUS_MANA_FIRE</Description>
-            <Civilopedia>TXT_KEY_BONUS_MANA_FIRE_PEDIA</Civilopedia>
+            <Civilopedia></Civilopedia>
             <BonusClassType>BONUSCLASS_MANA</BonusClassType>
             <ArtDefineTag>ART_DEF_BONUS_MANA_FIRE</ArtDefineTag>
             <TechReveal>NONE</TechReveal>
@@ -2133,7 +2133,7 @@
         <BonusInfo>
             <Type>BONUS_MANA_AIR</Type>
             <Description>TXT_KEY_BONUS_MANA_AIR</Description>
-            <Civilopedia>TXT_KEY_BONUS_MANA_AIR_PEDIA</Civilopedia>
+            <Civilopedia></Civilopedia>
             <BonusClassType>BONUSCLASS_MANA</BonusClassType>
             <ArtDefineTag>ART_DEF_BONUS_MANA_AIR</ArtDefineTag>
             <TechReveal>NONE</TechReveal>
@@ -2191,7 +2191,7 @@
         <BonusInfo>
             <Type>BONUS_MANA_EARTH</Type>
             <Description>TXT_KEY_BONUS_MANA_EARTH</Description>
-            <Civilopedia>TXT_KEY_BONUS_MANA_EARTH_PEDIA</Civilopedia>
+            <Civilopedia></Civilopedia>
             <BonusClassType>BONUSCLASS_MANA</BonusClassType>
             <ArtDefineTag>ART_DEF_BONUS_MANA_EARTH</ArtDefineTag>
             <TechReveal>NONE</TechReveal>
@@ -2249,7 +2249,7 @@
         <BonusInfo>
             <Type>BONUS_MANA_WATER</Type>
             <Description>TXT_KEY_BONUS_MANA_WATER</Description>
-            <Civilopedia>TXT_KEY_BONUS_MANA_WATER_PEDIA</Civilopedia>
+            <Civilopedia></Civilopedia>
             <BonusClassType>BONUSCLASS_MANA</BonusClassType>
             <ArtDefineTag>ART_DEF_BONUS_MANA_WATER</ArtDefineTag>
             <TechReveal>NONE</TechReveal>
