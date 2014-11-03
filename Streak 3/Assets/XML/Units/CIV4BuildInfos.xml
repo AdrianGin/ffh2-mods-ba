@@ -293,7 +293,7 @@
 			<Description>TXT_KEY_BUILD_FORT</Description>
 			<Help/>
 			<PrereqTech>TECH_ARCHERY1</PrereqTech>
-			<iTime>800</iTime>
+			<iTime>600</iTime>
 			<iCost>0</iCost>
 			<bKill>0</bKill>
 			<ImprovementType>IMPROVEMENT_FORT</ImprovementType>
@@ -663,7 +663,7 @@
 			<Description>Build a Castle</Description>
 			<Help/>
 			<PrereqTech>TECH_ARCHERY2</PrereqTech>
-			<iTime>1200</iTime>
+			<iTime>800</iTime>
 			<iCost>0</iCost>
 			<bKill>0</bKill>
 			<ImprovementType>IMPROVEMENT_CASTLE</ImprovementType>
@@ -697,7 +697,7 @@
 			<Description>Build a Citadel</Description>
 			<Help/>
 			<PrereqTech>TECH_ARCHERY3</PrereqTech>
-			<iTime>1600</iTime>
+			<iTime>1000</iTime>
 			<iCost>0</iCost>
 			<bKill>0</bKill>
 			<ImprovementType>IMPROVEMENT_CITADEL</ImprovementType>

@@ -1758,7 +1758,7 @@
 			<Button>,Art/Interface/Buttons/Buildings/Airport.dds,Art/Interface/Buttons/Buildings_Atlas.dds,1,1</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
-			<Type>ART_DEF_BUILDING_FORGE</Type>
+			<Type>ART_DEF_BUILDING_BLACKSMITH</Type>
 			<LSystem>LSYSTEM_2x1</LSystem>
 			<bAnimated>1</bAnimated>
 			<fScale>1.31</fScale>
@@ -1766,6 +1766,16 @@
 			<NIF>Art/Structures/Buildings/Forge/Forge.nif</NIF>
 			<KFM/>
 			<Button>,Art/Interface/Buttons/Buildings/Forge.dds,Art/Interface/Buttons/Buildings_Atlas.dds,1,9</Button>
+		</BuildingArtInfo>
+		<BuildingArtInfo>
+			<Type>ART_DEF_BUILDING_FORGE</Type>
+			<LSystem>LSYSTEM_2x1</LSystem>
+			<bAnimated>1</bAnimated>
+			<fScale>1.31</fScale>
+			<fInterfaceScale>0.47</fInterfaceScale>
+			<NIF>Art/Structures/Buildings/Forge/Forge.nif</NIF>
+			<KFM/>
+			<Button>Art/Interface/Buttons/TechTree/Mithrilworking.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_MALI_MINT</Type>

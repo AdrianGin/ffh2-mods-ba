@@ -323,6 +323,51 @@
 			<DefaultUnit>UNIT_TRIREME</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
+			<Type>UNITCLASS_CARAVEL</Type>
+			<Description>TXT_KEY_UNIT_CARAVEL</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<DefaultUnit>UNIT_CARAVEL</DefaultUnit>
+		</UnitClassInfo>
+		<UnitClassInfo>
+			<Type>UNITCLASS_GALLEON</Type>
+			<Description>TXT_KEY_UNIT_GALLEON</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<DefaultUnit>UNIT_GALLEON</DefaultUnit>
+		</UnitClassInfo>
+		<UnitClassInfo>
+			<Type>UNITCLASS_FRIGATE</Type>
+			<Description>TXT_KEY_UNIT_FRIGATE</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<DefaultUnit>UNIT_FRIGATE</DefaultUnit>
+		</UnitClassInfo>		
+		<UnitClassInfo>
+			<Type>UNITCLASS_QUEEN_OF_THE_LINE</Type>
+			<Description>TXT_KEY_UNIT_QUEEN_OF_THE_LINE</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<DefaultUnit>UNIT_QUEEN_OF_THE_LINE</DefaultUnit>
+		</UnitClassInfo>		
+		<UnitClassInfo>
+			<Type>UNITCLASS_MAN_O_WAR</Type>
+			<Description>TXT_KEY_UNIT_MAN_O_WAR</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<DefaultUnit>UNIT_MAN_O_WAR</DefaultUnit>
+		</UnitClassInfo>
+		<UnitClassInfo>
 			<Type>UNITCLASS_MERCHANT</Type>
 			<Description>TXT_KEY_UNIT_GREAT_TYCOON</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
