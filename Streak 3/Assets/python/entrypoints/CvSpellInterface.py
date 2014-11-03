@@ -2648,7 +2648,7 @@ def reqSandLion(caster):
 def reqScorch(caster):
 	pPlot = caster.plot()
 	pPlayer = gc.getPlayer(caster.getOwner())
-	if (pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_PLAINS') or pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_GRASS') or pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_SNOW') or pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_TUNDRA')):
+	if (pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_DESERT') or pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_PLAINS') or pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_GRASS') or pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_SNOW') or pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_TUNDRA')):
 		if pPlayer.isHuman() == False:
 			if caster.getOwner() == pPlot.getOwner():
 				return False
@@ -2667,7 +2667,6 @@ def reqScorch(caster):
 def spellScorch(caster):
 	pPlot = caster.plot()
 	
-
 	if pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_TUNDRA'):
 		pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_DESERT'),True,True)
 		
@@ -2680,6 +2679,8 @@ def spellScorch(caster):
 	if pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_GRASS'):
 		pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True)
 			
+	if pPlot.getFeatureType() == gc.getInfoTypeForString('FEATURE_FLOOD_PLAINS'):
+		pPlot.setFeatureType(-1, -1)	
 		
 	#if pPlot.isOwned():
 	#	cf.startWar(caster.getOwner(), pPlot.getOwner(), WarPlanTypes.WARPLAN_TOTAL)
