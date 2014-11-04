@@ -1,17 +1,26 @@
-Remove all Unused Techs
-           Religions
-           Civics
-           Unused Buildings
+Hunter/Assassin/Marksman should not be able to capture city
 
-Delete Civilopedia TXT
+Implement spells
 
-Balance Tech Cost
-        Unit Cost
-        Building Cost
+Remove "build culture"
 
-Rename Techs
+Make it so captured workers can be deleted (or they should be destroyed as they are captured)
 
-Add Def Buildings
+Remove "locked assets" from game options - Bas
 
+Remove bonus upgrade requirements for units - Bas
 
-Water units can enter ocean, but risk dying if they end their turn in it.
+Reorder buildings - Bas
+
+Implement "not all units die in combat" system
+
+Remove circle from above flag if hidden unit is in the stack
+
+Fix weapon upgrades stacking eg/swordsman can have copper and iron at the same time!
+
+Implement upgrades: gunpowder
+
+Reduce commerce ramp - Bas
+
+Remove fallout and forest_burnt from terrain features
+
