@@ -1,6 +1,14 @@
 Hunter/Assassin/Marksman should not be able to capture city
 
-Implement spells
+Implement spells - Adrian
+LEVEL1
+-Enchanted blade, one turn only
+-Scorch, removes forest, jungles and floodplains when turning into desert
+-Blinding Light, select one stack within range 1, 33% chance to resist
+-Slow, change resist and wear off % to 33%
+-Rust, remove this spell
+LEVEL2
+-Vitalize, add into the game(missing atm), ice goes to tundra(check)
 
 Remove "build culture"
 
@@ -22,5 +30,5 @@ Implement upgrades: gunpowder
 
 Reduce commerce ramp - Bas
 
-Remove fallout and forest_burnt from terrain features
+Remove fallout and forest_burnt from terrain features - Adrian
 
