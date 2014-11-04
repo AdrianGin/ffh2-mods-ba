@@ -26,7 +26,7 @@ Remove circle from above flag if hidden unit is in the stack
 
 Fix weapon upgrades stacking eg/swordsman can have copper and iron at the same time!
 
-Implement upgrades: gunpowder
+Implement upgrades: gunpowder, horse
 
 Reduce commerce ramp - Bas
 
