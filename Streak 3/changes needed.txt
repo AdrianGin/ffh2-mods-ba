@@ -1,4 +1,4 @@
-Hunter/Assassin/Marksman should not be able to capture city
+
 
 Implement spells - Adrian
 LEVEL1
@@ -12,11 +12,14 @@ Implement "not all units die in combat" system
 
 Remove circle from above flag if hidden unit is in the stack
 
-Implement upgrades: horse
+
 
 Remove fallout and forest_burnt from terrain features - Adrian "This this is not affecting us yet..."
 
 
+
+To be tested:
+***Horses upgrade
 
 
 **DOESN'T WORK**
@@ -37,7 +40,7 @@ Remove fallout and forest_burnt from terrain features - Adrian "This this is not
 ***Enchanted blade, works as expected
 ***Vitalize, added and works as expected. (would like to see it take 1-2 turns to terraform like bloom)
 ***Rust, removed
-
+***Hunter/Assassin/Marksman should not be able to capture city
 ***Remove "build culture"
 ***Remove "build research"
 ***Remove "build wealth"
