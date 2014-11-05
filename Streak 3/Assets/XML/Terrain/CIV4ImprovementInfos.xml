@@ -391,7 +391,7 @@
 					<TechYields>
 						<iYield>0</iYield>
 						<iYield>0</iYield>
-						<iYield>2</iYield>
+						<iYield>1</iYield>
 					</TechYields>
 				</TechYieldChange>
 				<TechYieldChange>
@@ -399,7 +399,7 @@
 					<TechYields>
 						<iYield>0</iYield>
 						<iYield>0</iYield>
-						<iYield>2</iYield>
+						<iYield>1</iYield>
 					</TechYields>
 				</TechYieldChange>
             </TechYieldChanges>
