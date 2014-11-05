@@ -1836,9 +1836,7 @@
             <Button>Art/Interface/Buttons/Promotions/Ironweapons.dds</Button>
             <iExtraCombatStr>2</iExtraCombatStr>
             <iExtraCombatDefense>2</iExtraCombatDefense>
-            <iMinLevel>-1</iMinLevel>
-            <PromotionCombatType>PROMOTION_BRONZE_WEAPONS</PromotionCombatType>
-            <iPromotionCombatMod>10</iPromotionCombatMod>            
+            <iMinLevel>-1</iMinLevel>          
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_LIGHT</Type>
@@ -1995,8 +1993,6 @@
             <iExtraCombatStr>3</iExtraCombatStr>
             <iExtraCombatDefense>3</iExtraCombatDefense>
             <iMinLevel>-1</iMinLevel>
-            <PromotionCombatType>PROMOTION_IRON_WEAPONS</PromotionCombatType>
-            <iPromotionCombatMod>10</iPromotionCombatMod>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_MOBILITY1</Type>
