@@ -2764,7 +2764,7 @@
             </UnitCombats>
             <Button>Art/Interface/Buttons/Promotions/Slow.dds</Button>
             <iAIWeight>-50</iAIWeight>
-            <iExpireChance>30</iExpireChance>
+            <iExpireChance>33</iExpireChance>
             <iMinLevel>-1</iMinLevel>
         </PromotionInfo>
         <PromotionInfo>
