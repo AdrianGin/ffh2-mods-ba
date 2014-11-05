@@ -2,17 +2,16 @@ Hunter/Assassin/Marksman should not be able to capture city
 
 Implement spells - Adrian
 LEVEL1
--Enchanted blade, one turn only
--Scorch, removes forest, jungles and floodplains when turning into desert
+
 -Blinding Light, select one stack within range 1, 33% chance to resist
 
--Rust, remove this spell
+
 LEVEL2
 -Vitalize, add into the game(missing atm), ice goes to tundra(check)
 
 Remove "build culture"
 
-Make it so captured workers can be deleted (or they should be destroyed as they are captured)
+
 
 Remove "locked assets" from game options - Bas
 
@@ -40,4 +39,7 @@ Done, ready to be tested:
 should be able to cast spell even if out of moves
 Fix weapon upgrades stacking eg/swordsman can have copper and iron at the same time!
 -Slow, change resist and wear off % to 33%
-
+Units which can fight must be inside city to scrap. - Make it so captured workers can be deleted (or they should be destroyed as they are captured)
+-Rust, remove this spell
+-Enchanted blade, one turn only
+-Scorch, removes forest, jungles and floodplains when turning into desert

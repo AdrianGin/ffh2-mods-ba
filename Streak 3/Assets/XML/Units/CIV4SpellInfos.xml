@@ -448,5 +448,24 @@
             <Sound>AS2D_REPAIR</Sound>
             <Button>Art/Interface/Buttons/Promotions/Mithrilweapons.dds</Button>
         </SpellInfo>
+        
+        
+        <SpellInfo>
+            <Type>SPELL_VITALIZE</Type>
+            <Description>TXT_KEY_SPELL_VITALIZE</Description>
+            <Civilopedia>TXT_KEY_SPELL_VITALIZE_PEDIA</Civilopedia>
+            <Help>TXT_KEY_SPELL_VITALIZE_HELP</Help>
+            <PromotionPrereq1>PROMOTION_WATER2</PromotionPrereq1>
+            <bAllowAI>1</bAllowAI>
+            <bAllowAutomateTerrain>1</bAllowAutomateTerrain>
+            <iAIWeight>10</iAIWeight>
+            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+            <bHasCasted>1</bHasCasted>
+            <PyResult>spellVitalize(pCaster)</PyResult>
+            <PyRequirement>reqVitalize(pCaster)</PyRequirement>
+            <Effect>EFFECT_VITALIZE</Effect>
+            <Sound>AS3D_SPELL_SANCTIFY</Sound>
+            <Button>Art/Interface/Buttons/Spells/Vitalize.dds</Button>
+        </SpellInfo>
     </SpellInfos>
 </Civ4SpellInfos>

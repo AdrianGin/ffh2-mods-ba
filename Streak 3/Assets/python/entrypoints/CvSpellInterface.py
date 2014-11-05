@@ -2653,6 +2653,8 @@ def reqScorch(caster):
 			if caster.getOwner() == pPlot.getOwner():
 				return False
 		return True
+		
+		
 	if pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_SNOW'):
 		if pPlayer.isHuman() == False:
 			if caster.getOwner() != pPlot.getOwner():
@@ -2661,7 +2663,11 @@ def reqScorch(caster):
 				return False
 			if pPlayer.getCivilizationType() == gc.getInfoTypeForString('CIVILIZATION_ILLIANS'):
 				return False
-		return True	
+		return True
+		
+		
+		
+	
 	return False
 
 def spellScorch(caster):
@@ -2679,8 +2685,17 @@ def spellScorch(caster):
 	if pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_GRASS'):
 		pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True)
 			
-	if pPlot.getFeatureType() == gc.getInfoTypeForString('FEATURE_FLOOD_PLAINS'):
-		pPlot.setFeatureType(-1, -1)	
+	#Spell removes floodplains & forests and jungle on desert
+	if pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_DESERT'):
+		if pPlot.getFeatureType() == gc.getInfoTypeForString('FEATURE_FLOOD_PLAINS'):
+			pPlot.setFeatureType(-1, -1)	
+			
+		if pPlot.getFeatureType() == gc.getInfoTypeForString('FEATURE_FOREST'):
+			pPlot.setFeatureType(-1, -1)	
+			
+		if pPlot.getFeatureType() == gc.getInfoTypeForString('FEATURE_JUNGLE'):
+			pPlot.setFeatureType(-1, -1)				
+		
 		
 	#if pPlot.isOwned():
 	#	cf.startWar(caster.getOwner(), pPlot.getOwner(), WarPlanTypes.WARPLAN_TOTAL)

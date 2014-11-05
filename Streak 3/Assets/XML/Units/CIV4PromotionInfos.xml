@@ -3322,6 +3322,7 @@
             <bValidate>1</bValidate>
             <iAIWeight>100</iAIWeight>
             <iCombatPercentDefense>20</iCombatPercentDefense>
+            <iExpireChance>100</iExpireChance>
             <iMinLevel>-1</iMinLevel>
         </PromotionInfo>
         <PromotionInfo>
