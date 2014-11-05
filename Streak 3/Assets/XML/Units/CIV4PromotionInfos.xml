@@ -242,12 +242,6 @@
             <iExtraCombatStr>1</iExtraCombatStr>
             <iExtraCombatDefense>1</iExtraCombatDefense>
             <iMinLevel>-1</iMinLevel>
-            <DamageTypeResists>
-                <DamageTypeResist>
-                    <DamageType>DAMAGE_LIGHTNING</DamageType>
-                    <iResist>-25</iResist>
-                </DamageTypeResist>
-            </DamageTypeResists>
             <BonusPrereq>BONUS_COPPER</BonusPrereq>
         </PromotionInfo>
         
@@ -1844,14 +1838,7 @@
             <iExtraCombatDefense>2</iExtraCombatDefense>
             <iMinLevel>-1</iMinLevel>
             <PromotionCombatType>PROMOTION_BRONZE_WEAPONS</PromotionCombatType>
-            <iPromotionCombatMod>10</iPromotionCombatMod>
-            <DamageTypeResists>
-                <DamageTypeResist>
-                    <DamageType>DAMAGE_LIGHTNING</DamageType>
-                    <iResist>-25</iResist>
-                </DamageTypeResist>
-            </DamageTypeResists>
-            
+            <iPromotionCombatMod>10</iPromotionCombatMod>            
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_LIGHT</Type>
@@ -2005,8 +1992,8 @@
             <Sound>AS2D_IF_LEVELUP</Sound>
             <TechPrereq>TECH_NEVER</TechPrereq>
             <Button>Art/Interface/Buttons/Promotions/Mithrilweapons.dds</Button>
-            <iExtraCombatStr>4</iExtraCombatStr>
-            <iExtraCombatDefense>4</iExtraCombatDefense>
+            <iExtraCombatStr>3</iExtraCombatStr>
+            <iExtraCombatDefense>3</iExtraCombatDefense>
             <iMinLevel>-1</iMinLevel>
             <PromotionCombatType>PROMOTION_IRON_WEAPONS</PromotionCombatType>
             <iPromotionCombatMod>10</iPromotionCombatMod>
