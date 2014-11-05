@@ -396,6 +396,24 @@
         </SpellInfo>
         
         <SpellInfo>
+            <Type>SPELL_GUNPOWDER_WEAPONS</Type>
+            <Description>TXT_KEY_PROMOTION_GUNPOWDER_WEAPONS</Description>
+            <TechPrereq>TECH_IMPERIAL_AGE</TechPrereq>
+            <UnitCombatPrereq>UNITCOMBAT_ARCHER</UnitCombatPrereq>
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>0</bDisplayWhenDisabled>
+            <bInBordersOnly>1</bInBordersOnly>
+            <bInCityOnly>1</bInCityOnly>
+            <bHasCasted>1</bHasCasted>
+            <iCost>60</iCost>
+            <PyRequirement>reqGunpowderWeapons(pCaster)</PyRequirement>
+            <PyResult>spellGunpowderWeapons(pCaster)</PyResult>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS2D_REPAIR</Sound>
+            <Button>,Art/Interface/Buttons/Promotions/Pinch.dds,Art/Interface/Buttons/Promotions_Atlas.dds,3,5</Button>
+        </SpellInfo>        
+        
+        <SpellInfo>
             <Type>SPELL_BRONZE_WEAPONS</Type>
             <Description>TXT_KEY_PROMOTION_BRONZE_WEAPONS</Description>
             <TechPrereq>TECH_FEUDAL_AGE</TechPrereq>

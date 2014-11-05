@@ -6253,7 +6253,7 @@
 			<PrereqTech>TECH_ARCHERY3</PrereqTech>
 			<TechTypes>
             </TechTypes>
-			<BonusType>BONUS_GUNPOWDER</BonusType>
+			<BonusType>NONE</BonusType>
 			<PrereqBonuses>
             </PrereqBonuses>
 			<ProductionTraits>
@@ -6365,7 +6365,7 @@
             </FreePromotions>
 			<LeaderPromotion>NONE</LeaderPromotion>
 			<iLeaderExperience>0</iLeaderExperience>
-			<iCombatDefense>9</iCombatDefense>
+			<iCombatDefense>8</iCombatDefense>
 			<bNeverObsolete>1</bNeverObsolete>
 			<iTier>4</iTier>
 		</UnitInfo>

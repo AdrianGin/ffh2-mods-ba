@@ -233,6 +233,7 @@
             <iMinLevel>-1</iMinLevel>
             <CaptureUnitCombat>UNITCOMBAT_NAVAL</CaptureUnitCombat>
         </PromotionInfo>
+        
         <PromotionInfo>
             <Type>PROMOTION_BRONZE_WEAPONS</Type>
             <Description>TXT_KEY_PROMOTION_BRONZE_WEAPONS</Description>
@@ -247,7 +248,27 @@
                     <iResist>-25</iResist>
                 </DamageTypeResist>
             </DamageTypeResists>
+            <BonusPrereq>BONUS_COPPER</BonusPrereq>
         </PromotionInfo>
+        
+        <PromotionInfo>
+            <Type>PROMOTION_GUNPOWDER_WEAPONS</Type>
+            <Description>TXT_KEY_PROMOTION_GUNPOWDER_WEAPONS</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <Button>,Art/Interface/Buttons/Promotions/Pinch.dds,Art/Interface/Buttons/Promotions_Atlas.dds,3,5</Button>
+            <TechPrereq>TECH_ARCHERY3</TechPrereq>
+            <iExtraCombatStr>1</iExtraCombatStr>
+            <iExtraCombatDefense>1</iExtraCombatDefense>
+            <iMinLevel>-1</iMinLevel>
+            <UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+			</UnitCombats>
+			<BonusPrereq>BONUS_GUNPOWDER</BonusPrereq>
+        </PromotionInfo>
+        
         <PromotionInfo>
             <Type>PROMOTION_BUCCANEERS</Type>
             <Description>TXT_KEY_PROMOTION_BUCCANEERS</Description>
@@ -1830,6 +1851,7 @@
                     <iResist>-25</iResist>
                 </DamageTypeResist>
             </DamageTypeResists>
+            
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_LIGHT</Type>

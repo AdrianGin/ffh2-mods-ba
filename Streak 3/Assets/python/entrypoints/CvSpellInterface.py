@@ -3777,6 +3777,23 @@ def spellMithrilWeapons(caster):
 				
 		
 		
+def reqGunpowderWeapons(caster):
+	pPlayer = gc.getPlayer(caster.getOwner())
+	pCity = caster.plot().getPlotCity()
+	
+	if pCity.hasBonus( gc.getInfoTypeForString('BONUS_GUNPOWDER') ) == True:
+		if gc.getUnitInfo(caster.getUnitType()).getTier() >= 4:
+			return True
+		
+	return False
+
+def spellGunpowderWeapons(caster):
+	promo = gc.getInfoTypeForString('PROMOTION_GUNPOWDER_WEAPONS')
+	caster.setHasPromotion(promo, True)		
+		
+		
+
+
 
 
 
