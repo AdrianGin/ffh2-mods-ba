@@ -14067,10 +14067,13 @@ bool CvUnit::canCast(int spell, bool bTestVisible)
     CvUnit* pLoopUnit;
     CLLNode<IDInfo>* pUnitNode;
     bool bValid = false;
+
+/* Adrian, can still cast spells if immobile.
 	if (getImmobileTimer() > 0)
 	{
 		return false;
 	}
+*/
     if (!isHuman())
     {
         if (!GC.getSpellInfo(eSpell).isAllowAI())
