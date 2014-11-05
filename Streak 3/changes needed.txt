@@ -6,8 +6,6 @@ LEVEL1
 
 LEVEL2
 
-Remove "locked assets" from game options - Bas
-
 Remove bonus upgrade requirements for units - Bas
 
 Reorder buildings - Bas
