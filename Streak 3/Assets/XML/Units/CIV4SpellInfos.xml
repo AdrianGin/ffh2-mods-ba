@@ -262,7 +262,6 @@
             <bHasCasted>1</bHasCasted>
             <bResistable>1</bResistable>
             <iRange>1</iRange>
-            <iResistModify>30</iResistModify>
             <bImmuneTeam>1</bImmuneTeam>
             <bImmuneNeutral>1</bImmuneNeutral>
             <iImmobileTurns>2</iImmobileTurns>
@@ -302,24 +301,6 @@
             <Effect>EFFECT_WIND_SWIRL</Effect>
             <Sound>AS3D_SPELL_HASTE</Sound>
             <Button>Art/Interface/Buttons/Promotions/Danceofblades.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_RUST</Type>
-            <Description>Rust</Description>
-            <Civilopedia></Civilopedia>
-            <PromotionPrereq1>PROMOTION_WATER1</PromotionPrereq1>
-            <bAllowAI>1</bAllowAI>
-            <iAIWeightWar>100</iAIWeightWar>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <bResistable>1</bResistable>
-            <iRange>1</iRange>
-            <iResistModify>20</iResistModify>
-            <AddPromotionType1>PROMOTION_RUSTED</AddPromotionType1><bImmuneTeam>1</bImmuneTeam>
-            <bImmuneNeutral>1</bImmuneNeutral>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_DEFILE</Sound>
-            <Button>Art/Interface/Buttons/Promotions/Rusted.dds</Button>
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_SHADOWWALK</Type>

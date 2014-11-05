@@ -339,7 +339,7 @@
 	</Define>	
 	<Define>
 		<DefineName>SPELL_RESIST_CHANCE_BASE</DefineName>
-		<iDefineIntVal>20</iDefineIntVal>
+		<iDefineIntVal>33</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>SPELL_RESIST_CHANCE_MAX</DefineName>

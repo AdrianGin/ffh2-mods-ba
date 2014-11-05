@@ -2396,24 +2396,6 @@
             <iMinLevel>-1</iMinLevel>
         </PromotionInfo>
         <PromotionInfo>
-            <Type>PROMOTION_RUSTED</Type>
-            <Description>TXT_KEY_PROMOTION_RUSTED</Description>
-            <Help>TXT_KEY_PROMOTION_RUSTED_PEDIA</Help>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_NEVER</TechPrereq>
-            <iCombatPercent>-10</iCombatPercent>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Rusted.dds</Button>
-            <iAIWeight>-50</iAIWeight>
-            <iCombatPercentDefense>-10</iCombatPercentDefense>
-            <iMinLevel>-1</iMinLevel>
-        </PromotionInfo>
-        <PromotionInfo>
             <Type>PROMOTION_SENTRY</Type>
             <Description>Sentry I</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
