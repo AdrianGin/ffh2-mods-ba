@@ -3796,8 +3796,12 @@ def reqGunpowderWeapons(caster):
 	pPlayer = gc.getPlayer(caster.getOwner())
 	pCity = caster.plot().getPlotCity()
 	
+	
+	if caster.isHasPromotion(gc.getInfoTypeForString('PROMOTION_GUNPOWDER_WEAPONS')):
+		return False		
+				
 	if pCity.hasBonus( gc.getInfoTypeForString('BONUS_GUNPOWDER') ) == True:
-		if gc.getUnitInfo(caster.getUnitType()).getTier() >= 4:
+		if gc.getUnitInfo(caster.getUnitType()).getType() == gc.getInfoTypeForString('UNIT_ARQUEBUS'):
 			return True
 		
 	return False
@@ -3808,6 +3812,24 @@ def spellGunpowderWeapons(caster):
 		
 		
 
+
+def reqHorseWeapons(caster):
+	pPlayer = gc.getPlayer(caster.getOwner())
+	pCity = caster.plot().getPlotCity()
+	
+	if caster.isHasPromotion(gc.getInfoTypeForString('PROMOTION_HORSE_WEAPONS')):
+		return False	
+	
+	if pCity.hasBonus( gc.getInfoTypeForString('BONUS_HORSE') ) == True:
+		return True
+		
+	return False
+
+def spellHorseWeapons(caster):
+	promo = gc.getInfoTypeForString('PROMOTION_HORSE_WEAPONS')
+	caster.setHasPromotion(promo, True)		
+		
+		
 
 
 

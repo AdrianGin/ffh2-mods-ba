@@ -264,6 +264,25 @@
         </PromotionInfo>
         
         <PromotionInfo>
+            <Type>PROMOTION_HORSE_WEAPONS</Type>
+            <Description>TXT_KEY_PROMOTION_HORSE_WEAPONS</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <Button>Art/Interface/Buttons/Promotions/thoroughbred.dds</Button>
+            <TechPrereq>TECH_FOOD1</TechPrereq>
+            <iExtraCombatStr>1</iExtraCombatStr>
+            <iExtraCombatDefense>1</iExtraCombatDefense>
+            <iMovesChange>1</iMovesChange>
+            <iMinLevel>-1</iMinLevel>
+            <UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+			</UnitCombats>
+			<BonusPrereq>BONUS_HORSE</BonusPrereq>
+        </PromotionInfo>
+        
+        <PromotionInfo>
             <Type>PROMOTION_BUCCANEERS</Type>
             <Description>TXT_KEY_PROMOTION_BUCCANEERS</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
