@@ -6,8 +6,6 @@ LEVEL1
 
 LEVEL2
 
-Remove bonus upgrade requirements for units - Bas
-
 Reorder buildings - Bas
 
 Implement "not all units die in combat" system
