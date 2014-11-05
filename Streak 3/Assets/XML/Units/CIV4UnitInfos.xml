@@ -4049,7 +4049,7 @@
             </TechTypes>
 			<BonusType>NONE</BonusType>
 			<PrereqBonuses>
-				<BonusType>BONUS_HORSE</BonusType>
+				<BonusType>NONE</BonusType>
 				<BonusType>NONE</BonusType>
 				<BonusType>NONE</BonusType>
 			</PrereqBonuses>
@@ -4268,7 +4268,7 @@
 			</TechTypes>
 			<BonusType>NONE</BonusType>
 			<PrereqBonuses>
-				<BonusType>BONUS_HORSE</BonusType>
+				<BonusType>NONE</BonusType>
 				<BonusType>NONE</BonusType>
 				<BonusType>NONE</BonusType>
 			</PrereqBonuses>
@@ -4485,10 +4485,10 @@
 			<PrereqTech>TECH_MOUNTED2</PrereqTech>
 			<TechTypes>
             </TechTypes>
-			<BonusType>BONUS_HORSE</BonusType>
+			<BonusType>NONE</BonusType>
 			<PrereqBonuses>
-				<BonusType>BONUS_IRON</BonusType>
-				<BonusType>BONUS_MITHRIL</BonusType>
+				<BonusType>NONE</BonusType>
+				<BonusType>NONE</BonusType>
             </PrereqBonuses>
 			<ProductionTraits>
             </ProductionTraits>
@@ -4703,10 +4703,10 @@
 			<PrereqTech>TECH_MOUNTED3</PrereqTech>
 			<TechTypes>
             </TechTypes>
-			<BonusType>BONUS_HORSE</BonusType>
+			<BonusType>NONE</BonusType>
 			<PrereqBonuses>
-				<BonusType>BONUS_IRON</BonusType>
-				<BonusType>BONUS_MITHRIL</BonusType>
+				<BonusType>NONE</BonusType>
+				<BonusType>NONE</BonusType>
             </PrereqBonuses>
 			<ProductionTraits>
             </ProductionTraits>
@@ -4931,7 +4931,7 @@
             </TechTypes>
 			<BonusType>NONE</BonusType>
 			<PrereqBonuses>
-				<BonusType>BONUS_IVORY</BonusType>
+				<BonusType>NONE</BonusType>
 				<BonusType>NONE</BonusType>
 				<BonusType>NONE</BonusType>
 			</PrereqBonuses>
@@ -5144,10 +5144,10 @@
 			<PrereqTech>TECH_MOUNTED3</PrereqTech>
 			<TechTypes>
             </TechTypes>
-			<BonusType>BONUS_IVORY</BonusType>
+			<BonusType>NONE</BonusType>
 			<PrereqBonuses>
-				<BonusType>BONUS_IRON</BonusType>
-				<BonusType>BONUS_MITHRIL</BonusType>
+				<BonusType>NONE</BonusType>
+				<BonusType>NONE</BonusType>
 			</PrereqBonuses>
 			<ProductionTraits>
             </ProductionTraits>
@@ -5806,7 +5806,7 @@
 			<PrereqTech>TECH_ARCHERY2</PrereqTech>
 			<TechTypes>
             </TechTypes>
-			<BonusType>BONUS_IRON</BonusType>
+			<BonusType>NONE</BonusType>
 			<PrereqBonuses>
             </PrereqBonuses>
 			<ProductionTraits>
@@ -7107,7 +7107,7 @@
 			<PrereqTech>TECH_ARCHERY3</PrereqTech>
 			<TechTypes>
             </TechTypes>
-			<BonusType>BONUS_GUNPOWDER</BonusType>
+			<BonusType>NONE</BonusType>
 			<PrereqBonuses>
             </PrereqBonuses>
 			<ProductionTraits>
@@ -8024,8 +8024,8 @@
             </TechTypes>
 			<BonusType>NONE</BonusType>
 			<PrereqBonuses>
-				<BonusType>BONUS_COPPER</BonusType>
-				<BonusType>BONUS_IRON</BonusType>
+				<BonusType>NONE</BonusType>
+				<BonusType>NONE</BonusType>
 				<BonusType>NONE</BonusType>
 				<BonusType>NONE</BonusType>
 			</PrereqBonuses>
@@ -8256,9 +8256,9 @@
             </TechTypes>
 			<BonusType>NONE</BonusType>
 			<PrereqBonuses>
-				<BonusType>BONUS_COPPER</BonusType>
-				<BonusType>BONUS_IRON</BonusType>
-				<BonusType>BONUS_MITHRIL</BonusType>
+				<BonusType>NONE</BonusType>
+				<BonusType>NONE</BonusType>
+				<BonusType>NONE</BonusType>
 				<BonusType>NONE</BonusType>
 			</PrereqBonuses>
 			<ProductionTraits>
@@ -8476,8 +8476,8 @@
 			</TechTypes>
 			<BonusType>NONE</BonusType>
 			<PrereqBonuses>
-				<BonusType>BONUS_IRON</BonusType>
-				<BonusType>BONUS_MITHRIL</BonusType>
+				<BonusType>NONE</BonusType>
+				<BonusType>NONE</BonusType>
 				<BonusType>NONE</BonusType>
 				<BonusType>NONE</BonusType>
 			</PrereqBonuses>
@@ -8698,10 +8698,10 @@
 			<PrereqTech>TECH_NAVY3</PrereqTech>
 			<TechTypes>
 			</TechTypes>
-			<BonusType>BONUS_GUNPOWDER</BonusType>
+			<BonusType>NONE</BonusType>
 			<PrereqBonuses>
-				<BonusType>BONUS_IRON</BonusType>
-				<BonusType>BONUS_MITHRIL</BonusType>
+				<BonusType>NONE</BonusType>
+				<BonusType>NONE</BonusType>
 				<BonusType>NONE</BonusType>
 				<BonusType>NONE</BonusType>			
             </PrereqBonuses>
