@@ -251,8 +251,8 @@
             <Sound>AS2D_IF_LEVELUP</Sound>
             <Button>,Art/Interface/Buttons/Promotions/Pinch.dds,Art/Interface/Buttons/Promotions_Atlas.dds,3,5</Button>
             <TechPrereq>TECH_ARCHERY3</TechPrereq>
-            <iExtraCombatStr>1</iExtraCombatStr>
-            <iExtraCombatDefense>1</iExtraCombatDefense>
+            <iExtraCombatStr>2</iExtraCombatStr>
+            <iExtraCombatDefense>2</iExtraCombatDefense>
             <iMinLevel>-1</iMinLevel>
             <UnitCombats>
 				<UnitCombat>
