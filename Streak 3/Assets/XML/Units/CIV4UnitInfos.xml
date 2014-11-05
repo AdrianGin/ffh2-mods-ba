@@ -1483,7 +1483,7 @@
 			<bFood>0</bFood>
 			<bNoBadGoodies>0</bNoBadGoodies>
 			<bOnlyDefensive>1</bOnlyDefensive>
-			<bNoCapture>0</bNoCapture>
+			<bNoCapture>1</bNoCapture>
 			<bQuickCombat>0</bQuickCombat>
 			<bRivalTerritory>0</bRivalTerritory>
 			<bMilitaryHappiness>0</bMilitaryHappiness>
@@ -1708,7 +1708,7 @@
 			<bFood>0</bFood>
 			<bNoBadGoodies>0</bNoBadGoodies>
 			<bOnlyDefensive>0</bOnlyDefensive>
-			<bNoCapture>0</bNoCapture>
+			<bNoCapture>1</bNoCapture>
 			<bQuickCombat>0</bQuickCombat>
 			<bRivalTerritory>0</bRivalTerritory>
 			<bMilitaryHappiness>0</bMilitaryHappiness>
@@ -1924,7 +1924,7 @@
 			<bFood>0</bFood>
 			<bNoBadGoodies>0</bNoBadGoodies>
 			<bOnlyDefensive>0</bOnlyDefensive>
-			<bNoCapture>0</bNoCapture>
+			<bNoCapture>1</bNoCapture>
 			<bQuickCombat>0</bQuickCombat>
 			<bRivalTerritory>0</bRivalTerritory>
 			<bMilitaryHappiness>0</bMilitaryHappiness>
@@ -5947,7 +5947,7 @@
 			<bFood>0</bFood>
 			<bNoBadGoodies>0</bNoBadGoodies>
 			<bOnlyDefensive>0</bOnlyDefensive>
-			<bNoCapture>0</bNoCapture>
+			<bNoCapture>1</bNoCapture>
 			<bQuickCombat>0</bQuickCombat>
 			<bRivalTerritory>0</bRivalTerritory>
 			<bMilitaryHappiness>0</bMilitaryHappiness>
