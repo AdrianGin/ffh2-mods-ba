@@ -4,7 +4,6 @@ Implement spells - Adrian
 LEVEL1
 -Blinding Light, select one stack within range 1, 33% chance to resist
 
-
 LEVEL2
 
 Remove "locked assets" from game options - Bas
@@ -29,24 +28,29 @@ Remove fallout and forest_burnt from terrain features - Adrian "This this is not
 
 
 
+**DOESN'T WORK**
+
+**Units which can fight must be inside city to scrap. - Make it so captured workers can be deleted (or they should be destroyed as they are captured)
+---workers must still be in city to be deleted!
+
+**Fix weapon upgrades stacking eg/swordsman can have copper and iron at the same time!
+---units can still buy all the upgrades and they stack
+---Also the promotions keeps reappearing each turn, can be bought multiple times for money(they dont stack however), hide the promotions they already have?
 
 
 
+***WORKS***
 
+***Can cast spells even if out of moves seems to work. (not sure what this was for, i'm pretty sure it already worked that way/Blinding light however still stops spellcastiing!)
+***slow, seems to work - hard to check
+***Scorch, works as expected
+***Enchanted blade, works as expected
+***Vitalize, added and works as expected. (would like to see it take 1-2 turns to terraform like bloom)
+***Rust, removed
 
-Done, ready to be tested:
-should be able to cast spell even if out of moves
-Fix weapon upgrades stacking eg/swordsman can have copper and iron at the same time!
--Slow, change resist and wear off % to 33%
-Units which can fight must be inside city to scrap. - Make it so captured workers can be deleted (or they should be destroyed as they are captured)
--Rust, remove this spell
--Enchanted blade, one turn only
--Scorch, removes forest, jungles and floodplains when turning into desert
--Vitalize, add into the game(missing atm), ice goes to tundra(checked by Adrian, Bas to test)
+***Remove "build culture"
+***Remove "build research"
+***Remove "build wealth"
 
+***Implement upgrades: gunpowder.
 
-Remove "build culture"
-Remove "build research"
-Remove "build wealth"
-
-Implement upgrades: gunpowder
