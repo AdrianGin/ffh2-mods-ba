@@ -4156,7 +4156,7 @@ bool CvUnit::canScrap() const
         return false;
     }
 
-	if( !plot()->isCity() )
+	if( !plot()->isCity() && canFight() )
 	{
 		return false;
 	}

@@ -5,7 +5,7 @@ LEVEL1
 -Enchanted blade, one turn only
 -Scorch, removes forest, jungles and floodplains when turning into desert
 -Blinding Light, select one stack within range 1, 33% chance to resist
--Slow, change resist and wear off % to 33%
+
 -Rust, remove this spell
 LEVEL2
 -Vitalize, add into the game(missing atm), ice goes to tundra(check)
@@ -24,11 +24,20 @@ Implement "not all units die in combat" system
 
 Remove circle from above flag if hidden unit is in the stack
 
-Fix weapon upgrades stacking eg/swordsman can have copper and iron at the same time!
+
 
 Implement upgrades: gunpowder, horse
 
 Reduce commerce ramp - Bas
+Commerce 2 needs Feudal?
 
 Remove fallout and forest_burnt from terrain features - Adrian
+
+
+
+
+Done, ready to be tested:
+should be able to cast spell even if out of moves
+Fix weapon upgrades stacking eg/swordsman can have copper and iron at the same time!
+-Slow, change resist and wear off % to 33%
 
