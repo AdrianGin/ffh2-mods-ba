@@ -2,16 +2,10 @@ Hunter/Assassin/Marksman should not be able to capture city
 
 Implement spells - Adrian
 LEVEL1
-
 -Blinding Light, select one stack within range 1, 33% chance to resist
 
 
 LEVEL2
--Vitalize, add into the game(missing atm), ice goes to tundra(check)
-
-Remove "build culture"
-
-
 
 Remove "locked assets" from game options - Bas
 
@@ -43,3 +37,10 @@ Units which can fight must be inside city to scrap. - Make it so captured worker
 -Rust, remove this spell
 -Enchanted blade, one turn only
 -Scorch, removes forest, jungles and floodplains when turning into desert
+-Vitalize, add into the game(missing atm), ice goes to tundra(checked by Adrian, Bas to test)
+
+
+Remove "build culture"
+Remove "build research"
+Remove "build wealth"
+
