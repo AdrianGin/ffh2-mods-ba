@@ -3713,29 +3713,41 @@ def reqBronzeWeapons(caster):
 	pPlayer = gc.getPlayer(caster.getOwner())
 	pCity = caster.plot().getPlotCity()
 	
+	if caster.isHasPromotion(gc.getInfoTypeForString('PROMOTION_BRONZE_WEAPONS')):
+		return False	
+	
+	if caster.isHasPromotion(gc.getInfoTypeForString('PROMOTION_IRON_WEAPONS')):
+		return False	
+	
+	if caster.isHasPromotion(gc.getInfoTypeForString('PROMOTION_MITHRIL_WEAPONS')):
+		return False	
+	
 	if pCity.hasBonus( gc.getInfoTypeForString('BONUS_COPPER') ) == True:
 		if gc.getUnitInfo(caster.getUnitType()).getWeaponTier() >= 1:
 			return True
 			
-			
-			
-		
 	return False
 
 def spellBronzeWeapons(caster):
 	promo = gc.getInfoTypeForString('PROMOTION_BRONZE_WEAPONS')
 	caster.setHasPromotion(promo, True)		
 		
-	if pCaster.isHasPromotion(gc.getInfoTypeForString('PROMOTION_IRON_WEAPONS')):
+	if caster.isHasPromotion(gc.getInfoTypeForString('PROMOTION_IRON_WEAPONS')):
 		pCaster.setHasPromotion(gc.getInfoTypeForString('PROMOTION_IRON_WEAPONS'), false)		
 		
-	if pCaster.isHasPromotion(gc.getInfoTypeForString('PROMOTION_MITHRIL_WEAPONS')):
-		pCaster.setHasPromotion(gc.getInfoTypeForString('PROMOTION_MITHRIL_WEAPONS'), false)		
+	if caster.isHasPromotion(gc.getInfoTypeForString('PROMOTION_MITHRIL_WEAPONS')):
+		caster.setHasPromotion(gc.getInfoTypeForString('PROMOTION_MITHRIL_WEAPONS'), false)		
 				
 		
 def reqIronWeapons(caster):
 	pPlayer = gc.getPlayer(caster.getOwner())
 	pCity = caster.plot().getPlotCity()
+	
+	if caster.isHasPromotion(gc.getInfoTypeForString('PROMOTION_IRON_WEAPONS')):
+		return False	
+	
+	if caster.isHasPromotion(gc.getInfoTypeForString('PROMOTION_MITHRIL_WEAPONS')):
+		return False
 	
 	if pCity.hasBonus( gc.getInfoTypeForString('BONUS_IRON') ) == True:
 		if gc.getUnitInfo(caster.getUnitType()).getWeaponTier() >= 2:
@@ -3747,17 +3759,20 @@ def spellIronWeapons(caster):
 	promo = gc.getInfoTypeForString('PROMOTION_IRON_WEAPONS')
 	caster.setHasPromotion(promo, True)		
 		
-	if pCaster.isHasPromotion(gc.getInfoTypeForString('PROMOTION_BRONZE_WEAPONS')):
-		pCaster.setHasPromotion(gc.getInfoTypeForString('PROMOTION_BRONZE_WEAPONS'), false)		
+	if caster.isHasPromotion(gc.getInfoTypeForString('PROMOTION_BRONZE_WEAPONS')):
+		caster.setHasPromotion(gc.getInfoTypeForString('PROMOTION_BRONZE_WEAPONS'), false)		
 					
-	if pCaster.isHasPromotion(gc.getInfoTypeForString('PROMOTION_MITHRIL_WEAPONS')):
-		pCaster.setHasPromotion(gc.getInfoTypeForString('PROMOTION_MITHRIL_WEAPONS'), false)		
+	if caster.isHasPromotion(gc.getInfoTypeForString('PROMOTION_MITHRIL_WEAPONS')):
+		caster.setHasPromotion(gc.getInfoTypeForString('PROMOTION_MITHRIL_WEAPONS'), false)		
 					
 		
 		
 def reqMithrilWeapons(caster):
 	pPlayer = gc.getPlayer(caster.getOwner())
 	pCity = caster.plot().getPlotCity()
+	
+	if caster.isHasPromotion(gc.getInfoTypeForString('PROMOTION_MITHRIL_WEAPONS')):
+		return False		
 	
 	if pCity.hasBonus( gc.getInfoTypeForString('BONUS_MITHRIL') ) == True:
 		if gc.getUnitInfo(caster.getUnitType()).getWeaponTier() >= 3:
@@ -3769,11 +3784,11 @@ def spellMithrilWeapons(caster):
 	promo = gc.getInfoTypeForString('PROMOTION_MITHRIL_WEAPONS')
 	caster.setHasPromotion(promo, True)		
 		
-	if pCaster.isHasPromotion(gc.getInfoTypeForString('PROMOTION_IRON_WEAPONS')):
-		pCaster.setHasPromotion(gc.getInfoTypeForString('PROMOTION_IRON_WEAPONS'), false)		
+	if caster.isHasPromotion(gc.getInfoTypeForString('PROMOTION_IRON_WEAPONS')):
+		caster.setHasPromotion(gc.getInfoTypeForString('PROMOTION_IRON_WEAPONS'), false)		
 		
-	if pCaster.isHasPromotion(gc.getInfoTypeForString('PROMOTION_BRONZE_WEAPONS')):
-		pCaster.setHasPromotion(gc.getInfoTypeForString('PROMOTION_BRONZE_WEAPONS'), false)		
+	if caster.isHasPromotion(gc.getInfoTypeForString('PROMOTION_BRONZE_WEAPONS')):
+		caster.setHasPromotion(gc.getInfoTypeForString('PROMOTION_BRONZE_WEAPONS'), false)		
 				
 		
 		
