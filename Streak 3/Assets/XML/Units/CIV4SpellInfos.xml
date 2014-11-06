@@ -410,7 +410,7 @@
             <PyResult>spellGunpowderWeapons(pCaster)</PyResult>
             <Effect>EFFECT_SPELL1</Effect>
             <Sound>AS2D_REPAIR</Sound>
-            <Button>,Art/Interface/Buttons/Promotions/Pinch.dds,Art/Interface/Buttons/Promotions_Atlas.dds,3,5</Button>
+            <Button>,Art/Interface/Buttons/WorldBuilder/Coal.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,4,12</Button>
         </SpellInfo>        
         
         <SpellInfo>
@@ -428,7 +428,7 @@
             <PyResult>spellHorseWeapons(pCaster)</PyResult>
             <Effect>EFFECT_SPELL1</Effect>
             <Sound>AS2D_REPAIR</Sound>
-            <Button>Art/Interface/Buttons/Promotions/thoroughbred.dds</Button>
+            <Button>,Art/Interface/Buttons/WorldBuilder/Horse.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,4,13</Button>
         </SpellInfo>           
         
         <SpellInfo>
@@ -446,7 +446,7 @@
             <PyResult>spellBronzeWeapons(pCaster)</PyResult>
             <Effect>EFFECT_SPELL1</Effect>
             <Sound>AS2D_REPAIR</Sound>
-            <Button>Art/Interface/Buttons/Promotions/Bronzeweapons.dds</Button>
+            <Button>,Art/Interface/Buttons/WorldBuilder/Copper.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,5,12</Button>
         </SpellInfo>
         
         <SpellInfo>
@@ -464,7 +464,7 @@
             <PyResult>spellIronWeapons(pCaster)</PyResult>
             <Effect>EFFECT_SPELL1</Effect>
             <Sound>AS2D_REPAIR</Sound>
-            <Button>Art/Interface/Buttons/Promotions/Ironweapons.dds</Button>
+            <Button>,Art/Interface/Buttons/WorldBuilder/Iron.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,6,13</Button>
         </SpellInfo>
         
         <SpellInfo>
@@ -482,7 +482,7 @@
             <PyResult>spellMithrilWeapons(pCaster)</PyResult>
             <Effect>EFFECT_SPELL1</Effect>
             <Sound>AS2D_REPAIR</Sound>
-            <Button>Art/Interface/Buttons/Promotions/Mithrilweapons.dds</Button>
+            <Button>,Art/Interface/Buttons/WorldBuilder/Silver.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,4,14</Button>
         </SpellInfo>
         
         

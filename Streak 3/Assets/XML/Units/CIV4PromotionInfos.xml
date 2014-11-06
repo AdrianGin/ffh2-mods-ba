@@ -238,7 +238,7 @@
             <Type>PROMOTION_BRONZE_WEAPONS</Type>
             <Description>TXT_KEY_PROMOTION_BRONZE_WEAPONS</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
-            <Button>Art/Interface/Buttons/Promotions/Bronzeweapons.dds</Button>
+            <Button>,Art/Interface/Buttons/WorldBuilder/Copper.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,5,12</Button>
             <iExtraCombatStr>1</iExtraCombatStr>
             <iExtraCombatDefense>1</iExtraCombatDefense>
             <iMinLevel>-1</iMinLevel>
@@ -249,7 +249,7 @@
             <Type>PROMOTION_GUNPOWDER_WEAPONS</Type>
             <Description>TXT_KEY_PROMOTION_GUNPOWDER_WEAPONS</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
-            <Button>,Art/Interface/Buttons/Promotions/Pinch.dds,Art/Interface/Buttons/Promotions_Atlas.dds,3,5</Button>
+            <Button>,Art/Interface/Buttons/WorldBuilder/Coal.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,4,12</Button>
             <TechPrereq>TECH_ARCHERY3</TechPrereq>
             <iExtraCombatStr>2</iExtraCombatStr>
             <iExtraCombatDefense>2</iExtraCombatDefense>
@@ -267,7 +267,7 @@
             <Type>PROMOTION_HORSE_WEAPONS</Type>
             <Description>TXT_KEY_PROMOTION_HORSE_WEAPONS</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
-            <Button>Art/Interface/Buttons/Promotions/thoroughbred.dds</Button>
+            <Button>,Art/Interface/Buttons/WorldBuilder/Horse.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,4,13</Button>
             <TechPrereq>TECH_FOOD1</TechPrereq>
             <iExtraCombatStr>1</iExtraCombatStr>
             <iExtraCombatDefense>1</iExtraCombatDefense>
@@ -1852,7 +1852,7 @@
             <Description>TXT_KEY_PROMOTION_IRON_WEAPONS</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <TechPrereq>TECH_NEVER</TechPrereq>
-            <Button>Art/Interface/Buttons/Promotions/Ironweapons.dds</Button>
+            <Button>,Art/Interface/Buttons/WorldBuilder/Iron.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,6,13</Button>
             <iExtraCombatStr>2</iExtraCombatStr>
             <iExtraCombatDefense>2</iExtraCombatDefense>
             <iMinLevel>-1</iMinLevel>          
@@ -2008,7 +2008,7 @@
             <Description>TXT_KEY_PROMOTION_MITHRIL_WEAPONS</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <TechPrereq>TECH_NEVER</TechPrereq>
-            <Button>Art/Interface/Buttons/Promotions/Mithrilweapons.dds</Button>
+            <Button>,Art/Interface/Buttons/WorldBuilder/Silver.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,4,14</Button>
             <iExtraCombatStr>3</iExtraCombatStr>
             <iExtraCombatDefense>3</iExtraCombatDefense>
             <iMinLevel>-1</iMinLevel>
