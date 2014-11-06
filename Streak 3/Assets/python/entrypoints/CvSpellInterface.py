@@ -3801,7 +3801,7 @@ def reqGunpowderWeapons(caster):
 		return False		
 				
 	if pCity.hasBonus( gc.getInfoTypeForString('BONUS_GUNPOWDER') ) == True:
-		if gc.getUnitInfo(caster.getUnitType()).getType() == gc.getInfoTypeForString('UNIT_ARQUEBUS'):
+		if caster.getUnitType() == gc.getInfoTypeForString('UNIT_ARQUEBUS'):
 			return True
 		
 	return False
