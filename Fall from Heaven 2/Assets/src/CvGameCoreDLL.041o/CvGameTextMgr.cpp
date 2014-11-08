@@ -6315,6 +6315,12 @@ void CvGameTextMgr::parseSpellHelp(CvWStringBuffer &szBuffer, SpellTypes eSpell,
         szBuffer.append(gDLL->getText("TXT_KEY_SPELL_TILE_SELECT"));
     }
 
+	if (GC.getSpellInfo(eSpell).isUnitSelect())
+    {
+        szBuffer.append(pcNewline);
+        szBuffer.append(gDLL->getText("TXT_KEY_SPELL_UNIT_SELECT"));
+    }
+
     if (GC.getSpellInfo(eSpell).isPrereqSlaveTrade())
     {
         szBuffer.append(pcNewline);

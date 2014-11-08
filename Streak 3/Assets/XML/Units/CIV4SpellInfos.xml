@@ -241,8 +241,9 @@
             <Description>Scorch</Description>
             <Help></Help>
             <PromotionPrereq1>PROMOTION_FIRE1</PromotionPrereq1>
-            <bGlobal>1</bGlobal>
+            <bGlobal>0</bGlobal>
             <bIsTileSelect>1</bIsTileSelect>
+            <bIsUnitSelect>1</bIsUnitSelect>
             <bAllowAI>1</bAllowAI>
             <bAllowAutomateTerrain>1</bAllowAutomateTerrain>
             <bCausesWar>1</bCausesWar>

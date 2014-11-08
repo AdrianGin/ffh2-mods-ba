@@ -363,7 +363,23 @@
 			<bHighlightPlot>1</bHighlightPlot>
 			<bSelectType>0</bSelectType>
 			<bSelectAll>0</bSelectAll>
+			<Button>,Art/Interface/Buttons/Actions/Bombard.dds,Art/Interface/Buttons/Actions_Builds_LeaderHeads_Specialists_Atlas.dds,2,1</Button>
 		</InterfaceModeInfo>
+		
+		<InterfaceModeInfo>
+			<Type>INTERFACEMODE_CAST_RANGED_SPELL</Type>
+			<Description></Description>
+			<Help/>
+			<CursorType>CURSOR_PING</CursorType>
+			<Mission>MISSION_CAST_RANGED_SPELL</Mission>
+			<bVisible>1</bVisible>
+			<bGotoPlot>0</bGotoPlot>
+			<bHighlightPlot>1</bHighlightPlot>
+			<bSelectType>0</bSelectType>
+			<bSelectAll>0</bSelectAll>
+			<Button>,Art/Interface/Buttons/Actions/Bombard.dds,Art/Interface/Buttons/Actions_Builds_LeaderHeads_Specialists_Atlas.dds,2,1</Button>
+		</InterfaceModeInfo>
+				
 		<InterfaceModeInfo>
 			<Type>INTERFACEMODE_SAVE_PLOT_NIFS</Type>
 			<Description></Description>

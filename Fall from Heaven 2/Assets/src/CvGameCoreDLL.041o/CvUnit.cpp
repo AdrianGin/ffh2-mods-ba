@@ -14060,6 +14060,22 @@ bool CvUnit::potentialWarAction(const CvPlot* pPlot) const
 }
 
 //FfH Spell System: Added by Kael 07/23/2007
+bool CvUnit::canCastSelectTileSpells(void)
+{
+	for (int iJ = 0; iJ < GC.getNumSpellInfos(); iJ++)
+    {
+        if (canCast(iJ, true))
+        {
+            if (GC.getSpellInfo((SpellTypes)iJ).isTileSelect() )
+            {
+                return true;
+            }
+        }
+    }
+	return false;
+}
+
+
 bool CvUnit::canCast(int spell, bool bTestVisible)
 {
     SpellTypes eSpell = (SpellTypes)spell;
@@ -14909,8 +14925,7 @@ void CvUnit::cast(int spell)
     }
     if (GC.getSpellInfo((SpellTypes)spell).isGlobal())
     {
-		//Global = 1 means use once, otherwise Global = 2 is use more than once.
-		if( GC.getSpellInfo((SpellTypes)spell).isGlobal() && (GC.getSpellInfo((SpellTypes)spell).isTileSelect() == false) )
+		if( GC.getSpellInfo((SpellTypes)spell).isGlobal() )
 		{
 			GET_PLAYER(getOwnerINLINE()).setFeatAccomplished(FEAT_GLOBAL_SPELL, true);
 			for (int iPlayer = 0; iPlayer < MAX_CIV_PLAYERS; ++iPlayer)
@@ -14922,6 +14937,9 @@ void CvUnit::cast(int spell)
 			}
 		}
     }
+
+
+
     int iMiscastChance = GC.getSpellInfo((SpellTypes)spell).getMiscastChance() + m_pUnitInfo->getMiscastChance();
     if (iMiscastChance > 0)
     {

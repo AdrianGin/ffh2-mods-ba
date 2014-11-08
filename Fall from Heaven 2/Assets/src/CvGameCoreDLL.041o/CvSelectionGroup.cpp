@@ -2050,6 +2050,21 @@ bool CvSelectionGroup::canDoInterfaceMode(InterfaceModeTypes eInterfaceMode)
 				return true;
 			}
 			break;
+
+		case INTERFACEMODE_CAST_RANGED_SPELL:
+			if( pLoopUnit->canCastSelectTileSpells() )
+			{
+				return true;
+			}
+			break;
+
+		case INTERFACEMODE_PYTHON_PICK_PLOT:
+			if( pLoopUnit->canCastSelectTileSpells() )
+			{
+				return true;
+			}
+			break;
+
 		}
 
 		pUnitNode = nextUnitNode(pUnitNode);

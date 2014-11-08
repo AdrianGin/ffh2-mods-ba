@@ -206,5 +206,10 @@
 			<Description>TXT_KEY_COMMAND_CAST</Description>
 			<Help/>
 		</CommandInfo>
+		<CommandInfo>
+			<Type>COMMAND_CAST_RANGED</Type>
+			<Description>TXT_KEY_COMMAND_CAST</Description>
+			<Help/>
+		</CommandInfo>
 	</CommandInfos>
 </Civ4CommandInfos>

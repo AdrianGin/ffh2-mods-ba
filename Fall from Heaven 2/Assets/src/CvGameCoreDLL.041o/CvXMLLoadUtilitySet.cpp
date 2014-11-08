@@ -1209,6 +1209,7 @@ void CvXMLLoadUtility::SetGlobalActionInfo()
 
 //FfH Spell System: Added by Kael 07/23/2007
 		GC.getNumSpellInfos() +
+		GC.getNumSpellInfos() +
 //FfH: End Add
 /*************************************************************************************************/
 /**	ADDON (automatic Spellcasting) Sephi                                     					**/

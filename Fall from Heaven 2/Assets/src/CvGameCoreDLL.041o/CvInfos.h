@@ -907,7 +907,7 @@ protected:
     bool m_bGlobal;
 	//Added Adrian
 	bool m_bIsTileSelect;
-	bool m_bIszUnitSelect;
+	bool m_bIsUnitSelect;
 
     bool m_bInBordersOnly;
     bool m_bInCityOnly;

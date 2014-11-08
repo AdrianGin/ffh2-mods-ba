@@ -846,6 +846,8 @@ public:
     virtual int AI_sacrificeValue(const CvPlot* pPlot) const = 0;
 
 //FfH Spell System: Added by Kael 07/23/2007
+	bool canCastSelectTileSpells(void);
+
 	bool canCast(int spell, bool bTestVisible);
 	bool canCreateUnit(int spell) const;
 	bool canAddPromotion(int spell);
