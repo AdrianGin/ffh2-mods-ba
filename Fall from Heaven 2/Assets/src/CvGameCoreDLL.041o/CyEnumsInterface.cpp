@@ -1196,6 +1196,7 @@ void CyEnumsPythonInterface()
 
 //FfH Spell System: Added by Kael 07/23/2007
 		.value("COMMAND_CAST", COMMAND_CAST)
+		.value("COMMAND_CAST_RANGED", COMMAND_CAST_RANGED)
 //FfH: End Add
 
 		.value("NUM_COMMAND_TYPES", NUM_COMMAND_TYPES)
@@ -1894,6 +1895,7 @@ void CyEnumsPythonInterface()
 
 //FfH Spell System: Added by Kael 07/23/2007
 		.value("ACTIONSUBTYPE_SPELL", ACTIONSUBTYPE_SPELL)
+		.value("ACTIONSUBTYPE_SELECT_TILE", ACTIONSUBTYPE_SELECT_TILE)
 //FfH: End Add
 /*************************************************************************************************/
 /**	ADDON (automatic Spellcasting) Sephi                                     					**/

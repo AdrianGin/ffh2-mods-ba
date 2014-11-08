@@ -1313,6 +1313,8 @@
             <Button>Art/Interface/Buttons/Promotions/Fire1.dds</Button>
             <iAIWeight>50</iAIWeight>
             <BonusPrereq>BONUS_MANA_FIRE</BonusPrereq>
+            <iAirRangeChange>1</iAirRangeChange>
+            
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_FIRE2</Type>

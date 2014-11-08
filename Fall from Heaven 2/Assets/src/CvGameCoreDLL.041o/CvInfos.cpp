@@ -3069,7 +3069,14 @@ m_bAdjacentToWaterOnly(false),
 m_bCasterMustBeAlive(false),
 m_bCasterNoDuration(false),
 m_bCausesWar(false),
+
+
+
 m_bGlobal(false),
+
+m_bIsTileSelect(false),
+m_bIsUnitSelect(false),
+
 m_bInBordersOnly(false),
 m_bInCityOnly(false),
 m_bPrereqSlaveTrade(false),
@@ -3282,6 +3289,17 @@ bool CvSpellInfo::isGlobal() const
 {
 	return m_bGlobal;
 }
+
+bool CvSpellInfo::isTileSelect() const
+{
+	return m_bIsTileSelect;
+}
+
+bool CvSpellInfo::isUnitSelect() const
+{
+	return m_bIsUnitSelect;
+}
+
 
 bool CvSpellInfo::isInBordersOnly() const
 {
@@ -3584,6 +3602,9 @@ void CvSpellInfo::read(FDataStreamBase* stream)
 	stream->Read(&m_bCasterNoDuration);
 	stream->Read(&m_bCausesWar);
 	stream->Read(&m_bGlobal);
+	stream->Read(&m_bIsTileSelect);
+	stream->Read(&m_bIsUnitSelect);
+
 	stream->Read(&m_bInBordersOnly);
 	stream->Read(&m_bInCityOnly);
 	stream->Read(&m_bPrereqSlaveTrade);
@@ -3682,6 +3703,9 @@ void CvSpellInfo::write(FDataStreamBase* stream)
 	stream->Write(m_bCasterNoDuration);
 	stream->Write(m_bCausesWar);
 	stream->Write(m_bGlobal);
+	stream->Write(m_bIsTileSelect);
+	stream->Write(m_bIsUnitSelect);
+
 	stream->Write(m_bInBordersOnly);
 	stream->Write(m_bInCityOnly);
 	stream->Write(m_bPrereqSlaveTrade);
@@ -3798,6 +3822,10 @@ bool CvSpellInfo::read(CvXMLLoadUtility* pXML)
 	pXML->GetChildXmlValByName(&m_bCasterNoDuration, "bCasterNoDuration");
 	pXML->GetChildXmlValByName(&m_bCausesWar, "bCausesWar");
 	pXML->GetChildXmlValByName(&m_bGlobal, "bGlobal");
+
+	pXML->GetChildXmlValByName(&m_bIsTileSelect, "bIsTileSelect");
+	pXML->GetChildXmlValByName(&m_bIsUnitSelect, "bIsUnitSelect");
+
 	pXML->GetChildXmlValByName(&m_bInBordersOnly, "bInBordersOnly");
 	pXML->GetChildXmlValByName(&m_bInCityOnly, "bInCityOnly");
 	pXML->GetChildXmlValByName(&m_bPrereqSlaveTrade, "bPrereqSlaveTrade");
@@ -4215,7 +4243,9 @@ int CvActionInfo::getCommandData() const
 				(ACTIONSUBTYPE_UNIT == m_eSubType)
 
 //FfH Spell System: Added by Kael 07/23/2007
-				|| (ACTIONSUBTYPE_SPELL == m_eSubType)
+				|| (ACTIONSUBTYPE_SPELL == m_eSubType) 
+				|| (ACTIONSUBTYPE_SELECT_TILE == m_eSubType)
+				
 //FfH: End Add
 /*************************************************************************************************/
 /**	ADDON (automatic Spellcasting) Sephi                                     					**/
@@ -4317,6 +4347,10 @@ int CvActionInfo::getCommandType() const
 
 //FfH Spell System: Added by Kael 07/23/2007
 	else if (ACTIONSUBTYPE_SPELL == m_eSubType )
+	{
+		return GC.getSpellInfo((SpellTypes)m_iOriginalIndex).getCommandType();
+	}
+	else if (ACTIONSUBTYPE_SELECT_TILE == m_eSubType )
 	{
 		return GC.getSpellInfo((SpellTypes)m_iOriginalIndex).getCommandType();
 	}
@@ -4447,6 +4481,10 @@ CvHotkeyInfo* CvActionInfo::getHotkeyInfo() const
 
 //FfH Spell System: Added by Kael 07/23/2007
         case ACTIONSUBTYPE_SPELL:
+			return &GC.getSpellInfo((SpellTypes)getOriginalIndex());
+			break;
+
+        case ACTIONSUBTYPE_SELECT_TILE:
 			return &GC.getSpellInfo((SpellTypes)getOriginalIndex());
 			break;
 //FfH: End Add

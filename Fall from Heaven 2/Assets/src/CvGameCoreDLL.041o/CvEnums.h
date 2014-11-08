@@ -1602,6 +1602,7 @@ enum CommandTypes					// Exposed to Python
 
 //FfH: Added by Kael 07/23/2007
 	COMMAND_CAST,
+	COMMAND_CAST_RANGED,
 //FfH: End Add
 
 #ifdef _USRDLL
@@ -2689,6 +2690,8 @@ enum ActionSubTypes					// Exposed to Python
 
 //FfH: Added by Kael 07/23/2007
 	ACTIONSUBTYPE_SPELL,
+	//Added Adrian
+	ACTIONSUBTYPE_SELECT_TILE,
 //FfH: End Add
 /*************************************************************************************************/
 /**	ADDON (automatic Spellcasting) Sephi                                     					**/

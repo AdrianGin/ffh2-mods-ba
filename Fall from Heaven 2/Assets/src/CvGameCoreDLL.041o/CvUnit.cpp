@@ -14909,13 +14909,17 @@ void CvUnit::cast(int spell)
     }
     if (GC.getSpellInfo((SpellTypes)spell).isGlobal())
     {
-        GET_PLAYER(getOwnerINLINE()).setFeatAccomplished(FEAT_GLOBAL_SPELL, true);
-		for (int iPlayer = 0; iPlayer < MAX_CIV_PLAYERS; ++iPlayer)
+		//Global = 1 means use once, otherwise Global = 2 is use more than once.
+		if( GC.getSpellInfo((SpellTypes)spell).isGlobal() && (GC.getSpellInfo((SpellTypes)spell).isTileSelect() == false) )
 		{
-		    if (GET_PLAYER((PlayerTypes)iPlayer).isAlive())
-		    {
-                gDLL->getInterfaceIFace()->addMessage((PlayerTypes)iPlayer, false, GC.getEVENT_MESSAGE_TIME(), gDLL->getText("TXT_KEY_MESSAGE_GLOBAL_SPELL", GC.getSpellInfo((SpellTypes)spell).getDescription()), "AS2D_CIVIC_ADOPT", MESSAGE_TYPE_MINOR_EVENT);
-		    }
+			GET_PLAYER(getOwnerINLINE()).setFeatAccomplished(FEAT_GLOBAL_SPELL, true);
+			for (int iPlayer = 0; iPlayer < MAX_CIV_PLAYERS; ++iPlayer)
+			{
+				if (GET_PLAYER((PlayerTypes)iPlayer).isAlive())
+				{
+					gDLL->getInterfaceIFace()->addMessage((PlayerTypes)iPlayer, false, GC.getEVENT_MESSAGE_TIME(), gDLL->getText("TXT_KEY_MESSAGE_GLOBAL_SPELL", GC.getSpellInfo((SpellTypes)spell).getDescription()), "AS2D_CIVIC_ADOPT", MESSAGE_TYPE_MINOR_EVENT);
+				}
+			}
 		}
     }
     int iMiscastChance = GC.getSpellInfo((SpellTypes)spell).getMiscastChance() + m_pUnitInfo->getMiscastChance();

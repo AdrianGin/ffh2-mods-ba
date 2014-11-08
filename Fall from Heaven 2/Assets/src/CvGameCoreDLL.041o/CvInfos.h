@@ -828,6 +828,10 @@ public:
 	bool isCausesWar() const;
 	bool isCopyCastersPromotions() const;
 	bool isGlobal() const;
+	bool isTileSelect() const;
+	bool isUnitSelect() const;
+
+
 	bool isInBordersOnly() const;
 	bool isInCityOnly() const;
 	bool isPrereqSlaveTrade() const;
@@ -901,6 +905,10 @@ protected:
     bool m_bCasterNoDuration;
     bool m_bCausesWar;
     bool m_bGlobal;
+	//Added Adrian
+	bool m_bIsTileSelect;
+	bool m_bIszUnitSelect;
+
     bool m_bInBordersOnly;
     bool m_bInCityOnly;
     bool m_bPrereqSlaveTrade;
