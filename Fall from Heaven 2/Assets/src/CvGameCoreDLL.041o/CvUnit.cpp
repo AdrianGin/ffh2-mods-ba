@@ -2783,6 +2783,10 @@ bool CvUnit::canDoCommand(CommandTypes eCommand, int iData1, int iData2, bool bT
 		break;
 
 //FfH Spell System: Added by Kael 07/23/2007
+	case COMMAND_CAST_RANGED:
+		return true;
+		break;
+
 	case COMMAND_CAST:{
 		if(canCast(iData1, bTestVisible))
 		{
@@ -8977,6 +8981,7 @@ BuildTypes CvUnit::getBuildType() const
 		case MISSION_GOLDEN_AGE:
 		case MISSION_LEAD:
 		case MISSION_ESPIONAGE:
+		case MISSION_CAST_RANGED_SPELL:
 		case MISSION_DIE_ANIMATION:
 			break;
 
@@ -14075,6 +14080,16 @@ bool CvUnit::canCastSelectTileSpells(void)
 	return false;
 }
 
+bool CvUnit::castSelectTileSpells(void)
+{
+	FAssert(GET_PLAYER(getOwnerINLINE()).isHuman());
+	CvPopupInfo* pInfo = new CvPopupInfo(BUTTONPOPUP_CAST_RANGED_SPELL);
+	if (NULL != pInfo)
+	{
+		gDLL->getInterfaceIFace()->addPopup(pInfo, getOwnerINLINE(), true);
+	}
+	return false;
+}
 
 bool CvUnit::canCast(int spell, bool bTestVisible)
 {

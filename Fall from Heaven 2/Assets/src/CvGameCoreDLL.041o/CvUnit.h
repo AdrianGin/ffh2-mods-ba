@@ -847,6 +847,7 @@ public:
 
 //FfH Spell System: Added by Kael 07/23/2007
 	bool canCastSelectTileSpells(void);
+	bool castSelectTileSpells(void);
 
 	bool canCast(int spell, bool bTestVisible);
 	bool canCreateUnit(int spell) const;

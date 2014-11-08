@@ -368,11 +368,11 @@
 		
 		<InterfaceModeInfo>
 			<Type>INTERFACEMODE_CAST_RANGED_SPELL</Type>
-			<Description></Description>
-			<Help/>
+			<Description>TXT_KEY_INTERFACEMODE_CAST_RANGED_SPELL</Description>
+			<Help>TXT_KEY_INTERFACEMODE_CAST_RANGED_SPELL_HELP</Help>
 			<CursorType>CURSOR_PING</CursorType>
-			<Mission>MISSION_CAST_RANGED_SPELL</Mission>
-			<bVisible>1</bVisible>
+			<Mission>NONE</Mission>
+			<bVisible>0</bVisible>
 			<bGotoPlot>0</bGotoPlot>
 			<bHighlightPlot>1</bHighlightPlot>
 			<bSelectType>0</bSelectType>

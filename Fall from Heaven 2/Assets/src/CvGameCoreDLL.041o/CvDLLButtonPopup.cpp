@@ -390,6 +390,15 @@ void CvDLLButtonPopup::OnOkClicked(CvPopup* pPopup, PopupReturn *pPopupReturn, C
 		}
 		break;
 
+
+	case BUTTONPOPUP_CAST_RANGED_SPELL:
+		if (pPopupReturn->getButtonClicked() != 0)
+		{
+			int iAction = info.getData1();
+			GC.getGameINLINE().selectionListGameNetMessage(GAMEMESSAGE_DO_COMMAND, GC.getActionInfo(iAction).getCommandType(), GC.getActionInfo(iAction).getCommandData(), -1, 0, info.getOption1());
+		}
+		break;
+
 	case BUTTONPOPUP_CHANGECIVIC:
 		if (pPopupReturn->getButtonClicked() == 0)
 		{
@@ -909,6 +918,13 @@ bool CvDLLButtonPopup::launchButtonPopup(CvPopup* pPopup, CvPopupInfo &info)
 	case BUTTONPOPUP_DOESPIONAGE_TARGET:
 		bLaunched = launchDoEspionageTargetPopup(pPopup, info);
 		break;
+
+	case BUTTONPOPUP_CAST_RANGED_SPELL:
+		bLaunched = launchChooseRangedSpellPopup(pPopup, info);
+		break;
+
+
+
 	case BUTTONPOPUP_MAIN_MENU:
 		bLaunched = launchMainMenuPopup(pPopup, info);
 		break;
@@ -1918,6 +1934,48 @@ bool CvDLLButtonPopup::launchLeadUnitPopup(CvPopup* pPopup, CvPopupInfo &info)
 
 	return (true);
 }
+
+
+
+bool CvDLLButtonPopup::launchChooseRangedSpellPopup(CvPopup* pPopup, CvPopupInfo &info)
+{
+	CvUnit* pUnit;
+	CvPlot* pPlot;
+	CvWString szBuffer;
+
+	pUnit = gDLL->getInterfaceIFace()->getHeadSelectedUnit();
+	if (NULL == pUnit)
+	{
+		return (false);
+	}
+
+	pPlot = pUnit->plot();
+	if (NULL == pPlot)
+	{
+		return (false);
+	}
+
+	gDLL->getInterfaceIFace()->popupSetBodyString(pPopup, gDLL->getText("TXT_KEY_SELECT_SPELL"));
+
+	for (int iJ = 0; iJ < GC.getNumSpellInfos(); iJ++)
+    {
+        if (pUnit->canCast(iJ, true))
+        {
+            if (GC.getSpellInfo((SpellTypes)iJ).isTileSelect() )
+            {
+				szBuffer = GC.getSpellInfo((SpellTypes)iJ).getDescription();
+				gDLL->getInterfaceIFace()->popupAddGenericButton(pPopup, szBuffer, ARTFILEMGR.getInterfaceArtInfo("ESPIONAGE_BUTTON")->getPath(), iJ, WIDGET_GENERAL, -1);
+            }
+        }
+    }
+
+	gDLL->getInterfaceIFace()->popupAddGenericButton(pPopup, gDLL->getText("TXT_KEY_NEVER_MIND"), ARTFILEMGR.getInterfaceArtInfo("INTERFACE_BUTTONS_CANCEL")->getPath(), NO_SPELL, WIDGET_GENERAL);
+
+	gDLL->getInterfaceIFace()->popupLaunch(pPopup, false, POPUPSTATE_IMMEDIATE);
+
+	return (true);
+}
+
 
 bool CvDLLButtonPopup::launchDoEspionagePopup(CvPopup* pPopup, CvPopupInfo &info)
 {

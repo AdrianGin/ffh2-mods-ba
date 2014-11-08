@@ -208,8 +208,10 @@
 		</CommandInfo>
 		<CommandInfo>
 			<Type>COMMAND_CAST_RANGED</Type>
-			<Description>TXT_KEY_COMMAND_CAST</Description>
+			<Description>TXT_KEY_COMMAND_CAST_RANGED</Description>
 			<Help/>
+			<bVisible>1</bVisible>
+			<Button>Art/Interface/Buttons/Spells/Add to City.dds</Button>
 		</CommandInfo>
 	</CommandInfos>
 </Civ4CommandInfos>

@@ -654,6 +654,7 @@ CvPlot* CvSelectionGroup::lastMissionPlot()
 		case MISSION_BUILD:
 		case MISSION_LEAD:
 		case MISSION_ESPIONAGE:
+		case MISSION_CAST_RANGED_SPELL:
 		case MISSION_DIE_ANIMATION:
 			break;
 
@@ -969,6 +970,13 @@ bool CvSelectionGroup::canStartMission(int iMission, int iData1, int iData2, CvP
 			}
 			break;
 
+		case MISSION_CAST_RANGED_SPELL:
+			if (pLoopUnit->canCastSelectTileSpells())
+			{
+				return true;
+			}
+			break;
+
 		case MISSION_DIE_ANIMATION:
 			return false;
 			break;
@@ -1137,6 +1145,7 @@ void CvSelectionGroup::startMission()
 		case MISSION_BUILD:
 		case MISSION_LEAD:
 		case MISSION_ESPIONAGE:
+		case MISSION_CAST_RANGED_SPELL:
 		case MISSION_DIE_ANIMATION:
 			break;
 
@@ -1373,6 +1382,15 @@ void CvSelectionGroup::startMission()
 					pUnitNode = NULL; // allow one unit at a time to do espionage
 					break;
 
+				case MISSION_CAST_RANGED_SPELL:
+					if (pLoopUnit->castSelectTileSpells())
+					{
+						bAction = true;
+					}
+					pUnitNode = NULL; // allow one unit at a time to cast ranged spells
+					break;
+
+
 				case MISSION_DIE_ANIMATION:
 					bAction = true;
 					break;
@@ -1608,6 +1626,7 @@ void CvSelectionGroup::continueMission(int iSteps)
 				case MISSION_GOLDEN_AGE:
 				case MISSION_LEAD:
 				case MISSION_ESPIONAGE:
+				case MISSION_CAST_RANGED_SPELL:
 				case MISSION_DIE_ANIMATION:
 					break;
 
@@ -1692,6 +1711,7 @@ void CvSelectionGroup::continueMission(int iSteps)
 			case MISSION_GOLDEN_AGE:
 			case MISSION_LEAD:
 			case MISSION_ESPIONAGE:
+			case MISSION_CAST_RANGED_SPELL:
 			case MISSION_DIE_ANIMATION:
 				bDone = true;
 				break;
@@ -1896,6 +1916,26 @@ bool CvSelectionGroup::canEverDoCommand(CommandTypes eCommand, int iData1, int i
 			return false;
 		}
 	}
+	else if(eCommand == COMMAND_CAST_RANGED)
+	{
+		CLLNode<IDInfo>* pUnitNode = headUnitNode();
+
+		while (pUnitNode != NULL)
+		{
+			CvUnit *pLoopUnit = ::getUnit(pUnitNode->m_data);
+			pUnitNode = nextUnitNode(pUnitNode);
+
+			if (pLoopUnit->canCastSelectTileSpells())
+			{
+				return true;
+			}
+		}
+
+		//no loaded unit
+		return false;
+	}
+
+
 
 	return true;
 }
@@ -2054,7 +2094,7 @@ bool CvSelectionGroup::canDoInterfaceMode(InterfaceModeTypes eInterfaceMode)
 		case INTERFACEMODE_CAST_RANGED_SPELL:
 			if( pLoopUnit->canCastSelectTileSpells() )
 			{
-				return true;
+				//return true;
 			}
 			break;
 
