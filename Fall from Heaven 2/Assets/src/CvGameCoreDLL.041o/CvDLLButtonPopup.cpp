@@ -392,10 +392,15 @@ void CvDLLButtonPopup::OnOkClicked(CvPopup* pPopup, PopupReturn *pPopupReturn, C
 
 
 	case BUTTONPOPUP_CAST_RANGED_SPELL:
-		if (pPopupReturn->getButtonClicked() != 0)
+		if (pPopupReturn->getButtonClicked() != -1)
 		{
-			int iAction = info.getData1();
-			GC.getGameINLINE().selectionListGameNetMessage(GAMEMESSAGE_DO_COMMAND, GC.getActionInfo(iAction).getCommandType(), GC.getActionInfo(iAction).getCommandData(), -1, 0, info.getOption1());
+			int spellIndex = pPopupReturn->getButtonClicked();
+			
+			gDLL->getInterfaceIFace()->setInterfaceMode(INTERFACEMODE_CAST_RANGED_SPELL);
+			//GC.getGameINLINE().selectionListGameNetMessage(GAMEMESSAGE_DO_COMMAND, COMMAND_CAST, spellIndex);
+
+
+			//GC.getGameINLINE().selectionListGameNetMessage(GAMEMESSAGE_DO_COMMAND, COMMAND_CAST, iAction, -1, 0, info.getOption1());
 		}
 		break;
 
@@ -1964,7 +1969,7 @@ bool CvDLLButtonPopup::launchChooseRangedSpellPopup(CvPopup* pPopup, CvPopupInfo
             if (GC.getSpellInfo((SpellTypes)iJ).isTileSelect() )
             {
 				szBuffer = GC.getSpellInfo((SpellTypes)iJ).getDescription();
-				gDLL->getInterfaceIFace()->popupAddGenericButton(pPopup, szBuffer, ARTFILEMGR.getInterfaceArtInfo("ESPIONAGE_BUTTON")->getPath(), iJ, WIDGET_GENERAL, -1);
+				gDLL->getInterfaceIFace()->popupAddGenericButton(pPopup, szBuffer, GC.getSpellInfo((SpellTypes)iJ).getButton(), iJ, WIDGET_GENERAL, iJ);
             }
         }
     }

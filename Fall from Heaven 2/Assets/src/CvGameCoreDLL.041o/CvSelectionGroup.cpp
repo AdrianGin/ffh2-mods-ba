@@ -1166,7 +1166,7 @@ void CvSelectionGroup::startMission()
 			pLoopUnit = ::getUnit(pUnitNode->m_data);
 			pUnitNode = nextUnitNode(pUnitNode);
 
-			if (pLoopUnit->canMove())
+			//if (pLoopUnit->canMove())
 			{
 				switch (headMissionQueueNode()->m_data.eMissionType)
 				{
@@ -2094,7 +2094,7 @@ bool CvSelectionGroup::canDoInterfaceMode(InterfaceModeTypes eInterfaceMode)
 		case INTERFACEMODE_CAST_RANGED_SPELL:
 			if( pLoopUnit->canCastSelectTileSpells() )
 			{
-				//return true;
+				return true;
 			}
 			break;
 
