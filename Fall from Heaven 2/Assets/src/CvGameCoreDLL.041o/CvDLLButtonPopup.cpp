@@ -434,40 +434,68 @@ void CvDLLButtonPopup::OnOkClicked(CvPopup* pPopup, PopupReturn *pPopupReturn, C
 		break;
 
 	case BUTTONPOPUP_CAST_SELECT_UNIT:
-		if (pPopupReturn->getButtonClicked() != 0)
 		{
 			CLLNode<IDInfo>* pUnitNode;
 			CvSelectionGroup* pSelectionGroup;
 			CvUnit* pLoopUnit;
 			CvPlot* pPlot;
+
+			CvUnit* pUnit;
+			CvPlot* pTargetPlot;
 			int iCount;
+			iCount = pPopupReturn->getButtonClicked();
 
 			pSelectionGroup = gDLL->getInterfaceIFace()->getSelectionList();
 
 			if (NULL != pSelectionGroup)
 			{
 				pPlot = pSelectionGroup->plot();
-
-				iCount = pPopupReturn->getButtonClicked();
-
 				pUnitNode = pPlot->headUnitNode();
 
-				while (pUnitNode != NULL)
+				if( pUnitNode != NULL )
 				{
-					pLoopUnit = ::getUnit(pUnitNode->m_data);
-					pUnitNode = pPlot->nextUnitNode(pUnitNode);
-
-					if (pSelectionGroup->canDoCommand(COMMAND_LOAD_UNIT, pLoopUnit->getOwnerINLINE(), pLoopUnit->getID()))
+					//Get the Caster
+					while( pUnitNode != NULL )
 					{
-						iCount--;
-						if (iCount == 0)
+						pUnit = ::getUnit(pUnitNode->m_data);
+						pTargetPlot = pUnit->getTargetPlot();
+
+						if( pTargetPlot != NULL )
 						{
-							GC.getGameINLINE().selectionListGameNetMessage(GAMEMESSAGE_DO_COMMAND, COMMAND_LOAD_UNIT, pLoopUnit->getOwnerINLINE(), pLoopUnit->getID());
-							break;
+							pUnitNode = NULL;
 						}
+						else
+						{
+							pUnit = ::getUnit(pUnitNode->m_data);
+							pUnitNode = pPlot->nextUnitNode(pUnitNode);
+						}
+					}
+
+					//Get Caster's Target Node
+					if( pTargetPlot != NULL )
+					{
+						//Loop through all units in the Target Node
+						pUnitNode = pTargetPlot->headUnitNode();
+						while(pUnitNode != NULL )
+						{
+							pLoopUnit = ::getUnit(pUnitNode->m_data);
+							pUnitNode = pTargetPlot->nextUnitNode(pUnitNode);
+
+							if (pPopupReturn->getButtonClicked() != 0)
+							{
+								iCount--;
+								if( iCount == 0)
+								{
+									pLoopUnit->kill(false);
+								}
+							}
+						}
+						pUnit->setTargetPlot(NULL);
 					}
 				}
 			}
+		
+
 		}
 		break;
 
@@ -2093,27 +2121,39 @@ bool CvDLLButtonPopup::launchChooseCastSelectUnitPopup(CvPopup* pPopup, CvPopupI
 	if( pUnitNode != NULL )
 	{
 		//Get the Caster
-		pUnit = ::getUnit(pUnitNode->m_data);
-		if( pUnit != NULL )
+		while( pUnitNode != NULL )
 		{
-			//Get Caster's Target Node
+			pUnit = ::getUnit(pUnitNode->m_data);
 			pTargetPlot = pUnit->getTargetPlot();
+
 			if( pTargetPlot != NULL )
 			{
-				//Loop through all units in the Target Node
-				pUnitNode = pTargetPlot->headUnitNode();
-				while(pUnitNode != NULL )
-				{
-					pLoopUnit = ::getUnit(pUnitNode->m_data);
-					pUnitNode = pTargetPlot->nextUnitNode(pUnitNode);
-
-					szBuffer.clear();
-					GAMETEXT.setUnitHelp(szBuffer, pLoopUnit, true);
-					gDLL->getInterfaceIFace()->popupAddGenericButton(pPopup, CvWString(szBuffer.getCString()), NULL, iCount, WIDGET_GENERAL);
-					iCount++;
-				}
+				pUnitNode = NULL;
+			}
+			else
+			{
+				pUnit = ::getUnit(pUnitNode->m_data);
+				pUnitNode = pPlot->nextUnitNode(pUnitNode);
 			}
 		}
+			
+		//Get Caster's Target Node
+		if( pTargetPlot != NULL )
+		{
+			//Loop through all units in the Target Node
+			pUnitNode = pTargetPlot->headUnitNode();
+			while(pUnitNode != NULL )
+			{
+				pLoopUnit = ::getUnit(pUnitNode->m_data);
+				pUnitNode = pTargetPlot->nextUnitNode(pUnitNode);
+
+				szBuffer.clear();
+				GAMETEXT.setUnitHelp(szBuffer, pLoopUnit, true);
+				gDLL->getInterfaceIFace()->popupAddGenericButton(pPopup, CvWString(szBuffer.getCString()), NULL, iCount, WIDGET_GENERAL);
+				iCount++;
+			}
+		}
+
 	}
 
 	gDLL->getInterfaceIFace()->popupAddGenericButton(pPopup, gDLL->getText("TXT_KEY_NEVER_MIND"), NULL, 0, WIDGET_GENERAL);

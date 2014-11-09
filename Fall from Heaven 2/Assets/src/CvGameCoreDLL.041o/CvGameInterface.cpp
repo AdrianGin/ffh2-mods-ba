@@ -1268,19 +1268,6 @@ void CvGame::handleAction(int iAction)
                     bSkip = true;
                 }
 
-				if (GC.getSpellInfo((SpellTypes)GC.getActionInfo(iAction).getOriginalIndex()).isTileSelect())
-                {
-                    CvPopupInfo* pInfo = new CvPopupInfo(BUTTONPOPUP_CONFIRMCASTGLOBAL);
-                    if (NULL != pInfo)
-                    {
-                        pInfo->setData1(iAction);
-                        pInfo->setOption1(bAlt);
-                        gDLL->getInterfaceIFace()->addPopup(pInfo);
-                    }
-                    bSkip = true;
-                }
-
-
                 if (GC.getSpellInfo((SpellTypes)GC.getActionInfo(iAction).getOriginalIndex()).isCausesWar())
                 {
                     pHeadSelectedUnit = gDLL->getInterfaceIFace()->getHeadSelectedUnit();
