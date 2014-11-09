@@ -47,6 +47,13 @@ private:
 	bool launchConfirmCastGlobalPopup(CvPopup* pPopup, CvPopupInfo &info);
 	bool launchConfirmCastWarPopup(CvPopup* pPopup, CvPopupInfo &info);
 	bool launchConfirmSettlementPopup(CvPopup* pPopup, CvPopupInfo &info);
+
+	bool launchChooseRangedSpellPopup(CvPopup* pPopup, CvPopupInfo &info);
+
+	bool launchChooseCastSelectUnitPopup(CvPopup* pPopup, CvPopupInfo &info);
+
+	
+
 //FfH: End Add
 
 	bool launchLoadUnitPopup(CvPopup* pPopup, CvPopupInfo &info);

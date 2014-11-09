@@ -638,6 +638,8 @@ void CyInfoPythonInterface3()
 		.def("getPyResult", &CvSpellInfo::getPyResult, "string ()")
 		.def("getPyRequirement", &CvSpellInfo::getPyRequirement, "string ()")
 		.def("isGlobal", &CvSpellInfo::isGlobal, "bool ()")
+		.def("isTileSelect", &CvSpellInfo::isTileSelect, "bool ()")
+		.def("isUnitSelect", &CvSpellInfo::isUnitSelect, "bool ()")
 		.def("getCivilizationPrereq", &CvSpellInfo::getCivilizationPrereq, "int ()")
 
 //>>>>BUGFfH: Added by Denev 2009/10/03

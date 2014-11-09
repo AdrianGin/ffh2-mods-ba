@@ -17,7 +17,7 @@ cf = CustomFunctions.CustomFunctions()
 sf = ScenarioFunctions.ScenarioFunctions()
 
 def cast(argsList):
-	pCaster, eSpell = argsList
+	pCaster, eSpell, pPlot, pTarget = argsList
 	spell = gc.getSpellInfo(eSpell)
 	eval(spell.getPyResult())
 
@@ -2670,8 +2670,8 @@ def reqScorch(caster):
 	
 	return False
 
-def spellScorch(caster):
-	pPlot = caster.plot()
+def spellScorch(caster, pPlot):
+	#pPlot = caster.plot()
 	
 	if pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_TUNDRA'):
 		pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_DESERT'),True,True)

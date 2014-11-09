@@ -846,6 +846,10 @@ public:
     virtual int AI_sacrificeValue(const CvPlot* pPlot) const = 0;
 
 //FfH Spell System: Added by Kael 07/23/2007
+	bool canCastSelectTileSpells(void);
+	bool canCastSelectTileSpellAt(const CvPlot* pPlot, int iX, int iY, SpellTypes selectedSpell);
+	bool castSelectTileSpells(void);
+
 	bool canCast(int spell, bool bTestVisible);
 	bool canCreateUnit(int spell) const;
 	bool canAddPromotion(int spell);
@@ -859,6 +863,7 @@ public:
 	bool canRemovePromotion(int spell);
 
 	void cast(int spell);
+	void castAt(int spell, int iX, int iY, CvUnit* pTarget);
 	void castAddPromotion(int spell);
 	void castCreateUnit(int spell);
 	void castConvertUnit(int spell);
@@ -994,6 +999,13 @@ public:
     bool withdrawlToNearestValidPlot(bool bKill);
 
 	virtual int AI_promotionValue(PromotionTypes ePromotion) = 0;
+
+	int getSelectedRangedSpell() const;
+	void setSelectedRangedSpell(int iNewValue);
+	CvPlot* getTargetPlot() const;
+	void setTargetPlot(const CvPlot* pPlot);
+
+
 //FfH: End Add
 
 protected:
@@ -1124,6 +1136,11 @@ protected:
 	int* m_paiBonusAffinityAmount;
 	int* m_paiDamageTypeCombat;
 	int* m_paiDamageTypeResist;
+
+// Adrian add a member for SelectedRanged spell
+	int m_iSelectedRangedSpell;
+	CvPlot* m_pTargetPlot;
+
 //FfH: End Add
 
 /*************************************************************************************************/

@@ -828,6 +828,11 @@ public:
 	bool isCausesWar() const;
 	bool isCopyCastersPromotions() const;
 	bool isGlobal() const;
+	bool isTileSelect() const;
+	bool isUnitSelect() const;
+	int  getSpellDistance() const;
+	bool isRequireLOS() const;
+
 	bool isInBordersOnly() const;
 	bool isInCityOnly() const;
 	bool isPrereqSlaveTrade() const;
@@ -901,6 +906,12 @@ protected:
     bool m_bCasterNoDuration;
     bool m_bCausesWar;
     bool m_bGlobal;
+	//Added Adrian
+	bool m_bIsTileSelect;
+	bool m_bIsUnitSelect;
+	int  m_iSpellDistance;
+	bool m_bRequiresLOS;
+
     bool m_bInBordersOnly;
     bool m_bInCityOnly;
     bool m_bPrereqSlaveTrade;

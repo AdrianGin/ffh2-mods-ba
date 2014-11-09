@@ -464,6 +464,10 @@ void CvUnit::reset(int iID, UnitTypes eUnit, PlayerTypes eOwner, bool bConstruct
 	m_iSpellCasterXP = 0;
 	m_iSpellDamageModify = 0;
 	m_iSummoner = -1;
+	m_iSelectedRangedSpell = NO_SPELL;
+	m_pTargetPlot = NULL;
+
+
 	m_iTotalDamageTypeCombat = 0;
     m_iUnitArtStyleType = NO_UNIT_ARTSTYLE;
 	m_iWorkRateModify = 0;
@@ -2783,6 +2787,13 @@ bool CvUnit::canDoCommand(CommandTypes eCommand, int iData1, int iData2, bool bT
 		break;
 
 //FfH Spell System: Added by Kael 07/23/2007
+	case COMMAND_CAST_RANGED:
+		if( canCastSelectTileSpells() )
+		{
+			return true;
+		}
+		break;
+
 	case COMMAND_CAST:{
 		if(canCast(iData1, bTestVisible))
 		{
@@ -8977,6 +8988,7 @@ BuildTypes CvUnit::getBuildType() const
 		case MISSION_GOLDEN_AGE:
 		case MISSION_LEAD:
 		case MISSION_ESPIONAGE:
+		case MISSION_CAST_RANGED_SPELL:
 		case MISSION_DIE_ANIMATION:
 			break;
 
@@ -14060,6 +14072,81 @@ bool CvUnit::potentialWarAction(const CvPlot* pPlot) const
 }
 
 //FfH Spell System: Added by Kael 07/23/2007
+bool CvUnit::canCastSelectTileSpells(void)
+{
+	for (int iJ = 0; iJ < GC.getNumSpellInfos(); iJ++)
+    {
+        if (canCast(iJ, false))
+        {
+            if (GC.getSpellInfo((SpellTypes)iJ).isTileSelect() )
+            {
+                return true;
+            }
+        }
+    }
+	return false;
+}
+
+bool CvUnit::canCastSelectTileSpellAt(const CvPlot* pPlot, int iX, int iY, SpellTypes selectedSpell)
+{
+	if( pPlot == NULL )
+	{
+		return false;
+	}
+
+	if( selectedSpell == NO_SPELL )
+	{
+		return false;
+	}
+
+	if( !GC.getSpellInfo((SpellTypes)selectedSpell).isTileSelect() )
+	{
+		return false;
+	}
+
+	if ( !canCast(selectedSpell, false))
+    {
+        return false;
+    }
+
+	int iDistance = plotDistance(pPlot->getX_INLINE(), pPlot->getY_INLINE(), iX, iY);
+	int iSpellDistance = GC.getSpellInfo((SpellTypes)selectedSpell).getSpellDistance();
+
+	if (plotDistance(pPlot->getX_INLINE(), pPlot->getY_INLINE(), iX, iY) <= iSpellDistance)
+	{
+			if( GC.getSpellInfo((SpellTypes)selectedSpell).isRequireLOS() )
+		{
+			CvPlot* pTargetPlot = GC.getMapINLINE().plotINLINE(iX, iY);
+			if (plot()->canSeePlot(pTargetPlot, getTeam(), iSpellDistance, getFacingDirection(true)))
+			{
+				return true;
+			}
+			return false;
+		}
+		else
+		{
+			return true;
+		}
+	}
+	else
+	{
+		return false;
+	}
+
+	return true;
+}
+
+bool CvUnit::castSelectTileSpells(void)
+{
+	FAssert(GET_PLAYER(getOwnerINLINE()).isHuman());
+	CvPopupInfo* pInfo = new CvPopupInfo(BUTTONPOPUP_CAST_RANGED_SPELL);
+	if (NULL != pInfo)
+	{
+		gDLL->getInterfaceIFace()->addPopup(pInfo, getOwnerINLINE(), true);
+	}
+	return false;
+}
+
 bool CvUnit::canCast(int spell, bool bTestVisible)
 {
     SpellTypes eSpell = (SpellTypes)spell;
@@ -14891,8 +14978,19 @@ bool CvUnit::canSpreadReligion(int spell) const
 	return true;
 }
 
+
 void CvUnit::cast(int spell)
 {
+	castAt(spell, plot()->getX_INLINE(), plot()->getY_INLINE(), NULL);
+	
+}
+
+void CvUnit::castAt(int spell, int iX, int iY, CvUnit* pTarget)
+{
+	CvPlot* pPlot;
+	pPlot = GC.getMapINLINE().plotINLINE(iX, iY);
+
+
     if (GC.getSpellInfo((SpellTypes)spell).isHasCasted())
     {
         setHasCasted(true);
@@ -14909,15 +15007,21 @@ void CvUnit::cast(int spell)
     }
     if (GC.getSpellInfo((SpellTypes)spell).isGlobal())
     {
-        GET_PLAYER(getOwnerINLINE()).setFeatAccomplished(FEAT_GLOBAL_SPELL, true);
-		for (int iPlayer = 0; iPlayer < MAX_CIV_PLAYERS; ++iPlayer)
+		if( GC.getSpellInfo((SpellTypes)spell).isGlobal() )
 		{
-		    if (GET_PLAYER((PlayerTypes)iPlayer).isAlive())
-		    {
-                gDLL->getInterfaceIFace()->addMessage((PlayerTypes)iPlayer, false, GC.getEVENT_MESSAGE_TIME(), gDLL->getText("TXT_KEY_MESSAGE_GLOBAL_SPELL", GC.getSpellInfo((SpellTypes)spell).getDescription()), "AS2D_CIVIC_ADOPT", MESSAGE_TYPE_MINOR_EVENT);
-		    }
+			GET_PLAYER(getOwnerINLINE()).setFeatAccomplished(FEAT_GLOBAL_SPELL, true);
+			for (int iPlayer = 0; iPlayer < MAX_CIV_PLAYERS; ++iPlayer)
+			{
+				if (GET_PLAYER((PlayerTypes)iPlayer).isAlive())
+				{
+					gDLL->getInterfaceIFace()->addMessage((PlayerTypes)iPlayer, false, GC.getEVENT_MESSAGE_TIME(), gDLL->getText("TXT_KEY_MESSAGE_GLOBAL_SPELL", GC.getSpellInfo((SpellTypes)spell).getDescription()), "AS2D_CIVIC_ADOPT", MESSAGE_TYPE_MINOR_EVENT);
+				}
+			}
 		}
     }
+
+
+
     int iMiscastChance = GC.getSpellInfo((SpellTypes)spell).getMiscastChance() + m_pUnitInfo->getMiscastChance();
     if (iMiscastChance > 0)
     {
@@ -14926,9 +15030,13 @@ void CvUnit::cast(int spell)
             if (!CvString(GC.getSpellInfo((SpellTypes)spell).getPyMiscast()).empty())
             {
                 CyUnit* pyUnit = new CyUnit(this);
+				
                 CyArgsList argsList;
                 argsList.add(gDLL->getPythonIFace()->makePythonObject(pyUnit));	// pass in unit class
                 argsList.add(spell);//the spell #
+
+				
+
                 gDLL->getPythonIFace()->callFunction(PYSpellModule, "miscast", argsList.makeFunctionArgs()); //, &lResult
                 delete pyUnit; // python fxn must not hold on to this pointer
             }
@@ -15052,11 +15160,20 @@ void CvUnit::cast(int spell)
 	if (!CvString(GC.getSpellInfo((SpellTypes)spell).getPyResult()).empty())
     {
         CyUnit* pyUnit = new CyUnit(this);
+		CyPlot* pyPlot = new CyPlot(pPlot);
+		CyUnit* pyTargetUnit = new CyUnit(pTarget);
+
+
         CyArgsList argsList;
         argsList.add(gDLL->getPythonIFace()->makePythonObject(pyUnit));	// pass in unit class
         argsList.add(spell);//the spell #
+		argsList.add(gDLL->getPythonIFace()->makePythonObject(pyPlot));//the plot #
+		argsList.add(gDLL->getPythonIFace()->makePythonObject(pyTargetUnit));//the enemy target #
+
+
         gDLL->getPythonIFace()->callFunction(PYSpellModule, "cast", argsList.makeFunctionArgs()); //, &lResult
         delete pyUnit; // python fxn must not hold on to this pointer
+		delete pyPlot;
     }
     gDLL->getInterfaceIFace()->setDirty(SelectionButtons_DIRTY_BIT, true);
     if (GC.getSpellInfo((SpellTypes)spell).isSacrificeCaster())
@@ -16232,6 +16349,30 @@ void CvUnit::setSummoner(int iNewValue)
 {
     m_iSummoner = iNewValue;
 }
+
+
+int CvUnit::getSelectedRangedSpell() const
+{
+	return m_iSelectedRangedSpell;
+}
+
+void CvUnit::setSelectedRangedSpell(int iNewValue)
+{
+    m_iSelectedRangedSpell = iNewValue;
+}
+
+
+CvPlot* CvUnit::getTargetPlot() const
+{
+    return m_pTargetPlot;
+}
+
+void CvUnit::setTargetPlot(const CvPlot* pPlot)
+{
+    m_pTargetPlot = (CvPlot*)pPlot;
+}
+
+
 
 int CvUnit::getWorkRateModify() const
 {

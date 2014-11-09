@@ -1327,11 +1327,18 @@ void CvXMLLoadUtility::SetGlobalActionInfo()
 //FfH Spell System: Added by Kael 07/23/2007
 	for (i=0;i<GC.getNumSpellInfos();i++)
 	{
-		piIndexList[iTotalActionInfoCount] = i;
-		piPriorityList[iTotalActionInfoCount] = GC.getSpellInfo((SpellTypes)i).getOrderPriority();
-		piActionInfoTypeList[iTotalActionInfoCount] = ACTIONSUBTYPE_SPELL;
-		iTotalActionInfoCount++;
+
+
+		// We shouldn't add the spells which are selected through the Ranged Spells options
+		if( GC.getSpellInfo((SpellTypes) i).isTileSelect() == false )
+		{
+			piIndexList[iTotalActionInfoCount] = i;
+			piPriorityList[iTotalActionInfoCount] = GC.getSpellInfo((SpellTypes)i).getOrderPriority();
+			piActionInfoTypeList[iTotalActionInfoCount] = ACTIONSUBTYPE_SPELL;
+			iTotalActionInfoCount++;
+		}
 	}
+
 //FfH: End Add
 
 /*************************************************************************************************/
@@ -1349,6 +1356,8 @@ void CvXMLLoadUtility::SetGlobalActionInfo()
 /*************************************************************************************************/
 /**	END	                                        												**/
 /*************************************************************************************************/
+
+	iNumActionInfos = iTotalActionInfoCount;
 
 	SAFE_DELETE_ARRAY(piOrderedIndex);
 	piOrderedIndex = new int[iNumActionInfos];

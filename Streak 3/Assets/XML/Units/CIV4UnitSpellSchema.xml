@@ -33,6 +33,10 @@
 	<ElementType name="bCasterNoDuration" content="textOnly" dt:type="boolean"/>
 	<ElementType name="bCausesWar" content="textOnly" dt:type="boolean"/>
 	<ElementType name="bGlobal" content="textOnly" dt:type="boolean"/>
+	<ElementType name="bIsTileSelect" content="textOnly" dt:type="boolean"/>
+	<ElementType name="bIsUnitSelect" content="textOnly" dt:type="boolean"/>
+	<ElementType name="iSpellDistance" content="textOnly" dt:type="int"/>
+	<ElementType name="bRequiresLOS" content="textOnly" dt:type="boolean"/>
 	<ElementType name="bInBordersOnly" content="textOnly" dt:type="boolean"/>
 	<ElementType name="bInCityOnly" content="textOnly" dt:type="boolean"/>
 	<ElementType name="bPrereqSlaveTrade" content="textOnly" dt:type="boolean"/>

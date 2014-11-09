@@ -221,6 +221,27 @@ void CvGame::updateColoredPlots()
 				}
 			}
 		}
+		//Adding Ranged Spell Coloured Plot
+		if(pHeadSelectedUnit->getSelectedRangedSpell() != NO_SPELL) //other ranged units
+		{
+			int spellRange = GC.getSpellInfo((SpellTypes)pHeadSelectedUnit->getSelectedRangedSpell()).getSpellDistance();
+				
+
+			int iRange = spellRange;
+			for (iDX = -(iRange); iDX <= iRange; iDX++)
+			{
+				for (iDY = -(iRange); iDY <= iRange; iDY++)
+				{
+					CvPlot* pTargetPlot = plotXY(pHeadSelectedUnit->getX_INLINE(), pHeadSelectedUnit->getY_INLINE(), iDX, iDY);
+					if( pHeadSelectedUnit->canCastSelectTileSpellAt( pHeadSelectedUnit->plot(), pTargetPlot->getX_INLINE(), pTargetPlot->getY_INLINE(), (SpellTypes)pHeadSelectedUnit->getSelectedRangedSpell() ) )
+					{
+						NiColorA color(GC.getColorInfo((ColorTypes)GC.getInfoTypeForString("COLOR_YELLOW")).getColor());
+						color.a = 0.5f;
+						gDLL->getEngineIFace()->fillAreaBorderPlot(pTargetPlot->getX_INLINE(), pTargetPlot->getY_INLINE(), color, AREA_BORDER_LAYER_RANGED);
+					}
+				}
+			}
+		}
 
 		FAssert(getActivePlayer() != NO_PLAYER);
 
@@ -1176,8 +1197,9 @@ void CvGame::handleAction(int iAction)
 				gDLL->getInterfaceIFace()->selectGroup(pHeadSelectedUnit, false, true, false);
 			}
 		}
+		InterfaceModeTypes iFace = (InterfaceModeTypes)GC.getActionInfo(iAction).getInterfaceModeType();
 
-		gDLL->getInterfaceIFace()->setInterfaceMode((InterfaceModeTypes)GC.getActionInfo(iAction).getInterfaceModeType());
+		gDLL->getInterfaceIFace()->setInterfaceMode(iFace);
 	}
 
 	if (GC.getActionInfo(iAction).getMissionType() != NO_MISSION)
@@ -1199,6 +1221,20 @@ void CvGame::handleAction(int iAction)
 			}
 		}
 
+		if (GC.getActionInfo(iAction).getCommandType() == COMMAND_CAST_RANGED)
+		{
+			
+
+			CvPopupInfo* pInfo = new CvPopupInfo(BUTTONPOPUP_CAST_RANGED_SPELL);
+			if (NULL != pInfo)
+			{
+				gDLL->getInterfaceIFace()->addPopup(pInfo);
+				bSkip = true;
+			}
+
+			
+		}
+
 		if (!bSkip)
 		{
 			if (GC.getActionInfo(iAction).isConfirmCommand())
@@ -1217,6 +1253,7 @@ void CvGame::handleAction(int iAction)
 //			{
                 bSkip = true;
             }
+
             if (GC.getActionInfo(iAction).getCommandType() == COMMAND_CAST)
             {
                 if (GC.getSpellInfo((SpellTypes)GC.getActionInfo(iAction).getOriginalIndex()).isGlobal())
@@ -1230,6 +1267,7 @@ void CvGame::handleAction(int iAction)
                     }
                     bSkip = true;
                 }
+
                 if (GC.getSpellInfo((SpellTypes)GC.getActionInfo(iAction).getOriginalIndex()).isCausesWar())
                 {
                     pHeadSelectedUnit = gDLL->getInterfaceIFace()->getHeadSelectedUnit();
@@ -2359,6 +2397,16 @@ ColorTypes CvGame::getPlotHighlightColor(CvPlot* pPlot) const
 		{
 			switch (gDLL->getInterfaceIFace()->getInterfaceMode())
 			{
+
+			case INTERFACEMODE_CAST_RANGED_SPELL:
+				eColor = (ColorTypes) GC.getInfoTypeForString("COLOR_RED");
+				if (!gDLL->getInterfaceIFace()->getSelectionList()->canDoInterfaceModeAt(gDLL->getInterfaceIFace()->getInterfaceMode(), pPlot))
+				{
+					eColor = (ColorTypes) GC.getInfoTypeForString("COLOR_DARK_GREY");
+				}
+
+				break;
+
 			case INTERFACEMODE_PING:
 			case INTERFACEMODE_SIGN:
 				if (!pPlot->isRevealed(getActiveTeam(), true))

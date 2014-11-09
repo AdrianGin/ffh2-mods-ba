@@ -246,7 +246,10 @@ enum InterfaceModeTypes			// Exposed to Python
 	INTERFACEMODE_AIRSTRIKE,
 	INTERFACEMODE_REBASE,
 	INTERFACEMODE_PYTHON_PICK_PLOT,
+	
 	INTERFACEMODE_SAVE_PLOT_NIFS,
+
+	INTERFACEMODE_CAST_RANGED_SPELL,
 
 #ifdef _USRDLL
 	NUM_INTERFACEMODE_TYPES
@@ -594,6 +597,8 @@ enum ButtonPopupTypes			// Exposed to Python
 	BUTTONPOPUP_CONFIRMCASTGLOBAL,
 	BUTTONPOPUP_CONFIRMCASTWAR,
 	BUTTONPOPUP_CONFIRMSETTLEMENT,
+	BUTTONPOPUP_CAST_RANGED_SPELL,
+	BUTTONPOPUP_CAST_SELECT_UNIT,
 //FfH: End Add
 
 #ifdef _USRDLL
@@ -1524,6 +1529,8 @@ enum MissionTypes				// Exposed to Python
 	MISSION_BUILD,
 	MISSION_LEAD,
 	MISSION_ESPIONAGE,
+	
+
 	MISSION_DIE_ANIMATION,
 
 	MISSION_BEGIN_COMBAT,
@@ -1536,6 +1543,8 @@ enum MissionTypes				// Exposed to Python
 	MISSION_DAMAGE,
 	MISSION_MULTI_SELECT,
 	MISSION_MULTI_DESELECT,
+
+	MISSION_CAST_RANGED_SPELL,
 
 #ifdef _USRDLL
 	NUM_MISSION_TYPES
@@ -1602,6 +1611,7 @@ enum CommandTypes					// Exposed to Python
 
 //FfH: Added by Kael 07/23/2007
 	COMMAND_CAST,
+	COMMAND_CAST_RANGED,
 //FfH: End Add
 
 #ifdef _USRDLL
@@ -2689,6 +2699,8 @@ enum ActionSubTypes					// Exposed to Python
 
 //FfH: Added by Kael 07/23/2007
 	ACTIONSUBTYPE_SPELL,
+	//Added Adrian
+	ACTIONSUBTYPE_SELECT_TILE,
 //FfH: End Add
 /*************************************************************************************************/
 /**	ADDON (automatic Spellcasting) Sephi                                     					**/

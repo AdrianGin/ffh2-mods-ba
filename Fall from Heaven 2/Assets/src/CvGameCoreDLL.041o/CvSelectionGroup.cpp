@@ -22,7 +22,7 @@
 #include "CvDLLPythonIFaceBase.h"
 #include <set>
 #include "CvEventReporter.h"
-
+#include "CvPopupInfo.h"
 
 // Public Functions...
 
@@ -654,6 +654,7 @@ CvPlot* CvSelectionGroup::lastMissionPlot()
 		case MISSION_BUILD:
 		case MISSION_LEAD:
 		case MISSION_ESPIONAGE:
+		case MISSION_CAST_RANGED_SPELL:
 		case MISSION_DIE_ANIMATION:
 			break;
 
@@ -969,6 +970,15 @@ bool CvSelectionGroup::canStartMission(int iMission, int iData1, int iData2, CvP
 			}
 			break;
 
+		case MISSION_CAST_RANGED_SPELL:
+			if (pLoopUnit->canCastSelectTileSpellAt(pPlot, iData1, iData2, (SpellTypes)pLoopUnit->getSelectedRangedSpell() ))
+			{
+				//When we try to activate the spell, do a popup?
+
+				return true;
+			}
+			break;
+
 		case MISSION_DIE_ANIMATION:
 			return false;
 			break;
@@ -1137,6 +1147,7 @@ void CvSelectionGroup::startMission()
 		case MISSION_BUILD:
 		case MISSION_LEAD:
 		case MISSION_ESPIONAGE:
+		case MISSION_CAST_RANGED_SPELL:
 		case MISSION_DIE_ANIMATION:
 			break;
 
@@ -1157,7 +1168,10 @@ void CvSelectionGroup::startMission()
 			pLoopUnit = ::getUnit(pUnitNode->m_data);
 			pUnitNode = nextUnitNode(pUnitNode);
 
-			if (pLoopUnit->canMove())
+			MissionTypes mission = headMissionQueueNode()->m_data.eMissionType;
+
+
+			if (pLoopUnit->canMove() || (mission == MISSION_CAST_RANGED_SPELL) )
 			{
 				switch (headMissionQueueNode()->m_data.eMissionType)
 				{
@@ -1372,6 +1386,36 @@ void CvSelectionGroup::startMission()
 					}
 					pUnitNode = NULL; // allow one unit at a time to do espionage
 					break;
+
+				case MISSION_CAST_RANGED_SPELL:
+					if( pLoopUnit->canCast(pLoopUnit->getSelectedRangedSpell(), false))
+					{
+						if( GC.getSpellInfo((SpellTypes)pLoopUnit->getSelectedRangedSpell()).isUnitSelect()  )
+						{
+							CvPlot* pTargetPlot = GC.getMapINLINE().plotINLINE(headMissionQueueNode()->m_data.iData1, headMissionQueueNode()->m_data.iData2);
+							pLoopUnit->setTargetPlot(pTargetPlot);
+
+							CvPopupInfo* pInfo = new CvPopupInfo(BUTTONPOPUP_CAST_SELECT_UNIT);
+							if (NULL != pInfo)
+							{
+								gDLL->getInterfaceIFace()->addPopup(pInfo);
+							}
+						}
+						else
+						{
+							pLoopUnit->castAt( pLoopUnit->getSelectedRangedSpell(), headMissionQueueNode()->m_data.iData1, headMissionQueueNode()->m_data.iData2,  NULL );
+							{
+								pLoopUnit->setSelectedRangedSpell((SpellTypes)NO_SPELL);
+								GC.getGameINLINE().updateColoredPlots();
+								bAction = true;
+							}
+						}
+
+						pUnitNode = NULL; // allow one unit at a time to cast ranged spells
+					}
+					
+					break;
+
 
 				case MISSION_DIE_ANIMATION:
 					bAction = true;
@@ -1608,6 +1652,7 @@ void CvSelectionGroup::continueMission(int iSteps)
 				case MISSION_GOLDEN_AGE:
 				case MISSION_LEAD:
 				case MISSION_ESPIONAGE:
+				case MISSION_CAST_RANGED_SPELL:
 				case MISSION_DIE_ANIMATION:
 					break;
 
@@ -1692,6 +1737,7 @@ void CvSelectionGroup::continueMission(int iSteps)
 			case MISSION_GOLDEN_AGE:
 			case MISSION_LEAD:
 			case MISSION_ESPIONAGE:
+			case MISSION_CAST_RANGED_SPELL:
 			case MISSION_DIE_ANIMATION:
 				bDone = true;
 				break;
@@ -1896,6 +1942,26 @@ bool CvSelectionGroup::canEverDoCommand(CommandTypes eCommand, int iData1, int i
 			return false;
 		}
 	}
+	else if(eCommand == COMMAND_CAST_RANGED)
+	{
+		CLLNode<IDInfo>* pUnitNode = headUnitNode();
+
+		while (pUnitNode != NULL)
+		{
+			CvUnit *pLoopUnit = ::getUnit(pUnitNode->m_data);
+			pUnitNode = nextUnitNode(pUnitNode);
+
+			if (pLoopUnit->canCastSelectTileSpells())
+			{
+				return true;
+			}
+		}
+
+		//no loaded unit
+		return false;
+	}
+
+
 
 	return true;
 }
@@ -2050,6 +2116,21 @@ bool CvSelectionGroup::canDoInterfaceMode(InterfaceModeTypes eInterfaceMode)
 				return true;
 			}
 			break;
+
+		case INTERFACEMODE_CAST_RANGED_SPELL:
+			if( pLoopUnit->canCastSelectTileSpells() )
+			{
+				return true;
+			}
+			break;
+
+		case INTERFACEMODE_PYTHON_PICK_PLOT:
+			if( pLoopUnit->canCastSelectTileSpells() )
+			{
+				return true;
+			}
+			break;
+
 		}
 
 		pUnitNode = nextUnitNode(pUnitNode);
@@ -2104,6 +2185,17 @@ bool CvSelectionGroup::canDoInterfaceModeAt(InterfaceModeTypes eInterfaceMode, C
 				}
 			}
 			break;
+
+		case INTERFACEMODE_CAST_RANGED_SPELL:
+			if (pLoopUnit != NULL)
+			{
+				if( pLoopUnit->canCastSelectTileSpellAt( pLoopUnit->plot(), pPlot->getX_INLINE(), pPlot->getY_INLINE(), (SpellTypes)pLoopUnit->getSelectedRangedSpell() ) )
+				{
+					return true;
+				}
+			}
+			break;
+
 
 		case INTERFACEMODE_PARADROP:
 			if (pLoopUnit != NULL)

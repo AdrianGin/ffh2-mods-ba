@@ -851,7 +851,7 @@
 			<iEffectProbability>15</iEffectProbability>
 			<iAdvancedStartRemoveCost>0</iAdvancedStartRemoveCost>
 			<bFlammable>0</bFlammable>
-			<FeatureUpgrade>FEATURE_FOREST_NEW</FeatureUpgrade>
+			<FeatureUpgrade>NONE</FeatureUpgrade>
 			<PrereqStateReligion>NONE</PrereqStateReligion>
 			<PythonOnMove/>
 			<RequireResist>NONE</RequireResist>
