@@ -481,12 +481,16 @@ void CvDLLButtonPopup::OnOkClicked(CvPopup* pPopup, PopupReturn *pPopupReturn, C
 							pLoopUnit = ::getUnit(pUnitNode->m_data);
 							pUnitNode = pTargetPlot->nextUnitNode(pUnitNode);
 
-							if (pPopupReturn->getButtonClicked() != 0)
-							{
-								iCount--;
-								if( iCount == 0)
+							if( !pLoopUnit->isInvisible(pUnit->getTeam(), false) )
+							{	
+								if (pPopupReturn->getButtonClicked() != 0)
 								{
-									pUnit->castAt( pUnit->getSelectedRangedSpell(), pTargetPlot->getX_INLINE(), pTargetPlot->getY_INLINE(), pLoopUnit);
+
+									iCount--;
+									if( iCount == 0)
+									{
+										pUnit->castAt( pUnit->getSelectedRangedSpell(), pTargetPlot->getX_INLINE(), pTargetPlot->getY_INLINE(), pLoopUnit);
+									}
 								}
 							}
 						}
@@ -2147,10 +2151,14 @@ bool CvDLLButtonPopup::launchChooseCastSelectUnitPopup(CvPopup* pPopup, CvPopupI
 				pLoopUnit = ::getUnit(pUnitNode->m_data);
 				pUnitNode = pTargetPlot->nextUnitNode(pUnitNode);
 
-				szBuffer.clear();
-				GAMETEXT.setUnitHelp(szBuffer, pLoopUnit, true);
-				gDLL->getInterfaceIFace()->popupAddGenericButton(pPopup, CvWString(szBuffer.getCString()), NULL, iCount, WIDGET_GENERAL);
-				iCount++;
+				//Inivisible Units are not shown.
+				if( !pLoopUnit->isInvisible(pUnit->getTeam(), false) )
+				{
+					szBuffer.clear();
+					GAMETEXT.setUnitHelp(szBuffer, pLoopUnit, true);
+					gDLL->getInterfaceIFace()->popupAddGenericButton(pPopup, CvWString(szBuffer.getCString()), NULL, iCount, WIDGET_GENERAL);
+					iCount++;
+				}
 			}
 		}
 
