@@ -458,8 +458,7 @@
         
         <SpellInfo>
             <Type>SPELL_HASTE</Type>            
-            <Description>Haste</Description>
-            <Civilopedia></Civilopedia>
+            <Description>TXT_KEY_SPELL_HASTE</Description>
             <PromotionPrereq1>PROMOTION_AIRIA</PromotionPrereq1>
             <bIsTileSelect>1</bIsTileSelect>
             <bIsUnitSelect>0</bIsUnitSelect>
@@ -479,8 +478,7 @@
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_BLUR</Type>
-            <Description>Blur</Description>
-            <Civilopedia></Civilopedia>
+            <Description>TXT_KEY_SPELL_BLUR</Description>
             <PromotionPrereq1>PROMOTION_AIRIB</PromotionPrereq1>
             <bIsTileSelect>1</bIsTileSelect>
             <bIsUnitSelect>0</bIsUnitSelect>
@@ -498,7 +496,6 @@
         <SpellInfo>
             <Type>SPELL_THUNDERSTRIKE</Type>
             <Description>TXT_KEY_SPELL_THUNDERSTRIKE</Description>
-            <Civilopedia></Civilopedia>
             <PromotionPrereq1>PROMOTION_AIRIIA</PromotionPrereq1>
             <bIsTileSelect>1</bIsTileSelect>
             <bIsUnitSelect>1</bIsUnitSelect>
@@ -519,8 +516,6 @@
         <SpellInfo>
             <Type>SPELL_TELEPORT</Type>
             <Description>TXT_KEY_SPELL_TELEPORT</Description>
-            <Civilopedia></Civilopedia>
-            <Help></Help>
             <PromotionPrereq1>PROMOTION_AIRIIB</PromotionPrereq1>
             <bIsTileSelect>1</bIsTileSelect>
             <bIsUnitSelect>1</bIsUnitSelect>
@@ -536,7 +531,6 @@
         <SpellInfo>
             <Type>SPELL_SPELLSTAFF</Type>
             <Description>TXT_KEY_SPELL_SPELLSTAFF</Description>
-            <Civilopedia></Civilopedia>
             <PromotionPrereq1>PROMOTION_AIRIIIA</PromotionPrereq1>
             <bIsTileSelect>0</bIsTileSelect>
             <bIsUnitSelect>0</bIsUnitSelect>
@@ -555,8 +549,6 @@
         <SpellInfo>
             <Type>SPELL_FATIGUE</Type>
             <Description>TXT_KEY_SPELL_FATIGUE</Description>
-            <Civilopedia></Civilopedia>
-            <Help></Help>
             <PromotionPrereq1>PROMOTION_AIRIIIB</PromotionPrereq1>
             <bIsTileSelect>1</bIsTileSelect>
             <bIsUnitSelect>0</bIsUnitSelect>
