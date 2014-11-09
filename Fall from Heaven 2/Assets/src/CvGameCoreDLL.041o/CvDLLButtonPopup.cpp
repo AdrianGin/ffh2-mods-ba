@@ -397,25 +397,37 @@ void CvDLLButtonPopup::OnOkClicked(CvPopup* pPopup, PopupReturn *pPopupReturn, C
 			CvSelectionGroup* pSelectionGroup;
 			CvUnit* pLoopUnit;
 			CvPlot* pPlot;
+
 			pSelectionGroup = gDLL->getInterfaceIFace()->getSelectionList();
 
 			if (NULL != pSelectionGroup)
 			{
 				pPlot = pSelectionGroup->plot();
 				pUnitNode = pPlot->headUnitNode();
-				pLoopUnit = ::getUnit(pUnitNode->m_data);
 			}
 
 			if (pPopupReturn->getButtonClicked() != -1)
 			{
 				int spellIndex = pPopupReturn->getButtonClicked();
-				
 				gDLL->getInterfaceIFace()->setInterfaceMode(INTERFACEMODE_CAST_RANGED_SPELL);
-				pLoopUnit->setSelectedRangedSpell(spellIndex);
+
+
+				while(pUnitNode != NULL)
+				{
+					pLoopUnit = ::getUnit(pUnitNode->m_data);
+					pLoopUnit->setSelectedRangedSpell(spellIndex);
+					pUnitNode = pSelectionGroup->nextUnitNode(pUnitNode);
+				}
+
 			}
 			else
 			{
-				pLoopUnit->setSelectedRangedSpell((SpellTypes)NO_SPELL);
+				while(pUnitNode != NULL)
+				{
+					pLoopUnit = ::getUnit(pUnitNode->m_data);
+					pLoopUnit->setSelectedRangedSpell((SpellTypes)NO_SPELL);
+					pUnitNode = pSelectionGroup->nextUnitNode(pUnitNode);
+				}
 			}
 		}
 		break;
@@ -1980,11 +1992,12 @@ bool CvDLLButtonPopup::launchChooseRangedSpellPopup(CvPopup* pPopup, CvPopupInfo
 
 	for (int iJ = 0; iJ < GC.getNumSpellInfos(); iJ++)
     {
-        if (pUnit->canCast(iJ, true))
+        if (pUnit->canCast(iJ, false))
         {
             if (GC.getSpellInfo((SpellTypes)iJ).isTileSelect() )
             {
 				szBuffer = GC.getSpellInfo((SpellTypes)iJ).getDescription();
+				szBuffer.append(L" ");
 				szBuffer.append(gDLL->getText("TXT_KEY_SPELL_RANGE", GC.getSpellInfo((SpellTypes)iJ).getSpellDistance()));
 				gDLL->getInterfaceIFace()->popupAddGenericButton(pPopup, szBuffer, GC.getSpellInfo((SpellTypes)iJ).getButton(), iJ, WIDGET_GENERAL, iJ);
             }

@@ -1166,7 +1166,10 @@ void CvSelectionGroup::startMission()
 			pLoopUnit = ::getUnit(pUnitNode->m_data);
 			pUnitNode = nextUnitNode(pUnitNode);
 
-			//if (pLoopUnit->canMove())
+			MissionTypes mission = headMissionQueueNode()->m_data.eMissionType;
+
+
+			if (pLoopUnit->canMove() || (mission == MISSION_CAST_RANGED_SPELL) )
 			{
 				switch (headMissionQueueNode()->m_data.eMissionType)
 				{
@@ -1383,12 +1386,17 @@ void CvSelectionGroup::startMission()
 					break;
 
 				case MISSION_CAST_RANGED_SPELL:
-					pLoopUnit->castAt( pLoopUnit->getSelectedRangedSpell(), headMissionQueueNode()->m_data.iData1, headMissionQueueNode()->m_data.iData2 );
+					if( pLoopUnit->canCast(pLoopUnit->getSelectedRangedSpell(), false))
 					{
-						
-						bAction = true;
+						pLoopUnit->castAt( pLoopUnit->getSelectedRangedSpell(), headMissionQueueNode()->m_data.iData1, headMissionQueueNode()->m_data.iData2 );
+						{
+							pLoopUnit->setSelectedRangedSpell((SpellTypes)NO_SPELL);
+							bAction = true;
+						}
+
+						pUnitNode = NULL; // allow one unit at a time to cast ranged spells
 					}
-					pUnitNode = NULL; // allow one unit at a time to cast ranged spells
+					
 					break;
 
 

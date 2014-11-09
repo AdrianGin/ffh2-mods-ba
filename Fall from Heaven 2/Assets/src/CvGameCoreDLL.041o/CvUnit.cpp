@@ -464,6 +464,7 @@ void CvUnit::reset(int iID, UnitTypes eUnit, PlayerTypes eOwner, bool bConstruct
 	m_iSpellCasterXP = 0;
 	m_iSpellDamageModify = 0;
 	m_iSummoner = -1;
+	m_iSelectedRangedSpell = NO_SPELL;
 	m_iTotalDamageTypeCombat = 0;
     m_iUnitArtStyleType = NO_UNIT_ARTSTYLE;
 	m_iWorkRateModify = 0;
@@ -2784,7 +2785,10 @@ bool CvUnit::canDoCommand(CommandTypes eCommand, int iData1, int iData2, bool bT
 
 //FfH Spell System: Added by Kael 07/23/2007
 	case COMMAND_CAST_RANGED:
-		return true;
+		if( canCastSelectTileSpells() )
+		{
+			return true;
+		}
 		break;
 
 	case COMMAND_CAST:{
@@ -14069,7 +14073,7 @@ bool CvUnit::canCastSelectTileSpells(void)
 {
 	for (int iJ = 0; iJ < GC.getNumSpellInfos(); iJ++)
     {
-        if (canCast(iJ, true))
+        if (canCast(iJ, false))
         {
             if (GC.getSpellInfo((SpellTypes)iJ).isTileSelect() )
             {
@@ -14087,6 +14091,11 @@ bool CvUnit::canCastSelectTileSpellAt(const CvPlot* pPlot, int iX, int iY, Spell
 		return false;
 	}
 
+	if( selectedSpell == NO_SPELL )
+	{
+		return false;
+	}
+
 	if( !GC.getSpellInfo((SpellTypes)selectedSpell).isTileSelect() )
 	{
 		return false;
@@ -14100,7 +14109,7 @@ bool CvUnit::canCastSelectTileSpellAt(const CvPlot* pPlot, int iX, int iY, Spell
 		return false;
 	}
 
-	if (canCast(selectedSpell, true))
+	if (canCast(selectedSpell, false))
     {
         return true;
     }
