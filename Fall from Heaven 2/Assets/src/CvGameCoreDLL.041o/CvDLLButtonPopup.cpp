@@ -418,7 +418,6 @@ void CvDLLButtonPopup::OnOkClicked(CvPopup* pPopup, PopupReturn *pPopupReturn, C
 					pLoopUnit->setSelectedRangedSpell(spellIndex);
 					pUnitNode = pSelectionGroup->nextUnitNode(pUnitNode);
 				}
-
 			}
 			else
 			{
@@ -429,6 +428,8 @@ void CvDLLButtonPopup::OnOkClicked(CvPopup* pPopup, PopupReturn *pPopupReturn, C
 					pUnitNode = pSelectionGroup->nextUnitNode(pUnitNode);
 				}
 			}
+
+			GC.getGameINLINE().updateColoredPlots();
 		}
 		break;
 

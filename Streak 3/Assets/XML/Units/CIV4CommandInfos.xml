@@ -1,36 +1,37 @@
 <?xml version="1.0"?>
-<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Jesse Smith (Firaxis Games) -->
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Jesse Smith 
+	(Firaxis Games) -->
 <!-- Sid Meier's Civilization 4 -->
 <!-- Copyright Firaxis Games 2005 -->
 <!-- -->
 <!-- Command Infos -->
 <Civ4CommandInfos xmlns="x-schema:CIV4UnitSchema.xml">
-	<!--Changes must be reflected in CvEnums.h-->
+	<!--Changes must be reflected in CvEnums.h -->
 	<CommandInfos>
 		<CommandInfo>
 			<Type>COMMAND_PROMOTION</Type>
 			<Description>TXT_KEY_COMMAND_PROMOTION</Description>
-			<Help/>
+			<Help />
 		</CommandInfo>
 		<CommandInfo>
 			<Type>COMMAND_UPGRADE</Type>
 			<Description>TXT_KEY_COMMAND_UPGRADE</Description>
-			<Help/>
+			<Help />
 			<bAll>1</bAll>
 		</CommandInfo>
 		<CommandInfo>
 			<Type>COMMAND_AUTOMATE</Type>
 			<Description>TXT_KEY_COMMAND_AUTOMATE</Description>
-			<Help/>
+			<Help />
 			<Button>Art/Interface/Buttons/Actions/Automate.dds</Button>
 		</CommandInfo>
-	<CommandInfos>
-		<CommandInfo>
-			<Type>COMMAND_AUTOMATE_SPELL</Type>
-			<Description>TXT_KEY_COMMAND_AUTOMATE_CAST</Description>
-			<Help/>
-		</CommandInfo>				
-	</CommandInfos>		
+		<CommandInfos>
+			<CommandInfo>
+				<Type>COMMAND_AUTOMATE_SPELL</Type>
+				<Description>TXT_KEY_COMMAND_AUTOMATE_CAST</Description>
+				<Help />
+			</CommandInfo>
+		</CommandInfos>
 		<CommandInfo>
 			<Type>COMMAND_WAKE</Type>
 			<Description>TXT_KEY_COMMAND_WAKE</Description>
@@ -40,7 +41,7 @@
 			<bShiftDown>0</bShiftDown>
 			<bCtrlDown>0</bCtrlDown>
 			<iHotKeyPriority>0</iHotKeyPriority>
-			<HotKeyAlt/>
+			<HotKeyAlt />
 			<bAltDownAlt>0</bAltDownAlt>
 			<bShiftDownAlt>0</bShiftDownAlt>
 			<bCtrlDownAlt>0</bCtrlDownAlt>
@@ -59,7 +60,7 @@
 			<bShiftDown>0</bShiftDown>
 			<bCtrlDown>0</bCtrlDown>
 			<iHotKeyPriority>1</iHotKeyPriority>
-			<HotKeyAlt/>
+			<HotKeyAlt />
 			<bAltDownAlt>0</bAltDownAlt>
 			<bShiftDownAlt>0</bShiftDownAlt>
 			<bCtrlDownAlt>0</bCtrlDownAlt>
@@ -77,7 +78,7 @@
 			<bShiftDown>1</bShiftDown>
 			<bCtrlDown>0</bCtrlDown>
 			<iHotKeyPriority>1</iHotKeyPriority>
-			<HotKeyAlt/>
+			<HotKeyAlt />
 			<bAltDownAlt>0</bAltDownAlt>
 			<bShiftDownAlt>0</bShiftDownAlt>
 			<bCtrlDownAlt>0</bCtrlDownAlt>
@@ -95,7 +96,7 @@
 			<bShiftDown>0</bShiftDown>
 			<bCtrlDown>0</bCtrlDown>
 			<iHotKeyPriority>0</iHotKeyPriority>
-			<HotKeyAlt/>
+			<HotKeyAlt />
 			<bAltDownAlt>0</bAltDownAlt>
 			<bShiftDownAlt>0</bShiftDownAlt>
 			<bCtrlDownAlt>0</bCtrlDownAlt>
@@ -113,7 +114,7 @@
 			<bShiftDown>0</bShiftDown>
 			<bCtrlDown>0</bCtrlDown>
 			<iHotKeyPriority>0</iHotKeyPriority>
-			<HotKeyAlt/>
+			<HotKeyAlt />
 			<bAltDownAlt>0</bAltDownAlt>
 			<bShiftDownAlt>0</bShiftDownAlt>
 			<bCtrlDownAlt>0</bCtrlDownAlt>
@@ -127,12 +128,12 @@
 			<Type>COMMAND_GIFT</Type>
 			<Description>TXT_KEY_COMMAND_GIFT</Description>
 			<Help>TXT_KEY_COMMAND_GIFT_HELP</Help>
-			<HotKey/>
+			<HotKey />
 			<bAltDown>0</bAltDown>
 			<bShiftDown>0</bShiftDown>
 			<bCtrlDown>0</bCtrlDown>
 			<iHotKeyPriority>0</iHotKeyPriority>
-			<HotKeyAlt/>
+			<HotKeyAlt />
 			<bAltDownAlt>0</bAltDownAlt>
 			<bShiftDownAlt>0</bShiftDownAlt>
 			<bCtrlDownAlt>0</bCtrlDownAlt>
@@ -149,7 +150,7 @@
 			<bShiftDown>0</bShiftDown>
 			<bCtrlDown>0</bCtrlDown>
 			<iHotKeyPriority>1</iHotKeyPriority>
-			<HotKeyAlt/>
+			<HotKeyAlt />
 			<bAltDownAlt>0</bAltDownAlt>
 			<bShiftDownAlt>0</bShiftDownAlt>
 			<bCtrlDownAlt>0</bCtrlDownAlt>
@@ -171,7 +172,7 @@
 			<bShiftDown>0</bShiftDown>
 			<bCtrlDown>0</bCtrlDown>
 			<iHotKeyPriority>1</iHotKeyPriority>
-			<HotKeyAlt/>
+			<HotKeyAlt />
 			<bAltDownAlt>0</bAltDownAlt>
 			<bShiftDownAlt>0</bShiftDownAlt>
 			<bCtrlDownAlt>0</bCtrlDownAlt>
@@ -188,7 +189,7 @@
 			<bShiftDown>1</bShiftDown>
 			<bCtrlDown>0</bCtrlDown>
 			<iHotKeyPriority>1</iHotKeyPriority>
-			<HotKeyAlt/>
+			<HotKeyAlt />
 			<bAltDownAlt>0</bAltDownAlt>
 			<bShiftDownAlt>0</bShiftDownAlt>
 			<bCtrlDownAlt>0</bCtrlDownAlt>
@@ -204,12 +205,12 @@
 		<CommandInfo>
 			<Type>COMMAND_CAST</Type>
 			<Description>TXT_KEY_COMMAND_CAST</Description>
-			<Help/>
+			<Help />
 		</CommandInfo>
 		<CommandInfo>
 			<Type>COMMAND_CAST_RANGED</Type>
 			<Description>TXT_KEY_COMMAND_CAST_RANGED</Description>
-			<Help/>
+			<Help />
 			<bVisible>1</bVisible>
 			<Button>Art/Interface/Buttons/Spells/Add to City.dds</Button>
 		</CommandInfo>

@@ -3076,6 +3076,7 @@ m_bGlobal(false),
 
 m_bIsTileSelect(false),
 m_bIsUnitSelect(false),
+m_bRequiresLOS(false),
 m_iSpellDistance(0),
 
 m_bInBordersOnly(false),
@@ -3301,11 +3302,16 @@ bool CvSpellInfo::isUnitSelect() const
 	return m_bIsUnitSelect;
 }
 
+bool CvSpellInfo::isRequireLOS() const
+{
+	return m_bRequiresLOS;
+}
 
 int CvSpellInfo::getSpellDistance() const
 {
 	return m_iSpellDistance;
 }
+
 
 
 bool CvSpellInfo::isInBordersOnly() const
@@ -3612,6 +3618,10 @@ void CvSpellInfo::read(FDataStreamBase* stream)
 	stream->Read(&m_bIsTileSelect);
 	stream->Read(&m_bIsUnitSelect);
 	stream->Read(&m_iSpellDistance);
+	stream->Read(&m_bRequiresLOS);
+
+	
+
 
 	stream->Read(&m_bInBordersOnly);
 	stream->Read(&m_bInCityOnly);
@@ -3714,7 +3724,7 @@ void CvSpellInfo::write(FDataStreamBase* stream)
 	stream->Write(m_bIsTileSelect);
 	stream->Write(m_bIsUnitSelect);
 	stream->Write(m_iSpellDistance);
-	
+	stream->Write(&m_bRequiresLOS);
 
 	stream->Write(m_bInBordersOnly);
 	stream->Write(m_bInCityOnly);
@@ -3836,6 +3846,8 @@ bool CvSpellInfo::read(CvXMLLoadUtility* pXML)
 	pXML->GetChildXmlValByName(&m_bIsTileSelect, "bIsTileSelect");
 	pXML->GetChildXmlValByName(&m_bIsUnitSelect, "bIsUnitSelect");
 	pXML->GetChildXmlValByName(&m_iSpellDistance, "iSpellDistance");
+	pXML->GetChildXmlValByName(&m_bRequiresLOS, "bRequiresLOS");
+
 
 	pXML->GetChildXmlValByName(&m_bInBordersOnly, "bInBordersOnly");
 	pXML->GetChildXmlValByName(&m_bInCityOnly, "bInCityOnly");

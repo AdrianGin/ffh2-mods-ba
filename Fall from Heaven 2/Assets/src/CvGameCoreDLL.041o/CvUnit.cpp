@@ -14101,20 +14101,36 @@ bool CvUnit::canCastSelectTileSpellAt(const CvPlot* pPlot, int iX, int iY, Spell
 		return false;
 	}
 
+	if ( !canCast(selectedSpell, false))
+    {
+        return false;
+    }
+
 	int iDistance = plotDistance(pPlot->getX_INLINE(), pPlot->getY_INLINE(), iX, iY);
 	int iSpellDistance = GC.getSpellInfo((SpellTypes)selectedSpell).getSpellDistance();
 
-	if (iDistance > iSpellDistance )
+	if (plotDistance(pPlot->getX_INLINE(), pPlot->getY_INLINE(), iX, iY) <= iSpellDistance)
+	{
+		if( GC.getSpellInfo((SpellTypes)selectedSpell).isRequireLOS() )
+		{
+			CvPlot* pTargetPlot = GC.getMapINLINE().plotINLINE(iX, iY);
+			if (plot()->canSeePlot(pTargetPlot, getTeam(), iSpellDistance, getFacingDirection(true)))
+			{
+				return true;
+			}
+			return false;
+		}
+		else
+		{
+			return true;
+		}
+	}
+	else
 	{
 		return false;
 	}
 
-	if (canCast(selectedSpell, false))
-    {
-        return true;
-    }
-
-	return false;
+	return true;
 }
 
 bool CvUnit::castSelectTileSpells(void)
@@ -14963,6 +14979,7 @@ bool CvUnit::canSpreadReligion(int spell) const
 void CvUnit::cast(int spell)
 {
 	castAt(spell, plot()->getX_INLINE(), plot()->getY_INLINE());
+	
 }
 
 void CvUnit::castAt(int spell, int iX, int iY)

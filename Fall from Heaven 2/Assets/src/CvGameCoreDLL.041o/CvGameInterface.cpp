@@ -221,6 +221,27 @@ void CvGame::updateColoredPlots()
 				}
 			}
 		}
+		//Adding Ranged Spell Coloured Plot
+		if(pHeadSelectedUnit->getSelectedRangedSpell() != NO_SPELL) //other ranged units
+		{
+			int spellRange = GC.getSpellInfo((SpellTypes)pHeadSelectedUnit->getSelectedRangedSpell()).getSpellDistance();
+				
+
+			int iRange = spellRange;
+			for (iDX = -(iRange); iDX <= iRange; iDX++)
+			{
+				for (iDY = -(iRange); iDY <= iRange; iDY++)
+				{
+					CvPlot* pTargetPlot = plotXY(pHeadSelectedUnit->getX_INLINE(), pHeadSelectedUnit->getY_INLINE(), iDX, iDY);
+					if( pHeadSelectedUnit->canCastSelectTileSpellAt( pHeadSelectedUnit->plot(), pTargetPlot->getX_INLINE(), pTargetPlot->getY_INLINE(), (SpellTypes)pHeadSelectedUnit->getSelectedRangedSpell() ) )
+					{
+						NiColorA color(GC.getColorInfo((ColorTypes)GC.getInfoTypeForString("COLOR_YELLOW")).getColor());
+						color.a = 0.5f;
+						gDLL->getEngineIFace()->fillAreaBorderPlot(pTargetPlot->getX_INLINE(), pTargetPlot->getY_INLINE(), color, AREA_BORDER_LAYER_RANGED);
+					}
+				}
+			}
+		}
 
 		FAssert(getActivePlayer() != NO_PLAYER);
 
@@ -1177,16 +1198,6 @@ void CvGame::handleAction(int iAction)
 			}
 		}
 		InterfaceModeTypes iFace = (InterfaceModeTypes)GC.getActionInfo(iAction).getInterfaceModeType();
-
-		if( iFace == INTERFACEMODE_CAST_RANGED_SPELL )
-		{
-			CvPopupInfo* pInfo = new CvPopupInfo(BUTTONPOPUP_LOADUNIT);
-			if (NULL != pInfo)
-			{
-				gDLL->getInterfaceIFace()->addPopup(pInfo);
-				bSkip = true;
-			}
-		}
 
 		gDLL->getInterfaceIFace()->setInterfaceMode(iFace);
 	}

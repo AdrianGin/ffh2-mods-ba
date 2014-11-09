@@ -245,6 +245,8 @@
             <bIsTileSelect>1</bIsTileSelect>
             <bIsUnitSelect>1</bIsUnitSelect>
             <iSpellDistance>2</iSpellDistance>
+            <bRequiresLOS>1</bRequiresLOS>
+            
             <bAllowAI>1</bAllowAI>
             <bAllowAutomateTerrain>1</bAllowAutomateTerrain>
             <bCausesWar>1</bCausesWar>
