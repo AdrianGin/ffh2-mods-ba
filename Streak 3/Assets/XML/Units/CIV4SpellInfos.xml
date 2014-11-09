@@ -144,10 +144,10 @@
             <Button>Art/Interface/Buttons/Promotions/Hidden.dds</Button>
         </SpellInfo>
         <SpellInfo>
-            <Type>SPELL_THUNDERSTORM</Type>
-            <Description>Thunderstorm</Description>
+            <Type>SPELL_THUNDERSTRIKE</Type>
+            <Description>TXT_KEY_SPELL_THUNDERSTRIKE</Description>
             <Civilopedia></Civilopedia>
-            <PromotionPrereq1>PROMOTION_AIR2</PromotionPrereq1>
+            <PromotionPrereq1>PROMOTION_AIRIIA</PromotionPrereq1>
             <bAllowAI>1</bAllowAI>
             <bCausesWar>1</bCausesWar>
             <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
@@ -164,7 +164,7 @@
             <Type>SPELL_HASTE</Type>            
             <Description>Haste</Description>
             <Civilopedia></Civilopedia>
-            <PromotionPrereq1>PROMOTION_AIR1</PromotionPrereq1>
+            <PromotionPrereq1>PROMOTION_AIRIA</PromotionPrereq1>
             <bAllowAI>1</bAllowAI>
             <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
             <bHasCasted>1</bHasCasted>
@@ -181,7 +181,7 @@
             <Type>SPELL_BLUR</Type>
             <Description>Blur</Description>
             <Civilopedia></Civilopedia>
-            <PromotionPrereq1>PROMOTION_AIR1</PromotionPrereq1>
+            <PromotionPrereq1>PROMOTION_AIRIB</PromotionPrereq1>
             <bAllowAI>1</bAllowAI>
             <iAIWeightWar>50</iAIWeightWar>
             <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
@@ -310,19 +310,6 @@
             <Effect>EFFECT_WIND_SWIRL</Effect>
             <Sound>AS3D_SPELL_HASTE</Sound>
             <Button>Art/Interface/Buttons/Promotions/Danceofblades.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_SHADOWWALK</Type>
-            <Description>Shadow Walk</Description>
-            <Civilopedia></Civilopedia>
-            <PromotionPrereq1>PROMOTION_AIR2</PromotionPrereq1>
-            <bAllowAI>1</bAllowAI>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <AddPromotionType1>PROMOTION_SHADOWWALK</AddPromotionType1>
-            <Effect>EFFECT_SWORDS_SPARKS</Effect>
-            <Sound>AS3D_SPELL_ENCHANTMENT</Sound>
-            <Button>Art/Interface/Buttons/Promotions/Shadowwalk.dds</Button>
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_EARTHQUAKE</Type>
@@ -511,6 +498,47 @@
             <Effect>EFFECT_VITALIZE</Effect>
             <Sound>AS3D_SPELL_SANCTIFY</Sound>
             <Button>Art/Interface/Buttons/Spells/Vitalize.dds</Button>
+        </SpellInfo>
+        <SpellInfo>
+            <Type>SPELL_TELEPORT</Type>
+            <Description>TXT_KEY_SPELL_TELEPORT</Description>
+            <Civilopedia></Civilopedia>
+            <Help></Help>
+            <PromotionPrereq1>PROMOTION_AIRIIB</PromotionPrereq1>
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+            <bHasCasted>1</bHasCasted>
+            <Effect>EFFECT_VITALIZE</Effect>
+            <Sound>AS3D_SPELL_SANCTIFY</Sound>
+            <Button>Art/Interface/Buttons/Promotions/Twincast.dds</Button>
+        </SpellInfo>
+        <SpellInfo>
+            <Type>SPELL_SPELLSTAFF</Type>
+            <Description>TXT_KEY_SPELL_SPELLSTAFF</Description>
+            <Civilopedia></Civilopedia>
+            <PromotionPrereq1>PROMOTION_AIRIIIA</PromotionPrereq1>
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+            <bIgnoreHasCasted>1</bIgnoreHasCasted>
+            <RemovePromotionType1>PROMOTION_SPELLSTAFF</RemovePromotionType1>
+            <bBuffCasterOnly>1</bBuffCasterOnly>
+            <bRemoveHasCasted>1</bRemoveHasCasted>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS3D_SPELL_ENCHANTMENT</Sound>
+            <Button>Art/Interface/Buttons/Promotions/Spellstaff.dds</Button>
+        </SpellInfo>
+        <SpellInfo>
+            <Type>SPELL_FATIGUE</Type>
+            <Description>TXT_KEY_SPELL_FATIGUE</Description>
+            <Civilopedia></Civilopedia>
+            <Help></Help>
+            <PromotionPrereq1>PROMOTION_AIRIIIB</PromotionPrereq1>
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+            <bHasCasted>1</bHasCasted>
+            <Effect>EFFECT_VITALIZE</Effect>
+            <Sound>AS3D_SPELL_SANCTIFY</Sound>
+            <Button>Art/Interface/Buttons/Promotions/Fatigued.dds</Button>
         </SpellInfo>
     </SpellInfos>
 </Civ4SpellInfos>

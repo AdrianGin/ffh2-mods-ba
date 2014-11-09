@@ -23,51 +23,6 @@
             </DamageTypeCombats>
         </PromotionInfo>
         <PromotionInfo>
-            <Type>PROMOTION_AIR1</Type>
-            <Description>TXT_KEY_PROMOTION_AIR1</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_CHANNELING1</PromotionPrereq>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Air1.dds</Button>
-            <iAIWeight>50</iAIWeight>
-            <BonusPrereq>BONUS_MANA_AIR</BonusPrereq>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_AIR2</Type>
-            <Description>TXT_KEY_PROMOTION_AIR2</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_CHANNELING2</PromotionPrereq>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Air2.dds</Button>
-            <iAIWeight>100</iAIWeight>
-            <BonusPrereq>BONUS_MANA_AIR</BonusPrereq>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_AIR3</Type>
-            <Description>TXT_KEY_PROMOTION_AIR3</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_CHANNELING3</PromotionPrereq>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Air3.dds</Button>
-            <iAIWeight>150</iAIWeight>
-            <BonusPrereq>BONUS_MANA_AIR</BonusPrereq>
-        </PromotionInfo>
-        <PromotionInfo>
             <Type>PROMOTION_AMPHIBIOUS</Type>
             <Description>Amphibious</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
@@ -2470,52 +2425,6 @@
             <Button>Art/Interface/Buttons/Promotions/Sentry2.dds</Button>
         </PromotionInfo>
         <PromotionInfo>
-            <Type>PROMOTION_SHADOWWALK</Type>
-            <Description>TXT_KEY_PROMOTION_SHADOWWALK</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_NEVER</TechPrereq>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/ShadowWalk.dds</Button>
-            <bIgnoreBuildingDefense>1</bIgnoreBuildingDefense>
-            <bImmuneToDefensiveStrike>1</bImmuneToDefensiveStrike>
-            <iAIWeight>150</iAIWeight>
-            <iExpireChance>25</iExpireChance>
-            <iMinLevel>-1</iMinLevel>
-        </PromotionInfo>
-        <PromotionInfo>
             <Type>PROMOTION_SHEUT_STONE</Type>
             <Description>TXT_KEY_PROMOTION_SHEUT_STONE</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
@@ -3393,6 +3302,97 @@
             <Button>Art/Interface/Buttons/Spells/Heal.dds</Button>
             <iAIWeight>50</iAIWeight>
             <iMinLevel>-1</iMinLevel>
+        </PromotionInfo>
+        
+        <PromotionInfo>
+            <Type>PROMOTION_AIRIA</Type>
+            <Description>TXT_KEY_PROMOTION_AIRIA</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PromotionPrereq>PROMOTION_CHANNELING1</PromotionPrereq>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Promotions/Air1.dds</Button>
+            <iAIWeight>50</iAIWeight>
+            <BonusPrereq>BONUS_MANA_AIR</BonusPrereq>
+        </PromotionInfo>
+        <PromotionInfo>
+            <Type>PROMOTION_AIRIB</Type>
+            <Description>TXT_KEY_PROMOTION_AIRIB</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PromotionPrereq>PROMOTION_CHANNELING1</PromotionPrereq>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Promotions/Air1.dds</Button>
+            <iAIWeight>50</iAIWeight>
+            <BonusPrereq>BONUS_MANA_AIR</BonusPrereq>
+        </PromotionInfo>
+        <PromotionInfo>
+            <Type>PROMOTION_AIRIIA</Type>
+            <Description>TXT_KEY_PROMOTION_AIRIIA</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PromotionPrereq>PROMOTION_CHANNELING2</PromotionPrereq>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Promotions/Air2.dds</Button>
+            <iAIWeight>50</iAIWeight>
+            <BonusPrereq>BONUS_MANA_AIR</BonusPrereq>
+        </PromotionInfo>
+        <PromotionInfo>
+            <Type>PROMOTION_AIRIIB</Type>
+            <Description>TXT_KEY_PROMOTION_AIRIIB</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PromotionPrereq>PROMOTION_CHANNELING2</PromotionPrereq>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Promotions/Air2.dds</Button>
+            <iAIWeight>50</iAIWeight>
+            <BonusPrereq>BONUS_MANA_AIR</BonusPrereq>
+        </PromotionInfo>
+        <PromotionInfo>
+            <Type>PROMOTION_AIRIIIA</Type>
+            <Description>TXT_KEY_PROMOTION_AIRIIIA</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PromotionPrereq>PROMOTION_CHANNELING3</PromotionPrereq>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Promotions/Air3.dds</Button>
+            <iAIWeight>50</iAIWeight>
+            <BonusPrereq>BONUS_MANA_AIR</BonusPrereq>
+        </PromotionInfo>
+        <PromotionInfo>
+            <Type>PROMOTION_AIRIIIB</Type>
+            <Description>TXT_KEY_PROMOTION_AIRIIIB</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PromotionPrereq>PROMOTION_CHANNELING3</PromotionPrereq>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Promotions/Air3.dds</Button>
+            <iAIWeight>50</iAIWeight>
+            <BonusPrereq>BONUS_MANA_AIR</BonusPrereq>
         </PromotionInfo>
     </PromotionInfos>
 </Civ4PromotionInfos>
