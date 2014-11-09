@@ -1403,7 +1403,7 @@ void CvSelectionGroup::startMission()
 						}
 						else
 						{
-							pLoopUnit->castAt( pLoopUnit->getSelectedRangedSpell(), headMissionQueueNode()->m_data.iData1, headMissionQueueNode()->m_data.iData2 );
+							pLoopUnit->castAt( pLoopUnit->getSelectedRangedSpell(), headMissionQueueNode()->m_data.iData1, headMissionQueueNode()->m_data.iData2,  NULL );
 							{
 								pLoopUnit->setSelectedRangedSpell((SpellTypes)NO_SPELL);
 								GC.getGameINLINE().updateColoredPlots();

@@ -486,7 +486,7 @@ void CvDLLButtonPopup::OnOkClicked(CvPopup* pPopup, PopupReturn *pPopupReturn, C
 								iCount--;
 								if( iCount == 0)
 								{
-									pLoopUnit->kill(false);
+									pUnit->castAt( pUnit->getSelectedRangedSpell(), pTargetPlot->getX_INLINE(), pTargetPlot->getY_INLINE(), pLoopUnit);
 								}
 							}
 						}

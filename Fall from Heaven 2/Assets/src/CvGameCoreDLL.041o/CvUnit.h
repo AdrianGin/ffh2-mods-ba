@@ -863,7 +863,7 @@ public:
 	bool canRemovePromotion(int spell);
 
 	void cast(int spell);
-	void castAt(int spell, int iX, int iY);
+	void castAt(int spell, int iX, int iY, CvUnit* pTarget);
 	void castAddPromotion(int spell);
 	void castCreateUnit(int spell);
 	void castConvertUnit(int spell);

@@ -264,7 +264,7 @@
             <Civilopedia></Civilopedia>
             <PromotionPrereq1>PROMOTION_FIRE1</PromotionPrereq1>
             <bIsTileSelect>1</bIsTileSelect>
-            <bIsUnitSelect>1</bIsUnitSelect>
+            <bIsUnitSelect>0</bIsUnitSelect>
             <iSpellDistance>1</iSpellDistance>
             <bAllowAI>1</bAllowAI>
             <bDisplayWhenDisabled>1</bDisplayWhenDisabled>

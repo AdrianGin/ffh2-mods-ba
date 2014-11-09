@@ -17,7 +17,7 @@ cf = CustomFunctions.CustomFunctions()
 sf = ScenarioFunctions.ScenarioFunctions()
 
 def cast(argsList):
-	pCaster, eSpell, pPlot = argsList
+	pCaster, eSpell, pPlot, pTarget = argsList
 	spell = gc.getSpellInfo(eSpell)
 	eval(spell.getPyResult())
 

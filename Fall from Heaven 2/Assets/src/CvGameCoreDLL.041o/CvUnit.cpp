@@ -14981,11 +14981,11 @@ bool CvUnit::canSpreadReligion(int spell) const
 
 void CvUnit::cast(int spell)
 {
-	castAt(spell, plot()->getX_INLINE(), plot()->getY_INLINE());
+	castAt(spell, plot()->getX_INLINE(), plot()->getY_INLINE(), NULL);
 	
 }
 
-void CvUnit::castAt(int spell, int iX, int iY)
+void CvUnit::castAt(int spell, int iX, int iY, CvUnit* pTarget)
 {
 	CvPlot* pPlot;
 	pPlot = GC.getMapINLINE().plotINLINE(iX, iY);
@@ -15030,9 +15030,13 @@ void CvUnit::castAt(int spell, int iX, int iY)
             if (!CvString(GC.getSpellInfo((SpellTypes)spell).getPyMiscast()).empty())
             {
                 CyUnit* pyUnit = new CyUnit(this);
+				
                 CyArgsList argsList;
                 argsList.add(gDLL->getPythonIFace()->makePythonObject(pyUnit));	// pass in unit class
                 argsList.add(spell);//the spell #
+
+				
+
                 gDLL->getPythonIFace()->callFunction(PYSpellModule, "miscast", argsList.makeFunctionArgs()); //, &lResult
                 delete pyUnit; // python fxn must not hold on to this pointer
             }
@@ -15157,12 +15161,16 @@ void CvUnit::castAt(int spell, int iX, int iY)
     {
         CyUnit* pyUnit = new CyUnit(this);
 		CyPlot* pyPlot = new CyPlot(pPlot);
+		CyUnit* pyTargetUnit = new CyUnit(pTarget);
 
 
         CyArgsList argsList;
         argsList.add(gDLL->getPythonIFace()->makePythonObject(pyUnit));	// pass in unit class
         argsList.add(spell);//the spell #
 		argsList.add(gDLL->getPythonIFace()->makePythonObject(pyPlot));//the plot #
+		argsList.add(gDLL->getPythonIFace()->makePythonObject(pyTargetUnit));//the enemy target #
+
+
         gDLL->getPythonIFace()->callFunction(PYSpellModule, "cast", argsList.makeFunctionArgs()); //, &lResult
         delete pyUnit; // python fxn must not hold on to this pointer
 		delete pyPlot;
