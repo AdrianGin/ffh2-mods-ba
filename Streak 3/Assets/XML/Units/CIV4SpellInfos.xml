@@ -144,54 +144,6 @@
             <Button>Art/Interface/Buttons/Promotions/Hidden.dds</Button>
         </SpellInfo>
         <SpellInfo>
-            <Type>SPELL_THUNDERSTRIKE</Type>
-            <Description>TXT_KEY_SPELL_THUNDERSTRIKE</Description>
-            <Civilopedia></Civilopedia>
-            <PromotionPrereq1>PROMOTION_AIRIIA</PromotionPrereq1>
-            <bAllowAI>1</bAllowAI>
-            <bCausesWar>1</bCausesWar>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <iRange>2</iRange>
-            <iDamage>15</iDamage>
-            <iDamageLimit>30</iDamageLimit>
-            <DamageType>DAMAGE_LIGHTNING</DamageType>
-            <Effect>EFFECT_MAELSTROM</Effect>
-            <Sound>AS3D_SPELL_MAELSTROM</Sound>
-            <Button>Art/Interface/Buttons/Spells/Maelstrom.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_HASTE</Type>            
-            <Description>Haste</Description>
-            <Civilopedia></Civilopedia>
-            <PromotionPrereq1>PROMOTION_AIRIA</PromotionPrereq1>
-            <bAllowAI>1</bAllowAI>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <AddPromotionType1>PROMOTION_HASTED</AddPromotionType1>
-            <RemovePromotionType1>PROMOTION_SLOW</RemovePromotionType1>
-            <bImmuneNeutral>1</bImmuneNeutral>
-            <bImmuneEnemy>1</bImmuneEnemy>
-            <bImmuneNotAlive>1</bImmuneNotAlive>
-            <Effect>EFFECT_WIND_SWIRL</Effect>
-            <Sound>AS3D_SPELL_HASTE</Sound>
-            <Button>Art/Interface/Buttons/Promotions/Hasted.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_BLUR</Type>
-            <Description>Blur</Description>
-            <Civilopedia></Civilopedia>
-            <PromotionPrereq1>PROMOTION_AIRIB</PromotionPrereq1>
-            <bAllowAI>1</bAllowAI>
-            <iAIWeightWar>50</iAIWeightWar>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <AddPromotionType1>PROMOTION_BLUR</AddPromotionType1>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_CHARM_PERSON</Sound>
-            <Button>Art/Interface/Buttons/Promotions/Blur.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
             <Type>SPELL_BLOOM</Type>
             <Description>Bloom</Description>
             <Civilopedia></Civilopedia>
@@ -499,12 +451,81 @@
             <Sound>AS3D_SPELL_SANCTIFY</Sound>
             <Button>Art/Interface/Buttons/Spells/Vitalize.dds</Button>
         </SpellInfo>
+        
+        
+        
+        
+        
+        <SpellInfo>
+            <Type>SPELL_HASTE</Type>            
+            <Description>Haste</Description>
+            <Civilopedia></Civilopedia>
+            <PromotionPrereq1>PROMOTION_AIRIA</PromotionPrereq1>
+            <bIsTileSelect>1</bIsTileSelect>
+            <bIsUnitSelect>0</bIsUnitSelect>
+            <iSpellDistance>0</iSpellDistance>
+            <bRequiresLOS>1</bRequiresLOS>
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+            <bHasCasted>1</bHasCasted>
+            <AddPromotionType1>PROMOTION_HASTED</AddPromotionType1>
+            <RemovePromotionType1>PROMOTION_SLOW</RemovePromotionType1>
+            <bImmuneNeutral>1</bImmuneNeutral>
+            <bImmuneEnemy>1</bImmuneEnemy>
+            <bImmuneNotAlive>1</bImmuneNotAlive>
+            <Effect>EFFECT_WIND_SWIRL</Effect>
+            <Sound>AS3D_SPELL_HASTE</Sound>
+            <Button>Art/Interface/Buttons/Promotions/Hasted.dds</Button>
+        </SpellInfo>
+        <SpellInfo>
+            <Type>SPELL_BLUR</Type>
+            <Description>Blur</Description>
+            <Civilopedia></Civilopedia>
+            <PromotionPrereq1>PROMOTION_AIRIB</PromotionPrereq1>
+            <bIsTileSelect>1</bIsTileSelect>
+            <bIsUnitSelect>0</bIsUnitSelect>
+            <iSpellDistance>0</iSpellDistance>
+            <bRequiresLOS>1</bRequiresLOS>
+            <bAllowAI>1</bAllowAI>
+            <iAIWeightWar>50</iAIWeightWar>
+            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+            <bHasCasted>1</bHasCasted>
+            <AddPromotionType1>PROMOTION_BLUR</AddPromotionType1>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS3D_SPELL_CHARM_PERSON</Sound>
+            <Button>Art/Interface/Buttons/Promotions/Blur.dds</Button>
+        </SpellInfo>
+        <SpellInfo>
+            <Type>SPELL_THUNDERSTRIKE</Type>
+            <Description>TXT_KEY_SPELL_THUNDERSTRIKE</Description>
+            <Civilopedia></Civilopedia>
+            <PromotionPrereq1>PROMOTION_AIRIIA</PromotionPrereq1>
+            <bIsTileSelect>1</bIsTileSelect>
+            <bIsUnitSelect>1</bIsUnitSelect>
+            <iSpellDistance>1</iSpellDistance>
+            <bRequiresLOS>1</bRequiresLOS>
+            <bAllowAI>1</bAllowAI>
+            <bCausesWar>1</bCausesWar>
+            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+            <bHasCasted>1</bHasCasted>
+            <iRange>2</iRange>
+            <iDamage>15</iDamage>
+            <iDamageLimit>30</iDamageLimit>
+            <DamageType>DAMAGE_LIGHTNING</DamageType>
+            <Effect>EFFECT_MAELSTROM</Effect>
+            <Sound>AS3D_SPELL_MAELSTROM</Sound>
+            <Button>Art/Interface/Buttons/Spells/Maelstrom.dds</Button>
+        </SpellInfo>
         <SpellInfo>
             <Type>SPELL_TELEPORT</Type>
             <Description>TXT_KEY_SPELL_TELEPORT</Description>
             <Civilopedia></Civilopedia>
             <Help></Help>
             <PromotionPrereq1>PROMOTION_AIRIIB</PromotionPrereq1>
+            <bIsTileSelect>1</bIsTileSelect>
+            <bIsUnitSelect>1</bIsUnitSelect>
+            <iSpellDistance>0</iSpellDistance>
+            <bRequiresLOS>1</bRequiresLOS>
             <bAllowAI>1</bAllowAI>
             <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
             <bHasCasted>1</bHasCasted>
@@ -517,6 +538,10 @@
             <Description>TXT_KEY_SPELL_SPELLSTAFF</Description>
             <Civilopedia></Civilopedia>
             <PromotionPrereq1>PROMOTION_AIRIIIA</PromotionPrereq1>
+            <bIsTileSelect>0</bIsTileSelect>
+            <bIsUnitSelect>0</bIsUnitSelect>
+            <iSpellDistance>0</iSpellDistance>
+            <bRequiresLOS>1</bRequiresLOS>
             <bAllowAI>1</bAllowAI>
             <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
             <bIgnoreHasCasted>1</bIgnoreHasCasted>
@@ -533,6 +558,10 @@
             <Civilopedia></Civilopedia>
             <Help></Help>
             <PromotionPrereq1>PROMOTION_AIRIIIB</PromotionPrereq1>
+            <bIsTileSelect>1</bIsTileSelect>
+            <bIsUnitSelect>0</bIsUnitSelect>
+            <iSpellDistance>1</iSpellDistance>
+            <bRequiresLOS>1</bRequiresLOS>
             <bAllowAI>1</bAllowAI>
             <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
             <bHasCasted>1</bHasCasted>
