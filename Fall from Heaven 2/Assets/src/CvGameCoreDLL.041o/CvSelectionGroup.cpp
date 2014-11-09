@@ -1392,6 +1392,9 @@ void CvSelectionGroup::startMission()
 					{
 						if( GC.getSpellInfo((SpellTypes)pLoopUnit->getSelectedRangedSpell()).isUnitSelect()  )
 						{
+							CvPlot* pTargetPlot = GC.getMapINLINE().plotINLINE(headMissionQueueNode()->m_data.iData1, headMissionQueueNode()->m_data.iData2);
+							pLoopUnit->setTargetPlot(pTargetPlot);
+
 							CvPopupInfo* pInfo = new CvPopupInfo(BUTTONPOPUP_CAST_SELECT_UNIT);
 							if (NULL != pInfo)
 							{
