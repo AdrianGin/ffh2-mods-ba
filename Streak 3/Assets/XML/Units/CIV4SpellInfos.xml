@@ -144,51 +144,6 @@
             <Button>Art/Interface/Buttons/Promotions/Hidden.dds</Button>
         </SpellInfo>
         <SpellInfo>
-            <Type>SPELL_BLOOM</Type>
-            <Description>Bloom</Description>
-            <Civilopedia></Civilopedia>
-            <PromotionPrereq1>PROMOTION_EARTH1</PromotionPrereq1>
-            <bAllowAI>1</bAllowAI>
-            <bAllowAutomateTerrain>1</bAllowAutomateTerrain>
-            <bInBordersOnly>0</bInBordersOnly>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <CreateFeatureType>FEATURE_FOREST</CreateFeatureType>
-            <iDelay>2</iDelay>
-            <Effect>EFFECT_BLOOM</Effect>
-            <Sound>AS3D_SPELL_BLOOM</Sound>
-            <Button>Art/Interface/Buttons/Spells/Bloom.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_ENCHANTED_BLADE</Type>
-            <Description>Enchanted Blade</Description>
-            <Civilopedia></Civilopedia>
-            <PromotionPrereq1>PROMOTION_EARTH1</PromotionPrereq1>
-            <bAllowAI>1</bAllowAI>
-            <iAIWeightWar>100</iAIWeightWar>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <AddPromotionType1>PROMOTION_ENCHANTED_BLADE</AddPromotionType1>
-            <Effect>EFFECT_ENCHANTED_BLADE</Effect>
-            <Sound>AS3D_SPELL_ENCHANTMENT</Sound>
-            <Button>Art/Interface/Buttons/Promotions/Enchantedblade.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_TREETOP_DEFENCE</Type>
-            <Description>Treetop Defence</Description>
-            <Help></Help>
-            <PromotionPrereq1>PROMOTION_EARTH1</PromotionPrereq1>
-            <FeatureOrPrereq1>FEATURE_FOREST</FeatureOrPrereq1>
-            <bAllowAI>1</bAllowAI>
-            <iAIWeight>10</iAIWeight>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <PyResult>spellTreetopDefence(pCaster)</PyResult>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_SANCTIFY</Sound>
-            <Button>Art/Interface/Buttons/Spells/Treetopdefence.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
             <Type>SPELL_SCORCH</Type>
             <Description>Scorch</Description>
             <Help></Help>
@@ -262,36 +217,6 @@
             <Effect>EFFECT_WIND_SWIRL</Effect>
             <Sound>AS3D_SPELL_HASTE</Sound>
             <Button>Art/Interface/Buttons/Promotions/Danceofblades.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_EARTHQUAKE</Type>
-            <Description>Earthquake</Description>
-            <PromotionPrereq1>PROMOTION_EARTH2</PromotionPrereq1>
-            <bAllowAI>1</bAllowAI>
-            <bCausesWar>1</bCausesWar>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <PyResult>spellEarthquake(pCaster)</PyResult>
-            <PyRequirement>reqEarthquake(pCaster)</PyRequirement>
-            <Effect>EFFECT_SNOWFALL</Effect>
-            <Sound>AS3D_SPELL_EARTHQUAKE</Sound>
-            <Button>Art/Interface/Buttons/Spells/Earthquake.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_DISPEL_MAGIC</Type>
-            <Description>Dispel Magic</Description>
-            <Help></Help>
-            <PromotionPrereq1>PROMOTION_EARTH2</PromotionPrereq1>
-            <bAllowAI>1</bAllowAI>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <iRange>2</iRange>
-            <bDispel>1</bDispel>
-            <PyResult>spellDispelMagic(pCaster)</PyResult>
-            <PyRequirement>reqDispelMagic(pCaster)</PyRequirement>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_DISPEL_MAGIC</Sound>
-            <Button>Art/Interface/Buttons/Spells/Dispel Magic.dds</Button>
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_FIREBALL</Type>
@@ -560,6 +485,133 @@
             <Effect>EFFECT_VITALIZE</Effect>
             <Sound>AS3D_SPELL_SANCTIFY</Sound>
             <Button>Art/Interface/Buttons/Promotions/Fatigued.dds</Button>
+        </SpellInfo>
+                
+        <SpellInfo>
+            <Type>SPELL_BLOOM</Type>
+            <Description>TXT_KEY_SPELL_BLOOM</Description>
+            <PromotionPrereq1>PROMOTION_EARTHIA</PromotionPrereq1>
+            <bIsTileSelect>1</bIsTileSelect>
+            <bIsUnitSelect>0</bIsUnitSelect>
+            <iSpellDistance>0</iSpellDistance>
+            <bRequiresLOS>1</bRequiresLOS>
+            <bAllowAI>1</bAllowAI>
+            <bAllowAutomateTerrain>1</bAllowAutomateTerrain>
+            <bInBordersOnly>0</bInBordersOnly>
+            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+            <bHasCasted>1</bHasCasted>
+            <CreateFeatureType>FEATURE_FOREST</CreateFeatureType>
+            <iDelay>2</iDelay>
+            <Effect>EFFECT_BLOOM</Effect>
+            <Sound>AS3D_SPELL_BLOOM</Sound>
+            <Button>Art/Interface/Buttons/Spells/Bloom.dds</Button>
+        </SpellInfo>
+        <SpellInfo>
+            <Type>SPELL_TREETOP_DEFENCE</Type>
+            <Description>TXT_KEY_SPELL_TREETOP_DEFENCE</Description>
+            <PromotionPrereq1>PROMOTION_EARTHIB</PromotionPrereq1>
+            <FeatureOrPrereq1>FEATURE_FOREST</FeatureOrPrereq1>
+            <bIsTileSelect>1</bIsTileSelect>
+            <bIsUnitSelect>0</bIsUnitSelect>
+            <iSpellDistance>0</iSpellDistance>
+            <bRequiresLOS>1</bRequiresLOS>
+            <bAllowAI>1</bAllowAI>
+            <iAIWeight>10</iAIWeight>
+            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+            <bHasCasted>1</bHasCasted>
+            <PyResult>spellTreetopDefence(pCaster)</PyResult>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS3D_SPELL_SANCTIFY</Sound>
+            <Button>Art/Interface/Buttons/Spells/Treetopdefence.dds</Button>
+        </SpellInfo>
+        <SpellInfo>
+            <Type>SPELL_ENCHANTED_BLADE</Type>
+            <Description>TXT_KEY_SPELL_ENCHANTED_BLADE</Description>
+            <PromotionPrereq1>PROMOTION_EARTHIC</PromotionPrereq1>
+            <bIsTileSelect>1</bIsTileSelect>
+            <bIsUnitSelect>0</bIsUnitSelect>
+            <iSpellDistance>0</iSpellDistance>
+            <bRequiresLOS>1</bRequiresLOS>
+            <bAllowAI>1</bAllowAI>
+            <iAIWeightWar>100</iAIWeightWar>
+            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+            <bHasCasted>1</bHasCasted>
+            <AddPromotionType1>PROMOTION_ENCHANTED_BLADE</AddPromotionType1>
+            <Effect>EFFECT_ENCHANTED_BLADE</Effect>
+            <Sound>AS3D_SPELL_ENCHANTMENT</Sound>
+            <Button>Art/Interface/Buttons/Promotions/Enchantedblade.dds</Button>
+        </SpellInfo>
+        <SpellInfo>
+            <Type>SPELL_UPLIFT</Type>
+            <Description>TXT_KEY_SPELL_UPLIFT</Description>
+            <PromotionPrereq1>PROMOTION_EARTHIIA</PromotionPrereq1>
+            <bIsTileSelect>1</bIsTileSelect>
+            <bIsUnitSelect>0</bIsUnitSelect>
+            <iSpellDistance>0</iSpellDistance>
+            <bRequiresLOS>1</bRequiresLOS>
+            <bAllowAI>1</bAllowAI>
+            <bCausesWar>1</bCausesWar>
+            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+            <bHasCasted>1</bHasCasted>
+            <PyResult>spellEarthquake(pCaster)</PyResult>
+            <PyRequirement>reqEarthquake(pCaster)</PyRequirement>
+            <Effect>EFFECT_SNOWFALL</Effect>
+            <Sound>AS3D_SPELL_EARTHQUAKE</Sound>
+            <Button>Art/Interface/Buttons/Spells/Earthquake.dds</Button>
+        </SpellInfo>
+        <SpellInfo>
+            <Type>SPELL_DISPEL</Type>
+            <Description>TXT_KEY_SPELL_DISPEL</Description>
+            <PromotionPrereq1>PROMOTION_EARTHIIB</PromotionPrereq1>
+            <bIsTileSelect>1</bIsTileSelect>
+            <bIsUnitSelect>0</bIsUnitSelect>
+            <iSpellDistance>2</iSpellDistance>
+            <bRequiresLOS>1</bRequiresLOS>
+            <bAllowAI>1</bAllowAI>
+            <bCausesWar>1</bCausesWar>
+            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+            <bHasCasted>1</bHasCasted>
+            <PyResult>spellEarthquake(pCaster)</PyResult>
+            <PyRequirement>reqEarthquake(pCaster)</PyRequirement>
+            <Effect>EFFECT_SNOWFALL</Effect>
+            <Sound>AS3D_SPELL_EARTHQUAKE</Sound>
+            <Button>Art/Interface/Buttons/Spells/Dispel Magic.dds</Button>
+        </SpellInfo>
+        <SpellInfo>
+            <Type>SPELL_STONESKIN</Type>
+            <Description>TXT_KEY_SPELL_STONESKIN</Description>
+            <PromotionPrereq1>PROMOTION_EARTHIIIA</PromotionPrereq1>
+            <bIsTileSelect>1</bIsTileSelect>
+            <bIsUnitSelect>0</bIsUnitSelect>
+            <iSpellDistance>0</iSpellDistance>
+            <bRequiresLOS>1</bRequiresLOS>
+            <bAllowAI>1</bAllowAI>
+            <bCausesWar>1</bCausesWar>
+            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+            <bHasCasted>1</bHasCasted>
+            <PyResult>spellEarthquake(pCaster)</PyResult>
+            <PyRequirement>reqEarthquake(pCaster)</PyRequirement>
+            <Effect>EFFECT_SNOWFALL</Effect>
+            <Sound>AS3D_SPELL_EARTHQUAKE</Sound>
+            <Button>Art/Interface/Buttons/Spells/Stoneskin.dds</Button>
+        </SpellInfo>
+        <SpellInfo>
+            <Type>SPELL_HIDE</Type>
+            <Description>TXT_KEY_SPELL_HIDE</Description>
+            <PromotionPrereq1>PROMOTION_EARTHIIIB</PromotionPrereq1>
+            <bIsTileSelect>1</bIsTileSelect>
+            <bIsUnitSelect>1</bIsUnitSelect>
+            <iSpellDistance>0</iSpellDistance>
+            <bRequiresLOS>1</bRequiresLOS>
+            <bAllowAI>1</bAllowAI>
+            <bCausesWar>1</bCausesWar>
+            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+            <bHasCasted>1</bHasCasted>
+            <PyResult>spellEarthquake(pCaster)</PyResult>
+            <PyRequirement>reqEarthquake(pCaster)</PyRequirement>
+            <Effect>EFFECT_SNOWFALL</Effect>
+            <Sound>AS3D_SPELL_EARTHQUAKE</Sound>
+            <Button>Art/Interface/Buttons/Promotions/Hidden.dds</Button>
         </SpellInfo>
     </SpellInfos>
 </Civ4SpellInfos>
