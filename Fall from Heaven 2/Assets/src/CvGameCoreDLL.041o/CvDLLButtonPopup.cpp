@@ -392,15 +392,31 @@ void CvDLLButtonPopup::OnOkClicked(CvPopup* pPopup, PopupReturn *pPopupReturn, C
 
 
 	case BUTTONPOPUP_CAST_RANGED_SPELL:
-		if (pPopupReturn->getButtonClicked() != -1)
 		{
-			int spellIndex = pPopupReturn->getButtonClicked();
-			
-			gDLL->getInterfaceIFace()->setInterfaceMode(INTERFACEMODE_CAST_RANGED_SPELL);
-			//GC.getGameINLINE().selectionListGameNetMessage(GAMEMESSAGE_DO_COMMAND, COMMAND_CAST, spellIndex);
+			CLLNode<IDInfo>* pUnitNode;
+			CvSelectionGroup* pSelectionGroup;
+			CvUnit* pLoopUnit;
+			CvPlot* pPlot;
+			pSelectionGroup = gDLL->getInterfaceIFace()->getSelectionList();
 
+			if (NULL != pSelectionGroup)
+			{
+				pPlot = pSelectionGroup->plot();
+				pUnitNode = pPlot->headUnitNode();
+				pLoopUnit = ::getUnit(pUnitNode->m_data);
+			}
 
-			//GC.getGameINLINE().selectionListGameNetMessage(GAMEMESSAGE_DO_COMMAND, COMMAND_CAST, iAction, -1, 0, info.getOption1());
+			if (pPopupReturn->getButtonClicked() != -1)
+			{
+				int spellIndex = pPopupReturn->getButtonClicked();
+				
+				gDLL->getInterfaceIFace()->setInterfaceMode(INTERFACEMODE_CAST_RANGED_SPELL);
+				pLoopUnit->setSelectedRangedSpell(spellIndex);
+			}
+			else
+			{
+				pLoopUnit->setSelectedRangedSpell((SpellTypes)NO_SPELL);
+			}
 		}
 		break;
 
@@ -1969,6 +1985,7 @@ bool CvDLLButtonPopup::launchChooseRangedSpellPopup(CvPopup* pPopup, CvPopupInfo
             if (GC.getSpellInfo((SpellTypes)iJ).isTileSelect() )
             {
 				szBuffer = GC.getSpellInfo((SpellTypes)iJ).getDescription();
+				szBuffer.append(gDLL->getText("TXT_KEY_SPELL_RANGE", GC.getSpellInfo((SpellTypes)iJ).getSpellDistance()));
 				gDLL->getInterfaceIFace()->popupAddGenericButton(pPopup, szBuffer, GC.getSpellInfo((SpellTypes)iJ).getButton(), iJ, WIDGET_GENERAL, iJ);
             }
         }

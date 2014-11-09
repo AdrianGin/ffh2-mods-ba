@@ -14080,6 +14080,34 @@ bool CvUnit::canCastSelectTileSpells(void)
 	return false;
 }
 
+bool CvUnit::canCastSelectTileSpellAt(const CvPlot* pPlot, int iX, int iY, SpellTypes selectedSpell)
+{
+	if( pPlot == NULL )
+	{
+		return false;
+	}
+
+	if( !GC.getSpellInfo((SpellTypes)selectedSpell).isTileSelect() )
+	{
+		return false;
+	}
+
+	int iDistance = plotDistance(pPlot->getX_INLINE(), pPlot->getY_INLINE(), iX, iY);
+	int iSpellDistance = GC.getSpellInfo((SpellTypes)selectedSpell).getSpellDistance();
+
+	if (iDistance > iSpellDistance )
+	{
+		return false;
+	}
+
+	if (canCast(selectedSpell, true))
+    {
+        return true;
+    }
+
+	return false;
+}
+
 bool CvUnit::castSelectTileSpells(void)
 {
 	FAssert(GET_PLAYER(getOwnerINLINE()).isHuman());
@@ -14922,8 +14950,18 @@ bool CvUnit::canSpreadReligion(int spell) const
 	return true;
 }
 
+
 void CvUnit::cast(int spell)
 {
+	castAt(spell, plot()->getX_INLINE(), plot()->getY_INLINE());
+}
+
+void CvUnit::castAt(int spell, int iX, int iY)
+{
+	CvPlot* pPlot;
+	pPlot = GC.getMapINLINE().plotINLINE(iX, iY);
+
+
     if (GC.getSpellInfo((SpellTypes)spell).isHasCasted())
     {
         setHasCasted(true);
@@ -15089,11 +15127,16 @@ void CvUnit::cast(int spell)
 	if (!CvString(GC.getSpellInfo((SpellTypes)spell).getPyResult()).empty())
     {
         CyUnit* pyUnit = new CyUnit(this);
+		CyPlot* pyPlot = new CyPlot(pPlot);
+
+
         CyArgsList argsList;
         argsList.add(gDLL->getPythonIFace()->makePythonObject(pyUnit));	// pass in unit class
         argsList.add(spell);//the spell #
+		argsList.add(gDLL->getPythonIFace()->makePythonObject(pyPlot));//the plot #
         gDLL->getPythonIFace()->callFunction(PYSpellModule, "cast", argsList.makeFunctionArgs()); //, &lResult
         delete pyUnit; // python fxn must not hold on to this pointer
+		delete pyPlot;
     }
     gDLL->getInterfaceIFace()->setDirty(SelectionButtons_DIRTY_BIT, true);
     if (GC.getSpellInfo((SpellTypes)spell).isSacrificeCaster())
@@ -16269,6 +16312,20 @@ void CvUnit::setSummoner(int iNewValue)
 {
     m_iSummoner = iNewValue;
 }
+
+
+int CvUnit::getSelectedRangedSpell() const
+{
+	return m_iSelectedRangedSpell;
+}
+
+void CvUnit::setSelectedRangedSpell(int iNewValue)
+{
+    m_iSelectedRangedSpell = iNewValue;
+}
+
+
+
 
 int CvUnit::getWorkRateModify() const
 {

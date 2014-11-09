@@ -1176,8 +1176,19 @@ void CvGame::handleAction(int iAction)
 				gDLL->getInterfaceIFace()->selectGroup(pHeadSelectedUnit, false, true, false);
 			}
 		}
+		InterfaceModeTypes iFace = (InterfaceModeTypes)GC.getActionInfo(iAction).getInterfaceModeType();
 
-		gDLL->getInterfaceIFace()->setInterfaceMode((InterfaceModeTypes)GC.getActionInfo(iAction).getInterfaceModeType());
+		if( iFace == INTERFACEMODE_CAST_RANGED_SPELL )
+		{
+			CvPopupInfo* pInfo = new CvPopupInfo(BUTTONPOPUP_LOADUNIT);
+			if (NULL != pInfo)
+			{
+				gDLL->getInterfaceIFace()->addPopup(pInfo);
+				bSkip = true;
+			}
+		}
+
+		gDLL->getInterfaceIFace()->setInterfaceMode(iFace);
 	}
 
 	if (GC.getActionInfo(iAction).getMissionType() != NO_MISSION)
@@ -1204,7 +1215,6 @@ void CvGame::handleAction(int iAction)
 			
 
 			CvPopupInfo* pInfo = new CvPopupInfo(BUTTONPOPUP_CAST_RANGED_SPELL);
-			
 			if (NULL != pInfo)
 			{
 				gDLL->getInterfaceIFace()->addPopup(pInfo);
@@ -2392,10 +2402,11 @@ ColorTypes CvGame::getPlotHighlightColor(CvPlot* pPlot) const
 
 			case INTERFACEMODE_CAST_RANGED_SPELL:
 				eColor = (ColorTypes) GC.getInfoTypeForString("COLOR_RED");
-				if (!pPlot->isRevealed(getActiveTeam(), true))
+				if (!gDLL->getInterfaceIFace()->getSelectionList()->canDoInterfaceModeAt(gDLL->getInterfaceIFace()->getInterfaceMode(), pPlot))
 				{
-					eColor = NO_COLOR;
+					eColor = (ColorTypes) GC.getInfoTypeForString("COLOR_DARK_GREY");
 				}
+
 				break;
 
 			case INTERFACEMODE_PING:

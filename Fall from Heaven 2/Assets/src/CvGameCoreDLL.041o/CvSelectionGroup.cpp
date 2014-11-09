@@ -971,7 +971,7 @@ bool CvSelectionGroup::canStartMission(int iMission, int iData1, int iData2, CvP
 			break;
 
 		case MISSION_CAST_RANGED_SPELL:
-			if (pLoopUnit->canCastSelectTileSpells())
+			if (pLoopUnit->canCastSelectTileSpellAt(pPlot, iData1, iData2, (SpellTypes)pLoopUnit->getSelectedRangedSpell() ))
 			{
 				return true;
 			}
@@ -1383,8 +1383,9 @@ void CvSelectionGroup::startMission()
 					break;
 
 				case MISSION_CAST_RANGED_SPELL:
-					if (pLoopUnit->castSelectTileSpells())
+					pLoopUnit->castAt( pLoopUnit->getSelectedRangedSpell(), headMissionQueueNode()->m_data.iData1, headMissionQueueNode()->m_data.iData2 );
 					{
+						
 						bAction = true;
 					}
 					pUnitNode = NULL; // allow one unit at a time to cast ranged spells
@@ -2159,6 +2160,17 @@ bool CvSelectionGroup::canDoInterfaceModeAt(InterfaceModeTypes eInterfaceMode, C
 				}
 			}
 			break;
+
+		case INTERFACEMODE_CAST_RANGED_SPELL:
+			if (pLoopUnit != NULL)
+			{
+				if( pLoopUnit->canCastSelectTileSpellAt( pLoopUnit->plot(), pPlot->getX_INLINE(), pPlot->getY_INLINE(), (SpellTypes)pLoopUnit->getSelectedRangedSpell() ) )
+				{
+					return true;
+				}
+			}
+			break;
+
 
 		case INTERFACEMODE_PARADROP:
 			if (pLoopUnit != NULL)

@@ -244,12 +244,13 @@
             <bGlobal>0</bGlobal>
             <bIsTileSelect>1</bIsTileSelect>
             <bIsUnitSelect>1</bIsUnitSelect>
+            <iSpellDistance>2</iSpellDistance>
             <bAllowAI>1</bAllowAI>
             <bAllowAutomateTerrain>1</bAllowAutomateTerrain>
             <bCausesWar>1</bCausesWar>
             <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
             <bHasCasted>1</bHasCasted>
-            <PyResult>spellScorch(pCaster)</PyResult>
+            <PyResult>spellScorch(pCaster, pPlot)</PyResult>
             <PyRequirement>reqScorch(pCaster)</PyRequirement>
             <Effect>EFFECT_SCORCH</Effect>
             <Sound>AS3D_SPELL_DEFILE</Sound>
@@ -260,6 +261,9 @@
             <Description>Blinding Light</Description>
             <Civilopedia></Civilopedia>
             <PromotionPrereq1>PROMOTION_FIRE1</PromotionPrereq1>
+            <bIsTileSelect>1</bIsTileSelect>
+            <bIsUnitSelect>1</bIsUnitSelect>
+            <iSpellDistance>1</iSpellDistance>
             <bAllowAI>1</bAllowAI>
             <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
             <bHasCasted>1</bHasCasted>

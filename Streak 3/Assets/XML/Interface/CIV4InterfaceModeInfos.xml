@@ -366,19 +366,7 @@
 			<Button>,Art/Interface/Buttons/Actions/Bombard.dds,Art/Interface/Buttons/Actions_Builds_LeaderHeads_Specialists_Atlas.dds,2,1</Button>
 		</InterfaceModeInfo>
 		
-		<InterfaceModeInfo>
-			<Type>INTERFACEMODE_CAST_RANGED_SPELL</Type>
-			<Description>TXT_KEY_INTERFACEMODE_CAST_RANGED_SPELL</Description>
-			<Help>TXT_KEY_INTERFACEMODE_CAST_RANGED_SPELL_HELP</Help>
-			<CursorType>CURSOR_PING</CursorType>
-			<Mission>NONE</Mission>
-			<bVisible>0</bVisible>
-			<bGotoPlot>0</bGotoPlot>
-			<bHighlightPlot>1</bHighlightPlot>
-			<bSelectType>0</bSelectType>
-			<bSelectAll>0</bSelectAll>
-			<Button>,Art/Interface/Buttons/Actions/Bombard.dds,Art/Interface/Buttons/Actions_Builds_LeaderHeads_Specialists_Atlas.dds,2,1</Button>
-		</InterfaceModeInfo>
+
 				
 		<InterfaceModeInfo>
 			<Type>INTERFACEMODE_SAVE_PLOT_NIFS</Type>
@@ -391,6 +379,31 @@
 			<bHighlightPlot>1</bHighlightPlot>
 			<bSelectType>0</bSelectType>
 			<bSelectAll>0</bSelectAll>
+		</InterfaceModeInfo>
+		
+		
+		<InterfaceModeInfo>
+			<Type>INTERFACEMODE_CAST_RANGED_SPELL</Type>
+			<Description>TXT_KEY_INTERFACEMODE_CAST_RANGED_SPELL</Description>
+			<Help>TXT_KEY_INTERFACEMODE_CAST_RANGED_SPELL_HELP</Help>
+			<CursorType>CURSOR_PING</CursorType>
+			<Mission>MISSION_CAST_RANGED_SPELL</Mission>
+			<HotKey>KB_Q</HotKey>
+			<bAltDown>0</bAltDown>
+			<bShiftDown>0</bShiftDown>
+			<bCtrlDown>0</bCtrlDown>
+			<iHotKeyPriority>0</iHotKeyPriority>
+			<HotKeyAlt/>
+			<bAltDownAlt>0</bAltDownAlt>
+			<bShiftDownAlt>0</bShiftDownAlt>
+			<bCtrlDownAlt>0</bCtrlDownAlt>
+			<iHotKeyPriorityAlt>0</iHotKeyPriorityAlt>
+			<bVisible>0</bVisible>
+			<bGotoPlot>0</bGotoPlot>
+			<bHighlightPlot>1</bHighlightPlot>
+			<bSelectType>0</bSelectType>
+			<bSelectAll>0</bSelectAll>
+			<Button>,Art/Interface/Buttons/Actions/Bombard.dds,Art/Interface/Buttons/Actions_Builds_LeaderHeads_Specialists_Atlas.dds,2,1</Button>
 		</InterfaceModeInfo>
 	</InterfaceModeInfos>
 </Civ4InterfaceModeInfos>

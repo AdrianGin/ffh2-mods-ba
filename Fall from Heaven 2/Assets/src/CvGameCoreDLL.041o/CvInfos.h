@@ -830,7 +830,7 @@ public:
 	bool isGlobal() const;
 	bool isTileSelect() const;
 	bool isUnitSelect() const;
-
+	int  getSpellDistance() const;
 
 	bool isInBordersOnly() const;
 	bool isInCityOnly() const;
@@ -908,6 +908,7 @@ protected:
 	//Added Adrian
 	bool m_bIsTileSelect;
 	bool m_bIsUnitSelect;
+	int  m_iSpellDistance;
 
     bool m_bInBordersOnly;
     bool m_bInCityOnly;
