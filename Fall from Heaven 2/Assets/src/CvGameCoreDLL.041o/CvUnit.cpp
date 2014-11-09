@@ -465,6 +465,9 @@ void CvUnit::reset(int iID, UnitTypes eUnit, PlayerTypes eOwner, bool bConstruct
 	m_iSpellDamageModify = 0;
 	m_iSummoner = -1;
 	m_iSelectedRangedSpell = NO_SPELL;
+	m_pTargetPlot = NULL;
+
+
 	m_iTotalDamageTypeCombat = 0;
     m_iUnitArtStyleType = NO_UNIT_ARTSTYLE;
 	m_iWorkRateModify = 0;
@@ -14111,7 +14114,7 @@ bool CvUnit::canCastSelectTileSpellAt(const CvPlot* pPlot, int iX, int iY, Spell
 
 	if (plotDistance(pPlot->getX_INLINE(), pPlot->getY_INLINE(), iX, iY) <= iSpellDistance)
 	{
-		if( GC.getSpellInfo((SpellTypes)selectedSpell).isRequireLOS() )
+			if( GC.getSpellInfo((SpellTypes)selectedSpell).isRequireLOS() )
 		{
 			CvPlot* pTargetPlot = GC.getMapINLINE().plotINLINE(iX, iY);
 			if (plot()->canSeePlot(pTargetPlot, getTeam(), iSpellDistance, getFacingDirection(true)))
@@ -16350,6 +16353,16 @@ void CvUnit::setSelectedRangedSpell(int iNewValue)
     m_iSelectedRangedSpell = iNewValue;
 }
 
+
+CvPlot* CvUnit::getTargetPlot() const
+{
+    return m_pTargetPlot;
+}
+
+void CvUnit::setTargetPlot(const CvPlot* pPlot)
+{
+    m_pTargetPlot = (CvPlot*)pPlot;
+}
 
 
 

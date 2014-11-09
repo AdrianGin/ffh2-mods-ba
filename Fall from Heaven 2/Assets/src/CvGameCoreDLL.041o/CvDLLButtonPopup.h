@@ -50,6 +50,10 @@ private:
 
 	bool launchChooseRangedSpellPopup(CvPopup* pPopup, CvPopupInfo &info);
 
+	bool launchChooseCastSelectUnitPopup(CvPopup* pPopup, CvPopupInfo &info);
+
+	
+
 //FfH: End Add
 
 	bool launchLoadUnitPopup(CvPopup* pPopup, CvPopupInfo &info);

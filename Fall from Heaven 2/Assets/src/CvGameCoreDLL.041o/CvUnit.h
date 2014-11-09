@@ -1002,6 +1002,9 @@ public:
 
 	int getSelectedRangedSpell() const;
 	void setSelectedRangedSpell(int iNewValue);
+	CvPlot* getTargetPlot() const;
+	void setTargetPlot(const CvPlot* pPlot);
+
 
 //FfH: End Add
 
@@ -1136,6 +1139,7 @@ protected:
 
 // Adrian add a member for SelectedRanged spell
 	int m_iSelectedRangedSpell;
+	CvPlot* m_pTargetPlot;
 
 //FfH: End Add
 

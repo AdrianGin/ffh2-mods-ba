@@ -433,6 +433,45 @@ void CvDLLButtonPopup::OnOkClicked(CvPopup* pPopup, PopupReturn *pPopupReturn, C
 		}
 		break;
 
+	case BUTTONPOPUP_CAST_SELECT_UNIT:
+		if (pPopupReturn->getButtonClicked() != 0)
+		{
+			CLLNode<IDInfo>* pUnitNode;
+			CvSelectionGroup* pSelectionGroup;
+			CvUnit* pLoopUnit;
+			CvPlot* pPlot;
+			int iCount;
+
+			pSelectionGroup = gDLL->getInterfaceIFace()->getSelectionList();
+
+			if (NULL != pSelectionGroup)
+			{
+				pPlot = pSelectionGroup->plot();
+
+				iCount = pPopupReturn->getButtonClicked();
+
+				pUnitNode = pPlot->headUnitNode();
+
+				while (pUnitNode != NULL)
+				{
+					pLoopUnit = ::getUnit(pUnitNode->m_data);
+					pUnitNode = pPlot->nextUnitNode(pUnitNode);
+
+					if (pSelectionGroup->canDoCommand(COMMAND_LOAD_UNIT, pLoopUnit->getOwnerINLINE(), pLoopUnit->getID()))
+					{
+						iCount--;
+						if (iCount == 0)
+						{
+							GC.getGameINLINE().selectionListGameNetMessage(GAMEMESSAGE_DO_COMMAND, COMMAND_LOAD_UNIT, pLoopUnit->getOwnerINLINE(), pLoopUnit->getID());
+							break;
+						}
+					}
+				}
+			}
+		}
+		break;
+
+
 	case BUTTONPOPUP_CHANGECIVIC:
 		if (pPopupReturn->getButtonClicked() == 0)
 		{
@@ -956,7 +995,10 @@ bool CvDLLButtonPopup::launchButtonPopup(CvPopup* pPopup, CvPopupInfo &info)
 	case BUTTONPOPUP_CAST_RANGED_SPELL:
 		bLaunched = launchChooseRangedSpellPopup(pPopup, info);
 		break;
-
+	
+	case BUTTONPOPUP_CAST_SELECT_UNIT:
+		bLaunched = launchChooseCastSelectUnitPopup(pPopup, info);
+		break;
 
 
 	case BUTTONPOPUP_MAIN_MENU:
@@ -2011,6 +2053,84 @@ bool CvDLLButtonPopup::launchChooseRangedSpellPopup(CvPopup* pPopup, CvPopupInfo
 
 	return (true);
 }
+
+
+
+
+bool CvDLLButtonPopup::launchChooseCastSelectUnitPopup(CvPopup* pPopup, CvPopupInfo &info)
+{
+	CLLNode<IDInfo>* pUnitNode;
+	CvSelectionGroup* pSelectionGroup;
+	CvUnit* pUnit;
+	CvUnit* pLoopUnit;
+	CvPlot* pPlot;
+
+	CvPlot* pTargetPlot;
+
+	CvWStringBuffer szBuffer;
+	int iCount;
+	CvUnit* pFirstUnit = NULL;
+
+	pSelectionGroup = gDLL->getInterfaceIFace()->getSelectionList();
+
+	if (NULL == pSelectionGroup)
+	{
+		return (false);
+	}
+
+	gDLL->getInterfaceIFace()->popupSetBodyString(pPopup, gDLL->getText("TXT_KEY_SPELL_SELECT_TARGET"));
+
+	pPlot = pSelectionGroup->plot();
+	if (NULL == pPlot)
+	{
+		return (false);
+	}
+
+	iCount = 1;
+
+	pUnitNode = pPlot->headUnitNode();
+
+	if( pUnitNode != NULL )
+	{
+		//Get the Caster
+		pUnit = ::getUnit(pUnitNode->m_data);
+		if( pUnit != NULL )
+		{
+			//Get Caster's Target Node
+			pTargetPlot = pUnit->getTargetPlot();
+			if( pTargetPlot != NULL )
+			{
+				//Loop through all units in the Target Node
+				pUnitNode = pTargetPlot->headUnitNode();
+				while(pUnitNode != NULL )
+				{
+					pLoopUnit = ::getUnit(pUnitNode->m_data);
+					pUnitNode = pTargetPlot->nextUnitNode(pUnitNode);
+
+					szBuffer.clear();
+					GAMETEXT.setUnitHelp(szBuffer, pLoopUnit, true);
+					gDLL->getInterfaceIFace()->popupAddGenericButton(pPopup, CvWString(szBuffer.getCString()), NULL, iCount, WIDGET_GENERAL);
+					iCount++;
+				}
+			}
+		}
+	}
+
+	gDLL->getInterfaceIFace()->popupAddGenericButton(pPopup, gDLL->getText("TXT_KEY_NEVER_MIND"), NULL, 0, WIDGET_GENERAL);
+
+	gDLL->getInterfaceIFace()->popupLaunch(pPopup, false, POPUPSTATE_IMMEDIATE);
+
+	return (true);
+}
+
+
+
+
+
+
+
+
+
 
 
 bool CvDLLButtonPopup::launchDoEspionagePopup(CvPopup* pPopup, CvPopupInfo &info)

@@ -22,7 +22,7 @@
 #include "CvDLLPythonIFaceBase.h"
 #include <set>
 #include "CvEventReporter.h"
-
+#include "CvPopupInfo.h"
 
 // Public Functions...
 
@@ -973,6 +973,8 @@ bool CvSelectionGroup::canStartMission(int iMission, int iData1, int iData2, CvP
 		case MISSION_CAST_RANGED_SPELL:
 			if (pLoopUnit->canCastSelectTileSpellAt(pPlot, iData1, iData2, (SpellTypes)pLoopUnit->getSelectedRangedSpell() ))
 			{
+				//When we try to activate the spell, do a popup?
+
 				return true;
 			}
 			break;
@@ -1388,11 +1390,22 @@ void CvSelectionGroup::startMission()
 				case MISSION_CAST_RANGED_SPELL:
 					if( pLoopUnit->canCast(pLoopUnit->getSelectedRangedSpell(), false))
 					{
-						pLoopUnit->castAt( pLoopUnit->getSelectedRangedSpell(), headMissionQueueNode()->m_data.iData1, headMissionQueueNode()->m_data.iData2 );
+						if( GC.getSpellInfo((SpellTypes)pLoopUnit->getSelectedRangedSpell()).isUnitSelect()  )
 						{
-							pLoopUnit->setSelectedRangedSpell((SpellTypes)NO_SPELL);
-							GC.getGameINLINE().updateColoredPlots();
-							bAction = true;
+							CvPopupInfo* pInfo = new CvPopupInfo(BUTTONPOPUP_CAST_SELECT_UNIT);
+							if (NULL != pInfo)
+							{
+								gDLL->getInterfaceIFace()->addPopup(pInfo);
+							}
+						}
+						else
+						{
+							pLoopUnit->castAt( pLoopUnit->getSelectedRangedSpell(), headMissionQueueNode()->m_data.iData1, headMissionQueueNode()->m_data.iData2 );
+							{
+								pLoopUnit->setSelectedRangedSpell((SpellTypes)NO_SPELL);
+								GC.getGameINLINE().updateColoredPlots();
+								bAction = true;
+							}
 						}
 
 						pUnitNode = NULL; // allow one unit at a time to cast ranged spells
