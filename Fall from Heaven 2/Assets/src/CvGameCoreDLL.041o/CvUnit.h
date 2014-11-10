@@ -863,7 +863,7 @@ public:
 	bool canRemovePromotion(int spell);
 
 	void cast(int spell);
-	void castAt(int spell, int iX, int iY, CvUnit* pTarget);
+	void castAt(int spell, int iX, int iY);
 	void castAddPromotion(int spell);
 	void castCreateUnit(int spell);
 	void castConvertUnit(int spell);
@@ -1005,6 +1005,8 @@ public:
 	CvPlot* getTargetPlot() const;
 	void setTargetPlot(const CvPlot* pPlot);
 
+	CvUnit* getTargetUnit() const;
+	void setTargetUnit(const CvUnit* pUnit);
 
 //FfH: End Add
 
@@ -1140,6 +1142,7 @@ protected:
 // Adrian add a member for SelectedRanged spell
 	int m_iSelectedRangedSpell;
 	CvPlot* m_pTargetPlot;
+	CvUnit* m_pTargetUnit;
 
 //FfH: End Add
 

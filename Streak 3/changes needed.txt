@@ -1,4 +1,16 @@
 
+** Ready for test
+Teleport
+-Cannot teleport units which have cargo
+-Casting whilst inside a city has no effect.
+
+
+
+
+
+
+
+
 
 Implement spells - Adrian
 LEVEL1

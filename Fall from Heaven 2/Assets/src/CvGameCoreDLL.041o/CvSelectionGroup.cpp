@@ -1388,30 +1388,41 @@ void CvSelectionGroup::startMission()
 					break;
 
 				case MISSION_CAST_RANGED_SPELL:
-					if( pLoopUnit->canCast(pLoopUnit->getSelectedRangedSpell(), false))
 					{
-						if( GC.getSpellInfo((SpellTypes)pLoopUnit->getSelectedRangedSpell()).isUnitSelect()  )
-						{
-							CvPlot* pTargetPlot = GC.getMapINLINE().plotINLINE(headMissionQueueNode()->m_data.iData1, headMissionQueueNode()->m_data.iData2);
-							pLoopUnit->setTargetPlot(pTargetPlot);
+						CvPlot* pTargetPlot = GC.getMapINLINE().plotINLINE(headMissionQueueNode()->m_data.iData1, headMissionQueueNode()->m_data.iData2);
+						pLoopUnit->setTargetPlot(pTargetPlot);
 
-							CvPopupInfo* pInfo = new CvPopupInfo(BUTTONPOPUP_CAST_SELECT_UNIT);
-							if (NULL != pInfo)
+						if( pLoopUnit->canCast(pLoopUnit->getSelectedRangedSpell(), false))
+						{
+							if( GC.getSpellInfo((SpellTypes)pLoopUnit->getSelectedRangedSpell()).isUnitSelect()  )
 							{
-								gDLL->getInterfaceIFace()->addPopup(pInfo);
+								CvPopupInfo* pInfo = new CvPopupInfo(BUTTONPOPUP_CAST_SELECT_UNIT);
+								if (NULL != pInfo)
+								{
+									gDLL->getInterfaceIFace()->addPopup(pInfo);
+								}
+
+								//Do not clear it here as we will need it later when selecting the unit.
+								//pLoopUnit->setTargetPlot(NULL);
 							}
+							else
+							{
+								pLoopUnit->castAt( pLoopUnit->getSelectedRangedSpell(), headMissionQueueNode()->m_data.iData1, headMissionQueueNode()->m_data.iData2);
+								{
+									pLoopUnit->setSelectedRangedSpell((SpellTypes)NO_SPELL);
+									GC.getGameINLINE().updateColoredPlots();
+									bAction = true;
+								}
+								pLoopUnit->setTargetPlot(NULL);
+							}
+
+							pUnitNode = NULL; // allow one unit at a time to cast ranged spells
 						}
 						else
 						{
-							pLoopUnit->castAt( pLoopUnit->getSelectedRangedSpell(), headMissionQueueNode()->m_data.iData1, headMissionQueueNode()->m_data.iData2,  NULL );
-							{
-								pLoopUnit->setSelectedRangedSpell((SpellTypes)NO_SPELL);
-								GC.getGameINLINE().updateColoredPlots();
-								bAction = true;
-							}
+							pLoopUnit->setTargetPlot(NULL);
 						}
-
-						pUnitNode = NULL; // allow one unit at a time to cast ranged spells
+						
 					}
 					
 					break;

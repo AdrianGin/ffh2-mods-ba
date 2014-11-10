@@ -22,7 +22,7 @@ def cast(argsList):
 	eval(spell.getPyResult())
 
 def canCast(argsList):
-	pCaster, eSpell = argsList
+	pCaster, eSpell, pPlot, pTarget = argsList
 	spell = gc.getSpellInfo(eSpell)
 	return eval(spell.getPyRequirement())
 
@@ -3830,8 +3830,36 @@ def spellHorseWeapons(caster):
 	caster.setHasPromotion(promo, True)		
 		
 		
+def reqTeleport(caster, plot, target):
+	pPlayer = gc.getPlayer(caster.getOwner())
+	pCity   =   pPlayer.getCapitalCity()
+	
 
+	return True
+	
 
+		
+		
+
+def spellTeleport(caster, plot, target):
+	pPlayer = gc.getPlayer(caster.getOwner())
+	pCity   =   pPlayer.getCapitalCity()
+	
+	if plot.isNone():
+		return False
+		
+	if target.isNone():
+		return False
+		
+	if target.at(pCity.getX(), pCity.getY()):
+		return False
+	
+	if target.hasCargo():
+		return False
+	
+	
+	target.setXY( pCity.getX(), pCity.getY(), false, true, false )
+	
 
 
 

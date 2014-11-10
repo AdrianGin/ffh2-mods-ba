@@ -449,6 +449,8 @@
             <bAllowAI>1</bAllowAI>
             <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
             <bHasCasted>1</bHasCasted>
+            <PyResult>spellTeleport(pCaster, pPlot, pTarget)</PyResult>
+            <PyRequirement>reqTeleport(pCaster, pPlot, pTarget)</PyRequirement>
             <Effect>EFFECT_VITALIZE</Effect>
             <Sound>AS3D_SPELL_SANCTIFY</Sound>
             <Button>Art/Interface/Buttons/Promotions/Twincast.dds</Button>
@@ -571,8 +573,7 @@
             <bCausesWar>1</bCausesWar>
             <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
             <bHasCasted>1</bHasCasted>
-            <PyResult>spellEarthquake(pCaster)</PyResult>
-            <PyRequirement>reqEarthquake(pCaster)</PyRequirement>
+            <bDispel>1</bDispel>
             <Effect>EFFECT_SNOWFALL</Effect>
             <Sound>AS3D_SPELL_EARTHQUAKE</Sound>
             <Button>Art/Interface/Buttons/Spells/Dispel Magic.dds</Button>

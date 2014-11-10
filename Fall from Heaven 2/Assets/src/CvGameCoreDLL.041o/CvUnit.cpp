@@ -466,6 +466,7 @@ void CvUnit::reset(int iID, UnitTypes eUnit, PlayerTypes eOwner, bool bConstruct
 	m_iSummoner = -1;
 	m_iSelectedRangedSpell = NO_SPELL;
 	m_pTargetPlot = NULL;
+	m_pTargetUnit = NULL;
 
 
 	m_iTotalDamageTypeCombat = 0;
@@ -14104,10 +14105,16 @@ bool CvUnit::canCastSelectTileSpellAt(const CvPlot* pPlot, int iX, int iY, Spell
 		return false;
 	}
 
+	//Bit of a hack here...
+	CvPlot* pTargetPlot = GC.getMapINLINE().plotINLINE(iX, iY);
+	setTargetPlot(pTargetPlot);
 	if ( !canCast(selectedSpell, false))
     {
+		setTargetPlot(NULL);
         return false;
     }
+	setTargetPlot(NULL);
+
 
 	int iDistance = plotDistance(pPlot->getX_INLINE(), pPlot->getY_INLINE(), iX, iY);
 	int iSpellDistance = GC.getSpellInfo((SpellTypes)selectedSpell).getSpellDistance();
@@ -14476,12 +14483,21 @@ bool CvUnit::canCast(int spell, bool bTestVisible)
 	if (!CvString(GC.getSpellInfo(eSpell).getPyRequirement()).empty())
     {
         CyUnit* pyUnit = new CyUnit(this);
+		CyPlot* pyPlot = new CyPlot(getTargetPlot());
+		CyUnit* pyTargetUnit = new CyUnit(getTargetUnit());
+
         CyArgsList argsList;
         argsList.add(gDLL->getPythonIFace()->makePythonObject(pyUnit));	// pass in unit class
         argsList.add(spell);//the spell #
-        long lResult=0;
+		argsList.add(gDLL->getPythonIFace()->makePythonObject(pyPlot));//the plot #
+		argsList.add(gDLL->getPythonIFace()->makePythonObject(pyTargetUnit));//the enemy target #
+
+		long lResult=0;
         gDLL->getPythonIFace()->callFunction(PYSpellModule, "canCast", argsList.makeFunctionArgs(), &lResult);
         delete pyUnit; // python fxn must not hold on to this pointer
+		delete pyPlot;
+		delete pyTargetUnit;
+
         if (lResult == 0)
         {
             return false;
@@ -14771,11 +14787,34 @@ bool CvUnit::canDispel(int spell)
 	CLLNode<IDInfo>* pUnitNode;
 	CvUnit* pLoopUnit;
 	CvPlot* pLoopPlot;
+
+	if( GC.getSpellInfo((SpellTypes)spell).isTileSelect() )
+	{
+		pLoopPlot = getTargetPlot();
+		if( pLoopPlot != NULL )
+		{
+			iRange = 0;
+		}
+		else
+		{
+			iRange = GC.getSpellInfo((SpellTypes)spell).getSpellDistance();
+		}
+	}
+
     for (int i = -iRange; i <= iRange; ++i)
     {
         for (int j = -iRange; j <= iRange; ++j)
         {
-            pLoopPlot = ::plotXY(plot()->getX_INLINE(), plot()->getY_INLINE(), i, j);
+			//Check only single plot
+			if( GC.getSpellInfo((SpellTypes)spell).isTileSelect() && (getTargetPlot() != NULL) )
+			{	
+				pLoopPlot = getTargetPlot();
+			}
+			else
+			{
+				pLoopPlot = ::plotXY(plot()->getX_INLINE(), plot()->getY_INLINE(), i, j);
+			}
+
             if (NULL != pLoopPlot)
             {
                 pUnitNode = pLoopPlot->headUnitNode();
@@ -14801,6 +14840,11 @@ bool CvUnit::canDispel(int spell)
                         }
                     }
                 }
+
+				if( GC.getSpellInfo((SpellTypes)spell).isTileSelect() && (getTargetPlot() != NULL) )
+				{	
+					return false;
+				}
             }
         }
     }
@@ -14981,11 +15025,11 @@ bool CvUnit::canSpreadReligion(int spell) const
 
 void CvUnit::cast(int spell)
 {
-	castAt(spell, plot()->getX_INLINE(), plot()->getY_INLINE(), NULL);
+	castAt(spell, plot()->getX_INLINE(), plot()->getY_INLINE());
 	
 }
 
-void CvUnit::castAt(int spell, int iX, int iY, CvUnit* pTarget)
+void CvUnit::castAt(int spell, int iX, int iY)
 {
 	CvPlot* pPlot;
 	pPlot = GC.getMapINLINE().plotINLINE(iX, iY);
@@ -15161,7 +15205,7 @@ void CvUnit::castAt(int spell, int iX, int iY, CvUnit* pTarget)
     {
         CyUnit* pyUnit = new CyUnit(this);
 		CyPlot* pyPlot = new CyPlot(pPlot);
-		CyUnit* pyTargetUnit = new CyUnit(pTarget);
+		CyUnit* pyTargetUnit = new CyUnit(getTargetUnit());
 
 
         CyArgsList argsList;
@@ -15174,6 +15218,7 @@ void CvUnit::castAt(int spell, int iX, int iY, CvUnit* pTarget)
         gDLL->getPythonIFace()->callFunction(PYSpellModule, "cast", argsList.makeFunctionArgs()); //, &lResult
         delete pyUnit; // python fxn must not hold on to this pointer
 		delete pyPlot;
+		delete pyTargetUnit;
     }
     gDLL->getInterfaceIFace()->setDirty(SelectionButtons_DIRTY_BIT, true);
     if (GC.getSpellInfo((SpellTypes)spell).isSacrificeCaster())
@@ -15345,6 +15390,8 @@ void CvUnit::castDamage(int spell)
     }
 }
 
+
+
 void CvUnit::castDispel(int spell)
 {
     bool bResistable = GC.getSpellInfo((SpellTypes)spell).isResistable();
@@ -15352,11 +15399,26 @@ void CvUnit::castDispel(int spell)
 	CLLNode<IDInfo>* pUnitNode;
 	CvUnit* pLoopUnit;
 	CvPlot* pLoopPlot;
+
+	//Added for select Tile
+	if( GC.getSpellInfo((SpellTypes)spell).isTileSelect() )
+	{
+		iRange = GC.getSpellInfo((SpellTypes)spell).getSpellDistance();
+	}
+
     for (int i = -iRange; i <= iRange; ++i)
     {
         for (int j = -iRange; j <= iRange; ++j)
         {
-            pLoopPlot = ::plotXY(plot()->getX_INLINE(), plot()->getY_INLINE(), i, j);
+			if( GC.getSpellInfo((SpellTypes)spell).isTileSelect() )
+			{
+				pLoopPlot = getTargetPlot();
+			}
+			else
+			{
+				pLoopPlot = ::plotXY(plot()->getX_INLINE(), plot()->getY_INLINE(), i, j);
+			}
+
             if (NULL != pLoopPlot)
             {
                 pUnitNode = pLoopPlot->headUnitNode();
@@ -15396,6 +15458,12 @@ void CvUnit::castDispel(int spell)
                     }
                 }
             }
+
+
+			if( GC.getSpellInfo((SpellTypes)spell).isTileSelect() )
+			{
+				return;
+			}
         }
     }
 }
@@ -16370,6 +16438,17 @@ CvPlot* CvUnit::getTargetPlot() const
 void CvUnit::setTargetPlot(const CvPlot* pPlot)
 {
     m_pTargetPlot = (CvPlot*)pPlot;
+}
+
+
+CvUnit* CvUnit::getTargetUnit() const
+{
+    return m_pTargetUnit;
+}
+
+void CvUnit::setTargetUnit(const CvUnit* pUnit)
+{
+    m_pTargetUnit = (CvUnit*)pUnit;
 }
 
 

@@ -489,12 +489,17 @@ void CvDLLButtonPopup::OnOkClicked(CvPopup* pPopup, PopupReturn *pPopupReturn, C
 									iCount--;
 									if( iCount == 0)
 									{
-										pUnit->castAt( pUnit->getSelectedRangedSpell(), pTargetPlot->getX_INLINE(), pTargetPlot->getY_INLINE(), pLoopUnit);
+										pUnit->setTargetUnit(pLoopUnit);
+										if( pUnit->canCast(pUnit->getSelectedRangedSpell(), false) )
+										{
+											pUnit->castAt( pUnit->getSelectedRangedSpell(), pTargetPlot->getX_INLINE(), pTargetPlot->getY_INLINE());
+										}
 									}
 								}
 							}
 						}
 						pUnit->setTargetPlot(NULL);
+						pUnit->setTargetUnit(NULL);
 					}
 				}
 			}
