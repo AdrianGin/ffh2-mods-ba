@@ -177,7 +177,7 @@
             <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
             <bHasCasted>1</bHasCasted>
             <bResistable>1</bResistable>
-            <iRange>1</iRange>
+            <iRange>0</iRange>
             <bImmuneTeam>1</bImmuneTeam>
             <bImmuneNeutral>1</bImmuneNeutral>
             <iImmobileTurns>2</iImmobileTurns>
