@@ -2074,7 +2074,7 @@ bool CvDLLButtonPopup::launchChooseRangedSpellPopup(CvPopup* pPopup, CvPopupInfo
 				szBuffer = GC.getSpellInfo((SpellTypes)iJ).getDescription();
 				szBuffer.append(L" ");
 				szBuffer.append(gDLL->getText("TXT_KEY_SPELL_RANGE", GC.getSpellInfo((SpellTypes)iJ).getSpellDistance()));
-				gDLL->getInterfaceIFace()->popupAddGenericButton(pPopup, szBuffer, GC.getSpellInfo((SpellTypes)iJ).getButton(), iJ, WIDGET_GENERAL, iJ);
+				gDLL->getInterfaceIFace()->popupAddGenericButton(pPopup, szBuffer, GC.getSpellInfo((SpellTypes)iJ).getButton(), iJ, WIDGET_HELP_SPELL, iJ, iJ);
             }
         }
     }
