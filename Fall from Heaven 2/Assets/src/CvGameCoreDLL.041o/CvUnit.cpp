@@ -14666,11 +14666,40 @@ bool CvUnit::canAddPromotion(int spell)
 	CvUnit* pLoopUnit;
     CvPlot* pLoopPlot;
     int iRange = GC.getSpellInfo((SpellTypes)spell).getRange();
+
+
+	//add single tile select
+	if( GC.getSpellInfo((SpellTypes)spell).isTileSelect() )
+	{
+		pLoopPlot = getTargetPlot();
+		if( pLoopPlot != NULL )
+		{
+			iRange = 0;
+		}
+		else
+		{
+			iRange = GC.getSpellInfo((SpellTypes)spell).getSpellDistance();
+		}
+	}
+	//end add
+
+
     for (int i = -iRange; i <= iRange; ++i)
     {
         for (int j = -iRange; j <= iRange; ++j)
         {
-            pLoopPlot = ::plotXY(plot()->getX_INLINE(), plot()->getY_INLINE(), i, j);
+            //Check only single plot
+			if( GC.getSpellInfo((SpellTypes)spell).isTileSelect() && (getTargetPlot() != NULL) )
+			{	
+				pLoopPlot = getTargetPlot();
+			}
+			else
+			{
+				pLoopPlot = ::plotXY(plot()->getX_INLINE(), plot()->getY_INLINE(), i, j);
+			}
+			//end add
+
+
             if (NULL != pLoopPlot)
             {
                 CLLNode<IDInfo>* pUnitNode = pLoopPlot->headUnitNode();
@@ -14722,6 +14751,13 @@ bool CvUnit::canAddPromotion(int spell)
                     }
                 }
             }
+
+			//Single Tile Select
+			if( GC.getSpellInfo((SpellTypes)spell).isTileSelect() && (getTargetPlot() != NULL) )
+			{	
+				return false;
+			}
+			//End Add
 		}
 	}
 	return false;
@@ -14788,6 +14824,7 @@ bool CvUnit::canDispel(int spell)
 	CvUnit* pLoopUnit;
 	CvPlot* pLoopPlot;
 
+	//add single tile select
 	if( GC.getSpellInfo((SpellTypes)spell).isTileSelect() )
 	{
 		pLoopPlot = getTargetPlot();
@@ -14800,6 +14837,7 @@ bool CvUnit::canDispel(int spell)
 			iRange = GC.getSpellInfo((SpellTypes)spell).getSpellDistance();
 		}
 	}
+	//end add
 
     for (int i = -iRange; i <= iRange; ++i)
     {
@@ -14814,6 +14852,7 @@ bool CvUnit::canDispel(int spell)
 			{
 				pLoopPlot = ::plotXY(plot()->getX_INLINE(), plot()->getY_INLINE(), i, j);
 			}
+			//end add
 
             if (NULL != pLoopPlot)
             {
@@ -14840,11 +14879,13 @@ bool CvUnit::canDispel(int spell)
                         }
                     }
                 }
-
+				
+				//Single Tile Select
 				if( GC.getSpellInfo((SpellTypes)spell).isTileSelect() && (getTargetPlot() != NULL) )
 				{	
 					return false;
 				}
+				//End Add
             }
         }
     }
@@ -14857,11 +14898,37 @@ bool CvUnit::canImmobile(int spell)
 	CLLNode<IDInfo>* pUnitNode;
 	CvUnit* pLoopUnit;
 	CvPlot* pLoopPlot;
+
+	//add single tile select
+	if( GC.getSpellInfo((SpellTypes)spell).isTileSelect() )
+	{
+		pLoopPlot = getTargetPlot();
+		if( pLoopPlot != NULL )
+		{
+			iRange = 0;
+		}
+		else
+		{
+			iRange = GC.getSpellInfo((SpellTypes)spell).getSpellDistance();
+		}
+	}
+	//end add
+
     for (int i = -iRange; i <= iRange; ++i)
     {
         for (int j = -iRange; j <= iRange; ++j)
         {
-            pLoopPlot = ::plotXY(plot()->getX_INLINE(), plot()->getY_INLINE(), i, j);
+            //Check only single plot
+			if( GC.getSpellInfo((SpellTypes)spell).isTileSelect() && (getTargetPlot() != NULL) )
+			{	
+				pLoopPlot = getTargetPlot();
+			}
+			else
+			{
+				pLoopPlot = ::plotXY(plot()->getX_INLINE(), plot()->getY_INLINE(), i, j);
+			}
+			//end add
+
             if (NULL != pLoopPlot)
             {
                 pUnitNode = pLoopPlot->headUnitNode();
@@ -14875,6 +14942,13 @@ bool CvUnit::canImmobile(int spell)
                     }
                 }
             }
+
+			//Single Tile Select
+			if( GC.getSpellInfo((SpellTypes)spell).isTileSelect() && (getTargetPlot() != NULL) )
+			{	
+				return false;
+			}
+			//End Add
         }
     }
     return false;
@@ -15254,11 +15328,31 @@ void CvUnit::castAddPromotion(int spell)
         CLLNode<IDInfo>* pUnitNode;
         CvUnit* pLoopUnit;
         CvPlot* pLoopPlot;
+
+		//Added for select Tile
+		if( GC.getSpellInfo((SpellTypes)spell).isTileSelect() )
+		{
+			iRange = GC.getSpellInfo((SpellTypes)spell).getSpellDistance();
+		}
+		//End add
+
+
         for (int i = -iRange; i <= iRange; ++i)
         {
             for (int j = -iRange; j <= iRange; ++j)
             {
-                pLoopPlot = ::plotXY(plot()->getX_INLINE(), plot()->getY_INLINE(), i, j);
+				//Added for select Tile
+				if( GC.getSpellInfo((SpellTypes)spell).isTileSelect() )
+				{
+					pLoopPlot = getTargetPlot();
+				}
+				else
+				{
+					pLoopPlot = ::plotXY(plot()->getX_INLINE(), plot()->getY_INLINE(), i, j);
+				}
+				//End Add
+
+
                 if (NULL != pLoopPlot)
                 {
                     pUnitNode = pLoopPlot->headUnitNode();
@@ -15339,6 +15433,13 @@ void CvUnit::castAddPromotion(int spell)
                             }
                         }
                     }
+
+					//Added for select Tile
+					if( GC.getSpellInfo((SpellTypes)spell).isTileSelect() )
+					{
+						return;
+					}
+					//End add
                 }
             }
         }
@@ -15355,11 +15456,30 @@ void CvUnit::castDamage(int spell)
 	CLLNode<IDInfo>* pUnitNode;
 	CvUnit* pLoopUnit;
 	CvPlot* pLoopPlot;
+
+	//Added for select Tile
+	if( GC.getSpellInfo((SpellTypes)spell).isTileSelect() )
+	{
+		iRange = GC.getSpellInfo((SpellTypes)spell).getSpellDistance();
+	}
+	//End add
+
     for (int i = -iRange; i <= iRange; ++i)
     {
         for (int j = -iRange; j <= iRange; ++j)
         {
-            pLoopPlot = ::plotXY(plot()->getX_INLINE(), plot()->getY_INLINE(), i, j);
+
+			//Added for select Tile
+			if( GC.getSpellInfo((SpellTypes)spell).isTileSelect() )
+			{
+				pLoopPlot = getTargetPlot();
+			}
+			else
+			{
+				pLoopPlot = ::plotXY(plot()->getX_INLINE(), plot()->getY_INLINE(), i, j);
+			}
+			//End Add
+
             if (NULL != pLoopPlot)
             {
                 if (pLoopPlot->getX() != plot()->getX() || pLoopPlot->getY() != plot()->getY())
@@ -15385,6 +15505,13 @@ void CvUnit::castDamage(int spell)
                         }
                     }
                 }
+
+				//Added for select Tile
+				if( GC.getSpellInfo((SpellTypes)spell).isTileSelect() )
+				{
+					return;
+				}
+				//End add
             }
         }
     }
@@ -15405,11 +15532,13 @@ void CvUnit::castDispel(int spell)
 	{
 		iRange = GC.getSpellInfo((SpellTypes)spell).getSpellDistance();
 	}
+	//End add
 
     for (int i = -iRange; i <= iRange; ++i)
     {
         for (int j = -iRange; j <= iRange; ++j)
         {
+			//Added for select Tile
 			if( GC.getSpellInfo((SpellTypes)spell).isTileSelect() )
 			{
 				pLoopPlot = getTargetPlot();
@@ -15418,6 +15547,7 @@ void CvUnit::castDispel(int spell)
 			{
 				pLoopPlot = ::plotXY(plot()->getX_INLINE(), plot()->getY_INLINE(), i, j);
 			}
+			//End Add
 
             if (NULL != pLoopPlot)
             {
@@ -15459,11 +15589,12 @@ void CvUnit::castDispel(int spell)
                 }
             }
 
-
+			//Added for select Tile
 			if( GC.getSpellInfo((SpellTypes)spell).isTileSelect() )
 			{
 				return;
 			}
+			//End add
         }
     }
 }
@@ -15476,11 +15607,29 @@ void CvUnit::castImmobile(int spell)
 	CLLNode<IDInfo>* pUnitNode;
 	CvUnit* pLoopUnit;
 	CvPlot* pLoopPlot;
+
+	//Added for select Tile
+	if( GC.getSpellInfo((SpellTypes)spell).isTileSelect() )
+	{
+		iRange = GC.getSpellInfo((SpellTypes)spell).getSpellDistance();
+	}
+	//End add
+
     for (int i = -iRange; i <= iRange; ++i)
     {
         for (int j = -iRange; j <= iRange; ++j)
         {
-            pLoopPlot = ::plotXY(plot()->getX_INLINE(), plot()->getY_INLINE(), i, j);
+			//Added for select Tile
+			if( GC.getSpellInfo((SpellTypes)spell).isTileSelect() )
+			{
+				pLoopPlot = getTargetPlot();
+			}
+			else
+			{
+				pLoopPlot = ::plotXY(plot()->getX_INLINE(), plot()->getY_INLINE(), i, j);
+			}
+			//End Add
+
             if (NULL != pLoopPlot)
             {
                 if (pLoopPlot->getX() != plot()->getX() || pLoopPlot->getY() != plot()->getY())
@@ -15511,6 +15660,13 @@ void CvUnit::castImmobile(int spell)
                     }
                 }
             }
+
+			//Added for select Tile
+			if( GC.getSpellInfo((SpellTypes)spell).isTileSelect() )
+			{
+				return;
+			}
+			//End add
         }
     }
 }
