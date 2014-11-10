@@ -518,7 +518,6 @@
             <iSpellDistance>0</iSpellDistance>
             <bRequiresLOS>1</bRequiresLOS>
             <bAllowAI>1</bAllowAI>
-            <iAIWeight>10</iAIWeight>
             <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
             <bHasCasted>1</bHasCasted>
             <PyResult>spellTreetopDefence(pCaster)</PyResult>
@@ -535,7 +534,7 @@
             <iSpellDistance>0</iSpellDistance>
             <bRequiresLOS>1</bRequiresLOS>
             <bAllowAI>1</bAllowAI>
-            <iAIWeightWar>100</iAIWeightWar>
+            <bCausesWar>1</bCausesWar>
             <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
             <bHasCasted>1</bHasCasted>
             <AddPromotionType1>PROMOTION_ENCHANTED_BLADE</AddPromotionType1>
@@ -555,8 +554,6 @@
             <bCausesWar>1</bCausesWar>
             <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
             <bHasCasted>1</bHasCasted>
-            <PyResult>spellEarthquake(pCaster)</PyResult>
-            <PyRequirement>reqEarthquake(pCaster)</PyRequirement>
             <Effect>EFFECT_SNOWFALL</Effect>
             <Sound>AS3D_SPELL_EARTHQUAKE</Sound>
             <Button>Art/Interface/Buttons/Spells/Earthquake.dds</Button>
@@ -590,8 +587,7 @@
             <bCausesWar>1</bCausesWar>
             <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
             <bHasCasted>1</bHasCasted>
-            <PyResult>spellEarthquake(pCaster)</PyResult>
-            <PyRequirement>reqEarthquake(pCaster)</PyRequirement>
+            <AddPromotionType1>PROMOTION_STONESKIN</AddPromotionType1>
             <Effect>EFFECT_SNOWFALL</Effect>
             <Sound>AS3D_SPELL_EARTHQUAKE</Sound>
             <Button>Art/Interface/Buttons/Spells/Stoneskin.dds</Button>
@@ -608,8 +604,7 @@
             <bCausesWar>1</bCausesWar>
             <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
             <bHasCasted>1</bHasCasted>
-            <PyResult>spellEarthquake(pCaster)</PyResult>
-            <PyRequirement>reqEarthquake(pCaster)</PyRequirement>
+            <AddPromotionType1>PROMOTION_HIDDEN</AddPromotionType1>
             <Effect>EFFECT_SNOWFALL</Effect>
             <Sound>AS3D_SPELL_EARTHQUAKE</Sound>
             <Button>Art/Interface/Buttons/Promotions/Hidden.dds</Button>
