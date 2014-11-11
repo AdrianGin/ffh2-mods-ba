@@ -1,5 +1,6 @@
 Reorder buildings - Bas
 Reorder promotions - Bas
+Hide promotions for spells once they all work - bas
 
 Create new combat class for elephant (use animal?)(maybe we can create an elephant class?)
 
@@ -20,3 +21,4 @@ Spellstaff (can be used unlimited times per turn!)
 Fatigue (implement -1 movement, currently set to +1, i cant change it!)
 FIERY_RAGE (NEEDS TO DO COLATTORAL DAMAGE)
 SHIELDING_FIRE - IMPLEMENT
+Fireball (game crashes when cast)

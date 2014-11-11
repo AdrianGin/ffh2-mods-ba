@@ -807,51 +807,6 @@
             <Button>Art/Interface/Buttons/Promotions/Expandedhull.dds</Button>
         </PromotionInfo>
         <PromotionInfo>
-            <Type>PROMOTION_FIRE1</Type>
-            <Description>TXT_KEY_PROMOTION_FIRE1</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_CHANNELING1</PromotionPrereq>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Fire1.dds</Button>
-            <iAIWeight>50</iAIWeight>
-            <BonusPrereq>BONUS_MANA_FIRE</BonusPrereq>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_FIRE2</Type>
-            <Description>TXT_KEY_PROMOTION_FIRE2</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_CHANNELING2</PromotionPrereq>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Fire2.dds</Button>
-            <iAIWeight>100</iAIWeight>
-            <BonusPrereq>BONUS_MANA_FIRE</BonusPrereq>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_FIRE3</Type>
-            <Description>TXT_KEY_PROMOTION_FIRE3</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_CHANNELING3</PromotionPrereq>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Fire3.dds</Button>
-            <iAIWeight>150</iAIWeight>
-            <BonusPrereq>BONUS_MANA_FIRE</BonusPrereq>
-        </PromotionInfo>
-        <PromotionInfo>
             <Type>PROMOTION_FLANKING1</Type>
             <Description>Flanking I</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
