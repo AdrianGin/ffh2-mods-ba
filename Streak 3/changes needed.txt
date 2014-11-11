@@ -1,4 +1,7 @@
 Reorder buildings - Bas
+Reorder promotions - Bas
+
+Create new combat class for elephant (use animal?)(maybe we can create an elephant class?)
 
 Implement "not all units die in combat" system
 
