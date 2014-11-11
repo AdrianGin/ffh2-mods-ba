@@ -1889,6 +1889,31 @@
             <bInvisible>1</bInvisible>
             <iAIWeight>100</iAIWeight>
             <iMinLevel>-1</iMinLevel>
+        </PromotionInfo>        
+        
+        
+        <PromotionInfo>
+            <Type>PROMOTION_FIERY_RAGE</Type>
+            <Description>TXT_KEY_PROMOTION_FIERY_RAGE</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <TechPrereq>TECH_NEVER</TechPrereq>
+            <iCombatPercent>10</iCombatPercent>
+            <Button>Art/Interface/Buttons/Promotions/CrownofBrillance.dds</Button>
+            <bDispellable>1</bDispellable>
+            <bRemovedByCombat>1</bRemovedByCombat>
+            <iAIWeight>100</iAIWeight>
+            <iExpireChance>100</iExpireChance>
+            <iMinLevel>-1</iMinLevel>
+        </PromotionInfo>        
+        <PromotionInfo>
+            <Type>PROMOTION_SHIELDING_FIRE</Type>
+            <Description>TXT_KEY_PROMOTION_SHIELDING_FIRE</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <TechPrereq>TECH_NEVER</TechPrereq>
+            <bImmuneToFirstStrikes>1</bImmuneToFirstStrikes>
+            <Button>Art/Interface/Buttons/TerrainFeatures/Flames.dds</Button>
+            <iAIWeight>100</iAIWeight>
+            <iMinLevel>-1</iMinLevel>
         </PromotionInfo>
         
         
@@ -2135,6 +2160,98 @@
             <Button>Art/Interface/Buttons/Promotions/Earth3.dds</Button>
             <iAIWeight>50</iAIWeight>
             <BonusPrereq>BONUS_MANA_EARTH</BonusPrereq>
+        </PromotionInfo>
+        
+        
+        <PromotionInfo>
+            <Type>PROMOTION_FIREIA</Type>
+            <Description>TXT_KEY_PROMOTION_FIREIA</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PromotionPrereq>PROMOTION_CHANNELING1</PromotionPrereq>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Promotions/Fire1.dds</Button>
+            <iAIWeight>50</iAIWeight>
+            <BonusPrereq>BONUS_MANA_FIRE</BonusPrereq>
+        </PromotionInfo>
+        <PromotionInfo>
+            <Type>PROMOTION_FIREIB</Type>
+            <Description>TXT_KEY_PROMOTION_FIREIB</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PromotionPrereq>PROMOTION_CHANNELING1</PromotionPrereq>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Promotions/Fire1.dds</Button>
+            <iAIWeight>50</iAIWeight>
+            <BonusPrereq>BONUS_MANA_FIRE</BonusPrereq>
+        </PromotionInfo>
+        <PromotionInfo>
+            <Type>PROMOTION_FIREIIA</Type>
+            <Description>TXT_KEY_PROMOTION_FIREIIA</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PromotionPrereq>PROMOTION_CHANNELING2</PromotionPrereq>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Promotions/Fire2.dds</Button>
+            <iAIWeight>50</iAIWeight>
+            <BonusPrereq>BONUS_MANA_FIRE</BonusPrereq>
+        </PromotionInfo>
+        <PromotionInfo>
+            <Type>PROMOTION_FIREIIB</Type>
+            <Description>TXT_KEY_PROMOTION_FIREIIB</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PromotionPrereq>PROMOTION_CHANNELING2</PromotionPrereq>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Promotions/Fire2.dds</Button>
+            <iAIWeight>50</iAIWeight>
+            <BonusPrereq>BONUS_MANA_FIRE</BonusPrereq>
+        </PromotionInfo>
+        <PromotionInfo>
+            <Type>PROMOTION_FIREIIIA</Type>
+            <Description>TXT_KEY_PROMOTION_FIREIIIA</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PromotionPrereq>PROMOTION_CHANNELING3</PromotionPrereq>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Promotions/Fire3.dds</Button>
+            <iAIWeight>50</iAIWeight>
+            <BonusPrereq>BONUS_MANA_FIRE</BonusPrereq>
+        </PromotionInfo>
+        <PromotionInfo>
+            <Type>PROMOTION_FIREIIIB</Type>
+            <Description>TXT_KEY_PROMOTION_FIREIIIB</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PromotionPrereq>PROMOTION_CHANNELING3</PromotionPrereq>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Promotions/Fire3.dds</Button>
+            <iAIWeight>50</iAIWeight>
+            <BonusPrereq>BONUS_MANA_FIRE</BonusPrereq>
         </PromotionInfo>
     </PromotionInfos>
 </Civ4PromotionInfos>

@@ -141,48 +141,7 @@
             <Sound>AS3D_SPELL_HOPE</Sound>
             <Button>Art/Interface/Buttons/Promotions/Hidden.dds</Button>
         </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_SCORCH</Type>
-            <Description>Scorch</Description>
-            <Help></Help>
-            <PromotionPrereq1>PROMOTION_FIRE1</PromotionPrereq1>
-            <bGlobal>0</bGlobal>
-            <bIsTileSelect>1</bIsTileSelect>
-            <bIsUnitSelect>1</bIsUnitSelect>
-            <iSpellDistance>2</iSpellDistance>
-            <bRequiresLOS>1</bRequiresLOS>
-            
-            <bAllowAI>1</bAllowAI>
-            <bAllowAutomateTerrain>1</bAllowAutomateTerrain>
-            <bCausesWar>1</bCausesWar>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <PyResult>spellScorch(pCaster, pPlot)</PyResult>
-            <PyRequirement>reqScorch(pCaster)</PyRequirement>
-            <Effect>EFFECT_SCORCH</Effect>
-            <Sound>AS3D_SPELL_DEFILE</Sound>
-            <Button>Art/Interface/Buttons/Spells/Scorch.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_BLINDING_LIGHT</Type>
-            <Description>Blinding Light</Description>
-            <Civilopedia></Civilopedia>
-            <PromotionPrereq1>PROMOTION_FIRE1</PromotionPrereq1>
-            <bIsTileSelect>1</bIsTileSelect>
-            <bIsUnitSelect>0</bIsUnitSelect>
-            <iSpellDistance>1</iSpellDistance>
-            <bAllowAI>1</bAllowAI>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <bResistable>1</bResistable>
-            <iRange>0</iRange>
-            <bImmuneTeam>1</bImmuneTeam>
-            <bImmuneNeutral>1</bImmuneNeutral>
-            <iImmobileTurns>2</iImmobileTurns>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_CHARM_PERSON</Sound>
-            <Button>Art/Interface/Buttons/Spells/Blinding Light.dds</Button>
-        </SpellInfo>
+       
         <SpellInfo>
             <Type>SPELL_SLOW</Type>
             <Description>Slow</Description>
@@ -215,37 +174,6 @@
             <Effect>EFFECT_WIND_SWIRL</Effect>
             <Sound>AS3D_SPELL_HASTE</Sound>
             <Button>Art/Interface/Buttons/Promotions/Danceofblades.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_FIREBALL</Type>
-            <Description>Fireball</Description>
-            <Civilopedia></Civilopedia>
-            <PromotionPrereq1>PROMOTION_FIRE2</PromotionPrereq1>
-            <bAllowAI>1</bAllowAI>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <CreateUnitType>UNIT_FIREBALL</CreateUnitType>
-            <iCreateUnitNum>1</iCreateUnitNum>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_FIREBALL</Sound>
-            <Button>Art/Interface/Buttons/Units/Fireball.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_RING_OF_FLAMES</Type>
-            <Description>Ring of Flames</Description>
-            <PromotionPrereq1>PROMOTION_FIRE2</PromotionPrereq1>
-            <bAllowAI>1</bAllowAI>
-            <bCausesWar>1</bCausesWar>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <iRange>1</iRange>
-            <iDamage>15</iDamage>
-            <iDamageLimit>40</iDamageLimit>
-            <DamageType>DAMAGE_FIRE</DamageType>
-            <PyResult>spellRingofFlames(pCaster)</PyResult>
-            <Effect>EFFECT_RING_OF_FLAMES</Effect>
-            <Sound>AS3D_SPELL_FIREBALL</Sound>
-            <Button>Art/Interface/Buttons/Spells/Ringofflames.dds</Button>
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_SNOWFALL</Type>
@@ -374,15 +302,13 @@
             <Sound>AS3D_SPELL_SANCTIFY</Sound>
             <Button>Art/Interface/Buttons/Spells/Vitalize.dds</Button>
         </SpellInfo>
-        
-        
-        
-        
+     
         
         <SpellInfo>
             <Type>SPELL_HASTE</Type>            
             <Description>TXT_KEY_SPELL_HASTE</Description>
             <PromotionPrereq1>PROMOTION_AIRIA</PromotionPrereq1>
+            <bGlobal>0</bGlobal>
             <bIsTileSelect>1</bIsTileSelect>
             <bIsUnitSelect>0</bIsUnitSelect>
             <iSpellDistance>0</iSpellDistance>
@@ -403,6 +329,7 @@
             <Type>SPELL_BLUR</Type>
             <Description>TXT_KEY_SPELL_BLUR</Description>
             <PromotionPrereq1>PROMOTION_AIRIB</PromotionPrereq1>
+            <bGlobal>0</bGlobal>
             <bIsTileSelect>1</bIsTileSelect>
             <bIsUnitSelect>0</bIsUnitSelect>
             <iSpellDistance>0</iSpellDistance>
@@ -420,6 +347,7 @@
             <Type>SPELL_THUNDERSTRIKE</Type>
             <Description>TXT_KEY_SPELL_THUNDERSTRIKE</Description>
             <PromotionPrereq1>PROMOTION_AIRIIA</PromotionPrereq1>
+            <bGlobal>0</bGlobal>
             <bIsTileSelect>1</bIsTileSelect>
             <bIsUnitSelect>1</bIsUnitSelect>
             <iSpellDistance>1</iSpellDistance>
@@ -428,8 +356,8 @@
             <bCausesWar>1</bCausesWar>
             <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
             <bHasCasted>1</bHasCasted>
-            <iRange>2</iRange>
-            <iDamage>15</iDamage>
+            <iRange>0</iRange>
+            <iDamage>10</iDamage>
             <iDamageLimit>30</iDamageLimit>
             <DamageType>DAMAGE_LIGHTNING</DamageType>
             <Effect>EFFECT_MAELSTROM</Effect>
@@ -440,6 +368,7 @@
             <Type>SPELL_TELEPORT</Type>
             <Description>TXT_KEY_SPELL_TELEPORT</Description>
             <PromotionPrereq1>PROMOTION_AIRIIB</PromotionPrereq1>
+            <bGlobal>0</bGlobal>
             <bIsTileSelect>1</bIsTileSelect>
             <bIsUnitSelect>1</bIsUnitSelect>
             <iSpellDistance>0</iSpellDistance>
@@ -457,6 +386,7 @@
             <Type>SPELL_SPELLSTAFF</Type>
             <Description>TXT_KEY_SPELL_SPELLSTAFF</Description>
             <PromotionPrereq1>PROMOTION_AIRIIIA</PromotionPrereq1>
+            <bGlobal>0</bGlobal>
             <bIsTileSelect>0</bIsTileSelect>
             <bIsUnitSelect>0</bIsUnitSelect>
             <iSpellDistance>0</iSpellDistance>
@@ -475,6 +405,7 @@
             <Type>SPELL_FATIGUE</Type>
             <Description>TXT_KEY_SPELL_FATIGUE</Description>
             <PromotionPrereq1>PROMOTION_AIRIIIB</PromotionPrereq1>
+            <bGlobal>0</bGlobal>
             <bIsTileSelect>1</bIsTileSelect>
             <bIsUnitSelect>0</bIsUnitSelect>
             <iSpellDistance>1</iSpellDistance>
@@ -487,10 +418,12 @@
             <Button>Art/Interface/Buttons/Promotions/Fatigued.dds</Button>
         </SpellInfo>
                 
+                
         <SpellInfo>
             <Type>SPELL_BLOOM</Type>
             <Description>TXT_KEY_SPELL_BLOOM</Description>
             <PromotionPrereq1>PROMOTION_EARTHIA</PromotionPrereq1>
+            <bGlobal>0</bGlobal>
             <bIsTileSelect>1</bIsTileSelect>
             <bIsUnitSelect>0</bIsUnitSelect>
             <iSpellDistance>0</iSpellDistance>
@@ -511,6 +444,7 @@
             <Description>TXT_KEY_SPELL_TREETOP_DEFENCE</Description>
             <PromotionPrereq1>PROMOTION_EARTHIB</PromotionPrereq1>
             <FeatureOrPrereq1>FEATURE_FOREST</FeatureOrPrereq1>
+            <bGlobal>0</bGlobal>
             <bIsTileSelect>1</bIsTileSelect>
             <bIsUnitSelect>0</bIsUnitSelect>
             <iSpellDistance>0</iSpellDistance>
@@ -527,6 +461,7 @@
             <Type>SPELL_ENCHANTED_BLADE</Type>
             <Description>TXT_KEY_SPELL_ENCHANTED_BLADE</Description>
             <PromotionPrereq1>PROMOTION_EARTHIC</PromotionPrereq1>
+            <bGlobal>0</bGlobal>
             <bIsTileSelect>1</bIsTileSelect>
             <bIsUnitSelect>0</bIsUnitSelect>
             <iSpellDistance>0</iSpellDistance>
@@ -544,6 +479,7 @@
             <Type>SPELL_UPLIFT</Type>
             <Description>TXT_KEY_SPELL_UPLIFT</Description>
             <PromotionPrereq1>PROMOTION_EARTHIIA</PromotionPrereq1>
+            <bGlobal>0</bGlobal>
             <bIsTileSelect>1</bIsTileSelect>
             <bIsUnitSelect>0</bIsUnitSelect>
             <iSpellDistance>0</iSpellDistance>
@@ -560,6 +496,7 @@
             <Type>SPELL_DISPEL</Type>
             <Description>TXT_KEY_SPELL_DISPEL</Description>
             <PromotionPrereq1>PROMOTION_EARTHIIB</PromotionPrereq1>
+            <bGlobal>0</bGlobal>
             <bIsTileSelect>1</bIsTileSelect>
             <bIsUnitSelect>0</bIsUnitSelect>
             <iSpellDistance>2</iSpellDistance>
@@ -577,6 +514,7 @@
             <Type>SPELL_STONESKIN</Type>
             <Description>TXT_KEY_SPELL_STONESKIN</Description>
             <PromotionPrereq1>PROMOTION_EARTHIIIA</PromotionPrereq1>
+            <bGlobal>0</bGlobal>
             <bIsTileSelect>1</bIsTileSelect>
             <bIsUnitSelect>0</bIsUnitSelect>
             <iSpellDistance>0</iSpellDistance>
@@ -594,6 +532,7 @@
             <Type>SPELL_INVISIBLE</Type>
             <Description>TXT_KEY_SPELL_INVISIBLE</Description>
             <PromotionPrereq1>PROMOTION_EARTHIIIB</PromotionPrereq1>
+            <bGlobal>0</bGlobal>
             <bIsTileSelect>1</bIsTileSelect>
             <bIsUnitSelect>1</bIsUnitSelect>
             <iSpellDistance>0</iSpellDistance>
@@ -606,6 +545,127 @@
             <Effect>EFFECT_SNOWFALL</Effect>
             <Sound>AS3D_SPELL_EARTHQUAKE</Sound>
             <Button>Art/Interface/Buttons/Promotions/Invisibility.dds</Button>
+        </SpellInfo>
+        
+        
+         <SpellInfo>
+            <Type>SPELL_SCORCH</Type>
+            <Description>TXT_KEY_SPELL_SCORCH</Description>
+            <PromotionPrereq1>PROMOTION_FIREIA</PromotionPrereq1>
+            <bGlobal>0</bGlobal>
+            <bIsTileSelect>1</bIsTileSelect>
+            <bIsUnitSelect>0</bIsUnitSelect>
+            <iSpellDistance>0</iSpellDistance>
+            <bRequiresLOS>1</bRequiresLOS>            
+            <bAllowAI>1</bAllowAI>
+            <bAllowAutomateTerrain>1</bAllowAutomateTerrain>
+            <bCausesWar>1</bCausesWar>
+            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+            <bHasCasted>1</bHasCasted>
+            <PyResult>spellScorch(pCaster, pPlot)</PyResult>
+            <PyRequirement>reqScorch(pCaster)</PyRequirement>
+            <Effect>EFFECT_SCORCH</Effect>
+            <Sound>AS3D_SPELL_DEFILE</Sound>
+            <Button>Art/Interface/Buttons/Spells/Scorch.dds</Button>
+        </SpellInfo>
+        <SpellInfo>
+            <Type>SPELL_BLINDING_LIGHT</Type>
+            <Description>TXT_KEY_SPELL_BLINDING_LIGHT</Description>
+            <PromotionPrereq1>PROMOTION_FIREIB</PromotionPrereq1>
+            <bGlobal>0</bGlobal>
+            <bIsTileSelect>1</bIsTileSelect>
+            <bIsUnitSelect>0</bIsUnitSelect>
+            <iSpellDistance>1</iSpellDistance>
+            <bRequiresLOS>1</bRequiresLOS> 
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+            <bHasCasted>1</bHasCasted>
+            <bResistable>1</bResistable>
+            <iRange>0</iRange>
+            <bImmuneTeam>1</bImmuneTeam>
+            <bImmuneNeutral>1</bImmuneNeutral>
+            <iImmobileTurns>2</iImmobileTurns>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS3D_SPELL_CHARM_PERSON</Sound>
+            <Button>Art/Interface/Buttons/Spells/Blinding Light.dds</Button>
+        </SpellInfo>
+        <SpellInfo>
+            <Type>SPELL_RING_OF_FLAMES</Type>
+            <Description>TXT_KEY_SPELL_RING_OF_FLAMES</Description>
+            <PromotionPrereq1>PROMOTION_FIREIIA</PromotionPrereq1>
+            <bGlobal>0</bGlobal>
+            <bIsTileSelect>1</bIsTileSelect>
+            <bIsUnitSelect>0</bIsUnitSelect>
+            <iSpellDistance>0</iSpellDistance>
+            <bRequiresLOS>1</bRequiresLOS> 
+            <bAllowAI>1</bAllowAI>
+            <bCausesWar>1</bCausesWar>
+            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+            <bHasCasted>1</bHasCasted>
+            <iRange>1</iRange>
+            <iDamage>10</iDamage>
+            <iDamageLimit>30</iDamageLimit>
+            <DamageType>DAMAGE_FIRE</DamageType>
+            <PyResult>spellRingofFlames(pCaster)</PyResult>
+            <Effect>EFFECT_RING_OF_FLAMES</Effect>
+            <Sound>AS3D_SPELL_FIREBALL</Sound>
+            <Button>Art/Interface/Buttons/Spells/Ringofflames.dds</Button>
+        </SpellInfo>
+         <SpellInfo>
+            <Type>SPELL_FIERY_RAGE</Type>
+            <Description>TXT_KEY_SPELL_FIERY_RAGE</Description>
+            <PromotionPrereq1>PROMOTION_FIREIIB</PromotionPrereq1>
+            <bGlobal>0</bGlobal>
+            <bIsTileSelect>1</bIsTileSelect>
+            <bIsUnitSelect>1</bIsUnitSelect>
+            <iSpellDistance>0</iSpellDistance>
+            <bRequiresLOS>1</bRequiresLOS>            
+            <bAllowAI>1</bAllowAI>
+            <bCausesWar>1</bCausesWar>
+            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+            <bHasCasted>1</bHasCasted>
+            <AddPromotionType1>PROMOTION_FIERY_RAGE</AddPromotionType1>
+            <Effect>EFFECT_SCORCH</Effect>
+            <Sound>AS3D_SPELL_DEFILE</Sound>
+            <Button>Art/Interface/Buttons/Promotions/CrownofBrillance.dds</Button>
+        </SpellInfo>
+        <SpellInfo>
+            <Type>SPELL_FIREBALL</Type>
+            <Description>TXT_KEY_SPELL_FIREBALL</Description>
+            <PromotionPrereq1>PROMOTION_FIREIIIA</PromotionPrereq1>
+            <bGlobal>0</bGlobal>
+            <bIsTileSelect>1</bIsTileSelect>
+            <bIsUnitSelect>1</bIsUnitSelect>
+            <iSpellDistance>2</iSpellDistance>
+            <bRequiresLOS>1</bRequiresLOS>  
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+            <bHasCasted>1</bHasCasted>
+            <iRange>0</iRange>
+            <iDamage>35</iDamage>
+            <iDamageLimit>100</iDamageLimit>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS3D_SPELL_FIREBALL</Sound>
+            <Button>Art/Interface/Buttons/Units/Fireball.dds</Button>
+        </SpellInfo>
+        <SpellInfo>
+            <Type>SPELL_SHIELDING_FIRE</Type>
+            <Description>TXT_KEY_SPELL_SHIELDING_FIRE</Description>
+            <PromotionPrereq1>PROMOTION_FIREIIIB</PromotionPrereq1>
+            <bGlobal>0</bGlobal>
+            <bIsTileSelect>1</bIsTileSelect>
+            <bIsUnitSelect>0</bIsUnitSelect>
+            <iSpellDistance>1</iSpellDistance>
+            <bRequiresLOS>1</bRequiresLOS>
+            <bAllowAI>1</bAllowAI>
+            <bCausesWar>1</bCausesWar>
+            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+            <bHasCasted>1</bHasCasted>
+            <AddPromotionType1>PROMOTION_SHIELDING_FIRE</AddPromotionType1>
+            <bDispel>1</bDispel>
+            <Effect>EFFECT_SNOWFALL</Effect>
+            <Sound>AS3D_SPELL_EARTHQUAKE</Sound>
+            <Button>Art/Interface/Buttons/TerrainFeatures/Flames.dds</Button>
         </SpellInfo>
     </SpellInfos>
 </Civ4SpellInfos>

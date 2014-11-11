@@ -18,3 +18,5 @@ Invisible (currently cant be cast after getting the appropriate earth3b promotio
 Uplift - implement
 Spellstaff (can be used unlimited times per turn!)
 Fatigue (implement -1 movement, currently set to +1, i cant change it!)
+FIERY_RAGE (NEEDS TO DO COLATTORAL DAMAGE)
+SHIELDING_FIRE - IMPLEMENT
