@@ -7,22 +7,6 @@
 <Civ4PromotionInfos xmlns="x-schema:CIV4UnitSchema.xml">
     <PromotionInfos>
         <PromotionInfo>
-            <Type>PROMOTION_AERONS_CHOSEN</Type>
-            <Description>TXT_KEY_PROMOTION_AERONS_CHOSEN</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <bImmuneToFirstStrikes>1</bImmuneToFirstStrikes>
-            <Button>Art/Interface/Buttons/Promotions/AeronsChosen.dds</Button>
-            <bImmuneToFear>1</bImmuneToFear>
-            <iCombatHealPercent>20</iCombatHealPercent>
-            <iMinLevel>-1</iMinLevel>
-            <DamageTypeCombats>
-                <DamageTypeCombat>
-                    <DamageType>DAMAGE_UNHOLY</DamageType>
-                    <iCombat>2</iCombat>
-                </DamageTypeCombat>
-            </DamageTypeCombats>
-        </PromotionInfo>
-        <PromotionInfo>
             <Type>PROMOTION_AMPHIBIOUS</Type>
             <Description>Amphibious</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
@@ -128,56 +112,6 @@
             </UnitCombats>
             <Button>,Art/Interface/Buttons/Promotions/Blitz.dds,Art/Interface/Buttons/Promotions_Atlas.dds,8,1</Button>
             <bMutation>1</bMutation>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_BLUR</Type>
-            <Description>TXT_KEY_PROMOTION_BLUR</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_NEVER</TechPrereq>
-            <bImmuneToFirstStrikes>1</bImmuneToFirstStrikes>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Blur.dds</Button>
-            <bImmuneToDefensiveStrike>1</bImmuneToDefensiveStrike>
-            <iAIWeight>50</iAIWeight>
-            <iExpireChance>50</iExpireChance>
-            <iMinLevel>-1</iMinLevel>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_BOARDING</Type>
@@ -1199,17 +1133,6 @@
             <iMinLevel>-1</iMinLevel>
         </PromotionInfo>
         <PromotionInfo>
-            <Type>PROMOTION_FATIGUED</Type>
-            <Description>TXT_KEY_PROMOTION_FATIGUED</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <iCombatPercent>-10</iCombatPercent>
-            <Button>Art/Interface/Buttons/Promotions/Fatigued.dds</Button>
-            <iAIWeight>-50</iAIWeight>
-            <iCombatPercentDefense>-10</iCombatPercentDefense>
-            <iExpireChance>50</iExpireChance>
-            <iMinLevel>-1</iMinLevel>
-        </PromotionInfo>
-        <PromotionInfo>
             <Type>PROMOTION_FIRE1</Type>
             <Description>TXT_KEY_PROMOTION_FIRE1</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
@@ -1465,52 +1388,6 @@
             <Button>Art/Interface/Buttons/Promotions/Guardsman.dds</Button>
             <bTargetWeakestUnitCounter>1</bTargetWeakestUnitCounter>
             <iBetterDefenderThanPercent>100</iBetterDefenderThanPercent>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_HASTED</Type>
-            <Description>TXT_KEY_PROMOTION_HASTED</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_NEVER</TechPrereq>
-            <iMovesChange>1</iMovesChange>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Hasted.dds</Button>
-            <bDispellable>1</bDispellable>
-            <iAIWeight>50</iAIWeight>
-            <iExpireChance>100</iExpireChance>
-            <iMinLevel>-1</iMinLevel>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_HEAVY</Type>
@@ -2656,17 +2533,6 @@
             <iMinLevel>-1</iMinLevel>
         </PromotionInfo>
         <PromotionInfo>
-            <Type>PROMOTION_SPELLSTAFF</Type>
-            <Description>TXT_KEY_PROMOTION_SPELLSTAFF</Description>
-            <Help>TXT_KEY_PROMOTION_SPELLSTAFF_PEDIA</Help>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_NEVER</TechPrereq>
-            <Button>Art/Interface/Buttons/Promotions/Spellstaff.dds</Button>
-            <bDispellable>1</bDispellable>
-            <iAIWeight>150</iAIWeight>
-            <iMinLevel>-1</iMinLevel>
-        </PromotionInfo>
-        <PromotionInfo>
             <Type>PROMOTION_SPIRIT_GUIDE</Type>
             <Description>TXT_KEY_PROMOTION_SPIRIT_GUIDE</Description>
             <Help>TXT_KEY_PROMOTION_SPIRIT_GUIDE_PEDIA</Help>
@@ -3193,33 +3059,14 @@
             </DamageTypeResists>
         </PromotionInfo>
         
-        <PromotionInfo>
-            <Type>PROMOTION_ENCHANTED_BLADE</Type>
-            <Description>TXT_KEY_PROMOTION_ENCHANTED_BLADE</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_NEVER</TechPrereq>
-            <iCombatPercent>20</iCombatPercent>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Enchantedblade.dds</Button>
-            <bDispellable>1</bDispellable>
-            <bValidate>1</bValidate>
-            <iAIWeight>100</iAIWeight>
-            <iCombatPercentDefense>20</iCombatPercentDefense>
-            <iExpireChance>100</iExpireChance>
-            <iMinLevel>-1</iMinLevel>
-        </PromotionInfo>
+        
         
         <PromotionInfo>
-            <Type>PROMOTION_STONESKIN</Type>
-            <Description>TXT_KEY_PROMOTION_STONESKIN</Description>
+            <Type>PROMOTION_HASTED</Type>
+            <Description>TXT_KEY_PROMOTION_HASTED</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <TechPrereq>TECH_NEVER</TechPrereq>
-            <iFirstStrikesChange>3</iFirstStrikesChange>
+            <iMovesChange>1</iMovesChange>
             <UnitCombats>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
@@ -3254,14 +3101,177 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Stoneskin.dds</Button>
+            <Button>Art/Interface/Buttons/Promotions/Hasted.dds</Button>
+            <bDispellable>1</bDispellable>
+            <iAIWeight>100</iAIWeight>
+            <iExpireChance>100</iExpireChance>
+            <iMinLevel>-1</iMinLevel>
+        </PromotionInfo>
+        <PromotionInfo>
+            <Type>PROMOTION_BLUR</Type>
+            <Description>TXT_KEY_PROMOTION_BLUR</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <TechPrereq>TECH_NEVER</TechPrereq>
+            <bImmuneToFirstStrikes>1</bImmuneToFirstStrikes>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Promotions/Blur.dds</Button>
+            <bDispellable>1</bDispellable>
+            <iAIWeight>100</iAIWeight>
+            <iExpireChance>100</iExpireChance>
+            <iMinLevel>-1</iMinLevel>
+        </PromotionInfo>
+        <PromotionInfo>
+            <Type>PROMOTION_SPELLSTAFF</Type>
+            <Description>TXT_KEY_PROMOTION_SPELLSTAFF</Description>
+            <Help>TXT_KEY_PROMOTION_SPELLSTAFF_PEDIA</Help>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <TechPrereq>TECH_NEVER</TechPrereq>
+            <Button>Art/Interface/Buttons/Promotions/Spellstaff.dds</Button>
+            <bDispellable>1</bDispellable>
+            <iAIWeight>100</iAIWeight>
+            <iMinLevel>-1</iMinLevel>
+        </PromotionInfo>
+        <PromotionInfo>
+            <Type>PROMOTION_FATIGUE</Type>
+            <Description>TXT_KEY_PROMOTION_FATIGUE</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <TechPrereq>TECH_NEVER</TechPrereq>            
+            <iVisibilityChange>-1</iVisibilityChange>
+            <iMovesChange>1</iMovesChange>
+            <iCombatPercent>-20</iCombatPercent>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Promotions/Fatigued.dds</Button>
+            <bDispellable>1</bDispellable>
+            <iAIWeight>100</iAIWeight>
+            <iExpireChance>33</iExpireChance>
+            <iMinLevel>-1</iMinLevel>
+        </PromotionInfo>
+        
+                
+        <PromotionInfo>
+            <Type>PROMOTION_ENCHANTED_BLADE</Type>
+            <Description>TXT_KEY_PROMOTION_ENCHANTED_BLADE</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <TechPrereq>TECH_NEVER</TechPrereq>
+            <iCombatPercent>20</iCombatPercent>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Promotions/Enchantedblade.dds</Button>
+            <bDispellable>1</bDispellable>
+            <bValidate>1</bValidate>
+            <iAIWeight>100</iAIWeight>
+            <iCombatPercentDefense>20</iCombatPercentDefense>
+            <iExpireChance>100</iExpireChance>
+            <iMinLevel>-1</iMinLevel>
+        </PromotionInfo>
+        <PromotionInfo>
+            <Type>PROMOTION_STONESKIN</Type>
+            <Description>TXT_KEY_PROMOTION_STONESKIN</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <TechPrereq>TECH_NEVER</TechPrereq>
+            <iFirstStrikesChange>2</iFirstStrikesChange>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Spells/Stoneskin.dds</Button>
             <bDispellable>1</bDispellable>
             <bMutation>1</bMutation>
             <bRemovedByCombat>1</bRemovedByCombat>
             <iAIWeight>100</iAIWeight>
             <iExtraCombatDefense>2</iExtraCombatDefense>
+            <iExpireChance>100</iExpireChance>
             <iMinLevel>-1</iMinLevel>
         </PromotionInfo>
+        
         
         <PromotionInfo>
             <Type>PROMOTION_HEAL1</Type>
@@ -3308,6 +3318,7 @@
             <iAIWeight>50</iAIWeight>
             <iMinLevel>-1</iMinLevel>
         </PromotionInfo>
+        
         
         <PromotionInfo>
             <Type>PROMOTION_AIRIA</Type>
@@ -3399,6 +3410,7 @@
             <iAIWeight>50</iAIWeight>
             <BonusPrereq>BONUS_MANA_AIR</BonusPrereq>
         </PromotionInfo>
+        
         
         <PromotionInfo>
             <Type>PROMOTION_EARTHIA</Type>
