@@ -255,7 +255,7 @@
 	</Define>
 	<Define>
 		<DefineName>HIDDEN_NATIONALITY_PROMOTION</DefineName>
-		<DefineTextVal>PROMOTION_HIDDEN_NATIONALITY</DefineTextVal>
+		<DefineTextVal>NONE</DefineTextVal>
 	</Define>
 	<Define>
 		<DefineName>IMPROVEMENT_UNIQUE_CHANCE</DefineName>
@@ -271,7 +271,7 @@
 	</Define>
 	<Define>
 		<DefineName>MUTATED_PROMOTION</DefineName>
-		<DefineTextVal>PROMOTION_MUTATED</DefineTextVal>
+		<DefineTextVal>NONE</DefineTextVal>
 	</Define>
 	<Define>
 		<DefineName>MUTATION_CHANCE</DefineName>
@@ -291,7 +291,7 @@
 	</Define>
 	<Define>
 		<DefineName>POISONED_PROMOTION</DefineName>
-		<DefineTextVal>PROMOTION_POISONED</DefineTextVal>
+		<DefineTextVal>NONE</DefineTextVal>
 	</Define>
 	<Define>
 		<DefineName>PROMOTION_CHANNELING1</DefineName>

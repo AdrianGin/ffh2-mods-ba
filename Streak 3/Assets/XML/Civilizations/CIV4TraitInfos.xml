@@ -149,10 +149,6 @@
 					<PromotionType>PROMOTION_MOBILITY1</PromotionType>
 					<bFreePromotion>1</bFreePromotion>
 				</FreePromotion>
-				<FreePromotion>
-					<PromotionType>PROMOTION_POTENCY</PromotionType>
-					<bFreePromotion>1</bFreePromotion>
-				</FreePromotion>
 			</FreePromotions>
 			<FreePromotionUnitCombats>
 				<FreePromotionUnitCombat>
@@ -424,10 +420,6 @@
 			<CommerceChanges/>
 			<CommerceModifiers/>
 			<FreePromotions>
-				<FreePromotion>
-					<PromotionType>PROMOTION_POTENCY</PromotionType>
-					<bFreePromotion>1</bFreePromotion>
-				</FreePromotion>
 			</FreePromotions>
 			<FreePromotionUnitCombats>
 				<FreePromotionUnitCombat>
@@ -718,10 +710,6 @@
 			<CommerceChanges/>
 			<CommerceModifiers/>
 			<FreePromotions>
-				<FreePromotion>
-					<PromotionType>PROMOTION_HOMELAND</PromotionType>
-					<bFreePromotion>1</bFreePromotion>
-				</FreePromotion>
 			</FreePromotions>
 			<FreePromotionUnitCombats>
 				<FreePromotionUnitCombat>
@@ -1003,10 +991,6 @@
 			<CommerceChanges/>
 			<CommerceModifiers/>
 			<FreePromotions>
-				<FreePromotion>
-					<PromotionType>PROMOTION_DEXTEROUS</PromotionType>
-					<bFreePromotion>1</bFreePromotion>
-				</FreePromotion>
 			</FreePromotions>
 			<FreePromotionUnitCombats>
 				<FreePromotionUnitCombat>
@@ -1101,10 +1085,6 @@
 			<CommerceChanges/>
 			<CommerceModifiers/>
 			<FreePromotions>
-				<FreePromotion>
-					<PromotionType>PROMOTION_HORSELORD</PromotionType>
-					<bFreePromotion>1</bFreePromotion>
-				</FreePromotion>
 			</FreePromotions>
 			<FreePromotionUnitCombats>
 				<FreePromotionUnitCombat>
@@ -1148,10 +1128,6 @@
 			<CommerceChanges/>
 			<CommerceModifiers/>
 			<FreePromotions>
-				<FreePromotion>
-					<PromotionType>PROMOTION_SINISTER</PromotionType>
-					<bFreePromotion>1</bFreePromotion>
-				</FreePromotion>
 			</FreePromotions>
 			<FreePromotionUnitCombats>
 				<FreePromotionUnitCombat>

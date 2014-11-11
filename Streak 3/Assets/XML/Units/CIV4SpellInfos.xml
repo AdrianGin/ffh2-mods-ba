@@ -105,7 +105,6 @@
             <bAllowAI>1</bAllowAI>
             <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
             <bHasCasted>1</bHasCasted>
-            <RemovePromotionType1>PROMOTION_POISONED</RemovePromotionType1>
             <PyResult>spellHeal(pCaster,15)</PyResult>
             <PyRequirement>reqHeal(pCaster)</PyRequirement>
             <Effect>EFFECT_CREATION</Effect>
@@ -121,7 +120,6 @@
             <bAllowAI>1</bAllowAI>
             <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
             <bHasCasted>1</bHasCasted>
-            <RemovePromotionType1>PROMOTION_POISONED</RemovePromotionType1>
             <PyResult>spellHeal(pCaster,30)</PyResult>
             <PyRequirement>reqHeal(pCaster)</PyRequirement>
             <Effect>EFFECT_CREATION</Effect>
@@ -593,8 +591,8 @@
             <Button>Art/Interface/Buttons/Spells/Stoneskin.dds</Button>
         </SpellInfo>
         <SpellInfo>
-            <Type>SPELL_HIDE</Type>
-            <Description>TXT_KEY_SPELL_HIDE</Description>
+            <Type>SPELL_INVISIBLE</Type>
+            <Description>TXT_KEY_SPELL_INVISIBLE</Description>
             <PromotionPrereq1>PROMOTION_EARTHIIIB</PromotionPrereq1>
             <bIsTileSelect>1</bIsTileSelect>
             <bIsUnitSelect>1</bIsUnitSelect>
@@ -604,10 +602,10 @@
             <bCausesWar>1</bCausesWar>
             <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
             <bHasCasted>1</bHasCasted>
-            <AddPromotionType1>PROMOTION_HIDDEN</AddPromotionType1>
+            <AddPromotionType1>PROMOTION_INVISIBLE</AddPromotionType1>
             <Effect>EFFECT_SNOWFALL</Effect>
             <Sound>AS3D_SPELL_EARTHQUAKE</Sound>
-            <Button>Art/Interface/Buttons/Promotions/Hidden.dds</Button>
+            <Button>Art/Interface/Buttons/Promotions/Invisibility.dds</Button>
         </SpellInfo>
     </SpellInfos>
 </Civ4SpellInfos>

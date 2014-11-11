@@ -10915,7 +10915,6 @@
             <bPickCorporation>0</bPickCorporation>
             <bHeadquarters>0</bHeadquarters>
             <Events>
-                <Event>EVENT_MUTATE_1</Event>
                 <Event>EVENT_MUTATE_2</Event>
             </Events>
             <PrereqEvents>
@@ -18677,7 +18676,6 @@
             <Events>
                 <Event>EVENT_PSYCHOPATH_CAUGHT_1</Event>
                 <Event>EVENT_PSYCHOPATH_CAUGHT_2</Event>
-                <Event>EVENT_PSYCHOPATH_CAUGHT_3</Event>
             </Events>
             <PrereqEvents>
                 <Event>EVENT_PSYCHOPATH_2</Event>

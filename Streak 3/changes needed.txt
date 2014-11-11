@@ -1,63 +1,17 @@
-
-** Ready for test
-Teleport
--Cannot teleport units which have cargo
--Casting whilst inside a city has no effect.
-
-
-
-
-
-
-
-
-
-Implement spells - Adrian
-LEVEL1
--Blinding Light, select one stack within range 1, 33% chance to resist
-
-LEVEL2
-
 Reorder buildings - Bas
 
 Implement "not all units die in combat" system
 
 Remove circle from above flag if hidden unit is in the stack
 
-
-
 Remove fallout and forest_burnt from terrain features - Adrian "This this is not affecting us yet..."
 
 
 
-To be tested:
-***Horses upgrade
 
+***spells that need fixing***  -- Adrian
 
-**DOESN'T WORK**
-
-
-
-**Fix weapon upgrades stacking eg/swordsman can have copper and iron at the same time!
----units can still buy all the upgrades and they stack
----Also the promotions keeps reappearing each turn, can be bought multiple times for money(they dont stack however), hide the promotions they already have?
-
-
-
-***WORKS***
-
-***Can cast spells even if out of moves seems to work. (not sure what this was for, i'm pretty sure it already worked that way/Blinding light however still stops spellcastiing!)
-***slow, seems to work - hard to check
-***Scorch, works as expected
-***Enchanted blade, works as expected
-***Vitalize, added and works as expected. (would like to see it take 1-2 turns to terraform like bloom)
-***Rust, removed
-***Hunter/Assassin/Marksman should not be able to capture city
-***Remove "build culture"
-***Remove "build research"
-***Remove "build wealth"
-
-***Implement upgrades: gunpowder.
-
-***Can delete workers upon capture now
-
+Invisible (currently cant be cast after getting the appropriate earth3b promotion) (formerly hide, caused conflict as it is used elsewhere, changed the name)
+Uplift - implement
+Spellstaff (can be used unlimited times per turn!)
+Fatigue (implement -1 movement, currently set to +1, i cant change it!)
