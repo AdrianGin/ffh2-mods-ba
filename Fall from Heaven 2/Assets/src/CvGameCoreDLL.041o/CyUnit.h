@@ -439,6 +439,17 @@ public:
     void setWeapons();
 //FfH: End Add
 
+	//Adrian added ability to add collateral damage dynamically
+	int getCollateralDamage() const;
+	void changeCollateralDamage(int iChange);
+
+	int getCollateralDamageLimit() const;
+	void changeCollateralDamageLimit(int iChange);
+
+	int getCollateralDamageMaxUnits() const;
+	void changeCollateralDamageMaxUnits(int iChange);
+
+
 /*************************************************************************************************/
 /**	BETTER AI (New Functions Definition) Sephi                                 					**/
 /**																								**/

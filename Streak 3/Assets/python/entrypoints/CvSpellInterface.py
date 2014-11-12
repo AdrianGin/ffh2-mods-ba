@@ -1387,21 +1387,16 @@ def spellHastursRazor(caster):
 
 def reqHeal(caster):
 	pPlot = caster.plot()
-	iPoisoned = gc.getInfoTypeForString('PROMOTION_POISONED')
 	for i in range(pPlot.getNumUnits()):
 		pUnit = pPlot.getUnit(i)
 		if (pUnit.isAlive() and pUnit.getDamage() > 0):
-			return True
-		if pUnit.isHasPromotion(iPoisoned):
 			return True
 	return False
 
 def spellHeal(caster,amount):
 	pPlot = caster.plot()
-	iPoisoned = gc.getInfoTypeForString('PROMOTION_POISONED')
 	for i in range(pPlot.getNumUnits()):
 		pUnit = pPlot.getUnit(i)
-		pUnit.setHasPromotion(iPoisoned,False)
 		if pUnit.isAlive():
 			pUnit.changeDamage(-amount,0) #player doesn't matter - it won't kill
 
@@ -3838,9 +3833,6 @@ def reqTeleport(caster, plot, target):
 	return True
 	
 
-		
-		
-
 def spellTeleport(caster, plot, target):
 	pPlayer = gc.getPlayer(caster.getOwner())
 	pCity   =   pPlayer.getCapitalCity()
@@ -3862,8 +3854,42 @@ def spellTeleport(caster, plot, target):
 	
 
 
+def reqInvisible(caster, plot, target):
+
+	if target.isNone():
+		return true
+
+	if target.isHasPromotion(gc.getInfoTypeForString('PROMOTION_INVISIBLE')):
+		return false
+
+	return true
+	
+
+def spellInvisible(caster, plot, target):
+	if target.isHasPromotion(gc.getInfoTypeForString('PROMOTION_INVISIBLE')) == false:
+		target.setHasPromotion(gc.getInfoTypeForString('PROMOTION_INVISIBLE'), true)
+		
+	return true
+	
 
 
 
+	
+def spellFieryRage(caster, plot, target):
+	
+	if target.isHasPromotion(gc.getInfoTypeForString('PROMOTION_FIERY_RAGE')) == false:
+		target.setHasPromotion(gc.getInfoTypeForString('PROMOTION_FIERY_RAGE'), true)
+	
+	
+	target.setCollateralDamage(100)
+	target.setCollateralDamageLimit(70)
+	target.setCollateralDamageMaxUnits(4)
 
+
+		
+	return true
+	
+	
+	
+	
 	

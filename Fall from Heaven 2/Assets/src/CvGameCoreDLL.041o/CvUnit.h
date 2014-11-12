@@ -627,6 +627,15 @@ public:
 	int getKamikazePercent() const;																									// Exposed to Python
 	void changeKamikazePercent(int iChange);
 
+	int getCollateralDamage() const;
+	void changeCollateralDamage(int iChange);
+
+	int getCollateralDamageLimit() const;
+	void changeCollateralDamageLimit(int iChange);
+
+	int getCollateralDamageMaxUnits() const;
+	void changeCollateralDamageMaxUnits(int iChange);
+
 	DllExport DirectionTypes getFacingDirection(bool checkLineOfSightProperty) const;
 	void setFacingDirection(DirectionTypes facingDirection);
 	void rotateFacingDirectionClockwise();
@@ -1143,6 +1152,11 @@ protected:
 	int m_iSelectedRangedSpell;
 	CvPlot* m_pTargetPlot;
 	CvUnit* m_pTargetUnit;
+
+//Added to allow dynamic collateral damage modifier to units
+	int m_iCollateralDamage;
+	int m_iCollateralDamageLimit;
+	int m_iCollateralDamageMaxUnits;
 
 //FfH: End Add
 

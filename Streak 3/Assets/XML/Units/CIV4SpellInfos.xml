@@ -383,14 +383,25 @@
             <Button>Art/Interface/Buttons/Promotions/Twincast.dds</Button>
         </SpellInfo>
         <SpellInfo>
+            <Type>SPELL_ENCHANT_SPELLSTAFF</Type>
+            <Description>TXT_KEY_SPELL_ENCHANT_SPELLSTAFF</Description>
+            <Civilopedia>TXT_KEY_SPELL_ENCHANT_SPELLSTAFF_PEDIA</Civilopedia>
+            <PromotionPrereq1>PROMOTION_ENCHANT_SPELLSTAFF</PromotionPrereq1>
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+            <bHasCasted>1</bHasCasted>
+            <AddPromotionType1>PROMOTION_SPELLSTAFF</AddPromotionType1>
+            <bBuffCasterOnly>1</bBuffCasterOnly>
+            <Effect>EFFECT_SWORDS_SPARKS</Effect>
+            <Sound>AS3D_SPELL_ENCHANTMENT</Sound>
+            <Button>Art/Interface/Buttons/Promotions/Spellstaff.dds</Button>
+        </SpellInfo>
+        
+        <SpellInfo>
             <Type>SPELL_SPELLSTAFF</Type>
             <Description>TXT_KEY_SPELL_SPELLSTAFF</Description>
-            <PromotionPrereq1>PROMOTION_AIRIIIA</PromotionPrereq1>
-            <bGlobal>0</bGlobal>
-            <bIsTileSelect>0</bIsTileSelect>
-            <bIsUnitSelect>0</bIsUnitSelect>
-            <iSpellDistance>0</iSpellDistance>
-            <bRequiresLOS>1</bRequiresLOS>
+            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
+            <PromotionPrereq1>PROMOTION_SPELLSTAFF</PromotionPrereq1>
             <bAllowAI>1</bAllowAI>
             <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
             <bIgnoreHasCasted>1</bIgnoreHasCasted>
@@ -401,6 +412,7 @@
             <Sound>AS3D_SPELL_ENCHANTMENT</Sound>
             <Button>Art/Interface/Buttons/Promotions/Spellstaff.dds</Button>
         </SpellInfo>
+        
         <SpellInfo>
             <Type>SPELL_FATIGUE</Type>
             <Description>TXT_KEY_SPELL_FATIGUE</Description>
@@ -409,10 +421,10 @@
             <bIsTileSelect>1</bIsTileSelect>
             <bIsUnitSelect>0</bIsUnitSelect>
             <iSpellDistance>1</iSpellDistance>
-            <bRequiresLOS>1</bRequiresLOS>
             <bAllowAI>1</bAllowAI>
             <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
             <bHasCasted>1</bHasCasted>
+            <AddPromotionType1>PROMOTION_FATIGUE</AddPromotionType1>
             <Effect>EFFECT_VITALIZE</Effect>
             <Sound>AS3D_SPELL_SANCTIFY</Sound>
             <Button>Art/Interface/Buttons/Promotions/Fatigued.dds</Button>
@@ -531,17 +543,17 @@
         <SpellInfo>
             <Type>SPELL_INVISIBLE</Type>
             <Description>TXT_KEY_SPELL_INVISIBLE</Description>
-            <PromotionPrereq1>PROMOTION_EARTHIIIB</PromotionPrereq1>
+            <PromotionPrereq1>PROMOTION_CAST_INVISIBLE</PromotionPrereq1>
             <bGlobal>0</bGlobal>
             <bIsTileSelect>1</bIsTileSelect>
             <bIsUnitSelect>1</bIsUnitSelect>
             <iSpellDistance>0</iSpellDistance>
-            <bRequiresLOS>1</bRequiresLOS>
             <bAllowAI>1</bAllowAI>
             <bCausesWar>1</bCausesWar>
             <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
             <bHasCasted>1</bHasCasted>
-            <AddPromotionType1>PROMOTION_INVISIBLE</AddPromotionType1>
+            <PyResult>spellInvisible(pCaster, pPlot, pTarget)</PyResult>
+            <PyRequirement>reqInvisible(pCaster, pPlot, pTarget)</PyRequirement>
             <Effect>EFFECT_SNOWFALL</Effect>
             <Sound>AS3D_SPELL_EARTHQUAKE</Sound>
             <Button>Art/Interface/Buttons/Promotions/Invisibility.dds</Button>
@@ -614,7 +626,7 @@
          <SpellInfo>
             <Type>SPELL_FIERY_RAGE</Type>
             <Description>TXT_KEY_SPELL_FIERY_RAGE</Description>
-            <PromotionPrereq1>PROMOTION_FIREIIB</PromotionPrereq1>
+            <PromotionPrereq1>PROMOTION_CAST_FIERY_RAGE</PromotionPrereq1>
             <bGlobal>0</bGlobal>
             <bIsTileSelect>1</bIsTileSelect>
             <bIsUnitSelect>1</bIsUnitSelect>
@@ -624,7 +636,7 @@
             <bCausesWar>1</bCausesWar>
             <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
             <bHasCasted>1</bHasCasted>
-            <AddPromotionType1>PROMOTION_FIERY_RAGE</AddPromotionType1>
+            <PyResult>spellFieryRage(pCaster, pPlot, pTarget)</PyResult>
             <Effect>EFFECT_SCORCH</Effect>
             <Sound>AS3D_SPELL_DEFILE</Sound>
             <Button>Art/Interface/Buttons/Promotions/CrownofBrillance.dds</Button>

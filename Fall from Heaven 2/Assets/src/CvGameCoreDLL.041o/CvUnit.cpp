@@ -468,6 +468,9 @@ void CvUnit::reset(int iID, UnitTypes eUnit, PlayerTypes eOwner, bool bConstruct
 	m_pTargetPlot = NULL;
 	m_pTargetUnit = NULL;
 
+	m_iCollateralDamage = 0;
+	m_iCollateralDamageLimit = 0;
+	m_iCollateralDamageMaxUnits = 0;
 
 	m_iTotalDamageTypeCombat = 0;
     m_iUnitArtStyleType = NO_UNIT_ARTSTYLE;
@@ -10699,19 +10702,19 @@ int CvUnit::withdrawalProbability() const
 
 int CvUnit::collateralDamage() const
 {
-	return std::max(0, (m_pUnitInfo->getCollateralDamage()));
+	return std::max(m_iCollateralDamage, (m_pUnitInfo->getCollateralDamage()));
 }
 
 
 int CvUnit::collateralDamageLimit() const
 {
-	return std::max(0, m_pUnitInfo->getCollateralDamageLimit() * GC.getMAX_HIT_POINTS() / 100);
+	return std::max(m_iCollateralDamageLimit, m_pUnitInfo->getCollateralDamageLimit() * GC.getMAX_HIT_POINTS() / 100);
 }
 
 
 int CvUnit::collateralDamageMaxUnits() const
 {
-	return std::max(0, m_pUnitInfo->getCollateralDamageMaxUnits());
+	return std::max(m_iCollateralDamageMaxUnits, m_pUnitInfo->getCollateralDamageMaxUnits());
 }
 
 
@@ -13920,6 +13923,15 @@ void CvUnit::setHasPromotion(PromotionTypes eIndex, bool bNewValue)
 		changeTwincast((GC.getPromotionInfo(eIndex).isTwincast()) ? iChange : 0);
 		changeWaterWalking((GC.getPromotionInfo(eIndex).isWaterWalking()) ? iChange : 0);
 		changeWorkRateModify(GC.getPromotionInfo(eIndex).getWorkRateModify() * iChange);
+
+		//Adrian Collateral Damage Modify
+		changeCollateralDamage(GC.getPromotionInfo(eIndex).getCollateralDamage() * iChange);
+		changeCollateralDamageLimit(GC.getPromotionInfo(eIndex).getCollateralDamageLimit() * iChange);
+		changeCollateralDamageMaxUnits(GC.getPromotionInfo(eIndex).getCollateralDamageMaxUnits() * iChange);
+
+
+
+
         GC.getGameINLINE().changeGlobalCounter(GC.getPromotionInfo(eIndex).getModifyGlobalCounter() * iChange);
         if (GC.getPromotionInfo(eIndex).getCombatLimit() != 0)
         {
@@ -19320,4 +19332,35 @@ bool CvUnit::AI_canJoinGroup(CvSelectionGroup* pSelectionGroup) const
 	}
 
 	return true;
+}
+
+
+int CvUnit::getCollateralDamage() const
+{
+	return m_iCollateralDamage;
+}
+
+void CvUnit::changeCollateralDamage(int iChange)
+{
+	m_iCollateralDamage += iChange;
+}
+
+int CvUnit::getCollateralDamageLimit() const
+{
+	return m_iCollateralDamageLimit;
+}
+
+void CvUnit::changeCollateralDamageLimit(int iChange)
+{
+	m_iCollateralDamageLimit += iChange;
+}
+
+int CvUnit::getCollateralDamageMaxUnits() const
+{
+	return m_iCollateralDamageMaxUnits;
+}
+
+void CvUnit::changeCollateralDamageMaxUnits(int iChange)
+{
+	m_iCollateralDamageMaxUnits += iChange;
 }

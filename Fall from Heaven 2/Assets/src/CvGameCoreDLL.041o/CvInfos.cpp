@@ -1776,8 +1776,14 @@ m_iPromotionCombatType(NO_PROMOTION),
 m_iPromotionCombatMod(0),
 m_piBonusAffinity(NULL),
 m_piDamageTypeCombat(NULL),
-m_piDamageTypeResist(NULL)
+m_piDamageTypeResist(NULL),
 //FfH: End Add
+m_iCollateralDamage(0),
+m_iCollateralDamageLimit(0),
+m_iCollateralDamageMaxUnits(0)
+
+
+
 {
 }
 
@@ -2495,6 +2501,24 @@ bool CvPromotionInfo::getUnitCombat(int i) const
 	return m_pbUnitCombat ? m_pbUnitCombat[i] : false;
 }
 
+
+int CvPromotionInfo::getCollateralDamage() const
+{
+	return m_iCollateralDamage;
+}
+
+int CvPromotionInfo::getCollateralDamageLimit() const
+{
+	return m_iCollateralDamageLimit;
+}
+
+int CvPromotionInfo::getCollateralDamageMaxUnits() const
+{
+	return m_iCollateralDamageMaxUnits;
+}
+
+
+
 void CvPromotionInfo::read(FDataStreamBase* stream)
 {
 	CvHotkeyInfo::read(stream);
@@ -2623,6 +2647,11 @@ void CvPromotionInfo::read(FDataStreamBase* stream)
 	stream->Read(&m_iUnitArtStyleType);
 	stream->Read(&m_iPromotionCombatType);
 	stream->Read(&m_iPromotionCombatMod);
+
+	stream->Read(&m_iCollateralDamage);
+	stream->Read(&m_iCollateralDamageLimit);
+	stream->Read(&m_iCollateralDamageMaxUnits);
+
 
 	SAFE_DELETE_ARRAY(m_piBonusAffinity);
 	m_piBonusAffinity = new int[GC.getNumBonusInfos()];
@@ -2804,6 +2833,11 @@ void CvPromotionInfo::write(FDataStreamBase* stream)
 	stream->Write(m_iUnitArtStyleType);
 	stream->Write(m_iPromotionCombatType);
 	stream->Write(m_iPromotionCombatMod);
+
+	stream->Write(m_iCollateralDamage);
+	stream->Write(m_iCollateralDamageLimit);
+	stream->Write(m_iCollateralDamageMaxUnits);
+
 	stream->Write(GC.getNumBonusInfos(), m_piBonusAffinity);
 	stream->Write(GC.getNumDamageTypeInfos(), m_piDamageTypeCombat);
 	stream->Write(GC.getNumDamageTypeInfos(), m_piDamageTypeResist);
@@ -3001,6 +3035,20 @@ bool CvPromotionInfo::readPass2(CvXMLLoadUtility* pXML)
 	m_iPromotionNextLevel = pXML->FindInInfoClass(szTextVal);
 	pXML->GetChildXmlValByName(szTextVal, "PromotionCombatType");
 	m_iPromotionCombatType = pXML->FindInInfoClass(szTextVal);
+
+	pXML->GetChildXmlValByName(&m_iCollateralDamage, "iCollateralDamage");
+	pXML->GetChildXmlValByName(&m_iCollateralDamageLimit, "iCollateralDamageLimit");
+	pXML->GetChildXmlValByName(&m_iCollateralDamageMaxUnits, "iCollateralDamageMaxUnits");
+
+	//Adrian added for collateral damage
+	//pXML->GetChildXmlValByName(szTextVal, "iCollateralDamage");
+	//m_iCollateralDamage = pXML->FindInInfoClass(szTextVal);
+	//pXML->GetChildXmlValByName(szTextVal, "iCollateralDamageLimit");
+	//m_iCollateralDamageLimit = pXML->FindInInfoClass(szTextVal);
+	//pXML->GetChildXmlValByName(szTextVal, "iCollateralDamageMaxUnits");
+	//m_iCollateralDamageMaxUnits = pXML->FindInInfoClass(szTextVal);
+
+
 //FfH: End Modify
 
 	return true;

@@ -1690,7 +1690,7 @@ void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szString, const CvUnit* pUnit, 
 			szString.append(NEWLINE);
 			if (pUnit->getExtraCollateralDamage() == 0)
 			{
-				szString.append(gDLL->getText("TXT_KEY_UNIT_COLLATERAL_DAMAGE", ( 100 * pUnit->getUnitInfo().getCollateralDamageLimit() / GC.getMAX_HIT_POINTS())));
+				szString.append(gDLL->getText("TXT_KEY_UNIT_COLLATERAL_DAMAGE", ( 100 * pUnit->collateralDamageLimit() / GC.getMAX_HIT_POINTS())));
 			}
 			else
 			{
@@ -6284,6 +6284,14 @@ void CvGameTextMgr::parsePromotionHelp(CvWStringBuffer &szBuffer, PromotionTypes
         szBuffer.append(gDLL->getText("TXT_KEY_PROMOTION_WORK_RATE_MODIFY", GC.getPromotionInfo(ePromotion).getWorkRateModify()));
     }
 //FfH: End Add
+
+
+	if (GC.getPromotionInfo(ePromotion).getCollateralDamage() != 0)
+	{
+		szBuffer.append(pcNewline);
+		szBuffer.append(gDLL->getText("TXT_KEY_PROMOTION_COLLATERAL_DAMAGE_ENABLE", GC.getPromotionInfo(ePromotion).getCollateralDamageLimit() ));
+	}
+
 
 	if (wcslen(GC.getPromotionInfo(ePromotion).getHelp()) > 0)
 	{

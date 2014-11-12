@@ -1724,7 +1724,7 @@
             <Sound>AS2D_IF_LEVELUP</Sound>
             <TechPrereq>TECH_NEVER</TechPrereq>            
             <iVisibilityChange>-1</iVisibilityChange>
-            <iMovesChange>1</iMovesChange>
+            <iMovesChange>-1</iMovesChange>
             <iCombatPercent>-20</iCombatPercent>
             <UnitCombats>
                 <UnitCombat>
@@ -1838,6 +1838,38 @@
             <Description>TXT_KEY_PROMOTION_INVISIBLE</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <TechPrereq>TECH_NEVER</TechPrereq>
+            <UnitCombats>
+            	<UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                
+            </UnitCombats>
+                
             <Button>Art/Interface/Buttons/Promotions/Invisibility.dds</Button>
             <bDispellable>1</bDispellable>
             <bRemovedByCombat>1</bRemovedByCombat>            
@@ -1859,6 +1891,11 @@
             <iAIWeight>100</iAIWeight>
             <iExpireChance>100</iExpireChance>
             <iMinLevel>-1</iMinLevel>
+            
+            <iCollateralDamage>100</iCollateralDamage>
+            <iCollateralDamageLimit>70</iCollateralDamageLimit>
+            <iCollateralDamageMaxUnits>3</iCollateralDamageMaxUnits>
+                        
         </PromotionInfo>        
         <PromotionInfo>
             <Type>PROMOTION_SHIELDING_FIRE</Type>
@@ -1980,8 +2017,8 @@
             <BonusPrereq>BONUS_MANA_AIR</BonusPrereq>
         </PromotionInfo>
         <PromotionInfo>
-            <Type>PROMOTION_AIRIIIA</Type>
-            <Description>TXT_KEY_PROMOTION_AIRIIIA</Description>
+            <Type>PROMOTION_ENCHANT_SPELLSTAFF</Type>
+            <Description>TXT_KEY_SPELL_ENCHANT_SPELLSTAFF</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_CHANNELING3</PromotionPrereq>
             <UnitCombats>
@@ -2102,16 +2139,11 @@
             <BonusPrereq>BONUS_MANA_EARTH</BonusPrereq>
         </PromotionInfo>
         <PromotionInfo>
-            <Type>PROMOTION_EARTHIIIB</Type>
-            <Description>TXT_KEY_PROMOTION_EARTHIIIB</Description>
+            <Type>PROMOTION_CAST_INVISIBLE</Type>
+            <Description>TXT_KEY_PROMOTION_CAST_INVISIBLE</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_CHANNELING3</PromotionPrereq>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
+            
             <Button>Art/Interface/Buttons/Promotions/Earth3.dds</Button>
             <iAIWeight>50</iAIWeight>
             <BonusPrereq>BONUS_MANA_EARTH</BonusPrereq>
@@ -2164,8 +2196,8 @@
             <BonusPrereq>BONUS_MANA_FIRE</BonusPrereq>
         </PromotionInfo>
         <PromotionInfo>
-            <Type>PROMOTION_FIREIIB</Type>
-            <Description>TXT_KEY_PROMOTION_FIREIIB</Description>
+            <Type>PROMOTION_CAST_FIERY_RAGE</Type>
+            <Description>TXT_KEY_PROMOTION_FIERY_RAGE</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_CHANNELING2</PromotionPrereq>
             <UnitCombats>

@@ -1957,3 +1957,39 @@ void CyUnit::changeAllowedExplore(bool bnewValue)
 /*************************************************************************************************/
 /**	END	                                        												**/
 /*************************************************************************************************/
+int CyUnit::getCollateralDamage() const
+{
+    return m_pUnit ? m_pUnit->getCollateralDamage() : -1;
+}
+void CyUnit::changeCollateralDamage(int iChange)
+{
+	if (m_pUnit)
+        m_pUnit->changeCollateralDamage(iChange);
+}
+
+int CyUnit::getCollateralDamageLimit() const
+{
+	return m_pUnit ? m_pUnit->getCollateralDamageLimit() : -1;
+}
+
+void CyUnit::changeCollateralDamageLimit(int iChange)
+{
+	if (m_pUnit)
+        m_pUnit->changeCollateralDamageLimit(iChange);
+}
+
+
+int CyUnit::getCollateralDamageMaxUnits() const
+{
+	return m_pUnit ? m_pUnit->getCollateralDamageMaxUnits() : -1;
+}
+
+void CyUnit::changeCollateralDamageMaxUnits(int iChange)
+{
+	if (m_pUnit)
+        m_pUnit->changeCollateralDamageMaxUnits(iChange);
+}
+
+
+
+

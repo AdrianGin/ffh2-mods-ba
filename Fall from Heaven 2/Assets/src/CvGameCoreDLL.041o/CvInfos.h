@@ -597,6 +597,12 @@ public:
 	int getDamageTypeCombat(int i) const;
 	int getDamageTypeResist(int i) const;
 	bool readPass3();
+
+
+	int getCollateralDamage() const;
+	int getCollateralDamageLimit() const;
+	int getCollateralDamageMaxUnits() const;
+
 //FfH: End Add
 
 	void read(FDataStreamBase* stream);
@@ -734,6 +740,10 @@ protected:
 	int* m_piDamageTypeCombat;
 	int* m_piDamageTypeResist;
 //FfH: End Add
+
+	int m_iCollateralDamage;
+	int m_iCollateralDamageLimit;
+	int m_iCollateralDamageMaxUnits;
 
 	// Arrays
 
