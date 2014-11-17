@@ -10,21 +10,20 @@ Remove circle from above flag if hidden unit is in the stack
 
 Remove fallout and forest_burnt from terrain features - Adrian "This this is not affecting us yet..."
 
-
+Need to allow Seige to have promotions
 
 
 ***spells that need fixing***  -- Adrian
 
 Uplift - implement
-Spellstaff (can be used unlimited times per turn!)
-FIERY_RAGE (NEEDS TO DO COLATTORAL DAMAGE)
 SHIELDING_FIRE - IMPLEMENT
 Fireball (game crashes when cast)
 
+Dispel - can't target friendly units
+Fatigue - wears off sometimes on turn 1 for enemy, should last at least 1 turn!
+Invisible - still doesn't show?
 
-Need to allow Seige to have promotions
 
 
-Fixed bas to test:
-Invisible (currently cant be cast after getting the appropriate earth3b promotion) (formerly hide, caused conflict as it is used elsewhere, changed the name)
-Fatigue (implement -1 movement, currently set to +1, i cant change it!)
+Spellstaff - works
+Fiery Rage - works
