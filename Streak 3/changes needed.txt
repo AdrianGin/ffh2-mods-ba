@@ -1,5 +1,9 @@
 Reorder buildings - Bas
 Reorder promotions - Bas
+
+Assign AI weight to spells - Bas
+Implement water spells - Bas
+
 Hide promotions for spells once they all work - bas
 
 Create new combat class for elephant (use animal?)(maybe we can create an elephant class?)
@@ -18,12 +22,5 @@ Need to allow Seige to have promotions
 Uplift - implement
 SHIELDING_FIRE - IMPLEMENT
 Fireball (game crashes when cast)
-
-Dispel - can't target friendly units
-Fatigue - wears off sometimes on turn 1 for enemy, should last at least 1 turn!
-Invisible - still doesn't show?
-
-
-
-Spellstaff - works
-Fiery Rage - works
+Thunderstrike - selected tiles tiles should only target tiles with units // remove target unit from spell
+Ring of Flames - currently deals no damage to units!

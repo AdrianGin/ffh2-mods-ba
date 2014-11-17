@@ -1837,7 +1837,17 @@
             <Type>PROMOTION_INVISIBLE</Type>
             <Description>TXT_KEY_PROMOTION_INVISIBLE</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_NEVER</TechPrereq>
+            <TechPrereq>TECH_NEVER</TechPrereq>            
+            <FeatureDoubleMoves>
+                <FeatureDoubleMove>
+                    <FeatureType>FEATURE_JUNGLE</FeatureType>
+                    <bFeatureDoubleMove>1</bFeatureDoubleMove>
+                </FeatureDoubleMove>
+                <FeatureDoubleMove>
+                    <FeatureType>FEATURE_FOREST</FeatureType>
+                    <bFeatureDoubleMove>1</bFeatureDoubleMove>
+                </FeatureDoubleMove>
+            </FeatureDoubleMoves>
             <UnitCombats>
             	<UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
@@ -1866,10 +1876,8 @@
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                
-            </UnitCombats>
-                
+                </UnitCombat>                
+            </UnitCombats>                
             <Button>Art/Interface/Buttons/Promotions/Invisibility.dds</Button>
             <bDispellable>1</bDispellable>
             <bRemovedByCombat>1</bRemovedByCombat>            
