@@ -1762,7 +1762,7 @@
             </UnitCombats>
             <Button>Art/Interface/Buttons/Promotions/Fatigued.dds</Button>
             <bDispellable>1</bDispellable>
-            <iAIWeight>100</iAIWeight>
+            <iAIWeight>-100</iAIWeight>
             <iExpireChance>33</iExpireChance>
             <iMinLevel>-1</iMinLevel>
         </PromotionInfo>
