@@ -1,10 +1,8 @@
 Reorder buildings - Bas
 Reorder promotions - Bas
-
-Assign AI weight to spells - Bas
-Implement water spells - Bas
-
 Hide promotions for spells once they all work - bas
+
+Implement water spells - Bas
 
 Create new combat class for elephant (use animal?)(maybe we can create an elephant class?)
 
