@@ -1899,11 +1899,9 @@
             <iAIWeight>100</iAIWeight>
             <iExpireChance>100</iExpireChance>
             <iMinLevel>-1</iMinLevel>
-            
             <iCollateralDamage>100</iCollateralDamage>
             <iCollateralDamageLimit>70</iCollateralDamageLimit>
             <iCollateralDamageMaxUnits>3</iCollateralDamageMaxUnits>
-                        
         </PromotionInfo>        
         <PromotionInfo>
             <Type>PROMOTION_SHIELDING_FIRE</Type>
