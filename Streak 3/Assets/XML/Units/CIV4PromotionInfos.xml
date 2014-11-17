@@ -1911,6 +1911,8 @@
             <bImmuneToFirstStrikes>1</bImmuneToFirstStrikes>
             <Button>Art/Interface/Buttons/TerrainFeatures/Flames.dds</Button>
             <iAIWeight>100</iAIWeight>
+            <iExpireChance>50</iExpireChance>
+            <bImmuneToMagic>1</bImmuneToMagic>
             <iMinLevel>-1</iMinLevel>
         </PromotionInfo>
         
