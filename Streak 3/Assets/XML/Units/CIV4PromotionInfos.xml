@@ -2143,7 +2143,12 @@
             <Description>TXT_KEY_PROMOTION_CAST_INVISIBLE</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_CHANNELING3</PromotionPrereq>
-            
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
             <Button>Art/Interface/Buttons/Promotions/Earth3.dds</Button>
             <iAIWeight>50</iAIWeight>
             <BonusPrereq>BONUS_MANA_EARTH</BonusPrereq>
