@@ -3269,7 +3269,31 @@ def spellVitalize(caster):
 		
 	if(pPlot.getFeatureType()==gc.getInfoTypeForString('FEATURE_FLOOD_PLAINS')):
 		pPlot.setFeatureType(-1,0)
-			
+
+
+def reqTerraform(caster):
+	pPlot = caster.plot()
+#	if pPlot.getOwner() != caster.getOwner():
+#		return False
+	if pPlot.isWater():
+		return false
+		
+	if pPlot.isCity():
+		return false
+	
+	return True
+
+def spellTerraform(caster):
+	pPlot = caster.plot()
+	pPlot.setFeatureType(-1,0)
+	pPlot.setImprovementType(-1)
+	
+	if pPlot.getPlotType() == PlotTypes.PLOT_HILLS:
+		pPlot.setPlotType(PlotTypes.PLOT_LAND, True, True)
+	else:
+		pPlot.setPlotType(PlotTypes.PLOT_HILLS, True, True)
+	
+	
 		
 
 def reqWane(caster):

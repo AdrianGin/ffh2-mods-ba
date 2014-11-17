@@ -2056,6 +2056,22 @@
         </PromotionInfo>
         
         
+		<PromotionInfo>
+            <Type>PROMOTION_CAST_TERRAFORM</Type>
+            <Description>TXT_KEY_PROMOTION_TERRAFORM</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PromotionPrereq>PROMOTION_CHANNELING2</PromotionPrereq>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Promotions/Earth2.dds</Button>
+            <iAIWeight>50</iAIWeight>
+            <BonusPrereq>BONUS_MANA_EARTH</BonusPrereq>
+        </PromotionInfo>        
+        
         <PromotionInfo>
             <Type>PROMOTION_EARTHIA</Type>
             <Description>TXT_KEY_PROMOTION_EARTHIA</Description>
@@ -2101,21 +2117,7 @@
             <iAIWeight>50</iAIWeight>
             <BonusPrereq>BONUS_MANA_EARTH</BonusPrereq>
         </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_EARTHIIA</Type>
-            <Description>TXT_KEY_PROMOTION_EARTHIIA</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_CHANNELING2</PromotionPrereq>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Earth2.dds</Button>
-            <iAIWeight>50</iAIWeight>
-            <BonusPrereq>BONUS_MANA_EARTH</BonusPrereq>
-        </PromotionInfo>
+
         <PromotionInfo>
             <Type>PROMOTION_EARTHIIB</Type>
             <Description>TXT_KEY_PROMOTION_EARTHIIB</Description>

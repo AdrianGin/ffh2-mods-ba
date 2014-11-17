@@ -303,6 +303,25 @@
             <Button>Art/Interface/Buttons/Spells/Vitalize.dds</Button>
         </SpellInfo>
      
+		<SpellInfo>
+            <Type>SPELL_TERRAFORM</Type>
+            <Description>TXT_KEY_SPELL_TERRAFORM</Description>
+            <Civilopedia>TXT_KEY_SPELL_TERRAFORM_PEDIA</Civilopedia>
+            <Help>TXT_KEY_SPELL_TERRAFORM_HELP</Help>
+            <PromotionPrereq1>PROMOTION_CAST_TERRAFORM</PromotionPrereq1>
+            <bAllowAI>1</bAllowAI>
+            <bAllowAutomateTerrain>1</bAllowAutomateTerrain>
+            <iAIWeight>10</iAIWeight>
+            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+            <bHasCasted>1</bHasCasted>
+            <iDelay>3</iDelay>
+            <PyResult>spellTerraform(pCaster)</PyResult>
+            <PyRequirement>reqTerraform(pCaster)</PyRequirement>
+            <Effect>EFFECT_VITALIZE</Effect>
+            <Sound>AS3D_SPELL_SANCTIFY</Sound>
+            <Button>Art/Interface/Buttons/Promotions/Terraform.dds</Button>
+        </SpellInfo>     
+     
         
         <SpellInfo>
             <Type>SPELL_HASTE</Type>            
@@ -487,23 +506,7 @@
             <Sound>AS3D_SPELL_ENCHANTMENT</Sound>
             <Button>Art/Interface/Buttons/Promotions/Enchantedblade.dds</Button>
         </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_UPLIFT</Type>
-            <Description>TXT_KEY_SPELL_UPLIFT</Description>
-            <PromotionPrereq1>PROMOTION_EARTHIIA</PromotionPrereq1>
-            <bGlobal>0</bGlobal>
-            <bIsTileSelect>1</bIsTileSelect>
-            <bIsUnitSelect>0</bIsUnitSelect>
-            <iSpellDistance>0</iSpellDistance>
-            <bRequiresLOS>1</bRequiresLOS>
-            <bAllowAI>1</bAllowAI>
-            <bCausesWar>1</bCausesWar>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <Effect>EFFECT_SNOWFALL</Effect>
-            <Sound>AS3D_SPELL_EARTHQUAKE</Sound>
-            <Button>Art/Interface/Buttons/Spells/Earthquake.dds</Button>
-        </SpellInfo>
+
         <SpellInfo>
             <Type>SPELL_DISPEL</Type>
             <Description>TXT_KEY_SPELL_DISPEL</Description>
@@ -623,7 +626,7 @@
             <Sound>AS3D_SPELL_FIREBALL</Sound>
             <Button>Art/Interface/Buttons/Spells/Ringofflames.dds</Button>
         </SpellInfo>
-         <SpellInfo>
+        <SpellInfo>
             <Type>SPELL_FIERY_RAGE</Type>
             <Description>TXT_KEY_SPELL_FIERY_RAGE</Description>
             <PromotionPrereq1>PROMOTION_CAST_FIERY_RAGE</PromotionPrereq1>
@@ -656,6 +659,7 @@
             <iRange>0</iRange>
             <iDamage>35</iDamage>
             <iDamageLimit>100</iDamageLimit>
+            <DamageType>DAMAGE_FIRE</DamageType>
             <Effect>EFFECT_SPELL1</Effect>
             <Sound>AS3D_SPELL_FIREBALL</Sound>
             <Button>Art/Interface/Buttons/Units/Fireball.dds</Button>

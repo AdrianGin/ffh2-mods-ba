@@ -19,8 +19,18 @@ Need to allow Seige to have promotions
 
 ***spells that need fixing***  -- Adrian
 
+Update promotion names
+
 Uplift - implement
 SHIELDING_FIRE - IMPLEMENT
+
+Thunderstrike - selected tiles tiles should only target tiles with units // remove target unit from spell - needs to do 15% damage
+
+
+
+
+Fixed ready to test:
+Uplift renamed to Terraform
+
 Fireball (game crashes when cast)
-Thunderstrike - selected tiles tiles should only target tiles with units // remove target unit from spell
-Ring of Flames - currently deals no damage to units!
+Ring of Flames - currently deals no damage to units! - needs to do more damage (15%)
