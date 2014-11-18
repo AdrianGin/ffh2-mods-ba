@@ -244,9 +244,7 @@
             <bHasCasted>1</bHasCasted>
             <AddPromotionType1>PROMOTION_HASTED</AddPromotionType1>
             <RemovePromotionType1>PROMOTION_SLOW</RemovePromotionType1>
-            <bImmuneNeutral>1</bImmuneNeutral>
             <bImmuneEnemy>1</bImmuneEnemy>
-            <bImmuneNotAlive>1</bImmuneNotAlive>
             <Effect>EFFECT_WIND_SWIRL</Effect>
             <Sound>AS3D_SPELL_HASTE</Sound>
             <Button>Art/Interface/Buttons/Promotions/Hasted.dds</Button>
@@ -275,7 +273,7 @@
             <PromotionPrereq1>PROMOTION_AIRIIA</PromotionPrereq1>
             <bGlobal>0</bGlobal>
             <bIsTileSelect>1</bIsTileSelect>
-            <bIsUnitSelect>1</bIsUnitSelect>
+            <bIsUnitSelect>0</bIsUnitSelect>
             <iSpellDistance>1</iSpellDistance>
             <bRequiresLOS>1</bRequiresLOS>
             <bAllowAI>1</bAllowAI>
@@ -665,7 +663,6 @@
             <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
             <bHasCasted>1</bHasCasted>
             <AddPromotionType1>PROMOTION_WATER_WALKING</AddPromotionType1>
-            <bBuffCasterOnly>1</bBuffCasterOnly>
             <Effect>EFFECT_CREATION</Effect>
             <Sound>AS3D_SPELL_WATER</Sound>
             <Button>Art/Interface/Buttons/Promotions/Waterwalking.dds</Button>
@@ -706,7 +703,6 @@
             <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
             <bHasCasted>1</bHasCasted>
             <AddPromotionType1>PROMOTION_WEAK</AddPromotionType1>
-            <bBuffCasterOnly>1</bBuffCasterOnly>
             <Effect>EFFECT_CREATION</Effect>
             <Sound>AS3D_SPELL_WATER</Sound>
             <Button>Art/Interface/Buttons/Promotions/Weak.dds</Button>
@@ -726,7 +722,6 @@
             <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
             <bHasCasted>1</bHasCasted>
             <AddPromotionType1>PROMOTION_SACRIFICE</AddPromotionType1>
-            <bBuffCasterOnly>1</bBuffCasterOnly>
             <Effect>EFFECT_CREATION</Effect>
             <Sound>AS3D_SPELL_WATER</Sound>
             <Button>Art/Interface/Buttons/Spells/Spring.dds</Button>
