@@ -83,7 +83,7 @@
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_HEAL</Type>
-            <Description>Heal</Description>
+            <Description>TXT_KEY_SPELL_HEAL</Description>
             <Civilopedia>Heals 8HP to all units in the stack.</Civilopedia>
             <Help></Help>
             <PromotionPrereq1>PROMOTION_HEAL1</PromotionPrereq1>
@@ -98,7 +98,7 @@
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_GREATER_HEALING</Type>
-            <Description>Greater Healing</Description>
+            <Description>TXT_KEY_SPELL_GREATER_HEALING</Description>
             <Civilopedia>Heals 15HP to all units in the stack.</Civilopedia>
             <Help></Help>
             <PromotionPrereq1>PROMOTION_HEAL2</PromotionPrereq1>
@@ -113,7 +113,7 @@
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_MASS_HEALING</Type>
-            <Description>Mass Healing</Description>
+            <Description>TXT_KEY_SPELL_MASS_HEALING</Description>
             <Civilopedia>Heals 30HP to all units in the stack.</Civilopedia>
             <Help></Help>
             <PromotionPrereq1>PROMOTION_HEAL3</PromotionPrereq1>
@@ -158,6 +158,7 @@
             <PyResult>spellGunpowderWeapons(pCaster)</PyResult>
             <Effect>EFFECT_SPELL1</Effect>
             <Sound>AS2D_REPAIR</Sound>
+            <bGraphicalOnly>1</bGraphicalOnly>
             <Button>,Art/Interface/Buttons/WorldBuilder/Coal.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,4,12</Button>
         </SpellInfo>
         <SpellInfo>
@@ -175,6 +176,7 @@
             <PyResult>spellHorseWeapons(pCaster)</PyResult>
             <Effect>EFFECT_SPELL1</Effect>
             <Sound>AS2D_REPAIR</Sound>
+            <bGraphicalOnly>1</bGraphicalOnly>
             <Button>,Art/Interface/Buttons/WorldBuilder/Horse.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,4,13</Button>
         </SpellInfo> 
         <SpellInfo>
@@ -192,6 +194,7 @@
             <PyResult>spellBronzeWeapons(pCaster)</PyResult>
             <Effect>EFFECT_SPELL1</Effect>
             <Sound>AS2D_REPAIR</Sound>
+            <bGraphicalOnly>1</bGraphicalOnly>
             <Button>,Art/Interface/Buttons/WorldBuilder/Copper.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,5,12</Button>
         </SpellInfo>        
         <SpellInfo>
@@ -209,6 +212,7 @@
             <PyResult>spellIronWeapons(pCaster)</PyResult>
             <Effect>EFFECT_SPELL1</Effect>
             <Sound>AS2D_REPAIR</Sound>
+            <bGraphicalOnly>1</bGraphicalOnly>
             <Button>,Art/Interface/Buttons/WorldBuilder/Iron.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,6,13</Button>
         </SpellInfo>        
         <SpellInfo>
@@ -226,6 +230,7 @@
             <PyResult>spellMithrilWeapons(pCaster)</PyResult>
             <Effect>EFFECT_SPELL1</Effect>
             <Sound>AS2D_REPAIR</Sound>
+            <bGraphicalOnly>1</bGraphicalOnly>
             <Button>,Art/Interface/Buttons/WorldBuilder/Silver.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,4,14</Button>
         </SpellInfo>
         
@@ -233,7 +238,7 @@
         <SpellInfo>
             <Type>SPELL_HASTE</Type>            
             <Description>TXT_KEY_SPELL_HASTE</Description>
-            <PromotionPrereq1>PROMOTION_AIRIA</PromotionPrereq1>
+            <PromotionPrereq1>PROMOTION_CAST_HASTE</PromotionPrereq1>
             <bGlobal>0</bGlobal>
             <bIsTileSelect>1</bIsTileSelect>
             <bIsUnitSelect>0</bIsUnitSelect>
@@ -252,7 +257,7 @@
         <SpellInfo>
             <Type>SPELL_BLUR</Type>
             <Description>TXT_KEY_SPELL_BLUR</Description>
-            <PromotionPrereq1>PROMOTION_AIRIB</PromotionPrereq1>
+            <PromotionPrereq1>PROMOTION_CAST_BLUR</PromotionPrereq1>
             <bGlobal>0</bGlobal>
             <bIsTileSelect>1</bIsTileSelect>
             <bIsUnitSelect>0</bIsUnitSelect>
@@ -270,7 +275,7 @@
         <SpellInfo>
             <Type>SPELL_THUNDERSTRIKE</Type>
             <Description>TXT_KEY_SPELL_THUNDERSTRIKE</Description>
-            <PromotionPrereq1>PROMOTION_AIRIIA</PromotionPrereq1>
+            <PromotionPrereq1>PROMOTION_CAST_TELEPORT</PromotionPrereq1>
             <bGlobal>0</bGlobal>
             <bIsTileSelect>1</bIsTileSelect>
             <bIsUnitSelect>0</bIsUnitSelect>
@@ -291,7 +296,7 @@
         <SpellInfo>
             <Type>SPELL_TELEPORT</Type>
             <Description>TXT_KEY_SPELL_TELEPORT</Description>
-            <PromotionPrereq1>PROMOTION_AIRIIB</PromotionPrereq1>
+            <PromotionPrereq1>PROMOTION_CAST_THUNDERSTRIKE</PromotionPrereq1>
             <bGlobal>0</bGlobal>
             <bIsTileSelect>1</bIsTileSelect>
             <bIsUnitSelect>1</bIsUnitSelect>
@@ -338,7 +343,7 @@
         <SpellInfo>
             <Type>SPELL_FATIGUE</Type>
             <Description>TXT_KEY_SPELL_FATIGUE</Description>
-            <PromotionPrereq1>PROMOTION_AIRIIIB</PromotionPrereq1>
+            <PromotionPrereq1>PROMOTION_CAST_FATIGUE</PromotionPrereq1>
             <bGlobal>0</bGlobal>
             <bIsTileSelect>1</bIsTileSelect>
             <bIsUnitSelect>0</bIsUnitSelect>
@@ -356,7 +361,7 @@
         <SpellInfo>
             <Type>SPELL_BLOOM</Type>
             <Description>TXT_KEY_SPELL_BLOOM</Description>
-            <PromotionPrereq1>PROMOTION_EARTHIA</PromotionPrereq1>
+            <PromotionPrereq1>PROMOTION_CAST_BLOOM</PromotionPrereq1>
             <bGlobal>0</bGlobal>
             <bIsTileSelect>1</bIsTileSelect>
             <bIsUnitSelect>0</bIsUnitSelect>
@@ -376,7 +381,7 @@
         <SpellInfo>
             <Type>SPELL_TREETOP_DEFENCE</Type>
             <Description>TXT_KEY_SPELL_TREETOP_DEFENCE</Description>
-            <PromotionPrereq1>PROMOTION_EARTHIB</PromotionPrereq1>
+            <PromotionPrereq1>PROMOTION_CAST_ENCHANTED_BLADE</PromotionPrereq1>
             <FeatureOrPrereq1>FEATURE_FOREST</FeatureOrPrereq1>
             <bGlobal>0</bGlobal>
             <bIsTileSelect>1</bIsTileSelect>
@@ -394,7 +399,7 @@
         <SpellInfo>
             <Type>SPELL_ENCHANTED_BLADE</Type>
             <Description>TXT_KEY_SPELL_ENCHANTED_BLADE</Description>
-            <PromotionPrereq1>PROMOTION_EARTHIC</PromotionPrereq1>
+            <PromotionPrereq1>PROMOTION_CAST_TREETOP_DEFENCE</PromotionPrereq1>
             <bGlobal>0</bGlobal>
             <bIsTileSelect>1</bIsTileSelect>
             <bIsUnitSelect>0</bIsUnitSelect>
@@ -430,7 +435,7 @@
         <SpellInfo>
             <Type>SPELL_DISPEL</Type>
             <Description>TXT_KEY_SPELL_DISPEL</Description>
-            <PromotionPrereq1>PROMOTION_EARTHIIB</PromotionPrereq1>
+            <PromotionPrereq1>PROMOTION_CAST_DISPEL</PromotionPrereq1>
             <bGlobal>0</bGlobal>
             <bIsTileSelect>1</bIsTileSelect>
             <bIsUnitSelect>0</bIsUnitSelect>
@@ -448,7 +453,7 @@
         <SpellInfo>
             <Type>SPELL_STONESKIN</Type>
             <Description>TXT_KEY_SPELL_STONESKIN</Description>
-            <PromotionPrereq1>PROMOTION_EARTHIIIA</PromotionPrereq1>
+            <PromotionPrereq1>PROMOTION_CAST_STONESKIN</PromotionPrereq1>
             <bGlobal>0</bGlobal>
             <bIsTileSelect>1</bIsTileSelect>
             <bIsUnitSelect>0</bIsUnitSelect>
@@ -486,7 +491,7 @@
          <SpellInfo>
             <Type>SPELL_SCORCH</Type>
             <Description>TXT_KEY_SPELL_SCORCH</Description>
-            <PromotionPrereq1>PROMOTION_FIREIA</PromotionPrereq1>
+            <PromotionPrereq1>PROMOTION_CAST_SCORCH</PromotionPrereq1>
             <bGlobal>0</bGlobal>
             <bIsTileSelect>1</bIsTileSelect>
             <bIsUnitSelect>0</bIsUnitSelect>
@@ -506,7 +511,7 @@
         <SpellInfo>
             <Type>SPELL_BLINDING_LIGHT</Type>
             <Description>TXT_KEY_SPELL_BLINDING_LIGHT</Description>
-            <PromotionPrereq1>PROMOTION_FIREIB</PromotionPrereq1>
+            <PromotionPrereq1>PROMOTION_CAST_BLINDING_LIGHT</PromotionPrereq1>
             <bGlobal>0</bGlobal>
             <bIsTileSelect>1</bIsTileSelect>
             <bIsUnitSelect>0</bIsUnitSelect>
@@ -527,7 +532,7 @@
         <SpellInfo>
             <Type>SPELL_RING_OF_FLAMES</Type>
             <Description>TXT_KEY_SPELL_RING_OF_FLAMES</Description>
-            <PromotionPrereq1>PROMOTION_FIREIIA</PromotionPrereq1>
+            <PromotionPrereq1>PROMOTION_CAST_RING_OF_FLAMES</PromotionPrereq1>
             <bGlobal>0</bGlobal>
             <bIsTileSelect>1</bIsTileSelect>
             <bIsUnitSelect>0</bIsUnitSelect>
@@ -567,7 +572,7 @@
         <SpellInfo>
             <Type>SPELL_FIREBALL</Type>
             <Description>TXT_KEY_SPELL_FIREBALL</Description>
-            <PromotionPrereq1>PROMOTION_FIREIIIA</PromotionPrereq1>
+            <PromotionPrereq1>PROMOTION_CAST_FIREBALL</PromotionPrereq1>
             <bGlobal>0</bGlobal>
             <bIsTileSelect>1</bIsTileSelect>
             <bIsUnitSelect>1</bIsUnitSelect>
@@ -587,7 +592,7 @@
         <SpellInfo>
             <Type>SPELL_SHIELDING_FIRE</Type>
             <Description>TXT_KEY_SPELL_SHIELDING_FIRE</Description>
-            <PromotionPrereq1>PROMOTION_FIREIIIB</PromotionPrereq1>
+            <PromotionPrereq1>PROMOTION_CAST_SHIELDING_FIRE</PromotionPrereq1>
             <bGlobal>0</bGlobal>
             <bIsTileSelect>1</bIsTileSelect>
             <bIsUnitSelect>0</bIsUnitSelect>

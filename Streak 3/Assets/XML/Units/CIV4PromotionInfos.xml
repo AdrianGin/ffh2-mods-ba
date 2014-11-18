@@ -6,35 +6,112 @@
 <!-- Promotion Infos -->
 <Civ4PromotionInfos xmlns="x-schema:CIV4UnitSchema.xml">
     <PromotionInfos>
-        <PromotionInfo>
-            <Type>PROMOTION_AMPHIBIOUS</Type>
-            <Description>Amphibious</Description>
+    	<PromotionInfo>
+            <Type>PROMOTION_STARTING_SETTLER</Type>
+            <Description>TXT_KEY_PROMOTION_STARTING_SETTLER</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_COMBAT2</PromotionPrereq>
+            <TechPrereq>TECH_NEVER</TechPrereq>
+            <iVisibilityChange>3</iVisibilityChange>
+            <iMovesChange>2</iMovesChange>
+            <Button>Art/Interface/Buttons/Units/Settler.dds</Button>
+            <iMinLevel>-1</iMinLevel>
+        </PromotionInfo>        
+        <PromotionInfo>
+            <Type>PROMOTION_FLYING</Type>
+            <Description>TXT_KEY_PROMOTION_FLYING</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <TechPrereq>TECH_NEVER</TechPrereq>
             <bAmphib>1</bAmphib>
             <bRiver>1</bRiver>
+            <iMovesChange>1</iMovesChange>
+            <Button>Art/Interface/Buttons/Promotions/Flying.dds</Button>
+            <bFlying>1</bFlying>
+            <iMinLevel>-1</iMinLevel>
+        </PromotionInfo>
+        <PromotionInfo>
+            <Type>PROMOTION_STEALTH</Type>
+            <Description>TXT_KEY_PROMOTION_STEALTH</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <TechPrereq>TECH_NEVER</TechPrereq>
+            <Button>Art/Interface/Buttons/Promotions/Stealth.dds</Button>
+            <iMinLevel>-1</iMinLevel>
+        </PromotionInfo>
+    	<PromotionInfo>
+            <Type>PROMOTION_CHANNELING1</Type>
+            <Description>Channeling I</Description>
+            <Help></Help>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <Button>Art/Interface/Buttons/Promotions/Channeling1.dds</Button>
+            <iBetterDefenderThanPercent>-25</iBetterDefenderThanPercent>
+            <iMinLevel>-1</iMinLevel>
+            <iSpellCasterXP>20</iSpellCasterXP>
+        </PromotionInfo>
+        <PromotionInfo>
+            <Type>PROMOTION_CHANNELING2</Type>
+            <Description>Channeling II</Description>
+            <Help></Help>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <Button>Art/Interface/Buttons/Promotions/Channeling2.dds</Button>
+            <iBetterDefenderThanPercent>-25</iBetterDefenderThanPercent>
+            <iMinLevel>-1</iMinLevel>
+            <iSpellCasterXP>30</iSpellCasterXP>
+        </PromotionInfo>
+        <PromotionInfo>
+            <Type>PROMOTION_CHANNELING3</Type>
+            <Description>Channeling III</Description>
+            <Help></Help>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <Button>Art/Interface/Buttons/Promotions/Channeling3.dds</Button>
+            <iBetterDefenderThanPercent>-25</iBetterDefenderThanPercent>
+            <iMinLevel>-1</iMinLevel>
+            <iSpellCasterXP>40</iSpellCasterXP>
+        </PromotionInfo>
+        <PromotionInfo>
+            <Type>PROMOTION_HEAL1</Type>
+            <Description>TXT_KEY_PROMOTION_HEAL1</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>            
+            <TechPrereq>TECH_NEVER</TechPrereq>
             <UnitCombats>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
-            <Button>,Art/Interface/Buttons/Promotions/Amphibious.dds,Art/Interface/Buttons/Promotions_Atlas.dds,3,1</Button>
-            <bMutation>1</bMutation>
+            <Button>Art/Interface/Buttons/Spells/Heal.dds</Button>
+            <iAIWeight>50</iAIWeight>
+            <iMinLevel>-1</iMinLevel>
         </PromotionInfo>
         <PromotionInfo>
+            <Type>PROMOTION_HEAL2</Type>
+            <Description>TXT_KEY_PROMOTION_HEAL2</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <TechPrereq>TECH_NEVER</TechPrereq>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Spells/Heal.dds</Button>
+            <iAIWeight>50</iAIWeight>
+            <iMinLevel>-1</iMinLevel>
+        </PromotionInfo>
+        <PromotionInfo>
+            <Type>PROMOTION_HEAL3</Type>
+            <Description>TXT_KEY_PROMOTION_HEAL3</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <TechPrereq>TECH_NEVER</TechPrereq>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Spells/Heal.dds</Button>
+            <iAIWeight>50</iAIWeight>
+            <iMinLevel>-1</iMinLevel>
+        </PromotionInfo>
+    	<PromotionInfo>
             <Type>PROMOTION_BARRAGE1</Type>
             <Description>Barrage I</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
@@ -86,64 +163,7 @@
             </UnitCombats>
             <Button>,Art/Interface/Buttons/Promotions/Barrage3.dds,Art/Interface/Buttons/Promotions_Atlas.dds,6,1</Button>
         </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_BLITZ</Type>
-            <Description>Blitz</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_COMBAT3</PromotionPrereq>
-            <bBlitz>1</bBlitz>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>,Art/Interface/Buttons/Promotions/Blitz.dds,Art/Interface/Buttons/Promotions_Atlas.dds,8,1</Button>
-            <bMutation>1</bMutation>
-        </PromotionInfo>
-        
-        <PromotionInfo>
-            <Type>PROMOTION_BRONZE_WEAPONS</Type>
-            <Description>TXT_KEY_PROMOTION_BRONZE_WEAPONS</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <Button>,Art/Interface/Buttons/WorldBuilder/Copper.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,5,12</Button>
-            <iExtraCombatStr>1</iExtraCombatStr>
-            <iExtraCombatDefense>1</iExtraCombatDefense>
-            <iMinLevel>-1</iMinLevel>
-            <BonusPrereq>BONUS_COPPER</BonusPrereq>
-        </PromotionInfo>
-        
-        <PromotionInfo>
-            <Type>PROMOTION_GUNPOWDER_WEAPONS</Type>
-            <Description>TXT_KEY_PROMOTION_GUNPOWDER_WEAPONS</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <Button>,Art/Interface/Buttons/WorldBuilder/Coal.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,4,12</Button>
-            <TechPrereq>TECH_ARCHERY3</TechPrereq>
-            <iExtraCombatStr>2</iExtraCombatStr>
-            <iExtraCombatDefense>2</iExtraCombatDefense>
-            <iMinLevel>-1</iMinLevel>
-            <UnitCombats>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-					<bUnitCombat>1</bUnitCombat>
-				</UnitCombat>
-			</UnitCombats>
-			<BonusPrereq>BONUS_GUNPOWDER</BonusPrereq>
-        </PromotionInfo>
-        
-        <PromotionInfo>
+    	<PromotionInfo>
             <Type>PROMOTION_HORSE_WEAPONS</Type>
             <Description>TXT_KEY_PROMOTION_HORSE_WEAPONS</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
@@ -152,7 +172,6 @@
             <iExtraCombatStr>1</iExtraCombatStr>
             <iExtraCombatDefense>1</iExtraCombatDefense>
             <iMovesChange>1</iMovesChange>
-            <iMinLevel>-1</iMinLevel>
             <UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
@@ -161,159 +180,48 @@
 			</UnitCombats>
 			<BonusPrereq>BONUS_HORSE</BonusPrereq>
         </PromotionInfo>
-        
-        <PromotionInfo>
-            <Type>PROMOTION_BUCCANEERS</Type>
-            <Description>TXT_KEY_PROMOTION_BUCCANEERS</Description>
+    	<PromotionInfo>
+            <Type>PROMOTION_BRONZE_WEAPONS</Type>
+            <Description>TXT_KEY_PROMOTION_BRONZE_WEAPONS</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_NEVER</TechPrereq>
-            <iMovesChange>-1</iMovesChange>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Buccaneers.dds</Button>
+            <Button>,Art/Interface/Buttons/WorldBuilder/Copper.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,5,12</Button>
             <iExtraCombatStr>1</iExtraCombatStr>
             <iExtraCombatDefense>1</iExtraCombatDefense>
-            <iMinLevel>-1</iMinLevel>
+            <BonusPrereq>BONUS_COPPER</BonusPrereq>
         </PromotionInfo>
         <PromotionInfo>
-            <Type>PROMOTION_CHANNELING1</Type>
-            <Description>Channeling I</Description>
-            <Help></Help>
+            <Type>PROMOTION_IRON_WEAPONS</Type>
+            <Description>TXT_KEY_PROMOTION_IRON_WEAPONS</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
-            <Button>Art/Interface/Buttons/Promotions/Channeling1.dds</Button>
-            <iBetterDefenderThanPercent>-25</iBetterDefenderThanPercent>
-            <iMinLevel>-1</iMinLevel>
-            <iSpellCasterXP>20</iSpellCasterXP>
-        </PromotionInfo>
+            <TechPrereq>TECH_NEVER</TechPrereq>
+            <Button>,Art/Interface/Buttons/WorldBuilder/Iron.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,6,13</Button>
+            <iExtraCombatStr>2</iExtraCombatStr>
+            <iExtraCombatDefense>2</iExtraCombatDefense>       
+        </PromotionInfo>  
         <PromotionInfo>
-            <Type>PROMOTION_CHANNELING2</Type>
-            <Description>Channeling II</Description>
-            <Help></Help>
+            <Type>PROMOTION_MITHRIL_WEAPONS</Type>
+            <Description>TXT_KEY_PROMOTION_MITHRIL_WEAPONS</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
-            <Button>Art/Interface/Buttons/Promotions/Channeling2.dds</Button>
-            <iBetterDefenderThanPercent>-25</iBetterDefenderThanPercent>
-            <iMinLevel>-1</iMinLevel>
-            <iSpellCasterXP>30</iSpellCasterXP>
-        </PromotionInfo>
+            <TechPrereq>TECH_NEVER</TechPrereq>
+            <Button>,Art/Interface/Buttons/WorldBuilder/Silver.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,4,14</Button>
+            <iExtraCombatStr>3</iExtraCombatStr>
+            <iExtraCombatDefense>3</iExtraCombatDefense>
+        </PromotionInfo>     
         <PromotionInfo>
-            <Type>PROMOTION_CHANNELING3</Type>
-            <Description>Channeling III</Description>
-            <Help></Help>
+            <Type>PROMOTION_GUNPOWDER_WEAPONS</Type>
+            <Description>TXT_KEY_PROMOTION_GUNPOWDER_WEAPONS</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
-            <Button>Art/Interface/Buttons/Promotions/Channeling3.dds</Button>
-            <iBetterDefenderThanPercent>-25</iBetterDefenderThanPercent>
-            <iMinLevel>-1</iMinLevel>
-            <iSpellCasterXP>40</iSpellCasterXP>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_CITY_GARRISON1</Type>
-            <Description>Garrison I</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_FEUDAL_AGE</TechPrereq>
-            <iCityDefense>30</iCityDefense>
+            <Button>,Art/Interface/Buttons/WorldBuilder/Coal.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,4,12</Button>
+            <TechPrereq>TECH_ARCHERY3</TechPrereq>
+            <iExtraCombatStr>2</iExtraCombatStr>
+            <iExtraCombatDefense>2</iExtraCombatDefense>
             <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>                
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>,Art/Interface/Buttons/Promotions/CityGarrison1.dds,Art/Interface/Buttons/Promotions_Atlas.dds,2,2</Button>
-            <PromotionNextLevel>PROMOTION_CITY_GARRISON2</PromotionNextLevel>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_CITY_GARRISON2</Type>
-            <Description>Garrison II</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_CITY_GARRISON1</PromotionPrereq>            
-            <TechPrereq>TECH_CASTLE_AGE</TechPrereq>
-            <iCityDefense>30</iCityDefense>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>                
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>,Art/Interface/Buttons/Promotions/CityGarrison2.dds,Art/Interface/Buttons/Promotions_Atlas.dds,3,2</Button>
-            <PromotionNextLevel>PROMOTION_CITY_GARRISON3</PromotionNextLevel>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_CITY_GARRISON3</Type>
-            <Description>Garrison III</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_CITY_GARRISON2</PromotionPrereq>            
-            <TechPrereq>TECH_IMPERIAL_AGE</TechPrereq>
-            <iCityDefense>30</iCityDefense>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>                
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>,Art/Interface/Buttons/Promotions/CityGarrison3.dds,Art/Interface/Buttons/Promotions_Atlas.dds,4,2</Button>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_CITY_RAIDER1</Type>
-            <Description>City Raider I</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_FEUDAL_AGE</TechPrereq>
-            <iCityAttack>30</iCityAttack>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>,Art/Interface/Buttons/Promotions/CityRaider1.dds,Art/Interface/Buttons/Promotions_Atlas.dds,5,2</Button>
-            <PromotionNextLevel>PROMOTION_CITY_RAIDER2</PromotionNextLevel>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_CITY_RAIDER2</Type>
-            <Description>City Raider II</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_CITY_RAIDER1</PromotionPrereq>            
-            <TechPrereq>TECH_CASTLE_AGE</TechPrereq>
-            <iCityAttack>30</iCityAttack>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>,Art/Interface/Buttons/Promotions/CityRaider2.dds,Art/Interface/Buttons/Promotions_Atlas.dds,6,2</Button>
-            <PromotionNextLevel>PROMOTION_CITY_RAIDER3</PromotionNextLevel>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_CITY_RAIDER3</Type>
-            <Description>City Raider III</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_CITY_RAIDER2</PromotionPrereq>  
-            <TechPrereq>TECH_IMPERIAL_AGE</TechPrereq>
-            <iCityAttack>30</iCityAttack>
-            <UnitCombatMods>
-            </UnitCombatMods>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>,Art/Interface/Buttons/Promotions/CityRaider3.dds,Art/Interface/Buttons/Promotions_Atlas.dds,7,2</Button>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+			</UnitCombats>
+			<BonusPrereq>BONUS_GUNPOWDER</BonusPrereq>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_COMBAT1</Type>
@@ -500,129 +408,6 @@
             <iSpellDamageModify>0</iSpellDamageModify>
         </PromotionInfo>
         <PromotionInfo>
-            <Type>PROMOTION_COMMANDO</Type>
-            <Description>Commando</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_COMBAT2</PromotionPrereq>
-            <bEnemyRoute>1</bEnemyRoute>
-            <iChanceFirstStrikesChange>1</iChanceFirstStrikesChange>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>,Art/Interface/Buttons/Promotions/Commando.dds,Art/Interface/Buttons/Promotions_Atlas.dds,1,3</Button>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_COVER</Type>
-            <Description>Cover I</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_COMBAT1</PromotionPrereq>
-            <UnitCombatMods>
-                <UnitCombatMod>
-                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-                    <iUnitCombatMod>25</iUnitCombatMod>
-                </UnitCombatMod>
-            </UnitCombatMods>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>,Art/Interface/Buttons/Promotions/Cover.dds,Art/Interface/Buttons/Promotions_Atlas.dds,2,5</Button>
-            <PromotionNextLevel>PROMOTION_COVER2</PromotionNextLevel>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_COVER2</Type>
-            <Description>Cover II</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_COVER</PromotionPrereq>
-            <UnitCombatMods>
-                <UnitCombatMod>
-                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-                    <iUnitCombatMod>30</iUnitCombatMod>
-                </UnitCombatMod>
-            </UnitCombatMods>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>,Art/Interface/Buttons/Promotions/Cover.dds,Art/Interface/Buttons/Promotions_Atlas.dds,2,5</Button>
-            <PromotionNextLevel>PROMOTION_COVER3</PromotionNextLevel>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_COVER3</Type>
-            <Description>Cover III</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_COVER2</PromotionPrereq>
-            <UnitCombatMods>
-                <UnitCombatMod>
-                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-                    <iUnitCombatMod>35</iUnitCombatMod>
-                </UnitCombatMod>
-            </UnitCombatMods>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>,Art/Interface/Buttons/Promotions/Cover.dds,Art/Interface/Buttons/Promotions_Atlas.dds,2,5</Button>
-        </PromotionInfo>
-        
-        <PromotionInfo>
             <Type>PROMOTION_DRILL1</Type>
             <Description>Drill I</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
@@ -749,463 +534,110 @@
             <Button>,Art/Interface/Buttons/Promotions/Drill4.dds,Art/Interface/Buttons/Promotions_Atlas.dds,5,3</Button>
         </PromotionInfo>
         <PromotionInfo>
-            <Type>PROMOTION_EXPANDED_HULL</Type>
-            <Description>TXT_KEY_PROMOTION_EXPANDED_HULL</Description>
+            <Type>PROMOTION_CITY_RAIDER1</Type>
+            <Description>City Raider I</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
-            <iCargoChange>1</iCargoChange>
+            <TechPrereq>TECH_FEUDAL_AGE</TechPrereq>
+            <iCityAttack>30</iCityAttack>
             <UnitCombats>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Expandedhull.dds</Button>
+            <Button>,Art/Interface/Buttons/Promotions/CityRaider1.dds,Art/Interface/Buttons/Promotions_Atlas.dds,5,2</Button>
+            <PromotionNextLevel>PROMOTION_CITY_RAIDER2</PromotionNextLevel>
         </PromotionInfo>
         <PromotionInfo>
-            <Type>PROMOTION_FLANKING1</Type>
-            <Description>Flanking I</Description>
+            <Type>PROMOTION_CITY_RAIDER2</Type>
+            <Description>City Raider II</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
-            <iWithdrawalChange>15</iWithdrawalChange>
+            <PromotionPrereq>PROMOTION_CITY_RAIDER1</PromotionPrereq>            
+            <TechPrereq>TECH_CASTLE_AGE</TechPrereq>
+            <iCityAttack>30</iCityAttack>
             <UnitCombats>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
-            <Button>,Art/Interface/Buttons/Promotions/Flanking1.dds,Art/Interface/Buttons/Promotions_Atlas.dds,6,3</Button>
-            <PromotionNextLevel>PROMOTION_FLANKING2</PromotionNextLevel>
+            <Button>,Art/Interface/Buttons/Promotions/CityRaider2.dds,Art/Interface/Buttons/Promotions_Atlas.dds,6,2</Button>
+            <PromotionNextLevel>PROMOTION_CITY_RAIDER3</PromotionNextLevel>
         </PromotionInfo>
         <PromotionInfo>
-            <Type>PROMOTION_FLANKING2</Type>
-            <Description>Flanking II</Description>
+            <Type>PROMOTION_CITY_RAIDER3</Type>
+            <Description>City Raider III</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_FLANKING1</PromotionPrereq>
-            <iWithdrawalChange>20</iWithdrawalChange>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Flanking2.dds</Button>
-            <PromotionNextLevel>PROMOTION_FLANKING3</PromotionNextLevel>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_FLANKING3</Type>
-            <Description>Flanking III</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_FLANKING2</PromotionPrereq>
-            <iWithdrawalChange>25</iWithdrawalChange>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Flanking3.dds</Button>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_FLYING</Type>
-            <Description>TXT_KEY_PROMOTION_FLYING</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_NEVER</TechPrereq>
-            <bAmphib>1</bAmphib>
-            <bRiver>1</bRiver>
-            <iMovesChange>1</iMovesChange>
-            <Button>Art/Interface/Buttons/Promotions/Flying.dds</Button>
-            <bFlying>1</bFlying>
-            <iMinLevel>-1</iMinLevel>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_FORMATION</Type>
-            <Description>Formation I</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_COMBAT1</PromotionPrereq>
+            <PromotionPrereq>PROMOTION_CITY_RAIDER2</PromotionPrereq>  
+            <TechPrereq>TECH_IMPERIAL_AGE</TechPrereq>
+            <iCityAttack>30</iCityAttack>
             <UnitCombatMods>
-                <UnitCombatMod>
-                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-                    <iUnitCombatMod>25</iUnitCombatMod>
-                </UnitCombatMod>
             </UnitCombatMods>
             <UnitCombats>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
             </UnitCombats>
-            <Button>,Art/Interface/Buttons/Promotions/Formation.dds,Art/Interface/Buttons/Promotions_Atlas.dds,1,2</Button>
-            <PromotionNextLevel>PROMOTION_FORMATION2</PromotionNextLevel>
+            <Button>,Art/Interface/Buttons/Promotions/CityRaider3.dds,Art/Interface/Buttons/Promotions_Atlas.dds,7,2</Button>
         </PromotionInfo>
         <PromotionInfo>
-            <Type>PROMOTION_FORMATION2</Type>
-            <Description>Formation II</Description>
+            <Type>PROMOTION_CITY_GARRISON1</Type>
+            <Description>Garrison I</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_FORMATION</PromotionPrereq>
-            <UnitCombatMods>
-                <UnitCombatMod>
-                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-                    <iUnitCombatMod>30</iUnitCombatMod>
-                </UnitCombatMod>
-            </UnitCombatMods>
+            <TechPrereq>TECH_FEUDAL_AGE</TechPrereq>
+            <iCityDefense>30</iCityDefense>
             <UnitCombats>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
+                </UnitCombat>                
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
             </UnitCombats>
-            <Button>,Art/Interface/Buttons/Promotions/Formation.dds,Art/Interface/Buttons/Promotions_Atlas.dds,1,2</Button>
-            <PromotionNextLevel>PROMOTION_FORMATION3</PromotionNextLevel>
+            <Button>,Art/Interface/Buttons/Promotions/CityGarrison1.dds,Art/Interface/Buttons/Promotions_Atlas.dds,2,2</Button>
+            <PromotionNextLevel>PROMOTION_CITY_GARRISON2</PromotionNextLevel>
         </PromotionInfo>
         <PromotionInfo>
-            <Type>PROMOTION_FORMATION3</Type>
-            <Description>Formation III</Description>
+            <Type>PROMOTION_CITY_GARRISON2</Type>
+            <Description>Garrison II</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_FORMATION2</PromotionPrereq>
-            <UnitCombatMods>
-                <UnitCombatMod>
-                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-                    <iUnitCombatMod>35</iUnitCombatMod>
-                </UnitCombatMod>
-            </UnitCombatMods>
+            <PromotionPrereq>PROMOTION_CITY_GARRISON1</PromotionPrereq>            
+            <TechPrereq>TECH_CASTLE_AGE</TechPrereq>
+            <iCityDefense>30</iCityDefense>
             <UnitCombats>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>,Art/Interface/Buttons/Promotions/Formation.dds,Art/Interface/Buttons/Promotions_Atlas.dds,1,2</Button>
-        </PromotionInfo>        
-        <PromotionInfo>
-            <Type>PROMOTION_GUARDSMAN</Type>
-            <Description>Guardsman</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_COMBAT4</PromotionPrereq>
-            <UnitCombats>
+                </UnitCombat>                
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Guardsman.dds</Button>
-            <bTargetWeakestUnitCounter>1</bTargetWeakestUnitCounter>
-            <iBetterDefenderThanPercent>100</iBetterDefenderThanPercent>
+            <Button>,Art/Interface/Buttons/Promotions/CityGarrison2.dds,Art/Interface/Buttons/Promotions_Atlas.dds,3,2</Button>
+            <PromotionNextLevel>PROMOTION_CITY_GARRISON3</PromotionNextLevel>
         </PromotionInfo>
         <PromotionInfo>
-            <Type>PROMOTION_HIDDEN</Type>
-            <Description>TXT_KEY_PROMOTION_HIDDEN</Description>
+            <Type>PROMOTION_CITY_GARRISON3</Type>
+            <Description>Garrison III</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_NEVER</TechPrereq>
-            <iFirstStrikesChange>1</iFirstStrikesChange>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Hidden.dds</Button>
-            <bInvisible>1</bInvisible>
-            <bRemovedByCasting>1</bRemovedByCasting>
-            <bRemovedByCombat>1</bRemovedByCombat>
-            <iAIWeight>50</iAIWeight>
-            <iMinLevel>-1</iMinLevel>
-            <UnitArtStyleType>UNIT_ARTSTYLE_ILLUSION</UnitArtStyleType>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_IRON_WEAPONS</Type>
-            <Description>TXT_KEY_PROMOTION_IRON_WEAPONS</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_NEVER</TechPrereq>
-            <Button>,Art/Interface/Buttons/WorldBuilder/Iron.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,6,13</Button>
-            <iExtraCombatStr>2</iExtraCombatStr>
-            <iExtraCombatDefense>2</iExtraCombatDefense>
-            <iMinLevel>-1</iMinLevel>          
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_LONGSHOREMEN</Type>
-            <Description>TXT_KEY_PROMOTION_LONGSHOREMEN</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_NEVER</TechPrereq>
-            <iMovesChange>1</iMovesChange>
-            <iCargoChange>-1</iCargoChange>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Longshoremen.dds</Button>
-            <iMinLevel>-1</iMinLevel>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_MARCH</Type>
-            <Description>TXT_KEY_PROMOTION_MARCH</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereqOr1>PROMOTION_COMBAT3</PromotionPrereqOr1>
-            <bAlwaysHeal>1</bAlwaysHeal>
-            <iEnemyHealChange>10</iEnemyHealChange>
-            <iNeutralHealChange>10</iNeutralHealChange>
-            <iFriendlyHealChange>10</iFriendlyHealChange>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>,Art/Interface/Buttons/Promotions/March.dds,Art/Interface/Buttons/Promotions_Atlas.dds,2,4</Button>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_MARKSMAN</Type>
-            <Description>Marksman</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_COMBAT4</PromotionPrereq>
-            <TechPrereq>NONE</TechPrereq>
+            <PromotionPrereq>PROMOTION_CITY_GARRISON2</PromotionPrereq>            
+            <TechPrereq>TECH_IMPERIAL_AGE</TechPrereq>
+            <iCityDefense>30</iCityDefense>
             <UnitCombats>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Marksman.dds</Button>
-            <bTargetWeakestUnit>1</bTargetWeakestUnit>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_MITHRIL_WEAPONS</Type>
-            <Description>TXT_KEY_PROMOTION_MITHRIL_WEAPONS</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_NEVER</TechPrereq>
-            <Button>,Art/Interface/Buttons/WorldBuilder/Silver.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,4,14</Button>
-            <iExtraCombatStr>3</iExtraCombatStr>
-            <iExtraCombatDefense>3</iExtraCombatDefense>
-            <iMinLevel>-1</iMinLevel>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_MOBILITY1</Type>
-            <Description>Mobility I</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_COMBAT1</PromotionPrereq>
-            <iMovesChange>1</iMovesChange>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
+                </UnitCombat>                
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
             </UnitCombats>
-            <Button>,Art/Interface/Buttons/Promotions/Mobility1.dds,Art/Interface/Buttons/Promotions_Atlas.dds,5,4</Button>
-            <bMutation>1</bMutation>
-            <PromotionNextLevel>PROMOTION_MOBILITY2</PromotionNextLevel>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_MOBILITY2</Type>
-            <Description>Mobility II</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_MOBILITY1</PromotionPrereq>
-            <iMovesChange>1</iMovesChange>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Mobility2.dds</Button>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_NAVIGATION1</Type>
-            <Description>TXT_KEY_PROMOTION_NAVIGATION1</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_COMBAT1</PromotionPrereq>
-            <iMovesChange>1</iMovesChange>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>,Art/Interface/Buttons/Promotions/Navigation1.dds,Art/Interface/Buttons/Promotions_Atlas.dds,7,4</Button>
-            <PromotionNextLevel>PROMOTION_NAVIGATION2</PromotionNextLevel>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_NAVIGATION2</Type>
-            <Description>TXT_KEY_PROMOTION_NAVIGATION2</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_NAVIGATION1</PromotionPrereq>
-            <iMovesChange>1</iMovesChange>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>,Art/Interface/Buttons/Promotions/Navigation2.dds,Art/Interface/Buttons/Promotions_Atlas.dds,8,4</Button>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_SENTRY</Type>
-            <Description>Sentry I</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_COMBAT2</PromotionPrereq>
-            <iVisibilityChange>1</iVisibilityChange>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Sentry1.dds</Button>
-            <bMutation>1</bMutation>
-            <PromotionNextLevel>PROMOTION_SENTRY2</PromotionNextLevel>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_SENTRY2</Type>
-            <Description>Sentry II</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_SENTRY</PromotionPrereq>
-            <iVisibilityChange>1</iVisibilityChange>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Sentry2.dds</Button>
+            <Button>,Art/Interface/Buttons/Promotions/CityGarrison3.dds,Art/Interface/Buttons/Promotions_Atlas.dds,4,2</Button>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_SHOCK</Type>
@@ -1303,40 +735,194 @@
             <Button>Art/Interface/Buttons/Promotions/Shock.dds</Button>
         </PromotionInfo>
         <PromotionInfo>
-            <Type>PROMOTION_SKELETON_CREW</Type>
-            <Description>TXT_KEY_PROMOTION_SKELETON_CREW</Description>
+            <Type>PROMOTION_FORMATION</Type>
+            <Description>Formation I</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_NEVER</TechPrereq>
-            <iCargoChange>1</iCargoChange>
+            <PromotionPrereq>PROMOTION_COMBAT1</PromotionPrereq>
+            <UnitCombatMods>
+                <UnitCombatMod>
+                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+                    <iUnitCombatMod>25</iUnitCombatMod>
+                </UnitCombatMod>
+            </UnitCombatMods>
             <UnitCombats>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Skeletoncrew.dds</Button>
-            <iExtraCombatStr>-1</iExtraCombatStr>
-            <iExtraCombatDefense>-1</iExtraCombatDefense>
-            <iMinLevel>-1</iMinLevel>
-        </PromotionInfo>
-        
-        <PromotionInfo>
-            <Type>PROMOTION_STARTING_SETTLER</Type>
-            <Description>TXT_KEY_PROMOTION_STARTING_SETTLER</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_NEVER</TechPrereq>
-            <iVisibilityChange>3</iVisibilityChange>
-            <iMovesChange>2</iMovesChange>
-            <Button>Art/Interface/Buttons/Units/Settler.dds</Button>
-            <iMinLevel>-1</iMinLevel>
+            <Button>,Art/Interface/Buttons/Promotions/Formation.dds,Art/Interface/Buttons/Promotions_Atlas.dds,1,2</Button>
+            <PromotionNextLevel>PROMOTION_FORMATION2</PromotionNextLevel>
         </PromotionInfo>
         <PromotionInfo>
-            <Type>PROMOTION_STEALTH</Type>
-            <Description>TXT_KEY_PROMOTION_STEALTH</Description>
+            <Type>PROMOTION_FORMATION2</Type>
+            <Description>Formation II</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_NEVER</TechPrereq>
-            <Button>Art/Interface/Buttons/Promotions/Stealth.dds</Button>
-            <iMinLevel>-1</iMinLevel>
+            <PromotionPrereq>PROMOTION_FORMATION</PromotionPrereq>
+            <UnitCombatMods>
+                <UnitCombatMod>
+                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+                    <iUnitCombatMod>30</iUnitCombatMod>
+                </UnitCombatMod>
+            </UnitCombatMods>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>,Art/Interface/Buttons/Promotions/Formation.dds,Art/Interface/Buttons/Promotions_Atlas.dds,1,2</Button>
+            <PromotionNextLevel>PROMOTION_FORMATION3</PromotionNextLevel>
+        </PromotionInfo>
+        <PromotionInfo>
+            <Type>PROMOTION_FORMATION3</Type>
+            <Description>Formation III</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PromotionPrereq>PROMOTION_FORMATION2</PromotionPrereq>
+            <UnitCombatMods>
+                <UnitCombatMod>
+                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+                    <iUnitCombatMod>35</iUnitCombatMod>
+                </UnitCombatMod>
+            </UnitCombatMods>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>,Art/Interface/Buttons/Promotions/Formation.dds,Art/Interface/Buttons/Promotions_Atlas.dds,1,2</Button>
+        </PromotionInfo>     
+        <PromotionInfo>
+            <Type>PROMOTION_COVER</Type>
+            <Description>Cover I</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PromotionPrereq>PROMOTION_COMBAT1</PromotionPrereq>
+            <UnitCombatMods>
+                <UnitCombatMod>
+                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+                    <iUnitCombatMod>25</iUnitCombatMod>
+                </UnitCombatMod>
+            </UnitCombatMods>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>,Art/Interface/Buttons/Promotions/Cover.dds,Art/Interface/Buttons/Promotions_Atlas.dds,2,5</Button>
+            <PromotionNextLevel>PROMOTION_COVER2</PromotionNextLevel>
+        </PromotionInfo>
+        <PromotionInfo>
+            <Type>PROMOTION_COVER2</Type>
+            <Description>Cover II</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PromotionPrereq>PROMOTION_COVER</PromotionPrereq>
+            <UnitCombatMods>
+                <UnitCombatMod>
+                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+                    <iUnitCombatMod>30</iUnitCombatMod>
+                </UnitCombatMod>
+            </UnitCombatMods>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>,Art/Interface/Buttons/Promotions/Cover.dds,Art/Interface/Buttons/Promotions_Atlas.dds,2,5</Button>
+            <PromotionNextLevel>PROMOTION_COVER3</PromotionNextLevel>
+        </PromotionInfo>
+        <PromotionInfo>
+            <Type>PROMOTION_COVER3</Type>
+            <Description>Cover III</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PromotionPrereq>PROMOTION_COVER2</PromotionPrereq>
+            <UnitCombatMods>
+                <UnitCombatMod>
+                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+                    <iUnitCombatMod>35</iUnitCombatMod>
+                </UnitCombatMod>
+            </UnitCombatMods>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>,Art/Interface/Buttons/Promotions/Cover.dds,Art/Interface/Buttons/Promotions_Atlas.dds,2,5</Button>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_WOODSMAN1</Type>
@@ -1467,9 +1053,454 @@
             </UnitCombats>
             <Button>,Art/Interface/Buttons/Promotions/Guerilla2.dds,Art/Interface/Buttons/Promotions_Atlas.dds,5,5</Button>
         </PromotionInfo>
-        
-        
-        
+        <PromotionInfo>
+            <Type>PROMOTION_MOBILITY1</Type>
+            <Description>Mobility I</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PromotionPrereq>PROMOTION_COMBAT1</PromotionPrereq>
+            <iMovesChange>1</iMovesChange>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>,Art/Interface/Buttons/Promotions/Mobility1.dds,Art/Interface/Buttons/Promotions_Atlas.dds,5,4</Button>
+            <bMutation>1</bMutation>
+            <PromotionNextLevel>PROMOTION_MOBILITY2</PromotionNextLevel>
+        </PromotionInfo>
+        <PromotionInfo>
+            <Type>PROMOTION_MOBILITY2</Type>
+            <Description>Mobility II</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PromotionPrereq>PROMOTION_MOBILITY1</PromotionPrereq>
+            <iMovesChange>1</iMovesChange>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Promotions/Mobility2.dds</Button>
+        </PromotionInfo>
+        <PromotionInfo>
+            <Type>PROMOTION_FLANKING1</Type>
+            <Description>Flanking I</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <iWithdrawalChange>15</iWithdrawalChange>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>,Art/Interface/Buttons/Promotions/Flanking1.dds,Art/Interface/Buttons/Promotions_Atlas.dds,6,3</Button>
+            <PromotionNextLevel>PROMOTION_FLANKING2</PromotionNextLevel>
+        </PromotionInfo>
+        <PromotionInfo>
+            <Type>PROMOTION_FLANKING2</Type>
+            <Description>Flanking II</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PromotionPrereq>PROMOTION_FLANKING1</PromotionPrereq>
+            <iWithdrawalChange>20</iWithdrawalChange>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Promotions/Flanking2.dds</Button>
+            <PromotionNextLevel>PROMOTION_FLANKING3</PromotionNextLevel>
+        </PromotionInfo>
+        <PromotionInfo>
+            <Type>PROMOTION_FLANKING3</Type>
+            <Description>Flanking III</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PromotionPrereq>PROMOTION_FLANKING2</PromotionPrereq>
+            <iWithdrawalChange>25</iWithdrawalChange>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Promotions/Flanking3.dds</Button>
+        </PromotionInfo>
+        <PromotionInfo>
+            <Type>PROMOTION_COMMANDO</Type>
+            <Description>Commando</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PromotionPrereq>PROMOTION_COMBAT2</PromotionPrereq>
+            <bEnemyRoute>1</bEnemyRoute>
+            <iChanceFirstStrikesChange>1</iChanceFirstStrikesChange>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>,Art/Interface/Buttons/Promotions/Commando.dds,Art/Interface/Buttons/Promotions_Atlas.dds,1,3</Button>
+        </PromotionInfo>
+        <PromotionInfo>
+            <Type>PROMOTION_AMPHIBIOUS</Type>
+            <Description>Amphibious</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PromotionPrereq>PROMOTION_COMBAT2</PromotionPrereq>
+            <bAmphib>1</bAmphib>
+            <bRiver>1</bRiver>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>,Art/Interface/Buttons/Promotions/Amphibious.dds,Art/Interface/Buttons/Promotions_Atlas.dds,3,1</Button>
+            <bMutation>1</bMutation>
+        </PromotionInfo>
+        <PromotionInfo>
+            <Type>PROMOTION_MARCH</Type>
+            <Description>TXT_KEY_PROMOTION_MARCH</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PromotionPrereqOr1>PROMOTION_COMBAT3</PromotionPrereqOr1>
+            <bAlwaysHeal>1</bAlwaysHeal>
+            <iEnemyHealChange>10</iEnemyHealChange>
+            <iNeutralHealChange>10</iNeutralHealChange>
+            <iFriendlyHealChange>10</iFriendlyHealChange>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>,Art/Interface/Buttons/Promotions/March.dds,Art/Interface/Buttons/Promotions_Atlas.dds,2,4</Button>
+        </PromotionInfo>
+        <PromotionInfo>
+            <Type>PROMOTION_BLITZ</Type>
+            <Description>Blitz</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PromotionPrereq>PROMOTION_COMBAT3</PromotionPrereq>
+            <bBlitz>1</bBlitz>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>,Art/Interface/Buttons/Promotions/Blitz.dds,Art/Interface/Buttons/Promotions_Atlas.dds,8,1</Button>
+            <bMutation>1</bMutation>
+        </PromotionInfo>
+        <PromotionInfo>
+            <Type>PROMOTION_SENTRY</Type>
+            <Description>Sentry I</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PromotionPrereq>PROMOTION_COMBAT2</PromotionPrereq>
+            <iVisibilityChange>1</iVisibilityChange>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Promotions/Sentry1.dds</Button>
+            <bMutation>1</bMutation>
+            <PromotionNextLevel>PROMOTION_SENTRY2</PromotionNextLevel>
+        </PromotionInfo>
+        <PromotionInfo>
+            <Type>PROMOTION_SENTRY2</Type>
+            <Description>Sentry II</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PromotionPrereq>PROMOTION_SENTRY</PromotionPrereq>
+            <iVisibilityChange>1</iVisibilityChange>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Promotions/Sentry2.dds</Button>
+        </PromotionInfo>
+        <PromotionInfo>
+            <Type>PROMOTION_MARKSMAN</Type>
+            <Description>Marksman</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PromotionPrereq>PROMOTION_COMBAT4</PromotionPrereq>
+            <TechPrereq>NONE</TechPrereq>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Promotions/Marksman.dds</Button>
+            <bTargetWeakestUnit>1</bTargetWeakestUnit>
+        </PromotionInfo>
+        <PromotionInfo>
+            <Type>PROMOTION_GUARDSMAN</Type>
+            <Description>Guardsman</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PromotionPrereq>PROMOTION_COMBAT4</PromotionPrereq>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Promotions/Guardsman.dds</Button>
+            <bTargetWeakestUnitCounter>1</bTargetWeakestUnitCounter>
+            <iBetterDefenderThanPercent>100</iBetterDefenderThanPercent>
+        </PromotionInfo>
+        <PromotionInfo>
+            <Type>PROMOTION_NAVIGATION1</Type>
+            <Description>TXT_KEY_PROMOTION_NAVIGATION1</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PromotionPrereq>PROMOTION_COMBAT1</PromotionPrereq>
+            <iMovesChange>1</iMovesChange>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>,Art/Interface/Buttons/Promotions/Navigation1.dds,Art/Interface/Buttons/Promotions_Atlas.dds,7,4</Button>
+            <PromotionNextLevel>PROMOTION_NAVIGATION2</PromotionNextLevel>
+        </PromotionInfo>
+        <PromotionInfo>
+            <Type>PROMOTION_NAVIGATION2</Type>
+            <Description>TXT_KEY_PROMOTION_NAVIGATION2</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PromotionPrereq>PROMOTION_NAVIGATION1</PromotionPrereq>
+            <iMovesChange>1</iMovesChange>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>,Art/Interface/Buttons/Promotions/Navigation2.dds,Art/Interface/Buttons/Promotions_Atlas.dds,8,4</Button>
+        </PromotionInfo>
+        <PromotionInfo>
+            <Type>PROMOTION_EXPANDED_HULL</Type>
+            <Description>TXT_KEY_PROMOTION_EXPANDED_HULL</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <iCargoChange>1</iCargoChange>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Promotions/Expandedhull.dds</Button>
+        </PromotionInfo>
+        <PromotionInfo>
+            <Type>PROMOTION_BUCCANEERS</Type>
+            <Description>TXT_KEY_PROMOTION_BUCCANEERS</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <TechPrereq>TECH_NEVER</TechPrereq>
+            <iMovesChange>-1</iMovesChange>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Promotions/Buccaneers.dds</Button>
+            <iExtraCombatStr>1</iExtraCombatStr>
+            <iExtraCombatDefense>1</iExtraCombatDefense>
+            <iMinLevel>-1</iMinLevel>
+        </PromotionInfo>
+        <PromotionInfo>
+            <Type>PROMOTION_LONGSHOREMEN</Type>
+            <Description>TXT_KEY_PROMOTION_LONGSHOREMEN</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <TechPrereq>TECH_NEVER</TechPrereq>
+            <iMovesChange>1</iMovesChange>
+            <iCargoChange>-1</iCargoChange>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Promotions/Longshoremen.dds</Button>
+            <iMinLevel>-1</iMinLevel>
+        </PromotionInfo>
+        <PromotionInfo>
+            <Type>PROMOTION_SKELETON_CREW</Type>
+            <Description>TXT_KEY_PROMOTION_SKELETON_CREW</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <TechPrereq>TECH_NEVER</TechPrereq>
+            <iCargoChange>1</iCargoChange>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Promotions/Skeletoncrew.dds</Button>
+            <iExtraCombatStr>-1</iExtraCombatStr>
+            <iExtraCombatDefense>-1</iExtraCombatDefense>
+            <iMinLevel>-1</iMinLevel>
+        </PromotionInfo>
+        <PromotionInfo>
+            <Type>PROMOTION_HIDDEN</Type>
+            <Description>TXT_KEY_PROMOTION_HIDDEN</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <TechPrereq>TECH_NEVER</TechPrereq>
+            <iFirstStrikesChange>1</iFirstStrikesChange>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Promotions/Hidden.dds</Button>
+            <bInvisible>1</bInvisible>
+            <bRemovedByCasting>1</bRemovedByCasting>
+            <bRemovedByCombat>1</bRemovedByCombat>
+            <iAIWeight>50</iAIWeight>
+            <iMinLevel>-1</iMinLevel>
+            <UnitArtStyleType>UNIT_ARTSTYLE_ILLUSION</UnitArtStyleType>
+        </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_HASTED</Type>
             <Description>TXT_KEY_PROMOTION_HASTED</Description>
@@ -1613,8 +1644,6 @@
             <iExpireChance>33</iExpireChance>
             <iMinLevel>-1</iMinLevel>
         </PromotionInfo>
-        
-                
         <PromotionInfo>
             <Type>PROMOTION_ENCHANTED_BLADE</Type>
             <Description>TXT_KEY_PROMOTION_ENCHANTED_BLADE</Description>
@@ -1732,9 +1761,7 @@
             <bInvisible>1</bInvisible>
             <iAIWeight>100</iAIWeight>
             <iMinLevel>-1</iMinLevel>
-        </PromotionInfo>        
-        
-        
+        </PromotionInfo>   
         <PromotionInfo>
             <Type>PROMOTION_FIERY_RAGE</Type>
             <Description>TXT_KEY_PROMOTION_FIERY_RAGE</Description>
@@ -1763,8 +1790,6 @@
             <bImmuneToMagic>1</bImmuneToMagic>
             <iMinLevel>-1</iMinLevel>
         </PromotionInfo>
-        
-        
         <PromotionInfo>
             <Type>PROMOTION_SLOW</Type>
             <Description>TXT_KEY_PROMOTION_SLOW</Description>
@@ -1932,58 +1957,9 @@
             <iExpireChance>0</iExpireChance>
             <iMinLevel>-1</iMinLevel>
         </PromotionInfo>
-        
-        
         <PromotionInfo>
-            <Type>PROMOTION_HEAL1</Type>
-            <Description>Heal I</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>            
-            <TechPrereq>TECH_NEVER</TechPrereq>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Spells/Heal.dds</Button>
-            <iAIWeight>50</iAIWeight>
-            <iMinLevel>-1</iMinLevel>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_HEAL2</Type>
-            <Description>Heal II</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_NEVER</TechPrereq>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Spells/Heal.dds</Button>
-            <iAIWeight>50</iAIWeight>
-            <iMinLevel>-1</iMinLevel>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_HEAL3</Type>
-            <Description>Heal III</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_NEVER</TechPrereq>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Spells/Heal.dds</Button>
-            <iAIWeight>50</iAIWeight>
-            <iMinLevel>-1</iMinLevel>
-        </PromotionInfo>
-        
-        
-        <PromotionInfo>
-            <Type>PROMOTION_AIRIA</Type>
-            <Description>TXT_KEY_PROMOTION_AIRIA</Description>
+            <Type>PROMOTION_CAST_HASTE</Type>
+            <Description>TXT_KEY_PROMOTION_CAST_HASTE</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_CHANNELING1</PromotionPrereq>
             <UnitCombats>
@@ -1997,8 +1973,8 @@
             <BonusPrereq>BONUS_MANA_AIR</BonusPrereq>
         </PromotionInfo>
         <PromotionInfo>
-            <Type>PROMOTION_AIRIB</Type>
-            <Description>TXT_KEY_PROMOTION_AIRIB</Description>
+            <Type>PROMOTION_CAST_BLUR</Type>
+            <Description>TXT_KEY_PROMOTION_CAST_BLUR</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_CHANNELING1</PromotionPrereq>
             <UnitCombats>
@@ -2012,8 +1988,8 @@
             <BonusPrereq>BONUS_MANA_AIR</BonusPrereq>
         </PromotionInfo>
         <PromotionInfo>
-            <Type>PROMOTION_AIRIIA</Type>
-            <Description>TXT_KEY_PROMOTION_AIRIIA</Description>
+            <Type>PROMOTION_CAST_TELEPORT</Type>
+            <Description>TXT_KEY_PROMOTION_CAST_TELEPORT</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_CHANNELING2</PromotionPrereq>
             <UnitCombats>
@@ -2027,8 +2003,8 @@
             <BonusPrereq>BONUS_MANA_AIR</BonusPrereq>
         </PromotionInfo>
         <PromotionInfo>
-            <Type>PROMOTION_AIRIIB</Type>
-            <Description>TXT_KEY_PROMOTION_AIRIIB</Description>
+            <Type>PROMOTION_CAST_THUNDERSTRIKE</Type>
+            <Description>TXT_KEY_PROMOTION_CAST_THUNDERSTRIKE</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_CHANNELING2</PromotionPrereq>
             <UnitCombats>
@@ -2057,8 +2033,8 @@
             <BonusPrereq>BONUS_MANA_AIR</BonusPrereq>
         </PromotionInfo>
         <PromotionInfo>
-            <Type>PROMOTION_AIRIIIB</Type>
-            <Description>TXT_KEY_PROMOTION_AIRIIIB</Description>
+            <Type>PROMOTION_CAST_FATIGUE</Type>
+            <Description>TXT_KEY_PROMOTION_CAST_FATIGUE</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_CHANNELING3</PromotionPrereq>
             <UnitCombats>
@@ -2071,9 +2047,52 @@
             <iAIWeight>50</iAIWeight>
             <BonusPrereq>BONUS_MANA_AIR</BonusPrereq>
         </PromotionInfo>
-        
-        
-		<PromotionInfo>
+        <PromotionInfo>
+            <Type>PROMOTION_CAST_BLOOM</Type>
+            <Description>TXT_KEY_PROMOTION_CAST_BLOOM</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PromotionPrereq>PROMOTION_CHANNELING1</PromotionPrereq>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Promotions/Earth1.dds</Button>
+            <iAIWeight>50</iAIWeight>
+            <BonusPrereq>BONUS_MANA_EARTH</BonusPrereq>
+        </PromotionInfo>
+        <PromotionInfo>
+            <Type>PROMOTION_CAST_ENCHANTED_BLADE</Type>
+            <Description>TXT_KEY_PROMOTION_CAST_ENCHANTED_BLADE</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PromotionPrereq>PROMOTION_CHANNELING1</PromotionPrereq>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Promotions/Earth1.dds</Button>
+            <iAIWeight>50</iAIWeight>
+            <BonusPrereq>BONUS_MANA_EARTH</BonusPrereq>
+        </PromotionInfo>
+        <PromotionInfo>
+            <Type>PROMOTION_CAST_TREETOP_DEFENCE</Type>
+            <Description>TXT_KEY_PROMOTION_CAST_TREETOP_DEFENCE</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PromotionPrereq>PROMOTION_CHANNELING1</PromotionPrereq>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Promotions/Earth1.dds</Button>
+            <iAIWeight>50</iAIWeight>
+            <BonusPrereq>BONUS_MANA_EARTH</BonusPrereq>
+        </PromotionInfo>
+        <PromotionInfo>
             <Type>PROMOTION_CAST_TERRAFORM</Type>
             <Description>TXT_KEY_PROMOTION_TERRAFORM</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
@@ -2087,57 +2106,10 @@
             <Button>Art/Interface/Buttons/Promotions/Earth2.dds</Button>
             <iAIWeight>50</iAIWeight>
             <BonusPrereq>BONUS_MANA_EARTH</BonusPrereq>
-        </PromotionInfo>        
-        
-        <PromotionInfo>
-            <Type>PROMOTION_EARTHIA</Type>
-            <Description>TXT_KEY_PROMOTION_EARTHIA</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_CHANNELING1</PromotionPrereq>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Earth1.dds</Button>
-            <iAIWeight>50</iAIWeight>
-            <BonusPrereq>BONUS_MANA_EARTH</BonusPrereq>
         </PromotionInfo>
         <PromotionInfo>
-            <Type>PROMOTION_EARTHIB</Type>
-            <Description>TXT_KEY_PROMOTION_EARTHIB</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_CHANNELING1</PromotionPrereq>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Earth1.dds</Button>
-            <iAIWeight>50</iAIWeight>
-            <BonusPrereq>BONUS_MANA_EARTH</BonusPrereq>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_EARTHIC</Type>
-            <Description>TXT_KEY_PROMOTION_EARTHIC</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_CHANNELING1</PromotionPrereq>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Earth1.dds</Button>
-            <iAIWeight>50</iAIWeight>
-            <BonusPrereq>BONUS_MANA_EARTH</BonusPrereq>
-        </PromotionInfo>
-
-        <PromotionInfo>
-            <Type>PROMOTION_EARTHIIB</Type>
-            <Description>TXT_KEY_PROMOTION_EARTHIIB</Description>
+            <Type>PROMOTION_CAST_DISPEL</Type>
+            <Description>TXT_KEY_PROMOTION_CAST_DISPEL</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_CHANNELING2</PromotionPrereq>
             <UnitCombats>
@@ -2151,8 +2123,8 @@
             <BonusPrereq>BONUS_MANA_EARTH</BonusPrereq>
         </PromotionInfo>
         <PromotionInfo>
-            <Type>PROMOTION_EARTHIIIA</Type>
-            <Description>TXT_KEY_PROMOTION_EARTHIIIA</Description>
+            <Type>PROMOTION_CAST_STONESKIN</Type>
+            <Description>TXT_KEY_PROMOTION_CAST_STONESKIN</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_CHANNELING3</PromotionPrereq>
             <UnitCombats>
@@ -2180,11 +2152,9 @@
             <iAIWeight>50</iAIWeight>
             <BonusPrereq>BONUS_MANA_EARTH</BonusPrereq>
         </PromotionInfo>
-        
-        
         <PromotionInfo>
-            <Type>PROMOTION_FIREIA</Type>
-            <Description>TXT_KEY_PROMOTION_FIREIA</Description>
+            <Type>PROMOTION_CAST_SCORCH</Type>
+            <Description>TXT_KEY_PROMOTION_CAST_SCORCH</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_CHANNELING1</PromotionPrereq>
             <UnitCombats>
@@ -2198,8 +2168,8 @@
             <BonusPrereq>BONUS_MANA_FIRE</BonusPrereq>
         </PromotionInfo>
         <PromotionInfo>
-            <Type>PROMOTION_FIREIB</Type>
-            <Description>TXT_KEY_PROMOTION_FIREIB</Description>
+            <Type>PROMOTION_CAST_BLINDING_LIGHT</Type>
+            <Description>TXT_KEY_PROMOTION_CAST_BLINDING_LIGHT</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_CHANNELING1</PromotionPrereq>
             <UnitCombats>
@@ -2213,8 +2183,8 @@
             <BonusPrereq>BONUS_MANA_FIRE</BonusPrereq>
         </PromotionInfo>
         <PromotionInfo>
-            <Type>PROMOTION_FIREIIA</Type>
-            <Description>TXT_KEY_PROMOTION_FIREIIA</Description>
+            <Type>PROMOTION_CAST_RING_OF_FLAMES</Type>
+            <Description>TXT_KEY_PROMOTION_CAST_RING_OF_FLAMES</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_CHANNELING2</PromotionPrereq>
             <UnitCombats>
@@ -2243,8 +2213,8 @@
             <BonusPrereq>BONUS_MANA_FIRE</BonusPrereq>
         </PromotionInfo>
         <PromotionInfo>
-            <Type>PROMOTION_FIREIIIA</Type>
-            <Description>TXT_KEY_PROMOTION_FIREIIIA</Description>
+            <Type>PROMOTION_CAST_FIREBALL</Type>
+            <Description>TXT_KEY_PROMOTION_CAST_FIREBALL</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_CHANNELING3</PromotionPrereq>
             <UnitCombats>
@@ -2258,8 +2228,8 @@
             <BonusPrereq>BONUS_MANA_FIRE</BonusPrereq>
         </PromotionInfo>
         <PromotionInfo>
-            <Type>PROMOTION_FIREIIIB</Type>
-            <Description>TXT_KEY_PROMOTION_FIREIIIB</Description>
+            <Type>PROMOTION_CAST_SHIELDING_FIRE</Type>
+            <Description>TXT_KEY_PROMOTION_CAST_SHIELDING_FIRE</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_CHANNELING3</PromotionPrereq>
             <UnitCombats>
@@ -2271,9 +2241,7 @@
             <Button>Art/Interface/Buttons/Promotions/Fire3.dds</Button>
             <iAIWeight>50</iAIWeight>
             <BonusPrereq>BONUS_MANA_FIRE</BonusPrereq>
-        </PromotionInfo>
-        
-        
+        </PromotionInfo>   
         <PromotionInfo>
             <Type>PROMOTION_CAST_SLOW</Type>
             <Description>TXT_KEY_PROMOTION_CAST_SLOW</Description>
