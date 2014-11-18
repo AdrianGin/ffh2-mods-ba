@@ -1727,6 +1727,7 @@
             </UnitCombats>                
             <Button>Art/Interface/Buttons/Promotions/Invisibility.dds</Button>
             <bDispellable>1</bDispellable>
+            <bRemovedByCasting>1</bRemovedByCasting>
             <bRemovedByCombat>1</bRemovedByCombat>            
             <bInvisible>1</bInvisible>
             <iAIWeight>100</iAIWeight>
@@ -1739,7 +1740,7 @@
             <Description>TXT_KEY_PROMOTION_FIERY_RAGE</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <TechPrereq>TECH_NEVER</TechPrereq>
-            <iCombatPercent>10</iCombatPercent>
+            <iCombatPercent>20</iCombatPercent>
             <Button>Art/Interface/Buttons/Promotions/CrownofBrillance.dds</Button>
             <bDispellable>1</bDispellable>
             <bRemovedByCombat>1</bRemovedByCombat>
@@ -1812,6 +1813,7 @@
                 </UnitCombat>
             </UnitCombats>
             <Button>Art/Interface/Buttons/Promotions/Slow.dds</Button>
+            <bDispellable>1</bDispellable>
             <iAIWeight>-50</iAIWeight>
             <iExpireChance>33</iExpireChance>
             <iMinLevel>-1</iMinLevel>

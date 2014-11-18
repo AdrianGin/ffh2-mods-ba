@@ -2,8 +2,6 @@ Reorder buildings - Bas
 Reorder promotions - Bas
 Hide promotions for spells once they all work - bas
 
-Implement water spells - Bas
-
 Create new combat class for elephant (use animal?)(maybe we can create an elephant class?)
 
 Implement "not all units die in combat" system
@@ -14,23 +12,21 @@ Remove fallout and forest_burnt from terrain features - Adrian "This this is not
 
 Need to allow Seige to have promotions
 
-
-***spells that need fixing***  -- Adrian
-
 Update promotion names
 
 
-Thunderstrike - selected tiles tiles should only target tiles with units // remove target unit from spell - needs to do 15% damage
 
+SPELL FIXES NEEDED  -- ADRIAN
 
+AIR SPELLS
+THUNDERSTRIKE - CLEAN UP TILE SELECT FOR SPELL
 
+FIRE SPELLS
+RING OF FLAMES - DEALS NO DAMAGE
 
-Fixed ready to test:
-Uplift renamed to Terraform
-
-Fireball (game crashes when cast)
-Ring of Flames - currently deals no damage to units! - needs to do more damage (15%)
-
-Uplift - implement
-SHIELDING_FIRE - IMPLEMENT
-
+WATER SPELLS
+SLOW - UNAVAILABLE TO BE CAST
+WATER WALKING - UNAVAILABLE TO BE CAST
+WEAK - UNAVAILABLE TO BE CAST
+SACRIFICE - WHEN CAST ALWAYS TARGETS MAGE AFTER WHICH IT BECOMES UNAVAILABLE TO BE CAST AGAIN / DURATION OF 2 TURNS AND UNIT DIES NEEDS TO BE IMPLEMENTED FOR THIS SPELL
+BANISH - UNAVAILABLE TO BE CAST / NEEDS THE MECHANIC IMPLEMENTED (TELEPORT SELECTED ENEMY AWAY)

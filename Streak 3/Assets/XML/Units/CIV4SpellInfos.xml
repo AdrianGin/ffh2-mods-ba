@@ -577,7 +577,7 @@
             <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
             <bHasCasted>1</bHasCasted>
             <iRange>0</iRange>
-            <iDamage>35</iDamage>
+            <iDamage>45</iDamage>
             <iDamageLimit>100</iDamageLimit>
             <DamageType>DAMAGE_FIRE</DamageType>
             <Effect>EFFECT_SPELL1</Effect>
