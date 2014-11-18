@@ -15480,12 +15480,14 @@ void CvUnit::castDamage(int spell)
 			{
 				if (!pLoopUnit->isResisted(this, spell))
 				{
-					pLoopUnit->doDamage((iDmg / 2) + GC.getGameINLINE().getSorenRandNum(iDmg, "doDamage"), iDmgLimit, this, iDmgType, true);
+					//pLoopUnit->doDamage((iDmg / 2) + GC.getGameINLINE().getSorenRandNum(iDmg, "doDamage"), iDmgLimit, this, iDmgType, true);
+					pLoopUnit->doDamage((iDmg) - (iDmg/4) + GC.getGameINLINE().getSorenRandNum( (iDmg/2) , "doDamage"), iDmgLimit, this, iDmgType, true);
 				}
 			}
 			else
 			{
-				pLoopUnit->doDamage((iDmg / 2) + GC.getGameINLINE().getSorenRandNum(iDmg, "doDamage"), iDmgLimit, this, iDmgType, true);
+				//pLoopUnit->doDamage((iDmg / 2) + GC.getGameINLINE().getSorenRandNum(iDmg, "doDamage"), iDmgLimit, this, iDmgType, true);
+				pLoopUnit->doDamage((iDmg) - (iDmg/4) + GC.getGameINLINE().getSorenRandNum( (iDmg/2) , "doDamage"), iDmgLimit, this, iDmgType, true);
 			}
 		}
 		return;
@@ -15532,12 +15534,14 @@ void CvUnit::castDamage(int spell)
                             {
                                 if (!pLoopUnit->isResisted(this, spell))
                                 {
-                                    pLoopUnit->doDamage((iDmg / 2) + GC.getGameINLINE().getSorenRandNum(iDmg, "doDamage"), iDmgLimit, this, iDmgType, true);
+                                    //pLoopUnit->doDamage((iDmg / 2) + GC.getGameINLINE().getSorenRandNum(iDmg, "doDamage"), iDmgLimit, this, iDmgType, true);
+									pLoopUnit->doDamage((iDmg) - (iDmg/4) + GC.getGameINLINE().getSorenRandNum( (iDmg/2) , "doDamage"), iDmgLimit, this, iDmgType, true);
                                 }
                             }
                             else
                             {
-                                pLoopUnit->doDamage((iDmg / 2) + GC.getGameINLINE().getSorenRandNum(iDmg, "doDamage"), iDmgLimit, this, iDmgType, true);
+								pLoopUnit->doDamage((iDmg) - (iDmg/4) + GC.getGameINLINE().getSorenRandNum( (iDmg/2) , "doDamage"), iDmgLimit, this, iDmgType, true);
+                                //pLoopUnit->doDamage((iDmg / 2) + GC.getGameINLINE().getSorenRandNum(iDmg, "doDamage"), iDmgLimit, this, iDmgType, true);
                             }
                         }
                     }
