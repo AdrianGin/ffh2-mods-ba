@@ -14717,7 +14717,25 @@ bool CvUnit::canAddPromotion(int spell)
                 CLLNode<IDInfo>* pUnitNode = pLoopPlot->headUnitNode();
                 while (pUnitNode != NULL)
                 {
-                    pLoopUnit = ::getUnit(pUnitNode->m_data);
+                    //Affect only a single unit if it is UnitSelect
+					if( GC.getSpellInfo((SpellTypes)spell).isUnitSelect() )
+					{
+						if( getTargetUnit() == NULL )
+						{
+							pLoopUnit = ::getUnit(pUnitNode->m_data);
+							
+						}
+						else
+						{
+							pLoopUnit = getTargetUnit();
+						}
+					}
+					else
+					{
+						pLoopUnit = ::getUnit(pUnitNode->m_data);
+					}
+
+
                     pUnitNode = pLoopPlot->nextUnitNode(pUnitNode);
                     if (!pLoopUnit->isImmuneToSpell(this, spell))
                     {
@@ -15367,10 +15385,22 @@ void CvUnit::castAddPromotion(int spell)
 
                 if (NULL != pLoopPlot)
                 {
+
+
+
                     pUnitNode = pLoopPlot->headUnitNode();
                     while (pUnitNode != NULL)
                     {
-                        pLoopUnit = ::getUnit(pUnitNode->m_data);
+						//Affect only a single unit if it is UnitSelect
+						if( GC.getSpellInfo((SpellTypes)spell).isUnitSelect() )
+						{
+							pLoopUnit = getTargetUnit();
+						}
+						else
+						{
+							pLoopUnit = ::getUnit(pUnitNode->m_data);
+						}
+
                         pUnitNode = pLoopPlot->nextUnitNode(pUnitNode);
                         if (!pLoopUnit->isImmuneToSpell(this, spell))
                         {
@@ -15469,32 +15499,6 @@ void CvUnit::castDamage(int spell)
 	CvUnit* pLoopUnit;
 	CvPlot* pLoopPlot;
 
-
-	//Added for unit select
-	if( GC.getSpellInfo((SpellTypes)spell).isUnitSelect() )
-	{
-		pLoopUnit = getTargetUnit();
-		if (!pLoopUnit->isImmuneToSpell(this, spell))
-		{
-			if (bResistable)
-			{
-				if (!pLoopUnit->isResisted(this, spell))
-				{
-					//pLoopUnit->doDamage((iDmg / 2) + GC.getGameINLINE().getSorenRandNum(iDmg, "doDamage"), iDmgLimit, this, iDmgType, true);
-					pLoopUnit->doDamage((iDmg) - (iDmg/4) + GC.getGameINLINE().getSorenRandNum( (iDmg/2) , "doDamage"), iDmgLimit, this, iDmgType, true);
-				}
-			}
-			else
-			{
-				//pLoopUnit->doDamage((iDmg / 2) + GC.getGameINLINE().getSorenRandNum(iDmg, "doDamage"), iDmgLimit, this, iDmgType, true);
-				pLoopUnit->doDamage((iDmg) - (iDmg/4) + GC.getGameINLINE().getSorenRandNum( (iDmg/2) , "doDamage"), iDmgLimit, this, iDmgType, true);
-			}
-		}
-		return;
-	}
-
-
-
 	//Added for select Tile
 	if( GC.getSpellInfo((SpellTypes)spell).isTileSelect() )
 	{
@@ -15526,7 +15530,15 @@ void CvUnit::castDamage(int spell)
                     pUnitNode = pLoopPlot->headUnitNode();
                     while (pUnitNode != NULL)
                     {
-                        pLoopUnit = ::getUnit(pUnitNode->m_data);
+						if( GC.getSpellInfo((SpellTypes)spell).isUnitSelect() )
+						{
+							pLoopUnit = getTargetUnit();
+						}
+						else
+						{
+							pLoopUnit = ::getUnit(pUnitNode->m_data);
+						}
+
                         pUnitNode = pLoopPlot->nextUnitNode(pUnitNode);
                         if (!pLoopUnit->isImmuneToSpell(this, spell))
                         {
