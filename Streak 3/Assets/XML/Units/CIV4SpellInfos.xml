@@ -420,6 +420,11 @@
             <Civilopedia>TXT_KEY_SPELL_TERRAFORM_PEDIA</Civilopedia>
             <Help>TXT_KEY_SPELL_TERRAFORM_HELP</Help>
             <PromotionPrereq1>PROMOTION_CAST_TERRAFORM</PromotionPrereq1>
+            <bGlobal>0</bGlobal>
+            <bIsTileSelect>1</bIsTileSelect>
+            <bIsUnitSelect>0</bIsUnitSelect>
+            <iSpellDistance>0</iSpellDistance>
+            <bRequiresLOS>1</bRequiresLOS>
             <bAllowAI>1</bAllowAI>
             <bAllowAutomateTerrain>1</bAllowAutomateTerrain>
             <iAIWeight>10</iAIWeight>
