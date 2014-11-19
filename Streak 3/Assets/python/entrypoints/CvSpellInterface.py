@@ -3059,11 +3059,6 @@ def spellTaunt(caster):
 								if not pUnit.isResisted(caster, iSpell):
 									pUnit.attack(pPlot, False)
 
-def spellTeleport(caster,loc):
-	player = caster.getOwner()
-	pPlayer = gc.getPlayer(player)
-	pCity = pPlayer.getCapitalCity()
-	caster.setXY(pCity.getX(), pCity.getY(), false, true, true)
 
 def reqTeachSpellcasting(caster):
 	iAnimal = gc.getInfoTypeForString('UNITCOMBAT_ANIMAL')
@@ -3852,11 +3847,9 @@ def spellHorseWeapons(caster):
 def reqTeleport(caster, plot, target):
 	pPlayer = gc.getPlayer(caster.getOwner())
 	pCity   =   pPlayer.getCapitalCity()
-	
-
 	return True
 	
-
+	
 def spellTeleport(caster, plot, target):
 	pPlayer = gc.getPlayer(caster.getOwner())
 	pCity   =   pPlayer.getCapitalCity()
@@ -3918,6 +3911,32 @@ def spellSacrifice(pCaster, pPlot, pTarget):
 	
 		
 
+			
+def reqBanish(caster, plot, target):
+	pPlayer = gc.getPlayer(caster.getOwner())
+	pCity   =   pPlayer.getCapitalCity()
+	return True
+	
+	
+def spellBanish(caster, plot, target):
+	pPlayer = gc.getPlayer(target.getOwner())
+	pCity   =   pPlayer.getCapitalCity()
+	
+	if plot.isNone():
+		return False
+		
+	if target.isNone():
+		return False
+		
+	if target.at(pCity.getX(), pCity.getY()):
+		return False
+	
+	if target.hasCargo():
+		return False
+	
+	
+	target.setXY( pCity.getX(), pCity.getY(), false, true, false )
+	
 	
 	
 		

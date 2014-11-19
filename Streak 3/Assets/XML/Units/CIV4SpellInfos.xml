@@ -275,7 +275,7 @@
         <SpellInfo>
             <Type>SPELL_THUNDERSTRIKE</Type>
             <Description>TXT_KEY_SPELL_THUNDERSTRIKE</Description>
-            <PromotionPrereq1>PROMOTION_CAST_TELEPORT</PromotionPrereq1>
+            <PromotionPrereq1>PROMOTION_CAST_THUNDERSTRIKE</PromotionPrereq1>
             <bGlobal>0</bGlobal>
             <bIsTileSelect>1</bIsTileSelect>
             <bIsUnitSelect>0</bIsUnitSelect>
@@ -296,7 +296,7 @@
         <SpellInfo>
             <Type>SPELL_TELEPORT</Type>
             <Description>TXT_KEY_SPELL_TELEPORT</Description>
-            <PromotionPrereq1>PROMOTION_CAST_THUNDERSTRIKE</PromotionPrereq1>
+            <PromotionPrereq1>PROMOTION_CAST_TELEPORT</PromotionPrereq1>
             <bGlobal>0</bGlobal>
             <bIsTileSelect>1</bIsTileSelect>
             <bIsUnitSelect>1</bIsUnitSelect>
@@ -752,6 +752,8 @@
             <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
             <bHasCasted>1</bHasCasted>
             <bBuffCasterOnly>1</bBuffCasterOnly>
+            <PyResult>spellBanish(pCaster, pPlot, pTarget)</PyResult>
+            <PyRequirement>reqBanish(pCaster, pPlot, pTarget)</PyRequirement>
             <Effect>EFFECT_CREATION</Effect>
             <Sound>AS3D_SPELL_WATER</Sound>
             <Button>Art/Interface/Buttons/Promotions/Summoner.dds</Button>
