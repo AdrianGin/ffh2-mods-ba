@@ -15578,13 +15578,15 @@ void CvUnit::castDamage(int spell)
 						if( GC.getSpellInfo((SpellTypes)spell).isUnitSelect() )
 						{
 							pLoopUnit = getTargetUnit();
+							pUnitNode = NULL;
 						}
 						else
 						{
 							pLoopUnit = ::getUnit(pUnitNode->m_data);
+							pUnitNode = pLoopPlot->nextUnitNode(pUnitNode);
 						}
 
-                        pUnitNode = pLoopPlot->nextUnitNode(pUnitNode);
+                        
                         if (!pLoopUnit->isImmuneToSpell(this, spell))
                         {
                             if (bResistable)
@@ -15647,19 +15649,21 @@ void CvUnit::castDispel(int spell)
 						if( getTargetUnit() == NULL )
 						{
 							pLoopUnit = ::getUnit(pUnitNode->m_data);
-							
+							pUnitNode = pLoopPlot->nextUnitNode(pUnitNode);
 						}
 						else
 						{
 							pLoopUnit = getTargetUnit();
+							pUnitNode = NULL;
 						}
 					}
 					else
 					{
 						pLoopUnit = ::getUnit(pUnitNode->m_data);
+						pUnitNode = pLoopPlot->nextUnitNode(pUnitNode);
 					}
 
-                    pUnitNode = pLoopPlot->nextUnitNode(pUnitNode);
+                    
                     if (!pLoopUnit->isImmuneToSpell(this, spell))
                     {
                         if (pLoopUnit->isEnemy(getTeam()))
@@ -15734,18 +15738,21 @@ void CvUnit::castImmobile(int spell)
 							if( getTargetUnit() == NULL )
 							{
 								pLoopUnit = ::getUnit(pUnitNode->m_data);
+								pUnitNode = pLoopPlot->nextUnitNode(pUnitNode);
 								
 							}
 							else
 							{
 								pLoopUnit = getTargetUnit();
+								pUnitNode = NULL;
 							}
 						}
 						else
 						{
 							pLoopUnit = ::getUnit(pUnitNode->m_data);
+							pUnitNode = pLoopPlot->nextUnitNode(pUnitNode);
 						}
-                        pUnitNode = pLoopPlot->nextUnitNode(pUnitNode);
+                        
                         if (!pLoopUnit->isImmuneToSpell(this, spell) && pLoopUnit->getImmobileTimer() == 0)
                         {
                             if (bResistable)
