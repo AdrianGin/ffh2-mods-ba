@@ -33,6 +33,10 @@ void CyUnitPythonInterface1(python::class_<CyUnit>& x)
 		.def("getPathEndTurnPlot", &CyUnit::getPathEndTurnPlot, python::return_value_policy<python::manage_new_object>(), "CyPlot* ()")
 		.def("generatePath", &CyUnit::generatePath, "bool (CyPlot* pToPlot, int iFlags = 0, bool bReuse = false, int* piPathTurns = NULL)")
 
+		.def("getGameTurnCreated", &CyUnit::getGameTurnCreated, "int (void)")
+		.def("setGameTurnCreated", &CyUnit::setGameTurnCreated, "void (int iNewValue)")
+
+		.def("changeDuration", &CyUnit::changeDuration, "void (int iChange)")
 
 		;
 }

@@ -3909,11 +3909,16 @@ def spellFieryRage(caster, plot, target):
 	target.setCollateralDamageLimit(70)
 	target.setCollateralDamageMaxUnits(4)
 
-
-		
 	return true
 	
 	
 	
+def spellSacrifice(pCaster, pPlot, pTarget):
+	pTarget.changeDuration(2)
 	
+		
+
+	
+	
+		
 	

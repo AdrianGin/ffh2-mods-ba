@@ -731,6 +731,7 @@
             <iAIWeightWar>50</iAIWeightWar>
             <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
             <bHasCasted>1</bHasCasted>
+            <PyResult>spellSacrifice(pCaster, pPlot, pTarget)</PyResult>
             <AddPromotionType1>PROMOTION_SACRIFICE</AddPromotionType1>
             <Effect>EFFECT_CREATION</Effect>
             <Sound>AS3D_SPELL_WATER</Sound>

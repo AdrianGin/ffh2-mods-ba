@@ -1137,6 +1137,14 @@ int CyUnit::getGameTurnCreated()
 	return m_pUnit ? m_pUnit->getGameTurnCreated() : -1;
 }
 
+
+void CyUnit::setGameTurnCreated(int iNewValue)
+{
+	 if( m_pUnit )
+		 m_pUnit->setGameTurnCreated(iNewValue);
+}
+
+
 int CyUnit::getDamage()
 {
 	return m_pUnit ? m_pUnit->getDamage() : -1;
@@ -1991,5 +1999,9 @@ void CyUnit::changeCollateralDamageMaxUnits(int iChange)
 }
 
 
-
+void CyUnit::changeDuration(int iChange)
+{
+	if (m_pUnit)
+        m_pUnit->changeDuration(iChange);
+}
 

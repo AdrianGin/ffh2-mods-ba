@@ -346,7 +346,6 @@ class CvGameUtils:
 	def AI_unitUpdate(self,argsList):
 		pUnit = argsList[0]
 		pPlot = pUnit.plot()
-		iiiiiii
 		
 		return False
 

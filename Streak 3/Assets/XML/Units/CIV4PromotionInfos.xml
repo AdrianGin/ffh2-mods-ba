@@ -2035,11 +2035,15 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
+            
+            
             <Button>Art/Interface/Buttons/Spells/Spring.dds</Button>
-            <bDispellable>1</bDispellable>
+            <bDispellable>0</bDispellable>
             <iAIWeight>100</iAIWeight>
             <iExpireChance>0</iExpireChance>
             <iMinLevel>-1</iMinLevel>
+
+            
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_CAST_HASTE</Type>
