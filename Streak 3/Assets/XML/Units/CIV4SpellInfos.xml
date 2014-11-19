@@ -661,7 +661,7 @@
             <bGlobal>0</bGlobal>
             <bIsTileSelect>1</bIsTileSelect>
             <bIsUnitSelect>1</bIsUnitSelect>
-            <iSpellDistance>1</iSpellDistance>
+            <iSpellDistance>0</iSpellDistance>
             <bRequiresLOS>1</bRequiresLOS>
             <bAllowAI>1</bAllowAI>
             <iAIWeightWar>50</iAIWeightWar>
