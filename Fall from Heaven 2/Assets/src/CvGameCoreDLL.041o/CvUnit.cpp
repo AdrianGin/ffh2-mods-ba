@@ -14686,11 +14686,11 @@ bool CvUnit::canAddPromotion(int spell)
 		pLoopPlot = getTargetPlot();
 		if( pLoopPlot != NULL )
 		{
-			iRange = 0;
+			iRange = GC.getSpellInfo((SpellTypes)spell).getRange();
 		}
 		else
 		{
-			iRange = GC.getSpellInfo((SpellTypes)spell).getSpellDistance();
+			iRange = GC.getSpellInfo((SpellTypes)spell).getSpellDistance() + GC.getSpellInfo((SpellTypes)spell).getRange();
 		}
 	}
 	//end add
@@ -14703,7 +14703,7 @@ bool CvUnit::canAddPromotion(int spell)
             //Check only single plot
 			if( GC.getSpellInfo((SpellTypes)spell).isTileSelect() && (getTargetPlot() != NULL) )
 			{	
-				pLoopPlot = getTargetPlot();
+				pLoopPlot = ::plotXY(getTargetPlot()->getX_INLINE(), getTargetPlot()->getY_INLINE(), i, j); ;
 			}
 			else
 			{
@@ -14782,12 +14782,6 @@ bool CvUnit::canAddPromotion(int spell)
                 }
             }
 
-			//Single Tile Select
-			if( GC.getSpellInfo((SpellTypes)spell).isTileSelect() && (getTargetPlot() != NULL) )
-			{	
-				return false;
-			}
-			//End Add
 		}
 	}
 	return false;
@@ -14860,11 +14854,11 @@ bool CvUnit::canDispel(int spell)
 		pLoopPlot = getTargetPlot();
 		if( pLoopPlot != NULL )
 		{
-			iRange = 0;
+			iRange = GC.getSpellInfo((SpellTypes)spell).getRange();
 		}
 		else
 		{
-			iRange = GC.getSpellInfo((SpellTypes)spell).getSpellDistance();
+			iRange = GC.getSpellInfo((SpellTypes)spell).getSpellDistance() + GC.getSpellInfo((SpellTypes)spell).getRange();
 		}
 	}
 	//end add
@@ -14876,7 +14870,7 @@ bool CvUnit::canDispel(int spell)
 			//Check only single plot
 			if( GC.getSpellInfo((SpellTypes)spell).isTileSelect() && (getTargetPlot() != NULL) )
 			{	
-				pLoopPlot = getTargetPlot();
+				pLoopPlot = ::plotXY(getTargetPlot()->getX_INLINE(), getTargetPlot()->getY_INLINE(), i, j);
 			}
 			else
 			{
@@ -14889,7 +14883,26 @@ bool CvUnit::canDispel(int spell)
                 pUnitNode = pLoopPlot->headUnitNode();
                 while (pUnitNode != NULL)
                 {
-                    pLoopUnit = ::getUnit(pUnitNode->m_data);
+
+
+					//Affect only a single unit if it is UnitSelect
+					if( GC.getSpellInfo((SpellTypes)spell).isUnitSelect() )
+					{
+						if( getTargetUnit() == NULL )
+						{
+							pLoopUnit = ::getUnit(pUnitNode->m_data);
+							
+						}
+						else
+						{
+							pLoopUnit = getTargetUnit();
+						}
+					}
+					else
+					{
+						pLoopUnit = ::getUnit(pUnitNode->m_data);
+					}
+
                     pUnitNode = pLoopPlot->nextUnitNode(pUnitNode);
                     if (!pLoopUnit->isImmuneToSpell(this, spell))
                     {
@@ -14910,12 +14923,6 @@ bool CvUnit::canDispel(int spell)
                     }
                 }
 				
-				//Single Tile Select
-				if( GC.getSpellInfo((SpellTypes)spell).isTileSelect() && (getTargetPlot() != NULL) )
-				{	
-					return false;
-				}
-				//End Add
             }
         }
     }
@@ -14935,11 +14942,11 @@ bool CvUnit::canImmobile(int spell)
 		pLoopPlot = getTargetPlot();
 		if( pLoopPlot != NULL )
 		{
-			iRange = 0;
+			iRange = GC.getSpellInfo((SpellTypes)spell).getRange();
 		}
 		else
 		{
-			iRange = GC.getSpellInfo((SpellTypes)spell).getSpellDistance();
+			iRange = GC.getSpellInfo((SpellTypes)spell).getSpellDistance() + GC.getSpellInfo((SpellTypes)spell).getRange();
 		}
 	}
 	//end add
@@ -14951,7 +14958,7 @@ bool CvUnit::canImmobile(int spell)
             //Check only single plot
 			if( GC.getSpellInfo((SpellTypes)spell).isTileSelect() && (getTargetPlot() != NULL) )
 			{	
-				pLoopPlot = getTargetPlot();
+				pLoopPlot = ::plotXY(getTargetPlot()->getX_INLINE(), getTargetPlot()->getY_INLINE(), i, j);
 			}
 			else
 			{
@@ -14964,7 +14971,24 @@ bool CvUnit::canImmobile(int spell)
                 pUnitNode = pLoopPlot->headUnitNode();
                 while (pUnitNode != NULL)
                 {
-                    pLoopUnit = ::getUnit(pUnitNode->m_data);
+					//Affect only a single unit if it is UnitSelect
+					if( GC.getSpellInfo((SpellTypes)spell).isUnitSelect() )
+					{
+						if( getTargetUnit() == NULL )
+						{
+							pLoopUnit = ::getUnit(pUnitNode->m_data);
+							
+						}
+						else
+						{
+							pLoopUnit = getTargetUnit();
+						}
+					}
+					else
+					{
+						pLoopUnit = ::getUnit(pUnitNode->m_data);
+					}
+
                     pUnitNode = pLoopPlot->nextUnitNode(pUnitNode);
                     if (!pLoopUnit->isImmuneToSpell(this, spell))
                     {
@@ -14974,11 +14998,6 @@ bool CvUnit::canImmobile(int spell)
             }
 
 			//Single Tile Select
-			if( GC.getSpellInfo((SpellTypes)spell).isTileSelect() && (getTargetPlot() != NULL) )
-			{	
-				return false;
-			}
-			//End Add
         }
     }
     return false;
@@ -15064,17 +15083,60 @@ bool CvUnit::canRemovePromotion(int spell)
 	CvUnit* pLoopUnit;
     CvPlot* pLoopPlot;
     int iRange = GC.getSpellInfo((SpellTypes)spell).getRange();
+
+	//add single tile select
+	if( GC.getSpellInfo((SpellTypes)spell).isTileSelect() )
+	{
+		pLoopPlot = getTargetPlot();
+		if( pLoopPlot != NULL )
+		{
+			iRange = GC.getSpellInfo((SpellTypes)spell).getRange();
+		}
+		else
+		{
+			iRange = GC.getSpellInfo((SpellTypes)spell).getSpellDistance() + GC.getSpellInfo((SpellTypes)spell).getRange();
+		}
+	}
+
+
+
     for (int i = -iRange; i <= iRange; ++i)
     {
         for (int j = -iRange; j <= iRange; ++j)
         {
-            pLoopPlot = ::plotXY(plot()->getX_INLINE(), plot()->getY_INLINE(), i, j);
+            //Check only single plot
+			if( GC.getSpellInfo((SpellTypes)spell).isTileSelect() && (getTargetPlot() != NULL) )
+			{	
+				pLoopPlot = ::plotXY(getTargetPlot()->getX_INLINE(), getTargetPlot()->getY_INLINE(), i, j);
+			}
+			else
+			{
+				pLoopPlot = ::plotXY(plot()->getX_INLINE(), plot()->getY_INLINE(), i, j);
+			}
+
             if (NULL != pLoopPlot)
             {
                 CLLNode<IDInfo>* pUnitNode = pLoopPlot->headUnitNode();
                 while (pUnitNode != NULL)
                 {
-                    pLoopUnit = ::getUnit(pUnitNode->m_data);
+					//Affect only a single unit if it is UnitSelect
+					if( GC.getSpellInfo((SpellTypes)spell).isUnitSelect() )
+					{
+						if( getTargetUnit() == NULL )
+						{
+							pLoopUnit = ::getUnit(pUnitNode->m_data);
+							
+						}
+						else
+						{
+							pLoopUnit = getTargetUnit();
+						}
+					}
+					else
+					{
+						pLoopUnit = ::getUnit(pUnitNode->m_data);
+					}
+
                     pUnitNode = pLoopPlot->nextUnitNode(pUnitNode);
                     if (!pLoopUnit->isImmuneToSpell(this, spell))
                     {
@@ -15359,14 +15421,6 @@ void CvUnit::castAddPromotion(int spell)
         CvUnit* pLoopUnit;
         CvPlot* pLoopPlot;
 
-		//Added for select Tile
-		if( GC.getSpellInfo((SpellTypes)spell).isTileSelect() )
-		{
-			iRange = GC.getSpellInfo((SpellTypes)spell).getSpellDistance();
-		}
-		//End add
-
-
         for (int i = -iRange; i <= iRange; ++i)
         {
             for (int j = -iRange; j <= iRange; ++j)
@@ -15374,7 +15428,7 @@ void CvUnit::castAddPromotion(int spell)
 				//Added for select Tile
 				if( GC.getSpellInfo((SpellTypes)spell).isTileSelect() )
 				{
-					pLoopPlot = getTargetPlot();
+					pLoopPlot = ::plotXY(getTargetPlot()->getX_INLINE(), getTargetPlot()->getY_INLINE(), i, j);
 				}
 				else
 				{
@@ -15385,9 +15439,6 @@ void CvUnit::castAddPromotion(int spell)
 
                 if (NULL != pLoopPlot)
                 {
-
-
-
                     pUnitNode = pLoopPlot->headUnitNode();
                     while (pUnitNode != NULL)
                     {
@@ -15476,12 +15527,6 @@ void CvUnit::castAddPromotion(int spell)
                         }
                     }
 
-					//Added for select Tile
-					if( GC.getSpellInfo((SpellTypes)spell).isTileSelect() )
-					{
-						return;
-					}
-					//End add
                 }
             }
         }
@@ -15575,12 +15620,6 @@ void CvUnit::castDispel(int spell)
 	CvUnit* pLoopUnit;
 	CvPlot* pLoopPlot;
 
-	//Added for select Tile
-	if( GC.getSpellInfo((SpellTypes)spell).isTileSelect() )
-	{
-		iRange = GC.getSpellInfo((SpellTypes)spell).getSpellDistance();
-	}
-	//End add
 
     for (int i = -iRange; i <= iRange; ++i)
     {
@@ -15589,7 +15628,7 @@ void CvUnit::castDispel(int spell)
 			//Added for select Tile
 			if( GC.getSpellInfo((SpellTypes)spell).isTileSelect() )
 			{
-				pLoopPlot = getTargetPlot();
+				pLoopPlot = ::plotXY(getTargetPlot()->getX_INLINE(), getTargetPlot()->getY_INLINE(), i, j);
 			}
 			else
 			{
@@ -15602,7 +15641,24 @@ void CvUnit::castDispel(int spell)
                 pUnitNode = pLoopPlot->headUnitNode();
                 while (pUnitNode != NULL)
                 {
-                    pLoopUnit = ::getUnit(pUnitNode->m_data);
+					//Affect only a single unit if it is UnitSelect
+					if( GC.getSpellInfo((SpellTypes)spell).isUnitSelect() )
+					{
+						if( getTargetUnit() == NULL )
+						{
+							pLoopUnit = ::getUnit(pUnitNode->m_data);
+							
+						}
+						else
+						{
+							pLoopUnit = getTargetUnit();
+						}
+					}
+					else
+					{
+						pLoopUnit = ::getUnit(pUnitNode->m_data);
+					}
+
                     pUnitNode = pLoopPlot->nextUnitNode(pUnitNode);
                     if (!pLoopUnit->isImmuneToSpell(this, spell))
                     {
@@ -15636,13 +15692,6 @@ void CvUnit::castDispel(int spell)
                     }
                 }
             }
-
-			//Added for select Tile
-			if( GC.getSpellInfo((SpellTypes)spell).isTileSelect() )
-			{
-				return;
-			}
-			//End add
         }
     }
 }
@@ -15656,12 +15705,6 @@ void CvUnit::castImmobile(int spell)
 	CvUnit* pLoopUnit;
 	CvPlot* pLoopPlot;
 
-	//Added for select Tile
-	if( GC.getSpellInfo((SpellTypes)spell).isTileSelect() )
-	{
-		iRange = GC.getSpellInfo((SpellTypes)spell).getSpellDistance();
-	}
-	//End add
 
     for (int i = -iRange; i <= iRange; ++i)
     {
@@ -15670,7 +15713,7 @@ void CvUnit::castImmobile(int spell)
 			//Added for select Tile
 			if( GC.getSpellInfo((SpellTypes)spell).isTileSelect() )
 			{
-				pLoopPlot = getTargetPlot();
+				pLoopPlot = ::plotXY(getTargetPlot()->getX_INLINE(), getTargetPlot()->getY_INLINE(), i, j);
 			}
 			else
 			{
@@ -15685,7 +15728,23 @@ void CvUnit::castImmobile(int spell)
                     pUnitNode = pLoopPlot->headUnitNode();
                     while (pUnitNode != NULL)
                     {
-                        pLoopUnit = ::getUnit(pUnitNode->m_data);
+						//Affect only a single unit if it is UnitSelect
+						if( GC.getSpellInfo((SpellTypes)spell).isUnitSelect() )
+						{
+							if( getTargetUnit() == NULL )
+							{
+								pLoopUnit = ::getUnit(pUnitNode->m_data);
+								
+							}
+							else
+							{
+								pLoopUnit = getTargetUnit();
+							}
+						}
+						else
+						{
+							pLoopUnit = ::getUnit(pUnitNode->m_data);
+						}
                         pUnitNode = pLoopPlot->nextUnitNode(pUnitNode);
                         if (!pLoopUnit->isImmuneToSpell(this, spell) && pLoopUnit->getImmobileTimer() == 0)
                         {
@@ -15709,12 +15768,6 @@ void CvUnit::castImmobile(int spell)
                 }
             }
 
-			//Added for select Tile
-			if( GC.getSpellInfo((SpellTypes)spell).isTileSelect() )
-			{
-				return;
-			}
-			//End add
         }
     }
 }
@@ -15808,13 +15861,40 @@ void CvUnit::castRemovePromotion(int spell)
         {
             for (int j = -iRange; j <= iRange; ++j)
             {
-                pLoopPlot = ::plotXY(plot()->getX_INLINE(), plot()->getY_INLINE(), i, j);
+				//Added for select Tile
+				if( GC.getSpellInfo((SpellTypes)spell).isTileSelect() )
+				{
+					pLoopPlot = ::plotXY(getTargetPlot()->getX_INLINE(), getTargetPlot()->getY_INLINE(), i, j);
+				}
+				else
+				{
+					pLoopPlot = ::plotXY(plot()->getX_INLINE(), plot()->getY_INLINE(), i, j);
+				}
+				//End Add
+
                 if (NULL != pLoopPlot)
                 {
                     pUnitNode = pLoopPlot->headUnitNode();
                     while (pUnitNode != NULL)
                     {
-                        pLoopUnit = ::getUnit(pUnitNode->m_data);
+						//Affect only a single unit if it is UnitSelect
+						if( GC.getSpellInfo((SpellTypes)spell).isUnitSelect() )
+						{
+							if( getTargetUnit() == NULL )
+							{
+								pLoopUnit = ::getUnit(pUnitNode->m_data);
+								
+							}
+							else
+							{
+								pLoopUnit = getTargetUnit();
+							}
+						}
+						else
+						{
+							pLoopUnit = ::getUnit(pUnitNode->m_data);
+						}
+
                         pUnitNode = pLoopPlot->nextUnitNode(pUnitNode);
                         if (!pLoopUnit->isImmuneToSpell(this, spell))
                         {
@@ -16945,7 +17025,7 @@ void CvUnit::doDamage(int iDmg, int iDmgLimit, CvUnit* pAttacker, int iDmgType, 
     }
     if (iResist < 100)
     {
-        iDmg = GC.getGameINLINE().getSorenRandNum(iDmg, "Damage") + GC.getGameINLINE().getSorenRandNum(iDmg, "Damage");
+        //iDmg = GC.getGameINLINE().getSorenRandNum(iDmg, "Damage") + GC.getGameINLINE().getSorenRandNum(iDmg, "Damage");
 		iDmg = iDmg * (100 - iResist) / 100;
 
         if (iDmg + getDamage() > iDmgLimit)
