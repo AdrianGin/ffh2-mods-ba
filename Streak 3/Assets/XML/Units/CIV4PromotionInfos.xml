@@ -1006,7 +1006,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
-            <Button>,Art/Interface/Buttons/Promotions/Woodsman2.dds,Art/Interface/Buttons/Promotions_Atlas.dds,6,6</Button>
+            <Button>,Art/Interface/Buttons/Promotions/Woodsman2.dds,Art/Interface/Buttons/Promotions_Atlas.dds,7,6</Button>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_GUERILLA1</Type>
@@ -1051,7 +1051,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
-            <Button>,Art/Interface/Buttons/Promotions/Guerilla2.dds,Art/Interface/Buttons/Promotions_Atlas.dds,5,5</Button>
+            <Button>,Art/Interface/Buttons/Promotions/Guerilla2.dds,Art/Interface/Buttons/Promotions_Atlas.dds,6,5</Button>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_MOBILITY1</Type>
