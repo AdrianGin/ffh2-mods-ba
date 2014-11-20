@@ -749,6 +749,7 @@
             <bRequiresLOS>1</bRequiresLOS>
             <bAllowAI>1</bAllowAI>
             <iAIWeightWar>50</iAIWeightWar>
+            <bImmuneTeam>1</bImmuneTeam>
             <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
             <bHasCasted>1</bHasCasted>
             <bBuffCasterOnly>1</bBuffCasterOnly>
