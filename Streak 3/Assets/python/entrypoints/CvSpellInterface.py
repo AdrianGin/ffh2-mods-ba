@@ -3916,9 +3916,11 @@ def reqBanish(caster, plot, target):
 	pPlayer = gc.getPlayer(caster.getOwner())
 	pCity   =   pPlayer.getCapitalCity()
 	
-	if !target.isNone():
-		if pPlayer == gc.getPlayer(target.getOwner()):
-			return False
+	if target.isNone():
+		return true
+	else:
+		if caster.getOwner() == target.getOwner():
+			return false
 	
 	return True
 	
