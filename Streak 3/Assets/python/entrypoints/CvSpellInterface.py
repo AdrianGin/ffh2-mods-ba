@@ -3915,6 +3915,11 @@ def spellSacrifice(pCaster, pPlot, pTarget):
 def reqBanish(caster, plot, target):
 	pPlayer = gc.getPlayer(caster.getOwner())
 	pCity   =   pPlayer.getCapitalCity()
+	
+	if !target.isNone():
+		if pPlayer == gc.getPlayer(target.getOwner()):
+			return False
+	
 	return True
 	
 	
