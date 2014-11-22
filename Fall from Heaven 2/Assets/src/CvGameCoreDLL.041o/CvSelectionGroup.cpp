@@ -1407,13 +1407,16 @@ void CvSelectionGroup::startMission()
 							}
 							else
 							{
+								GC.getGameINLINE().selectionListGameNetMessage(GAMEMESSAGE_DO_COMMAND, COMMAND_CAST_RANGED, pLoopUnit->getSelectedRangedSpell());
+								
+								/*
 								pLoopUnit->castAt( pLoopUnit->getSelectedRangedSpell(), headMissionQueueNode()->m_data.iData1, headMissionQueueNode()->m_data.iData2);
 								{
 									pLoopUnit->setSelectedRangedSpell((SpellTypes)NO_SPELL);
 									GC.getGameINLINE().updateColoredPlots();
 									bAction = true;
 								}
-								pLoopUnit->setTargetPlot(NULL);
+								pLoopUnit->setTargetPlot(NULL);*/
 							}
 
 							pUnitNode = NULL; // allow one unit at a time to cast ranged spells

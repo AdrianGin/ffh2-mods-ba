@@ -2912,6 +2912,19 @@ void CvUnit::doCommand(CommandTypes eCommand, int iData1, int iData2)
 			break;
 
 //FfH Spell System: Added by Kael 07/23/2007
+		//Added by Adrian
+		case COMMAND_CAST_RANGED:
+			{
+				castAt( getSelectedRangedSpell(), getTargetPlot()->getX_INLINE(), getTargetPlot()->getY_INLINE());
+				{
+					setSelectedRangedSpell((SpellTypes)NO_SPELL);
+					GC.getGameINLINE().updateColoredPlots();
+				}
+				setTargetPlot(NULL);
+				setTargetUnit(NULL);
+				break;
+			}
+	
 		case COMMAND_CAST:{
 			cast(iData1);
 			break;

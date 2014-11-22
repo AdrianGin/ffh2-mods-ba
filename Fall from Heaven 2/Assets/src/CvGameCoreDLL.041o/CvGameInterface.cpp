@@ -1223,16 +1223,12 @@ void CvGame::handleAction(int iAction)
 
 		if (GC.getActionInfo(iAction).getCommandType() == COMMAND_CAST_RANGED)
 		{
-			
-
 			CvPopupInfo* pInfo = new CvPopupInfo(BUTTONPOPUP_CAST_RANGED_SPELL);
 			if (NULL != pInfo)
 			{
 				gDLL->getInterfaceIFace()->addPopup(pInfo);
 				bSkip = true;
 			}
-
-			
 		}
 
 		if (!bSkip)

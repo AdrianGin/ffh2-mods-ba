@@ -492,14 +492,12 @@ void CvDLLButtonPopup::OnOkClicked(CvPopup* pPopup, PopupReturn *pPopupReturn, C
 										pUnit->setTargetUnit(pLoopUnit);
 										if( pUnit->canCast(pUnit->getSelectedRangedSpell(), false) )
 										{
-											pUnit->castAt( pUnit->getSelectedRangedSpell(), pTargetPlot->getX_INLINE(), pTargetPlot->getY_INLINE());
+											GC.getGameINLINE().selectionListGameNetMessage(GAMEMESSAGE_DO_COMMAND, COMMAND_CAST_RANGED, pLoopUnit->getSelectedRangedSpell());
 										}
 									}
 								}
 							}
 						}
-						pUnit->setTargetPlot(NULL);
-						pUnit->setTargetUnit(NULL);
 					}
 				}
 			}
