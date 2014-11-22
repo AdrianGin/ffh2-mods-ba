@@ -1612,6 +1612,10 @@ enum CommandTypes					// Exposed to Python
 //FfH: Added by Kael 07/23/2007
 	COMMAND_CAST,
 	COMMAND_CAST_RANGED,
+
+	COMMAND_SET_TARGET_PLOT,
+	COMMAND_SET_TARGET_UNIT,
+
 //FfH: End Add
 
 #ifdef _USRDLL

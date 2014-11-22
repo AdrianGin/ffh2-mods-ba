@@ -1407,6 +1407,7 @@ void CvSelectionGroup::startMission()
 							}
 							else
 							{
+								GC.getGameINLINE().selectionListGameNetMessage(GAMEMESSAGE_DO_COMMAND, COMMAND_SET_TARGET_PLOT, pTargetPlot->getX_INLINE(), pTargetPlot->getY_INLINE());
 								GC.getGameINLINE().selectionListGameNetMessage(GAMEMESSAGE_DO_COMMAND, COMMAND_CAST_RANGED, pLoopUnit->getSelectedRangedSpell());
 								
 								/*

@@ -2790,6 +2790,12 @@ bool CvUnit::canDoCommand(CommandTypes eCommand, int iData1, int iData2, bool bT
 		}
 		break;
 
+//Always available
+	case COMMAND_SET_TARGET_PLOT:
+	case COMMAND_SET_TARGET_UNIT:
+		return true;
+		break;
+
 //FfH Spell System: Added by Kael 07/23/2007
 	case COMMAND_CAST_RANGED:
 		if( canCastSelectTileSpells() )
@@ -2913,9 +2919,21 @@ void CvUnit::doCommand(CommandTypes eCommand, int iData1, int iData2)
 
 //FfH Spell System: Added by Kael 07/23/2007
 		//Added by Adrian
+		case COMMAND_SET_TARGET_UNIT:
+			{
+				IDInfo unit( (PlayerTypes)iData1, iData2);
+				setTargetUnit( ::getUnit(unit) );
+				break;
+			}
+
+		case COMMAND_SET_TARGET_PLOT:
+			setTargetPlot( ::plotXY(iData1, iData2, 0,0 ) );
+			break;
+
+
 		case COMMAND_CAST_RANGED:
 			{
-				castAt( getSelectedRangedSpell(), getTargetPlot()->getX_INLINE(), getTargetPlot()->getY_INLINE());
+				castAt( iData1, getTargetPlot()->getX_INLINE(), getTargetPlot()->getY_INLINE());
 				{
 					setSelectedRangedSpell((SpellTypes)NO_SPELL);
 					GC.getGameINLINE().updateColoredPlots();
