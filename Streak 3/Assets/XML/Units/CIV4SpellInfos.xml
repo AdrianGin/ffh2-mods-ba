@@ -179,6 +179,26 @@
             <bGraphicalOnly>1</bGraphicalOnly>
             <Button>,Art/Interface/Buttons/WorldBuilder/Horse.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,4,13</Button>
         </SpellInfo> 
+        
+		<SpellInfo>
+            <Type>SPELL_ELEPHANT_WEAPONS</Type>
+            <Description>TXT_KEY_PROMOTION_ELEPHANT_WEAPONS</Description>
+            <TechPrereq>TECH_FOOD1</TechPrereq>
+            <UnitCombatPrereq>UNITCOMBAT_ELEPHANT</UnitCombatPrereq>
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>0</bDisplayWhenDisabled>
+            <bInBordersOnly>1</bInBordersOnly>
+            <bInCityOnly>1</bInCityOnly>
+            <bHasCasted>1</bHasCasted>
+            <iCost>68</iCost>
+            <PyRequirement>reqElephantWeapons(pCaster)</PyRequirement>
+            <PyResult>spellElephantWeapons(pCaster)</PyResult>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS2D_REPAIR</Sound>
+            <bGraphicalOnly>1</bGraphicalOnly>
+            <Button>,Art/Interface/Buttons/WorldBuilder/Ivory.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,7,13</Button>
+        </SpellInfo>         
+        
         <SpellInfo>
             <Type>SPELL_BRONZE_WEAPONS</Type>
             <Description>TXT_KEY_PROMOTION_BRONZE_WEAPONS</Description>
@@ -233,6 +253,62 @@
             <bGraphicalOnly>1</bGraphicalOnly>
             <Button>,Art/Interface/Buttons/WorldBuilder/Silver.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,4,14</Button>
         </SpellInfo>
+        
+        
+		<SpellInfo>
+            <Type>SPELL_BRONZE_WEAPONS_HORSE</Type>
+            <Description>TXT_KEY_PROMOTION_BRONZE_WEAPONS_HORSE</Description>
+            <TechPrereq>TECH_FEUDAL_AGE</TechPrereq>
+            <UnitCombatPrereq>UNITCOMBAT_MOUNTED</UnitCombatPrereq>
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>0</bDisplayWhenDisabled>
+            <bInBordersOnly>1</bInBordersOnly>
+            <bInCityOnly>1</bInCityOnly>
+            <bHasCasted>1</bHasCasted>
+            <iCost>33</iCost>
+            <PyRequirement>reqBronzeWeaponsHorse(pCaster)</PyRequirement>
+            <PyResult>spellBronzeWeaponsHorse(pCaster)</PyResult>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS2D_REPAIR</Sound>
+            <bGraphicalOnly>1</bGraphicalOnly>
+            <Button>,Art/Interface/Buttons/WorldBuilder/Copper.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,5,12</Button>
+        </SpellInfo>        
+        <SpellInfo>
+            <Type>SPELL_IRON_WEAPONS_HORSE</Type>
+            <Description>TXT_KEY_PROMOTION_IRON_WEAPONS_HORSE</Description>
+            <TechPrereq>TECH_CASTLE_AGE</TechPrereq>
+            <UnitCombatPrereq>UNITCOMBAT_MOUNTED</UnitCombatPrereq>
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>0</bDisplayWhenDisabled>
+            <bInBordersOnly>1</bInBordersOnly>
+            <bInCityOnly>1</bInCityOnly>
+            <bHasCasted>1</bHasCasted>
+            <iCost>68</iCost>
+            <PyRequirement>reqIronWeaponsHorse(pCaster)</PyRequirement>
+            <PyResult>spellIronWeaponsHorse(pCaster)</PyResult>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS2D_REPAIR</Sound>
+            <bGraphicalOnly>1</bGraphicalOnly>
+            <Button>,Art/Interface/Buttons/WorldBuilder/Iron.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,6,13</Button>
+        </SpellInfo>        
+        <SpellInfo>
+            <Type>SPELL_MITHRIL_WEAPONS_HORSE</Type>
+            <Description>TXT_KEY_PROMOTION_MITHRIL_WEAPONS_HORSE</Description>
+            <TechPrereq>TECH_IMPERIAL_AGE</TechPrereq>
+            <UnitCombatPrereq>UNITCOMBAT_MOUNTED</UnitCombatPrereq>
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>0</bDisplayWhenDisabled>
+            <bInBordersOnly>1</bInBordersOnly>
+            <bInCityOnly>1</bInCityOnly>
+            <bHasCasted>1</bHasCasted>
+            <iCost>120</iCost>
+            <PyRequirement>reqMithrilWeaponsHorse(pCaster)</PyRequirement>
+            <PyResult>spellMithrilWeaponsHorse(pCaster)</PyResult>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS2D_REPAIR</Sound>
+            <bGraphicalOnly>1</bGraphicalOnly>
+            <Button>,Art/Interface/Buttons/WorldBuilder/Silver.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,4,14</Button>
+        </SpellInfo>        
         
         
         <SpellInfo>

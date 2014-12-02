@@ -54,7 +54,7 @@
 		<UnitCombatInfo>
 			<Type>UNITCOMBAT_ELEPHANT</Type>
 			<Description>TXT_KEY_UNITCOMBAT_ELEPHANT</Description>
-			<Button>,Art/Interface/Buttons/Promotions/Elephant.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,7,13</Button>
+			<Button>,Art/Interface/Buttons/Promotions/UCElephant.dds</Button>
 		</UnitCombatInfo>
 	</UnitCombatInfos>
 </Civ4UnitCombatInfos>
