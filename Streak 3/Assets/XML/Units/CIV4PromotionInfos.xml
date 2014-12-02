@@ -169,8 +169,8 @@
             <Sound>AS2D_IF_LEVELUP</Sound>
             <Button>,Art/Interface/Buttons/WorldBuilder/Horse.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,4,13</Button>
             <TechPrereq>TECH_FOOD1</TechPrereq>
-            <iExtraCombatStr>1</iExtraCombatStr>
-            <iExtraCombatDefense>1</iExtraCombatDefense>
+            <iExtraCombatStr>5</iExtraCombatStr>
+            <iExtraCombatDefense>5</iExtraCombatDefense>
             <iMovesChange>1</iMovesChange>
             <UnitCombats>
 				<UnitCombat>
@@ -185,36 +185,37 @@
             <Description>TXT_KEY_PROMOTION_BRONZE_WEAPONS</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <Button>,Art/Interface/Buttons/WorldBuilder/Copper.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,5,12</Button>
-            <iExtraCombatStr>1</iExtraCombatStr>
-            <iExtraCombatDefense>1</iExtraCombatDefense>
+            <TechPrereq>TECH_FEUDAL_AGE</TechPrereq>
+            <iExtraCombatStr>7</iExtraCombatStr>
+            <iExtraCombatDefense>7</iExtraCombatDefense>
             <BonusPrereq>BONUS_COPPER</BonusPrereq>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_IRON_WEAPONS</Type>
             <Description>TXT_KEY_PROMOTION_IRON_WEAPONS</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_NEVER</TechPrereq>
             <Button>,Art/Interface/Buttons/WorldBuilder/Iron.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,6,13</Button>
-            <iExtraCombatStr>2</iExtraCombatStr>
-            <iExtraCombatDefense>2</iExtraCombatDefense>       
+            <TechPrereq>TECH_CASTLE_AGE</TechPrereq>
+            <iExtraCombatStr>13</iExtraCombatStr>
+            <iExtraCombatDefense>13</iExtraCombatDefense>       
         </PromotionInfo>  
         <PromotionInfo>
             <Type>PROMOTION_MITHRIL_WEAPONS</Type>
             <Description>TXT_KEY_PROMOTION_MITHRIL_WEAPONS</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_NEVER</TechPrereq>
             <Button>,Art/Interface/Buttons/WorldBuilder/Silver.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,4,14</Button>
-            <iExtraCombatStr>3</iExtraCombatStr>
-            <iExtraCombatDefense>3</iExtraCombatDefense>
+            <TechPrereq>TECH_IMPERIAL_AGE</TechPrereq>
+            <iExtraCombatStr>18</iExtraCombatStr>
+            <iExtraCombatDefense>18</iExtraCombatDefense>
         </PromotionInfo>     
         <PromotionInfo>
             <Type>PROMOTION_GUNPOWDER_WEAPONS</Type>
             <Description>TXT_KEY_PROMOTION_GUNPOWDER_WEAPONS</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <Button>,Art/Interface/Buttons/WorldBuilder/Coal.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,4,12</Button>
-            <TechPrereq>TECH_ARCHERY3</TechPrereq>
-            <iExtraCombatStr>2</iExtraCombatStr>
-            <iExtraCombatDefense>2</iExtraCombatDefense>
+            <TechPrereq>TECH_IMPERIAL_AGE</TechPrereq>
+            <iExtraCombatStr>12</iExtraCombatStr>
+            <iExtraCombatDefense>12</iExtraCombatDefense>
             <UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>

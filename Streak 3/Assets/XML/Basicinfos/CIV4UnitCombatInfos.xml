@@ -37,11 +37,6 @@
 			<Button>Art/Interface/Buttons/Units/UCAdept.dds</Button>
 		</UnitCombatInfo>
 		<UnitCombatInfo>
-			<Type>UNITCOMBAT_DISCIPLE</Type>
-			<Description>TXT_KEY_UNITCOMBAT_DISCIPLE</Description>
-			<Button>Art/Interface/Buttons/Units/UCDisciple.dds</Button>
-		</UnitCombatInfo>
-		<UnitCombatInfo>
 			<Type>UNITCOMBAT_ANIMAL</Type>
 			<Description>TXT_KEY_UNITCOMBAT_ANIMAL</Description>
 			<Button>Art/Interface/Buttons/Units/UCAnimal.dds</Button>
