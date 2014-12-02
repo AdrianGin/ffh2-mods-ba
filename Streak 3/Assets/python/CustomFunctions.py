@@ -1017,7 +1017,7 @@ class CustomFunctions:
 				iUnit = gc.getInfoTypeForString('UNIT_MAGE')
 			if gc.getUnitInfo(pUnit.getUnitType()).getTier() == 4:
 				iUnit = gc.getInfoTypeForString('UNIT_LICH')
-		if pUnit.getUnitCombatType() == gc.getInfoTypeForString('UNITCOMBAT_ANIMAL') or pUnit.getUnitCombatType() == gc.getInfoTypeForString('UNITCOMBAT_BEAST'):
+		if pUnit.getUnitCombatType() == gc.getInfoTypeForString('UNITCOMBAT_BEAST') or pUnit.getUnitCombatType() == gc.getInfoTypeForString('UNITCOMBAT_FLYING'):
 			if gc.getUnitInfo(pUnit.getUnitType()).getTier() == 1:
 				iUnit = gc.getInfoTypeForString('UNIT_SCOUT')
 			if gc.getUnitInfo(pUnit.getUnitType()).getTier() == 2:

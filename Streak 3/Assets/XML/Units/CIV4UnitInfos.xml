@@ -2753,6 +2753,10 @@
 			<UnitCombatMods>
 				<UnitCombatMod>
 					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+					<iUnitCombatMod>10</iUnitCombatMod>
+				</UnitCombatMod>
+				<UnitCombatMod>
+					<UnitCombatType>UNITCOMBAT_ELEPHANT</UnitCombatType>
 					<iUnitCombatMod>20</iUnitCombatMod>
 				</UnitCombatMod>
             </UnitCombatMods>
@@ -2982,7 +2986,11 @@
 			<UnitCombatMods>
 				<UnitCombatMod>
 					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-					<iUnitCombatMod>30</iUnitCombatMod>
+					<iUnitCombatMod>10</iUnitCombatMod>
+				</UnitCombatMod>
+				<UnitCombatMod>
+					<UnitCombatType>UNITCOMBAT_ELEPHANT</UnitCombatType>
+					<iUnitCombatMod>20</iUnitCombatMod>
 				</UnitCombatMod>
             </UnitCombatMods>
 			<UnitCombatCollateralImmunes>
@@ -3207,7 +3215,11 @@
 			<UnitCombatMods>
 				<UnitCombatMod>
 					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-					<iUnitCombatMod>40</iUnitCombatMod>
+					<iUnitCombatMod>15</iUnitCombatMod>
+				</UnitCombatMod>
+				<UnitCombatMod>
+					<UnitCombatType>UNITCOMBAT_ELEPHANT</UnitCombatType>
+					<iUnitCombatMod>30</iUnitCombatMod>
 				</UnitCombatMod>
             </UnitCombatMods>
 			<UnitCombatCollateralImmunes>
@@ -4819,7 +4831,7 @@
             </UniqueNames>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_MOUNTED</Combat>
+			<Combat>UNITCOMBAT_ELEPHANT</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
 			<Invisible>NONE</Invisible>
@@ -5038,7 +5050,7 @@
             </UniqueNames>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_MOUNTED</Combat>
+			<Combat>UNITCOMBAT_ELEPHANT</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
 			<Invisible>NONE</Invisible>
@@ -5421,6 +5433,10 @@
 			<UnitClassDefenseMods>
             </UnitClassDefenseMods>
 			<UnitCombatMods>
+				<UnitCombatMod>
+					<UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
+					<iUnitCombatMod>10</iUnitCombatMod>
+				</UnitCombatMod>
             </UnitCombatMods>
 			<UnitCombatCollateralImmunes>
             </UnitCombatCollateralImmunes>
@@ -5641,6 +5657,10 @@
 			<UnitClassDefenseMods>
             </UnitClassDefenseMods>
 			<UnitCombatMods>
+				<UnitCombatMod>
+					<UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
+					<iUnitCombatMod>10</iUnitCombatMod>
+				</UnitCombatMod>
             </UnitCombatMods>
 			<UnitCombatCollateralImmunes>
             </UnitCombatCollateralImmunes>
@@ -5865,6 +5885,10 @@
 					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
 					<iUnitCombatMod>20</iUnitCombatMod>
 				</UnitCombatMod>
+				<UnitCombatMod>
+					<UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
+					<iUnitCombatMod>10</iUnitCombatMod>
+				</UnitCombatMod>
             </UnitCombatMods>
 			<UnitCombatCollateralImmunes>
             </UnitCombatCollateralImmunes>
@@ -6073,6 +6097,10 @@
 			<UnitClassDefenseMods>
             </UnitClassDefenseMods>
 			<UnitCombatMods>
+				<UnitCombatMod>
+					<UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
+					<iUnitCombatMod>10</iUnitCombatMod>
+				</UnitCombatMod>
             </UnitCombatMods>
 			<UnitCombatCollateralImmunes>
             </UnitCombatCollateralImmunes>
@@ -6302,6 +6330,10 @@
 			<UnitClassDefenseMods>
             </UnitClassDefenseMods>
 			<UnitCombatMods>
+				<UnitCombatMod>
+					<UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
+					<iUnitCombatMod>10</iUnitCombatMod>
+				</UnitCombatMod>
             </UnitCombatMods>
 			<UnitCombatCollateralImmunes>
             </UnitCombatCollateralImmunes>

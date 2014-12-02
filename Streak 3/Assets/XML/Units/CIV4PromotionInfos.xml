@@ -235,7 +235,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -273,7 +273,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -310,7 +310,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -347,7 +347,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -384,7 +384,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -1229,7 +1229,7 @@
             <iFriendlyHealChange>10</iFriendlyHealChange>
             <UnitCombats>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -1458,7 +1458,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -1466,7 +1466,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -1502,7 +1502,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -1510,7 +1510,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -1548,7 +1548,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -1595,7 +1595,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -1603,7 +1603,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -1657,7 +1657,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -1665,7 +1665,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -1711,7 +1711,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -1719,7 +1719,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -1755,7 +1755,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -1763,7 +1763,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -1801,7 +1801,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -1809,7 +1809,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -1842,7 +1842,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -1850,7 +1850,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -1884,7 +1884,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -1892,7 +1892,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -1927,7 +1927,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -1935,7 +1935,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -1969,7 +1969,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -1977,7 +1977,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -2012,7 +2012,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -2020,7 +2020,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>

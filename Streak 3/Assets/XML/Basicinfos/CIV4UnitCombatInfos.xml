@@ -37,8 +37,8 @@
 			<Button>Art/Interface/Buttons/Units/UCAdept.dds</Button>
 		</UnitCombatInfo>
 		<UnitCombatInfo>
-			<Type>UNITCOMBAT_ANIMAL</Type>
-			<Description>TXT_KEY_UNITCOMBAT_ANIMAL</Description>
+			<Type>UNITCOMBAT_BEAST</Type>
+			<Description>TXT_KEY_UNITCOMBAT_BEAST</Description>
 			<Button>Art/Interface/Buttons/Units/UCAnimal.dds</Button>
 		</UnitCombatInfo>
 		<UnitCombatInfo>
@@ -47,9 +47,14 @@
 			<Button>,Art/Interface/Buttons/Promotions/Naval_Units.dds,Art/Interface/Buttons/Promotions_Atlas.dds,3,7</Button>
 		</UnitCombatInfo>
 		<UnitCombatInfo>
-			<Type>UNITCOMBAT_BEAST</Type>
-			<Description>TXT_KEY_UNITCOMBAT_BEAST</Description>
+			<Type>UNITCOMBAT_FLYING</Type>
+			<Description>TXT_KEY_UNITCOMBAT_FLYING</Description>
 			<Button>Art/Interface/Buttons/Units/UCBeast.dds</Button>
+		</UnitCombatInfo>		
+		<UnitCombatInfo>
+			<Type>UNITCOMBAT_ELEPHANT</Type>
+			<Description>TXT_KEY_UNITCOMBAT_ELEPHANT</Description>
+			<Button>,Art/Interface/Buttons/WorldBuilder/Ivory.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,7,13</Button>
 		</UnitCombatInfo>
 	</UnitCombatInfos>
 </Civ4UnitCombatInfos>

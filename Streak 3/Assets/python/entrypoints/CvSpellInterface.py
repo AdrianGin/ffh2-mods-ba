@@ -1686,7 +1686,7 @@ def reqMezmerizeAnimal(caster):
 			pPlot = CyMap().plot(iiX,iiY)
 			for i in range(pPlot.getNumUnits()):
 				pUnit = pPlot.getUnit(i)
-				if pUnit.getUnitCombatType() == gc.getInfoTypeForString('UNITCOMBAT_ANIMAL'):
+				if pUnit.getUnitCombatType() == gc.getInfoTypeForString('UNITCOMBAT_BEAST'):
 					if eTeam.isAtWar(pUnit.getTeam()):
 						return True
 	return False
@@ -1702,7 +1702,7 @@ def spellMezmerizeAnimal(caster):
 			pPlot = CyMap().plot(iiX,iiY)
 			for i in range(pPlot.getNumUnits()):
 				pUnit = pPlot.getUnit(i)
-				if pUnit.getUnitCombatType() == gc.getInfoTypeForString('UNITCOMBAT_ANIMAL'):
+				if pUnit.getUnitCombatType() == gc.getInfoTypeForString('UNITCOMBAT_BEAST'):
 					if eTeam.isAtWar(pUnit.getTeam()):
 						if pUnit.isDelayedDeath() == False:
 							if pUnit.isResisted(caster, gc.getInfoTypeForString('SPELL_MEZMERIZE_ANIMAL')) == False:
@@ -3061,7 +3061,7 @@ def spellTaunt(caster):
 
 
 def reqTeachSpellcasting(caster):
-	iAnimal = gc.getInfoTypeForString('UNITCOMBAT_ANIMAL')
+	iAnimal = gc.getInfoTypeForString('UNITCOMBAT_BEAST')
 	iBird = gc.getInfoTypeForString('SPECIALUNIT_BIRD')
 	lList = []
 	if caster.isHasPromotion(gc.getInfoTypeForString('PROMOTION_AIR1')):
@@ -3115,7 +3115,7 @@ def reqTeachSpellcasting(caster):
 	return False
 
 def spellTeachSpellcasting(caster):
-	iAnimal = gc.getInfoTypeForString('UNITCOMBAT_ANIMAL')
+	iAnimal = gc.getInfoTypeForString('UNITCOMBAT_BEAST')
 	iBird = gc.getInfoTypeForString('SPECIALUNIT_BIRD')
 	iChanneling1 = gc.getInfoTypeForString('PROMOTION_CHANNELING1')
 	lList = []
@@ -3292,9 +3292,9 @@ def spellTerraform(caster):
 		
 
 def reqWane(caster):
-	if caster.getUnitCombatType() == gc.getInfoTypeForString('UNITCOMBAT_ANIMAL'):
-		return False
 	if caster.getUnitCombatType() == gc.getInfoTypeForString('UNITCOMBAT_BEAST'):
+		return False
+	if caster.getUnitCombatType() == gc.getInfoTypeForString('UNITCOMBAT_FLYING'):
 		return False
 	if caster.isImmortal():
 		return False
