@@ -4168,6 +4168,7 @@
 			<bNeverObsolete>1</bNeverObsolete>
 			<iTier>2</iTier>
 			<PrereqBuildingClass>NONE</PrereqBuildingClass>
+			<iWeaponTier>2</iWeaponTier>
 		</UnitInfo>
 		<UnitInfo>
 			<Class>UNITCLASS_HORSE_ARCHER</Class>

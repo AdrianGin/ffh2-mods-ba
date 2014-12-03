@@ -171,7 +171,7 @@
             <bInBordersOnly>1</bInBordersOnly>
             <bInCityOnly>1</bInCityOnly>
             <bHasCasted>1</bHasCasted>
-            <iCost>34</iCost>
+            <iCost>31</iCost>
             <PyRequirement>reqHorseWeapons(pCaster)</PyRequirement>
             <PyResult>spellHorseWeapons(pCaster)</PyResult>
             <Effect>EFFECT_SPELL1</Effect>
@@ -190,7 +190,7 @@
             <bInBordersOnly>1</bInBordersOnly>
             <bInCityOnly>1</bInCityOnly>
             <bHasCasted>1</bHasCasted>
-            <iCost>68</iCost>
+            <iCost>37</iCost>
             <PyRequirement>reqElephantWeapons(pCaster)</PyRequirement>
             <PyResult>spellElephantWeapons(pCaster)</PyResult>
             <Effect>EFFECT_SPELL1</Effect>
@@ -265,7 +265,7 @@
             <bInBordersOnly>1</bInBordersOnly>
             <bInCityOnly>1</bInCityOnly>
             <bHasCasted>1</bHasCasted>
-            <iCost>33</iCost>
+            <iCost>21</iCost>
             <PyRequirement>reqBronzeWeaponsHorse(pCaster)</PyRequirement>
             <PyResult>spellBronzeWeaponsHorse(pCaster)</PyResult>
             <Effect>EFFECT_SPELL1</Effect>
@@ -283,7 +283,7 @@
             <bInBordersOnly>1</bInBordersOnly>
             <bInCityOnly>1</bInCityOnly>
             <bHasCasted>1</bHasCasted>
-            <iCost>68</iCost>
+            <iCost>42</iCost>
             <PyRequirement>reqIronWeaponsHorse(pCaster)</PyRequirement>
             <PyResult>spellIronWeaponsHorse(pCaster)</PyResult>
             <Effect>EFFECT_SPELL1</Effect>
@@ -301,7 +301,7 @@
             <bInBordersOnly>1</bInBordersOnly>
             <bInCityOnly>1</bInCityOnly>
             <bHasCasted>1</bHasCasted>
-            <iCost>120</iCost>
+            <iCost>84</iCost>
             <PyRequirement>reqMithrilWeaponsHorse(pCaster)</PyRequirement>
             <PyResult>spellMithrilWeaponsHorse(pCaster)</PyResult>
             <Effect>EFFECT_SPELL1</Effect>
