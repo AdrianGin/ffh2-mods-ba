@@ -205,7 +205,7 @@
 					<FeatureType>FEATURE_FOREST</FeatureType>
 					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
 					<iTime>250</iTime>
-					<iProduction>20</iProduction>
+					<iProduction>30</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
 			</FeatureStructs>
