@@ -179,8 +179,7 @@
 				</UnitCombat>
 			</UnitCombats>
 			<BonusPrereq>BONUS_HORSE</BonusPrereq>
-        </PromotionInfo>
-        
+        </PromotionInfo>        
 		<PromotionInfo>
             <Type>PROMOTION_ELEPHANT_WEAPONS</Type>
             <Description>TXT_KEY_PROMOTION_ELEPHANT_WEAPONS</Description>
@@ -196,9 +195,7 @@
 				</UnitCombat>
 			</UnitCombats>
 			<BonusPrereq>BONUS_IVORY</BonusPrereq>
-        </PromotionInfo>        
-        
-        
+        </PromotionInfo> 
 		<PromotionInfo>
             <Type>PROMOTION_BRONZE_WEAPONS_HORSE</Type>
             <Description>TXT_KEY_PROMOTION_BRONZE_WEAPONS_HORSE</Description>
@@ -227,8 +224,6 @@
             <iExtraCombatStr>20</iExtraCombatStr>
             <iExtraCombatDefense>20</iExtraCombatDefense>
         </PromotionInfo>
-        
-        
     	<PromotionInfo>
             <Type>PROMOTION_BRONZE_WEAPONS</Type>
             <Description>TXT_KEY_PROMOTION_BRONZE_WEAPONS</Description>
@@ -267,7 +262,7 @@
             <iExtraCombatDefense>12</iExtraCombatDefense>
             <UnitCombats>
 				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+					<UnitCombatType>UNITCOMBAT_GUNPOWDER</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 			</UnitCombats>
@@ -280,15 +275,19 @@
             <iCombatPercent>10</iCombatPercent>
             <UnitCombats>
                 <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_GUNPOWDER</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -296,11 +295,19 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_ELEPHANT</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
@@ -318,15 +325,19 @@
             <iCombatPercent>15</iCombatPercent>
             <UnitCombats>
                 <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_GUNPOWDER</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -334,11 +345,19 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_ELEPHANT</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
@@ -355,15 +374,19 @@
             <iCombatPercent>20</iCombatPercent>
             <UnitCombats>
                 <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_GUNPOWDER</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -371,11 +394,19 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_ELEPHANT</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
@@ -392,15 +423,19 @@
             <iCombatPercent>25</iCombatPercent>
             <UnitCombats>
                 <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_GUNPOWDER</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -408,11 +443,19 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_ELEPHANT</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
@@ -429,15 +472,19 @@
             <iCombatPercent>30</iCombatPercent>
             <UnitCombats>
                 <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_GUNPOWDER</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -445,11 +492,19 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_ELEPHANT</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
@@ -464,11 +519,19 @@
             <iFirstStrikesChange>1</iFirstStrikesChange>
             <UnitCombats>
                 <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_GUNPOWDER</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -476,11 +539,11 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_ELEPHANT</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
@@ -496,11 +559,19 @@
             <iCollateralDamageProtection>15</iCollateralDamageProtection>
             <UnitCombats>
                 <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_GUNPOWDER</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -508,11 +579,11 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_ELEPHANT</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
@@ -528,11 +599,19 @@
             <iCollateralDamageProtection>30</iCollateralDamageProtection>
             <UnitCombats>
                 <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_GUNPOWDER</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -540,11 +619,11 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_ELEPHANT</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
@@ -562,11 +641,19 @@
             </UnitCombatMods>
             <UnitCombats>
                 <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_GUNPOWDER</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -574,11 +661,11 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_ELEPHANT</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
@@ -595,6 +682,18 @@
                     <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_GUNPOWDER</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ELEPHANT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
             </UnitCombats>
             <Button>,Art/Interface/Buttons/Promotions/CityRaider1.dds,Art/Interface/Buttons/Promotions_Atlas.dds,5,2</Button>
             <PromotionNextLevel>PROMOTION_CITY_RAIDER2</PromotionNextLevel>
@@ -605,10 +704,22 @@
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_CITY_RAIDER1</PromotionPrereq>            
             <TechPrereq>TECH_CASTLE_AGE</TechPrereq>
-            <iCityAttack>30</iCityAttack>
+            <iCityAttack>40</iCityAttack>
             <UnitCombats>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_GUNPOWDER</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ELEPHANT</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
@@ -621,12 +732,22 @@
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_CITY_RAIDER2</PromotionPrereq>  
             <TechPrereq>TECH_IMPERIAL_AGE</TechPrereq>
-            <iCityAttack>30</iCityAttack>
-            <UnitCombatMods>
-            </UnitCombatMods>
+            <iCityAttack>50</iCityAttack>
             <UnitCombats>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_GUNPOWDER</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ELEPHANT</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
@@ -637,14 +758,18 @@
             <Description>Garrison I</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <TechPrereq>TECH_FEUDAL_AGE</TechPrereq>
-            <iCityDefense>30</iCityDefense>
+            <iCityDefense>25</iCityDefense>
             <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>                
+                </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_GUNPOWDER</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
@@ -660,11 +785,15 @@
             <iCityDefense>30</iCityDefense>
             <UnitCombats>
                 <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>                
+                </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_GUNPOWDER</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
@@ -677,14 +806,18 @@
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_CITY_GARRISON2</PromotionPrereq>            
             <TechPrereq>TECH_IMPERIAL_AGE</TechPrereq>
-            <iCityDefense>30</iCityDefense>
+            <iCityDefense>35</iCityDefense>
             <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>                
+                </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_GUNPOWDER</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
@@ -703,11 +836,19 @@
             </UnitCombatMods>
             <UnitCombats>
                 <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_GUNPOWDER</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -715,7 +856,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_ELEPHANT</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
@@ -735,11 +876,19 @@
             </UnitCombatMods>
             <UnitCombats>
                 <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_GUNPOWDER</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -747,7 +896,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_ELEPHANT</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
@@ -767,11 +916,19 @@
             </UnitCombatMods>
             <UnitCombats>
                 <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_GUNPOWDER</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -779,7 +936,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_ELEPHANT</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
@@ -798,11 +955,19 @@
             </UnitCombatMods>
             <UnitCombats>
                 <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_GUNPOWDER</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -810,7 +975,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_ELEPHANT</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
@@ -830,11 +995,19 @@
             </UnitCombatMods>
             <UnitCombats>
                 <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_GUNPOWDER</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -842,7 +1015,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_ELEPHANT</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
@@ -862,11 +1035,19 @@
             </UnitCombatMods>
             <UnitCombats>
                 <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_GUNPOWDER</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -874,7 +1055,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_ELEPHANT</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
@@ -893,11 +1074,19 @@
             </UnitCombatMods>
             <UnitCombats>
                 <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_GUNPOWDER</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -905,7 +1094,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_ELEPHANT</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
@@ -925,11 +1114,19 @@
             </UnitCombatMods>
             <UnitCombats>
                 <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_GUNPOWDER</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -937,7 +1134,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_ELEPHANT</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
@@ -957,11 +1154,19 @@
             </UnitCombatMods>
             <UnitCombats>
                 <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_GUNPOWDER</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -969,7 +1174,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_ELEPHANT</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
@@ -1066,15 +1271,19 @@
             <iHillsDefense>20</iHillsDefense>
             <UnitCombats>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_GUNPOWDER</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
@@ -1090,15 +1299,19 @@
             <iHillsDefense>20</iHillsDefense>
             <UnitCombats>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_GUNPOWDER</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
@@ -1112,11 +1325,19 @@
             <iMovesChange>1</iMovesChange>
             <UnitCombats>
                 <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_GUNPOWDER</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -1128,7 +1349,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
@@ -1157,15 +1378,19 @@
             <iWithdrawalChange>15</iWithdrawalChange>
             <UnitCombats>
                 <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_ELEPHANT</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
@@ -1180,15 +1405,19 @@
             <iWithdrawalChange>20</iWithdrawalChange>
             <UnitCombats>
                 <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_ELEPHANT</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
@@ -1204,14 +1433,6 @@
             <UnitCombats>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
@@ -1246,11 +1467,19 @@
             <bRiver>1</bRiver>
             <UnitCombats>
                 <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_GUNPOWDER</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -1258,7 +1487,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_ELEPHANT</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
@@ -1276,7 +1505,7 @@
             <iFriendlyHealChange>10</iFriendlyHealChange>
             <UnitCombats>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -1284,7 +1513,11 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_GUNPOWDER</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
@@ -1298,11 +1531,19 @@
             <bBlitz>1</bBlitz>
             <UnitCombats>
                 <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_GUNPOWDER</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -1310,7 +1551,11 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_ELEPHANT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
@@ -1325,11 +1570,19 @@
             <iVisibilityChange>1</iVisibilityChange>
             <UnitCombats>
                 <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_GUNPOWDER</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -1338,10 +1591,6 @@
                 </UnitCombat>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
@@ -1357,11 +1606,11 @@
             <iVisibilityChange>1</iVisibilityChange>
             <UnitCombats>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
@@ -1375,11 +1624,15 @@
             <TechPrereq>NONE</TechPrereq>
             <UnitCombats>
                 <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_GUNPOWDER</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
@@ -1394,6 +1647,10 @@
             <UnitCombats>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_GUNPOWDER</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
