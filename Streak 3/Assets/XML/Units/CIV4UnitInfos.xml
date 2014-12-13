@@ -9591,7 +9591,7 @@
 			</FreePromotions>
 			<LeaderPromotion>NONE</LeaderPromotion>
 			<iLeaderExperience>0</iLeaderExperience>
-			<iCombatDefense>61</iCombatDefense>
+			<iCombatDefense>66</iCombatDefense>
 			<bNeverObsolete>1</bNeverObsolete>
 			<iTier>3</iTier>
 		</UnitInfo>
@@ -9827,7 +9827,7 @@
             </FreePromotions>
 			<LeaderPromotion>NONE</LeaderPromotion>
 			<iLeaderExperience>0</iLeaderExperience>
-			<iCombatDefense>72</iCombatDefense>
+			<iCombatDefense>78</iCombatDefense>
 			<bNeverObsolete>1</bNeverObsolete>
 			<iTier>3</iTier>
 		</UnitInfo>
