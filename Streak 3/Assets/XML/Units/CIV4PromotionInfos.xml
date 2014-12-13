@@ -461,7 +461,7 @@
             <Type>PROMOTION_DRILL1</Type>
             <Description>Drill I</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
-            <iChanceFirstStrikesChange>1</iChanceFirstStrikesChange>
+            <iFirstStrikesChange>1</iFirstStrikesChange>
             <UnitCombats>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
@@ -493,6 +493,7 @@
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_DRILL1</PromotionPrereq>
             <iFirstStrikesChange>1</iFirstStrikesChange>
+            <iCollateralDamageProtection>15</iCollateralDamageProtection>
             <UnitCombats>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
@@ -523,8 +524,8 @@
             <Description>Drill III</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_DRILL2</PromotionPrereq>
-            <iChanceFirstStrikesChange>2</iChanceFirstStrikesChange>
-            <iCollateralDamageProtection>20</iCollateralDamageProtection>
+            <iFirstStrikesChange>1</iFirstStrikesChange>
+            <iCollateralDamageProtection>30</iCollateralDamageProtection>
             <UnitCombats>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
@@ -556,7 +557,7 @@
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_DRILL3</PromotionPrereq>
             <iFirstStrikesChange>2</iFirstStrikesChange>
-            <iCollateralDamageProtection>20</iCollateralDamageProtection>
+            <iCollateralDamageProtection>30</iCollateralDamageProtection>
             <UnitCombatMods>
             </UnitCombatMods>
             <UnitCombats>
@@ -1062,7 +1063,7 @@
             <Type>PROMOTION_GUERILLA1</Type>
             <Description>Guerilla I</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
-            <iHillsDefense>30</iHillsDefense>
+            <iHillsDefense>20</iHillsDefense>
             <UnitCombats>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
@@ -1086,7 +1087,7 @@
             <Sound>AS2D_IF_LEVELUP</Sound>            
             <PromotionPrereq>PROMOTION_GUERILLA1</PromotionPrereq>
             <bHillsDoubleMove>1</bHillsDoubleMove>
-            <iHillsDefense>30</iHillsDefense>
+            <iHillsDefense>20</iHillsDefense>
             <UnitCombats>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
