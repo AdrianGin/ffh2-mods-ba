@@ -17,6 +17,11 @@
 			<Button>Art/Interface/Buttons/Units/UCArcher.dds</Button>
 		</UnitCombatInfo>
 		<UnitCombatInfo>
+			<Type>UNITCOMBAT_GUNPOWDER</Type>
+			<Description>TXT_KEY_UNITCOMBAT_GUNPOWDER</Description>
+			<Button>Art/Interface/Buttons/Units/UCArcher.dds</Button>
+		</UnitCombatInfo>
+		<UnitCombatInfo>
 			<Type>UNITCOMBAT_MOUNTED</Type>
 			<Description>TXT_KEY_UNITCOMBAT_MOUNTED</Description>
 			<Button>,Art/Interface/Buttons/Promotions/Formation.dds,Art/Interface/Buttons/Promotions_Atlas.dds,1,2</Button>

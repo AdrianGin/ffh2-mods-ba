@@ -1124,6 +1124,10 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ELEPHANT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
