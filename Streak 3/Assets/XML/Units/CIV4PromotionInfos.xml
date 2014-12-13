@@ -982,21 +982,21 @@
             <FeatureAttacks>
                 <FeatureAttack>
                     <FeatureType>FEATURE_JUNGLE</FeatureType>
-                    <iFeatureAttack>20</iFeatureAttack>
+                    <iFeatureAttack>15</iFeatureAttack>
                 </FeatureAttack>
                 <FeatureAttack>
                     <FeatureType>FEATURE_FOREST</FeatureType>
-                    <iFeatureAttack>20</iFeatureAttack>
+                    <iFeatureAttack>15</iFeatureAttack>
                 </FeatureAttack>
             </FeatureAttacks>
             <FeatureDefenses>
                 <FeatureDefense>
                     <FeatureType>FEATURE_JUNGLE</FeatureType>
-                    <iFeatureDefense>20</iFeatureDefense>
+                    <iFeatureDefense>15</iFeatureDefense>
                 </FeatureDefense>
                 <FeatureDefense>
                     <FeatureType>FEATURE_FOREST</FeatureType>
-                    <iFeatureDefense>20</iFeatureDefense>
+                    <iFeatureDefense>15</iFeatureDefense>
                 </FeatureDefense>
             </FeatureDefenses>
             <UnitCombats>
