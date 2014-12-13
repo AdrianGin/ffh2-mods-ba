@@ -1108,7 +1108,7 @@
             <Type>PROMOTION_MOBILITY1</Type>
             <Description>Mobility I</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_COMBAT1</PromotionPrereq>
+            <PromotionPrereq>PROMOTION_COMBAT2</PromotionPrereq>
             <iMovesChange>1</iMovesChange>
             <UnitCombats>
                 <UnitCombat>
@@ -1219,7 +1219,7 @@
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_COMBAT2</PromotionPrereq>
             <bEnemyRoute>1</bEnemyRoute>
-            <iWithdrawalChange>20</iWithdrawalChange>
+            <iWithdrawalChange>15</iWithdrawalChange>
             <iFirstStrikesChange>1</iFirstStrikesChange>
             <UnitCombats>
                 <UnitCombat>
