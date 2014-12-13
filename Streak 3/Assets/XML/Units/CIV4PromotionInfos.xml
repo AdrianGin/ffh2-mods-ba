@@ -1218,8 +1218,8 @@
             <Description>Commando</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_COMBAT2</PromotionPrereq>
-            <iWithdrawalChange>20</iWithdrawalChange>
             <bEnemyRoute>1</bEnemyRoute>
+            <iWithdrawalChange>20</iWithdrawalChange>
             <iFirstStrikesChange>1</iFirstStrikesChange>
             <UnitCombats>
                 <UnitCombat>
