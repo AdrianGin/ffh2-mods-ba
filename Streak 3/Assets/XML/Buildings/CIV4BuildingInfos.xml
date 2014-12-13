@@ -4440,6 +4440,10 @@
 					<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
                     <iExperience>2</iExperience>
 				</UnitCombatFreeExperience>
+				<UnitCombatFreeExperience>
+					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <iExperience>2</iExperience>
+				</UnitCombatFreeExperience>
             </UnitCombatFreeExperiences>
             <DomainFreeExperiences>
             </DomainFreeExperiences>
