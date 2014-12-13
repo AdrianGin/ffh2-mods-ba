@@ -1244,7 +1244,7 @@
             <Type>PROMOTION_AMPHIBIOUS</Type>
             <Description>Amphibious</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_COMBAT2</PromotionPrereq>
+            <PromotionPrereq>PROMOTION_COMBAT1</PromotionPrereq>
             <bAmphib>1</bAmphib>
             <bRiver>1</bRiver>
             <UnitCombats>
