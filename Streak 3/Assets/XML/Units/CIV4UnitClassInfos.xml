@@ -300,7 +300,7 @@
 			<Description></Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iMaxPlayerInstances>5</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_PIT_BEAST</DefaultUnit>
 		</UnitClassInfo>

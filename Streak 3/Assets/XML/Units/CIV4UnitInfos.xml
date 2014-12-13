@@ -1863,7 +1863,7 @@
 			<UnitCombatMods>
 				<UnitCombatMod>
 					<UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
-					<iUnitCombatMod>10</iUnitCombatMod>
+					<iUnitCombatMod>15</iUnitCombatMod>
 				</UnitCombatMod>
             </UnitCombatMods>
 			<UnitCombatCollateralImmunes>
@@ -7278,7 +7278,7 @@
 			<bFirstStrikeImmune>0</bFirstStrikeImmune>
 			<bNoDefensiveBonus>1</bNoDefensiveBonus>
 			<bIgnoreBuildingDefense>0</bIgnoreBuildingDefense>
-			<bCanMoveImpassable>0</bCanMoveImpassable>
+			<bCanMoveImpassable>1</bCanMoveImpassable>
 			<bCanMoveAllTerrain>0</bCanMoveAllTerrain>
 			<bFlatMovementCost>0</bFlatMovementCost>
 			<bIgnoreTerrainCost>0</bIgnoreTerrainCost>
@@ -7695,7 +7695,7 @@
 			<bGoldenAge>0</bGoldenAge>
 			<bInvisible>0</bInvisible>
 			<bFirstStrikeImmune>0</bFirstStrikeImmune>
-			<bNoDefensiveBonus>0</bNoDefensiveBonus>
+			<bNoDefensiveBonus>1</bNoDefensiveBonus>
 			<bIgnoreBuildingDefense>0</bIgnoreBuildingDefense>
 			<bCanMoveImpassable>0</bCanMoveImpassable>
 			<bCanMoveAllTerrain>0</bCanMoveAllTerrain>
@@ -7901,7 +7901,7 @@
 			<bGoldenAge>0</bGoldenAge>
 			<bInvisible>0</bInvisible>
 			<bFirstStrikeImmune>0</bFirstStrikeImmune>
-			<bNoDefensiveBonus>0</bNoDefensiveBonus>
+			<bNoDefensiveBonus>1</bNoDefensiveBonus>
 			<bIgnoreBuildingDefense>0</bIgnoreBuildingDefense>
 			<bCanMoveImpassable>0</bCanMoveImpassable>
 			<bCanMoveAllTerrain>0</bCanMoveAllTerrain>
@@ -8109,7 +8109,7 @@
 			<bGoldenAge>0</bGoldenAge>
 			<bInvisible>0</bInvisible>
 			<bFirstStrikeImmune>0</bFirstStrikeImmune>
-			<bNoDefensiveBonus>0</bNoDefensiveBonus>
+			<bNoDefensiveBonus>1</bNoDefensiveBonus>
 			<bIgnoreBuildingDefense>0</bIgnoreBuildingDefense>
 			<bCanMoveImpassable>0</bCanMoveImpassable>
 			<bCanMoveAllTerrain>0</bCanMoveAllTerrain>
@@ -8167,9 +8167,9 @@
 			<Flavors>
             </Flavors>
 			<iAIWeight>0</iAIWeight>
-			<iCost>60</iCost>
+			<iCost>80</iCost>
 			<iHurryCostModifier>0</iHurryCostModifier>
-			<iAdvancedStartCost>-1</iAdvancedStartCost>
+			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
@@ -8196,7 +8196,7 @@
             </TerrainPassableTechs>
 			<FeaturePassableTechs>
             </FeaturePassableTechs>
-			<iCombat>40</iCombat>
+			<iCombat>45</iCombat>
 			<iCombatLimit>100</iCombatLimit>
 			<iAirCombat>0</iAirCombat>
 			<iAirCombatLimit>0</iAirCombatLimit>
@@ -8268,10 +8268,18 @@
 			<bGraphicalOnly>0</bGraphicalOnly>
 			<iHotKeyPriority>0</iHotKeyPriority>
 			<FreePromotions>
+				<FreePromotion>
+					<PromotionType>PROMOTION_WOODSMAN1</PromotionType>
+					<bFreePromotion>1</bFreePromotion>
+				</FreePromotion>
+				<FreePromotion>
+					<PromotionType>PROMOTION_WOODSMAN2</PromotionType>
+					<bFreePromotion>1</bFreePromotion>
+				</FreePromotion>
 			</FreePromotions>
 			<LeaderPromotion>NONE</LeaderPromotion>
 			<iLeaderExperience>0</iLeaderExperience>
-			<iCombatDefense>40</iCombatDefense>
+			<iCombatDefense>45</iCombatDefense>
 			<iTier>3</iTier>
 			<DamageTypeCombats>
 			</DamageTypeCombats>
@@ -8313,7 +8321,7 @@
 			<bGoldenAge>0</bGoldenAge>
 			<bInvisible>0</bInvisible>
 			<bFirstStrikeImmune>0</bFirstStrikeImmune>
-			<bNoDefensiveBonus>0</bNoDefensiveBonus>
+			<bNoDefensiveBonus>1</bNoDefensiveBonus>
 			<bIgnoreBuildingDefense>0</bIgnoreBuildingDefense>
 			<bCanMoveImpassable>0</bCanMoveImpassable>
 			<bCanMoveAllTerrain>1</bCanMoveAllTerrain>
@@ -8404,7 +8412,7 @@
             </TerrainPassableTechs>
 			<FeaturePassableTechs>
             </FeaturePassableTechs>
-			<iCombat>40</iCombat>
+			<iCombat>47</iCombat>
 			<iCombatLimit>100</iCombatLimit>
 			<iAirCombat>0</iAirCombat>
 			<iAirCombatLimit>0</iAirCombatLimit>
@@ -8483,7 +8491,7 @@
 			</FreePromotions>
 			<LeaderPromotion>NONE</LeaderPromotion>
 			<iLeaderExperience>0</iLeaderExperience>
-			<iCombatDefense>40</iCombatDefense>
+			<iCombatDefense>47</iCombatDefense>
 			<iTier>2</iTier>
 			<iWeaponTier>0</iWeaponTier>
 			<DamageTypeCombats>
@@ -8526,7 +8534,7 @@
 			<bGoldenAge>0</bGoldenAge>
 			<bInvisible>0</bInvisible>
 			<bFirstStrikeImmune>0</bFirstStrikeImmune>
-			<bNoDefensiveBonus>0</bNoDefensiveBonus>
+			<bNoDefensiveBonus>1</bNoDefensiveBonus>
 			<bIgnoreBuildingDefense>0</bIgnoreBuildingDefense>
 			<bCanMoveImpassable>0</bCanMoveImpassable>
 			<bCanMoveAllTerrain>0</bCanMoveAllTerrain>
@@ -8736,7 +8744,7 @@
 			<bGoldenAge>0</bGoldenAge>
 			<bInvisible>0</bInvisible>
 			<bFirstStrikeImmune>0</bFirstStrikeImmune>
-			<bNoDefensiveBonus>0</bNoDefensiveBonus>
+			<bNoDefensiveBonus>1</bNoDefensiveBonus>
 			<bIgnoreBuildingDefense>0</bIgnoreBuildingDefense>
 			<bCanMoveImpassable>0</bCanMoveImpassable>
 			<bCanMoveAllTerrain>0</bCanMoveAllTerrain>
@@ -9013,7 +9021,7 @@
 			<Flavors>
             </Flavors>
 			<iAIWeight>0</iAIWeight>
-			<iCost>40</iCost>
+			<iCost>50</iCost>
 			<iHurryCostModifier>0</iHurryCostModifier>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
@@ -9043,14 +9051,10 @@
 			<FeatureImpassables>
             </FeatureImpassables>
 			<TerrainPassableTechs>
-				<TerrainPassableTech>
-					<TerrainType>TERRAIN_OCEAN</TerrainType>
-					<PassableTech>TECH_NAVY2</PassableTech>
-				</TerrainPassableTech>
             </TerrainPassableTechs>
 			<FeaturePassableTechs>
             </FeaturePassableTechs>
-			<iCombat>6</iCombat>
+			<iCombat>42</iCombat>
 			<iCombatLimit>100</iCombatLimit>
 			<iAirCombat>0</iAirCombat>
 			<iAirCombatLimit>0</iAirCombatLimit>
@@ -9125,7 +9129,7 @@
 			</FreePromotions>
 			<LeaderPromotion>NONE</LeaderPromotion>
 			<iLeaderExperience>0</iLeaderExperience>
-			<iCombatDefense>6</iCombatDefense>
+			<iCombatDefense>42</iCombatDefense>
 			<bNeverObsolete>1</bNeverObsolete>
 			<iTier>2</iTier>
 		</UnitInfo>
@@ -9245,7 +9249,7 @@
 			<Flavors>
             </Flavors>
 			<iAIWeight>0</iAIWeight>
-			<iCost>60</iCost>
+			<iCost>70</iCost>
 			<iHurryCostModifier>0</iHurryCostModifier>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
@@ -9275,14 +9279,10 @@
 			<FeatureImpassables>
             </FeatureImpassables>
 			<TerrainPassableTechs>
-				<TerrainPassableTech>
-					<TerrainType>TERRAIN_OCEAN</TerrainType>
-					<PassableTech>TECH_NAVY2</PassableTech>
-				</TerrainPassableTech>
             </TerrainPassableTechs>
 			<FeaturePassableTechs>
             </FeaturePassableTechs>
-			<iCombat>8</iCombat>
+			<iCombat>53</iCombat>
 			<iCombatLimit>100</iCombatLimit>
 			<iAirCombat>0</iAirCombat>
 			<iAirCombatLimit>0</iAirCombatLimit>
@@ -9357,7 +9357,7 @@
             </FreePromotions>
 			<LeaderPromotion>NONE</LeaderPromotion>
 			<iLeaderExperience>0</iLeaderExperience>
-			<iCombatDefense>8</iCombatDefense>
+			<iCombatDefense>49</iCombatDefense>
 			<bNeverObsolete>1</bNeverObsolete>
 			<iTier>2</iTier>
 		</UnitInfo>
