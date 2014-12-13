@@ -8501,7 +8501,7 @@
 			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
 			<Invisible>NONE</Invisible>
 			<SeeInvisible>NONE</SeeInvisible>
-			<Description>TXT_KEY_UNIT_STYGIAN_GUARD</Description>
+			<Description>TXT_KEY_UNIT_STYGIAN_DROWN</Description>
 			<Civilopedia>TXT_KEY_UNIT_PLACEHOLDER_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_STYGIAN_GUARD_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
