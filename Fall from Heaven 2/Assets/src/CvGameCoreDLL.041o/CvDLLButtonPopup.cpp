@@ -492,6 +492,7 @@ void CvDLLButtonPopup::OnOkClicked(CvPopup* pPopup, PopupReturn *pPopupReturn, C
 										pUnit->setTargetUnit(pLoopUnit);
 										if( pUnit->canCast(pUnit->getSelectedRangedSpell(), false) )
 										{
+											GC.getGameINLINE().selectionListGameNetMessage(GAMEMESSAGE_DO_COMMAND, COMMAND_SET_TARGET_PLOT, pTargetPlot->getX_INLINE(), pTargetPlot->getY_INLINE());
 											GC.getGameINLINE().selectionListGameNetMessage(GAMEMESSAGE_DO_COMMAND, COMMAND_SET_TARGET_UNIT, pLoopUnit->getOwnerINLINE(), pLoopUnit->getID() );
 											GC.getGameINLINE().selectionListGameNetMessage(GAMEMESSAGE_DO_COMMAND, COMMAND_CAST_RANGED, pUnit->getSelectedRangedSpell());
 										}

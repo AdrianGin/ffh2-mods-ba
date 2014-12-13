@@ -17047,12 +17047,14 @@ void CvUnit::doDamage(int iDmg, int iDmgLimit, CvUnit* pAttacker, int iDmgType, 
     CvWString szMessage;
     int iResist;
 
-    iResist = baseCombatStrDefense() *2;
-    iResist += getLevel() * 2;
-	if (plot()->getPlotCity() != NULL)
-	{
-		iResist += (plot()->getPlotCity()->getDefenseModifier(false) / 4);
-	}
+	
+    //iResist = baseCombatStrDefense() *2;
+    //iResist += getLevel() * 2;
+	//if (plot()->getPlotCity() != NULL)
+	//{
+	//	iResist += (plot()->getPlotCity()->getDefenseModifier(false) / 4);
+	//}
+
     if (iDmgType != -1)
     {
         iResist += getDamageTypeResist((DamageTypes)iDmgType);
