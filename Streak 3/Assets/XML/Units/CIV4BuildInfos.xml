@@ -30,7 +30,7 @@
 					<FeatureType>FEATURE_FOREST</FeatureType>
 					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
 					<iTime>250</iTime>
-					<iProduction>20</iProduction>
+					<iProduction>45</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
 			</FeatureStructs>
@@ -64,7 +64,7 @@
 					<FeatureType>FEATURE_FOREST</FeatureType>
 					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
 					<iTime>250</iTime>
-					<iProduction>20</iProduction>
+					<iProduction>45</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
 			</FeatureStructs>
@@ -98,7 +98,7 @@
 					<FeatureType>FEATURE_FOREST</FeatureType>
 					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
 					<iTime>250</iTime>
-					<iProduction>20</iProduction>
+					<iProduction>45</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
 			</FeatureStructs>
@@ -132,7 +132,7 @@
 					<FeatureType>FEATURE_FOREST</FeatureType>
 					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
 					<iTime>250</iTime>
-					<iProduction>20</iProduction>
+					<iProduction>45</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
 			</FeatureStructs>
@@ -177,7 +177,7 @@
 				<FeatureStruct>
 					<FeatureType>FEATURE_JUNGLE</FeatureType>
 					<PrereqTech>TECH_PRODUCTION2</PrereqTech>
-					<iTime>400</iTime>
+					<iTime>600</iTime>
 					<iProduction>0</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
@@ -204,8 +204,8 @@
 				<FeatureStruct>
 					<FeatureType>FEATURE_FOREST</FeatureType>
 					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
-					<iTime>250</iTime>
-					<iProduction>30</iProduction>
+					<iTime>500</iTime>
+					<iProduction>45</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
 			</FeatureStructs>
@@ -239,7 +239,7 @@
 					<FeatureType>FEATURE_FOREST</FeatureType>
 					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
 					<iTime>250</iTime>
-					<iProduction>20</iProduction>
+					<iProduction>45</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
 			</FeatureStructs>
@@ -311,7 +311,7 @@
 					<FeatureType>FEATURE_FOREST</FeatureType>
 					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
 					<iTime>250</iTime>
-					<iProduction>20</iProduction>
+					<iProduction>45</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
 			</FeatureStructs>
@@ -364,7 +364,7 @@
 					<FeatureType>FEATURE_FOREST</FeatureType>
 					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
 					<iTime>250</iTime>
-					<iProduction>20</iProduction>
+					<iProduction>45</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
 			</FeatureStructs>
@@ -398,7 +398,7 @@
 					<FeatureType>FEATURE_FOREST</FeatureType>
 					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
 					<iTime>250</iTime>
-					<iProduction>20</iProduction>
+					<iProduction>45</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
 			</FeatureStructs>
@@ -432,7 +432,7 @@
 					<FeatureType>FEATURE_FOREST</FeatureType>
 					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
 					<iTime>250</iTime>
-					<iProduction>20</iProduction>
+					<iProduction>45</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
 			</FeatureStructs>
@@ -511,7 +511,7 @@
 					<FeatureType>FEATURE_FOREST</FeatureType>
 					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
 					<iTime>250</iTime>
-					<iProduction>20</iProduction>
+					<iProduction>45</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
 			</FeatureStructs>
@@ -545,7 +545,7 @@
 					<FeatureType>FEATURE_FOREST</FeatureType>
 					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
 					<iTime>250</iTime>
-					<iProduction>20</iProduction>
+					<iProduction>45</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
 			</FeatureStructs>
@@ -579,7 +579,7 @@
 					<FeatureType>FEATURE_FOREST</FeatureType>
 					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
 					<iTime>250</iTime>
-					<iProduction>20</iProduction>
+					<iProduction>45</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
 			</FeatureStructs>
@@ -613,7 +613,7 @@
 					<FeatureType>FEATURE_FOREST</FeatureType>
 					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
 					<iTime>250</iTime>
-					<iProduction>20</iProduction>
+					<iProduction>45</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
 			</FeatureStructs>
@@ -647,7 +647,7 @@
 					<FeatureType>FEATURE_FOREST</FeatureType>
 					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
 					<iTime>250</iTime>
-					<iProduction>20</iProduction>
+					<iProduction>45</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
 			</FeatureStructs>
@@ -681,7 +681,7 @@
 					<FeatureType>FEATURE_FOREST</FeatureType>
 					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
 					<iTime>250</iTime>
-					<iProduction>20</iProduction>
+					<iProduction>45</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
 			</FeatureStructs>
@@ -715,7 +715,7 @@
 					<FeatureType>FEATURE_FOREST</FeatureType>
 					<PrereqTech>TECH_PRODUCTION1</PrereqTech>
 					<iTime>250</iTime>
-					<iProduction>20</iProduction>
+					<iProduction>45</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
 			</FeatureStructs>
