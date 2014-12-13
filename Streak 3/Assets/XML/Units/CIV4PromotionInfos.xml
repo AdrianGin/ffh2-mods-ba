@@ -1218,19 +1218,12 @@
             <Description>Commando</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_COMBAT2</PromotionPrereq>
+            <iWithdrawalChange>20</iWithdrawalChange>
             <bEnemyRoute>1</bEnemyRoute>
-            <iChanceFirstStrikesChange>1</iChanceFirstStrikesChange>
+            <iFirstStrikesChange>1</iFirstStrikesChange>
             <UnitCombats>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
