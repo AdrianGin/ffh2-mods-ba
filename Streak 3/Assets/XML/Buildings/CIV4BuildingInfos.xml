@@ -1089,6 +1089,10 @@
 					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
                     <iExperience>2</iExperience>
 				</UnitCombatFreeExperience>
+				<UnitCombatFreeExperience>
+					<UnitCombatType>UNITCOMBAT_GUNPOWDER</UnitCombatType>
+                    <iExperience>2</iExperience>
+				</UnitCombatFreeExperience>
             </UnitCombatFreeExperiences>
             <DomainFreeExperiences>
             </DomainFreeExperiences>
@@ -4206,6 +4210,10 @@
             <UnitCombatFreeExperiences>
 				<UnitCombatFreeExperience>
 					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+                    <iExperience>2</iExperience>
+				</UnitCombatFreeExperience>
+				<UnitCombatFreeExperience>
+					<UnitCombatType>UNITCOMBAT_ELEPHANT</UnitCombatType>
                     <iExperience>2</iExperience>
 				</UnitCombatFreeExperience>
             </UnitCombatFreeExperiences>
