@@ -20,11 +20,11 @@
 			<Type>UNITCOMBAT_ARCHER</Type>
 			<Description>TXT_KEY_UNITCOMBAT_ARCHER</Description>
 			<Button>Art/Interface/Buttons/Units/UCArcher.dds</Button>
-		</UnitCombatInfo>
+		</UnitCombatInfo>		
 		<UnitCombatInfo>
 			<Type>UNITCOMBAT_GUNPOWDER</Type>
 			<Description>TXT_KEY_UNITCOMBAT_GUNPOWDER</Description>
-			<Button>Art/Interface/Buttons/Units/UCArcher.dds</Button>
+			<Button>,Art/Interface/Buttons/Promotions/Pinch.dds,Art/Interface/Buttons/Promotions_Atlas.dds,3,5</Button>
 		</UnitCombatInfo>
 		<UnitCombatInfo>
 			<Type>UNITCOMBAT_MOUNTED</Type>
