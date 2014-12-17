@@ -10,17 +10,7 @@ Need to allow Seige to have promotions
 
 Update promotion names
 
-
-
-Stoneskin +2 Defence Strength
-Nval Units
-Seige Units
 Haste - bug?
-
-
-
-
-Fireball
 War Elephants + Horses + Haste
 
 
@@ -29,14 +19,6 @@ Water Walking
 Move on Mountains
 Flying
 
-Hunter
-Can see stealth
-No Beast Bonus
-Can carry Hawk
-1 Movement
-36/36
-50 Hammers
-
 
 
 Mountaineer Promotion
@@ -44,7 +26,6 @@ Available from Level 1
 
 Ranger - Archery Unit
 Mountaineer Promotion
-
 1 Movement
 36 Strength
 60 Hammers
@@ -55,33 +36,9 @@ Elementals
 70 Hammers
 
 
-
-Baby Spider
-Invisibility
-Can't Pillage
-Can't Capture
-Doesn't receive defence
-
-40 Strength
-1 Movement
-70 Hammers
-
-Drown
-Water walking
-Receives Defence Bonus
-Can pillage
-Can capture
-
-1 Movement
-Doesn't provide Military Happiness
-36 Strength
-60 Hammers
-
-
-Galley
-35 Strength
-2 Movement
-50 Hammers
+*** FIX VS CLASS PROMOTIONS FOR BEST
+Melee, Horses, Archers
+Combat , Drill Promotions Only
 
 *** Fix Navy Crew Promotions
 
@@ -92,13 +49,39 @@ Flying
 3 Movement
 135 Hammers
 
-Melee, Horses, Archers
-Combat , Drill Promotions Only
 
 
 
+IMPLEMENTED
 
+Hunter
+Can see stealth
+No Beast Bonus
+Can carry Hawk
+1 Movement
+36/36
+50 Hammers
 
+Galley
+35 Strength
+2 Movement
+50 Hammers
 
+Drown
+Water walking
+Receives Defence Bonus
+Can pillage
+Can capture
+1 Movement
+Doesn't provide Military Happiness
+36 Strength
+60 Hammers
 
-
+Baby Spider
+Invisibility
+Can't Pillage
+Can't Capture
+Doesn't receive defence
+40 Strength
+1 Movement
+70 Hammers
