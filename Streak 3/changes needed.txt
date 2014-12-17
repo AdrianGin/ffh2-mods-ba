@@ -36,12 +36,6 @@ Elementals
 70 Hammers
 
 
-*** FIX VS CLASS PROMOTIONS FOR BEST
-Melee, Horses, Archers
-Combat , Drill Promotions Only
-
-*** Fix Navy Crew Promotions
-
 Griffon
 60/60 - 
 Doesn't Receive Bonus
@@ -85,3 +79,9 @@ Doesn't receive defence
 40 Strength
 1 Movement
 70 Hammers
+
+*** FIX VS CLASS PROMOTIONS FOR BEAST
+Melee, Horses, Archers
+Combat , Drill Promotions Only
+
+*** Fix Navy Crew Promotions

@@ -1761,8 +1761,8 @@
                 </UnitCombat>
             </UnitCombats>
             <Button>Art/Interface/Buttons/Promotions/Buccaneers.dds</Button>
-            <iExtraCombatStr>1</iExtraCombatStr>
-            <iExtraCombatDefense>1</iExtraCombatDefense>
+            <iExtraCombatStr>7</iExtraCombatStr>
+            <iExtraCombatDefense>7</iExtraCombatDefense>
             <iMinLevel>-1</iMinLevel>
         </PromotionInfo>
         <PromotionInfo>
@@ -1794,8 +1794,8 @@
                 </UnitCombat>
             </UnitCombats>
             <Button>Art/Interface/Buttons/Promotions/Skeletoncrew.dds</Button>
-            <iExtraCombatStr>-1</iExtraCombatStr>
-            <iExtraCombatDefense>-1</iExtraCombatDefense>
+            <iExtraCombatStr>-7</iExtraCombatStr>
+            <iExtraCombatDefense>-7</iExtraCombatDefense>
             <iMinLevel>-1</iMinLevel>
         </PromotionInfo>
         <PromotionInfo>
