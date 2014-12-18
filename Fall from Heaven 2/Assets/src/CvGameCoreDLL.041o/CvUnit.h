@@ -958,7 +958,9 @@ public:
 	bool isTwincast() const;
 	void changeTwincast(int iNewValue);
 	bool isWaterWalking() const;
+	bool isMoveImpassable() const;
 	void changeWaterWalking(int iNewValue);
+	void changeMoveImpassable(int iNewValue);
 	void mutate();
 	int getBetterDefenderThanPercent() const;
 	void changeBetterDefenderThanPercent(int iChange);
@@ -1121,6 +1123,7 @@ protected:
 	int m_iTargetWeakestUnitCounter;
 	int m_iTwincast;
 	int m_iWaterWalking;
+	int m_iMoveImpassable;
 	int m_iBaseCombatDefense;
 	int m_iBetterDefenderThanPercent;
 	int m_iCombatHealPercent;

@@ -1733,6 +1733,7 @@ m_bTargetWeakestUnitCounter(false),
 m_bTwincast(false),
 m_bValidate(false),
 m_bWaterWalking(false),
+m_bMoveImpassable(false),
 m_iAIWeight(0),
 m_iBetrayalChance(0),
 m_iBetterDefenderThanPercent(0),
@@ -2210,6 +2211,12 @@ bool CvPromotionInfo::isWaterWalking() const
 	return m_bWaterWalking;
 }
 
+bool CvPromotionInfo::isMoveImpassable() const
+{
+	return m_bMoveImpassable;
+}
+
+
 int CvPromotionInfo::getAIWeight() const
 {
 	return m_iAIWeight;
@@ -2605,6 +2612,7 @@ void CvPromotionInfo::read(FDataStreamBase* stream)
 	stream->Read(&m_bTwincast);
 	stream->Read(&m_bValidate);
 	stream->Read(&m_bWaterWalking);
+	stream->Read(&m_bMoveImpassable);
 	stream->Read(&m_iAIWeight);
 	stream->Read(&m_iBetrayalChance);
 	stream->Read(&m_iBetterDefenderThanPercent);
@@ -2791,6 +2799,7 @@ void CvPromotionInfo::write(FDataStreamBase* stream)
 	stream->Write(m_bTwincast);
 	stream->Write(m_bValidate);
 	stream->Write(m_bWaterWalking);
+	stream->Write(m_bMoveImpassable);
 	stream->Write(m_iAIWeight);
 	stream->Write(m_iBetrayalChance);
 	stream->Write(m_iBetterDefenderThanPercent);
@@ -2959,6 +2968,7 @@ bool CvPromotionInfo::read(CvXMLLoadUtility* pXML)
 	pXML->GetChildXmlValByName(&m_bTwincast, "bTwincast");
 	pXML->GetChildXmlValByName(&m_bValidate, "bValidate");
 	pXML->GetChildXmlValByName(&m_bWaterWalking, "bWaterWalking");
+	pXML->GetChildXmlValByName(&m_bMoveImpassable, "bMoveImpassable");
 	pXML->GetChildXmlValByName(&m_iAIWeight, "iAIWeight");
 	pXML->GetChildXmlValByName(&m_iBetrayalChance, "iBetrayalChance");
 	pXML->GetChildXmlValByName(&m_iBetterDefenderThanPercent, "iBetterDefenderThanPercent");

@@ -6205,6 +6205,11 @@ void CvGameTextMgr::parsePromotionHelp(CvWStringBuffer &szBuffer, PromotionTypes
         szBuffer.append(pcNewline);
         szBuffer.append(gDLL->getText("TXT_KEY_PROMOTION_WATER_WALKING_PEDIA"));
     }
+    if (GC.getPromotionInfo(ePromotion).isMoveImpassable())
+    {
+        szBuffer.append(pcNewline);
+        szBuffer.append(gDLL->getText("TXT_KEY_UNIT_CAN_MOVE_IMPASSABLE"));
+    }
     if (GC.getPromotionInfo(ePromotion).isNotAlive())
     {
         szBuffer.append(pcNewline);

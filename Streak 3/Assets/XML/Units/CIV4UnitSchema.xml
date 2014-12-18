@@ -957,6 +957,7 @@
   <ElementType name="bTwincast" content="textOnly" dt:type="boolean" />
   <ElementType name="bValidate" content="textOnly" dt:type="boolean" />
   <ElementType name="bWaterWalking" content="textOnly" dt:type="boolean" />
+  <ElementType name="bMoveImpassable" content="textOnly" dt:type="boolean" />
   <ElementType name="iBetrayalChance" content="textOnly" dt:type="int" />
   <ElementType name="iBetterDefenderThanPercent" content="textOnly" dt:type="int" />
   <ElementType name="iCasterResistModify" content="textOnly" dt:type="int" />
@@ -1091,6 +1092,7 @@
     <element type="bTwincast" minOccurs="0" />
     <element type="bValidate" minOccurs="0" />
     <element type="bWaterWalking" minOccurs="0" />
+    <element type="bMoveImpassable" minOccurs="0" />
     <element type="iAIWeight" minOccurs="0" />
     <element type="iBetrayalChance" minOccurs="0" />
     <element type="iBetterDefenderThanPercent" minOccurs="0" />

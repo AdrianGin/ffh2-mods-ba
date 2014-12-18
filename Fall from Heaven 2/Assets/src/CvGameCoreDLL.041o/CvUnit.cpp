@@ -444,6 +444,7 @@ void CvUnit::reset(int iID, UnitTypes eUnit, PlayerTypes eOwner, bool bConstruct
 	m_iTargetWeakestUnitCounter = 0;
 	m_iTwincast = 0;
 	m_iWaterWalking = 0;
+	m_iMoveImpassable = 0;
 	m_iBaseCombatDefense = (NO_UNIT != m_eUnitType) ? m_pUnitInfo->getCombatDefense() : 0;
 	m_iBetterDefenderThanPercent = 100;
 	m_iCombatHealPercent = 0;
@@ -10506,6 +10507,12 @@ bool CvUnit::canMoveImpassable() const
     }
 //FfH: End Add
 
+	if( isMoveImpassable() )
+	{
+		return true;
+	}
+
+
 	return m_pUnitInfo->isCanMoveImpassable();
 }
 
@@ -13953,6 +13960,9 @@ void CvUnit::setHasPromotion(PromotionTypes eIndex, bool bNewValue)
 		changeTargetWeakestUnitCounter((GC.getPromotionInfo(eIndex).isTargetWeakestUnitCounter()) ? iChange : 0);
 		changeTwincast((GC.getPromotionInfo(eIndex).isTwincast()) ? iChange : 0);
 		changeWaterWalking((GC.getPromotionInfo(eIndex).isWaterWalking()) ? iChange : 0);
+
+		changeMoveImpassable((GC.getPromotionInfo(eIndex).isMoveImpassable()) ? iChange : 0);
+
 		changeWorkRateModify(GC.getPromotionInfo(eIndex).getWorkRateModify() * iChange);
 
 		//Adrian Collateral Damage Modify
@@ -16500,6 +16510,20 @@ void CvUnit::changeWaterWalking(int iNewValue)
     }
 }
 
+bool CvUnit::isMoveImpassable() const
+{
+	return m_iMoveImpassable == 0 ? false : true;
+}
+
+void CvUnit::changeMoveImpassable(int iNewValue)
+{
+    if (iNewValue != 0)
+    {
+        m_iMoveImpassable += iNewValue;
+    }
+}
+
+
 int CvUnit::getBetterDefenderThanPercent() const
 {
 	return m_iBetterDefenderThanPercent;
@@ -17936,6 +17960,7 @@ void CvUnit::read(FDataStreamBase* pStream)
 	pStream->Read(&m_iTargetWeakestUnitCounter);
 	pStream->Read(&m_iTwincast);
 	pStream->Read(&m_iWaterWalking);
+	pStream->Read(&m_iMoveImpassable);
 	pStream->Read(&m_iBaseCombatDefense);
 	pStream->Read(&m_iBetterDefenderThanPercent);
 	pStream->Read(&m_iCombatHealPercent);
@@ -18107,6 +18132,7 @@ void CvUnit::write(FDataStreamBase* pStream)
 	pStream->Write(m_iTargetWeakestUnitCounter);
 	pStream->Write(m_iTwincast);
 	pStream->Write(m_iWaterWalking);
+	pStream->Write(m_iMoveImpassable);
 	pStream->Write(m_iBaseCombatDefense);
 	pStream->Write(m_iBetterDefenderThanPercent);
 	pStream->Write(m_iCombatHealPercent);

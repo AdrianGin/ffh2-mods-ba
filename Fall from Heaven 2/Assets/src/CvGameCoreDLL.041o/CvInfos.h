@@ -551,6 +551,7 @@ public:
 	bool isTwincast() const;
 	bool isValidate() const;
 	bool isWaterWalking() const;
+	bool isMoveImpassable() const;
 	int getAIWeight() const;
 	int getBetrayalChance() const;
 	int getBetterDefenderThanPercent() const;
@@ -694,6 +695,7 @@ protected:
 	bool m_bTwincast;
 	bool m_bValidate;
 	bool m_bWaterWalking;
+	bool m_bMoveImpassable;
 	int m_iAIWeight;
 	int m_iBetrayalChance;
 	int m_iBetterDefenderThanPercent;

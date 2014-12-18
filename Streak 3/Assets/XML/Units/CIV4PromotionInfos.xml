@@ -2904,5 +2904,28 @@
             <iAIWeight>50</iAIWeight>
             <BonusPrereq>BONUS_MANA_WATER</BonusPrereq>
         </PromotionInfo>
+        
+		<PromotionInfo>
+            <Type>PROMOTION_MOUNTAINEER</Type>
+            <Description>TXT_KEY_PROMOTION_MOUNTAINEER</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>,Art/Interface/Buttons/Promotions/Mountaineer.dds</Button>
+            <iCombatPercentDefense>0</iCombatPercentDefense>
+            <iSpellDamageModify>0</iSpellDamageModify>
+            <bMoveImpassable>1</bMoveImpassable>
+        </PromotionInfo>        
+        
+        
+        
     </PromotionInfos>
 </Civ4PromotionInfos>
