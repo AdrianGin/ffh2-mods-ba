@@ -15,6 +15,15 @@ War Elephants + Horses + Haste
 
 
 
+** 
+Lighthouse
+Levee Type building
+Moai Statues
+Windmill Food 1?
+
+
+
+
 **
 Invisibility
 Water Walking
@@ -22,16 +31,274 @@ Move on Mountains
 Flying
 **
 
-**ARCANE UNIT PROMPOTIONS?
 
-Mountaineer Promotion
---Available from Level 1
---Ranger needs this promotion
+Swordsman
+60 Strength
++10% v City
+100 Hammers
+
+Longbowman - Good Defender
++15% City/Hills
+45 / 68 Strength
++20% v Flying
+100 Hammers
+
+Crossbowman
+Anti Infantary on Attack
+62/48 Strength
+No First Strike
++20% vs Melee
++20% v Flying
+100Hammers
+
+
+Mountain Ranger - Economical Mountain Attacker to dislodge mountain defs (Updgrade from Ranger)
+48 Strength
+1 Movement
+Can see Stealth
+Starts with Mountaineering
++15% Mountain Attack
++10% v Beast
+90 Hammers
+
+
+
+
+
+Horse Archer - Raider
+54 
+No Defence Bonus
+2 Movement
+10% attack vs Archery
+Immune to First Strike
+
++15% Withdraw Chance (total 30% from Commando)
+Starts with Commando (Use enemy roads, first strike, +15% withdraw)
+Extra Pillaging
+100 Hammers
+
+
+Knight - Longbowman Dislodger (Max 5)
+96 / 80
+2 Movement
+Withdraw +15%
+No Defence Bonus
++20% Attack v Archery
+Immune to First Strike
+200 Hammers
+
+
+Assassin - Opportunist (Attacks prey)
+First Strike
+50/47 Strength
+2 Movement
+Starts with Stealth
+Marksman
+100 Hammers
+
+
+Mage
+40 Strength
+
+
+Arcane Unit
+Golem Unit
+1 Movement
+65 Strength
+1 Special Ability
+115 Hammers
+
+
+Flying Beast - Harasser / Anti Horse Archer
+52 Strength
+No Defence Bonus
+No Pillage/Happiness/Capture
+
++20% v Horses
++30% Withdraw Chance
+3 Movement
+Flying
+100 Hammers
+
+
+Changes to Level 1
+** Spider no First Strike **
+** DROWN MUST RECEIVE DEFENCE BONUS **
+
+Giant Spider - Stalker & Opportunist (Good @ Waiting for prey)
+62 Strength, 1 Movement
+1 First Strike
+Can move impassable
+Invisible
+No cap/pil/milhap/def bonus
+33% chance spawning a baby spider
+115 Hammers
+
+Level 3:
+Pikeman - Anti Mounted
+70 Strength
+1 Movement
++10% v Mounted
++10% v Elephant
+120 Hammers
+
+Men at Arms - Main Force
+80 Strength
+1 Movement
++10% City
+150 Hammers
+
+Archer 3:
+Marksman:: (limit 3) - Attacking Mountain Unit
+Mountaineering
+79 Strength
+2 Movement
+2st Strike
+Cannot see stealth
+No Pil/Mil/Cap
+Stealth
++10% Mountain Attack
++10% v Beast
+200 Hammers
+
+Arquebus - Anti Melee / Allround tough Unit
+87 Strength
+1 First Strike
+1 Movement
++10% City Defence
++10% Flying
+170 Hammers
+
+
+Mounted 3
+Lancer (Max 3)	 - Tank / Archer Dislodger
+125/96 Strength
+1st Strike
+No Defence Bonus
+2 Movement
+Blitz
+20% v Archery
+250 Hammers
+
+Seige Elephant	 - SUper Tank
+144 Strength (Max 2)
+2 Movement
+No Defence
+250 Hammers
+
+
+Arcane 3
+Seige Golem
+2 Movement
+87 Strength
+1 Special Ability
+180
+
+ArchMage
+52 Strength
+1 Movement
+
+
+
+Beast 3 - Flying Harasser / Anti Horse
+Dragon (max 2)
+117/92 Strength
+1 First Strike
+3 Movement
+Flying
+No Cap/Pil/Mil/Def Bonus
++10% v Mounted
++10% Withdraw Chance
+250 Hammers
+
+
+Treant - Woodunit
+85/93
+1 Movement
+No Pil/Cap/Hap/Defence
+Woodsman 1 & 2
+Can Grow Forests
+200 Hammers
+
+
+
+
+
+Navy::
+
+Galley - Transport
+35 Strength
+2 Movement
+2 Cargo
+55 Hammers
+
+Trireme - Sea Superiority (Main Force)
+39 Strength
+2 Movement
+1 Cargo
+65 Hammers
+
+Caravel - Interceptor
+50 Strength
+3 Movement
+Cargo: 2
+80 Hammers
+
+
+Galleon - Flag Ship
+60 Strength
+2 Movement
+Cargo: 2
+Can Bombard City (-10%)
+No Mil happiness
+100 Hammers
+
+
+Frigate - Main Force
+70 Strength
+2 Movement
+Cargo: 1
+Can Bombard (-10%)
+150 Hammers
+
+Privateer - Interceptor
+68 Strength
+3 Movement
+Can pirate
++1 Visibility
+Cargo: 2
+140 Hammers
+
+Man o War - Flag Ship
+100 Strength
+1 Movement
+Cargo: 2
+Can Bombard (-20%)
+200 Hammers
+
+
+
+Civic Change:
+Free Military Supply: 10 units
+
+
+
+
+
+
+**ARCANE UNIT PROMPOTIONS?
 
 
 
 
 ****IMPLEMENTED****
+Mountaineer Promotion
+--Available from Level 1
+--Ranger needs this promotion
+TXT_KEY_TERRAIN_IMPASSABLE
+TXT_KEY_UNIT_CAN_MOVE_IMPASSABLE
+
+
 
 Hunter
 Can see stealth
