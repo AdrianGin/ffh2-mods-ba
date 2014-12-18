@@ -52,19 +52,12 @@ No First Strike
 100Hammers
 
 
-Mountain Ranger - Economical Mountain Attacker to dislodge mountain defs (Updgrade from Ranger)
-48 Strength
-1 Movement
-Can see Stealth
-Starts with Mountaineering
-+15% Mountain Attack
-+10% v Beast
-90 Hammers
 
 
 
 
 
+**SPLIT UP
 Horse Archer - Raider
 54 
 No Defence Bonus
@@ -77,7 +70,7 @@ Starts with Commando (Use enemy roads, first strike, +15% withdraw)
 Extra Pillaging
 100 Hammers
 
-
+**WORK
 Knight - Longbowman Dislodger (Max 5)
 96 / 80
 2 Movement
@@ -109,8 +102,17 @@ Golem Unit
 115 Hammers
 
 
-Flying Beast - Harasser / Anti Horse Archer
-52 Strength
+Mountain Ranger - Economical Mountain Attacker to dislodge mountain defs (Updgrade from Ranger)
+50 Strength
+1 Movement
+Can see Stealth
+Starts with Mountaineering
++15% Mountain Attack
++10% v Beast
+90 Hammers
+
+Griffon - Harasser / Anti Horse Archer
+57 Strength
 No Defence Bonus
 No Pillage/Happiness/Capture
 
@@ -120,6 +122,11 @@ No Pillage/Happiness/Capture
 Flying
 100 Hammers
 
+
+Upgraded Drown
+59 Strength
+1 Movement
+110 Hammers
 
 Changes to Level 1
 ** Spider no First Strike **
@@ -232,27 +239,33 @@ Galley - Transport
 2 Cargo
 55 Hammers
 
+
+**Attack / Defence
 Trireme - Sea Superiority (Main Force)
-39 Strength
+42/39 Strength
 2 Movement
 1 Cargo
 65 Hammers
 
+Navy 2:
+
 Caravel - Interceptor
-50 Strength
+54 Strength
 3 Movement
-Cargo: 2
-80 Hammers
++25% withdraw
+Cargo: 1
+90 Hammers
 
 
 Galleon - Flag Ship
-60 Strength
+61/64 Strength
 2 Movement
 Cargo: 2
 Can Bombard City (-10%)
 No Mil happiness
-100 Hammers
+110 Hammers
 
+Level 3:
 
 Frigate - Main Force
 70 Strength
