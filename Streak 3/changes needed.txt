@@ -13,21 +13,25 @@ Update promotion names
 Haste - bug?
 War Elephants + Horses + Haste
 
-***
+
+
+**
 Invisibility
 Water Walking
 Move on Mountains
 Flying
-***
+**
 
-***ARCANE UNIT PROMPOTIONS?
+**ARCANE UNIT PROMPOTIONS?
 
 Mountaineer Promotion
 --Available from Level 1
 --Ranger needs this promotion
 
 
-IMPLEMENTED
+
+
+****IMPLEMENTED****
 
 Hunter
 Can see stealth
