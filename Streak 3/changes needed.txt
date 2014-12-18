@@ -13,37 +13,18 @@ Update promotion names
 Haste - bug?
 War Elephants + Horses + Haste
 
-
+***
 Invisibility
 Water Walking
 Move on Mountains
 Flying
+***
 
-
+***ARCANE UNIT PROMPOTIONS?
 
 Mountaineer Promotion
-Available from Level 1
-
-Ranger - Archery Unit
-Mountaineer Promotion
-1 Movement
-36 Strength
-60 Hammers
-
-Elementals
-43 Str
-1 Movement
-70 Hammers
-
-
-Griffon
-60/60 - 
-Doesn't Receive Bonus
-Flying
-3 Movement
-135 Hammers
-
-
+--Available from Level 1
+--Ranger needs this promotion
 
 
 IMPLEMENTED
@@ -85,3 +66,21 @@ Melee, Horses, Archers
 Combat , Drill Promotions Only
 
 *** Fix Navy Crew Promotions
+
+Griffon
+60/60 - 
+Doesn't Receive Bonus
+Flying
+3 Movement
+135 Hammers
+
+Elementals
+43 Str
+1 Movement
+70 Hammers
+
+Ranger - Archery Unit
+Mountaineer Promotion
+1 Movement
+36 Strength
+60 Hammers
