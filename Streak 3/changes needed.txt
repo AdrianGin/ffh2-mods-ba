@@ -21,7 +21,8 @@ Levee Type building
 Moai Statues
 Windmill Food 1?
 
-
+**
+Add 1.5% interest per turn.
 
 
 **
@@ -30,6 +31,19 @@ Water Walking
 Move on Mountains
 Flying
 **
+
+		changeResidualDecimalInterest(fractionalInterest);
+
+
+Changes to Level 1
+** Spider no First Strike **
+** DROWN MUST RECEIVE DEFENCE BONUS **
+
+
+Elemental
+Strength 43
+Limit 5
+
 
 
 Swordsman
@@ -40,106 +54,156 @@ Swordsman
 Longbowman - Good Defender
 +15% City/Hills
 45 / 68 Strength
+1 First Strike
 +20% v Flying
 100 Hammers
 
 Crossbowman
-Anti Infantary on Attack
+Anti Infantary
 62/48 Strength
-No First Strike
+1 First Strike
 +20% vs Melee
 +20% v Flying
-100Hammers
+100 Hammers
 
 
 
-
-
+HorseMan
+37 Strenght
+2 Movement
+No defense bonus
+WIthdraw 25%
+40% v Archery
+60 Hammers
 
 
 **SPLIT UP
-Horse Archer - Raider
-54 
-No Defence Bonus
-2 Movement
-10% attack vs Archery
-Immune to First Strike
+Horse
 
-+15% Withdraw Chance (total 30% from Commando)
-Starts with Commando (Use enemy roads, first strike, +15% withdraw)
+Battering Ram
+30 Strength
+Immune
+No cap/pil/mil
+No Def
++100% V City
+Bombard City (-10%)
+40 Hammers
+
+Spearman
+47 Strength
++10% v Mounted
++10% v Elephant
+75 Hammers
+
+Horse Archer - Raider
+53
+1 First Strike
+No Defence Bonus
+3 Movement
++30% Withdraw Chance
 Extra Pillaging
 100 Hammers
 
-**WORK
 Knight - Longbowman Dislodger (Max 5)
-96 / 80
+75 / 75
 2 Movement
 Withdraw +15%
 No Defence Bonus
-+20% Attack v Archery
-Immune to First Strike
-200 Hammers
++20% v Archery
+160 Hammers
 
 
 Assassin - Opportunist (Attacks prey)
-First Strike
-50/47 Strength
+50/50 Strength
 2 Movement
+No Cap/Pil/Mil
+No defence bonus
+Ignore terrain movement cost
 Starts with Stealth
 Marksman
+90 Hammers
+
+Catapult - Stack Damager
+46 Strength
+80% Withdraw
+Maximum 60% damage on attack
+Collateral max 30%
+Bombard City (-15%)
 100 Hammers
 
+Adept
+32 Strength
+No defence bonus
 
 Mage
 40 Strength
+No defence bonus
+
+Archmage
+56 Strength
+No defence bonus
 
 
-Arcane Unit
+Level Arcane Unit
 Golem Unit
+Air (3 limit)
+63 Strength
+(2 Movement Total)
+Flying
+130 Hammers
+
+Earth
+68 Strength
 1 Movement
-65 Strength
-1 Special Ability
-115 Hammers
+Mountaineering
+
+Water
+66 Strength
+1 Movement
+Immunity from First Strikes
+Water Walk
+
+Fire
+70/62 Strength
+1 Movement
+1st Strike
+Can Burn Forest/Jungle
+
 
 
 Mountain Ranger - Economical Mountain Attacker to dislodge mountain defs (Updgrade from Ranger)
-50 Strength
+51 Strength
 1 Movement
-Can see Stealth
 Starts with Mountaineering
-+15% Mountain Attack
-+10% v Beast
-90 Hammers
++15% Mountain Strength
+80 Hammers
+
+
+Giant Spider - Stalker & Opportunist (Good @ Waiting for prey)
+62 Strength, 
+1 Movement
+Can move impassable
+Invisible
+No cap/pil/milhap/def bonus
+120 Hammers
+
 
 Griffon - Harasser / Anti Horse Archer
 57 Strength
 No Defence Bonus
 No Pillage/Happiness/Capture
-
-+20% v Horses
 +30% Withdraw Chance
-3 Movement
+3 Movement (Total)
 Flying
-100 Hammers
+120 Hammers
 
 
 Upgraded Drown
 59 Strength
 1 Movement
+Water walking
 110 Hammers
 
-Changes to Level 1
-** Spider no First Strike **
-** DROWN MUST RECEIVE DEFENCE BONUS **
-
-Giant Spider - Stalker & Opportunist (Good @ Waiting for prey)
-62 Strength, 1 Movement
-1 First Strike
-Can move impassable
-Invisible
-No cap/pil/milhap/def bonus
-33% chance spawning a baby spider
-115 Hammers
 
 Level 3:
 Pikeman - Anti Mounted
@@ -200,10 +264,6 @@ Seige Golem
 87 Strength
 1 Special Ability
 180
-
-ArchMage
-52 Strength
-1 Movement
 
 
 

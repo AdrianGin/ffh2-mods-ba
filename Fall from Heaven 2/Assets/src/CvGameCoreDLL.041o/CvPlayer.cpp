@@ -500,6 +500,7 @@ void CvPlayer::reset(PlayerTypes eID, bool bConstructorCall)
 	m_iPopRushHurryCount = 0;
 	m_iInflationModifier = 0;
 	m_uiStartTime = 0;
+	m_iDecimalInterest = 0; 
 
 	m_bAlive = false;
 	m_bEverAlive = false;
@@ -7183,13 +7184,35 @@ int CvPlayer::calculateBaseNetResearch(TechTypes eTech) const
 }
 
 
+int CvPlayer::getResidualDecimalInterest() const
+{
+	return m_iDecimalInterest;
+}
+
+void CvPlayer::changeResidualDecimalInterest(int iChange)
+{
+	m_iDecimalInterest += iChange;
+}
+
 int CvPlayer::calculateGoldRate() const
 {
 	int iRate = 0;
 
 	if (isCommerceFlexible(COMMERCE_RESEARCH))
 	{
-		iRate = calculateBaseNetGold();
+		//iRate = calculateBaseNetGold();
+		int interestRate = GC.getDefineINT("INTEREST_RATE");
+		//With 3 implied decimal places
+		int totalGoldInterest = (getGold() * interestRate) + ((getResidualDecimalInterest()*interestRate)/1000);
+
+		int wholeInterest = totalGoldInterest / 100000 ;
+		int fractionalInterest = getResidualDecimalInterest() + (totalGoldInterest % 100000)/100;
+
+		if( fractionalInterest >= 1000 )
+		{
+			wholeInterest += (fractionalInterest / 1000);
+		}
+		iRate = calculateBaseNetGold() + (wholeInterest);
 	}
 	else
 	{
@@ -13590,6 +13613,19 @@ void CvPlayer::doGold()
 	}
 
 	iGoldChange = calculateGoldRate();
+
+	int interestRate = GC.getDefineINT("INTEREST_RATE");
+	//With 3 implied decimal places
+	int totalGoldInterest = (getGold() * interestRate) + ((getResidualDecimalInterest()*interestRate)/1000);
+	int wholeInterest = totalGoldInterest / 100000 ;
+	int fractionalInterest = getResidualDecimalInterest() + (totalGoldInterest % 100000)/100;
+	changeResidualDecimalInterest( -getResidualDecimalInterest() );
+
+	if( fractionalInterest >= 1000 )
+	{ 
+		changeResidualDecimalInterest( -1000  ); 
+	}
+	changeResidualDecimalInterest(fractionalInterest);
 
 	FAssert(isHuman() || isBarbarian() || ((getGold() + iGoldChange) >= 0) || isAnarchy());
 

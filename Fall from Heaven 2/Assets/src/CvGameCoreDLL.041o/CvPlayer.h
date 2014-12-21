@@ -331,6 +331,9 @@ public:
 	int getStrikeTurns() const;																																						// Exposed to Python
 	void changeStrikeTurns(int iChange);
 
+	int getResidualDecimalInterest() const;
+	void changeResidualDecimalInterest(int iChange);
+
 	int getMaxAnarchyTurns() const;																																				// Exposed to Python
 	void updateMaxAnarchyTurns();
 
@@ -1324,6 +1327,10 @@ protected:
 
 	int** m_ppaaiSpecialistTypeExtraCommerce;
 //FfH: End Add
+
+	// Interest Rate
+	// Implied 3 decimal points
+	int m_iDecimalInterest;
 
 	int* m_aiSeaPlotYield;
 	int* m_aiYieldRateModifier;
