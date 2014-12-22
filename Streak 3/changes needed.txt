@@ -34,18 +34,6 @@ Flying
 
 		changeResidualDecimalInterest(fractionalInterest);
 
-
-Changes to Level 1
-** Spider no First Strike **
-** DROWN MUST RECEIVE DEFENCE BONUS **
-
-
-Elemental
-Strength 43
-Limit 5
-
-
-
 Swordsman
 60 Strength
 +10% v City
@@ -66,8 +54,6 @@ Anti Infantary
 +20% v Flying
 100 Hammers
 
-
-
 HorseMan
 37 Strenght
 2 Movement
@@ -75,6 +61,9 @@ No defense bonus
 WIthdraw 25%
 40% v Archery
 60 Hammers
+
+
+
 
 
 **SPLIT UP
@@ -418,7 +407,7 @@ Flying
 3 Movement
 135 Hammers
 
-Elementals
+Elementals - limit 5
 43 Str
 1 Movement
 70 Hammers
