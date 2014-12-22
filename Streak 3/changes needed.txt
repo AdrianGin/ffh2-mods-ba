@@ -34,103 +34,6 @@ Flying
 
 		changeResidualDecimalInterest(fractionalInterest);
 
-Swordsman
-60 Strength
-+10% v City
-100 Hammers
-
-Longbowman - Good Defender
-+15% City/Hills
-45 / 68 Strength
-1 First Strike
-+20% v Flying
-100 Hammers
-
-Crossbowman
-Anti Infantary
-62/48 Strength
-1 First Strike
-+20% vs Melee
-+20% v Flying
-100 Hammers
-
-HorseMan
-37 Strenght
-2 Movement
-No defense bonus
-WIthdraw 25%
-40% v Archery
-60 Hammers
-
-
-
-
-
-**SPLIT UP
-Horse
-
-Battering Ram
-30 Strength
-Immune
-No cap/pil/mil
-No Def
-+100% V City
-Bombard City (-10%)
-40 Hammers
-
-Spearman
-47 Strength
-+10% v Mounted
-+10% v Elephant
-75 Hammers
-
-Horse Archer - Raider
-53
-1 First Strike
-No Defence Bonus
-3 Movement
-+30% Withdraw Chance
-Extra Pillaging
-100 Hammers
-
-Knight - Longbowman Dislodger (Max 5)
-75 / 75
-2 Movement
-Withdraw +15%
-No Defence Bonus
-+20% v Archery
-160 Hammers
-
-
-Assassin - Opportunist (Attacks prey)
-50/50 Strength
-2 Movement
-No Cap/Pil/Mil
-No defence bonus
-Ignore terrain movement cost
-Starts with Stealth
-Marksman
-90 Hammers
-
-Catapult - Stack Damager
-46 Strength
-80% Withdraw
-Maximum 60% damage on attack
-Collateral max 30%
-Bombard City (-15%)
-100 Hammers
-
-Adept
-32 Strength
-No defence bonus
-
-Mage
-40 Strength
-No defence bonus
-
-Archmage
-56 Strength
-No defence bonus
 
 
 Level Arcane Unit
@@ -158,8 +61,6 @@ Fire
 1st Strike
 Can Burn Forest/Jungle
 
-
-
 Mountain Ranger - Economical Mountain Attacker to dislodge mountain defs (Updgrade from Ranger)
 51 Strength
 1 Movement
@@ -168,30 +69,8 @@ Starts with Mountaineering
 80 Hammers
 
 
-Giant Spider - Stalker & Opportunist (Good @ Waiting for prey)
-62 Strength, 
-1 Movement
-Can move impassable
-Invisible
-No cap/pil/milhap/def bonus
-120 Hammers
 
 
-Griffon - Harasser / Anti Horse Archer
-57 Strength
-No Defence Bonus
-No Pillage/Happiness/Capture
-+30% Withdraw Chance
-3 Movement (Total)
-Flying
-120 Hammers
-
-
-Upgraded Drown
-59 Strength
-1 Movement
-Water walking
-110 Hammers
 
 
 Level 3:
@@ -280,39 +159,7 @@ Can Grow Forests
 
 
 
-Navy::
 
-Galley - Transport
-35 Strength
-2 Movement
-2 Cargo
-55 Hammers
-
-
-**Attack / Defence
-Trireme - Sea Superiority (Main Force)
-42/39 Strength
-2 Movement
-1 Cargo
-65 Hammers
-
-Navy 2:
-
-Caravel - Interceptor
-54 Strength
-3 Movement
-+25% withdraw
-Cargo: 1
-90 Hammers
-
-
-Galleon - Flag Ship
-61/64 Strength
-2 Movement
-Cargo: 2
-Can Bombard City (-10%)
-No Mil happiness
-110 Hammers
 
 Level 3:
 
@@ -338,7 +185,7 @@ Cargo: 2
 Can Bombard (-20%)
 200 Hammers
 
-
+AIRSHIP??
 
 Civic Change:
 Free Military Supply: 10 units
@@ -354,13 +201,12 @@ Free Military Supply: 10 units
 
 
 ****IMPLEMENTED****
+
 Mountaineer Promotion
 --Available from Level 1
 --Ranger needs this promotion
 TXT_KEY_TERRAIN_IMPASSABLE
 TXT_KEY_UNIT_CAN_MOVE_IMPASSABLE
-
-
 
 Hunter
 Can see stealth
@@ -370,10 +216,33 @@ Can carry Hawk
 36/36
 50 Hammers
 
-Galley
+Galley - Transport
 35 Strength
 2 Movement
-50 Hammers
+2 Cargo
+55 Hammers
+
+**Attack / Defence
+Trireme - Sea Superiority (Main Force)
+42/38 Strength
+2 Movement
+1 Cargo
+65 Hammers
+
+Caravel - Interceptor
+54 Strength
+3 Movement
++25% withdraw
+Cargo: 1
+90 Hammers
+
+Galleon - Flag Ship
+61/64 Strength
+2 Movement
+Cargo: 3
+Can Bombard City (-10%)
+No Mil happiness
+110 Hammers
 
 Drown
 Water walking
@@ -400,13 +269,6 @@ Combat , Drill Promotions Only
 
 *** Fix Navy Crew Promotions
 
-Griffon
-60/60 - 
-Doesn't Receive Bonus
-Flying
-3 Movement
-135 Hammers
-
 Elementals - limit 5
 43 Str
 1 Movement
@@ -417,3 +279,116 @@ Mountaineer Promotion
 1 Movement
 36 Strength
 60 Hammers
+
+Swordsman
+60 Strength
++10% v City
+100 Hammers
+
+Longbowman - Good Defender
++15% City/Hills
+45 / 68 Strength
+1 First Strike
++20% v Flying
+100 Hammers
+
+Crossbowman
+Anti Infantary
+62/48 Strength
+1 First Strike
++20% vs Melee
++20% v Flying
+100 Hammers
+
+HorseMan
+37 Strenght
+2 Movement
+No defense bonus
+WIthdraw 25%
+40% v Archery
+60 Hammers
+
+Battering Ram
+30 Strength
+Immune
+No cap/pil/mil
+No Def
++100% V City
+Bombard City (-10%)
+40 Hammers
+
+Spearman
+47 Strength
++10% v Mounted
++10% v Elephant
+75 Hammers
+
+Horse Archer - Raider
+53
+1 First Strike
+No Defence Bonus
+3 Movement
++30% Withdraw Chance
+Extra Pillaging
+100 Hammers
+
+Knight - Longbowman Dislodger (Max 5)
+75 / 75
+2 Movement
+Withdraw +15%
+No Defence Bonus
++20% v Archery
+160 Hammers
+
+Assassin - Opportunist (Attacks prey)
+50/50 Strength
+2 Movement
+No Cap/Pil/Mil
+No defence bonus
+Ignore terrain movement cost
+Starts with Stealth
+Marksman
+90 Hammers
+
+Catapult - Stack Damager
+46 Strength
+80% Withdraw
+Maximum 60% damage on attack
+Collateral max 30%
+Bombard City (-15%)
+100 Hammers
+
+Adept
+32 Strength
+No defence bonus
+
+Mage
+40 Strength
+No defence bonus
+
+Archmage
+56 Strength
+No defence bonus
+
+Giant Spider - Stalker & Opportunist (Good @ Waiting for prey)
+62 Strength, 
+1 Movement
+Can move impassable
+Invisible
+No cap/pil/milhap/def bonus
+120 Hammers
+
+Griffon - Harasser / Anti Horse Archer
+57 Strength
+No Defence Bonus
+No Pillage/Happiness/Capture
++30% Withdraw Chance
+3 Movement (Total)
+Flying
+120 Hammers
+
+Upgraded Drown
+59 Strength
+1 Movement
+Water walking
+110 Hammers
