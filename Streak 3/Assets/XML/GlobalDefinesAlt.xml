@@ -16,7 +16,7 @@
 	</Define>
 	<Define>
 		<DefineName>HILLS_EXTRA_DEFENSE</DefineName>
-		<iDefineIntVal>20</iDefineIntVal>
+		<iDefineIntVal>15</iDefineIntVal>
 	</Define>	
 	
 	<Define>
