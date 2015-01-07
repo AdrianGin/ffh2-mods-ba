@@ -260,6 +260,15 @@
 			<DefaultUnit>UNIT_CROSSBOWMAN</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
+			<Type>UNITCLASS_MOUNTAIN_RANGER</Type>
+			<Description></Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<DefaultUnit>UNIT_MOUNTAIN_RANGER</DefaultUnit>
+		</UnitClassInfo>
+		<UnitClassInfo>
 			<Type>UNITCLASS_MARKSMAN</Type>
 			<Description></Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
