@@ -6356,7 +6356,7 @@
 			<DefaultUnitAI>UNITAI_RESERVE</DefaultUnitAI>
 			<Invisible>NONE</Invisible>
 			<SeeInvisible>NONE</SeeInvisible>
-			<Description>TXT_KEY_UNIT_RANGER</Description>
+			<Description>TXT_KEY_UNIT_MOUNTAIN_RANGER</Description>
 			<Civilopedia>TXT_KEY_UNIT_MARKSMAN_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_MARKSMAN_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
