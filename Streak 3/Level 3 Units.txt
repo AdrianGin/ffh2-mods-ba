@@ -1,0 +1,118 @@
+
+
+Level 3:
+Pikeman - Anti Mounted
+63 Strength
+1 Movement
++10% v Mounted
++10% v Elephant
+120 Hammers
+
+Men at Arms - Main Force
+76 Strength
+1 Movement
++10% City
+150 Hammers
+
+
+Hill/Forest/Jungle/Desert - 15%
+Amphibious - 30%
+
+
+
+
+
+Arquebus - Anti Melee / Allround tough Unit
+81 Strength
+1 First Strike
+1 Movement
++10% Flying
+165 Hammers
+
+
+Defensive Withdraw = Offensive Withdraw
+
+
+Mounted 3
+Lancer (Max 3)	 - Tank / Archer Dislodger
+115/115 Strength
+No Defence Bonus
+2 Movement
+Blitz
+20% v Archery
+20% v Gunpowder
+10% Withdraw
+250 Hammers
+
+
+Light Cavalry - Fast Defender
+69/69
+Movement 3
+25% Withdraw
+No Defence Bonus
+140 Hammers
+
+Knight
++20% v Gunpowder
+
+Seige Elephant (2 max)
+144 strength
+No def
+2 Movement
+330 hammers
+(2 stack points)
+
+
+
+Archer 3:
+Marksman:: (limit 3)
+63 Strength
+2 Movement
+1st Strike
+Ignores terrain
+Doesn't receive defence
+No Pil/Mil/Cap
+Stealth
+130 Hammers
+
+
+
+Archmage 
+56/56
+
+
+
+Seige Elephant	 - SUper Tank
+144 Strength (Max 2)
+2 Movement
+No Defence
+250 Hammers
+
+
+Highlander
+=Taken Realism Invictus - Claymore Footman
+1 Movement
++15% Mountain Strength
++15% Hills
+Starts with Mountaineering
+
+
+Kraken - anti ship / 
+
+Manticore - Level 3 Flyer
+
+Flying Ship - Navy
+
+Treant - Woodsman
+
+Water walking Unit
+
+Arcane 3
+Titan
+Starts with stealth, hidden
+
+
+
+
+
+

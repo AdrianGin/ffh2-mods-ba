@@ -22,7 +22,10 @@ Moai Statues
 Windmill Food 1?
 
 **
-Add 1.5% interest per turn.
+
+
+Add water / seige exp building
+Move seige to water
 
 
 **
@@ -34,7 +37,7 @@ Flying
 
 		changeResidualDecimalInterest(fractionalInterest);
 
-
+Terraform - 2 turns to cast
 
 Level Arcane Unit
 Golem Unit
@@ -68,70 +71,6 @@ Starts with Mountaineering
 +15% Mountain Strength
 80 Hammers
 
-
-
-
-
-
-Level 3:
-Pikeman - Anti Mounted
-70 Strength
-1 Movement
-+10% v Mounted
-+10% v Elephant
-120 Hammers
-
-Men at Arms - Main Force
-80 Strength
-1 Movement
-+10% City
-150 Hammers
-
-Archer 3:
-Marksman:: (limit 3) - Attacking Mountain Unit
-Mountaineering
-79 Strength
-2 Movement
-2st Strike
-Cannot see stealth
-No Pil/Mil/Cap
-Stealth
-+10% Mountain Attack
-+10% v Beast
-200 Hammers
-
-Arquebus - Anti Melee / Allround tough Unit
-87 Strength
-1 First Strike
-1 Movement
-+10% City Defence
-+10% Flying
-170 Hammers
-
-
-Mounted 3
-Lancer (Max 3)	 - Tank / Archer Dislodger
-125/96 Strength
-1st Strike
-No Defence Bonus
-2 Movement
-Blitz
-20% v Archery
-250 Hammers
-
-Seige Elephant	 - SUper Tank
-144 Strength (Max 2)
-2 Movement
-No Defence
-250 Hammers
-
-
-Arcane 3
-Seige Golem
-2 Movement
-87 Strength
-1 Special Ability
-180
 
 
 
@@ -392,3 +331,5 @@ Upgraded Drown
 1 Movement
 Water walking
 110 Hammers
+
+Add 1.5% interest per turn.
