@@ -11,303 +11,63 @@ Need to allow Seige to have promotions
 Update promotion names
 
 Haste - bug?
-War Elephants + Horses + Haste
++ Horses + Haste
+
+
+
+Adrian - 
+Mountain Strength
+Defensive Withdraw
+Amphibious Surround.
+
+Civic Change:
+No distance penalty
+No Unit supply
+
+Gold Upgrade XP 
+(15 + 5per XP you are on)
+
+Copper / Iron / Mithril = 10,15,25% extra base strength added
+25, 50, 120
+
+Horses
++1 movement
++10% strength
+70 gold
+
+War Elephants
++15% Strength
+65  gold
+
+Fix Stoneskin promo 
 
 
 
 ** 
-Lighthouse
-Levee Type building
-Moai Statues
+Lighthouse 
++ 1 food, water tiles
+
+Moai Statues 
++1 Hammer, water tiles
+
+
+
+
+///////////////////////////////////////////////
+Reintroduce Pirate Coves - 3 tiles apart
++1 Hammer, +1 Gold
+Uses up work boat
+///////////////////////////////////////////////
+
+
 Windmill Food 1?
 
 **
 
 
-Add water / seige exp building
-Move seige to water
-Seige Elephant / Copper / Iron etc Promo 
-Fix Stoneskin promo 
 
-**
-Invisibility
-Water Walking
-Move on Mountains
-Flying
-**
-
-		changeResidualDecimalInterest(fractionalInterest);
-
-Terraform - 2 turns to cast
-
-Level Arcane Unit
-Golem Unit
-Air (3 limit)
-63 Strength
-(2 Movement Total)
-Flying
-130 Hammers
-
-Earth
-68 Strength
-1 Movement
-Mountaineering
-
-Water
-66 Strength
-1 Movement
-Immunity from First Strikes
-Water Walk
-
-Fire
-70/62 Strength
-1 Movement
-1st Strike
-Can Burn Forest/Jungle
-
-Mountain Ranger - Economical Mountain Attacker to dislodge mountain defs (Updgrade from Ranger)
-51 Strength
-1 Movement
-Starts with Mountaineering
-+15% Mountain Strength
-80 Hammers
-
-
-
-
-Beast 3 - Flying Harasser / Anti Horse
-Dragon (max 2)
-117/92 Strength
-1 First Strike
-3 Movement
-Flying
-No Cap/Pil/Mil/Def Bonus
-+10% v Mounted
-+10% Withdraw Chance
-250 Hammers
-
-
-Treant - Woodunit
-85/93
-1 Movement
-No Pil/Cap/Hap/Defence
-Woodsman 1 & 2
-Can Grow Forests
-200 Hammers
-
-
-
-
-
-
-
-
-AIRSHIP??
-
-Civic Change:
-Free Military Supply: 10 units
-
-
-
-
+Add water / seige exp building (150)
 
 
 **ARCANE UNIT PROMPOTIONS?
 
-
-
-
-****IMPLEMENTED****
-
-Mountaineer Promotion
---Available from Level 1
---Ranger needs this promotion
-TXT_KEY_TERRAIN_IMPASSABLE
-TXT_KEY_UNIT_CAN_MOVE_IMPASSABLE
-
-Hunter
-Can see stealth
-No Beast Bonus
-Can carry Hawk
-1 Movement
-36/36
-50 Hammers
-
-Galley - Transport
-35 Strength
-2 Movement
-2 Cargo
-55 Hammers
-
-**Attack / Defence
-Trireme - Sea Superiority (Main Force)
-42/38 Strength
-2 Movement
-1 Cargo
-65 Hammers
-
-Caravel - Interceptor
-54 Strength
-3 Movement
-+25% withdraw
-Cargo: 1
-90 Hammers
-
-Galleon - Flag Ship
-61/64 Strength
-2 Movement
-Cargo: 3
-Can Bombard City (-10%)
-No Mil happiness
-110 Hammers
-
-Drown
-Water walking
-Receives Defence Bonus
-Can pillage
-Can capture
-1 Movement
-Doesn't provide Military Happiness
-36 Strength
-60 Hammers
-
-Baby Spider
-Invisibility
-Can't Pillage
-Can't Capture
-Doesn't receive defence
-40 Strength
-1 Movement
-70 Hammers
-
-*** FIX VS CLASS PROMOTIONS FOR BEAST
-Melee, Horses, Archers
-Combat , Drill Promotions Only
-
-*** Fix Navy Crew Promotions
-
-Elementals - limit 5
-43 Str
-1 Movement
-70 Hammers
-
-Ranger - Archery Unit
-Mountaineer Promotion
-1 Movement
-36 Strength
-60 Hammers
-
-Swordsman
-60 Strength
-+10% v City
-100 Hammers
-
-Longbowman - Good Defender
-+15% City/Hills
-45 / 68 Strength
-1 First Strike
-+20% v Flying
-100 Hammers
-
-Crossbowman
-Anti Infantary
-62/48 Strength
-1 First Strike
-+20% vs Melee
-+20% v Flying
-100 Hammers
-
-HorseMan
-37 Strenght
-2 Movement
-No defense bonus
-WIthdraw 25%
-40% v Archery
-60 Hammers
-
-Battering Ram
-30 Strength
-Immune
-No cap/pil/mil
-No Def
-+100% V City
-Bombard City (-10%)
-40 Hammers
-
-Spearman
-47 Strength
-+10% v Mounted
-+10% v Elephant
-75 Hammers
-
-Horse Archer - Raider
-53
-1 First Strike
-No Defence Bonus
-3 Movement
-+30% Withdraw Chance
-Extra Pillaging
-100 Hammers
-
-Knight - Longbowman Dislodger (Max 5)
-75 / 75
-2 Movement
-Withdraw +15%
-No Defence Bonus
-+20% v Archery
-160 Hammers
-
-Assassin - Opportunist (Attacks prey)
-50/50 Strength
-2 Movement
-No Cap/Pil/Mil
-No defence bonus
-Ignore terrain movement cost
-Starts with Stealth
-Marksman
-90 Hammers
-
-Catapult - Stack Damager
-46 Strength
-80% Withdraw
-Maximum 60% damage on attack
-Collateral max 30%
-Bombard City (-15%)
-100 Hammers
-
-Adept
-32 Strength
-No defence bonus
-
-Mage
-40 Strength
-No defence bonus
-
-Archmage
-56 Strength
-No defence bonus
-
-Giant Spider - Stalker & Opportunist (Good @ Waiting for prey)
-62 Strength, 
-1 Movement
-Can move impassable
-Invisible
-No cap/pil/milhap/def bonus
-120 Hammers
-
-Griffon - Harasser / Anti Horse Archer
-57 Strength
-No Defence Bonus
-No Pillage/Happiness/Capture
-+30% Withdraw Chance
-3 Movement (Total)
-Flying
-120 Hammers
-
-Upgraded Drown
-59 Strength
-1 Movement
-Water walking
-110 Hammers
-
-Add 1.5% interest per turn.
