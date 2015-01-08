@@ -1,5 +1,4 @@
-Hill/Forest/Jungle/Desert - 15%
-Amphibious - 30%
+
 
 
 Defensive Withdraw = Offensive Withdraw
@@ -24,8 +23,6 @@ Kraken - anti ship /
 
 Manticore - Level 3 Flyer
 
-Flying Ship - Navy
-
 Treant - Woodsman
 
 Water walking Unit
@@ -33,6 +30,32 @@ Water walking Unit
 Arcane 3
 Titan
 Starts with stealth, hidden
+
+
+Frigate - Main Force
+70 Strength
+2 Movement
+Cargo: 1
+Can Bombard (-10%)
+150 Hammers
+
+Privateer - Interceptor
+68 Strength
+3 Movement
+Can pirate
++1 Visibility
+Cargo: 2
+140 Hammers
+
+Man o War - Flag Ship
+100 Strength
+1 Movement
+Cargo: 2
+Can Bombard (-20%)
+200 Hammers
+
+AIRSHIP TRANSPORT
+
 
 
 
@@ -91,3 +114,6 @@ Stealth
 
 Knight
 +20% v Gunpowder
+
+Hill/Forest/Jungle/Desert - 15%
+Amphibious - 30%
