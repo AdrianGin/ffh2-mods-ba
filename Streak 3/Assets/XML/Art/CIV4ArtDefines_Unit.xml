@@ -10664,7 +10664,7 @@
         <UnitArtInfo>
             <Type>ART_DEF_UNIT_NULLSTONE_GOLEM</Type>
             <Button>Art/Interface/Buttons/Units/Nullstone Golem.dds</Button>
-            <fScale>0.65</fScale>
+            <fScale>0.68</fScale>
             <fInterfaceScale>0.7</fInterfaceScale>
             <bActAsLand>0</bActAsLand>
             <bActAsAir>0</bActAsAir>

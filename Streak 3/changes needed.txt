@@ -1,3 +1,8 @@
+**********ADRIAN**********
+PLEASE CREATE UNIT ICONS FOR AIR, EARTH AND FIRE GOLEM USING THE ICON FROM THE WATER GOLEM AND CHANGING THE COLOUR TO MATCH THE IN-GAME COLOUR OF THE GOLEM UNIT.
+**************************
+
+
 Reorder buildings - Bas
 
 Implement "not all units die in combat" system
