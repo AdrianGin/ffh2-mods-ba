@@ -39,30 +39,7 @@ Flying
 
 Terraform - 2 turns to cast
 
-Level Arcane Unit
-Golem Unit
-Air (3 limit)
-63 Strength
-(2 Movement Total)
-Flying
-130 Hammers
 
-Earth
-68 Strength
-1 Movement
-Mountaineering
-
-Water
-66 Strength
-1 Movement
-Immunity from First Strikes
-Water Walk
-
-Fire
-70/62 Strength
-1 Movement
-1st Strike
-Can Burn Forest/Jungle
 
 
 
@@ -326,3 +303,28 @@ Mountain Ranger - Economical Mountain Attacker to dislodge mountain defs (Updgra
 Starts with Mountaineering
 +15% Mountain Strength
 90 Hammers
+
+Level Arcane Unit
+Golem Unit
+Air (3 limit)
+63 Strength
+(2 Movement Total)
+Flying
+130 Hammers
+
+Earth
+68 Strength
+1 Movement
+Mountaineering
+
+Water
+66 Strength
+1 Movement
+Immunity from First Strikes
+Water Walk
+
+Fire
+70/62 Strength
+1 Movement
+1st Strike
+Can Burn Forest/Jungle
