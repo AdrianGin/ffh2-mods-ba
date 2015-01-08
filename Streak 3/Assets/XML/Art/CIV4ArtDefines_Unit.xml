@@ -6259,7 +6259,7 @@
         <UnitArtInfo>
             <Type>ART_DEF_UNIT_FLESH_GOLEM</Type>
             <Button>Art/Interface/Buttons/Units/Flesh Golem.dds</Button>
-            <fScale>0.44</fScale>
+            <fScale>0.41</fScale>
             <fInterfaceScale>1</fInterfaceScale>
             <bActAsLand>0</bActAsLand>
             <bActAsAir>0</bActAsAir>
