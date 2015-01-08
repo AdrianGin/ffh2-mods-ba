@@ -33,24 +33,6 @@ Add water / seige exp building
 
 
 
-**
-Invisibility
-Water Walking
-Move on Mountains
-Flying
-**
-
-		changeResidualDecimalInterest(fractionalInterest);
-
-Terraform - 2 turns to cast
-
-
-
-
-
-
-
-
 Beast 3 - Flying Harasser / Anti Horse
 Dragon (max 2)
 117/92 Strength
@@ -333,3 +315,5 @@ Fire
 1 Movement
 1st Strike
 Can Burn Forest/Jungle
+
+Terraform - 2 turns to cast

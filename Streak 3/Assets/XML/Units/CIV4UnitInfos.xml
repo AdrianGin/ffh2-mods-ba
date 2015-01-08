@@ -2496,8 +2496,8 @@
 			</DamageTypeCombats>
 		</UnitInfo>
 		<UnitInfo>
-			<Class>UNITCLASS_WATER_GOLEM</Class>
-			<Type>UNIT_WATER_GOLEM</Type>
+			<Class>UNITCLASS_TITAN</Class>
+			<Type>UNIT_TITAN</Type>
 			<UniqueNames>
             </UniqueNames>
 			<Special>NONE</Special>
