@@ -1475,7 +1475,7 @@
 			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
 			<Invisible>NONE</Invisible>
 			<SeeInvisible>NONE</SeeInvisible>
-			<Description>TXT_KEY_UNIT_ELEMENTAL</Description>
+			<Description>TXT_KEY_UNIT_GOLEM</Description>
 			<Civilopedia>NONE</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_MANES_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
@@ -1679,7 +1679,7 @@
 			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
 			<Invisible>NONE</Invisible>
 			<SeeInvisible>NONE</SeeInvisible>
-			<Description>TXT_KEY_UNIT_ELEMENTAL</Description>
+			<Description>TXT_KEY_UNIT_AIR_GOLEM</Description>
 			<Civilopedia>NONE</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_MANES_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
@@ -1845,13 +1845,13 @@
 			<iAsset>1</iAsset>
 			<iPower>2</iPower>
 			<UnitMeshGroups>
-				<iGroupSize>3</iGroupSize>
+				<iGroupSize>2</iGroupSize>
 				<fMaxSpeed>1.75</fMaxSpeed>
 				<fPadTime>1</fPadTime>
-				<iMeleeWaveSize>3</iMeleeWaveSize>
+				<iMeleeWaveSize>2</iMeleeWaveSize>
 				<iRangedWaveSize>0</iRangedWaveSize>
 				<UnitMeshGroup>
-					<iRequired>3</iRequired>
+					<iRequired>2</iRequired>
 					<EarlyArtDefineTag>ART_DEF_UNIT_IRON_GOLEM</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
@@ -1887,7 +1887,7 @@
 			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
 			<Invisible>NONE</Invisible>
 			<SeeInvisible>NONE</SeeInvisible>
-			<Description>TXT_KEY_UNIT_ELEMENTAL</Description>
+			<Description>TXT_KEY_UNIT_EARTH_GOLEM</Description>
 			<Civilopedia>NONE</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_MANES_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
@@ -2053,13 +2053,13 @@
 			<iAsset>1</iAsset>
 			<iPower>2</iPower>
 			<UnitMeshGroups>
-				<iGroupSize>3</iGroupSize>
+				<iGroupSize>2</iGroupSize>
 				<fMaxSpeed>1.75</fMaxSpeed>
 				<fPadTime>1</fPadTime>
-				<iMeleeWaveSize>3</iMeleeWaveSize>
+				<iMeleeWaveSize>2</iMeleeWaveSize>
 				<iRangedWaveSize>0</iRangedWaveSize>
 				<UnitMeshGroup>
-					<iRequired>3</iRequired>
+					<iRequired>2</iRequired>
 					<EarlyArtDefineTag>ART_DEF_UNIT_WOOD_GOLEM</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
@@ -2095,7 +2095,7 @@
 			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
 			<Invisible>NONE</Invisible>
 			<SeeInvisible>NONE</SeeInvisible>
-			<Description>TXT_KEY_UNIT_ELEMENTAL</Description>
+			<Description>TXT_KEY_UNIT_FIRE_GOLEM</Description>
 			<Civilopedia>NONE</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_MANES_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
@@ -2261,13 +2261,13 @@
 			<iAsset>1</iAsset>
 			<iPower>2</iPower>
 			<UnitMeshGroups>
-				<iGroupSize>3</iGroupSize>
+				<iGroupSize>2</iGroupSize>
 				<fMaxSpeed>1.75</fMaxSpeed>
 				<fPadTime>1</fPadTime>
-				<iMeleeWaveSize>3</iMeleeWaveSize>
+				<iMeleeWaveSize>2</iMeleeWaveSize>
 				<iRangedWaveSize>0</iRangedWaveSize>
 				<UnitMeshGroup>
-					<iRequired>3</iRequired>
+					<iRequired>2</iRequired>
 					<EarlyArtDefineTag>ART_DEF_UNIT_AUREALIS</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
@@ -2299,7 +2299,7 @@
 			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
 			<Invisible>NONE</Invisible>
 			<SeeInvisible>NONE</SeeInvisible>
-			<Description>TXT_KEY_UNIT_ELEMENTAL</Description>
+			<Description>TXT_KEY_UNIT_WATER_GOLEM</Description>
 			<Civilopedia>NONE</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_MANES_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
@@ -2465,13 +2465,13 @@
 			<iAsset>1</iAsset>
 			<iPower>2</iPower>
 			<UnitMeshGroups>
-				<iGroupSize>3</iGroupSize>
+				<iGroupSize>2</iGroupSize>
 				<fMaxSpeed>1.75</fMaxSpeed>
 				<fPadTime>1</fPadTime>
-				<iMeleeWaveSize>3</iMeleeWaveSize>
+				<iMeleeWaveSize>2</iMeleeWaveSize>
 				<iRangedWaveSize>0</iRangedWaveSize>
 				<UnitMeshGroup>
-					<iRequired>3</iRequired>
+					<iRequired>2</iRequired>
 					<EarlyArtDefineTag>ART_DEF_UNIT_ICE_ELEMENTAL</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
