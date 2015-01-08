@@ -27,7 +27,7 @@ Windmill Food 1?
 Add water / seige exp building
 Move seige to water
 Seige Elephant / Copper / Iron etc Promo 
-
+Fix Stoneskin promo 
 
 **
 Invisibility
@@ -101,29 +101,6 @@ Can Grow Forests
 
 
 
-Level 3:
-
-Frigate - Main Force
-70 Strength
-2 Movement
-Cargo: 1
-Can Bombard (-10%)
-150 Hammers
-
-Privateer - Interceptor
-68 Strength
-3 Movement
-Can pirate
-+1 Visibility
-Cargo: 2
-140 Hammers
-
-Man o War - Flag Ship
-100 Strength
-1 Movement
-Cargo: 2
-Can Bombard (-20%)
-200 Hammers
 
 AIRSHIP??
 

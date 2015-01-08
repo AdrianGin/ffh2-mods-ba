@@ -143,7 +143,7 @@
 			<iUnitPlotSupport>-40</iUnitPlotSupport>
 			<iSeeThrough>1</iSeeThrough>
 			<iHealthPercent>-25</iHealthPercent>
-			<iDefense>20</iDefense>
+			<iDefense>15</iDefense>
 			<iAppearance>0</iAppearance>
 			<iDisappearance>0</iDisappearance>
 			<iGrowth>16</iGrowth>
@@ -506,7 +506,7 @@
 			<iUnitPlotSupport>-20</iUnitPlotSupport>
 			<iSeeThrough>1</iSeeThrough>
 			<iHealthPercent>50</iHealthPercent>
-			<iDefense>20</iDefense>
+			<iDefense>15</iDefense>
 			<iAppearance>0</iAppearance>
 			<iDisappearance>0</iDisappearance>
 			<iGrowth>8</iGrowth>

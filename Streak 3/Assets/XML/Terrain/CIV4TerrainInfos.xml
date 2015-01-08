@@ -695,7 +695,7 @@
 			<iSeeFrom>1</iSeeFrom>
 			<iSeeThrough>1</iSeeThrough>
 			<iBuildModifier>25</iBuildModifier>
-			<iDefense>-20</iDefense>
+			<iDefense>-15</iDefense>
 			<Button>Art/Interface\Buttons\WorldBuilder\Terrain_Desert.dds</Button>
 			<FootstepSounds>
 				<FootstepSound>

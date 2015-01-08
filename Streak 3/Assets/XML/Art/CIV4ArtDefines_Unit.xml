@@ -2255,7 +2255,7 @@
         <UnitArtInfo>
             <Type>ART_DEF_UNIT_AUREALIS</Type>
             <Button>Art/Interface/Buttons/Units/Aurealis.dds</Button>
-            <fScale>0.6</fScale>
+            <fScale>0.5</fScale>
             <fInterfaceScale>0.8</fInterfaceScale>
             <bActAsLand>0</bActAsLand>
             <bActAsAir>0</bActAsAir>
@@ -6259,7 +6259,7 @@
         <UnitArtInfo>
             <Type>ART_DEF_UNIT_FLESH_GOLEM</Type>
             <Button>Art/Interface/Buttons/Units/Flesh Golem.dds</Button>
-            <fScale>0.48</fScale>
+            <fScale>0.41</fScale>
             <fInterfaceScale>1</fInterfaceScale>
             <bActAsLand>0</bActAsLand>
             <bActAsAir>0</bActAsAir>
@@ -8384,7 +8384,7 @@
         <UnitArtInfo>
             <Type>ART_DEF_UNIT_ICE_ELEMENTAL</Type>
             <Button>Art/Interface/Buttons/Units/Ice Elemental.dds</Button>
-            <fScale>0.48</fScale>
+            <fScale>0.5</fScale>
             <fInterfaceScale>1</fInterfaceScale>
             <bActAsLand>0</bActAsLand>
             <bActAsAir>0</bActAsAir>
@@ -8763,7 +8763,7 @@
         <UnitArtInfo>
             <Type>ART_DEF_UNIT_IRON_GOLEM</Type>
             <Button>Art/Interface/Buttons/Units/Iron Golem.dds</Button>
-            <fScale>0.53</fScale>
+            <fScale>0.50</fScale>
             <fInterfaceScale>0.9</fInterfaceScale>
             <bActAsLand>0</bActAsLand>
             <bActAsAir>0</bActAsAir>
@@ -10664,7 +10664,7 @@
         <UnitArtInfo>
             <Type>ART_DEF_UNIT_NULLSTONE_GOLEM</Type>
             <Button>Art/Interface/Buttons/Units/Nullstone Golem.dds</Button>
-            <fScale>0.65</fScale>
+            <fScale>0.68</fScale>
             <fInterfaceScale>0.7</fInterfaceScale>
             <bActAsLand>0</bActAsLand>
             <bActAsAir>0</bActAsAir>
@@ -15641,7 +15641,7 @@
         <UnitArtInfo>
             <Type>ART_DEF_UNIT_WOOD_GOLEM</Type>
             <Button>Art/Interface/Buttons/Units/Wood Golem.dds</Button>
-            <fScale>0.48</fScale>
+            <fScale>0.50</fScale>
             <fInterfaceScale>1</fInterfaceScale>
             <bActAsLand>0</bActAsLand>
             <bActAsAir>0</bActAsAir>
