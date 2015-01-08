@@ -1,8 +1,4 @@
-
-
-
 Defensive Withdraw = Offensive Withdraw
-
 
 Light Cavalry - Fast Defender
 69/69
@@ -18,7 +14,6 @@ Highlander
 +15% Hills
 Starts with Mountaineering
 
-
 Kraken - anti ship / 
 
 Manticore - Level 3 Flyer
@@ -27,10 +22,8 @@ Treant - Woodsman
 
 Water walking Unit
 
-Arcane 3
 Titan
 Starts with stealth, hidden
-
 
 Frigate - Main Force
 70 Strength

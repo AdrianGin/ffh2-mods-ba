@@ -33,18 +33,6 @@ Add water / seige exp building
 
 
 
-Beast 3 - Flying Harasser / Anti Horse
-Dragon (max 2)
-117/92 Strength
-1 First Strike
-3 Movement
-Flying
-No Cap/Pil/Mil/Def Bonus
-+10% v Mounted
-+10% Withdraw Chance
-250 Hammers
-
-
 Treant - Woodunit
 85/93
 1 Movement
@@ -55,29 +43,7 @@ Can Grow Forests
 
 
 Level 3:
-Frigate - Main Force
-70 Strength
-2 Movement
-Cargo: 1
-Can Bombard (-10%)
-150 Hammers
 
-Privateer - Interceptor
-68 Strength
-3 Movement
-Can pirate
-+1 Visibility
-Cargo: 2
-140 Hammers
-
-Man o War - Flag Ship
-100 Strength
-1 Movement
-Cargo: 2
-Can Bombard (-20%)
-200 Hammers
-
-AIRSHIP??
 
 Civic Change:
 Free Military Supply: 10 units
