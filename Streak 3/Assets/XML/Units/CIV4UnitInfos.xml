@@ -1754,7 +1754,7 @@
 			<PrereqTech>TECH_ARCANE2</PrereqTech>
 			<TechTypes>
             </TechTypes>
-			<BonusType>BONUS_AIR_MANA</BonusType>
+			<BonusType>BONUS_MANA_AIR</BonusType>
 			<PrereqBonuses>
             </PrereqBonuses>
 			<ProductionTraits>
@@ -1962,7 +1962,7 @@
 			<PrereqTech>TECH_ARCANE2</PrereqTech>
 			<TechTypes>
             </TechTypes>
-			<BonusType>BONUS_EARTH_MANA</BonusType>
+			<BonusType>BONUS_MANA_EARTH</BonusType>
 			<PrereqBonuses>
             </PrereqBonuses>
 			<ProductionTraits>
@@ -2072,7 +2072,7 @@
 			<iHotKeyPriority>0</iHotKeyPriority>
 			<FreePromotions>
 				<FreePromotion>
-					<PromotionType>PROMOTION_MOUNTAINEERING</PromotionType>
+					<PromotionType>PROMOTION_MOUNTAINEER</PromotionType>
 					<bFreePromotion>1</bFreePromotion>
 				</FreePromotion>			
 			</FreePromotions>
@@ -2084,8 +2084,8 @@
 			</DamageTypeCombats>
 		</UnitInfo>
 		<UnitInfo>
-			<Class>UNITCLASS_WATER_GOLEM</Class>
-			<Type>UNIT_WATER_GOLEM</Type>
+			<Class>UNITCLASS_FIRE_GOLEM</Class>
+			<Type>UNIT_FIRE_GOLEM</Type>
 			<UniqueNames>
             </UniqueNames>
 			<Special>NONE</Special>
@@ -2170,7 +2170,7 @@
 			<PrereqTech>TECH_ARCANE2</PrereqTech>
 			<TechTypes>
             </TechTypes>
-			<BonusType>BONUS_WATER_MANA</BonusType>
+			<BonusType>BONUS_MANA_FIRE</BonusType>
 			<PrereqBonuses>
             </PrereqBonuses>
 			<ProductionTraits>
@@ -2374,7 +2374,7 @@
 			<PrereqTech>TECH_ARCANE2</PrereqTech>
 			<TechTypes>
             </TechTypes>
-			<BonusType>BONUS_WATER_MANA</BonusType>
+			<BonusType>BONUS_MANA_WATER</BonusType>
 			<PrereqBonuses>
             </PrereqBonuses>
 			<ProductionTraits>
