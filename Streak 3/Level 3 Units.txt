@@ -1,12 +1,5 @@
 Defensive Withdraw = Offensive Withdraw
 
-Light Cavalry - Fast Defender
-69/69
-Movement 3
-25% Withdraw
-No Defence Bonus
-140 Hammers
-
 Highlander
 =Taken Realism Invictus - Claymore Footman
 1 Movement
@@ -110,3 +103,10 @@ Knight
 
 Hill/Forest/Jungle/Desert - 15%
 Amphibious - 30%
+
+Light Cavalry - Fast Defender
+69/69
+Movement 3
+25% Withdraw
+No Defence Bonus
+140 Hammers
