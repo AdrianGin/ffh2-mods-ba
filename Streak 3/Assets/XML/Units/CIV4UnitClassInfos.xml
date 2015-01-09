@@ -476,22 +476,13 @@
 			<DefaultUnit>UNIT_GALLEON</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
-			<Type>UNITCLASS_FRIGATE</Type>
-			<Description>TXT_KEY_UNIT_FRIGATE</Description>
+			<Type>UNITCLASS_PRIVATEER</Type>
+			<Description>TXT_KEY_UNIT_PRIVATEER</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_FRIGATE</DefaultUnit>
-		</UnitClassInfo>		
-		<UnitClassInfo>
-			<Type>UNITCLASS_QUEEN_OF_THE_LINE</Type>
-			<Description>TXT_KEY_UNIT_QUEEN_OF_THE_LINE</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_QUEEN_OF_THE_LINE</DefaultUnit>
+			<DefaultUnit>UNIT_PRIVATEER</DefaultUnit>
 		</UnitClassInfo>		
 		<UnitClassInfo>
 			<Type>UNITCLASS_MAN_O_WAR</Type>

@@ -1,103 +1,3 @@
-
-
-Level 3:
-Pikeman - Anti Mounted
-63 Strength
-1 Movement
-+10% v Mounted
-+10% v Elephant
-120 Hammers
-
-Men at Arms - Main Force
-76 Strength
-1 Movement
-+10% City
-150 Hammers
-
-
-Hill/Forest/Jungle/Desert - 15%
-Amphibious - 30%
-
-
-
-
-
-Arquebus - Anti Melee / Allround tough Unit
-81 Strength
-1 First Strike
-1 Movement
-+10% Flying
-165 Hammers
-
-
-Defensive Withdraw = Offensive Withdraw
-
-
-Mounted 3
-Lancer (Max 3)	 - Tank / Archer Dislodger
-115/115 Strength
-No Defence Bonus
-2 Movement
-Blitz
-20% v Archery
-20% v Gunpowder
-10% Withdraw
-250 Hammers
-
-
-Light Cavalry - Fast Defender
-69/69
-Movement 3
-25% Withdraw
-No Defence Bonus
-140 Hammers
-
-Knight
-+20% v Gunpowder
-
-Seige Elephant (2 max)
-144 strength
-No def
-2 Movement
-330 hammers
-(2 stack points)
-
-
-
-Archer 3:
-Marksman:: (limit 3)
-63 Strength
-2 Movement
-1st Strike
-Ignores terrain
-Doesn't receive defence
-No Pil/Mil/Cap
-Stealth
-130 Hammers
-
-
-
-Archmage 
-56/56
-
-
-
-Seige Elephant	 - SUper Tank
-144 Strength (Max 2)
-2 Movement
-No Defence
-250 Hammers
-
-
-
-
------------------------- NOT IMPLEMENTED ---------
-
-
-
-
-Griffon - change +15% v Flying
-
 Highlander - melee
 =Taken Realism Invictus - Claymore Footman
 67 str
@@ -107,18 +7,6 @@ Highlander - melee
 Starts with Mountaineering
 130 Hammers
 
-Kraken - anti ship / 
-
-Manticore - Level 3 Flyer
-71 str
-3 movement (4 total)
-Cannot capture, Pil, Mil, 
-No Def Bonus
-Withdraw 30%
-Flying
-170 Hammers
-
-
 Giant Tortoise
 73 str
 1 movement
@@ -126,21 +14,8 @@ water walking
 No Mil,
 160 Hammers
 
-??????????????????????|
-Not yet		      |
-Treant - Woodsman     |
-Woodsman 1&2	      |
-??????????????????????|
-
-
 Navy Unit Promotion
 +15% strength on Oceans and Coast
-
-Galley - change cargo = 2
-Trireme - change cargo = 0
-
-Caravel - change cargo = 0
-Galleon - cargo = 3
 
 Level 3:
 Privateer - Interceptor
@@ -151,44 +26,6 @@ can pirate
 +1 Visibility
 +25% withdraw
 130 Hammers
-
-
-Man of War - Main Force
-79 Strength
-2 Movement
-Can Bombard (-15%)
-160 Hammers
-
-
-
-
-
-Arcane 3
-Titan (Limit 3)
-86 strength
-1 Movement
-Dispel Ability
-190 Hammers
-
-
-
-Delete Cannon
-
-Trebuchet
-60 Strength
-No pillage, mil, capture
-No def bonus
-Maximum 60% damage on attack
-Can Withdraw (80%)
-Collateral damage (30%)
--20% per turn
-150 Hammers
-
-
-
-
-
-
 
 
 
