@@ -6033,6 +6033,13 @@ void CvGameTextMgr::parsePromotionHelp(CvWStringBuffer &szBuffer, PromotionTypes
             szBuffer.append(gDLL->getText("TXT_KEY_PROMOTION_EXTRA_COMBAT_STR_DEFENSE", GC.getPromotionInfo(ePromotion).getExtraCombatDefense()));
         }
 	}
+
+	if (GC.getPromotionInfo(ePromotion).getExtraCombatStrPercent() != 0)
+	{
+		szBuffer.append(NEWLINE);
+		szBuffer.append(gDLL->getText("TXT_KEY_PROMOTION_EXTRA_COMBAT_STR_PERCENT", GC.getPromotionInfo(ePromotion).getExtraCombatStrPercent()));
+	}
+
     if (GC.getPromotionInfo(ePromotion).isTargetWeakestUnit())
     {
         szBuffer.append(pcNewline);

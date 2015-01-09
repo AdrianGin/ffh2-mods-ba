@@ -10819,7 +10819,9 @@ int CvUnit::surroundedDefenseModifier(const CvPlot *pPlot, const CvUnit *pDefend
 	{
 		pLoopPlot = plotDirection(pPlot->getX_INLINE(), pPlot->getY_INLINE(), ((DirectionTypes)iI));
 
-		if ((pLoopPlot != NULL) && (pLoopPlot->isWater() == pPlot->isWater()) && (iI != dtDirectionAttacker))
+		//Adrian, Need to check to see if the unit is amphibious. As flying units can surround bonus land/water units
+		//ORIG:: if ((pLoopPlot != NULL) && (pLoopPlot->isWater() == pPlot->isWater()) && (iI != dtDirectionAttacker))
+		if ((pLoopPlot != NULL) && (iI != dtDirectionAttacker))
 		{
 			CLLNode<IDInfo>* pUnitNode;
 			CvUnit* pLoopUnit;
@@ -10835,8 +10837,8 @@ int CvUnit::surroundedDefenseModifier(const CvPlot *pPlot, const CvUnit *pDefend
 			{
 				pLoopUnit = ::getUnit(pUnitNode->m_data);
 				pUnitNode = pLoopPlot->nextUnitNode(pUnitNode);	
-				
-				if (pLoopUnit->getTeam() == getTeam())
+
+				if ( (pLoopUnit->getTeam() == getTeam()) && pLoopUnit->canMoveOrAttackInto(pPlot, true) )
 				{
 					// if pDefender == null - use the last config of maxCombatStr() where pAttacker == this, else - use the pDefender to find the best attacker
 					if (pDefender != NULL)
@@ -13930,6 +13932,9 @@ void CvUnit::setHasPromotion(PromotionTypes eIndex, bool bNewValue)
 		changeAlive((GC.getPromotionInfo(eIndex).isNotAlive()) ? iChange : 0);
 		changeBaseCombatStr(GC.getPromotionInfo(eIndex).getExtraCombatStr() * iChange);
 		changeBaseCombatStrDefense(GC.getPromotionInfo(eIndex).getExtraCombatDefense() * iChange);
+
+		changeBaseCombatStrPercent( GC.getPromotionInfo(eIndex).getExtraCombatStrPercent()  * iChange);
+
 		changeBetterDefenderThanPercent(GC.getPromotionInfo(eIndex).getBetterDefenderThanPercent() * iChange);
 		changeBoarding((GC.getPromotionInfo(eIndex).isBoarding()) ? iChange : 0);
 		changeCombatHealPercent(GC.getPromotionInfo(eIndex).getCombatHealPercent() * iChange);
@@ -16857,6 +16862,12 @@ int CvUnit::getResistChance(CvUnit* pCaster, int iSpell) const
 void CvUnit::changeBaseCombatStr(int iChange)
 {
 	setBaseCombatStr(m_iBaseCombat + iChange);
+}
+
+void CvUnit::changeBaseCombatStrPercent(int iChange)
+{
+	int changePercent = 100 + iChange;
+	setBaseCombatStr( (m_iBaseCombat * changePercent) / 100 );
 }
 
 void CvUnit::changeBaseCombatStrDefense(int iChange)

@@ -566,6 +566,7 @@ public:
 	int getDefensiveStrikeDamage() const;
 	int getExpireChance() const;
 	int getExtraCombatStr() const;
+	int getExtraCombatStrPercent() const;
 	int getExtraCombatDefense() const;
 	int getFreeXPPerTurn() const;
 	int getFreeXPFromCombat() const;
@@ -710,6 +711,7 @@ protected:
 	int m_iDefensiveStrikeDamage;
 	int m_iExpireChance;
 	int m_iExtraCombatStr;
+	int m_iExtraCombatPercent;
 	int m_iExtraCombatDefense;
 	int m_iFreeXPPerTurn;
 	int m_iFreeXPFromCombat;

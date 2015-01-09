@@ -1748,6 +1748,7 @@ m_iDefensiveStrikeChance(0),
 m_iDefensiveStrikeDamage(0),
 m_iExpireChance(0),
 m_iExtraCombatStr(0),
+m_iExtraCombatStrPercent(0),
 m_iExtraCombatDefense(0),
 m_iFreeXPPerTurn(0),
 m_iFreeXPFromCombat(0),
@@ -2282,6 +2283,11 @@ int CvPromotionInfo::getExtraCombatStr() const
 	return m_iExtraCombatStr;
 }
 
+int CvPromotionInfo::getExtraCombatStrPerecent() const
+{
+	return m_iExtraCombatStrPerecent;
+}
+
 int CvPromotionInfo::getExtraCombatDefense() const
 {
 	return m_iExtraCombatDefense;
@@ -2627,6 +2633,7 @@ void CvPromotionInfo::read(FDataStreamBase* stream)
 	stream->Read(&m_iDefensiveStrikeDamage);
 	stream->Read(&m_iExpireChance);
 	stream->Read(&m_iExtraCombatStr);
+	stream->Read(&m_iExtraCombatStrPercent);
 	stream->Read(&m_iExtraCombatDefense);
 	stream->Read(&m_iFreeXPPerTurn);
 	stream->Read(&m_iFreeXPFromCombat);
@@ -2814,6 +2821,7 @@ void CvPromotionInfo::write(FDataStreamBase* stream)
 	stream->Write(m_iDefensiveStrikeDamage);
 	stream->Write(m_iExpireChance);
 	stream->Write(m_iExtraCombatStr);
+	stream->Write(m_iExtraCombatStrPercent);
 	stream->Write(m_iExtraCombatDefense);
 	stream->Write(m_iFreeXPPerTurn);
 	stream->Write(m_iFreeXPFromCombat);
@@ -2983,6 +2991,7 @@ bool CvPromotionInfo::read(CvXMLLoadUtility* pXML)
 	pXML->GetChildXmlValByName(&m_iDefensiveStrikeDamage, "iDefensiveStrikeDamage");
 	pXML->GetChildXmlValByName(&m_iExpireChance, "iExpireChance");
 	pXML->GetChildXmlValByName(&m_iExtraCombatStr, "iExtraCombatStr");
+	pXML->GetChildXmlValByName(&m_iExtraCombatStrPercent, "iExtraCombatStrPercent");
 	pXML->GetChildXmlValByName(&m_iExtraCombatDefense, "iExtraCombatDefense");
 	pXML->GetChildXmlValByName(&m_iFreeXPPerTurn, "iFreeXPPerTurn");
 	pXML->GetChildXmlValByName(&m_iFreeXPFromCombat, "iFreeXPFromCombat");

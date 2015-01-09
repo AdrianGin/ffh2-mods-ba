@@ -968,7 +968,11 @@
   <ElementType name="iCombatPercentInBorders" content="textOnly" dt:type="int" />
   <ElementType name="iExpireChance" content="textOnly" dt:type="int" />
   <ElementType name="iExtraCombatStr" content="textOnly" dt:type="int" />
+  <ElementType name="iExtraCombatStrPercent" content="textOnly" dt:type="int" />
+  
   <ElementType name="iExtraCombatDefense" content="textOnly" dt:type="int" />
+  
+  
   <ElementType name="iFreeXPPerTurn" content="textOnly" dt:type="int" />
   <ElementType name="iFreeXPFromCombat" content="textOnly" dt:type="int" />
   <ElementType name="iResistMagic" content="textOnly" dt:type="int" />

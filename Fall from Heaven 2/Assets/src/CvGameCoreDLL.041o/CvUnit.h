@@ -902,6 +902,7 @@ public:
     int getResistChance(CvUnit* pCaster, int iModify) const;
 	void changeBaseCombatStr(int iChange);
 	void changeBaseCombatStrDefense(int iChange);
+	void changeBaseCombatStrPercent(int iChange);
 	int chooseSpell();
 	int getExtraSpellMove() const;
     void doDamage(int iDmg, int iDmgLimit, CvUnit* pAttacker, int iDmgType, bool bStartWar);
