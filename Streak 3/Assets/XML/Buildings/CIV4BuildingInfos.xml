@@ -5505,7 +5505,7 @@
             <iTradeRoutes>1</iTradeRoutes>
             <iCoastalTradeRoutes>0</iCoastalTradeRoutes>
             <iGlobalTradeRoutes>0</iGlobalTradeRoutes>
-            <iTradeRouteModifier>0</iTradeRouteModifier>
+            <iTradeRouteModifier>25</iTradeRouteModifier>
             <iForeignTradeRouteModifier>0</iForeignTradeRouteModifier>
             <iGlobalPopulationChange>0</iGlobalPopulationChange>
             <iFreeTechs>0</iFreeTechs>
