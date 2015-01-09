@@ -2432,11 +2432,11 @@
             </BonusProductionModifiers>
             <UnitCombatFreeExperiences>
 				<UnitCombatFreeExperience>
-					<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
                     <iExperience>2</iExperience>
 				</UnitCombatFreeExperience>
 				<UnitCombatFreeExperience>
-					<UnitCombatType>UNITCOMBAT_NAVY</UnitCombatType>
+					<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
                     <iExperience>2</iExperience>
 				</UnitCombatFreeExperience>
             </UnitCombatFreeExperiences>
