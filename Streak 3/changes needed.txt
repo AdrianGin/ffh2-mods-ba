@@ -42,6 +42,10 @@ War Elephants
 Fix Stoneskin promo
 
 Please give the unitcombatclass_golem the icon from elemental (race) from ffh2 and change it to have a blue background and yellow golem. Current placeholder is beast!
+
+Please create icons for air, earth and fire golem using the button from the water golem but by changing the colour of the golem on that picture to lightgray, brown and ember (the colours of the golem in game) respectively.
+
+Please make giant tortoise walk on the land and on the water, not sink into it!
 **************************************
 
 
