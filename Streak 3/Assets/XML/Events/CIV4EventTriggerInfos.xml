@@ -4569,7 +4569,7 @@
             <iUnitExperienceWeight>0</iUnitExperienceWeight>
             <bUnitsOnPlot>0</bUnitsOnPlot>
             <BuildingsRequired>
-                <BuildingClass>BUILDINGCLASS_ELDER_COUNCIL</BuildingClass>
+                <BuildingClass>NONE</BuildingClass>
             </BuildingsRequired>
             <iNumBuildings>1</iNumBuildings>
             <iNumBuildingsGlobal>0</iNumBuildingsGlobal>
@@ -9070,7 +9070,7 @@
             <iUnitExperienceWeight>0</iUnitExperienceWeight>
             <bUnitsOnPlot>0</bUnitsOnPlot>
             <BuildingsRequired>
-                <BuildingClass>BUILDINGCLASS_LIBRARY</BuildingClass>
+                <BuildingClass>NONE</BuildingClass>
             </BuildingsRequired>
             <iNumBuildings>1</iNumBuildings>
             <iNumBuildingsGlobal>0</iNumBuildingsGlobal>
@@ -9779,7 +9779,7 @@
             <iUnitExperienceWeight>0</iUnitExperienceWeight>
             <bUnitsOnPlot>0</bUnitsOnPlot>
             <BuildingsRequired>
-                <BuildingClass>BUILDINGCLASS_ALCHEMY_LAB</BuildingClass>
+                <BuildingClass>NONE</BuildingClass>
             </BuildingsRequired>
             <iNumBuildings>1</iNumBuildings>
             <iNumBuildingsGlobal>0</iNumBuildingsGlobal>
@@ -11399,7 +11399,7 @@
             <iUnitExperienceWeight>0</iUnitExperienceWeight>
             <bUnitsOnPlot>0</bUnitsOnPlot>
             <BuildingsRequired>
-                <BuildingClass>BUILDINGCLASS_LIBRARY</BuildingClass>
+                <BuildingClass>NONE</BuildingClass>
             </BuildingsRequired>
             <iNumBuildings>1</iNumBuildings>
             <iNumBuildingsGlobal>0</iNumBuildingsGlobal>
@@ -21961,7 +21961,7 @@
             <iUnitExperienceWeight>0</iUnitExperienceWeight>
             <bUnitsOnPlot>0</bUnitsOnPlot>
             <BuildingsRequired>
-                <BuildingClass>BUILDINGCLASS_LIBRARY</BuildingClass>
+                <BuildingClass>NONE</BuildingClass>
             </BuildingsRequired>
             <iNumBuildings>1</iNumBuildings>
             <iNumBuildingsGlobal>0</iNumBuildingsGlobal>
