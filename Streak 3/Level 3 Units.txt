@@ -6,10 +6,3 @@ Highlander - melee
 +10% Hill Strength
 Starts with Mountaineering
 130 Hammers
-
-Navy Unit Promotion
-+15% strength on Oceans and Coast
-
-
-
-

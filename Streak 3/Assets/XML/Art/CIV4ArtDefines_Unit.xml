@@ -6704,7 +6704,7 @@
             <TrailDefinition>
                 <Texture>Art/Shared/water_ship_wake.dds</Texture>
                 <fWidth>1</fWidth>
-                <fLength>180</fLength>
+                <fLength>0</fLength>
                 <fTaper>1</fTaper>
                 <fFadeStartTime>0.2</fFadeStartTime>
                 <fFadeFalloff>0.35</fFadeFalloff>
