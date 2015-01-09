@@ -59,8 +59,11 @@ mountain ranger needs peak strength
 
 add golem units to promotions
 
-exp building for siege/naval
+change navy line in tech tree to have new icon
 
+name techs appropriatly
+
+check upgrade tree for units
 
 
 Lighthouse 
