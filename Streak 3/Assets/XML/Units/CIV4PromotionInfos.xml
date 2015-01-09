@@ -115,7 +115,7 @@
             <Type>PROMOTION_BARRAGE1</Type>
             <Description>Barrage I</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_ARCHERY2</TechPrereq>
+            <TechPrereq>TECH_NAVY2</TechPrereq>
             <iCollateralDamageChange>30</iCollateralDamageChange>
             <UnitCombats>
                 <UnitCombat>
@@ -134,10 +134,6 @@
             <iCollateralDamageChange>50</iCollateralDamageChange>
             <UnitCombats>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
@@ -152,10 +148,6 @@
             <PromotionPrereq>PROMOTION_BARRAGE2</PromotionPrereq>
             <iCollateralDamageChange>80</iCollateralDamageChange>
             <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
@@ -314,6 +306,10 @@
                     <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
             </UnitCombats>
             <Button>,Art/Interface/Buttons/Promotions/Combat1.dds,Art/Interface/Buttons/Promotions_Atlas.dds,8,2</Button>
             <bMutation>1</bMutation>
@@ -366,6 +362,10 @@
                 </UnitCombat>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
@@ -421,6 +421,10 @@
                     <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
             </UnitCombats>
             <Button>,Art/Interface/Buttons/Promotions/Combat3.dds,Art/Interface/Buttons/Promotions_Atlas.dds,2,6</Button>
             <iCombatPercentDefense>0</iCombatPercentDefense>
@@ -472,6 +476,10 @@
                 </UnitCombat>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
@@ -527,6 +535,10 @@
                     <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
             </UnitCombats>
             <Button>,Art/Interface/Buttons/Promotions/Combat5.dds,Art/Interface/Buttons/Promotions_Atlas.dds,4,6</Button>
             <iCombatPercentDefense>0</iCombatPercentDefense>
@@ -576,6 +588,10 @@
                 </UnitCombat>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
@@ -630,6 +646,10 @@
                     <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
             </UnitCombats>
             <Button>,Art/Interface/Buttons/Promotions/Drill2.dds,Art/Interface/Buttons/Promotions_Atlas.dds,3,3</Button>
             <PromotionNextLevel>PROMOTION_DRILL3</PromotionNextLevel>
@@ -680,6 +700,10 @@
                 </UnitCombat>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
@@ -736,6 +760,10 @@
                     <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
             </UnitCombats>
             <Button>,Art/Interface/Buttons/Promotions/Drill4.dds,Art/Interface/Buttons/Promotions_Atlas.dds,5,3</Button>
         </PromotionInfo>
@@ -760,6 +788,10 @@
                 </UnitCombat>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ELEPHANT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
@@ -790,6 +822,10 @@
                     <UnitCombatType>UNITCOMBAT_ELEPHANT</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
             </UnitCombats>
             <Button>,Art/Interface/Buttons/Promotions/CityRaider2.dds,Art/Interface/Buttons/Promotions_Atlas.dds,6,2</Button>
             <PromotionNextLevel>PROMOTION_CITY_RAIDER3</PromotionNextLevel>
@@ -816,6 +852,10 @@
                 </UnitCombat>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ELEPHANT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
