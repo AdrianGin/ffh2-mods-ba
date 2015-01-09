@@ -4749,7 +4749,7 @@
             <FreeStartEra>NONE</FreeStartEra>
             <MaxStartEra>NONE</MaxStartEra>
             <ObsoleteTech>NONE</ObsoleteTech>
-            <PrereqTech>TECH_CASTLE_AGE</PrereqTech>
+            <PrereqTech>TECH_FOOD2</PrereqTech>
             <TechTypes>
             </TechTypes>
             <Bonus>NONE</Bonus>
@@ -4973,7 +4973,7 @@
             <FreeStartEra>NONE</FreeStartEra>
             <MaxStartEra>NONE</MaxStartEra>
             <ObsoleteTech>NONE</ObsoleteTech>
-            <PrereqTech>TECH_CASTLE_AGE</PrereqTech>
+            <PrereqTech>TECH_NAVY2</PrereqTech>
             <TechTypes>
             </TechTypes>
             <Bonus>NONE</Bonus>
@@ -5203,7 +5203,7 @@
             <FreeStartEra>NONE</FreeStartEra>
             <MaxStartEra>NONE</MaxStartEra>
             <ObsoleteTech>NONE</ObsoleteTech>
-            <PrereqTech>TECH_IMPERIAL_AGE</PrereqTech>
+            <PrereqTech>TECH_NAVY3</PrereqTech>
             <TechTypes>
             </TechTypes>
             <Bonus>NONE</Bonus>
