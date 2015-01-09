@@ -8763,10 +8763,6 @@
 					<UnitClassUpgradeType>UNITCLASS_TREBUCHET</UnitClassUpgradeType>
 					<bUnitClassUpgrade>1</bUnitClassUpgrade>
 				</UnitClassUpgrade>
-				<UnitClassUpgrade>
-					<UnitClassUpgradeType>UNITCLASS_CANNON</UnitClassUpgradeType>
-					<bUnitClassUpgrade>1</bUnitClassUpgrade>
-				</UnitClassUpgrade>
 			</UnitClassUpgrades>
 			<UnitClassTargets>
             </UnitClassTargets>
