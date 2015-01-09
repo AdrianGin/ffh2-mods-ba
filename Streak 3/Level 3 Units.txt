@@ -7,28 +7,8 @@ Highlander - melee
 Starts with Mountaineering
 130 Hammers
 
-Giant Tortoise
-73 str
-1 movement
-water walking
-No Mil,
-160 Hammers
-
 Navy Unit Promotion
 +15% strength on Oceans and Coast
-
-Level 3:
-Privateer - Interceptor
-No Mil
-67 Strength
-3 Movement
-can pirate
-+1 Visibility
-+25% withdraw
-130 Hammers
-
-
-
 
 
 
