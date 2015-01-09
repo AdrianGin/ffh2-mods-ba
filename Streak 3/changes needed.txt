@@ -15,7 +15,7 @@ Haste - bug?
 
 
 
-***********Adrian*******************
+******************Adrian*******************************************************************
 Mountain Strength
 Defensive Withdraw
 Amphibious Surround.
@@ -48,22 +48,25 @@ Please create icons for air, earth and fire golem using the button from the wate
 Please make giant tortoise walk on the land and on the water, not sink into it!
 
 Please make fire golem be able to burn forest and jungle.
-**************************************
+
+Alpine Tactics does not give bonus strength on peaks!!!
+*******************************************************************************************
 
 
-Need to fix ship promotions
+
+*Need to fix ship promotions
 
 Hide alpine tactics promo
 
-mountain ranger needs peak strength
+*mountain ranger needs peak strength
 
-add golem units to promotions
+*add golem units to promotions
 
 change navy line in tech tree to have new icon
 
 name techs appropriatly
 
-check upgrade tree for units
+
 
 
 Lighthouse 

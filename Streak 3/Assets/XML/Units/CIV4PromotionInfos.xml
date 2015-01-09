@@ -3020,6 +3020,7 @@
                 </TerrainDefense>
             </TerrainDefenses>
             <Button>Art/Interface/Buttons/Promotions/AlpineTactics.dds</Button>
+            <iMinLevel>-1</iMinLevel>
         </PromotionInfo>
         
     </PromotionInfos>
