@@ -121,7 +121,7 @@
             <iTradeRoutes>1</iTradeRoutes>
             <iCoastalTradeRoutes>0</iCoastalTradeRoutes>
             <iGlobalTradeRoutes>0</iGlobalTradeRoutes>
-            <iTradeRouteModifier>50</iTradeRouteModifier>
+            <iTradeRouteModifier>100</iTradeRouteModifier>
             <iForeignTradeRouteModifier>0</iForeignTradeRouteModifier>
             <iGlobalPopulationChange>0</iGlobalPopulationChange>
             <iFreeTechs>0</iFreeTechs>
@@ -5454,7 +5454,7 @@
             <FreePromotion>NONE</FreePromotion>
             <CivicOption>NONE</CivicOption>
             <GreatPeopleUnitClass>NONE</GreatPeopleUnitClass>
-            <iGreatPeopleRateChange>1</iGreatPeopleRateChange>
+            <iGreatPeopleRateChange>0</iGreatPeopleRateChange>
             <iHurryAngerModifier>0</iHurryAngerModifier>
             <bBorderObstacle>0</bBorderObstacle>
             <bTeamShare>0</bTeamShare>
@@ -5507,7 +5507,7 @@
             <iFreeSpecialist>0</iFreeSpecialist>
             <iAreaFreeSpecialist>0</iAreaFreeSpecialist>
             <iGlobalFreeSpecialist>0</iGlobalFreeSpecialist>
-            <iMaintenanceModifier>10</iMaintenanceModifier>
+            <iMaintenanceModifier>0</iMaintenanceModifier>
             <iWarWearinessModifier>0</iWarWearinessModifier>
             <iGlobalWarWearinessModifier>0</iGlobalWarWearinessModifier>
             <iEnemyWarWearinessModifier>0</iEnemyWarWearinessModifier>
@@ -5526,7 +5526,7 @@
             <iTradeRoutes>1</iTradeRoutes>
             <iCoastalTradeRoutes>0</iCoastalTradeRoutes>
             <iGlobalTradeRoutes>0</iGlobalTradeRoutes>
-            <iTradeRouteModifier>50</iTradeRouteModifier>
+            <iTradeRouteModifier>0</iTradeRouteModifier>
             <iForeignTradeRouteModifier>0</iForeignTradeRouteModifier>
             <iGlobalPopulationChange>0</iGlobalPopulationChange>
             <iFreeTechs>0</iFreeTechs>
