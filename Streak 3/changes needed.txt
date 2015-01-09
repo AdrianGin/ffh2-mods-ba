@@ -56,8 +56,6 @@ Alpine Tactics does not give bonus strength on peaks!!!
 
 *Need to fix ship promotions
 
-Hide alpine tactics promo
-
 *mountain ranger needs peak strength
 
 *add golem units to promotions
@@ -66,8 +64,9 @@ change navy line in tech tree to have new icon
 
 name techs appropriatly
 
+move windmill to food1?
 
-
+************************Buildings******************************
 
 Lighthouse 
 + 1 food, water tiles
@@ -80,6 +79,6 @@ Reintroduce Pirate Coves - 3 tiles apart
 +1 Hammer, +1 Gold
 Uses up work boat
 ///////////////////////////////////////////////
+********************************************************************
 
-Windmill Food 1?
 
