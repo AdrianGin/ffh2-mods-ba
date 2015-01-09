@@ -6,7 +6,6 @@ Remove circle from above flag if hidden unit is in the stack
 
 Remove fallout and forest_burnt from terrain features - Adrian "This this is not affecting us yet..."
 
-Need to allow Seige to have promotions
 
 Update promotion names
 
@@ -51,8 +50,6 @@ Please make fire golem be able to burn forest and jungle.
 
 Alpine Tactics does not give bonus strength on peaks!!!
 *******************************************************************************************
-
-*add golem units to promotions
 
 change navy line in tech tree to have new icon
 
