@@ -138,7 +138,10 @@
             </RiverPlotYieldChanges>
             <GlobalSeaPlotYieldChanges>
             </GlobalSeaPlotYieldChanges>
-            <YieldChanges>
+            <YieldChanges>            
+                <iYield>0</iYield>
+                <iYield>0</iYield>
+                <iYield>5</iYield>
             </YieldChanges>
             <YieldModifiers>
             </YieldModifiers>
@@ -152,7 +155,7 @@
             <CommerceChangeDoubleTimes>
             </CommerceChangeDoubleTimes>
             <CommerceModifiers>
-                <iCommerce>25</iCommerce>
+                <iCommerce>10</iCommerce>
                 <iCommerce>0</iCommerce>
                 <iCommerce>0</iCommerce>
             </CommerceModifiers>
@@ -369,10 +372,13 @@
             <GlobalSeaPlotYieldChanges>
             </GlobalSeaPlotYieldChanges>
             <YieldChanges>
+                <iYield>0</iYield>
+                <iYield>3</iYield>
+                <iYield>0</iYield>
             </YieldChanges>
             <YieldModifiers>
                 <iYield>0</iYield>
-                <iYield>25</iYield>
+                <iYield>10</iYield>
                 <iYield>0</iYield>
             </YieldModifiers>
             <CommerceChanges>
@@ -397,10 +403,6 @@
             <ReligionChanges>
             </ReligionChanges>
             <SpecialistCounts>
-                <SpecialistCount>
-                    <SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
-                    <iSpecialistCount>7</iSpecialistCount>
-                </SpecialistCount>
             </SpecialistCounts>
             <FreeSpecialistCounts>
             </FreeSpecialistCounts>
@@ -949,7 +951,7 @@
             <FreeStartEra>NONE</FreeStartEra>
             <MaxStartEra>NONE</MaxStartEra>
             <ObsoleteTech>NONE</ObsoleteTech>
-            <PrereqTech>TECH_FEUDAL_AGE</PrereqTech>
+            <PrereqTech>TECH_FOOD1</PrereqTech>
             <TechTypes>
             </TechTypes>
             <Bonus>NONE</Bonus>

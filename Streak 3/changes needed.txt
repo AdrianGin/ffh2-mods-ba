@@ -59,11 +59,6 @@ move windmill to food1?
 
 ************************Buildings******************************
 
-Lighthouse 
-+ 1 food, water tiles
-
-Moai Statues 
-+1 Hammer, water tiles
 
 ///////////////////////////////////////////////
 Reintroduce Pirate Coves - 3 tiles apart
