@@ -15,7 +15,7 @@ Haste - bug?
 
 
 
-Adrian - 
+***********Adrian*******************
 Mountain Strength
 Defensive Withdraw
 Amphibious Surround.
@@ -40,7 +40,7 @@ War Elephants
 65  gold
 
 Fix Stoneskin promo 
-
+**************************************
 
 
 ** 
@@ -67,7 +67,3 @@ Windmill Food 1?
 
 
 Add water / seige exp building (150)
-
-
-**ARCANE UNIT PROMPOTIONS?
-

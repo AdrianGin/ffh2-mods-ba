@@ -1,8 +1,0 @@
-Highlander - melee
-=Taken Realism Invictus - Claymore Footman
-67 str
-1 Movement
-+10% Mountain Strength
-+10% Hill Strength
-Starts with Mountaineering
-130 Hammers
