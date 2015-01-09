@@ -487,6 +487,12 @@ bool CvXMLLoadUtility::SetPostGlobalsGlobalDefines()
         idx = FindInInfoClass(szVal);
         GC.getDefinesVarSystem()->SetValue("TECH_WAY_OF_THE_EARTHMOTHER", idx);
 
+		SetGlobalDefine("PEAK_TERRAIN", szVal);
+		idx = FindInInfoClass(szVal);
+		GC.getDefinesVarSystem()->SetValue("PEAK_TERRAIN", idx);
+
+
+
         //SetGlobalDefine("UNIT_FIREBALL", szVal);
         //idx = FindInInfoClass(szVal);
         //GC.getDefinesVarSystem()->SetValue("UNIT_FIREBALL", idx);

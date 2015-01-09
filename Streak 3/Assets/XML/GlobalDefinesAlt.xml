@@ -456,4 +456,10 @@
                 <DefineName>PROMOTIONS_HEAL_PERCENTAGE_DAMAGE</DefineName>
                 <iDefineIntVal>0</iDefineIntVal>
         </Define>
+        
+	<Define>
+		<DefineName>PEAK_TERRAIN</DefineName>
+		<DefineTextVal>TERRAIN_PEAK</DefineTextVal>
+	</Define>        
+        
 </Civ4Defines>

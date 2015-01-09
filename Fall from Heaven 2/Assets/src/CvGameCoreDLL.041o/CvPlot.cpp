@@ -481,6 +481,11 @@ void CvPlot::doTurn()
 
 	}
 
+	if( isPeak() )
+	{
+		setTerrainType((TerrainTypes)(GC.getDefineINT("PEAK_TERRAIN")), false,false);
+	}
+
 	doFeature();
 
 	doCulture();
