@@ -16651,8 +16651,9 @@ int CvUnit::getWithdrawlProbDefensive() const
     {
         return 0;
     }
-
-	return std::max(0, (m_pUnitInfo->getWithdrawlProbDefensive() + getExtraWithdrawal()));
+	//return std::max(0, (m_pUnitInfo->getWithdrawlProbDefensive() + getExtraWithdrawal()));
+	//Defensive Withdraw is same as Attack withdraw
+	return std::max(0, (m_pUnitInfo->getWithdrawalProbability() + getExtraWithdrawal()));
 }
 
 void CvUnit::setInvisibleType(int iNewValue)

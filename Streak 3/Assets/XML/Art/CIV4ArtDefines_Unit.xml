@@ -6694,21 +6694,21 @@
             <fInterfaceScale>0.6</fInterfaceScale>
             <bActAsLand>0</bActAsLand>
             <bActAsAir>0</bActAsAir>
-            <NIF>Art/Units/Giant Tortoise/WarElephant_Carthage.nif</NIF>
-            <KFM>Art/Units/Giant Tortoise/WarElephant_Carthage.kfm</KFM>
+            <NIF>Art/Units/Tortoise/WarElephant_Carthage.nif</NIF>
+            <KFM>Art/Units/Tortoise/WarElephant_Carthage.kfm</KFM>
             <ShadowDef>
                 <ShadowNIF>Art/Units/01_UnitShadows/WarElephantShadow.nif</ShadowNIF>
                 <ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
                 <fShadowScale>1</fShadowScale>
             </ShadowDef>
-            <TrailDefinition>
+            <!-- TrailDefinition>
                 <Texture>Art/Shared/water_ship_wake.dds</Texture>
                 <fWidth>1</fWidth>
                 <fLength>180</fLength>
                 <fTaper>1</fTaper>
                 <fFadeStartTime>0.2</fFadeStartTime>
                 <fFadeFalloff>0.35</fFadeFalloff>
-            </TrailDefinition>
+            </TrailDefinition -->
                 <fBattleDistance>0.45</fBattleDistance>
                 <fRangedDeathTime>0.31</fRangedDeathTime>
                 <bSmoothMove>1</bSmoothMove>

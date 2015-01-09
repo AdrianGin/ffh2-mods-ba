@@ -3188,6 +3188,13 @@ void CvTeamAI::AI_doWar()
 					{
 						iDivisor++;
 					}
+
+					//Adrian:: Fix divide by zero.
+					if( iTheirPower == 0 )
+					{
+						iTheirPower++;
+					}
+
 					int iRatio = (1 + iOurPower) / (iTheirPower);
 /*************************************************************************************************/
 /**	END	                                        												**/
