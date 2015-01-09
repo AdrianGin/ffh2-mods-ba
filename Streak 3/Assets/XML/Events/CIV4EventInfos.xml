@@ -350,7 +350,7 @@
             </UnitCombatPromotions>
             <UnitClassPromotions>
             </UnitClassPromotions>
-            <BuildingClass>BUILDINGCLASS_ALCHEMY_LAB</BuildingClass>
+            <BuildingClass>NONE</BuildingClass>
             <iBuildingChange>1</iBuildingChange>
             <BuildingExtraYields>
             </BuildingExtraYields>
@@ -9014,11 +9014,6 @@
             <BuildingExtraYields>
             </BuildingExtraYields>
             <BuildingExtraCommerces>
-                <BuildingExtraCommerce>
-                    <BuildingClass>BUILDINGCLASS_ELDER_COUNCIL</BuildingClass>
-                    <CommerceType>COMMERCE_GOLD</CommerceType>
-                    <iExtraCommerce>2</iExtraCommerce>
-                </BuildingExtraCommerce>
             </BuildingExtraCommerces>
             <BuildingExtraHappies>
             </BuildingExtraHappies>
@@ -9120,16 +9115,6 @@
             <BuildingExtraYields>
             </BuildingExtraYields>
             <BuildingExtraCommerces>
-                <BuildingExtraCommerce>
-                    <BuildingClass>BUILDINGCLASS_ELDER_COUNCIL</BuildingClass>
-                    <CommerceType>COMMERCE_RESEARCH</CommerceType>
-                    <iExtraCommerce>-1</iExtraCommerce>
-                </BuildingExtraCommerce>
-                <BuildingExtraCommerce>
-                    <BuildingClass>BUILDINGCLASS_ELDER_COUNCIL</BuildingClass>
-                    <CommerceType>COMMERCE_CULTURE</CommerceType>
-                    <iExtraCommerce>3</iExtraCommerce>
-                </BuildingExtraCommerce>
             </BuildingExtraCommerces>
             <BuildingExtraHappies>
             </BuildingExtraHappies>
@@ -9231,11 +9216,6 @@
             <BuildingExtraYields>
             </BuildingExtraYields>
             <BuildingExtraCommerces>
-                <BuildingExtraCommerce>
-                    <BuildingClass>BUILDINGCLASS_ELDER_COUNCIL</BuildingClass>
-                    <CommerceType>COMMERCE_RESEARCH</CommerceType>
-                    <iExtraCommerce>1</iExtraCommerce>
-                </BuildingExtraCommerce>
             </BuildingExtraCommerces>
             <BuildingExtraHappies>
             </BuildingExtraHappies>
@@ -18401,7 +18381,7 @@
             </UnitCombatPromotions>
             <UnitClassPromotions>
             </UnitClassPromotions>
-            <BuildingClass>BUILDINGCLASS_LIBRARY</BuildingClass>
+            <BuildingClass>NONE</BuildingClass>
             <iBuildingChange>-1</iBuildingChange>
             <BuildingExtraYields>
             </BuildingExtraYields>
@@ -23789,11 +23769,6 @@
             <BuildingExtraYields>
             </BuildingExtraYields>
             <BuildingExtraCommerces>
-                <BuildingExtraCommerce>
-                    <BuildingClass>BUILDINGCLASS_LIBRARY</BuildingClass>
-                    <CommerceType>COMMERCE_RESEARCH</CommerceType>
-                    <iExtraCommerce>1</iExtraCommerce>
-                </BuildingExtraCommerce>
             </BuildingExtraCommerces>
             <BuildingExtraHappies>
             </BuildingExtraHappies>
@@ -26934,11 +26909,6 @@
             <BuildingExtraYields>
             </BuildingExtraYields>
             <BuildingExtraCommerces>
-                <BuildingExtraCommerce>
-                    <BuildingClass>BUILDINGCLASS_LIBRARY</BuildingClass>
-                    <CommerceType>COMMERCE_RESEARCH</CommerceType>
-                    <iExtraCommerce>3</iExtraCommerce>
-                </BuildingExtraCommerce>
             </BuildingExtraCommerces>
             <BuildingExtraHappies>
             </BuildingExtraHappies>
@@ -43171,11 +43141,6 @@
             <BuildingExtraYields>
             </BuildingExtraYields>
             <BuildingExtraCommerces>
-                <BuildingExtraCommerce>
-                    <BuildingClass>BUILDINGCLASS_LIBRARY</BuildingClass>
-                    <CommerceType>COMMERCE_RESEARCH</CommerceType>
-                    <iExtraCommerce>2</iExtraCommerce>
-                </BuildingExtraCommerce>
             </BuildingExtraCommerces>
             <BuildingExtraHappies>
             </BuildingExtraHappies>
