@@ -282,7 +282,7 @@
             <Civilopedia></Civilopedia>
             <BonusClassType>BONUSCLASS_GENERAL</BonusClassType>
             <ArtDefineTag>ART_DEF_BONUS_SUGAR</ArtDefineTag>
-            <TechReveal>TECH_FOOD2</TechReveal>
+            <TechReveal>TECH_FOOD3</TechReveal>
             <TechCityTrade>NONE</TechCityTrade>
             <TechObsolete>NONE</TechObsolete>
             <YieldChanges>
