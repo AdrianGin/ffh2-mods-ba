@@ -171,7 +171,7 @@
 		</UnitClassInfo>
 		<UnitClassInfo>
 			<Type>UNITCLASS_SPEARMAN</Type>
-			<Description>NONE</Description>
+			<Description></Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
@@ -189,7 +189,7 @@
 		</UnitClassInfo>
 		<UnitClassInfo>
 			<Type>UNITCLASS_AXEMAN</Type>
-			<Description>TXT_KEY_UNIT_AXEMAN</Description>
+			<Description></Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
@@ -215,8 +215,17 @@
 			<DefaultUnit>UNIT_MEN_AT_ARMS</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
+			<Type>UNITCLASS_HIGHLANDER</Type>
+			<Description></Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<DefaultUnit>UNIT_HIGHLANDER</DefaultUnit>
+		</UnitClassInfo>
+		<UnitClassInfo>
 			<Type>UNITCLASS_HORSEMAN</Type>
-			<Description>TXT_KEY_UNIT_HORSEMAN</Description>
+			<Description></Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
@@ -243,7 +252,7 @@
 		</UnitClassInfo>
 		<UnitClassInfo>
 			<Type>UNITCLASS_LIGHT_CAVALRY</Type>
-			<Description>TXT_KEY_UNIT_HORSEMAN</Description>
+			<Description></Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
@@ -261,7 +270,7 @@
 		</UnitClassInfo>
 		<UnitClassInfo>
 			<Type>UNITCLASS_WAR_ELEPHANT</Type>
-			<Description>TXT_KEY_UNIT_WAR_ELEPHANT</Description>
+			<Description></Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
 			<iMaxPlayerInstances>3</iMaxPlayerInstances>
@@ -279,7 +288,7 @@
 		</UnitClassInfo>
 		<UnitClassInfo>
 			<Type>UNITCLASS_ARCHER</Type>
-			<Description>TXT_KEY_UNIT_ARCHER</Description>
+			<Description></Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
@@ -288,7 +297,7 @@
 		</UnitClassInfo>
 		<UnitClassInfo>
 			<Type>UNITCLASS_RANGER</Type>
-			<Description>TXT_KEY_UNIT_ARCHER</Description>
+			<Description></Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
@@ -404,6 +413,15 @@
 			<DefaultUnit>UNIT_STYGIAN_DROWN</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
+			<Type>UNITCLASS_GIANT_TORTOISE</Type>
+			<Description></Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<DefaultUnit>UNIT_GIANT_TORTOISE</DefaultUnit>
+		</UnitClassInfo>
+		<UnitClassInfo>
 			<Type>UNITCLASS_TREANT</Type>
 			<Description></Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
@@ -414,7 +432,7 @@
 		</UnitClassInfo>		
 		<UnitClassInfo>
 			<Type>UNITCLASS_BATTERING_RAM</Type>
-			<Description>TXT_KEY_UNIT_BATTERING_RAM</Description>
+			<Description></Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
@@ -459,7 +477,7 @@
 		</UnitClassInfo>
 		<UnitClassInfo>
 			<Type>UNITCLASS_CARAVEL</Type>
-			<Description>TXT_KEY_UNIT_CARAVEL</Description>
+			<Description></Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
@@ -468,7 +486,7 @@
 		</UnitClassInfo>
 		<UnitClassInfo>
 			<Type>UNITCLASS_GALLEON</Type>
-			<Description>TXT_KEY_UNIT_GALLEON</Description>
+			<Description></Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
@@ -477,7 +495,7 @@
 		</UnitClassInfo>
 		<UnitClassInfo>
 			<Type>UNITCLASS_PRIVATEER</Type>
-			<Description>TXT_KEY_UNIT_PRIVATEER</Description>
+			<Description></Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
@@ -486,7 +504,7 @@
 		</UnitClassInfo>		
 		<UnitClassInfo>
 			<Type>UNITCLASS_MAN_O_WAR</Type>
-			<Description>TXT_KEY_UNIT_MAN_O_WAR</Description>
+			<Description></Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
@@ -510,19 +528,6 @@
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_ENGINEER</DefaultUnit>
-		</UnitClassInfo>		
-		
-		
-		<UnitClassInfo>
-			<Type>UNITCLASS_HIGHLANDER</Type>
-			<Description>TXT_KEY_UNIT_HIGHLANDER</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_HIGHLANDER</DefaultUnit>
-		</UnitClassInfo>
-		
-		
+		</UnitClassInfo>	
 	</UnitClassInfos>
 </Civ4UnitClassInfos>
