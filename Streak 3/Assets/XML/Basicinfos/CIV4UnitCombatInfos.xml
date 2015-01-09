@@ -47,6 +47,11 @@
 			<Button>Art/Interface/Buttons/Units/UCBeast.dds</Button>
 		</UnitCombatInfo>
 		<UnitCombatInfo>
+			<Type>UNITCOMBAT_GOLEM</Type>
+			<Description>TXT_KEY_UNITCOMBAT_GOLEM</Description>
+			<Button>Art/Interface/Buttons/Units/UCBeast.dds</Button>
+		</UnitCombatInfo>
+		<UnitCombatInfo>
 			<Type>UNITCOMBAT_ADEPT</Type>
 			<Description>TXT_KEY_UNITCOMBAT_ADEPT</Description>
 			<Button>Art/Interface/Buttons/Units/UCAdept.dds</Button>

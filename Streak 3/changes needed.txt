@@ -39,7 +39,9 @@ War Elephants
 +15% Strength
 65  gold
 
-Fix Stoneskin promo 
+Fix Stoneskin promo
+
+Please give the unitcombatclass_golem the icon from elemental (race) from ffh2 and change it to have a blue background and yellow golem. Current placeholder is beast!
 **************************************
 
 

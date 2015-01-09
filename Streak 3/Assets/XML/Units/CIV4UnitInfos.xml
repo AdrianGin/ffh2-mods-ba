@@ -1470,7 +1470,7 @@
             </UniqueNames>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_MELEE</Combat>
+			<Combat>UNITCOMBAT_GOLEM</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
 			<Invisible>NONE</Invisible>
@@ -1674,7 +1674,7 @@
             </UniqueNames>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_MELEE</Combat>
+			<Combat>UNITCOMBAT_GOLEM</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
 			<Invisible>NONE</Invisible>
@@ -1882,7 +1882,7 @@
             </UniqueNames>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_MELEE</Combat>
+			<Combat>UNITCOMBAT_GOLEM</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
 			<Invisible>NONE</Invisible>
@@ -2083,9 +2083,6 @@
 			<DamageTypeCombats>
 			</DamageTypeCombats>
 		</UnitInfo>
-		
-		
-		
 		<UnitInfo>
 			<Class>UNITCLASS_FIRE_GOLEM</Class>
 			<Type>UNIT_FIRE_GOLEM</Type>
@@ -2093,7 +2090,7 @@
             </UniqueNames>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_MELEE</Combat>
+			<Combat>UNITCOMBAT_GOLEM</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
 			<Invisible>NONE</Invisible>
@@ -2297,7 +2294,7 @@
             </UniqueNames>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_MELEE</Combat>
+			<Combat>UNITCOMBAT_GOLEM</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
 			<Invisible>NONE</Invisible>
@@ -2505,7 +2502,7 @@
             </UniqueNames>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_MELEE</Combat>
+			<Combat>UNITCOMBAT_GOLEM</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
 			<Invisible>NONE</Invisible>
