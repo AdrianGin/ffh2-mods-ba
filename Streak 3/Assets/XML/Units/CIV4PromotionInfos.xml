@@ -1837,8 +1837,8 @@
                 </UnitCombat>
             </UnitCombats>
             <Button>Art/Interface/Buttons/Promotions/Buccaneers.dds</Button>
-            <iExtraCombatStr>7</iExtraCombatStr>
-            <iExtraCombatDefense>7</iExtraCombatDefense>
+            <iExtraCombatStr>6</iExtraCombatStr>
+            <iExtraCombatDefense>6</iExtraCombatDefense>
             <iMinLevel>-1</iMinLevel>
         </PromotionInfo>
         <PromotionInfo>
@@ -1847,7 +1847,6 @@
             <Sound>AS2D_IF_LEVELUP</Sound>
             <TechPrereq>TECH_NEVER</TechPrereq>
             <iMovesChange>1</iMovesChange>
-            <iCargoChange>-1</iCargoChange>
             <UnitCombats>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
@@ -1855,6 +1854,8 @@
                 </UnitCombat>
             </UnitCombats>
             <Button>Art/Interface/Buttons/Promotions/Longshoremen.dds</Button>
+            <iExtraCombatStr>-6</iExtraCombatStr>
+            <iExtraCombatDefense>-6</iExtraCombatDefense>
             <iMinLevel>-1</iMinLevel>
         </PromotionInfo>
         <PromotionInfo>
@@ -1870,8 +1871,8 @@
                 </UnitCombat>
             </UnitCombats>
             <Button>Art/Interface/Buttons/Promotions/Skeletoncrew.dds</Button>
-            <iExtraCombatStr>-7</iExtraCombatStr>
-            <iExtraCombatDefense>-7</iExtraCombatDefense>
+            <iExtraCombatStr>-6</iExtraCombatStr>
+            <iExtraCombatDefense>-6</iExtraCombatDefense>
             <iMinLevel>-1</iMinLevel>
         </PromotionInfo>
         <PromotionInfo>

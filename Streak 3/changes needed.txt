@@ -56,8 +56,6 @@ Alpine Tactics does not give bonus strength on peaks!!!
 
 *Need to fix ship promotions
 
-*mountain ranger needs peak strength
-
 *add golem units to promotions
 
 change navy line in tech tree to have new icon
