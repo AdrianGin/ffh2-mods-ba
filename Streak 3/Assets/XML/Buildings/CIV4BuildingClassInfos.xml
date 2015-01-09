@@ -269,6 +269,18 @@
 			<bMonument>0</bMonument>
 			<DefaultBuilding>BUILDING_TAVERN</DefaultBuilding>
 			<VictoryThresholds/>
+		</BuildingClassInfo>				
+		<BuildingClassInfo>
+			<Type>BUILDINGCLASS_SMELTING_COMPLEX</Type>
+			<Description></Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iExtraPlayerInstances>0</iExtraPlayerInstances>
+			<bNoLimit>0</bNoLimit>
+			<bMonument>0</bMonument>
+			<DefaultBuilding>BUILDING_SMELTING_COMPLEX</DefaultBuilding>
+			<VictoryThresholds/>
 		</BuildingClassInfo>		
 	</BuildingClassInfos>
 </Civ4BuildingClassInfos>
