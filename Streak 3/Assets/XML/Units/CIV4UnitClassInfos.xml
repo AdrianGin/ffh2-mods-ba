@@ -440,15 +440,6 @@
 			<DefaultUnit>UNIT_TREBUCHET</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
-			<Type>UNITCLASS_CANNON</Type>
-			<Description></Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_CANNON</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
 			<Type>UNITCLASS_GALLEY</Type>
 			<Description></Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
