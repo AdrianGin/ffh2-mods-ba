@@ -10397,8 +10397,8 @@
             </UniqueNames>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_ANIMAL</Combat>
-			<Domain>DOMAIN_SEA</Domain>
+			<Combat>UNITCOMBAT_BEAST</Combat>
+			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
 			<Invisible>NONE</Invisible>
 			<SeeInvisible>NONE</SeeInvisible>
