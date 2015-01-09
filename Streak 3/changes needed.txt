@@ -51,15 +51,23 @@ Please make fire golem be able to burn forest and jungle.
 **************************************
 
 
-** 
+Need to fix ship promotions
+
+Hide alpine tactics promo
+
+mountain ranger needs peak strength
+
+add golem units to promotions
+
+exp building for siege/naval
+
+
+
 Lighthouse 
 + 1 food, water tiles
 
 Moai Statues 
 +1 Hammer, water tiles
-
-
-
 
 ///////////////////////////////////////////////
 Reintroduce Pirate Coves - 3 tiles apart
@@ -67,11 +75,5 @@ Reintroduce Pirate Coves - 3 tiles apart
 Uses up work boat
 ///////////////////////////////////////////////
 
-
 Windmill Food 1?
 
-**
-
-
-
-Add water / seige exp building (150)
