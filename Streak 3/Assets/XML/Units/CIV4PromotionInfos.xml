@@ -3001,7 +3001,26 @@
             <bMoveImpassable>1</bMoveImpassable>
         </PromotionInfo>        
         
-        
+     	<PromotionInfo>
+            <Type>PROMOTION_ALPINE_TACTICS</Type>
+            <Description>TXT_KEY_ALPINE_TACTICS</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PromotionPrereqOr1>PROMOTION_MOUNTAINEER</PromotionPrereqOr1>
+            <TechPrereq>TECH_NEVER</TechPrereq>
+            <TerrainAttacks>
+                <TerrainAttack>
+                    <TerrainType>TERRAIN_PEAK</TerrainType>
+                    <iTerrainAttack>10</iTerrainAttack>
+                </TerrainAttack>
+            </TerrainAttacks>
+            <TerrainDefenses>
+                <TerrainDefense>
+                    <TerrainType>TERRAIN_PEAK</TerrainType>
+                    <iTerrainDefense>10</iTerrainDefense>
+                </TerrainDefense>
+            </TerrainDefenses>
+            <Button>Art/Interface/Buttons/Promotions/AlpineTactics.dds</Button>
+        </PromotionInfo>
         
     </PromotionInfos>
 </Civ4PromotionInfos>
