@@ -2133,7 +2133,7 @@
             <bMutation>1</bMutation>
             <bRemovedByCombat>1</bRemovedByCombat>
             <iAIWeight>100</iAIWeight>
-            <iExtraCombatDefense>20</iExtraCombatDefense>
+            <iExtraCombatStrPercent>15</iExtraCombatStrPercent>
             <iExpireChance>100</iExpireChance>
             <iMinLevel>-1</iMinLevel>
         </PromotionInfo>

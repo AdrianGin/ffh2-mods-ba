@@ -3956,6 +3956,33 @@ def spellElephantWeapons(caster):
 	promo = gc.getInfoTypeForString('PROMOTION_ELEPHANT_WEAPONS')
 	caster.setHasPromotion(promo, True)			
 		
+				
+		
+def reqGainXP(caster):
+	pPlayer = gc.getPlayer(caster.getOwner())
+	currentXP = caster.getExperience()
+	goldNeeded = 15 + (5 * currentXP)
+	
+	if( pPlayer.getGold() >= goldNeeded ):
+		return True
+		
+	return False
+
+def spellGainXP(caster):
+	pPlayer = gc.getPlayer(caster.getOwner())
+	
+	currentXP = caster.getExperience()
+	goldNeeded = 15 + (5 * currentXP)
+		
+	
+	if( pPlayer.getGold() >= goldNeeded ):
+		caster.changeExperience(1, -1, True, True, False)
+		pPlayer.changeGold( -goldNeeded )
+	
+	
+	
+	return True
+			
 		
 def reqTeleport(caster, plot, target):
 	pPlayer = gc.getPlayer(caster.getOwner())

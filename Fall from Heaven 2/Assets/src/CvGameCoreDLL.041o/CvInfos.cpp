@@ -2283,9 +2283,9 @@ int CvPromotionInfo::getExtraCombatStr() const
 	return m_iExtraCombatStr;
 }
 
-int CvPromotionInfo::getExtraCombatStrPerecent() const
+int CvPromotionInfo::getExtraCombatStrPercent() const
 {
-	return m_iExtraCombatStrPerecent;
+	return m_iExtraCombatStrPercent;
 }
 
 int CvPromotionInfo::getExtraCombatDefense() const

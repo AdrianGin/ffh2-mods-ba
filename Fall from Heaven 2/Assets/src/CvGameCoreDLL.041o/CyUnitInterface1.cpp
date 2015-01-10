@@ -38,5 +38,8 @@ void CyUnitPythonInterface1(python::class_<CyUnit>& x)
 
 		.def("changeDuration", &CyUnit::changeDuration, "void (int iChange)")
 
+		.def("getExperience", &CyUnit::getExperience, "int (void)")
+		.def("changeExperience", &CyUnit::changeExperience, "void (int iChange, int iMax, bool bFromCombat, bool bInBorders, bool bUpdateGlobal)")
+
 		;
 }

@@ -16867,7 +16867,8 @@ void CvUnit::changeBaseCombatStr(int iChange)
 void CvUnit::changeBaseCombatStrPercent(int iChange)
 {
 	int changePercent = 100 + iChange;
-	setBaseCombatStr( (m_iBaseCombat * changePercent) / 100 );
+	setBaseCombatStr( ((m_iBaseCombat * changePercent) + 50) / 100 );
+	setBaseCombatStrDefense( ((m_iBaseCombatDefense * changePercent) + 50) / 100 );
 }
 
 void CvUnit::changeBaseCombatStrDefense(int iChange)
