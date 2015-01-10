@@ -460,6 +460,11 @@
 	<Define>
 		<DefineName>PEAK_TERRAIN</DefineName>
 		<DefineTextVal>TERRAIN_PEAK</DefineTextVal>
-	</Define>        
+	</Define>     
+	
+   	<Define>
+		<DefineName>INITIAL_FREE_OUTSIDE_UNITS</DefineName>
+		<iDefineIntVal>10000</iDefineIntVal>
+	</Define>
         
 </Civ4Defines>
