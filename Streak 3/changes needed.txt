@@ -6,7 +6,6 @@ Remove circle from above flag if hidden unit is in the stack
 
 Remove fallout and forest_burnt from terrain features - Adrian "This this is not affecting us yet..."
 
-Need to allow Seige to have promotions
 
 Update promotion names
 
@@ -49,17 +48,6 @@ Golem all same type, just different colours.
 
 *******************************************************************************************
 
-Civic Change:
-No distance penalty
-No Unit supply
-
-*Need to fix ship promotions
-
-
-*mountain ranger needs peak strength
-
-*add golem units to promotions
-
 change navy line in tech tree to have new icon
 
 name techs appropriatly
@@ -68,11 +56,6 @@ move windmill to food1?
 
 ************************Buildings******************************
 
-Lighthouse 
-+ 1 food, water tiles
-
-Moai Statues 
-+1 Hammer, water tiles
 
 ///////////////////////////////////////////////
 Reintroduce Pirate Coves - 3 tiles apart

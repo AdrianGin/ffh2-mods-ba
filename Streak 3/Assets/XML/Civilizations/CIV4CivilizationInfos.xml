@@ -442,14 +442,6 @@
             </Cities>
             <Buildings>
                 <Building>
-                    <BuildingClassType>BUILDINGCLASS_ELDER_COUNCIL</BuildingClassType>
-                    <BuildingType>NONE</BuildingType>
-                </Building>
-                <Building>
-                    <BuildingClassType>BUILDINGCLASS_LIBRARY</BuildingClassType>
-                    <BuildingType>NONE</BuildingType>
-                </Building>
-                <Building>
                     <BuildingClassType>BUILDINGCLASS_MAGE_GUILD</BuildingClassType>
                     <BuildingType>NONE</BuildingType>
                 </Building>

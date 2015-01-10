@@ -115,7 +115,7 @@
             <Type>PROMOTION_BARRAGE1</Type>
             <Description>Barrage I</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_ARCHERY2</TechPrereq>
+            <TechPrereq>TECH_NAVY2</TechPrereq>
             <iCollateralDamageChange>30</iCollateralDamageChange>
             <UnitCombats>
                 <UnitCombat>
@@ -134,10 +134,6 @@
             <iCollateralDamageChange>50</iCollateralDamageChange>
             <UnitCombats>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
@@ -152,10 +148,6 @@
             <PromotionPrereq>PROMOTION_BARRAGE2</PromotionPrereq>
             <iCollateralDamageChange>80</iCollateralDamageChange>
             <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
@@ -298,7 +290,15 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_GOLEM</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
@@ -348,7 +348,15 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_GOLEM</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
@@ -397,7 +405,15 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_GOLEM</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
@@ -446,7 +462,15 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_GOLEM</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
@@ -495,7 +519,15 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_GOLEM</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
@@ -538,11 +570,19 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_GOLEM</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
@@ -590,7 +630,15 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_GOLEM</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
@@ -638,7 +686,15 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_GOLEM</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
@@ -688,7 +744,15 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_GOLEM</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
@@ -715,6 +779,10 @@
                 </UnitCombat>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ELEPHANT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
@@ -745,6 +813,10 @@
                     <UnitCombatType>UNITCOMBAT_ELEPHANT</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
             </UnitCombats>
             <Button>,Art/Interface/Buttons/Promotions/CityRaider2.dds,Art/Interface/Buttons/Promotions_Atlas.dds,6,2</Button>
             <PromotionNextLevel>PROMOTION_CITY_RAIDER3</PromotionNextLevel>
@@ -771,6 +843,10 @@
                 </UnitCombat>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ELEPHANT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
@@ -890,6 +966,10 @@
                     <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_GOLEM</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
             </UnitCombats>
             <Button>Art/Interface/Buttons/Promotions/Shock.dds</Button>
             <PromotionNextLevel>PROMOTION_SHOCK2</PromotionNextLevel>
@@ -936,6 +1016,10 @@
                 </UnitCombat>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_GOLEM</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
@@ -986,6 +1070,10 @@
                     <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_GOLEM</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
             </UnitCombats>
             <Button>Art/Interface/Buttons/Promotions/Shock.dds</Button>
         </PromotionInfo>
@@ -1031,6 +1119,10 @@
                 </UnitCombat>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_GOLEM</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
@@ -1081,6 +1173,10 @@
                     <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_GOLEM</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
             </UnitCombats>
             <Button>,Art/Interface/Buttons/Promotions/Formation.dds,Art/Interface/Buttons/Promotions_Atlas.dds,1,2</Button>
             <PromotionNextLevel>PROMOTION_FORMATION3</PromotionNextLevel>
@@ -1129,6 +1225,10 @@
                     <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_GOLEM</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
             </UnitCombats>
             <Button>,Art/Interface/Buttons/Promotions/Formation.dds,Art/Interface/Buttons/Promotions_Atlas.dds,1,2</Button>
         </PromotionInfo>     
@@ -1174,6 +1274,10 @@
                 </UnitCombat>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_GOLEM</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
@@ -1224,6 +1328,10 @@
                     <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_GOLEM</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
             </UnitCombats>
             <Button>,Art/Interface/Buttons/Promotions/Cover.dds,Art/Interface/Buttons/Promotions_Atlas.dds,2,5</Button>
             <PromotionNextLevel>PROMOTION_COVER3</PromotionNextLevel>
@@ -1270,6 +1378,10 @@
                 </UnitCombat>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_GOLEM</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
@@ -1451,6 +1563,10 @@
                     <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_GOLEM</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
             </UnitCombats>
             <Button>,Art/Interface/Buttons/Promotions/Mobility1.dds,Art/Interface/Buttons/Promotions_Atlas.dds,5,4</Button>
             <bMutation>1</bMutation>
@@ -1603,6 +1719,10 @@
                 </UnitCombat>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ELEPHANT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_GOLEM</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
@@ -1828,8 +1948,8 @@
                 </UnitCombat>
             </UnitCombats>
             <Button>Art/Interface/Buttons/Promotions/Buccaneers.dds</Button>
-            <iExtraCombatStr>7</iExtraCombatStr>
-            <iExtraCombatDefense>7</iExtraCombatDefense>
+            <iExtraCombatStr>6</iExtraCombatStr>
+            <iExtraCombatDefense>6</iExtraCombatDefense>
             <iMinLevel>-1</iMinLevel>
         </PromotionInfo>
         <PromotionInfo>
@@ -1838,7 +1958,6 @@
             <Sound>AS2D_IF_LEVELUP</Sound>
             <TechPrereq>TECH_NEVER</TechPrereq>
             <iMovesChange>1</iMovesChange>
-            <iCargoChange>-1</iCargoChange>
             <UnitCombats>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
@@ -1846,6 +1965,8 @@
                 </UnitCombat>
             </UnitCombats>
             <Button>Art/Interface/Buttons/Promotions/Longshoremen.dds</Button>
+            <iExtraCombatStr>-6</iExtraCombatStr>
+            <iExtraCombatDefense>-6</iExtraCombatDefense>
             <iMinLevel>-1</iMinLevel>
         </PromotionInfo>
         <PromotionInfo>
@@ -1861,8 +1982,8 @@
                 </UnitCombat>
             </UnitCombats>
             <Button>Art/Interface/Buttons/Promotions/Skeletoncrew.dds</Button>
-            <iExtraCombatStr>-7</iExtraCombatStr>
-            <iExtraCombatDefense>-7</iExtraCombatDefense>
+            <iExtraCombatStr>-6</iExtraCombatStr>
+            <iExtraCombatDefense>-6</iExtraCombatDefense>
             <iMinLevel>-1</iMinLevel>
         </PromotionInfo>
         <PromotionInfo>
@@ -1925,6 +2046,10 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_GOLEM</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
@@ -1976,6 +2101,10 @@
                 </UnitCombat>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_GOLEM</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -2043,6 +2172,10 @@
                 </UnitCombat>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_GOLEM</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -2120,6 +2253,10 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_GOLEM</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
@@ -2186,6 +2323,10 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_GOLEM</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
@@ -2239,6 +2380,10 @@
                 </UnitCombat>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_GOLEM</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -2300,6 +2445,10 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_GOLEM</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
@@ -2350,6 +2499,10 @@
                 </UnitCombat>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_GOLEM</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -2407,6 +2560,10 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_GOLEM</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
@@ -2455,6 +2612,10 @@
                 </UnitCombat>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_GOLEM</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
@@ -2512,6 +2673,10 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_GOLEM</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
@@ -2564,6 +2729,10 @@
                 </UnitCombat>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_GOLEM</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
