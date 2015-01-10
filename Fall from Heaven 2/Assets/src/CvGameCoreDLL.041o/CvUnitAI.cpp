@@ -20406,7 +20406,7 @@ void CvUnitAI::PatrolNewMove()
     CvCity* pBestCity=NULL;
     int BestValue=12;
     int Value;
-    bool newGroup;
+    bool newGroup = false;
 
     switch(AI_getUnitAIType())
     {

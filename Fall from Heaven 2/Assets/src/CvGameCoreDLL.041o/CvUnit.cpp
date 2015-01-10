@@ -2554,7 +2554,8 @@ bool CvUnit::isBetterDefenderThan(const CvUnit* pDefender, const CvUnit* pAttack
 			return true;
 		}
 	}
-
+	//Do not test surroundBonus for this tests. Hack in Surround Test
+	//iOurDefense = currCombatStr(plot(), pAttacker, NULL, false);
 	iOurDefense = currCombatStr(plot(), pAttacker);
 	if (::isWorldUnitClass(getUnitClassType()))
 	{
@@ -2601,6 +2602,8 @@ bool CvUnit::isBetterDefenderThan(const CvUnit* pDefender, const CvUnit* pAttack
 	iOurDefense = iOurDefense * iAssetValue / std::max(1, iAssetValue + iCargoAssetValue);
 
 	iTheirDefense = pDefender->currCombatStr(plot(), pAttacker);
+	//Do not test surroundBonus for this tests. Hack in Surround Test
+	//iTheirDefense = pDefender->currCombatStr(plot(), pAttacker, NULL, false);
 	if (::isWorldUnitClass(pDefender->getUnitClassType()))
 	{
 		iTheirDefense /= 2;
@@ -10820,8 +10823,8 @@ int CvUnit::surroundedDefenseModifier(const CvPlot *pPlot, const CvUnit *pDefend
 		pLoopPlot = plotDirection(pPlot->getX_INLINE(), pPlot->getY_INLINE(), ((DirectionTypes)iI));
 
 		//Adrian, Need to check to see if the unit is amphibious. As flying units can surround bonus land/water units
-		//ORIG:: if ((pLoopPlot != NULL) && (pLoopPlot->isWater() == pPlot->isWater()) && (iI != dtDirectionAttacker))
-		if ((pLoopPlot != NULL) && (iI != dtDirectionAttacker))
+		//if ((pLoopPlot != NULL) && (pLoopPlot->isWater() == pPlot->isWater()) && (iI != dtDirectionAttacker))
+		if ((pLoopPlot != NULL) && (iI != dtDirectionAttacker) )
 		{
 			CLLNode<IDInfo>* pUnitNode;
 			CvUnit* pLoopUnit;
@@ -10838,8 +10841,37 @@ int CvUnit::surroundedDefenseModifier(const CvPlot *pPlot, const CvUnit *pDefend
 				pLoopUnit = ::getUnit(pUnitNode->m_data);
 				pUnitNode = pLoopPlot->nextUnitNode(pUnitNode);	
 
-				if ( (pLoopUnit->getTeam() == getTeam()) && pLoopUnit->canMoveOrAttackInto(pPlot, true) )
+				bool bIsValidMove = false;
+				if( pPlot->isWater() ) 
 				{
+					if( pLoopUnit->getDomainType() == DOMAIN_SEA || pLoopUnit->isWaterWalking() || pLoopUnit->isFlying() )
+					{
+						bIsValidMove = true;
+					}
+				}
+				else if( pPlot->isPeak() ) 
+				{
+					if( pLoopUnit->canMoveImpassable() )
+					{
+						bIsValidMove = true;
+					}
+				}
+				//Will be land or hills
+				else
+				{
+					//Non Land Units cannot help on land
+					if( pLoopUnit->getDomainType() == DOMAIN_LAND )
+					{
+						bIsValidMove = true;
+					}
+
+				}
+
+				if ( pLoopUnit->getTeam() == getTeam() && bIsValidMove)
+				{
+
+					 
+
 					// if pDefender == null - use the last config of maxCombatStr() where pAttacker == this, else - use the pDefender to find the best attacker
 					if (pDefender != NULL)
 					{
