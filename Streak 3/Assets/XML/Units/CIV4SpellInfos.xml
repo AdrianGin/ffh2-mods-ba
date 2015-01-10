@@ -147,7 +147,7 @@
             <Type>SPELL_GUNPOWDER_WEAPONS</Type>
             <Description>TXT_KEY_PROMOTION_GUNPOWDER_WEAPONS</Description>
             <TechPrereq>TECH_IMPERIAL_AGE</TechPrereq>
-            <UnitCombatPrereq>UNITCOMBAT_ARCHER</UnitCombatPrereq>
+            <UnitCombatPrereq>UNITCOMBAT_GUNPOWDER</UnitCombatPrereq>
             <bAllowAI>1</bAllowAI>
             <bDisplayWhenDisabled>0</bDisplayWhenDisabled>
             <bInBordersOnly>1</bInBordersOnly>
@@ -265,7 +265,7 @@
             <bInBordersOnly>1</bInBordersOnly>
             <bInCityOnly>1</bInCityOnly>
             <bHasCasted>1</bHasCasted>
-            <iCost>21</iCost>
+            <iCost>25</iCost>
             <PyRequirement>reqBronzeWeaponsHorse(pCaster)</PyRequirement>
             <PyResult>spellBronzeWeaponsHorse(pCaster)</PyResult>
             <Effect>EFFECT_SPELL1</Effect>
@@ -283,7 +283,7 @@
             <bInBordersOnly>1</bInBordersOnly>
             <bInCityOnly>1</bInCityOnly>
             <bHasCasted>1</bHasCasted>
-            <iCost>42</iCost>
+            <iCost>50</iCost>
             <PyRequirement>reqIronWeaponsHorse(pCaster)</PyRequirement>
             <PyResult>spellIronWeaponsHorse(pCaster)</PyResult>
             <Effect>EFFECT_SPELL1</Effect>
@@ -301,7 +301,7 @@
             <bInBordersOnly>1</bInBordersOnly>
             <bInCityOnly>1</bInCityOnly>
             <bHasCasted>1</bHasCasted>
-            <iCost>84</iCost>
+            <iCost>120</iCost>
             <PyRequirement>reqMithrilWeaponsHorse(pCaster)</PyRequirement>
             <PyResult>spellMithrilWeaponsHorse(pCaster)</PyResult>
             <Effect>EFFECT_SPELL1</Effect>
