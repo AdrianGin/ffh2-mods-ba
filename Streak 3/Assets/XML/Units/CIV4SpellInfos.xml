@@ -845,14 +845,14 @@
             <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
             <bInBordersOnly>1</bInBordersOnly>
             <bInCityOnly>1</bInCityOnly>
-            <bHasCasted>1</bHasCasted>
+            <bHasCasted>0</bHasCasted>
             <iCost>0</iCost>
             <PyRequirement>reqGainXP(pCaster)</PyRequirement>
             <PyResult>spellGainXP(pCaster)</PyResult>
             <Effect>EFFECT_SPELL1</Effect>
             <Sound>AS2D_REPAIR</Sound>
             <bGraphicalOnly>0</bGraphicalOnly>
-            <Button>,Art/Interface/Buttons/Promotions/levelup.dds</Button>
+            <Button>Art/Interface/Buttons/Promotions/levelup.dds</Button>
         </SpellInfo>         
          
     </SpellInfos>
