@@ -13147,7 +13147,9 @@ void CvUnit::collectBlockadeGold()
 			{
 				CvCity* pCity = pLoopPlot->getPlotCity();
 
-				if (NULL != pCity && !pCity->isPlundered() && isEnemy(pCity->getTeam()) && !atWar(pCity->getTeam(), getTeam()))
+				//Blockades can happen for ships with Hidden Nationality
+				//ORIG:: if (NULL != pCity && !pCity->isPlundered() && isEnemy(pCity->getTeam()) && !atWar(pCity->getTeam(), getTeam()))
+				if (NULL != pCity && !pCity->isPlundered() && isEnemy(pCity->getTeam()) && isHiddenNationality() )
 				{
 					if (pCity->area() == area() || pCity->plot()->isAdjacentToArea(area()))
 					{

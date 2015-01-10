@@ -11577,7 +11577,7 @@
 			<bMechanized>1</bMechanized>
 			<bRenderBelowWater>1</bRenderBelowWater>
 			<bSuicide>0</bSuicide>
-			<bHiddenNationality>0</bHiddenNationality>
+			<bHiddenNationality>1</bHiddenNationality>
 			<bAlwaysHostile>0</bAlwaysHostile>
 			<UnitClassUpgrades>
             </UnitClassUpgrades>

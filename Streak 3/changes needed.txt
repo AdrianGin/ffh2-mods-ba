@@ -6,6 +6,7 @@ Remove circle from above flag if hidden unit is in the stack
 
 Remove fallout and forest_burnt from terrain features - Adrian "This this is not affecting us yet..."
 
+Need to allow Seige to have promotions
 
 Update promotion names
 
@@ -15,13 +16,29 @@ Haste - bug?
 
 
 ******************Adrian*******************************************************************
+Units with Hidden Nationality can Pirate;
+Feudal, Castle and Imperial Age to add +1 Trade Route.
+
+
+
 
 getExtraCombatStr
 TXT_KEY_PROMOTION_EXTRA_COMBAT_STR
 TXT_KEY_PROMOTION_EXTRA_COMBAT_STR_PERCENT
 
+
+changeBaseCombatStr
+changeBaseCombatStrPercent
+
+
+parseSpellHelp
+
 Gold Upgrade XP 
 (15 + 5per XP you are on)
+
+5
+10
+
 
 Copper / Iron / Mithril = 10,15,25% extra base strength added
 25, 50, 120
@@ -48,6 +65,17 @@ Golem all same type, just different colours.
 
 *******************************************************************************************
 
+Civic Change:
+No distance penalty
+No Unit supply
+
+*Need to fix ship promotions
+
+
+*mountain ranger needs peak strength
+
+*add golem units to promotions
+
 change navy line in tech tree to have new icon
 
 name techs appropriatly
@@ -56,6 +84,11 @@ move windmill to food1?
 
 ************************Buildings******************************
 
+Lighthouse 
++ 1 food, water tiles
+
+Moai Statues 
++1 Hammer, water tiles
 
 ///////////////////////////////////////////////
 Reintroduce Pirate Coves - 3 tiles apart

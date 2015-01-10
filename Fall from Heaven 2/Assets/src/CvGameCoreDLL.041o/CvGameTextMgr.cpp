@@ -6036,7 +6036,7 @@ void CvGameTextMgr::parsePromotionHelp(CvWStringBuffer &szBuffer, PromotionTypes
 
 	if (GC.getPromotionInfo(ePromotion).getExtraCombatStrPercent() != 0)
 	{
-		szBuffer.append(NEWLINE);
+		szBuffer.append(pcNewline);
 		szBuffer.append(gDLL->getText("TXT_KEY_PROMOTION_EXTRA_COMBAT_STR_PERCENT", GC.getPromotionInfo(ePromotion).getExtraCombatStrPercent()));
 	}
 
