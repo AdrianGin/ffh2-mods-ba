@@ -141,7 +141,7 @@
             <YieldChanges>            
                 <iYield>0</iYield>
                 <iYield>0</iYield>
-                <iYield>12</iYield>
+                <iYield>4</iYield>
             </YieldChanges>
             <YieldModifiers>
             </YieldModifiers>
@@ -155,7 +155,7 @@
             <CommerceChangeDoubleTimes>
             </CommerceChangeDoubleTimes>
             <CommerceModifiers>
-                <iCommerce>10</iCommerce>
+                <iCommerce>15</iCommerce>
                 <iCommerce>0</iCommerce>
                 <iCommerce>0</iCommerce>
             </CommerceModifiers>
@@ -170,6 +170,10 @@
             <ReligionChanges>
             </ReligionChanges>
             <SpecialistCounts>
+                <SpecialistCount>
+                    <SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+                    <iSpecialistCount>1</iSpecialistCount>
+                </SpecialistCount>
             </SpecialistCounts>
             <FreeSpecialistCounts>
             </FreeSpecialistCounts>
@@ -369,7 +373,7 @@
             </GlobalSeaPlotYieldChanges>
             <YieldChanges>
                 <iYield>0</iYield>
-                <iYield>3</iYield>
+                <iYield>2</iYield>
                 <iYield>0</iYield>
             </YieldChanges>
             <YieldModifiers>
@@ -399,6 +403,10 @@
             <ReligionChanges>
             </ReligionChanges>
             <SpecialistCounts>
+                <SpecialistCount>
+                    <SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+                    <iSpecialistCount>1</iSpecialistCount>
+                </SpecialistCount>
             </SpecialistCounts>
             <FreeSpecialistCounts>
             </FreeSpecialistCounts>
@@ -625,6 +633,10 @@
             <ReligionChanges>
             </ReligionChanges>
             <SpecialistCounts>
+                <SpecialistCount>
+                    <SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+                    <iSpecialistCount>1</iSpecialistCount>
+                </SpecialistCount>
             </SpecialistCounts>
             <FreeSpecialistCounts>
             </FreeSpecialistCounts>
@@ -5546,7 +5558,7 @@
             <YieldChanges>
                 <iYield>0</iYield>
                 <iYield>0</iYield>
-                <iYield>5</iYield>  
+                <iYield>4</iYield>  
             </YieldChanges>
             <YieldModifiers>
             </YieldModifiers>
@@ -5575,6 +5587,10 @@
             <ReligionChanges>
             </ReligionChanges>
             <SpecialistCounts>
+                <SpecialistCount>
+                    <SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+                    <iSpecialistCount>1</iSpecialistCount>
+                </SpecialistCount>
             </SpecialistCounts>
             <FreeSpecialistCounts>
             </FreeSpecialistCounts>
@@ -5774,12 +5790,12 @@
             </GlobalSeaPlotYieldChanges>
             <YieldChanges>
                 <iYield>0</iYield>
-                <iYield>5</iYield>
+                <iYield>2</iYield>
                 <iYield>0</iYield>
             </YieldChanges>
             <YieldModifiers>
                 <iYield>0</iYield>
-                <iYield>10</iYield>
+                <iYield>15</iYield>
                 <iYield>0</iYield>
             </YieldModifiers>
             <CommerceChanges>
@@ -5804,6 +5820,10 @@
             <ReligionChanges>
             </ReligionChanges>
             <SpecialistCounts>
+                <SpecialistCount>
+                    <SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+                    <iSpecialistCount>1</iSpecialistCount>
+                </SpecialistCount>
             </SpecialistCounts>
             <FreeSpecialistCounts>
             </FreeSpecialistCounts>
