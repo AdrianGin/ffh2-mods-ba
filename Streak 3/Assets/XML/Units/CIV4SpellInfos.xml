@@ -206,7 +206,8 @@
             <Description>TXT_KEY_PROMOTION_BRONZE_WEAPONS</Description>            
             <Help>TXT_KEY_PROMOTION_BRONZE_WEAPONS_PEDIA</Help>
             <TechPrereq>NONE</TechPrereq>
-            <UnitCombatPrereq>UNITCOMBAT_MELEE</UnitCombatPrereq>
+            <UnitCombatPrereq1>UNITCOMBAT_MELEE</UnitCombatPrereq1>
+            <UnitCombatPrereq2>UNITCOMBAT_MOUNTED</UnitCombatPrereq2>
             <bAllowAI>1</bAllowAI>
             <bDisplayWhenDisabled>0</bDisplayWhenDisabled>
             <bInBordersOnly>1</bInBordersOnly>
