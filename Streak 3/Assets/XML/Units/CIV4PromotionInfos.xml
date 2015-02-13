@@ -1948,7 +1948,7 @@
                 </UnitCombat>
             </UnitCombats>
             <Button>Art/Interface/Buttons/Promotions/Buccaneers.dds</Button>
-            <iCombatPercent>15</iCombatPercent>
+            <iCombatPercent>10</iCombatPercent>
             <iMinLevel>-1</iMinLevel>
         </PromotionInfo>
         <PromotionInfo>
@@ -1964,7 +1964,7 @@
                 </UnitCombat>
             </UnitCombats>
             <Button>Art/Interface/Buttons/Promotions/Longshoremen.dds</Button>
-			<iCombatPercent>-15</iCombatPercent>
+			<iCombatPercent>-10</iCombatPercent>
             <iMinLevel>-1</iMinLevel>
         </PromotionInfo>
         <PromotionInfo>
@@ -1980,7 +1980,7 @@
                 </UnitCombat>
             </UnitCombats>
             <Button>Art/Interface/Buttons/Promotions/Skeletoncrew.dds</Button>
-			<iCombatPercent>-15</iCombatPercent>
+			<iCombatPercent>-10</iCombatPercent>
             <iMinLevel>-1</iMinLevel>
         </PromotionInfo>
         <PromotionInfo>

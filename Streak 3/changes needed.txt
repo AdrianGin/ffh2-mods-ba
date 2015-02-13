@@ -18,4 +18,4 @@ Remove War Weariness
 Make mountain units better
 Make ships stronger
 Longbow/Crossbow to catapult fix
-Fix ship crew promotions
+Need fix - Only galley and galleon can get longshormen atm
