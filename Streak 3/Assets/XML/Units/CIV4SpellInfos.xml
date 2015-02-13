@@ -840,7 +840,7 @@
             <Type>SPELL_GAIN_XP</Type>
             <Description>TXT_KEY_PROMOTION_GAIN_XP</Description>
             <Help>TXT_KEY_PROMOTION_GAIN_XP_PEDIA</Help>
-            <TechPrereq>TECH_MILITARY</TechPrereq>
+            <TechPrereq>NONE</TechPrereq>
             <bAllowAI>1</bAllowAI>
             <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
             <bInBordersOnly>1</bInBordersOnly>
