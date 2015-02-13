@@ -433,7 +433,7 @@
 	</Define>
 	<Define>
 		<DefineName>City_Unit_Capacity</DefineName>
-	        <iDefineIntVal>100</iDefineIntVal>
+	        <iDefineIntVal>120</iDefineIntVal>
 	</Define>
         <Define>
                 <DefineName>AIR_SPACE_CAPACITY</DefineName>
@@ -445,7 +445,7 @@
 	</Define>
         <Define>
                 <DefineName>CITY_POPULATION_CAPACITY_DIVISOR</DefineName>
-                <iDefineIntVal>4</iDefineIntVal>
+                <iDefineIntVal>3</iDefineIntVal>
         </Define>
         <Define>
                 <DefineName>CITY_POPULATION_CAPACITY_FACTOR</DefineName>
