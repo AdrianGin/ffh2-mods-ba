@@ -186,9 +186,9 @@
 			</UnitCombats>
 			<BonusPrereq>BONUS_IVORY</BonusPrereq>
         </PromotionInfo> 
-		<PromotionInfo>
+<!-- 	<PromotionInfo>
             <Type>PROMOTION_BRONZE_WEAPONS_HORSE</Type>
-            <Description>TXT_KEY_PROMOTION_BRONZE_WEAPONS_HORSE</Description>
+            <Description>TXT_KEY_PROMOTION_BRONZE_WEAPONS</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <Button>,Art/Interface/Buttons/WorldBuilder/Copper.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,5,12</Button>
             <TechPrereq>TECH_FEUDAL_AGE</TechPrereq>
@@ -197,7 +197,7 @@
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_IRON_WEAPONS_HORSE</Type>
-            <Description>TXT_KEY_PROMOTION_IRON_WEAPONS_HORSE</Description>
+            <Description>TXT_KEY_PROMOTION_IRON_WEAPONS</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <Button>,Art/Interface/Buttons/WorldBuilder/Iron.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,6,13</Button>
             <TechPrereq>TECH_CASTLE_AGE</TechPrereq>
@@ -205,12 +205,12 @@
         </PromotionInfo>  
         <PromotionInfo>
             <Type>PROMOTION_MITHRIL_WEAPONS_HORSE</Type>
-            <Description>TXT_KEY_PROMOTION_MITHRIL_WEAPONS_HORSE</Description>
+            <Description>TXT_KEY_PROMOTION_MITHRIL_WEAPONS</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <Button>,Art/Interface/Buttons/WorldBuilder/Silver.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,4,14</Button>
             <TechPrereq>TECH_IMPERIAL_AGE</TechPrereq>
             <iExtraCombatStrPercent>25</iExtraCombatStrPercent>
-        </PromotionInfo>
+        </PromotionInfo>     -->
     	<PromotionInfo>
             <Type>PROMOTION_BRONZE_WEAPONS</Type>
             <Description>TXT_KEY_PROMOTION_BRONZE_WEAPONS</Description>

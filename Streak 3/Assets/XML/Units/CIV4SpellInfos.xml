@@ -207,6 +207,7 @@
             <Help>TXT_KEY_PROMOTION_BRONZE_WEAPONS_PEDIA</Help>
             <TechPrereq>NONE</TechPrereq>
             <UnitCombatPrereq>UNITCOMBAT_MELEE</UnitCombatPrereq>
+            <UnitCombatPrereq>UNITCOMBAT_MOUNTED</UnitCombatPrereq>
             <bAllowAI>1</bAllowAI>
             <bDisplayWhenDisabled>0</bDisplayWhenDisabled>
             <bInBordersOnly>1</bInBordersOnly>
@@ -260,10 +261,11 @@
         </SpellInfo>
         
         
-		<SpellInfo>
+<!--		<SpellInfo>
             <Type>SPELL_BRONZE_WEAPONS_HORSE</Type>
-            <Description>TXT_KEY_PROMOTION_BRONZE_WEAPONS_HORSE</Description>
-            <TechPrereq>TECH_FEUDAL_AGE</TechPrereq>
+            <Description>TXT_KEY_PROMOTION_BRONZE_WEAPONS</Description>            
+            <Help>TXT_KEY_PROMOTION_BRONZE_WEAPONS_PEDIA</Help>
+            <TechPrereq>NONE</TechPrereq>
             <UnitCombatPrereq>UNITCOMBAT_MOUNTED</UnitCombatPrereq>
             <bAllowAI>1</bAllowAI>
             <bDisplayWhenDisabled>0</bDisplayWhenDisabled>
@@ -277,11 +279,12 @@
             <Sound>AS2D_REPAIR</Sound>
             <bGraphicalOnly>1</bGraphicalOnly>
             <Button>,Art/Interface/Buttons/WorldBuilder/Copper.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,5,12</Button>
-        </SpellInfo>        
+        </SpellInfo>   -->     
         <SpellInfo>
             <Type>SPELL_IRON_WEAPONS_HORSE</Type>
-            <Description>TXT_KEY_PROMOTION_IRON_WEAPONS_HORSE</Description>
-            <TechPrereq>TECH_CASTLE_AGE</TechPrereq>
+            <Description>TXT_KEY_PROMOTION_IRON_WEAPONS</Description>            
+            <Help>TXT_KEY_PROMOTION_IRON_WEAPONS_PEDIA</Help>
+            <TechPrereq>NONE</TechPrereq>
             <UnitCombatPrereq>UNITCOMBAT_MOUNTED</UnitCombatPrereq>
             <bAllowAI>1</bAllowAI>
             <bDisplayWhenDisabled>0</bDisplayWhenDisabled>
@@ -298,8 +301,9 @@
         </SpellInfo>        
         <SpellInfo>
             <Type>SPELL_MITHRIL_WEAPONS_HORSE</Type>
-            <Description>TXT_KEY_PROMOTION_MITHRIL_WEAPONS_HORSE</Description>
-            <TechPrereq>TECH_IMPERIAL_AGE</TechPrereq>
+            <Description>TXT_KEY_PROMOTION_MITHRIL_WEAPONS</Description>            
+            <Help>TXT_KEY_PROMOTION_MITHRIL_WEAPONS_PEDIA</Help>
+            <TechPrereq>NONE</TechPrereq>
             <UnitCombatPrereq>UNITCOMBAT_MOUNTED</UnitCombatPrereq>
             <bAllowAI>1</bAllowAI>
             <bDisplayWhenDisabled>0</bDisplayWhenDisabled>
