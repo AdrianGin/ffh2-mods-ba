@@ -201,7 +201,7 @@
         
         <SpellInfo>
             <Type>SPELL_BRONZE_WEAPONS</Type>
-            <Description>TXT_KEY_PROMOTION_BRONZE_WEAPONS</Description>
+            <Description>TXT_KEY_PROMOTION_BRONZE_WEAPONS_PEDIA</Description>
             <TechPrereq>TECH_FEUDAL_AGE</TechPrereq>
             <UnitCombatPrereq>UNITCOMBAT_MELEE</UnitCombatPrereq>
             <bAllowAI>1</bAllowAI>
