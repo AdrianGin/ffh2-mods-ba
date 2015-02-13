@@ -214,7 +214,6 @@
     	<PromotionInfo>
             <Type>PROMOTION_BRONZE_WEAPONS</Type>
             <Description>TXT_KEY_PROMOTION_BRONZE_WEAPONS</Description>
-            <Help>TXT_KEY_PROMOTION_BRONZE_WEAPONS_PEDIA</Help>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <Button>,Art/Interface/Buttons/WorldBuilder/Copper.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,5,12</Button>
             <TechPrereq>TECH_FEUDAL_AGE</TechPrereq>
