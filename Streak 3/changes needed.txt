@@ -1,100 +1,21 @@
-Reorder buildings - Bas
+Adrian
 
-Implement "not all units die in combat" system
-
-Remove circle from above flag if hidden unit is in the stack
-
-Remove fallout and forest_burnt from terrain features - Adrian "This this is not affecting us yet..."
-
-Need to allow Seige to have promotions
-
-Update promotion names
-
-Haste - bug?
-+ Horses + Haste
-
-
-
-******************Adrian*******************************************************************
-Units with Hidden Nationality can Pirate;
-Feudal, Castle and Imperial Age to add +1 Trade Route.
+*Make it so units can only upgrade in cities
+*Make it so thoroughbred horses can only be bought (check elephants?)
+*Make it so there is a maximum of one defensive withdrawal chance per turn for a unit
+*Implement a zone of control mechanism
 
 
 
 
-getExtraCombatStr
-TXT_KEY_PROMOTION_EXTRA_COMBAT_STR
-TXT_KEY_PROMOTION_EXTRA_COMBAT_STR_PERCENT
 
+Other
 
-changeBaseCombatStr
-changeBaseCombatStrPercent
-
-
-parseSpellHelp
-
-Gold Upgrade XP 
-(15 + 5per XP you are on)
-
-5
-10
-
-
-Copper / Iron / Mithril = 10,15,25% extra base strength added
-25, 50, 120
-
-Horses
-+1 movement
-+10% strength
-70 gold
-
-War Elephants
-+15% Strength
-65  gold
-
-Please give the unitcombatclass_golem the icon from elemental (race) from ffh2 and change it to have a blue background and yellow golem. Current placeholder is beast!
-
-Please create icons for air, earth and fire golem using the button from the water golem but by changing the colour of the golem on that picture to lightgray, brown and ember (the colours of the golem in game) respectively.
-
-Please make fire golem be able to burn forest and jungle.
-
-Fix Stoneskin promo
-
-Golem all same type, just different colours.
-
-
-*******************************************************************************************
-
-Civic Change:
-No distance penalty
-No Unit supply
-
-*Need to fix ship promotions
-
-
-*mountain ranger needs peak strength
-
-*add golem units to promotions
-
-change navy line in tech tree to have new icon
-
-name techs appropriatly
-
-move windmill to food1?
-
-************************Buildings******************************
-
-Lighthouse 
-+ 1 food, water tiles
-
-Moai Statues 
-+1 Hammer, water tiles
-
-///////////////////////////////////////////////
-Reintroduce Pirate Coves - 3 tiles apart
-+1 Hammer, +1 Gold
-Uses up work boat
-///////////////////////////////////////////////
-********************************************************************
-
-
+Increase intrest rate to 2.5% ?
+Make each subsequent great person 50 more to produce ?
+Remove ship move bonus from navigating globe
+Remove War Weariness
+Make mountain units better
+Make ships stronger
+Longbow/Crossbow to catapult fix
+Fix ship crew promotions
