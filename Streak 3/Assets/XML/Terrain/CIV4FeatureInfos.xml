@@ -140,7 +140,7 @@
 			<HillsYieldChange/>
 			<iMovement>2</iMovement>
 			<!-- VKs Plot Capacity-->
-			<iUnitPlotSupport>-40</iUnitPlotSupport>
+			<iUnitPlotSupport>-20</iUnitPlotSupport>
 			<iSeeThrough>1</iSeeThrough>
 			<iHealthPercent>-25</iHealthPercent>
 			<iDefense>15</iDefense>
