@@ -19,3 +19,4 @@ Make mountain units better
 Make ships stronger
 Longbow/Crossbow to catapult fix
 Need fix - Only galley and galleon can get longshormen atm
+DECREASE MITHRIL WEAPON COST TO 100 ???

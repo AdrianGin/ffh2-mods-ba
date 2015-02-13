@@ -145,7 +145,8 @@
         
         <SpellInfo>
             <Type>SPELL_GUNPOWDER_WEAPONS</Type>
-            <Description>TXT_KEY_PROMOTION_GUNPOWDER_WEAPONS</Description>
+            <Description>TXT_KEY_PROMOTION_GUNPOWDER_WEAPONS</Description>            
+            <Help>TXT_KEY_PROMOTION_GUNPOWDER_WEAPONS_PEDIA</Help>
             <TechPrereq>TECH_IMPERIAL_AGE</TechPrereq>
             <UnitCombatPrereq>UNITCOMBAT_GUNPOWDER</UnitCombatPrereq>
             <bAllowAI>1</bAllowAI>
@@ -163,7 +164,8 @@
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_HORSE_WEAPONS</Type>
-            <Description>TXT_KEY_PROMOTION_HORSE_WEAPONS</Description>
+            <Description>TXT_KEY_PROMOTION_HORSE_WEAPONS</Description>            
+            <Help>TXT_KEY_PROMOTION_HORSE_WEAPONS_PEDIA</Help>
             <TechPrereq>TECH_FOOD1</TechPrereq>
             <UnitCombatPrereq>UNITCOMBAT_MOUNTED</UnitCombatPrereq>
             <bAllowAI>1</bAllowAI>
