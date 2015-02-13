@@ -265,7 +265,16 @@
             <Description>TXT_KEY_PROMOTION_BRONZE_WEAPONS</Description>            
             <Help>TXT_KEY_PROMOTION_BRONZE_WEAPONS_PEDIA</Help>
             <TechPrereq>NONE</TechPrereq>
-            <UnitCombatPrereq>UNITCOMBAT_MOUNTED</UnitCombatPrereq>
+            <UnitCombatPrereqs>            
+                <UnitCombatPrereq>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombatPrereq>                            
+                <UnitCombatPrereq>
+                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombatPrereq>
+            </UnitCombatPrereqs>
             <bAllowAI>1</bAllowAI>
             <bDisplayWhenDisabled>0</bDisplayWhenDisabled>
             <bInBordersOnly>1</bInBordersOnly>
