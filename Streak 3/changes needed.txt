@@ -22,3 +22,4 @@ Need fix - Only galley and galleon can get longshormen atm
 DECREASE MITHRIL WEAPON COST TO 100 ???
 MAKE IT that you can cast more than one weapon spell per turn ???
 should all weapopns be usable by all levels of the unit ???
+change pallisade to 15% def ???
