@@ -160,7 +160,7 @@
             <Description>TXT_KEY_PROMOTION_HORSE_WEAPONS</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <Button>,Art/Interface/Buttons/WorldBuilder/Horse.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,4,13</Button>
-            <TechPrereq>TECH_FOOD1</TechPrereq>
+            <TechPrereq>NONE</TechPrereq>
             <iExtraCombatStrPercent>10</iExtraCombatStrPercent>
             <iMovesChange>1</iMovesChange>
             <UnitCombats>
@@ -176,7 +176,7 @@
             <Description>TXT_KEY_PROMOTION_ELEPHANT_WEAPONS</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <Button>,Art/Interface/Buttons/WorldBuilder/ivory.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,7,13</Button>
-            <TechPrereq>TECH_COMMERCE1</TechPrereq>
+            <TechPrereq>NONE</TechPrereq>
             <iExtraCombatStrPercent>15</iExtraCombatStrPercent>
             <UnitCombats>
 				<UnitCombat>
@@ -186,38 +186,51 @@
 			</UnitCombats>
 			<BonusPrereq>BONUS_IVORY</BonusPrereq>
         </PromotionInfo> 
-<!-- 	<PromotionInfo>
+     	<PromotionInfo>
             <Type>PROMOTION_BRONZE_WEAPONS_HORSE</Type>
             <Description>TXT_KEY_PROMOTION_BRONZE_WEAPONS</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <Button>,Art/Interface/Buttons/WorldBuilder/Copper.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,5,12</Button>
-            <TechPrereq>TECH_FEUDAL_AGE</TechPrereq>
+            <TechPrereq>NONE</TechPrereq>
             <iExtraCombatStrPercent>10</iExtraCombatStrPercent>
             <BonusPrereq>BONUS_COPPER</BonusPrereq>
+            <bGraphicalOnly>1</bGraphicalOnly>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_IRON_WEAPONS_HORSE</Type>
             <Description>TXT_KEY_PROMOTION_IRON_WEAPONS</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <Button>,Art/Interface/Buttons/WorldBuilder/Iron.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,6,13</Button>
-            <TechPrereq>TECH_CASTLE_AGE</TechPrereq>
-            <iExtraCombatStrPercent>15</iExtraCombatStrPercent>     
+            <TechPrereq>NONE</TechPrereq>
+            <iExtraCombatStrPercent>15</iExtraCombatStrPercent>  
+            <bGraphicalOnly>1</bGraphicalOnly>   
         </PromotionInfo>  
         <PromotionInfo>
             <Type>PROMOTION_MITHRIL_WEAPONS_HORSE</Type>
             <Description>TXT_KEY_PROMOTION_MITHRIL_WEAPONS</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <Button>,Art/Interface/Buttons/WorldBuilder/Silver.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,4,14</Button>
-            <TechPrereq>TECH_IMPERIAL_AGE</TechPrereq>
+            <TechPrereq>NONE</TechPrereq>
             <iExtraCombatStrPercent>25</iExtraCombatStrPercent>
-        </PromotionInfo>     -->
+            <bGraphicalOnly>1</bGraphicalOnly>
+        </PromotionInfo> 
     	<PromotionInfo>
             <Type>PROMOTION_BRONZE_WEAPONS</Type>
             <Description>TXT_KEY_PROMOTION_BRONZE_WEAPONS</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <Button>,Art/Interface/Buttons/WorldBuilder/Copper.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,5,12</Button>
-            <TechPrereq>TECH_FEUDAL_AGE</TechPrereq>
+            <TechPrereq>NONE</TechPrereq>
             <iExtraCombatStrPercent>10</iExtraCombatStrPercent>
+            <UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+			</UnitCombats>
             <BonusPrereq>BONUS_COPPER</BonusPrereq>
         </PromotionInfo>
         <PromotionInfo>
@@ -225,23 +238,43 @@
             <Description>TXT_KEY_PROMOTION_IRON_WEAPONS</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <Button>,Art/Interface/Buttons/WorldBuilder/Iron.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,6,13</Button>
-            <TechPrereq>TECH_CASTLE_AGE</TechPrereq>
-            <iExtraCombatStrPercent>15</iExtraCombatStrPercent>      
+            <TechPrereq>NONE</TechPrereq>
+            <iExtraCombatStrPercent>15</iExtraCombatStrPercent>   
+            <UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+			</UnitCombats>   
         </PromotionInfo>  
         <PromotionInfo>
             <Type>PROMOTION_MITHRIL_WEAPONS</Type>
             <Description>TXT_KEY_PROMOTION_MITHRIL_WEAPONS</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <Button>,Art/Interface/Buttons/WorldBuilder/Silver.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,4,14</Button>
-            <TechPrereq>TECH_IMPERIAL_AGE</TechPrereq>
+            <TechPrereq>NONE</TechPrereq>
             <iExtraCombatStrPercent>25</iExtraCombatStrPercent>
+            <UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+			</UnitCombats>
         </PromotionInfo>     
         <PromotionInfo>
             <Type>PROMOTION_GUNPOWDER_WEAPONS</Type>
             <Description>TXT_KEY_PROMOTION_GUNPOWDER_WEAPONS</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <Button>,Art/Interface/Buttons/WorldBuilder/Coal.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,4,12</Button>
-            <TechPrereq>TECH_IMPERIAL_AGE</TechPrereq>
+            <TechPrereq>NONE</TechPrereq>
             <iExtraCombatStrPercent>10</iExtraCombatStrPercent>
             <UnitCombats>
 				<UnitCombat>
