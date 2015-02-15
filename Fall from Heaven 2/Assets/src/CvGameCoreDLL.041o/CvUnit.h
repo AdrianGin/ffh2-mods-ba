@@ -481,7 +481,10 @@ public:
 	void changeDamage(int iChange, PlayerTypes ePlayer = NO_PLAYER);													// Exposed to Python
 
 	int getMoves() const;																																			// Exposed to Python
-	void setMoves(int iNewValue);	
+	void setMoves(int iNewValue);
+
+	int getWithdrawChances() const;
+	void setWithdrawChances(int iNewValue);
 	
 	// Exposed to Python
 	//Unit Per Tile -- START
@@ -1085,6 +1088,9 @@ protected:
 	int m_iBaseCombat;
 	DirectionTypes m_eFacingDirection;
 	int m_iImmobileTimer;
+
+	int m_iWithdrawChances;
+
 
 	bool m_bMadeAttack;
 	bool m_bMadeInterception;

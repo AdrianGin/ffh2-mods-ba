@@ -351,6 +351,7 @@ void CvUnit::reset(int iID, UnitTypes eUnit, PlayerTypes eOwner, bool bConstruct
 	m_iGameTurnCreated = 0;
 	m_iDamage = 0;
 	m_iMoves = 0;
+	m_iWithdrawChances = 0;
 //Unit Per Tile -- START
 	m_iUnitPlotCost = 0;
 //Unit Per Tile -- END
@@ -1261,6 +1262,7 @@ void CvUnit::doTurn()
 	setReconPlot(NULL);
 
 	setMoves(0);
+	setWithdrawChances(0);
 
 /*************************************************************************************************/
 /**	BETTER AI (Choose Groupflag) Sephi                             					            **/
@@ -2229,6 +2231,7 @@ void CvUnit::updateCombat(bool bQuick)
             {
                 pDefender->joinGroup(NULL);
                 pDefender->setFleeWithdrawl(false);
+				pDefender->setWithdrawChances( pDefender->getWithdrawChances() + 1 );
                 pDefender->withdrawlToNearestValidPlot(true);
 
 //>>>>BUGFfH: Modified by Denev 10/14/2009 (0.41k)
@@ -2259,6 +2262,7 @@ void CvUnit::updateCombat(bool bQuick)
             }
             if (isFleeWithdrawl())
             {
+				setWithdrawChances( getWithdrawChances() + 1 );
                 joinGroup(NULL);
                 setFleeWithdrawl(false);
                 szBuffer = gDLL->getText("TXT_KEY_MISC_YOU_UNIT_WITHDRAW", getNameKey(), pDefender->getNameKey());
@@ -16696,6 +16700,13 @@ int CvUnit::getWithdrawlProbDefensive() const
     {
         return 0;
     }
+
+	int maxWithdraw = GC.getDefineINT("MAX_WITHDRAW_PER_TURN");
+	if( !(getWithdrawChances() < GC.getDefineINT("MAX_WITHDRAW_PER_TURN")) )
+	{
+		return 0;
+	}
+
 	//return std::max(0, (m_pUnitInfo->getWithdrawlProbDefensive() + getExtraWithdrawal()));
 	//Defensive Withdraw is same as Attack withdraw
 	return std::max(0, (m_pUnitInfo->getWithdrawalProbability() + getExtraWithdrawal()));

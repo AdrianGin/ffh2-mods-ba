@@ -466,5 +466,9 @@
 		<DefineName>INITIAL_FREE_OUTSIDE_UNITS</DefineName>
 		<iDefineIntVal>10000</iDefineIntVal>
 	</Define>
+   	<Define>
+		<DefineName>MAX_WITHDRAW_PER_TURN</DefineName>
+		<iDefineIntVal>1</iDefineIntVal>
+	</Define>
         
 </Civ4Defines>
