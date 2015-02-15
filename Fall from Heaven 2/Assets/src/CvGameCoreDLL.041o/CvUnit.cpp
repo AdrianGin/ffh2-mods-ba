@@ -8428,6 +8428,12 @@ bool CvUnit::isReadyForUpgrade() const
 		return false;
 	}
 
+	//Upgrades only in cities
+	if( !plot()->isCity() )
+	{
+		return false;
+	}
+
 	return true;
 }
 
