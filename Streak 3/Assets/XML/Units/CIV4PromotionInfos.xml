@@ -160,7 +160,7 @@
             <Description>TXT_KEY_PROMOTION_HORSE_WEAPONS</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <Button>,Art/Interface/Buttons/WorldBuilder/Horse.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,4,13</Button>
-            <TechPrereq>NONE</TechPrereq>
+            <TechPrereq>TECH_NEVER</TechPrereq>
             <iExtraCombatStrPercent>10</iExtraCombatStrPercent>
             <iMovesChange>1</iMovesChange>
             <UnitCombats>
@@ -176,7 +176,7 @@
             <Description>TXT_KEY_PROMOTION_ELEPHANT_WEAPONS</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <Button>,Art/Interface/Buttons/WorldBuilder/ivory.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,7,13</Button>
-            <TechPrereq>NONE</TechPrereq>
+            <TechPrereq>TECH_NEVER</TechPrereq>
             <iExtraCombatStrPercent>15</iExtraCombatStrPercent>
             <UnitCombats>
 				<UnitCombat>
@@ -186,7 +186,7 @@
 			</UnitCombats>
 			<BonusPrereq>BONUS_IVORY</BonusPrereq>
         </PromotionInfo> 
-     	<PromotionInfo>
+     	<!--PromotionInfo>
             <Type>PROMOTION_BRONZE_WEAPONS_HORSE</Type>
             <Description>TXT_KEY_PROMOTION_BRONZE_WEAPONS</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
@@ -202,8 +202,7 @@
             <Sound>AS2D_IF_LEVELUP</Sound>
             <Button>,Art/Interface/Buttons/WorldBuilder/Iron.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,6,13</Button>
             <TechPrereq>NONE</TechPrereq>
-            <iExtraCombatStrPercent>15</iExtraCombatStrPercent>  
-            <bGraphicalOnly>1</bGraphicalOnly>   
+            <iExtraCombatStrPercent>15</iExtraCombatStrPercent>    
         </PromotionInfo>  
         <PromotionInfo>
             <Type>PROMOTION_MITHRIL_WEAPONS_HORSE</Type>
@@ -212,14 +211,13 @@
             <Button>,Art/Interface/Buttons/WorldBuilder/Silver.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,4,14</Button>
             <TechPrereq>NONE</TechPrereq>
             <iExtraCombatStrPercent>25</iExtraCombatStrPercent>
-            <bGraphicalOnly>1</bGraphicalOnly>
-        </PromotionInfo> 
+        </PromotionInfo--> 
     	<PromotionInfo>
             <Type>PROMOTION_BRONZE_WEAPONS</Type>
             <Description>TXT_KEY_PROMOTION_BRONZE_WEAPONS</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <Button>,Art/Interface/Buttons/WorldBuilder/Copper.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,5,12</Button>
-            <TechPrereq>NONE</TechPrereq>
+            <TechPrereq>TECH_NEVER</TechPrereq>
             <iExtraCombatStrPercent>10</iExtraCombatStrPercent>
             <UnitCombats>
 				<UnitCombat>
@@ -238,7 +236,7 @@
             <Description>TXT_KEY_PROMOTION_IRON_WEAPONS</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <Button>,Art/Interface/Buttons/WorldBuilder/Iron.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,6,13</Button>
-            <TechPrereq>NONE</TechPrereq>
+            <TechPrereq>TECH_NEVER</TechPrereq>
             <iExtraCombatStrPercent>15</iExtraCombatStrPercent>   
             <UnitCombats>
 				<UnitCombat>
@@ -256,7 +254,7 @@
             <Description>TXT_KEY_PROMOTION_MITHRIL_WEAPONS</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <Button>,Art/Interface/Buttons/WorldBuilder/Silver.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,4,14</Button>
-            <TechPrereq>NONE</TechPrereq>
+            <TechPrereq>TECH_NEVER</TechPrereq>
             <iExtraCombatStrPercent>25</iExtraCombatStrPercent>
             <UnitCombats>
 				<UnitCombat>
@@ -274,7 +272,7 @@
             <Description>TXT_KEY_PROMOTION_GUNPOWDER_WEAPONS</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <Button>,Art/Interface/Buttons/WorldBuilder/Coal.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,4,12</Button>
-            <TechPrereq>NONE</TechPrereq>
+            <TechPrereq>TECH_NEVER</TechPrereq>
             <iExtraCombatStrPercent>10</iExtraCombatStrPercent>
             <UnitCombats>
 				<UnitCombat>
