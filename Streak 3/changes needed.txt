@@ -17,16 +17,14 @@ MAKE IT that you can cast more than one weapon spell per turn ???
 +1 Culture per building
 Defence Units with +15% defence.
 
-
-
-
-
-========================
 Make ships stronger
 
 
 
-
+========================
+Griffon 53
+Archers no bonus
+no Waterwalk
 
 Alpine Tactics given to Ranger
 Ranger reduced to 50 hammers
