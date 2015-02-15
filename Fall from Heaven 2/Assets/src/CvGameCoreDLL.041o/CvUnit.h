@@ -114,6 +114,8 @@ public:
 	void move(CvPlot* pPlot, bool bShow);
 	bool jumpToNearestValidPlot();																																// Exposed to Python
 
+	bool isAdjacentToEnemy(CvPlot* pPlot, bool checkInvisible);
+
 	bool canAutomate(AutomateTypes eAutomate) const;																							// Exposed to Python
 	void automate(AutomateTypes eAutomate);
 

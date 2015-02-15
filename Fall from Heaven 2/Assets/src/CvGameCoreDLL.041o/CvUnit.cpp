@@ -3860,13 +3860,70 @@ void CvUnit::attackForDamage(CvUnit *pDefender, int attackerDamageChange, int de
 }
 
 
+bool CvUnit::isAdjacentToEnemy(CvPlot* pPlot, bool checkInvisible)
+{
+	int iI;
+	CvPlot* pLoopPlot;
+	CvTeam& kTeam = GET_TEAM((TeamTypes)getTeam());
+
+	for (iI = 0; iI < NUM_DIRECTION_TYPES; iI++)
+	{
+		pLoopPlot = plotDirection(pPlot->getX_INLINE(), pPlot->getY_INLINE(), ((DirectionTypes)iI));
+
+		//Adrian, Need to check to see if the unit is amphibious. As flying units can surround bonus land/water units
+		//if ((pLoopPlot != NULL) && (pLoopPlot->isWater() == pPlot->isWater()) && (iI != dtDirectionAttacker))
+		if ((pLoopPlot != NULL))
+		{
+			CLLNode<IDInfo>* pUnitNode;
+			CvUnit* pLoopUnit;
+			pUnitNode = pLoopPlot->headUnitNode();
+
+			while (pUnitNode != NULL)
+			{
+				pLoopUnit = ::getUnit(pUnitNode->m_data);
+				if( kTeam.isAtWar(pLoopUnit->getTeam() ) )
+				{
+					if( checkInvisible )
+					{
+						return true;
+					}
+					else
+					{
+						if( pLoopUnit->isInvisible(getTeam(), false) )
+						{
+
+						}
+						else
+						{
+							return true;
+						}
+					}
+				}
+				pUnitNode = pLoopPlot->nextUnitNode(pUnitNode);	
+			}
+		}
+	}
+
+	return false;
+
+}
+
+
 void CvUnit::move(CvPlot* pPlot, bool bShow)
 {
+	
+	bool isBesideEnemy;
 	FAssert(canMoveOrAttackInto(pPlot) || isMadeAttack());
 
 	CvPlot* pOldPlot = plot();
 
 	changeMoves(pPlot->movementCost(this, plot()));
+
+	//Zone of Control Method.
+	if( isAdjacentToEnemy(plot(), false) && isAdjacentToEnemy(pPlot, false) )
+	{
+		changeMoves( pPlot->movementCost(this, plot()) );
+	}
 
 	setXY(pPlot->getX_INLINE(), pPlot->getY_INLINE(), true, true, bShow && pPlot->isVisibleToWatchingHuman(), bShow);
 

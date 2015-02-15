@@ -1,20 +1,22 @@
 Adrian
 
-*Make it so units can only upgrade in cities
-*Make it so thoroughbred horses can only be bought (check elephants?)
-*Make it so there is a maximum of one defensive withdrawal chance per turn for a unit
-*Implement a zone of control mechanism
 
+
+
+setWithdrawChances
+
+
+Ring of fire spells are nerfed due to Assassins.
 
 
 
 
 Other
 
-Increase intrest rate to 2.5% ???
+Increase intrest rate to 2.5% ??? 
 +1 MERCHENT FOR FIRST COMMERCE BUILDING ???
 Remove ship move bonus from navigating globe
-Remove War Weariness
+
 Make mountain units better
 Make ships stronger
 Longbow/Crossbow to catapult fix
@@ -23,3 +25,25 @@ DECREASE MITHRIL WEAPON COST TO 100 ???
 MAKE IT that you can cast more than one weapon spell per turn ???
 should all weapopns be usable by all levels of the unit ???
 change pallisade to 15% def ???
+
+
+=== Done
+*Make it so units can only upgrade in cities
+*Make it so thoroughbred horses can only be bought (check elephants?)
+*Make it so there is a maximum of one defensive withdrawal chance per turn for a unit
+Remove War Weariness
+
+
+*Implement a zone of control mechanism
+A few options:
+
+The cost of moving into a tile is doubled what it normally is if you are 
+currently next to an enemy and you move into a tile next to an enemy. <--- CURRENLY IMPLEMENTED
+
+
+The cost of moving into a tile is doubled what it normally is if you move 
+into a tile next to an enemy.
+
+This really needs though about..
+
+Invisible enemies don't count.
