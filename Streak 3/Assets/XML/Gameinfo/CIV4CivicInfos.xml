@@ -43,7 +43,7 @@
             <iExpInBorderModifier>0</iExpInBorderModifier>
             <bBuildingOnlyHealthy>0</bBuildingOnlyHealthy>
             <iLargestCityHappiness>0</iLargestCityHappiness>
-            <iWarWearinessModifier>0</iWarWearinessModifier>
+            <iWarWearinessModifier>-100</iWarWearinessModifier>
             <iFreeSpecialist>0</iFreeSpecialist>
             <iTradeRoutes>0</iTradeRoutes>
             <bNoForeignTrade>0</bNoForeignTrade>
