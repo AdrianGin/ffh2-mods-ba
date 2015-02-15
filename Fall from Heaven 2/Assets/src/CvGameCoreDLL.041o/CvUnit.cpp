@@ -12229,6 +12229,17 @@ void CvUnit::setMoves(int iNewValue)
 	}
 }
 
+
+int CvUnit::getWithdrawChances() const
+{
+	return m_iWithdrawChances;
+}
+
+void CvUnit::setWithdrawChances(int iNewValue)
+{
+	m_iWithdrawChances = iNewValue;
+}
+
 /*
 ###########################################################
 # 	VKs Plot Capacity - Start
