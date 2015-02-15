@@ -1,14 +1,6 @@
 Adrian
-
-
-
-
 setWithdrawChances
-
-
 Ring of fire spells are nerfed due to Assassins.
-
-
 
 
 Other
@@ -16,16 +8,34 @@ Other
 Increase intrest rate to 2.5% ??? 
 +1 MERCHENT FOR FIRST COMMERCE BUILDING ???
 Remove ship move bonus from navigating globe
-
 Make mountain units better
-Make ships stronger
+
 Longbow/Crossbow to catapult fix
 Need fix - Only galley and galleon can get longshormen atm
 DECREASE MITHRIL WEAPON COST TO 100 ???
 MAKE IT that you can cast more than one weapon spell per turn ???
-should all weapopns be usable by all levels of the unit ???
-change pallisade to 15% def ???
++1 Culture per building
+Defence Units with +15% defence.
 
+
+
+
+
+========================
+Make ships stronger
+
+
+
+
+
+Alpine Tactics given to Ranger
+Ranger reduced to 50 hammers
+Alpine Tactics +20% strength
+
+Militia drop to 35 hammers
+Spearmen drop to 65 hammers
+Pikeman 105 hammers
+Highlander : use mithril
 
 === Done
 *Make it so units can only upgrade in cities
