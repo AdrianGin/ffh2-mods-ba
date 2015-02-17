@@ -202,7 +202,8 @@
             <Sound>AS2D_IF_LEVELUP</Sound>
             <Button>,Art/Interface/Buttons/WorldBuilder/Iron.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,6,13</Button>
             <TechPrereq>NONE</TechPrereq>
-            <iExtraCombatStrPercent>15</iExtraCombatStrPercent>    
+            <iExtraCombatStrPercent>15</iExtraCombatStrPercent>
+            <bGraphicalOnly>1</bGraphicalOnly>    
         </PromotionInfo>  
         <PromotionInfo>
             <Type>PROMOTION_MITHRIL_WEAPONS_HORSE</Type>
@@ -211,6 +212,7 @@
             <Button>,Art/Interface/Buttons/WorldBuilder/Silver.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,4,14</Button>
             <TechPrereq>NONE</TechPrereq>
             <iExtraCombatStrPercent>25</iExtraCombatStrPercent>
+            <bGraphicalOnly>1</bGraphicalOnly>
         </PromotionInfo> 
     	<PromotionInfo>
             <Type>PROMOTION_BRONZE_WEAPONS</Type>
