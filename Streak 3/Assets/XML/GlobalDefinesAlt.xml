@@ -408,7 +408,7 @@
 	<!-- Interest Rate with 3 implied decimal places -->
 	<Define>
 		<DefineName>INTEREST_RATE</DefineName>
-		<iDefineIntVal>1500</iDefineIntVal>
+		<iDefineIntVal>2500</iDefineIntVal>
 	</Define>	
 	<!-- Dexy - Surround and Destroy START -->
 	<Define>

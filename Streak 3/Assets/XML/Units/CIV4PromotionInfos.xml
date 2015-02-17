@@ -2586,22 +2586,6 @@
             <bAmphib>1</bAmphib>
             <bRiver>1</bRiver>
             <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_GUNPOWDER</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
             </UnitCombats>
             <Button>Art/Interface/Buttons/Promotions/Waterwalking.dds</Button>
             <bDispellable>1</bDispellable>
@@ -3042,21 +3026,6 @@
             <BonusPrereq>BONUS_MANA_WATER</BonusPrereq>
         </PromotionInfo>
         <PromotionInfo>
-            <Type>PROMOTION_CAST_WATER_WALKING</Type>
-            <Description>TXT_KEY_PROMOTION_CAST_WATER_WALKING</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_CHANNELING1</PromotionPrereq>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Water1.dds</Button>
-            <iAIWeight>50</iAIWeight>
-            <BonusPrereq>BONUS_MANA_WATER</BonusPrereq>
-        </PromotionInfo>
-        <PromotionInfo>
             <Type>PROMOTION_CAST_VITALIZE</Type>
             <Description>TXT_KEY_PROMOTION_CAST_VITALIZE</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
@@ -3151,13 +3120,13 @@
             <TerrainAttacks>
                 <TerrainAttack>
                     <TerrainType>TERRAIN_PEAK</TerrainType>
-                    <iTerrainAttack>10</iTerrainAttack>
+                    <iTerrainAttack>20</iTerrainAttack>
                 </TerrainAttack>
             </TerrainAttacks>
             <TerrainDefenses>
                 <TerrainDefense>
                     <TerrainType>TERRAIN_PEAK</TerrainType>
-                    <iTerrainDefense>10</iTerrainDefense>
+                    <iTerrainDefense>20</iTerrainDefense>
                 </TerrainDefense>
             </TerrainDefenses>
             <Button>Art/Interface/Buttons/Promotions/AlpineTactics.dds</Button>

@@ -251,7 +251,7 @@
             <bInBordersOnly>1</bInBordersOnly>
             <bInCityOnly>1</bInCityOnly>
             <bHasCasted>1</bHasCasted>
-            <iCost>120</iCost>
+            <iCost>100</iCost>
             <PyRequirement>reqMithrilWeapons(pCaster)</PyRequirement>
             <PyResult>spellMithrilWeapons(pCaster)</PyResult>
             <Effect>EFFECT_SPELL1</Effect>
@@ -310,7 +310,7 @@
             <bInBordersOnly>1</bInBordersOnly>
             <bInCityOnly>1</bInCityOnly>
             <bHasCasted>1</bHasCasted>
-            <iCost>120</iCost>
+            <iCost>100</iCost>
             <PyRequirement>reqMithrilWeaponsHorse(pCaster)</PyRequirement>
             <PyResult>spellMithrilWeaponsHorse(pCaster)</PyResult>
             <Effect>EFFECT_SPELL1</Effect>
@@ -742,25 +742,6 @@
             <Effect>EFFECT_WIND_SWIRL</Effect>
             <Sound>AS3D_SPELL_HASTE</Sound>
             <Button>Art/Interface/Buttons/Promotions/Danceofblades.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_WATER_WALKING</Type>
-            <Description>TXT_KEY_SPELL_WATER_WALKING</Description>
-            <Civilopedia></Civilopedia>
-            <PromotionPrereq1>PROMOTION_CAST_WATER_WALKING</PromotionPrereq1>
-            <bGlobal>0</bGlobal>
-            <bIsTileSelect>1</bIsTileSelect>
-            <bIsUnitSelect>1</bIsUnitSelect>
-            <iSpellDistance>0</iSpellDistance>
-            <bRequiresLOS>1</bRequiresLOS>
-            <bAllowAI>1</bAllowAI>
-            <iAIWeightWar>50</iAIWeightWar>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <AddPromotionType1>PROMOTION_WATER_WALKING</AddPromotionType1>
-            <Effect>EFFECT_CREATION</Effect>
-            <Sound>AS3D_SPELL_WATER</Sound>
-            <Button>Art/Interface/Buttons/Promotions/Waterwalking.dds</Button>
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_VITALIZE</Type>
