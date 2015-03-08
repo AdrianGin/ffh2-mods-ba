@@ -3922,7 +3922,7 @@ void CvUnit::move(CvPlot* pPlot, bool bShow)
 	//Zone of Control Method.
 	if( isAdjacentToEnemy(plot(), false) && isAdjacentToEnemy(pPlot, false) )
 	{
-		changeMoves( pPlot->movementCost(this, plot()) );
+		//changeMoves( pPlot->movementCost(this, plot()) );
 	}
 
 	setXY(pPlot->getX_INLINE(), pPlot->getY_INLINE(), true, true, bShow && pPlot->isVisibleToWatchingHuman(), bShow);
