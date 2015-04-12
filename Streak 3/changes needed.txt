@@ -1,3 +1,19 @@
+Finish Units
+Level 3 Units
+
+Promotions
+Upgrades
+
+Spells
+
+
+
+
+
+
+
+
+
 Adrian
 setWithdrawChances
 Ring of fire spells are nerfed due to Assassins.
@@ -15,6 +31,8 @@ Longbow/Crossbow to catapult fix
 Need fix - Only galley and galleon can get longshormen atm
 MAKE IT that you can cast more than one weapon spell per turn
 Defence Units peak get +15% defence.
+
+No sound when forges are built/spells etc
 
 
 ========================
