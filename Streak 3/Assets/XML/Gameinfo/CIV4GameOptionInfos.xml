@@ -199,8 +199,8 @@
 			<Type>GAMEOPTION_LOCK_MODS</Type>
 			<Description>TXT_KEY_GAME_OPTION_LOCK_MODS</Description>
 			<Help>TXT_KEY_GAME_OPTION_LOCK_MODS_HELP</Help>
-			<bDefault>0</bDefault>
-			<bVisible>0</bVisible>
+			<bDefault>1</bDefault>
+			<bVisible>1</bVisible>
 		</GameOptionInfo>
 		<GameOptionInfo>
 			<Type>GAMEOPTION_COMPLETE_KILLS</Type>
