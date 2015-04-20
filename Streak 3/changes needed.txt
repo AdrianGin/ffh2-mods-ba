@@ -1,11 +1,13 @@
-Finish Units
-Level 3 Units
+Finish Units - done
+Level 3 Units - done
+Promotions - done
+Upgrades - done
+Spells - done
 
-Promotions
-Upgrades
 
-Spells
 
+Buildings
+Costing
 Build Research / Wealth (50%)
 
 
