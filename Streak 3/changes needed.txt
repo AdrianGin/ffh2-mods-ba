@@ -3,11 +3,11 @@ Level 3 Units - done
 Promotions - done
 Upgrades - done
 Spells - done
+Costing - done
 
 
+Buildings - not done / no need
 
-Buildings
-Costing
 Build Research / Wealth (50%)
 
 
