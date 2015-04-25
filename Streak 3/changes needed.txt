@@ -1,9 +1,9 @@
-Finish Units - done
-Level 3 Units - done
-Promotions - done
-Upgrades - done
-Spells - done
-Costing - done
+Bas
+Units + Cost
+
+
+Adrian
+Upgrade mechanism
 
 
 Buildings - not done / no need
@@ -16,11 +16,13 @@ Build Research / Wealth (50%)
 
 
 
-Adrian
+
 setWithdrawChances
 Ring of fire spells are nerfed due to Assassins.
 
 Need to add more water spell?
+
+
 
 
 Other
