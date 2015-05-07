@@ -266,7 +266,7 @@
         
         <SpellInfo>
             <Type>SPELL_BOOTS_WOODWALK</Type>
-            <Description>TXT_KEY_PROMOTION_MARCH</Description>            
+            <Description>TXT_KEY_PROMOTION_WOODWALK</Description>            
             <TechPrereq>TECH_FEUDAL_AGE</TechPrereq>
             <UnitCombatPrereq>NONE</UnitCombatPrereq>
             <bAllowAI>1</bAllowAI>
@@ -280,7 +280,7 @@
             <Effect>EFFECT_SPELL1</Effect>
             <Sound>AS2D_REPAIR</Sound>
             <bGraphicalOnly>1</bGraphicalOnly>
-            <Button>,Art/Interface/Buttons/Promotions/Woodwalking.dds,Art/Interface/Buttons/Promotions/Woodwalking.dds</Button>
+            <Button>Art/Interface/Buttons/Promotions/Woodwalking.dds</Button>
         </SpellInfo>  
         
         

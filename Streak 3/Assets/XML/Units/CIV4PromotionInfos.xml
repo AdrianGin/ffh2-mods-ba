@@ -1546,7 +1546,7 @@
         
         <PromotionInfo>
             <Type>PROMOTION_WOODWALKING</Type>
-            <Description>Woodwalking</Description>
+            <Description>TXT_KEY_PROMOTION_WOODWALK</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <FeatureDoubleMoves>
                 <FeatureDoubleMove>
@@ -1568,7 +1568,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
-            <Button>,Art/Interface/Buttons/Promotions/Woodwalking.dds,Art/Interface/Buttons/Promotions/Woodwalking.dds</Button>
+            <Button>,Art/Interface/Buttons/Promotions/Woodwalking.dds</Button>
         </PromotionInfo>
         
         <PromotionInfo>
