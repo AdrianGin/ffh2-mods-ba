@@ -161,8 +161,8 @@
             <Sound>AS2D_IF_LEVELUP</Sound>
             <Button>,Art/Interface/Buttons/WorldBuilder/Horse.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,4,13</Button>
             <TechPrereq>TECH_NEVER</TechPrereq>
-            <iExtraCombatStrPercent>10</iExtraCombatStrPercent>
-            <iMovesChange>1</iMovesChange>
+            <iCombatPercent>5</iCombatPercent>
+            <iMovesChange>0</iMovesChange>
             <UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
@@ -170,14 +170,33 @@
 				</UnitCombat>
 			</UnitCombats>
 			<BonusPrereq>BONUS_HORSE</BonusPrereq>
-        </PromotionInfo>        
+        </PromotionInfo>     
+        
+    	<PromotionInfo>
+            <Type>PROMOTION_WAR_HORSE_WEAPONS</Type>
+            <Description>TXT_KEY_PROMOTION_WAR_HORSE_WEAPONS</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <Button>,Art/Interface/Buttons/WorldBuilder/Horse.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,4,13</Button>
+            <TechPrereq>TECH_NEVER</TechPrereq>
+            <iCombatPercent>10</iCombatPercent>
+            <iWithdrawalChange>10</iWithdrawalChange>
+            <iMovesChange>0</iMovesChange>
+            <UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+			</UnitCombats>
+			<BonusPrereq>BONUS_HORSE</BonusPrereq>
+        </PromotionInfo>         
+           
 		<PromotionInfo>
             <Type>PROMOTION_ELEPHANT_WEAPONS</Type>
             <Description>TXT_KEY_PROMOTION_ELEPHANT_WEAPONS</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <Button>,Art/Interface/Buttons/WorldBuilder/ivory.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,7,13</Button>
             <TechPrereq>TECH_NEVER</TechPrereq>
-            <iExtraCombatStrPercent>15</iExtraCombatStrPercent>
+            <iCombatPercent>5</iCombatPercent>
             <UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_ELEPHANT</UnitCombatType>
@@ -186,6 +205,26 @@
 			</UnitCombats>
 			<BonusPrereq>BONUS_IVORY</BonusPrereq>
         </PromotionInfo> 
+        
+        
+        
+		<PromotionInfo>
+            <Type>PROMOTION_WAR_ELEPHANT_WEAPONS</Type>
+            <Description>TXT_KEY_PROMOTION_WAR_ELEPHANT_WEAPONS</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <Button>,Art/Interface/Buttons/WorldBuilder/ivory.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,7,13</Button>
+            <TechPrereq>TECH_NEVER</TechPrereq>
+            <iCombatPercent>10</iCombatPercent>
+            <UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ELEPHANT</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+			</UnitCombats>
+			<BonusPrereq>BONUS_IVORY</BonusPrereq>
+        </PromotionInfo> 
+        
+        
      	<PromotionInfo>
             <Type>PROMOTION_BRONZE_WEAPONS_HORSE</Type>
             <Description>TXT_KEY_PROMOTION_BRONZE_WEAPONS</Description>
@@ -1504,6 +1543,34 @@
             </UnitCombats>
             <Button>,Art/Interface/Buttons/Promotions/Woodsman2.dds,Art/Interface/Buttons/Promotions_Atlas.dds,7,6</Button>
         </PromotionInfo>
+        
+        <PromotionInfo>
+            <Type>PROMOTION_WOODWALKING</Type>
+            <Description>Woodwalking</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <FeatureDoubleMoves>
+                <FeatureDoubleMove>
+                    <FeatureType>FEATURE_JUNGLE</FeatureType>
+                    <bFeatureDoubleMove>1</bFeatureDoubleMove>
+                </FeatureDoubleMove>
+                <FeatureDoubleMove>
+                    <FeatureType>FEATURE_FOREST</FeatureType>
+                    <bFeatureDoubleMove>1</bFeatureDoubleMove>
+                </FeatureDoubleMove>
+            </FeatureDoubleMoves>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>,Art/Interface/Buttons/Promotions/Woodwalking.dds,Art/Interface/Buttons/Promotions/Woodwalking.dds</Button>
+        </PromotionInfo>
+        
         <PromotionInfo>
             <Type>PROMOTION_GUERILLA1</Type>
             <Description>Guerilla I</Description>
@@ -1762,6 +1829,7 @@
             <Button>,Art/Interface/Buttons/Promotions/Amphibious.dds,Art/Interface/Buttons/Promotions_Atlas.dds,3,1</Button>
             <bMutation>1</bMutation>
         </PromotionInfo>
+        
         <PromotionInfo>
             <Type>PROMOTION_MARCH</Type>
             <Description>TXT_KEY_PROMOTION_MARCH</Description>

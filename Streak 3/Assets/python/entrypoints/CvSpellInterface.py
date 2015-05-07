@@ -3921,11 +3921,11 @@ def spellGunpowderWeapons(caster):
 		
 
 
-def reqHorseWeapons(caster):
+def reqHorseWeapons(caster, promotionString):
 	pPlayer = gc.getPlayer(caster.getOwner())
 	pCity = caster.plot().getPlotCity()
 	
-	if caster.isHasPromotion(gc.getInfoTypeForString('PROMOTION_HORSE_WEAPONS')):
+	if caster.isHasPromotion(gc.getInfoTypeForString(promotionString)):
 		return False	
 	
 	if pCity.hasBonus( gc.getInfoTypeForString('BONUS_HORSE') ) == True:
@@ -3933,17 +3933,27 @@ def reqHorseWeapons(caster):
 		
 	return False
 
-def spellHorseWeapons(caster):
-	promo = gc.getInfoTypeForString('PROMOTION_HORSE_WEAPONS')
-	caster.setHasPromotion(promo, True)		
+def spellHorseWeapons(caster, promotionString):
+	lList = []
+	lList = lList + [gc.getInfoTypeForString('PROMOTION_HORSE_WEAPONS')]
+	lList = lList + [gc.getInfoTypeForString('PROMOTION_WAR_HORSE_WEAPONS')]
+	
+	for promo in lList:
+		caster.setHasPromotion(promo, False)
+
+	newpromo = gc.getInfoTypeForString(promotionString)
+	caster.setHasPromotion(newpromo, True)	
+
+	
+	
 	
 	
 
-def reqElephantWeapons(caster):
+def reqElephantWeapons(caster, promotionString):
 	pPlayer = gc.getPlayer(caster.getOwner())
 	pCity = caster.plot().getPlotCity()
 	
-	if caster.isHasPromotion(gc.getInfoTypeForString('PROMOTION_ELEPHANT_WEAPONS')):
+	if caster.isHasPromotion(gc.getInfoTypeForString(promotionString)):
 		return False	
 	
 	if pCity.hasBonus( gc.getInfoTypeForString('BONUS_IVORY') ) == True:
@@ -3951,10 +3961,48 @@ def reqElephantWeapons(caster):
 		
 	return False
 
-def spellElephantWeapons(caster):
-	promo = gc.getInfoTypeForString('PROMOTION_ELEPHANT_WEAPONS')
-	caster.setHasPromotion(promo, True)			
-		
+def spellElephants(caster, promotionString):
+	lList = []
+	lList = lList + [gc.getInfoTypeForString('PROMOTION_ELEPHANT_WEAPONS')]
+	lList = lList + [gc.getInfoTypeForString('PROMOTION_WAR_ELEPHANT_WEAPONS')]
+	
+	for promo in lList:
+		caster.setHasPromotion(promo, False)
+
+	newpromo = gc.getInfoTypeForString(promotionString)
+	caster.setHasPromotion(newpromo, True)	
+
+
+
+
+def reqHumanBoots(caster, promotionString):
+	pPlayer = gc.getPlayer(caster.getOwner())
+	pCity = caster.plot().getPlotCity()
+	
+
+	if caster.isHasPromotion(gc.getInfoTypeForString(promotionString)):
+		return False	
+	
+	promo = gc.getPromotionInfo(gc.getInfoTypeForString(promotionString))
+	if promo.getUnitCombat(caster.getUnitCombatType()) == 1:
+		return True 
+				
+	return False
+	
+
+def spellHumanBoots(caster, promotionString):
+	lList = []
+	lList = lList + [gc.getInfoTypeForString('PROMOTION_MARCH')]
+	lList = lList + [gc.getInfoTypeForString('PROMOTION_WOODWALKING')]
+	
+	for promo in lList:
+		caster.setHasPromotion(promo, False)
+
+	newpromo = gc.getInfoTypeForString(promotionString)
+	caster.setHasPromotion(newpromo, True)	
+	
+	return False
+
 				
 		
 def reqGainXP(caster):

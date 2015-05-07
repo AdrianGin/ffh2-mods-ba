@@ -162,11 +162,32 @@
             <bGraphicalOnly>1</bGraphicalOnly>
             <Button>,Art/Interface/Buttons/WorldBuilder/Coal.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,4,12</Button>
         </SpellInfo>
+        
         <SpellInfo>
             <Type>SPELL_HORSE_WEAPONS</Type>
             <Description>TXT_KEY_PROMOTION_HORSE_WEAPONS</Description>            
             <Help>TXT_KEY_PROMOTION_HORSE_WEAPONS_PEDIA</Help>
-            <TechPrereq>NONE</TechPrereq>
+            <TechPrereq>TECH_MOUNTED1</TechPrereq>
+            <UnitCombatPrereq>UNITCOMBAT_MOUNTED</UnitCombatPrereq>
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>0</bDisplayWhenDisabled>
+            <bInBordersOnly>1</bInBordersOnly>
+            <bInCityOnly>1</bInCityOnly>
+            <bHasCasted>1</bHasCasted>
+            <iCost>30</iCost>
+            <PyRequirement>reqHorseWeapons(pCaster, 'PROMOTION_HORSE_WEAPONS')</PyRequirement>
+            <PyResult>spellHorseWeapons(pCaster, 'PROMOTION_HORSE_WEAPONS')</PyResult>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS2D_REPAIR</Sound>
+            <bGraphicalOnly>1</bGraphicalOnly>
+            <Button>,Art/Interface/Buttons/WorldBuilder/Horse.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,4,13</Button>
+        </SpellInfo> 
+        
+        <SpellInfo>
+            <Type>SPELL_WAR_HORSE_WEAPONS</Type>
+            <Description>TXT_KEY_PROMOTION_WAR_HORSE_WEAPONS</Description>            
+            <Help>TXT_KEY_PROMOTION_WAR_HORSE_WEAPONS_PEDIA</Help>
+            <TechPrereq>TECH_MOUNTED2</TechPrereq>
             <UnitCombatPrereq>UNITCOMBAT_MOUNTED</UnitCombatPrereq>
             <bAllowAI>1</bAllowAI>
             <bDisplayWhenDisabled>0</bDisplayWhenDisabled>
@@ -174,33 +195,95 @@
             <bInCityOnly>1</bInCityOnly>
             <bHasCasted>1</bHasCasted>
             <iCost>70</iCost>
-            <PyRequirement>reqHorseWeapons(pCaster)</PyRequirement>
-            <PyResult>spellHorseWeapons(pCaster)</PyResult>
+            <PyRequirement>reqHorseWeapons(pCaster, 'PROMOTION_WAR_HORSE_WEAPONS')</PyRequirement>
+            <PyResult>spellHorseWeapons(pCaster, 'PROMOTION_WAR_HORSE_WEAPONS')</PyResult>
             <Effect>EFFECT_SPELL1</Effect>
             <Sound>AS2D_REPAIR</Sound>
             <bGraphicalOnly>1</bGraphicalOnly>
             <Button>,Art/Interface/Buttons/WorldBuilder/Horse.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,4,13</Button>
-        </SpellInfo> 
+        </SpellInfo>         
         
 		<SpellInfo>
             <Type>SPELL_ELEPHANT_WEAPONS</Type>
             <Description>TXT_KEY_PROMOTION_ELEPHANT_WEAPONS</Description>            
             <Help>TXT_KEY_PROMOTION_ELEPHANT_WEAPONS_PEDIA</Help>
-            <TechPrereq>NONE</TechPrereq>
+            <TechPrereq>TECH_MOUNTED1</TechPrereq>
             <UnitCombatPrereq>UNITCOMBAT_ELEPHANT</UnitCombatPrereq>
             <bAllowAI>1</bAllowAI>
             <bDisplayWhenDisabled>0</bDisplayWhenDisabled>
             <bInBordersOnly>1</bInBordersOnly>
             <bInCityOnly>1</bInCityOnly>
             <bHasCasted>1</bHasCasted>
-            <iCost>65</iCost>
-            <PyRequirement>reqElephantWeapons(pCaster)</PyRequirement>
-            <PyResult>spellElephantWeapons(pCaster)</PyResult>
+            <iCost>30</iCost>
+            <PyRequirement>reqElephantWeapons(pCaster, 'PROMOTION_ELEPHANT_WEAPONS')</PyRequirement>
+            <PyResult>spellElephants(pCaster, 'PROMOTION_ELEPHANT_WEAPONS')</PyResult>
             <Effect>EFFECT_SPELL1</Effect>
             <Sound>AS2D_REPAIR</Sound>
             <bGraphicalOnly>1</bGraphicalOnly>
             <Button>,Art/Interface/Buttons/WorldBuilder/Ivory.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,7,13</Button>
         </SpellInfo>         
+        
+		<SpellInfo>
+            <Type>SPELL_WAR_ELEPHANT_WEAPONS</Type>
+            <Description>TXT_KEY_PROMOTION_WAR_ELEPHANT_WEAPONS</Description>            
+            <Help>TXT_KEY_PROMOTION_WAR_ELEPHANT_WEAPONS_PEDIA</Help>
+            <TechPrereq>TECH_MOUNTED2</TechPrereq>
+            <UnitCombatPrereq>UNITCOMBAT_ELEPHANT</UnitCombatPrereq>
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>0</bDisplayWhenDisabled>
+            <bInBordersOnly>1</bInBordersOnly>
+            <bInCityOnly>1</bInCityOnly>
+            <bHasCasted>1</bHasCasted>
+            <iCost>62</iCost>
+            <PyRequirement>reqElephantWeapons(pCaster, 'PROMOTION_WAR_ELEPHANT_WEAPONS')</PyRequirement>
+            <PyResult>spellElephants(pCaster, 'PROMOTION_WAR_ELEPHANT_WEAPONS')</PyResult>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS2D_REPAIR</Sound>
+            <bGraphicalOnly>1</bGraphicalOnly>
+            <Button>,Art/Interface/Buttons/WorldBuilder/Ivory.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,7,13</Button>
+        </SpellInfo>          
+        
+        
+        <SpellInfo>
+            <Type>SPELL_BOOTS_MARCH</Type>
+            <Description>TXT_KEY_PROMOTION_MARCH</Description>            
+            <TechPrereq>TECH_DARK_AGE</TechPrereq>
+            <UnitCombatPrereq>NONE</UnitCombatPrereq>
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>0</bDisplayWhenDisabled>
+            <bInBordersOnly>1</bInBordersOnly>
+            <bInCityOnly>1</bInCityOnly>
+            <bHasCasted>1</bHasCasted>
+            <iCost>32</iCost>
+            <PyRequirement>reqHumanBoots(pCaster, 'PROMOTION_MARCH')</PyRequirement>
+            <PyResult>spellHumanBoots(pCaster, 'PROMOTION_MARCH')</PyResult>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS2D_REPAIR</Sound>
+            <bGraphicalOnly>1</bGraphicalOnly>
+            <Button>,Art/Interface/Buttons/Promotions/March.dds,Art/Interface/Buttons/Promotions_Atlas.dds,2,4</Button>
+        </SpellInfo>  
+        
+        
+        <SpellInfo>
+            <Type>SPELL_BOOTS_WOODWALK</Type>
+            <Description>TXT_KEY_PROMOTION_MARCH</Description>            
+            <TechPrereq>TECH_FEUDAL_AGE</TechPrereq>
+            <UnitCombatPrereq>NONE</UnitCombatPrereq>
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>0</bDisplayWhenDisabled>
+            <bInBordersOnly>1</bInBordersOnly>
+            <bInCityOnly>1</bInCityOnly>
+            <bHasCasted>1</bHasCasted>
+            <iCost>32</iCost>
+            <PyRequirement>reqHumanBoots(pCaster, 'PROMOTION_WOODWALKING')</PyRequirement>
+            <PyResult>spellHumanBoots(pCaster, 'PROMOTION_WOODWALKING')</PyResult>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS2D_REPAIR</Sound>
+            <bGraphicalOnly>1</bGraphicalOnly>
+            <Button>,Art/Interface/Buttons/Promotions/Woodwalking.dds,Art/Interface/Buttons/Promotions/Woodwalking.dds</Button>
+        </SpellInfo>  
+        
+        
         
         <SpellInfo>
             <Type>SPELL_BRONZE_WEAPONS</Type>
