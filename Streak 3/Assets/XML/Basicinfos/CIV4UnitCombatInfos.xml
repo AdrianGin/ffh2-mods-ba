@@ -65,6 +65,26 @@
 			<Type>UNITCOMBAT_SIEGE</Type>
 			<Description>TXT_KEY_UNITCOMBAT_SIEGE</Description>
 			<Button>,Art/Interface/Buttons/Promotions/Charge.dds,Art/Interface/Buttons/Promotions_Atlas.dds,1,5</Button>
+		</UnitCombatInfo>		
+		<UnitCombatInfo>
+			<Type>UNITCOMBAT_ASSAULT</Type>
+			<Description>TXT_KEY_UNITCOMBAT_ASSAULT</Description>
+			<Button>,Art/Interface/Buttons/Promotions/Charge.dds,Art/Interface/Buttons/Promotions_Atlas.dds,1,5</Button>
+		</UnitCombatInfo>
+		<UnitCombatInfo>
+			<Type>UNITCOMBAT_RANGED</Type>
+			<Description>TXT_KEY_UNITCOMBAT_RANGED</Description>
+			<Button>,Art/Interface/Buttons/Promotions/Charge.dds,Art/Interface/Buttons/Promotions_Atlas.dds,1,5</Button>
+		</UnitCombatInfo>
+		<UnitCombatInfo>
+			<Type>UNITCOMBAT_COMPANY</Type>
+			<Description>TXT_KEY_UNITCOMBAT_COMPANY</Description>
+			<Button>,Art/Interface/Buttons/Promotions/Charge.dds,Art/Interface/Buttons/Promotions_Atlas.dds,1,5</Button>
+		</UnitCombatInfo>
+		<UnitCombatInfo>
+			<Type>UNITCOMBAT_RANGER</Type>
+			<Description>TXT_KEY_UNITCOMBAT_RANGER</Description>
+			<Button>,Art/Interface/Buttons/Promotions/Charge.dds,Art/Interface/Buttons/Promotions_Atlas.dds,1,5</Button>
 		</UnitCombatInfo>
 	</UnitCombatInfos>
 </Civ4UnitCombatInfos>
