@@ -3200,7 +3200,7 @@
             <FreeStartEra>NONE</FreeStartEra>
             <MaxStartEra>NONE</MaxStartEra>
             <ObsoleteTech>NONE</ObsoleteTech>
-            <PrereqTech>TECH_MILITARY</PrereqTech>
+            <PrereqTech>TECH_SOLDIERING</PrereqTech>
             <TechTypes>
             </TechTypes>
             <Bonus>NONE</Bonus>
