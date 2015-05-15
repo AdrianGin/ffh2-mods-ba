@@ -275,15 +275,224 @@
             <bInCityOnly>1</bInCityOnly>
             <bHasCasted>1</bHasCasted>
             <iCost>32</iCost>
-            <PyRequirement>reqHumanBoots(pCaster, 'PROMOTION_WOODWALKING')</PyRequirement>
-            <PyResult>spellHumanBoots(pCaster, 'PROMOTION_WOODWALKING')</PyResult>
+            <PyRequirement>reqHumanBoots(pCaster, 'PROMOTION_WOODWALK')</PyRequirement>
+            <PyResult>spellHumanBoots(pCaster, 'PROMOTION_WOODWALK')</PyResult>
             <Effect>EFFECT_SPELL1</Effect>
             <Sound>AS2D_REPAIR</Sound>
             <bGraphicalOnly>1</bGraphicalOnly>
             <Button>Art/Interface/Buttons/Promotions/Woodwalking.dds</Button>
         </SpellInfo>  
         
+        <SpellInfo>
+            <Type>SPELL_BOOTS_HILLWALK</Type>
+            <Description>TXT_KEY_PROMOTION_HILLWALK</Description>            
+            <TechPrereq>TECH_FEUDAL_AGE</TechPrereq>
+            <UnitCombatPrereq>NONE</UnitCombatPrereq>
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>0</bDisplayWhenDisabled>
+            <bInBordersOnly>1</bInBordersOnly>
+            <bInCityOnly>1</bInCityOnly>
+            <bHasCasted>1</bHasCasted>
+            <iCost>38</iCost>
+            <PyRequirement>reqHumanBoots(pCaster, 'PROMOTION_HILLWALK')</PyRequirement>
+            <PyResult>spellHumanBoots(pCaster, 'PROMOTION_HILLWALK')</PyResult>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS2D_REPAIR</Sound>
+            <bGraphicalOnly>1</bGraphicalOnly>
+            <Button>Art/Interface/Buttons/Promotions/hillwalk.dds</Button>
+        </SpellInfo>  
         
+		<SpellInfo>
+            <Type>SPELL_BOOTS_MOUNTAINWALK</Type>
+            <Description>TXT_KEY_PROMOTION_MOUNTAINWALK</Description>            
+            <TechPrereq>TECH_CASTLE_AGE</TechPrereq>
+            <UnitCombatPrereq>NONE</UnitCombatPrereq>
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>0</bDisplayWhenDisabled>
+            <bInBordersOnly>1</bInBordersOnly>
+            <bInCityOnly>1</bInCityOnly>
+            <bHasCasted>1</bHasCasted>
+            <iCost>38</iCost>
+            <PyRequirement>reqHumanBoots(pCaster, 'PROMOTION_MOUNTAINWALK')</PyRequirement>
+            <PyResult>spellHumanBoots(pCaster, 'PROMOTION_MOUNTAINWALK')</PyResult>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS2D_REPAIR</Sound>
+            <bGraphicalOnly>1</bGraphicalOnly>
+            <Button>Art/Interface/Buttons/Promotions/mountainwalk.dds</Button>
+        </SpellInfo>        
+        
+		<SpellInfo>
+            <Type>SPELL_BOOTS_WATERWALK</Type>
+            <Description>TXT_KEY_PROMOTION_WATERWALK</Description>            
+            <TechPrereq>TECH_CASTLE_AGE</TechPrereq>
+            <UnitCombatPrereq>NONE</UnitCombatPrereq>
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>0</bDisplayWhenDisabled>
+            <bInBordersOnly>1</bInBordersOnly>
+            <bInCityOnly>1</bInCityOnly>
+            <bHasCasted>1</bHasCasted>
+            <iCost>38</iCost>
+            <PyRequirement>reqHumanBoots(pCaster, 'PROMOTION_WATERWALK')</PyRequirement>
+            <PyResult>spellHumanBoots(pCaster, 'PROMOTION_WATERWALK')</PyResult>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS2D_REPAIR</Sound>
+            <bGraphicalOnly>1</bGraphicalOnly>
+            <Button>Art/Interface/Buttons/Promotions/Waterwalking.dds</Button>
+        </SpellInfo>          
+        
+		<SpellInfo>
+            <Type>SPELL_BOOTS_SPEEDWALK</Type>
+            <Description>TXT_KEY_PROMOTION_SPEEDWALK</Description>            
+            <TechPrereq>TECH_IMPERIAL_AGE</TechPrereq>
+            <UnitCombatPrereq>NONE</UnitCombatPrereq>
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>0</bDisplayWhenDisabled>
+            <bInBordersOnly>1</bInBordersOnly>
+            <bInCityOnly>1</bInCityOnly>
+            <bHasCasted>1</bHasCasted>
+            <iCost>54</iCost>
+            <PyRequirement>reqHumanBoots(pCaster, 'PROMOTION_SPEEDWALK')</PyRequirement>
+            <PyResult>spellHumanBoots(pCaster, 'PROMOTION_SPEEDWALK')</PyResult>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS2D_REPAIR</Sound>
+            <bGraphicalOnly>1</bGraphicalOnly>
+            <Button>Art/Interface/Buttons/Promotions/Flying.dds</Button>
+        </SpellInfo>         
+        
+		<SpellInfo>
+            <Type>SPELL_BOOTS_INVISIBLEWALK</Type>
+            <Description>TXT_KEY_PROMOTION_INVISIBLEWALK</Description>            
+            <TechPrereq>TECH_IMPERIAL_AGE</TechPrereq>
+            <UnitCombatPrereq>NONE</UnitCombatPrereq>
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>0</bDisplayWhenDisabled>
+            <bInBordersOnly>1</bInBordersOnly>
+            <bInCityOnly>1</bInCityOnly>
+            <bHasCasted>1</bHasCasted>
+            <iCost>54</iCost>
+            <PyRequirement>reqHumanBoots(pCaster, 'PROMOTION_INVISIBLEWALK')</PyRequirement>
+            <PyResult>spellHumanBoots(pCaster, 'PROMOTION_INVISIBLEWALK')</PyResult>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS2D_REPAIR</Sound>
+            <bGraphicalOnly>1</bGraphicalOnly>
+            <Button>Art/Interface/Buttons/Promotions/Invisibility.dds</Button>
+        </SpellInfo>         
+        
+		<SpellInfo>
+            <Type>SPELL_WEAPSARMS_STRENGTH1</Type>
+            <Description>TXT_KEY_PROMOTION_STRENGTH1</Description>            
+            <TechPrereq>TECH_DARK_AGE</TechPrereq>
+            <UnitCombatPrereq>NONE</UnitCombatPrereq>
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>0</bDisplayWhenDisabled>
+            <bInBordersOnly>1</bInBordersOnly>
+            <bInCityOnly>1</bInCityOnly>
+            <bHasCasted>1</bHasCasted>
+            <iCost>26</iCost>
+            <PyRequirement>reqHumanWeaponsArmour(pCaster, 'PROMOTION_STRENGTH1')</PyRequirement>
+            <PyResult>spellHumanWeaponsArmour(pCaster, 'PROMOTION_STRENGTH1')</PyResult>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS2D_REPAIR</Sound>
+            <bGraphicalOnly>1</bGraphicalOnly>
+            <Button>Art/Interface/Buttons/Promotions/Strength1.dds</Button>
+        </SpellInfo>         
+        
+        
+		<SpellInfo>
+            <Type>SPELL_WEAPSARMS_STRENGTH2</Type>
+            <Description>TXT_KEY_PROMOTION_STRENGTH2</Description>            
+            <TechPrereq>TECH_FEUDAL_AGE</TechPrereq>
+            <UnitCombatPrereq>NONE</UnitCombatPrereq>
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>0</bDisplayWhenDisabled>
+            <bInBordersOnly>1</bInBordersOnly>
+            <bInCityOnly>1</bInCityOnly>
+            <bHasCasted>1</bHasCasted>
+            <iCost>54</iCost>
+            <PyRequirement>reqHumanWeaponsArmour(pCaster, 'PROMOTION_STRENGTH2')</PyRequirement>
+            <PyResult>spellHumanWeaponsArmour(pCaster, 'PROMOTION_STRENGTH2')</PyResult>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS2D_REPAIR</Sound>
+            <bGraphicalOnly>1</bGraphicalOnly>
+            <Button>Art/Interface/Buttons/Promotions/Strength2.dds</Button>
+        </SpellInfo>
+        
+		<SpellInfo>
+            <Type>SPELL_WEAPSARMS_STRENGTH3</Type>
+            <Description>TXT_KEY_PROMOTION_STRENGTH3</Description>            
+            <TechPrereq>TECH_CASTLE_AGE</TechPrereq>
+            <UnitCombatPrereq>NONE</UnitCombatPrereq>
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>0</bDisplayWhenDisabled>
+            <bInBordersOnly>1</bInBordersOnly>
+            <bInCityOnly>1</bInCityOnly>
+            <bHasCasted>1</bHasCasted>
+            <iCost>82</iCost>
+            <PyRequirement>reqHumanWeaponsArmour(pCaster, 'PROMOTION_STRENGTH3')</PyRequirement>
+            <PyResult>spellHumanWeaponsArmour(pCaster, 'PROMOTION_STRENGTH3')</PyResult>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS2D_REPAIR</Sound>
+            <bGraphicalOnly>1</bGraphicalOnly>
+            <Button>Art/Interface/Buttons/Promotions/Strength3.dds</Button>
+        </SpellInfo>
+        
+        
+		<SpellInfo>
+            <Type>SPELL_WEAPSARMS_STRENGTH4</Type>
+            <Description>TXT_KEY_PROMOTION_STRENGTH4</Description>            
+            <TechPrereq>TECH_IMPERIAL_AGE</TechPrereq>
+            <UnitCombatPrereq>NONE</UnitCombatPrereq>
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>0</bDisplayWhenDisabled>
+            <bInBordersOnly>1</bInBordersOnly>
+            <bInCityOnly>1</bInCityOnly>
+            <bHasCasted>1</bHasCasted>
+            <iCost>138</iCost>
+            <PyRequirement>reqHumanWeaponsArmour(pCaster, 'PROMOTION_STRENGTH4')</PyRequirement>
+            <PyResult>spellHumanWeaponsArmour(pCaster, 'PROMOTION_STRENGTH4')</PyResult>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS2D_REPAIR</Sound>
+            <bGraphicalOnly>1</bGraphicalOnly>
+            <Button>Art/Interface/Buttons/Promotions/Strength4.dds</Button>
+        </SpellInfo>                        
+        
+		<SpellInfo>
+            <Type>SPELL_WEAPSARMS_VISION1</Type>
+            <Description>TXT_KEY_PROMOTION_VISION1</Description>            
+            <TechPrereq>TECH_FEUDAL_AGE</TechPrereq>
+            <UnitCombatPrereq>NONE</UnitCombatPrereq>
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>0</bDisplayWhenDisabled>
+            <bInBordersOnly>1</bInBordersOnly>
+            <bInCityOnly>1</bInCityOnly>
+            <bHasCasted>1</bHasCasted>
+            <iCost>40</iCost>
+            <PyRequirement>reqHumanWeaponsArmour(pCaster, 'PROMOTION_VISION1')</PyRequirement>
+            <PyResult>spellHumanWeaponsArmour(pCaster, 'PROMOTION_VISION1')</PyResult>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS2D_REPAIR</Sound>
+            <bGraphicalOnly>1</bGraphicalOnly>
+            <Button>Art/Interface/Buttons/Promotions/Vision1.dds</Button>
+        </SpellInfo>           
+        
+		<SpellInfo>
+            <Type>SPELL_WEAPSARMS_VISION2</Type>
+            <Description>TXT_KEY_PROMOTION_VISION2</Description>            
+            <TechPrereq>TECH_CASTLE_AGE</TechPrereq>
+            <UnitCombatPrereq>NONE</UnitCombatPrereq>
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>0</bDisplayWhenDisabled>
+            <bInBordersOnly>1</bInBordersOnly>
+            <bInCityOnly>1</bInCityOnly>
+            <bHasCasted>1</bHasCasted>
+            <iCost>90</iCost>
+            <PyRequirement>reqHumanWeaponsArmour(pCaster, 'PROMOTION_VISION2')</PyRequirement>
+            <PyResult>spellHumanWeaponsArmour(pCaster, 'PROMOTION_VISION2')</PyResult>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS2D_REPAIR</Sound>
+            <bGraphicalOnly>1</bGraphicalOnly>
+            <Button>Art/Interface/Buttons/Promotions/Vision2.dds</Button>
+        </SpellInfo>           
         
         <SpellInfo>
             <Type>SPELL_BRONZE_WEAPONS</Type>

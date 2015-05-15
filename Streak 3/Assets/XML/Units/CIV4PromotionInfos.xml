@@ -1545,9 +1545,10 @@
         </PromotionInfo>
         
         <PromotionInfo>
-            <Type>PROMOTION_WOODWALKING</Type>
+            <Type>PROMOTION_WOODWALK</Type>
             <Description>TXT_KEY_PROMOTION_WOODWALK</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
+            <TechPrereq>TECH_NEVER</TechPrereq>
             <FeatureDoubleMoves>
                 <FeatureDoubleMove>
                     <FeatureType>FEATURE_JUNGLE</FeatureType>
@@ -1567,9 +1568,457 @@
                     <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ASSAULT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RANGED</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>          
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_COMPANY</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RANGER</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
             </UnitCombats>
             <Button>,Art/Interface/Buttons/Promotions/Woodwalking.dds</Button>
         </PromotionInfo>
+        
+        
+        
+		<PromotionInfo>
+            <Type>PROMOTION_HILLWALK</Type>
+            <Description>TXT_KEY_PROMOTION_HILLWALK</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <TechPrereq>TECH_NEVER</TechPrereq>
+            <bHillsDoubleMove>1</bHillsDoubleMove>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ASSAULT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RANGED</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>          
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_COMPANY</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RANGER</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>,Art/Interface/Buttons/Promotions/hillwalk.dds</Button>
+        </PromotionInfo>
+
+		<PromotionInfo>
+            <Type>PROMOTION_MOUNTAINWALK</Type>
+            <Description>TXT_KEY_PROMOTION_MOUNTAINWALK</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound> 
+            <TechPrereq>TECH_NEVER</TechPrereq>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ASSAULT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RANGED</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>          
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_COMPANY</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RANGER</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>        
+            </UnitCombats>
+            <Button>,Art/Interface/Buttons/Promotions/mountaineer.dds</Button>
+            <bMoveImpassable>1</bMoveImpassable>
+        </PromotionInfo>                
+        
+
+		<PromotionInfo>
+            <Type>PROMOTION_WATERWALK</Type>
+            <Description>TXT_KEY_PROMOTION_WATERWALK</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <TechPrereq>TECH_NEVER</TechPrereq>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ASSAULT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RANGED</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>          
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_COMPANY</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RANGER</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>        
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Promotions/Waterwalking.dds</Button>
+            <bAmphib>1</bAmphib>
+            <bRiver>1</bRiver>
+            <bWaterWalking>1</bWaterWalking>
+        </PromotionInfo>           
+        
+        
+
+		<PromotionInfo>
+            <Type>PROMOTION_SPEEDWALK</Type>
+            <Description>TXT_KEY_PROMOTION_SPEEDWALK</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>  
+            <TechPrereq>TECH_NEVER</TechPrereq>      
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ASSAULT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RANGED</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>          
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_COMPANY</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RANGER</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>        
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Promotions/Flying.dds</Button>
+            <iMovesChange>1</iMovesChange>
+            <bAlwaysHeal>1</bAlwaysHeal>
+            <iEnemyHealChange>10</iEnemyHealChange>
+            <iNeutralHealChange>10</iNeutralHealChange>
+            <iFriendlyHealChange>10</iFriendlyHealChange>               
+        </PromotionInfo>           
+                
+        
+        
+		<PromotionInfo>
+            <Type>PROMOTION_INVISIBLEWALK</Type>
+            <Description>TXT_KEY_PROMOTION_INVISIBLEWALK</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <TechPrereq>TECH_NEVER</TechPrereq>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ASSAULT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RANGED</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>          
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_COMPANY</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RANGER</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>        
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Promotions/Invisibility.dds</Button>           
+            <bInvisible>1</bInvisible>
+        </PromotionInfo>    
+        
+        
+ 		<PromotionInfo>
+            <Type>PROMOTION_STRENGTH1</Type>
+            <Description>TXT_KEY_PROMOTION_STRENGTH1</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <TechPrereq>TECH_NEVER</TechPrereq>
+            <iCombatPercent>5</iCombatPercent>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ASSAULT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RANGED</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>          
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_COMPANY</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RANGER</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>        
+            </UnitCombats>
+            <Button>,Art/Interface/Buttons/Promotions/Strength1.dds</Button>
+        </PromotionInfo>       
+        
+        
+		<PromotionInfo>
+            <Type>PROMOTION_STRENGTH2</Type>
+            <Description>TXT_KEY_PROMOTION_STRENGTH2</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <TechPrereq>TECH_NEVER</TechPrereq>
+            <iCombatPercent>10</iCombatPercent>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ASSAULT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RANGED</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>          
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_COMPANY</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RANGER</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>        
+            </UnitCombats>
+            <Button>,Art/Interface/Buttons/Promotions/Strength2.dds</Button>
+            <BonusPrereq>BONUS_COPPER</BonusPrereq>
+        </PromotionInfo> 
+        
+                
+        
+        
+
+		<PromotionInfo>
+            <Type>PROMOTION_STRENGTH3</Type>
+            <Description>TXT_KEY_PROMOTION_STRENGTH3</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <TechPrereq>TECH_NEVER</TechPrereq>
+            <iCombatPercent>15</iCombatPercent>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ASSAULT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RANGED</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>          
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_COMPANY</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RANGER</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>        
+            </UnitCombats>
+            <Button>,Art/Interface/Buttons/Promotions/Strength3.dds</Button>
+            <BonusPrereq>BONUS_IRON</BonusPrereq>
+        </PromotionInfo> 
+                
+        
+        
+        
+        
+        
+
+		<PromotionInfo>
+            <Type>PROMOTION_STRENGTH4</Type>
+            <Description>TXT_KEY_PROMOTION_STRENGTH4</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <TechPrereq>TECH_NEVER</TechPrereq>
+            <iCombatPercent>25</iCombatPercent>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ASSAULT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RANGED</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>          
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_COMPANY</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RANGER</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>        
+            </UnitCombats>
+            <Button>,Art/Interface/Buttons/Promotions/Strength4.dds</Button>
+            <BonusPrereq>BONUS_MITHRIL</BonusPrereq>
+        </PromotionInfo> 
+                        
+        
+        
+		<PromotionInfo>
+            <Type>PROMOTION_VISION1</Type>
+            <Description>TXT_KEY_PROMOTION_VISION1</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <TechPrereq>TECH_NEVER</TechPrereq>
+            <iVisibilityChange>1</iVisibilityChange>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ASSAULT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RANGED</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>          
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_COMPANY</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RANGER</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>        
+            </UnitCombats>
+            <Button>,Art/Interface/Buttons/Promotions/Vision1.dds</Button>
+            <BonusPrereq>NO_BONUS</BonusPrereq>
+        </PromotionInfo> 
+                        
+                
+        
+		<PromotionInfo>
+            <Type>PROMOTION_VISION2</Type>
+            <Description>TXT_KEY_PROMOTION_VISION2</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <TechPrereq>TECH_NEVER</TechPrereq>
+            <iVisibilityChange>2</iVisibilityChange>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ASSAULT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RANGED</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>          
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_COMPANY</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RANGER</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>        
+            </UnitCombats>
+            <Button>,Art/Interface/Buttons/Promotions/Vision2.dds</Button>
+        </PromotionInfo> 
+                                
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         
         <PromotionInfo>
             <Type>PROMOTION_GUERILLA1</Type>
@@ -1854,6 +2303,22 @@
                 </UnitCombat>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_GUNPOWDER</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ASSAULT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RANGED</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>          
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_COMPANY</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RANGER</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
