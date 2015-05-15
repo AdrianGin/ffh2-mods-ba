@@ -4022,6 +4022,9 @@ def reqHumanWeaponsArmour(caster, promotionString):
 		
 	promo = gc.getPromotionInfo(gc.getInfoTypeForString(promotionString))
 	
+	if caster.getUnitCombatType() == -1:
+		return False
+	
 	if( promo.getBonusPrereq() != -1 ):
 		if pCity.hasBonus( promo.getBonusPrereq() ) == False:
 			return False
