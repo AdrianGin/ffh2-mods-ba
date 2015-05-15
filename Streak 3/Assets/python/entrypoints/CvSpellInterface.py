@@ -4053,6 +4053,22 @@ def spellHumanWeaponsArmour(caster, promotionString):
 	return False
 
 							
+def spellHumanSkill(caster, promotionString):
+	lList = []
+	lList = lList + [gc.getInfoTypeForString('PROMOTION_SKILL_CITYRAIDER1')]
+	lList = lList + [gc.getInfoTypeForString('PROMOTION_SKILL_CITYRAIDER2')]
+	lList = lList + [gc.getInfoTypeForString('PROMOTION_SKILL_CITYRAIDER3')]
+	lList = lList + [gc.getInfoTypeForString('PROMOTION_SKILL_CITYGARRISON1')]
+	lList = lList + [gc.getInfoTypeForString('PROMOTION_SKILL_CITYGARRISON2')]
+	lList = lList + [gc.getInfoTypeForString('PROMOTION_SKILL_CITYGARRISON3')]
+	
+	for promo in lList:
+		caster.setHasPromotion(promo, False)
+
+	newpromo = gc.getInfoTypeForString(promotionString)
+	caster.setHasPromotion(newpromo, True)	
+	
+	return False
 				
 		
 def reqGainXP(caster):

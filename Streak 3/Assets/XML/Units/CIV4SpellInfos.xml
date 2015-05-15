@@ -494,6 +494,126 @@
             <Button>Art/Interface/Buttons/Promotions/Vision2.dds</Button>
         </SpellInfo>           
         
+        
+		<SpellInfo>
+            <Type>SPELL_SKILL_CITYRAIDER1</Type>
+            <Description>TXT_KEY_PROMOTION_SKILL_CITYRAIDER1</Description>            
+            <TechPrereq>TECH_FEUDAL_AGE</TechPrereq>
+            <UnitCombatPrereq>NONE</UnitCombatPrereq>
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>0</bDisplayWhenDisabled>
+            <bInBordersOnly>1</bInBordersOnly>
+            <bInCityOnly>1</bInCityOnly>
+            <bHasCasted>1</bHasCasted>
+            <iCost>26</iCost>
+            <PyRequirement>reqHumanWeaponsArmour(pCaster, 'PROMOTION_SKILL_CITYRAIDER1')</PyRequirement>
+            <PyResult>spellHumanSkill(pCaster, 'PROMOTION_SKILL_CITYRAIDER1')</PyResult>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS2D_REPAIR</Sound>
+            <bGraphicalOnly>1</bGraphicalOnly>
+            <Button>Art/Interface/Buttons/Promotions/cityraider1.dds</Button>
+        </SpellInfo> 
+        
+                  
+        <SpellInfo>
+            <Type>SPELL_SKILL_CITYRAIDER2</Type>
+            <Description>TXT_KEY_PROMOTION_SKILL_CITYRAIDER2</Description>            
+            <TechPrereq>TECH_CASTLE_AGE</TechPrereq>
+            <UnitCombatPrereq>NONE</UnitCombatPrereq>
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>0</bDisplayWhenDisabled>
+            <bInBordersOnly>1</bInBordersOnly>
+            <bInCityOnly>1</bInCityOnly>
+            <bHasCasted>1</bHasCasted>
+            <iCost>54</iCost>
+            <PyRequirement>reqHumanWeaponsArmour(pCaster, 'PROMOTION_SKILL_CITYRAIDER2')</PyRequirement>
+            <PyResult>spellHumanSkill(pCaster, 'PROMOTION_SKILL_CITYRAIDER2')</PyResult>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS2D_REPAIR</Sound>
+            <bGraphicalOnly>1</bGraphicalOnly>
+            <Button>Art/Interface/Buttons/Promotions/cityraider2.dds</Button>
+        </SpellInfo>                    
+        
+        
+		<SpellInfo>
+            <Type>SPELL_SKILL_CITYRAIDER3</Type>
+            <Description>TXT_KEY_PROMOTION_SKILL_CITYRAIDER3</Description>            
+            <TechPrereq>TECH_IMPERIAL_AGE</TechPrereq>
+            <UnitCombatPrereq>NONE</UnitCombatPrereq>
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>0</bDisplayWhenDisabled>
+            <bInBordersOnly>1</bInBordersOnly>
+            <bInCityOnly>1</bInCityOnly>
+            <bHasCasted>1</bHasCasted>
+            <iCost>82</iCost>
+            <PyRequirement>reqHumanWeaponsArmour(pCaster, 'PROMOTION_SKILL_CITYRAIDER3')</PyRequirement>
+            <PyResult>spellHumanSkill(pCaster, 'PROMOTION_SKILL_CITYRAIDER3')</PyResult>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS2D_REPAIR</Sound>
+            <bGraphicalOnly>1</bGraphicalOnly>
+            <Button>Art/Interface/Buttons/Promotions/cityraider3.dds</Button>
+        </SpellInfo>    
+        
+		<SpellInfo>
+            <Type>SPELL_SKILL_CITYGARRISON1</Type>
+            <Description>TXT_KEY_PROMOTION_SKILL_CITYGARRISON1</Description>            
+            <TechPrereq>TECH_FEUDAL_AGE</TechPrereq>
+            <UnitCombatPrereq>NONE</UnitCombatPrereq>
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>0</bDisplayWhenDisabled>
+            <bInBordersOnly>1</bInBordersOnly>
+            <bInCityOnly>1</bInCityOnly>
+            <bHasCasted>1</bHasCasted>
+            <iCost>26</iCost>
+            <PyRequirement>reqHumanWeaponsArmour(pCaster, 'PROMOTION_SKILL_CITYGARRISON1')</PyRequirement>
+            <PyResult>spellHumanSkill(pCaster, 'PROMOTION_SKILL_CITYGARRISON1')</PyResult>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS2D_REPAIR</Sound>
+            <bGraphicalOnly>1</bGraphicalOnly>
+            <Button>Art/Interface/Buttons/Promotions/citygarrison1.dds</Button>
+        </SpellInfo>         
+        
+		<SpellInfo>
+            <Type>SPELL_SKILL_CITYGARRISON2</Type>
+            <Description>TXT_KEY_PROMOTION_SKILL_CITYGARRISON2</Description>            
+            <TechPrereq>TECH_CASTLE_AGE</TechPrereq>
+            <UnitCombatPrereq>NONE</UnitCombatPrereq>
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>0</bDisplayWhenDisabled>
+            <bInBordersOnly>1</bInBordersOnly>
+            <bInCityOnly>1</bInCityOnly>
+            <bHasCasted>1</bHasCasted>
+            <iCost>54</iCost>
+            <PyRequirement>reqHumanWeaponsArmour(pCaster, 'PROMOTION_SKILL_CITYGARRISON2')</PyRequirement>
+            <PyResult>spellHumanSkill(pCaster, 'PROMOTION_SKILL_CITYGARRISON2')</PyResult>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS2D_REPAIR</Sound>
+            <bGraphicalOnly>1</bGraphicalOnly>
+            <Button>Art/Interface/Buttons/Promotions/citygarrison2.dds</Button>
+        </SpellInfo> 
+        
+      	<SpellInfo>
+            <Type>SPELL_SKILL_CITYGARRISON3</Type>
+            <Description>TXT_KEY_PROMOTION_SKILL_CITYGARRISON3</Description>            
+            <TechPrereq>TECH_IMPERIAL_AGE</TechPrereq>
+            <UnitCombatPrereq>NONE</UnitCombatPrereq>
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>0</bDisplayWhenDisabled>
+            <bInBordersOnly>1</bInBordersOnly>
+            <bInCityOnly>1</bInCityOnly>
+            <bHasCasted>1</bHasCasted>
+            <iCost>82</iCost>
+            <PyRequirement>reqHumanWeaponsArmour(pCaster, 'PROMOTION_SKILL_CITYGARRISON3')</PyRequirement>
+            <PyResult>spellHumanSkill(pCaster, 'PROMOTION_SKILL_CITYGARRISON3')</PyResult>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS2D_REPAIR</Sound>
+            <bGraphicalOnly>1</bGraphicalOnly>
+            <Button>Art/Interface/Buttons/Promotions/citygarrison3.dds</Button>
+        </SpellInfo> 
+        
+
+
+        
         <SpellInfo>
             <Type>SPELL_BRONZE_WEAPONS</Type>
             <Description>TXT_KEY_PROMOTION_BRONZE_WEAPONS</Description>            
@@ -512,7 +632,13 @@
             <Sound>AS2D_REPAIR</Sound>
             <bGraphicalOnly>1</bGraphicalOnly>
             <Button>,Art/Interface/Buttons/WorldBuilder/Copper.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,5,12</Button>
-        </SpellInfo>        
+        </SpellInfo>    
+        
+        
+        
+        
+        
+            
         <SpellInfo>
             <Type>SPELL_IRON_WEAPONS</Type>
             <Description>TXT_KEY_PROMOTION_IRON_WEAPONS</Description>            

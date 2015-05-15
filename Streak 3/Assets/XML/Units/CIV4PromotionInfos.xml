@@ -2006,17 +2006,223 @@
             <Button>,Art/Interface/Buttons/Promotions/Vision2.dds</Button>
         </PromotionInfo> 
                                 
+		<PromotionInfo>
+            <Type>PROMOTION_SKILL_CITYRAIDER1</Type>
+            <Description>TXT_KEY_PROMOTION_SKILL_CITYRAIDER1</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <TechPrereq>TECH_NEVER</TechPrereq>
+            <iCityAttack>15</iCityAttack>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ASSAULT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RANGED</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>          
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_COMPANY</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RANGER</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>        
+            </UnitCombats>
+            <Button>,Art/Interface/Buttons/Promotions/cityraider1.dds</Button>
+        </PromotionInfo> 
+                                     
+        
+		<PromotionInfo>
+            <Type>PROMOTION_SKILL_CITYRAIDER2</Type>
+            <Description>TXT_KEY_PROMOTION_SKILL_CITYRAIDER2</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <TechPrereq>TECH_NEVER</TechPrereq>
+            <iCityAttack>30</iCityAttack>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ASSAULT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RANGED</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>          
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_COMPANY</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RANGER</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>        
+            </UnitCombats>
+            <Button>,Art/Interface/Buttons/Promotions/cityraider2.dds</Button>
+        </PromotionInfo> 
+                               
+		<PromotionInfo>
+            <Type>PROMOTION_SKILL_CITYRAIDER3</Type>
+            <Description>TXT_KEY_PROMOTION_SKILL_CITYRAIDER3</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <TechPrereq>TECH_NEVER</TechPrereq>
+            <iCityAttack>45</iCityAttack>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ASSAULT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RANGED</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>          
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_COMPANY</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RANGER</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>        
+            </UnitCombats>
+            <Button>,Art/Interface/Buttons/Promotions/cityraider3.dds</Button>
+        </PromotionInfo> 
+                               
+        
+        
+		<PromotionInfo>
+            <Type>PROMOTION_SKILL_CITYGARRISON1</Type>
+            <Description>TXT_KEY_PROMOTION_SKILL_CITYGARRISON1</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <TechPrereq>TECH_NEVER</TechPrereq>
+            <iCityDefense>10</iCityDefense>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ASSAULT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RANGED</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>          
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_COMPANY</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RANGER</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>        
+            </UnitCombats>
+            <Button>,Art/Interface/Buttons/Promotions/citygarrison1.dds</Button>
+        </PromotionInfo> 
+                                     
+        
+		<PromotionInfo>
+            <Type>PROMOTION_SKILL_CITYGARRISON2</Type>
+            <Description>TXT_KEY_PROMOTION_SKILL_CITYGARRISON2</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <TechPrereq>TECH_NEVER</TechPrereq>
+            <iCityDefense>20</iCityDefense>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ASSAULT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RANGED</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>          
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_COMPANY</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RANGER</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>        
+            </UnitCombats>
+            <Button>,Art/Interface/Buttons/Promotions/citygarrison2.dds</Button>
+        </PromotionInfo> 
         
         
         
         
         
-        
-        
-        
-        
-        
-        
+		<PromotionInfo>
+            <Type>PROMOTION_SKILL_CITYGARRISON3</Type>
+            <Description>TXT_KEY_PROMOTION_SKILL_CITYGARRISON3</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <TechPrereq>TECH_NEVER</TechPrereq>
+            <iCityDefense>30</iCityDefense>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ASSAULT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RANGED</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>          
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_COMPANY</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RANGER</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>        
+            </UnitCombats>
+            <Button>,Art/Interface/Buttons/Promotions/citygarrison3.dds</Button>
+        </PromotionInfo> 
         
         
         
