@@ -3984,6 +3984,10 @@ def reqHumanBoots(caster, promotionString):
 		return False	
 	
 	promo = gc.getPromotionInfo(gc.getInfoTypeForString(promotionString))
+	
+	if caster.getUnitCombatType() == -1:
+		return False
+	
 	if promo.getUnitCombat(caster.getUnitCombatType()) == 1:
 		return True 
 				
@@ -3993,7 +3997,12 @@ def reqHumanBoots(caster, promotionString):
 def spellHumanBoots(caster, promotionString):
 	lList = []
 	lList = lList + [gc.getInfoTypeForString('PROMOTION_MARCH')]
-	lList = lList + [gc.getInfoTypeForString('PROMOTION_WOODWALKING')]
+	lList = lList + [gc.getInfoTypeForString('PROMOTION_WOODWALK')]
+	lList = lList + [gc.getInfoTypeForString('PROMOTION_HILLWALK')]
+	lList = lList + [gc.getInfoTypeForString('PROMOTION_MOUNTAINWALK')]
+	lList = lList + [gc.getInfoTypeForString('PROMOTION_WATERWALK')]
+	lList = lList + [gc.getInfoTypeForString('PROMOTION_SPEEDWALK')]
+	lList = lList + [gc.getInfoTypeForString('PROMOTION_INVISIBLEWALK')]
 	
 	for promo in lList:
 		caster.setHasPromotion(promo, False)
@@ -4003,6 +4012,63 @@ def spellHumanBoots(caster, promotionString):
 	
 	return False
 
+				
+def reqHumanWeaponsArmour(caster, promotionString):
+	pPlayer = gc.getPlayer(caster.getOwner())
+	pCity = caster.plot().getPlotCity()
+	
+	if caster.isHasPromotion(gc.getInfoTypeForString(promotionString)):
+		return False	
+		
+	promo = gc.getPromotionInfo(gc.getInfoTypeForString(promotionString))
+	
+	if caster.getUnitCombatType() == -1:
+		return False
+	
+	if( promo.getBonusPrereq() != -1 ):
+		if pCity.hasBonus( promo.getBonusPrereq() ) == False:
+			return False
+	
+	if promo.getUnitCombat(caster.getUnitCombatType()) == 1:
+		return True 
+				
+	return False
+	
+
+def spellHumanWeaponsArmour(caster, promotionString):
+	lList = []
+	lList = lList + [gc.getInfoTypeForString('PROMOTION_STRENGTH1')]
+	lList = lList + [gc.getInfoTypeForString('PROMOTION_STRENGTH2')]
+	lList = lList + [gc.getInfoTypeForString('PROMOTION_STRENGTH3')]
+	lList = lList + [gc.getInfoTypeForString('PROMOTION_STRENGTH4')]
+	lList = lList + [gc.getInfoTypeForString('PROMOTION_VISION1')]
+	lList = lList + [gc.getInfoTypeForString('PROMOTION_VISION2')]
+	
+	for promo in lList:
+		caster.setHasPromotion(promo, False)
+
+	newpromo = gc.getInfoTypeForString(promotionString)
+	caster.setHasPromotion(newpromo, True)	
+	
+	return False
+
+							
+def spellHumanSkill(caster, promotionString):
+	lList = []
+	lList = lList + [gc.getInfoTypeForString('PROMOTION_SKILL_CITYRAIDER1')]
+	lList = lList + [gc.getInfoTypeForString('PROMOTION_SKILL_CITYRAIDER2')]
+	lList = lList + [gc.getInfoTypeForString('PROMOTION_SKILL_CITYRAIDER3')]
+	lList = lList + [gc.getInfoTypeForString('PROMOTION_SKILL_CITYGARRISON1')]
+	lList = lList + [gc.getInfoTypeForString('PROMOTION_SKILL_CITYGARRISON2')]
+	lList = lList + [gc.getInfoTypeForString('PROMOTION_SKILL_CITYGARRISON3')]
+	
+	for promo in lList:
+		caster.setHasPromotion(promo, False)
+
+	newpromo = gc.getInfoTypeForString(promotionString)
+	caster.setHasPromotion(newpromo, True)	
+	
+	return False
 				
 		
 def reqGainXP(caster):
