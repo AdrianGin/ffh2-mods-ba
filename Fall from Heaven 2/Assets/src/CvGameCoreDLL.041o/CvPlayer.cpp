@@ -5779,6 +5779,35 @@ bool CvPlayer::canTrain(UnitTypes eUnit, bool bContinue, bool bTestVisible, bool
 		return false;
 	}
 
+	if( GC.getUnitInfo(eUnit).getPrereqAndTech() == NO_TECH )
+	{
+		if( GC.getUnitInfo(eUnit).getPrereqOrTechs(0) == NO_TECH )
+		{
+		}
+		else
+		{
+			bool hasOrTech = false;
+			for (iI = 0; iI < GC.getNUM_UNIT_OR_TECH_PREREQS(); iI++)
+			{
+				if (GC.getUnitInfo(eUnit).getPrereqOrTechs(iI) != NO_TECH)
+				{
+					if ((GET_TEAM(getTeam()).isHasTech((TechTypes)(GC.getUnitInfo(eUnit).getPrereqOrTechs(iI)))))
+					{
+						hasOrTech = true;
+						break;
+					}
+				}
+			}
+
+			if( hasOrTech == false )
+			{
+				return false;
+			}
+		}
+
+
+	}
+
 	for (iI = 0; iI < GC.getNUM_UNIT_AND_TECH_PREREQS(); iI++)
 	{
 		if (GC.getUnitInfo(eUnit).getPrereqAndTechs(iI) != NO_TECH)
@@ -5789,6 +5818,8 @@ bool CvPlayer::canTrain(UnitTypes eUnit, bool bContinue, bool bTestVisible, bool
 			}
 		}
 	}
+
+
 
 	if (GC.getUnitInfo(eUnit).getStateReligion() != NO_RELIGION)
 	{
@@ -16288,6 +16319,15 @@ int CvPlayer::getAdvancedStartTechCost(TechTypes eTech, bool bAdd) const
 					return -1;
 				}
 			}
+
+			/*for (int iI = 0; iI < GC.getNUM_UNIT_OR_TECH_PREREQS(); iI++)
+			{
+				if (pLoopUnit->getUnitInfo().getPrereqOrTechs(iI) == eTech)
+				{
+					return -1;
+				}
+			}*/
+
 		}
 
 		// Cities

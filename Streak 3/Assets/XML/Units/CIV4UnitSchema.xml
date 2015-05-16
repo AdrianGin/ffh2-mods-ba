@@ -269,6 +269,9 @@
   <ElementType name="TechTypes" content="eltOnly">
     <element type="PrereqTech" minOccurs="0" maxOccurs="*" />
   </ElementType>
+  <ElementType name="OrTechTypes" content="eltOnly">
+    <element type="PrereqTech" minOccurs="0" maxOccurs="*" />
+  </ElementType>  
   <ElementType name="PrereqBonuses" content="eltOnly">
     <element type="BonusType" minOccurs="0" maxOccurs="*" />
   </ElementType>
@@ -645,6 +648,7 @@
     <element type="PrereqBuilding" minOccurs="0" />
     <element type="PrereqTech" minOccurs="0" />
     <element type="TechTypes" minOccurs="0" />
+    <element type="OrTechTypes" minOccurs="0" />
     <element type="BonusType" minOccurs="0" />
     <element type="PrereqBonuses" minOccurs="0" />
     <element type="ProductionTraits" minOccurs="0" />

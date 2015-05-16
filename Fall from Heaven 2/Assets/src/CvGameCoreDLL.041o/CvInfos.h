@@ -1383,7 +1383,7 @@ public:
 /**	END	                                        												**/
 /*************************************************************************************************/
 	// Arrays
-
+	int getPrereqOrTechs(int i) const;
 	int getPrereqAndTechs(int i) const;				// Exposed to Python
 	int getPrereqOrBonuses(int i) const;				// Exposed to Python
 	int getProductionTraits(int i) const;				// Exposed to Python
@@ -1642,6 +1642,8 @@ protected:
 /**	END	                                        												**/
 /*************************************************************************************************/
 	// Arrays
+	//Added by Adrian 
+	int* m_piPrereqOrTechs;
 
 	int* m_piPrereqAndTechs;
 	int* m_piPrereqOrBonuses;

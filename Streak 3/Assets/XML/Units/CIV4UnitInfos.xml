@@ -1487,9 +1487,13 @@
 			<PrereqReligion>NONE</PrereqReligion>
 			<PrereqCorporation>NONE</PrereqCorporation>
 			<PrereqBuilding>NONE</PrereqBuilding>
-			<PrereqTech>TECH_WEAPON_FORGING</PrereqTech>
+			<PrereqTech>NONE</PrereqTech>
+			<OrTechTypes>
+				<PrereqTech>TECH_THE_DRAFT</PrereqTech>
+				<PrereqTech>TECH_WEAPON_FORGING</PrereqTech>
+            </OrTechTypes>
 			<TechTypes>
-            </TechTypes>
+		    </TechTypes>
 			<BonusType>NONE</BonusType>
 			<PrereqBonuses>
             </PrereqBonuses>

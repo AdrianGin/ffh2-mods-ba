@@ -1973,7 +1973,6 @@
                 </UnitCombat>        
             </UnitCombats>
             <Button>,Art/Interface/Buttons/Promotions/Vision1.dds</Button>
-            <BonusPrereq>NO_BONUS</BonusPrereq>
         </PromotionInfo> 
                         
                 

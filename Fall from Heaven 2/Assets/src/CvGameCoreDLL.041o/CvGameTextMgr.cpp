@@ -7582,6 +7582,18 @@ void CvGameTextMgr::setTechHelp(CvWStringBuffer &szBuffer, TechTypes eTech, bool
 									break;
 								}
 							}
+
+							for (int iJ = 0; iJ < GC.getNUM_UNIT_OR_TECH_PREREQS(); iJ++)
+							{
+								if (GC.getUnitInfo(eLoopUnit).getPrereqOrTechs(iJ) == eTech)
+								{
+									szFirstBuffer.Format(L"%s%s", NEWLINE, gDLL->getText("TXT_KEY_TECH_CAN_TRAIN").c_str());
+									szTempBuffer.Format( SETCOLR L"%s" ENDCOLR , TEXT_COLOR("COLOR_UNIT_TEXT"), GC.getUnitInfo(eLoopUnit).getDescription());
+									setListHelp(szBuffer, szFirstBuffer, szTempBuffer, L", ", bFirst);
+									bFirst = false;
+									break;
+								}
+							}
 						}
 					}
 				}
@@ -9042,11 +9054,33 @@ void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szBuffer, UnitTypes eUnit, bool
 					}
 				}
 			}
-
 			if (!bFirst)
 			{
 				szBuffer.append(ENDCOLR);
 			}
+
+
+			bFirst = true;
+
+			for (iI = 0; iI < GC.getNUM_UNIT_OR_TECH_PREREQS(); ++iI)
+			{
+				if (GC.getUnitInfo(eUnit).getPrereqOrTechs(iI) != NO_TECH)
+				{
+					if (bTechChooserText || GC.getGameINLINE().getActivePlayer() == NO_PLAYER || !(GET_TEAM(GET_PLAYER(ePlayer).getTeam()).isHasTech((TechTypes)(GC.getUnitInfo(eUnit).getPrereqOrTechs(iI)))))
+					{
+						szTempBuffer.Format(L"%s%s", NEWLINE, gDLL->getText("TXT_KEY_REQUIRES").c_str());
+						setListHelp(szBuffer, szTempBuffer, GC.getTechInfo(((TechTypes)(GC.getUnitInfo(eUnit).getPrereqOrTechs(iI)))).getDescription(), gDLL->getText("TXT_KEY_OR").c_str(), bFirst);
+						bFirst = false;
+					}
+				}
+			}
+			if (!bFirst)
+			{
+				szBuffer.append(ENDCOLR);
+			}
+
+
+
 
 			if (GC.getUnitInfo(eUnit).getPrereqAndBonus() != NO_BONUS)
 			{

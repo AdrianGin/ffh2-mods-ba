@@ -4953,6 +4953,7 @@ m_pbBuildings(NULL),
 m_pbForceBuildings(NULL),
 m_pbTerrainImpassable(NULL),
 m_pbFeatureImpassable(NULL),
+m_piPrereqOrTechs(NULL),
 m_piPrereqAndTechs(NULL),
 m_piPrereqOrBonuses(NULL),
 m_piProductionTraits(NULL),
@@ -5063,6 +5064,7 @@ CvUnitInfo::~CvUnitInfo()
 	SAFE_DELETE_ARRAY(m_pbForceBuildings);
 	SAFE_DELETE_ARRAY(m_pbTerrainImpassable);
 	SAFE_DELETE_ARRAY(m_pbFeatureImpassable);
+	SAFE_DELETE_ARRAY(m_piPrereqOrTechs);
 	SAFE_DELETE_ARRAY(m_piPrereqAndTechs);
 	SAFE_DELETE_ARRAY(m_piPrereqOrBonuses);
 	SAFE_DELETE_ARRAY(m_piProductionTraits);
@@ -5885,6 +5887,12 @@ int CvUnitInfo::getDamageTypeCombat(int i) const
 //FfH: End Add
 
 // Arrays
+int CvUnitInfo::getPrereqOrTechs(int i) const
+{
+	FAssertMsg(i < GC.getNUM_UNIT_OR_TECH_PREREQS(), "Index out of bounds");
+	FAssertMsg(i > -1, "Index out of bounds");
+	return m_piPrereqAndTechs ? m_piPrereqOrTechs[i] : -1;
+}
 
 int CvUnitInfo::getPrereqAndTechs(int i) const
 {
@@ -6531,6 +6539,9 @@ void CvUnitInfo::read(FDataStreamBase* stream)
 /*************************************************************************************************/
 /**	END	                                        												**/
 /*************************************************************************************************/
+	SAFE_DELETE_ARRAY(m_piPrereqOrTechs);
+	m_piPrereqOrTechs = new int[GC.getNUM_UNIT_OR_TECH_PREREQS()];
+	stream->Read(GC.getNUM_UNIT_OR_TECH_PREREQS(), m_piPrereqOrTechs);
 
 	SAFE_DELETE_ARRAY(m_piPrereqAndTechs);
 	m_piPrereqAndTechs = new int[GC.getNUM_UNIT_AND_TECH_PREREQS()];
@@ -6887,6 +6898,7 @@ void CvUnitInfo::write(FDataStreamBase* stream)
 /**	END	                                        												**/
 /*************************************************************************************************/
 
+	stream->Write(GC.getNUM_UNIT_OR_TECH_PREREQS(), m_piPrereqOrTechs);
 	stream->Write(GC.getNUM_UNIT_AND_TECH_PREREQS(), m_piPrereqAndTechs);
 	stream->Write(GC.getNUM_UNIT_PREREQ_OR_BONUSES(), m_piPrereqOrBonuses);
 	stream->Write(GC.getNumTraitInfos(), m_piProductionTraits);
@@ -7112,6 +7124,42 @@ bool CvUnitInfo::read(CvXMLLoadUtility* pXML)
 
 		gDLL->getXMLIFace()->SetToParent(pXML->GetXML());
 	}
+
+
+	if (gDLL->getXMLIFace()->SetToChildByTagName(pXML->GetXML(),"OrTechTypes"))
+	{
+		if (pXML->SkipToNextVal())
+		{
+			iNumSibs = gDLL->getXMLIFace()->GetNumChildren(pXML->GetXML());
+			FAssertMsg((0 < GC.getNUM_UNIT_OR_TECH_PREREQS()) ,"Allocating zero or less memory in SetGlobalUnitInfo");
+			pXML->InitList(&m_piPrereqOrTechs, GC.getNUM_UNIT_OR_TECH_PREREQS(), -1);
+
+			if (0 < iNumSibs)
+			{
+				if (pXML->GetChildXmlVal(szTextVal))
+				{
+					FAssertMsg((iNumSibs <= GC.getNUM_UNIT_OR_TECH_PREREQS()) ,"There are more siblings than memory allocated for them in SetGlobalUnitInfo");
+					for (j=0;j<iNumSibs;j++)
+					{
+						m_piPrereqOrTechs[j] = pXML->FindInInfoClass(szTextVal);
+						if (!pXML->GetNextXmlVal(szTextVal))
+						{
+							break;
+						}
+					}
+
+					gDLL->getXMLIFace()->SetToParent(pXML->GetXML());
+				}
+			}
+		}
+
+		gDLL->getXMLIFace()->SetToParent(pXML->GetXML());
+	}
+	else
+	{
+		pXML->InitList(&m_piPrereqOrTechs, GC.getNUM_UNIT_OR_TECH_PREREQS(), -1);
+	}
+
 
 	pXML->GetChildXmlValByName(szTextVal, "BonusType");
 	m_iPrereqAndBonus = pXML->FindInInfoClass(szTextVal);
