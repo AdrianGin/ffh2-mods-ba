@@ -1597,6 +1597,31 @@
         </PromotionInfo>
         
         <PromotionInfo>
+            <Type>PROMOTION_FOREST_WALK</Type>
+            <Description>Forest Walk</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PromotionPrereq>NONE</PromotionPrereq>
+            <FeatureDoubleMoves>
+                <FeatureDoubleMove>
+                    <FeatureType>FEATURE_JUNGLE</FeatureType>
+                    <bFeatureDoubleMove>1</bFeatureDoubleMove>
+                </FeatureDoubleMove>
+                <FeatureDoubleMove>
+                    <FeatureType>FEATURE_FOREST</FeatureType>
+                    <bFeatureDoubleMove>1</bFeatureDoubleMove>
+                </FeatureDoubleMove>
+            </FeatureDoubleMoves>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>,Art/Interface/Buttons/Promotions/Woodsman1.dds,Art/Interface/Buttons/Promotions_Atlas.dds,6,6</Button>
+        	<iMinLevel>-1</iMinLevel>
+        </PromotionInfo>
+        
+        <PromotionInfo>
             <Type>PROMOTION_WOODWALK</Type>
             <Description>TXT_KEY_PROMOTION_WOODWALK</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
@@ -2389,6 +2414,23 @@
             </TerrainDefenses>
             <iMinLevel>-1</iMinLevel>
         </PromotionInfo>
+        
+        <PromotionInfo>
+            <Type>PROMOTION_HILL_WALK</Type>
+            <Description>Hill Walk</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound> 
+			<bHillsDoubleMove>1</bHillsDoubleMove>          
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>,Art/Interface/Buttons/Promotions/Guerilla1.dds,Art/Interface/Buttons/Promotions_Atlas.dds,5,5</Button>
+            <PromotionNextLevel>NONE</PromotionNextLevel>
+            <TechPrereq>TECH_NEVER</TechPrereq>
+            <iMinLevel>-1</iMinLevel>
+        </PromotionInfo>                
         
         <PromotionInfo>
             <Type>PROMOTION_ALPINE_TACTICS</Type>
