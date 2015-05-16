@@ -3632,7 +3632,7 @@
         <UnitArtInfo>
             <Type>ART_DEF_UNIT_CARAVEL</Type>
             <Button>Art/Interface/Buttons/Units/Caravel.dds</Button>
-            <fScale>0.24</fScale>
+            <fScale>0.22</fScale>
             <fInterfaceScale>0.5</fInterfaceScale>
             <bActAsLand>0</bActAsLand>
             <bActAsAir>0</bActAsAir>
@@ -6551,7 +6551,7 @@
         <UnitArtInfo>
             <Type>ART_DEF_UNIT_GALLEON</Type>
             <Button>Art/Interface/Buttons/Units/Galleon.dds</Button>
-            <fScale>0.2</fScale>
+            <fScale>0.18</fScale>
             <fInterfaceScale>0.5</fInterfaceScale>
             <bActAsLand>0</bActAsLand>
             <bActAsAir>0</bActAsAir>
@@ -6590,7 +6590,7 @@
             <Type>ART_DEF_UNIT_GALLEY</Type>
             <!--Button>Art/Interface/Buttons/Units/Galley.dds</Button-->
             <Button>,Art/Interface/Buttons/Units/Galley.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,3,9</Button>
-            <fScale>0.18</fScale>
+            <fScale>0.15</fScale>
             <fInterfaceScale>0.6</fInterfaceScale>
             <bActAsLand>0</bActAsLand>
             <bActAsAir>0</bActAsAir>
@@ -9969,7 +9969,7 @@
         <UnitArtInfo>
             <Type>ART_DEF_UNIT_MAN_O_WAR</Type>
             <Button>Art/Interface/Buttons/Units/Man O War.dds</Button>
-            <fScale>0.2</fScale>
+            <fScale>0.22</fScale>
             <fInterfaceScale>0.6</fInterfaceScale>
             <bActAsLand>0</bActAsLand>
             <bActAsAir>0</bActAsAir>
@@ -11694,7 +11694,7 @@
         <UnitArtInfo>
             <Type>ART_DEF_UNIT_QUEEN_OF_THE_LINE</Type>
             <Button>Art/Interface/Buttons/Units/Queen of the Line.dds</Button>
-            <fScale>0.08</fScale>
+            <fScale>0.07</fScale>
             <fInterfaceScale>0.5</fInterfaceScale>
             <bActAsLand>0</bActAsLand>
             <bActAsAir>0</bActAsAir>
@@ -14428,7 +14428,7 @@
         <UnitArtInfo>
             <Type>ART_DEF_UNIT_TRIREME</Type>
             <Button>,Art/Interface/Buttons/Units/Galley.dds,Art/Interface/Buttons/Warlords_Atlas_1.dds,8,8</Button>
-            <fScale>0.14</fScale>
+            <fScale>0.12</fScale>
             <fInterfaceScale>0.6</fInterfaceScale>
             <bActAsLand>0</bActAsLand>
             <bActAsAir>0</bActAsAir>
