@@ -2224,7 +2224,90 @@
             <Button>,Art/Interface/Buttons/Promotions/citygarrison3.dds</Button>
         </PromotionInfo> 
         
+        <PromotionInfo>
+            <Type>PROMOTION_BEASTSTRENGTH1</Type>
+            <Description>TXT_KEY_PROMOTION_BEASTSTRENGTH1</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <TechPrereq>TECH_NEVER</TechPrereq>
+            <iCombatPercent>5</iCombatPercent>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>                
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Promotions/BeastStrength1.dds</Button>
+            <iCombatHealPercent>10</iCombatHealPercent>
+        </PromotionInfo>
         
+        <PromotionInfo>
+            <Type>PROMOTION_BEASTSTRENGTH2</Type>
+            <Description>TXT_KEY_PROMOTION_BEASTSTRENGTH2</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <TechPrereq>TECH_NEVER</TechPrereq>
+            <iCombatPercent>10</iCombatPercent>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Promotions/BeastStrength2.dds</Button>
+            <iCombatHealPercent>10</iCombatHealPercent>
+        </PromotionInfo> 
+        
+        <PromotionInfo>
+            <Type>PROMOTION_BEASTSTRENGTH3</Type>
+            <Description>TXT_KEY_PROMOTION_BEASTSTRENGTH3</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <TechPrereq>TECH_NEVER</TechPrereq>
+            <iCombatPercent>15</iCombatPercent>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>                 
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Promotions/BeastStrength3.dds</Button>
+            <iCombatHealPercent>10</iCombatHealPercent>
+        </PromotionInfo> 
+        
+        <PromotionInfo>
+            <Type>PROMOTION_BEASTSTRENGTH4</Type>
+            <Description>TXT_KEY_PROMOTION_BEASTSTRENGTH4</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <TechPrereq>TECH_NEVER</TechPrereq>
+            <bAlwaysHeal>1</bAlwaysHeal>
+            <iEnemyHealChange>10</iEnemyHealChange>
+            <iNeutralHealChange>10</iNeutralHealChange>
+            <iFriendlyHealChange>10</iFriendlyHealChange>
+            <iCombatPercent>20</iCombatPercent>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>                
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Promotions/BeastStrength4.dds</Button>
+            <iCombatHealPercent>10</iCombatHealPercent>
+            <iWithdrawalChange>10</iWithdrawalChange>
+        </PromotionInfo> 
         
         <PromotionInfo>
             <Type>PROMOTION_GUERILLA1</Type>

@@ -4070,6 +4070,37 @@ def spellHumanSkill(caster, promotionString):
 	
 	return False
 				
+				
+def reqBeastAbility(caster, promotionString, bonusList):
+	pPlayer = gc.getPlayer(caster.getOwner())
+	pCity = caster.plot().getPlotCity()
+	
+	if caster.isHasPromotion(gc.getInfoTypeForString(promotionString)):
+		return False	
+		
+	promo = gc.getPromotionInfo(gc.getInfoTypeForString(promotionString))
+	
+	hasReqBonus = False
+	for reqBonus in bonusList:
+		bonusInt = gc.getInfoTypeForString(reqBonus)
+		if pCity.hasBonus( bonusInt ) == True:
+			hasReqBonus = True
+			
+		if bonusInt == -1:
+			hasReqBonus = True
+	
+	if caster.getUnitCombatType() == -1:
+		return False
+	
+	if (promo.getUnitCombat(caster.getUnitCombatType()) == 1) and (hasReqBonus == True):
+		return True 
+				
+	return False		
+	
+	
+	
+	
+			
 		
 def reqGainXP(caster):
 	pPlayer = gc.getPlayer(caster.getOwner())

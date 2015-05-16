@@ -613,6 +613,85 @@
         
 
 
+
+
+		<SpellInfo>
+            <Type>SPELL_BEAST_STRENGTH1</Type>
+            <Description>TXT_KEY_PROMOTION_BEASTSTRENGTH1</Description>            
+            <TechPrereq>TECH_DARK_AGE</TechPrereq>
+            <UnitCombatPrereq>NONE</UnitCombatPrereq>
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>0</bDisplayWhenDisabled>
+            <bInBordersOnly>1</bInBordersOnly>
+            <bInCityOnly>1</bInCityOnly>
+            <bHasCasted>1</bHasCasted>
+            <iCost>34</iCost>
+            <PyRequirement>reqBeastAbility(pCaster, 'PROMOTION_BEASTSTRENGTH1', ['BONUS_NONE'])</PyRequirement>
+            <PyResult>spellHumanWeaponsArmour(pCaster, 'PROMOTION_BEASTSTRENGTH1')</PyResult>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS2D_REPAIR</Sound>
+            <bGraphicalOnly>1</bGraphicalOnly>
+            <Button>Art/Interface/Buttons/Promotions/BeastStrength1.dds</Button>
+        </SpellInfo>
+
+		<SpellInfo>
+            <Type>SPELL_BEAST_STRENGTH2</Type>
+            <Description>TXT_KEY_PROMOTION_BEASTSTRENGTH2</Description>            
+            <TechPrereq>TECH_FEUDAL_AGE</TechPrereq>
+            <UnitCombatPrereq>NONE</UnitCombatPrereq>
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>0</bDisplayWhenDisabled>
+            <bInBordersOnly>1</bInBordersOnly>
+            <bInCityOnly>1</bInCityOnly>
+            <bHasCasted>1</bHasCasted>
+            <iCost>62</iCost>
+            <PyRequirement>reqBeastAbility(pCaster, 'PROMOTION_BEASTSTRENGTH2', ['BONUS_CORN', 'BONUS_COW'])</PyRequirement>
+            <PyResult>spellHumanWeaponsArmour(pCaster, 'PROMOTION_BEASTSTRENGTH2')</PyResult>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS2D_REPAIR</Sound>
+            <bGraphicalOnly>1</bGraphicalOnly>
+            <Button>Art/Interface/Buttons/Promotions/BeastStrength2.dds</Button>
+        </SpellInfo>
+        
+        <SpellInfo>
+            <Type>SPELL_BEAST_STRENGTH3</Type>
+            <Description>TXT_KEY_PROMOTION_BEASTSTRENGTH3</Description>            
+            <TechPrereq>TECH_CASTLE_AGE</TechPrereq>
+            <UnitCombatPrereq>NONE</UnitCombatPrereq>
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>0</bDisplayWhenDisabled>
+            <bInBordersOnly>1</bInBordersOnly>
+            <bInCityOnly>1</bInCityOnly>
+            <bHasCasted>1</bHasCasted>
+            <iCost>90</iCost>
+            <PyRequirement>reqBeastAbility(pCaster, 'PROMOTION_BEASTSTRENGTH3', ['BONUS_PIG', 'BONUS_WHEAT'])</PyRequirement>
+            <PyResult>spellHumanWeaponsArmour(pCaster, 'PROMOTION_BEASTSTRENGTH3')</PyResult>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS2D_REPAIR</Sound>
+            <bGraphicalOnly>1</bGraphicalOnly>
+            <Button>Art/Interface/Buttons/Promotions/BeastStrength3.dds</Button>
+        </SpellInfo>
+        
+        
+        <SpellInfo>
+            <Type>SPELL_BEAST_STRENGTH4</Type>
+            <Description>TXT_KEY_PROMOTION_BEASTSTRENGTH4</Description>            
+            <TechPrereq>TECH_IMPERIAL_AGE</TechPrereq>
+            <UnitCombatPrereq>NONE</UnitCombatPrereq>
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>0</bDisplayWhenDisabled>
+            <bInBordersOnly>1</bInBordersOnly>
+            <bInCityOnly>1</bInCityOnly>
+            <bHasCasted>1</bHasCasted>
+            <iCost>126</iCost>
+            <PyRequirement>reqBeastAbility(pCaster, 'PROMOTION_BEASTSTRENGTH4', ['BONUS_SHEEP', 'BONUS_RICE'])</PyRequirement>
+            <PyResult>spellHumanWeaponsArmour(pCaster, 'PROMOTION_BEASTSTRENGTH4')</PyResult>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS2D_REPAIR</Sound>
+            <bGraphicalOnly>1</bGraphicalOnly>
+            <Button>Art/Interface/Buttons/Promotions/BeastStrength4.dds</Button>
+        </SpellInfo>
+
         
         <SpellInfo>
             <Type>SPELL_BRONZE_WEAPONS</Type>
