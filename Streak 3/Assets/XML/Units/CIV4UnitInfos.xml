@@ -6396,14 +6396,22 @@
 			<iAsset>1</iAsset>
 			<iPower>3</iPower>
 			<UnitMeshGroups>
-				<iGroupSize>4</iGroupSize>
+				<iGroupSize>3</iGroupSize>
 				<fMaxSpeed>1.75</fMaxSpeed>
 				<fPadTime>1</fPadTime>
-				<iMeleeWaveSize>4</iMeleeWaveSize>
+				<iMeleeWaveSize>3</iMeleeWaveSize>
 				<iRangedWaveSize>0</iRangedWaveSize>
 				<UnitMeshGroup>
-					<iRequired>4</iRequired>
-					<EarlyArtDefineTag>ART_DEF_UNIT_WARRIOR_HIPPUS</EarlyArtDefineTag>
+					<iRequired>1</iRequired>
+					<EarlyArtDefineTag>ART_DEF_UNIT_BOARDING_PARTY_WARRIOR</EarlyArtDefineTag>
+				</UnitMeshGroup>
+				<UnitMeshGroup>
+					<iRequired>1</iRequired>
+					<EarlyArtDefineTag>ART_DEF_UNIT_BOARDING_PARTY_LONGBOWMAN</EarlyArtDefineTag>
+				</UnitMeshGroup>
+				<UnitMeshGroup>
+					<iRequired>1</iRequired>
+					<EarlyArtDefineTag>ART_DEF_UNIT_BOARDING_PARTY_SWORDSMAN</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
 			<FormationType>FORMATION_TYPE_DEFAULT</FormationType>
@@ -6433,7 +6441,7 @@
 			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
 			<Invisible>NONE</Invisible>
 			<SeeInvisible>NONE</SeeInvisible>
-			<Description>Bandit</Description>
+			<Description>Bandits</Description>
 			<Civilopedia></Civilopedia>
 			<Strategy></Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
@@ -6620,14 +6628,22 @@
 			<iAsset>1</iAsset>
 			<iPower>3</iPower>
 			<UnitMeshGroups>
-				<iGroupSize>4</iGroupSize>
+				<iGroupSize>3</iGroupSize>
 				<fMaxSpeed>1.75</fMaxSpeed>
 				<fPadTime>1</fPadTime>
-				<iMeleeWaveSize>4</iMeleeWaveSize>
-				<iRangedWaveSize>0</iRangedWaveSize>
+				<iMeleeWaveSize>3</iMeleeWaveSize>
+				<iRangedWaveSize>3</iRangedWaveSize>				
 				<UnitMeshGroup>
-					<iRequired>4</iRequired>
-					<EarlyArtDefineTag>ART_DEF_UNIT_WARRIOR_HIPPUS</EarlyArtDefineTag>
+					<iRequired>1</iRequired>
+					<EarlyArtDefineTag>ART_DEF_UNIT_ASSASSIN</EarlyArtDefineTag>
+				</UnitMeshGroup>
+				<UnitMeshGroup>
+					<iRequired>1</iRequired>
+					<EarlyArtDefineTag>ART_DEF_UNIT_FLURRY</EarlyArtDefineTag>
+				</UnitMeshGroup>
+				<UnitMeshGroup>
+					<iRequired>1</iRequired>
+					<EarlyArtDefineTag>ART_DEF_UNIT_AXEMAN_DOVIELLO</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
 			<FormationType>FORMATION_TYPE_DEFAULT</FormationType>
@@ -6840,13 +6856,13 @@
 			<iAsset>9</iAsset>
 			<iPower>18</iPower>
 			<UnitMeshGroups>
-				<iGroupSize>2</iGroupSize>
+				<iGroupSize>3</iGroupSize>
 				<fMaxSpeed>1.75</fMaxSpeed>
 				<fPadTime>1</fPadTime>
-				<iMeleeWaveSize>2</iMeleeWaveSize>
+				<iMeleeWaveSize>3</iMeleeWaveSize>
 				<iRangedWaveSize>0</iRangedWaveSize>
 				<UnitMeshGroup>
-					<iRequired>2</iRequired>
+					<iRequired>3</iRequired>
 					<EarlyArtDefineTag>ART_DEF_UNIT_HIGHLANDER</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
@@ -7054,14 +7070,14 @@
 			<iAsset>1</iAsset>
 			<iPower>3</iPower>
 			<UnitMeshGroups>
-				<iGroupSize>4</iGroupSize>
+				<iGroupSize>2</iGroupSize>
 				<fMaxSpeed>1.75</fMaxSpeed>
 				<fPadTime>1</fPadTime>
-				<iMeleeWaveSize>4</iMeleeWaveSize>
+				<iMeleeWaveSize>2</iMeleeWaveSize>
 				<iRangedWaveSize>0</iRangedWaveSize>
 				<UnitMeshGroup>
-					<iRequired>4</iRequired>
-					<EarlyArtDefineTag>ART_DEF_UNIT_WARRIOR_HIPPUS</EarlyArtDefineTag>
+					<iRequired>2</iRequired>
+					<EarlyArtDefineTag>ART_DEF_UNIT_BATTLEMASTER</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
 			<FormationType>FORMATION_TYPE_DEFAULT</FormationType>
@@ -8350,7 +8366,7 @@
 				<iRangedWaveSize>0</iRangedWaveSize>
 				<UnitMeshGroup>
 					<iRequired>2</iRequired>
-					<EarlyArtDefineTag>ART_DEF_UNIT_HORSEMAN_HIPPUS</EarlyArtDefineTag>
+					<EarlyArtDefineTag>ART_DEF_UNIT_ROYAL_GUARD</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
 			<FormationType>FORMATION_TYPE_DEFAULT</FormationType>
