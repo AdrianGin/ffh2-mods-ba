@@ -1552,6 +1552,51 @@
         </PromotionInfo>
         
         <PromotionInfo>
+            <Type>PROMOTION_FOREST_TACTICS</Type>
+            <Description>Forest Tactics</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PromotionPrereq>NONE</PromotionPrereq>
+            <FeatureAttacks>
+                <FeatureAttack>
+                    <FeatureType>FEATURE_JUNGLE</FeatureType>
+                    <iFeatureAttack>10</iFeatureAttack>
+                </FeatureAttack>
+                <FeatureAttack>
+                    <FeatureType>FEATURE_FOREST</FeatureType>
+                    <iFeatureAttack>10</iFeatureAttack>
+                </FeatureAttack>
+            </FeatureAttacks>
+            <FeatureDefenses>
+                <FeatureDefense>
+                    <FeatureType>FEATURE_JUNGLE</FeatureType>
+                    <iFeatureDefense>10</iFeatureDefense>
+                </FeatureDefense>
+                <FeatureDefense>
+                    <FeatureType>FEATURE_FOREST</FeatureType>
+                    <iFeatureDefense>10</iFeatureDefense>
+                </FeatureDefense>
+            </FeatureDefenses>
+            <FeatureDoubleMoves>
+                <FeatureDoubleMove>
+                    <FeatureType>FEATURE_JUNGLE</FeatureType>
+                    <bFeatureDoubleMove>1</bFeatureDoubleMove>
+                </FeatureDoubleMove>
+                <FeatureDoubleMove>
+                    <FeatureType>FEATURE_FOREST</FeatureType>
+                    <bFeatureDoubleMove>1</bFeatureDoubleMove>
+                </FeatureDoubleMove>
+            </FeatureDoubleMoves>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RANGER</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>,Art/Interface/Buttons/Promotions/Woodsman1.dds,Art/Interface/Buttons/Promotions_Atlas.dds,6,6</Button>
+        	<iMinLevel>-1</iMinLevel>
+        </PromotionInfo>
+        
+        <PromotionInfo>
             <Type>PROMOTION_WOODWALK</Type>
             <Description>TXT_KEY_PROMOTION_WOODWALK</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
@@ -2314,6 +2359,58 @@
             <iCombatHealPercent>10</iCombatHealPercent>
             <iWithdrawalChange>10</iWithdrawalChange>
         </PromotionInfo> 
+        
+        <PromotionInfo>
+            <Type>PROMOTION_GUERILLA_TACTICS</Type>
+            <Description>Guerilla Tactics</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>            
+			<iHillsAttack>10</iHillsAttack>
+			<iHillsDefense>10</iHillsDefense>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>,Art/Interface/Buttons/Promotions/Guerilla1.dds,Art/Interface/Buttons/Promotions_Atlas.dds,5,5</Button>
+            <PromotionNextLevel>NONE</PromotionNextLevel>
+            <TechPrereq>TECH_NEVER</TechPrereq>
+            <TerrainAttacks>
+                <TerrainAttack>
+                    <TerrainType>TERRAIN_PEAK</TerrainType>
+                    <iTerrainAttack>10</iTerrainAttack>
+                </TerrainAttack>
+            </TerrainAttacks>
+            <TerrainDefenses>
+                <TerrainDefense>
+                    <TerrainType>TERRAIN_PEAK</TerrainType>
+                    <iTerrainDefense>10</iTerrainDefense>
+                </TerrainDefense>
+            </TerrainDefenses>
+            <iMinLevel>-1</iMinLevel>
+        </PromotionInfo>
+        
+        <PromotionInfo>
+            <Type>PROMOTION_ALPINE_TACTICS</Type>
+            <Description>TXT_KEY_ALPINE_TACTICS</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PromotionPrereqOr1>NONE</PromotionPrereqOr1>
+            <TechPrereq>TECH_NEVER</TechPrereq>
+            <TerrainAttacks>
+                <TerrainAttack>
+                    <TerrainType>TERRAIN_PEAK</TerrainType>
+                    <iTerrainAttack>10</iTerrainAttack>
+                </TerrainAttack>
+            </TerrainAttacks>
+            <TerrainDefenses>
+                <TerrainDefense>
+                    <TerrainType>TERRAIN_PEAK</TerrainType>
+                    <iTerrainDefense>10</iTerrainDefense>
+                </TerrainDefense>
+            </TerrainDefenses>
+            <Button>,Art/Interface/Buttons/Promotions/Guerilla1.dds,Art/Interface/Buttons/Promotions_Atlas.dds,5,5</Button>
+            <iMinLevel>-1</iMinLevel>
+        </PromotionInfo>
         
         <PromotionInfo>
             <Type>PROMOTION_GUERILLA1</Type>
@@ -3966,27 +4063,7 @@
             <bMoveImpassable>1</bMoveImpassable>
         </PromotionInfo>        
         
-     	<PromotionInfo>
-            <Type>PROMOTION_ALPINE_TACTICS</Type>
-            <Description>TXT_KEY_ALPINE_TACTICS</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereqOr1>PROMOTION_MOUNTAINEER</PromotionPrereqOr1>
-            <TechPrereq>TECH_NEVER</TechPrereq>
-            <TerrainAttacks>
-                <TerrainAttack>
-                    <TerrainType>TERRAIN_PEAK</TerrainType>
-                    <iTerrainAttack>20</iTerrainAttack>
-                </TerrainAttack>
-            </TerrainAttacks>
-            <TerrainDefenses>
-                <TerrainDefense>
-                    <TerrainType>TERRAIN_PEAK</TerrainType>
-                    <iTerrainDefense>20</iTerrainDefense>
-                </TerrainDefense>
-            </TerrainDefenses>
-            <Button>Art/Interface/Buttons/Promotions/AlpineTactics.dds</Button>
-            <iMinLevel>-1</iMinLevel>
-        </PromotionInfo>
+     	
         
         <PromotionInfo>
             <Type>PROMOTION_RAIDER</Type>
