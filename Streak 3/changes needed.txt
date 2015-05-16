@@ -6,13 +6,26 @@ ADRIAN
 
 - golems need to be unlocked via 3 main thech lines (currently only on one)
 
-- set unit fortify bonus to 2% per turn
-
-- give thief steal ability
+- give thief steal ability. Message for money being stolen.
 
 - give bandit x2 pillage, also i cant figure out how to give forest/jungle def!
 
-- 
+- highlander mountain strength without promotion?
+
+- give flagbearer its ability
+
+- give beserker its ability
+
+- give firebow its ability
+
+- give monk its ability
+
+- give myconid its ability
+
+- give dwarf its ability
+
+- give elf its ability
+
 
 
 Upgrade mechanism

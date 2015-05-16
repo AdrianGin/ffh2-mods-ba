@@ -1575,7 +1575,7 @@
         <UnitArtInfo>
             <Type>ART_DEF_UNIT_ARCHMAGE</Type>
             <Button>Art/Interface/Buttons/Units/Archmage.dds</Button>
-            <fScale>0.46</fScale>
+            <fScale>0.44</fScale>
             <fInterfaceScale>1</fInterfaceScale>
             <bActAsLand>0</bActAsLand>
             <bActAsAir>0</bActAsAir>
@@ -1951,7 +1951,7 @@
         <UnitArtInfo>
             <Type>ART_DEF_UNIT_ASSASSIN</Type>
             <Button>Art/Interface/Buttons/Units/Assassin.dds</Button>
-            <fScale>0.46</fScale>
+            <fScale>0.45</fScale>
             <fInterfaceScale>1</fInterfaceScale>
             <bActAsLand>0</bActAsLand>
             <bActAsAir>0</bActAsAir>
@@ -2397,7 +2397,7 @@
         <UnitArtInfo>
             <Type>ART_DEF_UNIT_AXEMAN_DOVIELLO</Type>
             <Button>Art/Interface/Buttons/Units/Axeman Doviello.dds</Button>
-            <fScale>0.44</fScale>
+            <fScale>0.46</fScale>
             <fInterfaceScale>1</fInterfaceScale>
             <bActAsLand>0</bActAsLand>
             <bActAsAir>0</bActAsAir>
@@ -6235,7 +6235,7 @@
         <UnitArtInfo>
             <Type>ART_DEF_UNIT_FLAGBEARER</Type>
             <Button>Art/Interface/Buttons/Units/Flagbearer.dds</Button>
-            <fScale>0.46</fScale>
+            <fScale>0.43</fScale>
             <fInterfaceScale>1</fInterfaceScale>
             <bActAsLand>0</bActAsLand>
             <bActAsAir>0</bActAsAir>
@@ -6328,7 +6328,7 @@
         <UnitArtInfo>
             <Type>ART_DEF_UNIT_FLURRY</Type>
             <Button>Art/Interface/Buttons/Units/Flurry.dds</Button>
-            <fScale>0.4</fScale>
+            <fScale>0.42</fScale>
             <fInterfaceScale>1</fInterfaceScale>
             <bActAsLand>0</bActAsLand>
             <bActAsAir>0</bActAsAir>
@@ -10568,7 +10568,7 @@
         <UnitArtInfo>
             <Type>ART_DEF_UNIT_MONK</Type>
             <Button>Art/Interface/Buttons/Units/Monk.dds</Button>
-            <fScale>0.44</fScale>
+            <fScale>0.40</fScale>
             <fInterfaceScale>1</fInterfaceScale>
             <bActAsLand>0</bActAsLand>
             <bActAsAir>0</bActAsAir>
@@ -10663,7 +10663,7 @@
         <UnitArtInfo>
             <Type>ART_DEF_UNIT_MYCONID</Type>
             <Button>Art/Interface/Buttons/Units/Myconid.dds</Button>
-            <fScale>0.6</fScale>
+            <fScale>0.52</fScale>
             <fInterfaceScale>0.8</fInterfaceScale>
             <bActAsLand>0</bActAsLand>
             <bActAsAir>0</bActAsAir>
@@ -14428,7 +14428,7 @@
         <UnitArtInfo>
             <Type>ART_DEF_UNIT_TRIREME</Type>
             <Button>,Art/Interface/Buttons/Units/Galley.dds,Art/Interface/Buttons/Warlords_Atlas_1.dds,8,8</Button>
-            <fScale>0.12</fScale>
+            <fScale>0.13</fScale>
             <fInterfaceScale>0.6</fInterfaceScale>
             <bActAsLand>0</bActAsLand>
             <bActAsAir>0</bActAsAir>
@@ -15901,7 +15901,7 @@
         <UnitArtInfo>
             <Type>ART_DEF_UNIT_WORKER_LJOSALFAR</Type>
             <Button>Art/Interface/Buttons/Units/Worker Ljosalfar.dds</Button>
-            <fScale>0.4</fScale>
+            <fScale>0.46</fScale>
             <fInterfaceScale>1</fInterfaceScale>
             <bActAsLand>0</bActAsLand>
             <bActAsAir>0</bActAsAir>
