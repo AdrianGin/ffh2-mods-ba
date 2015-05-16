@@ -10663,7 +10663,7 @@
         <UnitArtInfo>
             <Type>ART_DEF_UNIT_MYCONID</Type>
             <Button>Art/Interface/Buttons/Units/Myconid.dds</Button>
-            <fScale>0.6</fScale>
+            <fScale>0.5</fScale>
             <fInterfaceScale>0.8</fInterfaceScale>
             <bActAsLand>0</bActAsLand>
             <bActAsAir>0</bActAsAir>
@@ -15901,7 +15901,7 @@
         <UnitArtInfo>
             <Type>ART_DEF_UNIT_WORKER_LJOSALFAR</Type>
             <Button>Art/Interface/Buttons/Units/Worker Ljosalfar.dds</Button>
-            <fScale>0.4</fScale>
+            <fScale>0.5</fScale>
             <fInterfaceScale>1</fInterfaceScale>
             <bActAsLand>0</bActAsLand>
             <bActAsAir>0</bActAsAir>

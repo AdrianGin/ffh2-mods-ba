@@ -20,6 +20,12 @@ ADRIAN
 
 - give monk its ability
 
+- give myconid its ability
+
+- give dwarf its ability
+
+- give elf its ability
+
 
 
 Upgrade mechanism
