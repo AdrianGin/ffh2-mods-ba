@@ -532,7 +532,8 @@ class CvGameUtils:
 		iExperienceNeeded = 0
 
 		# regular epic game experience		
-		iExperienceNeeded = iLevel * iLevel + 1
+		#iExperienceNeeded = iLevel * iLevel + 1
+		iExperienceNeeded = iLevel * 2
 
 		iModifier = gc.getPlayer(iOwner).getLevelExperienceModifier()
 		if (0 != iModifier):

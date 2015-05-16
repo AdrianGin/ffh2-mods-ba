@@ -327,7 +327,7 @@
             <Type>PROMOTION_COMBAT1</Type>
             <Description>TXT_KEY_PROMOTION_COMBAT1</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
-            <iCombatPercent>10</iCombatPercent>
+            <iCombatPercent>3</iCombatPercent>
             <UnitCombats>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
@@ -385,7 +385,7 @@
             <Description>TXT_KEY_PROMOTION_COMBAT2</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_COMBAT1</PromotionPrereq>
-            <iCombatPercent>15</iCombatPercent>
+            <iCombatPercent>3</iCombatPercent>
             <UnitCombats>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
@@ -442,7 +442,7 @@
             <Description>TXT_KEY_PROMOTION_COMBAT3</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_COMBAT2</PromotionPrereq>
-            <iCombatPercent>20</iCombatPercent>
+            <iCombatPercent>3</iCombatPercent>
             <UnitCombats>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
@@ -499,7 +499,7 @@
             <Description>TXT_KEY_PROMOTION_COMBAT4</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_COMBAT3</PromotionPrereq>
-            <iCombatPercent>25</iCombatPercent>
+            <iCombatPercent>3</iCombatPercent>
             <UnitCombats>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
@@ -556,7 +556,7 @@
             <Description>TXT_KEY_PROMOTION_COMBAT5</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_COMBAT4</PromotionPrereq>
-            <iCombatPercent>30</iCombatPercent>
+            <iCombatPercent>3</iCombatPercent>
             <UnitCombats>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
@@ -660,6 +660,7 @@
             </UnitCombats>
             <Button>,Art/Interface/Buttons/Promotions/Drill1.dds,Art/Interface/Buttons/Promotions_Atlas.dds,2,3</Button>
             <PromotionNextLevel>PROMOTION_DRILL2</PromotionNextLevel>
+            <TechPrereq>TECH_NEVER</TechPrereq>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_DRILL2</Type>
@@ -834,7 +835,8 @@
             <Type>PROMOTION_CITY_RAIDER1</Type>
             <Description>City Raider I</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_FEUDAL_AGE</TechPrereq>
+            <TechPrereq>TECH_NEVER</TechPrereq>
+            <!--TechPrereq>TECH_FEUDAL_AGE</TechPrereq-->
             <iCityAttack>30</iCityAttack>
             <UnitCombats>
                 <UnitCombat>
@@ -928,7 +930,8 @@
             <Type>PROMOTION_CITY_GARRISON1</Type>
             <Description>Garrison I</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_FEUDAL_AGE</TechPrereq>
+            <TechPrereq>TECH_NEVER</TechPrereq>
+            <!--TechPrereq>TECH_FEUDAL_AGE</TechPrereq-->
             <iCityDefense>25</iCityDefense>
             <UnitCombats>
                 <UnitCombat>
@@ -1045,6 +1048,7 @@
             </UnitCombats>
             <Button>Art/Interface/Buttons/Promotions/Shock.dds</Button>
             <PromotionNextLevel>PROMOTION_SHOCK2</PromotionNextLevel>
+            <TechPrereq>TECH_NEVER</TechPrereq>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_SHOCK2</Type>
@@ -1200,6 +1204,7 @@
             </UnitCombats>
             <Button>,Art/Interface/Buttons/Promotions/Formation.dds,Art/Interface/Buttons/Promotions_Atlas.dds,1,2</Button>
             <PromotionNextLevel>PROMOTION_FORMATION2</PromotionNextLevel>
+            <TechPrereq>TECH_NEVER</TechPrereq>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_FORMATION2</Type>
@@ -1355,6 +1360,7 @@
             </UnitCombats>
             <Button>,Art/Interface/Buttons/Promotions/Cover.dds,Art/Interface/Buttons/Promotions_Atlas.dds,2,5</Button>
             <PromotionNextLevel>PROMOTION_COVER2</PromotionNextLevel>
+            <TechPrereq>TECH_NEVER</TechPrereq>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_COVER2</Type>
@@ -1495,6 +1501,7 @@
             </UnitCombats>
             <Button>,Art/Interface/Buttons/Promotions/Woodsman1.dds,Art/Interface/Buttons/Promotions_Atlas.dds,6,6</Button>
             <PromotionNextLevel>PROMOTION_WOODSMAN2</PromotionNextLevel>
+            <TechPrereq>TECH_NEVER</TechPrereq>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_WOODSMAN2</Type>
@@ -2224,7 +2231,90 @@
             <Button>,Art/Interface/Buttons/Promotions/citygarrison3.dds</Button>
         </PromotionInfo> 
         
+        <PromotionInfo>
+            <Type>PROMOTION_BEASTSTRENGTH1</Type>
+            <Description>TXT_KEY_PROMOTION_BEASTSTRENGTH1</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <TechPrereq>TECH_NEVER</TechPrereq>
+            <iCombatPercent>5</iCombatPercent>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>                
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Promotions/BeastStrength1.dds</Button>
+            <iCombatHealPercent>10</iCombatHealPercent>
+        </PromotionInfo>
         
+        <PromotionInfo>
+            <Type>PROMOTION_BEASTSTRENGTH2</Type>
+            <Description>TXT_KEY_PROMOTION_BEASTSTRENGTH2</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <TechPrereq>TECH_NEVER</TechPrereq>
+            <iCombatPercent>10</iCombatPercent>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Promotions/BeastStrength2.dds</Button>
+            <iCombatHealPercent>10</iCombatHealPercent>
+        </PromotionInfo> 
+        
+        <PromotionInfo>
+            <Type>PROMOTION_BEASTSTRENGTH3</Type>
+            <Description>TXT_KEY_PROMOTION_BEASTSTRENGTH3</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <TechPrereq>TECH_NEVER</TechPrereq>
+            <iCombatPercent>15</iCombatPercent>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>                 
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Promotions/BeastStrength3.dds</Button>
+            <iCombatHealPercent>10</iCombatHealPercent>
+        </PromotionInfo> 
+        
+        <PromotionInfo>
+            <Type>PROMOTION_BEASTSTRENGTH4</Type>
+            <Description>TXT_KEY_PROMOTION_BEASTSTRENGTH4</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <TechPrereq>TECH_NEVER</TechPrereq>
+            <bAlwaysHeal>1</bAlwaysHeal>
+            <iEnemyHealChange>10</iEnemyHealChange>
+            <iNeutralHealChange>10</iNeutralHealChange>
+            <iFriendlyHealChange>10</iFriendlyHealChange>
+            <iCombatPercent>20</iCombatPercent>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>                
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Promotions/BeastStrength4.dds</Button>
+            <iCombatHealPercent>10</iCombatHealPercent>
+            <iWithdrawalChange>10</iWithdrawalChange>
+        </PromotionInfo> 
         
         <PromotionInfo>
             <Type>PROMOTION_GUERILLA1</Type>
@@ -2251,6 +2341,7 @@
             </UnitCombats>
             <Button>,Art/Interface/Buttons/Promotions/Guerilla1.dds,Art/Interface/Buttons/Promotions_Atlas.dds,5,5</Button>
             <PromotionNextLevel>PROMOTION_GUERILLA2</PromotionNextLevel>
+            <TechPrereq>TECH_NEVER</TechPrereq>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_GUERILLA2</Type>
@@ -2326,6 +2417,7 @@
             <Button>,Art/Interface/Buttons/Promotions/Mobility1.dds,Art/Interface/Buttons/Promotions_Atlas.dds,5,4</Button>
             <bMutation>1</bMutation>
             <PromotionNextLevel>PROMOTION_MOBILITY2</PromotionNextLevel>
+            <TechPrereq>TECH_NEVER</TechPrereq>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_MOBILITY2</Type>
@@ -2374,6 +2466,7 @@
             </UnitCombats>
             <Button>,Art/Interface/Buttons/Promotions/Flanking1.dds,Art/Interface/Buttons/Promotions_Atlas.dds,6,3</Button>
             <PromotionNextLevel>PROMOTION_FLANKING2</PromotionNextLevel>
+            <TechPrereq>TECH_NEVER</TechPrereq>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_FLANKING2</Type>
@@ -2443,6 +2536,7 @@
                 </UnitCombat>
             </UnitCombats>
             <Button>,Art/Interface/Buttons/Promotions/Commando.dds,Art/Interface/Buttons/Promotions_Atlas.dds,1,3</Button>
+            <TechPrereq>TECH_NEVER</TechPrereq>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_AMPHIBIOUS</Type>
@@ -2483,13 +2577,15 @@
             </UnitCombats>
             <Button>,Art/Interface/Buttons/Promotions/Amphibious.dds,Art/Interface/Buttons/Promotions_Atlas.dds,3,1</Button>
             <bMutation>1</bMutation>
+            <TechPrereq>TECH_NEVER</TechPrereq>
         </PromotionInfo>
         
         <PromotionInfo>
             <Type>PROMOTION_MARCH</Type>
             <Description>TXT_KEY_PROMOTION_MARCH</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereqOr1>PROMOTION_COMBAT3</PromotionPrereqOr1>
+            
+            <!--PromotionPrereqOr1>PROMOTION_COMBAT3</PromotionPrereqOr1-->
             <bAlwaysHeal>1</bAlwaysHeal>
             <iEnemyHealChange>10</iEnemyHealChange>
             <iNeutralHealChange>10</iNeutralHealChange>
@@ -2529,6 +2625,7 @@
                 </UnitCombat>
             </UnitCombats>
             <Button>,Art/Interface/Buttons/Promotions/March.dds,Art/Interface/Buttons/Promotions_Atlas.dds,2,4</Button>
+            <TechPrereq>TECH_NEVER</TechPrereq>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_BLITZ</Type>
@@ -2568,6 +2665,7 @@
             </UnitCombats>
             <Button>,Art/Interface/Buttons/Promotions/Blitz.dds,Art/Interface/Buttons/Promotions_Atlas.dds,8,1</Button>
             <bMutation>1</bMutation>
+            <TechPrereq>TECH_NEVER</TechPrereq>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_SENTRY</Type>
@@ -2604,6 +2702,7 @@
             <Button>Art/Interface/Buttons/Promotions/Sentry1.dds</Button>
             <bMutation>1</bMutation>
             <PromotionNextLevel>PROMOTION_SENTRY2</PromotionNextLevel>
+            <TechPrereq>TECH_NEVER</TechPrereq>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_SENTRY2</Type>
@@ -2645,6 +2744,7 @@
             </UnitCombats>
             <Button>Art/Interface/Buttons/Promotions/Marksman.dds</Button>
             <bTargetWeakestUnit>1</bTargetWeakestUnit>
+            <TechPrereq>TECH_NEVER</TechPrereq>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_GUARDSMAN</Type>
@@ -2664,6 +2764,7 @@
             <Button>Art/Interface/Buttons/Promotions/Guardsman.dds</Button>
             <bTargetWeakestUnitCounter>1</bTargetWeakestUnitCounter>
             <iBetterDefenderThanPercent>100</iBetterDefenderThanPercent>
+            <TechPrereq>TECH_NEVER</TechPrereq>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_NAVIGATION1</Type>
@@ -2679,6 +2780,7 @@
             </UnitCombats>
             <Button>,Art/Interface/Buttons/Promotions/Navigation1.dds,Art/Interface/Buttons/Promotions_Atlas.dds,7,4</Button>
             <PromotionNextLevel>PROMOTION_NAVIGATION2</PromotionNextLevel>
+            <TechPrereq>TECH_NEVER</TechPrereq>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_NAVIGATION2</Type>
@@ -2706,6 +2808,7 @@
                 </UnitCombat>
             </UnitCombats>
             <Button>Art/Interface/Buttons/Promotions/Expandedhull.dds</Button>
+            <TechPrereq>TECH_NEVER</TechPrereq>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_BUCCANEERS</Type>
@@ -3832,6 +3935,7 @@
             <Description>TXT_KEY_PROMOTION_MOUNTAINEER</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_COMBAT1</PromotionPrereq>
+            <TechPrereq>TECH_NEVER</TechPrereq>
             <UnitCombats>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
