@@ -1464,8 +1464,8 @@
 			<PrereqBuildingClass>NONE</PrereqBuildingClass>
 		</UnitInfo>
 		<UnitInfo>
-			<Class>UNITCLASS_GOLEM</Class>
-			<Type>UNIT_GOLEM</Type>
+			<Class>UNITCLASS_LESSER_GOLEMS</Class>
+			<Type>UNIT_LESSER_GOLEMS</Type>
 			<UniqueNames>
             </UniqueNames>
 			<Special>NONE</Special>
@@ -1475,7 +1475,7 @@
 			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
 			<Invisible>NONE</Invisible>
 			<SeeInvisible>NONE</SeeInvisible>
-			<Description>TXT_KEY_UNIT_GOLEM</Description>
+			<Description>TXT_KEY_UNIT_LESSER_GOLEMS</Description>
 			<Civilopedia>NONE</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_MANES_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
@@ -1486,7 +1486,7 @@
 			<bNoCapture>0</bNoCapture>
 			<bQuickCombat>0</bQuickCombat>
 			<bRivalTerritory>0</bRivalTerritory>
-			<bMilitaryHappiness>0</bMilitaryHappiness>
+			<bMilitaryHappiness>1</bMilitaryHappiness>
 			<bMilitarySupport>1</bMilitarySupport>
 			<bMilitaryProduction>1</bMilitaryProduction>
 			<bPillage>1</bPillage>
@@ -1547,7 +1547,7 @@
 			<PrereqReligion>NONE</PrereqReligion>
 			<PrereqCorporation>NONE</PrereqCorporation>
 			<PrereqBuilding>NONE</PrereqBuilding>
-			<PrereqTech>TECH_ARCANE1</PrereqTech>
+			<PrereqTech>TECH_WEAPON_FORGING</PrereqTech>
 			<TechTypes>
             </TechTypes>
 			<BonusType>NONE</BonusType>
@@ -1558,7 +1558,7 @@
 			<Flavors>
             </Flavors>
 			<iAIWeight>0</iAIWeight>
-			<iCost>70</iCost>
+			<iCost>44</iCost>
 			<iHurryCostModifier>0</iHurryCostModifier>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
@@ -1587,7 +1587,212 @@
             </TerrainPassableTechs>
 			<FeaturePassableTechs>
             </FeaturePassableTechs>
-			<iCombat>43</iCombat>
+			<iCombat>86</iCombat>
+			<iCombatLimit>100</iCombatLimit>
+			<iAirCombat>0</iAirCombat>
+			<iAirCombatLimit>0</iAirCombatLimit>
+			<iXPValueAttack>8</iXPValueAttack>
+			<iXPValueDefense>4</iXPValueDefense>
+			<iFirstStrikes>0</iFirstStrikes>
+			<iChanceFirstStrikes>0</iChanceFirstStrikes>
+			<iInterceptionProbability>0</iInterceptionProbability>
+			<iEvasionProbability>0</iEvasionProbability>
+			<iWithdrawalProb>0</iWithdrawalProb>
+			<iCollateralDamage>0</iCollateralDamage>
+			<iCollateralDamageLimit>0</iCollateralDamageLimit>
+			<iCollateralDamageMaxUnits>0</iCollateralDamageMaxUnits>
+			<iCityAttack>0</iCityAttack>
+			<iCityDefense>0</iCityDefense>
+			<iAnimalCombat>0</iAnimalCombat>
+			<iHillsAttack>0</iHillsAttack>
+			<iHillsDefense>0</iHillsDefense>
+			<TerrainNatives>
+            </TerrainNatives>
+			<FeatureNatives>
+            </FeatureNatives>
+			<TerrainAttacks>
+            </TerrainAttacks>
+			<TerrainDefenses>
+            </TerrainDefenses>
+			<FeatureAttacks>
+            </FeatureAttacks>
+			<FeatureDefenses>
+            </FeatureDefenses>
+			<UnitClassAttackMods>
+            </UnitClassAttackMods>
+			<UnitClassDefenseMods>
+            </UnitClassDefenseMods>
+			<UnitCombatMods>
+            </UnitCombatMods>
+			<UnitCombatCollateralImmunes>
+            </UnitCombatCollateralImmunes>
+			<DomainMods>
+            </DomainMods>
+			<BonusProductionModifiers>
+            </BonusProductionModifiers>
+			<iBombRate>0</iBombRate>
+			<iBombardRate>0</iBombardRate>
+			<SpecialCargo>NONE</SpecialCargo>
+			<DomainCargo>NONE</DomainCargo>
+			<iCargo>0</iCargo>
+			<iConscription>0</iConscription>
+			<iCultureGarrison>0</iCultureGarrison>
+			<iExtraCost>0</iExtraCost>
+			<iAsset>1</iAsset>
+			<iPower>2</iPower>
+			<UnitMeshGroups>
+				<iGroupSize>4</iGroupSize>
+				<fMaxSpeed>1.75</fMaxSpeed>
+				<fPadTime>1</fPadTime>
+				<iMeleeWaveSize>4</iMeleeWaveSize>
+				<iRangedWaveSize>0</iRangedWaveSize>
+				<UnitMeshGroup>
+					<iRequired>4</iRequired>
+					<EarlyArtDefineTag>ART_DEF_UNIT_FLESH_GOLEM_LESSER</EarlyArtDefineTag>
+				</UnitMeshGroup>
+			</UnitMeshGroups>
+			<FormationType>FORMATION_TYPE_DEFAULT</FormationType>
+			<HotKey/>
+			<bAltDown>0</bAltDown>
+			<bShiftDown>0</bShiftDown>
+			<bCtrlDown>0</bCtrlDown>
+			<bGraphicalOnly>0</bGraphicalOnly>
+			<iHotKeyPriority>0</iHotKeyPriority>
+			<FreePromotions>
+			</FreePromotions>
+			<LeaderPromotion>NONE</LeaderPromotion>
+			<iLeaderExperience>0</iLeaderExperience>
+			<iCombatDefense>86</iCombatDefense>
+			<iTier>1</iTier>
+			<DamageTypeCombats>
+			</DamageTypeCombats>
+		</UnitInfo>
+		
+		<UnitInfo>
+			<Class>UNITCLASS_GOLEMS</Class>
+			<Type>UNIT_GOLEMS</Type>
+			<UniqueNames>
+            </UniqueNames>
+			<Special>NONE</Special>
+			<Capture>NONE</Capture>
+			<Combat>UNITCOMBAT_GOLEM</Combat>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
+			<Invisible>NONE</Invisible>
+			<SeeInvisible>NONE</SeeInvisible>
+			<Description>TXT_KEY_UNIT_GOLEMS</Description>
+			<Civilopedia>NONE</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_MANES_STRATEGY</Strategy>
+			<Advisor>ADVISOR_MILITARY</Advisor>
+			<bAnimal>0</bAnimal>
+			<bFood>0</bFood>
+			<bNoBadGoodies>0</bNoBadGoodies>
+			<bOnlyDefensive>0</bOnlyDefensive>
+			<bNoCapture>0</bNoCapture>
+			<bQuickCombat>0</bQuickCombat>
+			<bRivalTerritory>0</bRivalTerritory>
+			<bMilitaryHappiness>1</bMilitaryHappiness>
+			<bMilitarySupport>1</bMilitarySupport>
+			<bMilitaryProduction>1</bMilitaryProduction>
+			<bPillage>1</bPillage>
+			<bSpy>0</bSpy>
+			<bSabotage>0</bSabotage>
+			<bDestroy>0</bDestroy>
+			<bStealPlans>0</bStealPlans>
+			<bInvestigate>0</bInvestigate>
+			<bCounterSpy>0</bCounterSpy>
+			<bFound>0</bFound>
+			<bGoldenAge>0</bGoldenAge>
+			<bInvisible>0</bInvisible>
+			<bFirstStrikeImmune>0</bFirstStrikeImmune>
+			<bNoDefensiveBonus>0</bNoDefensiveBonus>
+			<bIgnoreBuildingDefense>0</bIgnoreBuildingDefense>
+			<bCanMoveImpassable>0</bCanMoveImpassable>
+			<bCanMoveAllTerrain>0</bCanMoveAllTerrain>
+			<bFlatMovementCost>0</bFlatMovementCost>
+			<bIgnoreTerrainCost>0</bIgnoreTerrainCost>
+			<bNukeImmune>0</bNukeImmune>
+			<bPrereqBonuses>0</bPrereqBonuses>
+			<bPrereqReligion>0</bPrereqReligion>
+			<bMechanized>0</bMechanized>
+			<bSuicide>0</bSuicide>
+			<bHiddenNationality>0</bHiddenNationality>
+			<bAlwaysHostile>0</bAlwaysHostile>
+			<UnitClassUpgrades>
+			</UnitClassUpgrades>
+			<UnitClassTargets>
+            </UnitClassTargets>
+			<UnitCombatTargets>
+            </UnitCombatTargets>
+			<UnitClassDefenders>
+            </UnitClassDefenders>
+			<UnitCombatDefenders>
+            </UnitCombatDefenders>
+			<FlankingStrikes>
+            </FlankingStrikes>
+			<UnitAIs>
+			</UnitAIs>
+			<NotUnitAIs>
+            </NotUnitAIs>
+			<Builds>
+            </Builds>
+			<ReligionSpreads>
+            </ReligionSpreads>
+			<CorporationSpreads>
+            </CorporationSpreads>
+			<GreatPeoples>
+            </GreatPeoples>
+			<Buildings>
+            </Buildings>
+			<ForceBuildings>
+            </ForceBuildings>
+			<HolyCity>NONE</HolyCity>
+			<ReligionType>NONE</ReligionType>
+			<StateReligion>NONE</StateReligion>
+			<PrereqReligion>NONE</PrereqReligion>
+			<PrereqCorporation>NONE</PrereqCorporation>
+			<PrereqBuilding>NONE</PrereqBuilding>
+			<PrereqTech>TECH_SHOCK_TROOPS</PrereqTech>
+			<TechTypes>
+            </TechTypes>
+			<BonusType>NONE</BonusType>
+			<PrereqBonuses>
+            </PrereqBonuses>
+			<ProductionTraits>
+            </ProductionTraits>
+			<Flavors>
+            </Flavors>
+			<iAIWeight>0</iAIWeight>
+			<iCost>82</iCost>
+			<iHurryCostModifier>0</iHurryCostModifier>
+			<iAdvancedStartCost>100</iAdvancedStartCost>
+			<iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
+			<iMinAreaSize>-1</iMinAreaSize>
+			<iMoves>1</iMoves>
+			<iUnitPlotCost>20</iUnitPlotCost>
+			<bNoRevealMap>0</bNoRevealMap>
+			<iAirRange>0</iAirRange>
+			<iAirUnitCap>0</iAirUnitCap>
+			<iDropRange>0</iDropRange>
+			<iNukeRange>-1</iNukeRange>
+			<iWorkRate>0</iWorkRate>
+			<iBaseDiscover>0</iBaseDiscover>
+			<iDiscoverMultiplier>0</iDiscoverMultiplier>
+			<iBaseHurry>0</iBaseHurry>
+			<iHurryMultiplier>0</iHurryMultiplier>
+			<iBaseTrade>0</iBaseTrade>
+			<iTradeMultiplier>0</iTradeMultiplier>
+			<iGreatWorkCulture>0</iGreatWorkCulture>
+			<iEspionagePoints>0</iEspionagePoints>
+			<TerrainImpassables>
+            </TerrainImpassables>
+			<FeatureImpassables>
+            </FeatureImpassables>
+			<TerrainPassableTechs>
+            </TerrainPassableTechs>
+			<FeaturePassableTechs>
+            </FeaturePassableTechs>
+			<iCombat>116</iCombat>
 			<iCombatLimit>100</iCombatLimit>
 			<iAirCombat>0</iAirCombat>
 			<iAirCombatLimit>0</iAirCombatLimit>
@@ -1662,11 +1867,217 @@
 			</FreePromotions>
 			<LeaderPromotion>NONE</LeaderPromotion>
 			<iLeaderExperience>0</iLeaderExperience>
-			<iCombatDefense>43</iCombatDefense>
+			<iCombatDefense>116</iCombatDefense>
+			<iTier>1</iTier>
+			<DamageTypeCombats>
+			</DamageTypeCombats>
+		</UnitInfo>		
+		<UnitInfo>
+			<Class>UNITCLASS_GREATER_GOLEMS</Class>
+			<Type>UNIT_GREATER_GOLEMS</Type>
+			<UniqueNames>
+            </UniqueNames>
+			<Special>NONE</Special>
+			<Capture>NONE</Capture>
+			<Combat>UNITCOMBAT_GOLEM</Combat>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
+			<Invisible>NONE</Invisible>
+			<SeeInvisible>NONE</SeeInvisible>
+			<Description>TXT_KEY_UNIT_GREATER_GOLEMS</Description>
+			<Civilopedia>NONE</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_MANES_STRATEGY</Strategy>
+			<Advisor>ADVISOR_MILITARY</Advisor>
+			<bAnimal>0</bAnimal>
+			<bFood>0</bFood>
+			<bNoBadGoodies>0</bNoBadGoodies>
+			<bOnlyDefensive>0</bOnlyDefensive>
+			<bNoCapture>0</bNoCapture>
+			<bQuickCombat>0</bQuickCombat>
+			<bRivalTerritory>0</bRivalTerritory>
+			<bMilitaryHappiness>1</bMilitaryHappiness>
+			<bMilitarySupport>1</bMilitarySupport>
+			<bMilitaryProduction>1</bMilitaryProduction>
+			<bPillage>1</bPillage>
+			<bSpy>0</bSpy>
+			<bSabotage>0</bSabotage>
+			<bDestroy>0</bDestroy>
+			<bStealPlans>0</bStealPlans>
+			<bInvestigate>0</bInvestigate>
+			<bCounterSpy>0</bCounterSpy>
+			<bFound>0</bFound>
+			<bGoldenAge>0</bGoldenAge>
+			<bInvisible>0</bInvisible>
+			<bFirstStrikeImmune>0</bFirstStrikeImmune>
+			<bNoDefensiveBonus>0</bNoDefensiveBonus>
+			<bIgnoreBuildingDefense>0</bIgnoreBuildingDefense>
+			<bCanMoveImpassable>0</bCanMoveImpassable>
+			<bCanMoveAllTerrain>0</bCanMoveAllTerrain>
+			<bFlatMovementCost>0</bFlatMovementCost>
+			<bIgnoreTerrainCost>0</bIgnoreTerrainCost>
+			<bNukeImmune>0</bNukeImmune>
+			<bPrereqBonuses>0</bPrereqBonuses>
+			<bPrereqReligion>0</bPrereqReligion>
+			<bMechanized>0</bMechanized>
+			<bSuicide>0</bSuicide>
+			<bHiddenNationality>0</bHiddenNationality>
+			<bAlwaysHostile>0</bAlwaysHostile>
+			<UnitClassUpgrades>
+			</UnitClassUpgrades>
+			<UnitClassTargets>
+            </UnitClassTargets>
+			<UnitCombatTargets>
+            </UnitCombatTargets>
+			<UnitClassDefenders>
+            </UnitClassDefenders>
+			<UnitCombatDefenders>
+            </UnitCombatDefenders>
+			<FlankingStrikes>
+            </FlankingStrikes>
+			<UnitAIs>
+			</UnitAIs>
+			<NotUnitAIs>
+            </NotUnitAIs>
+			<Builds>
+            </Builds>
+			<ReligionSpreads>
+            </ReligionSpreads>
+			<CorporationSpreads>
+            </CorporationSpreads>
+			<GreatPeoples>
+            </GreatPeoples>
+			<Buildings>
+            </Buildings>
+			<ForceBuildings>
+            </ForceBuildings>
+			<HolyCity>NONE</HolyCity>
+			<ReligionType>NONE</ReligionType>
+			<StateReligion>NONE</StateReligion>
+			<PrereqReligion>NONE</PrereqReligion>
+			<PrereqCorporation>NONE</PrereqCorporation>
+			<PrereqBuilding>NONE</PrereqBuilding>
+			<PrereqTech>TECH_ASSAULT_DOCTRINE</PrereqTech>
+			<TechTypes>
+            </TechTypes>
+			<BonusType>NONE</BonusType>
+			<PrereqBonuses>
+            </PrereqBonuses>
+			<ProductionTraits>
+            </ProductionTraits>
+			<Flavors>
+            </Flavors>
+			<iAIWeight>0</iAIWeight>
+			<iCost>153</iCost>
+			<iHurryCostModifier>0</iHurryCostModifier>
+			<iAdvancedStartCost>100</iAdvancedStartCost>
+			<iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
+			<iMinAreaSize>-1</iMinAreaSize>
+			<iMoves>1</iMoves>
+			<iUnitPlotCost>20</iUnitPlotCost>
+			<bNoRevealMap>0</bNoRevealMap>
+			<iAirRange>0</iAirRange>
+			<iAirUnitCap>0</iAirUnitCap>
+			<iDropRange>0</iDropRange>
+			<iNukeRange>-1</iNukeRange>
+			<iWorkRate>0</iWorkRate>
+			<iBaseDiscover>0</iBaseDiscover>
+			<iDiscoverMultiplier>0</iDiscoverMultiplier>
+			<iBaseHurry>0</iBaseHurry>
+			<iHurryMultiplier>0</iHurryMultiplier>
+			<iBaseTrade>0</iBaseTrade>
+			<iTradeMultiplier>0</iTradeMultiplier>
+			<iGreatWorkCulture>0</iGreatWorkCulture>
+			<iEspionagePoints>0</iEspionagePoints>
+			<TerrainImpassables>
+            </TerrainImpassables>
+			<FeatureImpassables>
+            </FeatureImpassables>
+			<TerrainPassableTechs>
+            </TerrainPassableTechs>
+			<FeaturePassableTechs>
+            </FeaturePassableTechs>
+			<iCombat>155</iCombat>
+			<iCombatLimit>100</iCombatLimit>
+			<iAirCombat>0</iAirCombat>
+			<iAirCombatLimit>0</iAirCombatLimit>
+			<iXPValueAttack>8</iXPValueAttack>
+			<iXPValueDefense>4</iXPValueDefense>
+			<iFirstStrikes>0</iFirstStrikes>
+			<iChanceFirstStrikes>0</iChanceFirstStrikes>
+			<iInterceptionProbability>0</iInterceptionProbability>
+			<iEvasionProbability>0</iEvasionProbability>
+			<iWithdrawalProb>0</iWithdrawalProb>
+			<iCollateralDamage>0</iCollateralDamage>
+			<iCollateralDamageLimit>0</iCollateralDamageLimit>
+			<iCollateralDamageMaxUnits>0</iCollateralDamageMaxUnits>
+			<iCityAttack>0</iCityAttack>
+			<iCityDefense>0</iCityDefense>
+			<iAnimalCombat>0</iAnimalCombat>
+			<iHillsAttack>0</iHillsAttack>
+			<iHillsDefense>0</iHillsDefense>
+			<TerrainNatives>
+            </TerrainNatives>
+			<FeatureNatives>
+            </FeatureNatives>
+			<TerrainAttacks>
+            </TerrainAttacks>
+			<TerrainDefenses>
+            </TerrainDefenses>
+			<FeatureAttacks>
+            </FeatureAttacks>
+			<FeatureDefenses>
+            </FeatureDefenses>
+			<UnitClassAttackMods>
+            </UnitClassAttackMods>
+			<UnitClassDefenseMods>
+            </UnitClassDefenseMods>
+			<UnitCombatMods>
+            </UnitCombatMods>
+			<UnitCombatCollateralImmunes>
+            </UnitCombatCollateralImmunes>
+			<DomainMods>
+            </DomainMods>
+			<BonusProductionModifiers>
+            </BonusProductionModifiers>
+			<iBombRate>0</iBombRate>
+			<iBombardRate>0</iBombardRate>
+			<SpecialCargo>NONE</SpecialCargo>
+			<DomainCargo>NONE</DomainCargo>
+			<iCargo>0</iCargo>
+			<iConscription>0</iConscription>
+			<iCultureGarrison>0</iCultureGarrison>
+			<iExtraCost>0</iExtraCost>
+			<iAsset>1</iAsset>
+			<iPower>2</iPower>
+			<UnitMeshGroups>
+				<iGroupSize>2</iGroupSize>
+				<fMaxSpeed>1.75</fMaxSpeed>
+				<fPadTime>1</fPadTime>
+				<iMeleeWaveSize>2</iMeleeWaveSize>
+				<iRangedWaveSize>0</iRangedWaveSize>
+				<UnitMeshGroup>
+					<iRequired>2</iRequired>
+					<EarlyArtDefineTag>ART_DEF_UNIT_FLESH_GOLEM_GREATER</EarlyArtDefineTag>
+				</UnitMeshGroup>
+			</UnitMeshGroups>
+			<FormationType>FORMATION_TYPE_DEFAULT</FormationType>
+			<HotKey/>
+			<bAltDown>0</bAltDown>
+			<bShiftDown>0</bShiftDown>
+			<bCtrlDown>0</bCtrlDown>
+			<bGraphicalOnly>0</bGraphicalOnly>
+			<iHotKeyPriority>0</iHotKeyPriority>
+			<FreePromotions>
+			</FreePromotions>
+			<LeaderPromotion>NONE</LeaderPromotion>
+			<iLeaderExperience>0</iLeaderExperience>
+			<iCombatDefense>155</iCombatDefense>
 			<iTier>1</iTier>
 			<DamageTypeCombats>
 			</DamageTypeCombats>
 		</UnitInfo>
+		
+		
 		<UnitInfo>
 			<Class>UNITCLASS_AIR_GOLEM</Class>
 			<Type>UNIT_AIR_GOLEM</Type>
