@@ -1012,7 +1012,7 @@
             <iAIWeight>10</iAIWeight>
             <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
             <bHasCasted>1</bHasCasted>
-            <iDelay>2</iDelay>
+            <iDelay>3</iDelay>
             <PyResult>spellTerraform(pCaster)</PyResult>
             <PyRequirement>reqTerraform(pCaster)</PyRequirement>
             <Effect>EFFECT_VITALIZE</Effect>

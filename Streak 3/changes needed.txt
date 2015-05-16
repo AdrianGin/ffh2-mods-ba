@@ -3,6 +3,7 @@ ADRIAN
 - palace needs fourth mana type (water) can only give 3 bonus resources! (or we can just get rid of mana requirement for spells.
 - give flagbearer its ability
 - give beserker its ability
+- bloom & terraform spell if cast on the same tile causes bloom to not take affect
 
 
 

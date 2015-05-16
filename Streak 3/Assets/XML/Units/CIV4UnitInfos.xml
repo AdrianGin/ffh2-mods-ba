@@ -703,6 +703,10 @@
 				<FreePromotion>
 					<PromotionType>PROMOTION_FOREST_WALK</PromotionType>
 					<bFreePromotion>1</bFreePromotion>
+				</FreePromotion>				
+				<FreePromotion>
+					<PromotionType>PROMOTION_CAST_BLOOM</PromotionType>
+					<bFreePromotion>1</bFreePromotion>
 				</FreePromotion>
             </FreePromotions>
 			<LeaderPromotion>NONE</LeaderPromotion>
@@ -919,6 +923,10 @@
 				<FreePromotion>
 					<PromotionType>PROMOTION_HILL_WALK</PromotionType>
 					<bFreePromotion>1</bFreePromotion>
+				</FreePromotion>				
+				<FreePromotion>
+					<PromotionType>PROMOTION_CAST_TERRAFORM</PromotionType>
+					<bFreePromotion>1</bFreePromotion>
 				</FreePromotion>
             </FreePromotions>
 			<LeaderPromotion>NONE</LeaderPromotion>
@@ -1131,7 +1139,11 @@
 			<bCtrlDown>0</bCtrlDown>
 			<bGraphicalOnly>0</bGraphicalOnly>
 			<iHotKeyPriority>0</iHotKeyPriority>
-			<FreePromotions>
+			<FreePromotions>				
+				<FreePromotion>
+					<PromotionType>PROMOTION_CAST_VITALIZE</PromotionType>
+					<bFreePromotion>1</bFreePromotion>
+				</FreePromotion>
             </FreePromotions>
 			<LeaderPromotion>NONE</LeaderPromotion>
 			<iLeaderExperience>0</iLeaderExperience>
