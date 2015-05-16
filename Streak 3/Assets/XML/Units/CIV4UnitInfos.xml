@@ -796,22 +796,6 @@
 				</UnitAI>
 			</NotUnitAIs>
 			<Builds>
-				<Build>
-					<BuildType>BUILD_MANA_AIR</BuildType>
-					<bBuild>1</bBuild>
-				</Build>
-				<Build>
-					<BuildType>BUILD_MANA_EARTH</BuildType>
-					<bBuild>1</bBuild>
-				</Build>
-				<Build>
-					<BuildType>BUILD_MANA_FIRE</BuildType>
-					<bBuild>1</bBuild>
-				</Build>
-				<Build>
-					<BuildType>BUILD_MANA_WATER</BuildType>
-					<bBuild>1</bBuild>
-				</Build>
 			</Builds>
 			<ReligionSpreads>
             </ReligionSpreads>
@@ -829,7 +813,7 @@
 			<PrereqReligion>NONE</PrereqReligion>
 			<PrereqCorporation>NONE</PrereqCorporation>
 			<PrereqBuilding>NONE</PrereqBuilding>
-			<PrereqTech>TECH_ARCANE1</PrereqTech>
+			<PrereqTech>TECH_ARCANE_DISCOVERY</PrereqTech>
 			<TechTypes>
             </TechTypes>
 			<BonusType>NONE</BonusType>
@@ -844,7 +828,7 @@
 				</Flavor>
 			</Flavors>
 			<iAIWeight>100</iAIWeight>
-			<iCost>90</iCost>
+			<iCost>75</iCost>
 			<iHurryCostModifier>0</iHurryCostModifier>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
@@ -873,7 +857,7 @@
             </TerrainPassableTechs>
 			<FeaturePassableTechs>
             </FeaturePassableTechs>
-			<iCombat>32</iCombat>
+			<iCombat>76</iCombat>
 			<iCombatLimit>100</iCombatLimit>
 			<iAirCombat>0</iAirCombat>
 			<iAirCombatLimit>0</iAirCombatLimit>
@@ -948,16 +932,12 @@
 				<FreePromotion>
 					<PromotionType>PROMOTION_CHANNELING1</PromotionType>
 					<bFreePromotion>1</bFreePromotion>
-				</FreePromotion>				
-				<FreePromotion>
-					<PromotionType>PROMOTION_HEAL1</PromotionType>
-					<bFreePromotion>1</bFreePromotion>
 				</FreePromotion>
 			</FreePromotions>
 			<LeaderPromotion>NONE</LeaderPromotion>
 			<iLeaderExperience>0</iLeaderExperience>
 			<bFreeXP>1</bFreeXP>
-			<iCombatDefense>32</iCombatDefense>
+			<iCombatDefense>76</iCombatDefense>
 			<bNeverObsolete>1</bNeverObsolete>
 			<iFreePromotionPick>1</iFreePromotionPick>
 			<iTier>2</iTier>
@@ -1042,22 +1022,6 @@
 				</UnitAI>
 			</NotUnitAIs>
 			<Builds>
-				<Build>
-					<BuildType>BUILD_MANA_AIR</BuildType>
-					<bBuild>1</bBuild>
-				</Build>
-				<Build>
-					<BuildType>BUILD_MANA_EARTH</BuildType>
-					<bBuild>1</bBuild>
-				</Build>
-				<Build>
-					<BuildType>BUILD_MANA_FIRE</BuildType>
-					<bBuild>1</bBuild>
-				</Build>
-				<Build>
-					<BuildType>BUILD_MANA_WATER</BuildType>
-					<bBuild>1</bBuild>
-				</Build>
 			</Builds>
 			<ReligionSpreads>
             </ReligionSpreads>
@@ -1075,7 +1039,7 @@
 			<PrereqReligion>NONE</PrereqReligion>
 			<PrereqCorporation>NONE</PrereqCorporation>
 			<PrereqBuilding>NONE</PrereqBuilding>
-			<PrereqTech>TECH_ARCANE2</PrereqTech>
+			<PrereqTech>TECH_AMALGAMATION_OF_THE_ARCANE</PrereqTech>
 			<TechTypes>
             </TechTypes>
 			<BonusType>NONE</BonusType>
@@ -1090,7 +1054,7 @@
 				</Flavor>
 			</Flavors>
 			<iAIWeight>100</iAIWeight>
-			<iCost>165</iCost>
+			<iCost>140</iCost>
 			<iHurryCostModifier>0</iHurryCostModifier>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
@@ -1119,7 +1083,7 @@
             </TerrainPassableTechs>
 			<FeaturePassableTechs>
             </FeaturePassableTechs>
-			<iCombat>40</iCombat>
+			<iCombat>91</iCombat>
 			<iCombatLimit>100</iCombatLimit>
 			<iAirCombat>0</iAirCombat>
 			<iAirCombatLimit>0</iAirCombatLimit>
@@ -1199,15 +1163,11 @@
 					<PromotionType>PROMOTION_CHANNELING2</PromotionType>
 					<bFreePromotion>1</bFreePromotion>
 				</FreePromotion>
-				<FreePromotion>
-					<PromotionType>PROMOTION_HEAL2</PromotionType>
-					<bFreePromotion>1</bFreePromotion>
-				</FreePromotion>
 			</FreePromotions>
 			<LeaderPromotion>NONE</LeaderPromotion>
 			<iLeaderExperience>0</iLeaderExperience>
 			<bFreeXP>1</bFreeXP>
-			<iCombatDefense>40</iCombatDefense>
+			<iCombatDefense>91</iCombatDefense>
 			<bNeverObsolete>1</bNeverObsolete>
 			<iFreePromotionPick>1</iFreePromotionPick>
 			<iTier>2</iTier>
@@ -1288,22 +1248,6 @@
 				</UnitAI>
 			</NotUnitAIs>
 			<Builds>
-				<Build>
-					<BuildType>BUILD_MANA_AIR</BuildType>
-					<bBuild>1</bBuild>
-				</Build>
-				<Build>
-					<BuildType>BUILD_MANA_EARTH</BuildType>
-					<bBuild>1</bBuild>
-				</Build>
-				<Build>
-					<BuildType>BUILD_MANA_FIRE</BuildType>
-					<bBuild>1</bBuild>
-				</Build>
-				<Build>
-					<BuildType>BUILD_MANA_WATER</BuildType>
-					<bBuild>1</bBuild>
-				</Build>
 			</Builds>
 			<ReligionSpreads>
             </ReligionSpreads>
@@ -1321,7 +1265,7 @@
 			<PrereqReligion>NONE</PrereqReligion>
 			<PrereqCorporation>NONE</PrereqCorporation>
 			<PrereqBuilding>NONE</PrereqBuilding>
-			<PrereqTech>TECH_ARCANE3</PrereqTech>
+			<PrereqTech>TECH_ARCANE_SECRETS</PrereqTech>
 			<TechTypes>
             </TechTypes>
 			<BonusType>NONE</BonusType>
@@ -1336,7 +1280,7 @@
 				</Flavor>
 			</Flavors>
 			<iAIWeight>100</iAIWeight>
-			<iCost>300</iCost>
+			<iCost>263</iCost>
 			<iHurryCostModifier>0</iHurryCostModifier>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
@@ -1365,7 +1309,7 @@
             </TerrainPassableTechs>
 			<FeaturePassableTechs>
             </FeaturePassableTechs>
-			<iCombat>56</iCombat>
+			<iCombat>122</iCombat>
 			<iCombatLimit>100</iCombatLimit>
 			<iAirCombat>0</iAirCombat>
 			<iAirCombatLimit>0</iAirCombatLimit>
@@ -1449,15 +1393,11 @@
 					<PromotionType>PROMOTION_CHANNELING3</PromotionType>
 					<bFreePromotion>1</bFreePromotion>
 				</FreePromotion>
-				<FreePromotion>
-					<PromotionType>PROMOTION_HEAL3</PromotionType>
-					<bFreePromotion>1</bFreePromotion>
-				</FreePromotion>
 			</FreePromotions>
 			<LeaderPromotion>NONE</LeaderPromotion>
 			<iLeaderExperience>0</iLeaderExperience>
 			<bFreeXP>1</bFreeXP>
-			<iCombatDefense>56</iCombatDefense>
+			<iCombatDefense>122</iCombatDefense>
 			<bNeverObsolete>1</bNeverObsolete>
 			<iFreePromotionPick>1</iFreePromotionPick>
 			<iTier>2</iTier>
