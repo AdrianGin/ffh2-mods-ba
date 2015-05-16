@@ -80,7 +80,7 @@
                     <bFreeTech>1</bFreeTech>
                 </FreeTech>  
 				<FreeTech>
-                    <TechType>TECH_MILITARY</TechType>
+                    <TechType>TECH_SOLDIERING</TechType>
                     <bFreeTech>1</bFreeTech>
                 </FreeTech>   
             </FreeTechs>
@@ -181,7 +181,7 @@
                     <bFreeTech>1</bFreeTech>
                 </FreeTech>  
 				<FreeTech>
-                    <TechType>TECH_MILITARY</TechType>
+                    <TechType>TECH_SOLDIERING</TechType>
                     <bFreeTech>1</bFreeTech>
                 </FreeTech>   
             </FreeTechs>
@@ -282,7 +282,7 @@
                     <bFreeTech>1</bFreeTech>
                 </FreeTech>  
 				<FreeTech>
-                    <TechType>TECH_MILITARY</TechType>
+                    <TechType>TECH_SOLDIERING</TechType>
                     <bFreeTech>1</bFreeTech>
                 </FreeTech>   
             </FreeTechs>
@@ -383,7 +383,7 @@
                     <bFreeTech>1</bFreeTech>
                 </FreeTech>  
 				<FreeTech>
-                    <TechType>TECH_MILITARY</TechType>
+                    <TechType>TECH_SOLDIERING</TechType>
                     <bFreeTech>1</bFreeTech>
                 </FreeTech>   
             </FreeTechs>
