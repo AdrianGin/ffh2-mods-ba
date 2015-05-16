@@ -2888,6 +2888,24 @@
             </UnitCombats>
             <Button>Art/Interface/Buttons/Promotions/Sentry2.dds</Button>
         </PromotionInfo>
+        
+        <PromotionInfo>
+            <Type>PROMOTION_CROWS_NEST</Type>
+            <Description>Crows Nest</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PromotionPrereq>NONE</PromotionPrereq>
+            <TechPrereq>TECH_NEVER</TechPrereq>
+            <iVisibilityChange>1</iVisibilityChange>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Promotions/Sentry1.dds</Button>
+            <iMinLevel>-1</iMinLevel>
+        </PromotionInfo>
+        
         <PromotionInfo>
             <Type>PROMOTION_MARKSMAN</Type>
             <Description>Marksman</Description>
