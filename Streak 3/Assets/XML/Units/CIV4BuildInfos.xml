@@ -292,7 +292,7 @@
 			<Type>BUILD_FORT</Type>
 			<Description>TXT_KEY_BUILD_FORT</Description>
 			<Help/>
-			<PrereqTech>TECH_ARCHERY1</PrereqTech>
+			<PrereqTech>TECH_FEUDAL_AGE</PrereqTech>
 			<iTime>600</iTime>
 			<iCost>0</iCost>
 			<bKill>0</bKill>
@@ -526,7 +526,7 @@
 			<Type>BUILD_CASTLE</Type>
 			<Description>Build a Castle</Description>
 			<Help/>
-			<PrereqTech>TECH_ARCHERY2</PrereqTech>
+			<PrereqTech>TECH_CASTLE_AGE</PrereqTech>
 			<iTime>800</iTime>
 			<iCost>0</iCost>
 			<bKill>0</bKill>
@@ -560,7 +560,7 @@
 			<Type>BUILD_CITADEL</Type>
 			<Description>Build a Citadel</Description>
 			<Help/>
-			<PrereqTech>TECH_ARCHERY3</PrereqTech>
+			<PrereqTech>TECH_IMPERIAL_AGE</PrereqTech>
 			<iTime>1000</iTime>
 			<iCost>0</iCost>
 			<bKill>0</bKill>

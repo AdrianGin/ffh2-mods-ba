@@ -4100,7 +4100,7 @@
             <FreeStartEra>NONE</FreeStartEra>
             <MaxStartEra>NONE</MaxStartEra>
             <ObsoleteTech>NONE</ObsoleteTech>
-            <PrereqTech>TECH_ARCHERY1</PrereqTech>
+            <PrereqTech>TECH_FEUDAL_AGE</PrereqTech>
             <TechTypes>
             </TechTypes>
             <Bonus>NONE</Bonus>
@@ -4323,7 +4323,7 @@
             <FreeStartEra>NONE</FreeStartEra>
             <MaxStartEra>NONE</MaxStartEra>
             <ObsoleteTech>NONE</ObsoleteTech>
-            <PrereqTech>TECH_ARCHERY2</PrereqTech>
+            <PrereqTech>TECH_CASTLE_AGE</PrereqTech>
             <TechTypes>
             </TechTypes>
             <Bonus>NONE</Bonus>
@@ -4543,7 +4543,7 @@
             <FreeStartEra>NONE</FreeStartEra>
             <MaxStartEra>NONE</MaxStartEra>
             <ObsoleteTech>NONE</ObsoleteTech>
-            <PrereqTech>TECH_BREEDING_OF_BEASTS</PrereqTech>
+            <PrereqTech>TECH_BEAST_BREEDING</PrereqTech>
             <TechTypes>
             </TechTypes>
             <Bonus>NONE</Bonus>
@@ -5002,7 +5002,7 @@
             <FreeStartEra>NONE</FreeStartEra>
             <MaxStartEra>NONE</MaxStartEra>
             <ObsoleteTech>NONE</ObsoleteTech>
-            <PrereqTech>TECH_NAVY2</PrereqTech>
+            <PrereqTech>TECH_COMPLEX_DESIGNS</PrereqTech>
             <TechTypes>
             </TechTypes>
             <Bonus>NONE</Bonus>
@@ -5232,7 +5232,7 @@
             <FreeStartEra>NONE</FreeStartEra>
             <MaxStartEra>NONE</MaxStartEra>
             <ObsoleteTech>NONE</ObsoleteTech>
-            <PrereqTech>TECH_NAVY3</PrereqTech>
+            <PrereqTech>TECH_SHIPS_OF_WAR</PrereqTech>
             <TechTypes>
             </TechTypes>
             <Bonus>NONE</Bonus>
@@ -5388,7 +5388,7 @@
             <UnitCombatFreeExperiences>
 				<UnitCombatFreeExperience>
 					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
-                    <iExperience>3</iExperience>
+                    <iExperience>2</iExperience>
 				</UnitCombatFreeExperience>
             </UnitCombatFreeExperiences>
             <DomainFreeExperiences>

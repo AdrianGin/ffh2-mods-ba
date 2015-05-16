@@ -1039,7 +1039,7 @@
 			<PrereqReligion>NONE</PrereqReligion>
 			<PrereqCorporation>NONE</PrereqCorporation>
 			<PrereqBuilding>NONE</PrereqBuilding>
-			<PrereqTech>TECH_AMALGAMATION_OF_THE_ARCANE</PrereqTech>
+			<PrereqTech>TECH_SPELL_CREATION</PrereqTech>
 			<TechTypes>
             </TechTypes>
 			<BonusType>NONE</BonusType>
@@ -5236,7 +5236,7 @@
 			<PrereqReligion>NONE</PrereqReligion>
 			<PrereqCorporation>NONE</PrereqCorporation>
 			<PrereqBuilding>NONE</PrereqBuilding>
-			<PrereqTech>TECH_WAR_ANIMAL_REARING</PrereqTech>
+			<PrereqTech>TECH_ANIMAL_REARING</PrereqTech>
 			<TechTypes>
             </TechTypes>
 			<BonusType>NONE</BonusType>
@@ -6103,7 +6103,7 @@
 			<PrereqReligion>NONE</PrereqReligion>
 			<PrereqCorporation>NONE</PrereqCorporation>
 			<PrereqBuilding>NONE</PrereqBuilding>
-			<PrereqTech>TECH_WAR_ANIMAL_REARING</PrereqTech>
+			<PrereqTech>TECH_ANIMAL_REARING</PrereqTech>
 			<TechTypes>
             </TechTypes>
 			<BonusType>NONE</BonusType>
@@ -8037,7 +8037,7 @@
 			<PrereqReligion>NONE</PrereqReligion>
 			<PrereqCorporation>NONE</PrereqCorporation>
 			<PrereqBuilding>NONE</PrereqBuilding>
-			<PrereqTech>TECH_BREEDING_OF_BEASTS</PrereqTech>
+			<PrereqTech>TECH_BEAST_BREEDING</PrereqTech>
 			<TechTypes>
             </TechTypes>
 			<BonusType>NONE</BonusType>
@@ -8858,7 +8858,7 @@
 			<PrereqReligion>NONE</PrereqReligion>
 			<PrereqCorporation>NONE</PrereqCorporation>
 			<PrereqBuilding>NONE</PrereqBuilding>
-			<PrereqTech>TECH_BREEDING_OF_BEASTS</PrereqTech>
+			<PrereqTech>TECH_BEAST_BREEDING</PrereqTech>
 			<TechTypes>
             </TechTypes>
 			<BonusType>NONE</BonusType>
@@ -10420,7 +10420,7 @@
 			<PrereqReligion>NONE</PrereqReligion>
 			<PrereqCorporation>NONE</PrereqCorporation>
 			<PrereqBuilding>NONE</PrereqBuilding>
-			<PrereqTech>TECH_MACHINES_OF_WAR</PrereqTech>
+			<PrereqTech>TECH_SHIPS_OF_WAR</PrereqTech>
 			<TechTypes>
             </TechTypes>
 			<BonusType>NONE</BonusType>
@@ -10643,7 +10643,7 @@
 			<PrereqReligion>NONE</PrereqReligion>
 			<PrereqCorporation>NONE</PrereqCorporation>
 			<PrereqBuilding>NONE</PrereqBuilding>
-			<PrereqTech>TECH_MACHINES_OF_WAR</PrereqTech>
+			<PrereqTech>TECH_SHIPS_OF_WAR</PrereqTech>
 			<TechTypes>
 			</TechTypes>
 			<BonusType>NONE</BonusType>

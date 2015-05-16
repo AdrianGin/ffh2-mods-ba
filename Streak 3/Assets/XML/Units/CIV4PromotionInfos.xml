@@ -115,7 +115,7 @@
             <Type>PROMOTION_BARRAGE1</Type>
             <Description>Barrage I</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_NAVY2</TechPrereq>
+            <TechPrereq>NONE</TechPrereq>
             <iCollateralDamageChange>30</iCollateralDamageChange>
             <UnitCombats>
                 <UnitCombat>

@@ -187,7 +187,7 @@
             <Type>SPELL_WAR_HORSE_WEAPONS</Type>
             <Description>TXT_KEY_PROMOTION_WAR_HORSE_WEAPONS</Description>            
             <Help>TXT_KEY_PROMOTION_WAR_HORSE_WEAPONS_PEDIA</Help>
-            <TechPrereq>TECH_WAR_ANIMAL_REARING</TechPrereq>
+            <TechPrereq>TECH_ANIMAL_REARING</TechPrereq>
             <UnitCombatPrereq>UNITCOMBAT_MOUNTED</UnitCombatPrereq>
             <bAllowAI>1</bAllowAI>
             <bDisplayWhenDisabled>0</bDisplayWhenDisabled>
@@ -227,7 +227,7 @@
             <Type>SPELL_WAR_ELEPHANT_WEAPONS</Type>
             <Description>TXT_KEY_PROMOTION_WAR_ELEPHANT_WEAPONS</Description>            
             <Help>TXT_KEY_PROMOTION_WAR_ELEPHANT_WEAPONS_PEDIA</Help>
-            <TechPrereq>TECH_WAR_ANIMAL_REARING</TechPrereq>
+            <TechPrereq>TECH_ANIMAL_REARING</TechPrereq>
             <UnitCombatPrereq>UNITCOMBAT_ELEPHANT</UnitCombatPrereq>
             <bAllowAI>1</bAllowAI>
             <bDisplayWhenDisabled>0</bDisplayWhenDisabled>
