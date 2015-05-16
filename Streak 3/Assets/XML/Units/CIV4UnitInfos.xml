@@ -10335,7 +10335,15 @@
 			<bCtrlDown>0</bCtrlDown>
 			<bGraphicalOnly>0</bGraphicalOnly>
 			<iHotKeyPriority>0</iHotKeyPriority>
-			<FreePromotions>
+			<FreePromotions>				
+				<FreePromotion>
+					<PromotionType>PROMOTION_DESERT_TACTICS</PromotionType>
+					<bFreePromotion>1</bFreePromotion>
+				</FreePromotion>				
+				<FreePromotion>
+					<PromotionType>PROMOTION_CAST_SCORCH</PromotionType>
+					<bFreePromotion>1</bFreePromotion>
+				</FreePromotion>
             </FreePromotions>
 			<LeaderPromotion>NONE</LeaderPromotion>
 			<iLeaderExperience>0</iLeaderExperience>
