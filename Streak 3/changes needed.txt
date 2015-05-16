@@ -12,7 +12,9 @@ ADRIAN
 
 - highlander mountain strength without promotion?
 
-- 
+- give flagbearer its ability
+
+- give beserker its ability
 
 
 Upgrade mechanism
