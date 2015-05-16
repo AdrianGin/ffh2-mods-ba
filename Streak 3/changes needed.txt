@@ -3,18 +3,6 @@ Units + Cost
 
 
 Adrian
-set unit fortify bonus to 2% per turn ( i couldnt find it :( )
-Upgrade mechanism
-
-
-Buildings - not done / no need
-
-Build Research / Wealth (50%)
-
-
-
-
-
 
 
 
