@@ -16,6 +16,11 @@ ADRIAN
 
 - give beserker its ability
 
+- give firebow its ability
+
+- give monk its ability
+
+
 
 Upgrade mechanism
 
