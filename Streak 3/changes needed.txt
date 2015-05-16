@@ -3,6 +3,9 @@ Units + Cost
 
 
 Adrian
+SET HAWK VISION RADIUS TO 3X3
+ASSIGN GOLEMS TO ALL 3 TECH LINES?
+
 set unit fortify bonus to 2% per turn ( i couldnt find it :( )
 Upgrade mechanism
 
