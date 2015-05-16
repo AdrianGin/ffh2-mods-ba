@@ -3568,6 +3568,17 @@
             <iAIWeight>50</iAIWeight>
             <BonusPrereq>BONUS_MANA_AIR</BonusPrereq>
         </PromotionInfo>
+        
+        <PromotionInfo>
+            <Type>PROMOTION_CAST_STEAL_TREASURY</Type>
+            <Description>TXT_KEY_PROMOTION_CAST_STEAL_TREASURY</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <TechPrereq>TECH_NEVER</TechPrereq>
+            <Button>Art/Interface/Buttons/Spells/thief.dds</Button>
+        </PromotionInfo>
+        
+        
+        
         <PromotionInfo>
             <Type>PROMOTION_CAST_BLUR</Type>
             <Description>TXT_KEY_PROMOTION_CAST_BLUR</Description>
@@ -3976,6 +3987,36 @@
             <Button>Art/Interface/Buttons/Promotions/AlpineTactics.dds</Button>
             <iMinLevel>-1</iMinLevel>
         </PromotionInfo>
+        
+        <PromotionInfo>
+            <Type>PROMOTION_RAIDER</Type>
+            <Description>TXT_KEY_PROMOTION_BANDIT_RAIDER</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <TechPrereq>TECH_NEVER</TechPrereq>
+            <iPillageChange>100</iPillageChange>
+            <FeatureAttacks>
+                <FeatureAttack>
+                    <FeatureType>FEATURE_JUNGLE</FeatureType>
+                    <iFeatureAttack>15</iFeatureAttack>
+                </FeatureAttack>
+                <FeatureAttack>
+                    <FeatureType>FEATURE_FOREST</FeatureType>
+                    <iFeatureAttack>15</iFeatureAttack>
+                </FeatureAttack>
+            </FeatureAttacks>
+            <FeatureDefenses>
+                <FeatureDefense>
+                    <FeatureType>FEATURE_JUNGLE</FeatureType>
+                    <iFeatureDefense>15</iFeatureDefense>
+                </FeatureDefense>
+                <FeatureDefense>
+                    <FeatureType>FEATURE_FOREST</FeatureType>
+                    <iFeatureDefense>15</iFeatureDefense>
+                </FeatureDefense>
+            </FeatureDefenses>
+            <Button>Art/Interface/Buttons/Promotions/banditraid.dds</Button>
+        </PromotionInfo>
+        
         
     </PromotionInfos>
 </Civ4PromotionInfos>

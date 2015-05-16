@@ -2421,6 +2421,64 @@ def spellRingofFlames(caster):
 				
 				
 
+def spellStealTreasury(caster):
+
+	iTeam = caster.getTeam()
+	pPlayer = gc.getPlayer(caster.getOwner())
+	
+	iX = caster.getX()
+	iY = caster.getY()
+	
+	hasCity = 0
+	cityOwner = -1
+	plotOwner = -1
+	
+	stealPercentage = 0
+	
+	for iiX in range(iX-1, iX+2, 1):
+		for iiY in range(iY-1, iY+2, 1):
+			if not (iiX == iX and iiY == iY):
+				pPlot = CyMap().plot(iiX,iiY)
+				bValid = True
+				
+				if (pPlot.getTeam() != iTeam) and (pPlot.isOwned()) :
+				
+					if pPlot.isCity():
+						pCity = pPlot.getPlotCity()
+						hasCity = 1
+						cityOwner = pPlot.getOwner()
+							
+		
+					if pPlot.getImprovementType() != -1:
+						plotOwner = pPlot.getOwner()
+						
+
+	if cityOwner != -1:
+		pVictim = gc.getPlayer(cityOwner)
+		stealPercentage = 5
+		
+	if (plotOwner != -1) and (cityOwner == -1):
+		pVictim = gc.getPlayer(plotOwner)
+		stealPercentage = 2
+		
+	if stealPercentage != 0:
+		goldSteal = (pVictim.getGold() * stealPercentage) / 100
+
+		if goldSteal == 0:
+			goldSteal = 1
+			
+		pPlayer.changeGold( goldSteal )
+		pVictim.changeGold( -goldSteal )
+		
+		CyInterface().addMessage(pPlayer.getID(),True,25,CyTranslator().getText("TXT_KEY_MESSAGE_STEAL_TREASURY", (goldSteal, ) ),'AS2D_BUILD_BANK',1,'Art/Interface/Buttons/Spells/Thief.dds',ColorTypes(8),-1,-1,False,False)
+		CyInterface().addMessage(pVictim.getID(),True,25,CyTranslator().getText("TXT_KEY_MESSAGE_STEAL_TREASURY_VICTIM", (goldSteal, )),'AS2D_BUILD_BANK',1,'Art/Interface/Buttons/Spells/Thief.dds',ColorTypes(7),-1,-1,False,False)
+		
+
+		return True
+	
+	return False
+				
+
 def reqRiverOfBlood(caster):
 	pPlayer = gc.getPlayer(caster.getOwner())
 	if pPlayer.getNumCities() == 0:

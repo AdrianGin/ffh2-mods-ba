@@ -1340,7 +1340,30 @@
             <Sound>AS2D_REPAIR</Sound>
             <bGraphicalOnly>0</bGraphicalOnly>
             <Button>Art/Interface/Buttons/Promotions/levelup.dds</Button>
-        </SpellInfo>         
+        </SpellInfo>     
+        
+        <SpellInfo>
+            <Type>SPELL_STEAL_TREASURY</Type>
+            <Description>TXT_KEY_SPELL_STEAL_TREASURY</Description>
+            <PromotionPrereq1>PROMOTION_CAST_STEAL_TREASURY</PromotionPrereq1>
+            <bGlobal>0</bGlobal>
+            <bIsTileSelect>1</bIsTileSelect>
+            <bIsUnitSelect>0</bIsUnitSelect>
+            <iSpellDistance>0</iSpellDistance>
+            <bRequiresLOS>1</bRequiresLOS> 
+            <bAllowAI>1</bAllowAI>
+            <bCausesWar>1</bCausesWar>
+            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+            <bHasCasted>1</bHasCasted>
+            <iRange>1</iRange>
+            <iDamage>0</iDamage>
+            <iDamageLimit>0</iDamageLimit>
+            <DamageType>DAMAGE_FIRE</DamageType>
+            <PyResult>spellStealTreasury(pCaster)</PyResult>
+            <!--Effect>EFFECT_RING_OF_FLAMES</Effect-->
+            <!--Sound>AS2D_BUILD_BANK</Sound-->
+            <Button>Art/Interface/Buttons/Spells/thief.dds</Button>
+        </SpellInfo>
          
     </SpellInfos>
 </Civ4SpellInfos>

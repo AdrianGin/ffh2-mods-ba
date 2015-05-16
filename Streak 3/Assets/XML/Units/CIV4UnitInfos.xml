@@ -2770,7 +2770,12 @@
 			<PrereqReligion>NONE</PrereqReligion>
 			<PrereqCorporation>NONE</PrereqCorporation>
 			<PrereqBuilding>NONE</PrereqBuilding>
-			<PrereqTech>TECH_SHOCK_TROOPS</PrereqTech>
+			<PrereqTech>NONE</PrereqTech>
+			<OrTechTypes>
+				<PrereqTech>TECH_SHOCK_TROOPS</PrereqTech>
+				<PrereqTech>TECH_REGIMENTAL_WARFARE</PrereqTech>
+				<PrereqTech>TECH_LONGBOW</PrereqTech>
+            </OrTechTypes>			
 			<TechTypes>
             </TechTypes>
 			<BonusType>NONE</BonusType>
@@ -2974,7 +2979,12 @@
 			<PrereqReligion>NONE</PrereqReligion>
 			<PrereqCorporation>NONE</PrereqCorporation>
 			<PrereqBuilding>NONE</PrereqBuilding>
-			<PrereqTech>TECH_ASSAULT_DOCTRINE</PrereqTech>
+			<PrereqTech>NONE</PrereqTech>
+			<OrTechTypes>
+				<PrereqTech>TECH_ASSAULT_DOCTRINE</PrereqTech>
+				<PrereqTech>TECH_ADVANCED_FORMATIONS</PrereqTech>
+				<PrereqTech>TECH_FIREARMS</PrereqTech>
+            </OrTechTypes>
 			<TechTypes>
             </TechTypes>
 			<BonusType>NONE</BonusType>
@@ -3208,6 +3218,7 @@
 			<OrTechTypes>
 				<PrereqTech>TECH_THE_DRAFT</PrereqTech>
 				<PrereqTech>TECH_WEAPON_FORGING</PrereqTech>
+				<PrereqTech>TECH_BOW_AND_ARROW</PrereqTech>
             </OrTechTypes>
 			<TechTypes>
 		    </TechTypes>
@@ -6206,7 +6217,11 @@
 			<bGraphicalOnly>0</bGraphicalOnly>
 			<iHotKeyPriority>0</iHotKeyPriority>
 			<FreePromotions>
-            </FreePromotions>
+				<FreePromotion>
+					<PromotionType>PROMOTION_CAST_STEAL_TREASURY</PromotionType>
+					<bFreePromotion>1</bFreePromotion>
+				</FreePromotion>
+			</FreePromotions>
 			<LeaderPromotion>NONE</LeaderPromotion>
 			<iLeaderExperience>0</iLeaderExperience>
 			<iCombatDefense>78</iCombatDefense>
@@ -6658,7 +6673,11 @@
 			<bGraphicalOnly>0</bGraphicalOnly>
 			<iHotKeyPriority>0</iHotKeyPriority>
 			<FreePromotions>
-            </FreePromotions>
+				<FreePromotion>
+					<PromotionType>PROMOTION_RAIDER</PromotionType>
+					<bFreePromotion>1</bFreePromotion>
+				</FreePromotion>
+			</FreePromotions>
 			<LeaderPromotion>NONE</LeaderPromotion>
 			<iLeaderExperience>0</iLeaderExperience>
 			<iCombatDefense>91</iCombatDefense>
