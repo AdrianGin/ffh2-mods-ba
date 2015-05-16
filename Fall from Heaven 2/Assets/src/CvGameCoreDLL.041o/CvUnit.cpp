@@ -15521,7 +15521,8 @@ void CvUnit::castAt(int spell, int iX, int iY)
         }
         if (GC.getSpellInfo((SpellTypes)spell).getSound() != NULL)
         {
-            gDLL->getInterfaceIFace()->playGeneralSound(GC.getSpellInfo((SpellTypes)spell).getSound(), plot()->getPoint());
+            //gDLL->getInterfaceIFace()->playGeneralSound(GC.getSpellInfo((SpellTypes)spell).getSound(), plot()->getPoint());
+			gDLL->getInterfaceIFace()->playGeneralSound(GC.getSpellInfo((SpellTypes)spell).getSound());
         }
         gDLL->getInterfaceIFace()->addMessage((PlayerTypes)getOwner(), true, GC.getEVENT_MESSAGE_TIME(), GC.getSpellInfo((SpellTypes)spell).getDescription(), "AS2D_WONDER_UNIT_BUILD", MESSAGE_TYPE_MAJOR_EVENT, GC.getSpellInfo((SpellTypes)spell).getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_UNIT_TEXT"), getX_INLINE(), getY_INLINE(), true, true);
     }

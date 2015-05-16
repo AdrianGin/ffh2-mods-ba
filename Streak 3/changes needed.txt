@@ -2,9 +2,13 @@ Bas
 Units + Cost
 
 
+
+To test with Bas:
+No sound when forges are built/spells etc
+
+
+
 Adrian
-
-
 
 setWithdrawChances
 Ring of fire spells are nerfed due to Assassins.
@@ -25,7 +29,7 @@ Need fix - Only galley and galleon can get longshormen atm
 MAKE IT that you can cast more than one weapon spell per turn
 Defence Units peak get +15% defence.
 
-No sound when forges are built/spells etc
+
 
 
 ========================
