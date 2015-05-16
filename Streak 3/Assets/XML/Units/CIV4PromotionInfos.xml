@@ -327,7 +327,7 @@
             <Type>PROMOTION_COMBAT1</Type>
             <Description>TXT_KEY_PROMOTION_COMBAT1</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
-            <iCombatPercent>10</iCombatPercent>
+            <iCombatPercent>3</iCombatPercent>
             <UnitCombats>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
@@ -385,7 +385,7 @@
             <Description>TXT_KEY_PROMOTION_COMBAT2</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_COMBAT1</PromotionPrereq>
-            <iCombatPercent>15</iCombatPercent>
+            <iCombatPercent>3</iCombatPercent>
             <UnitCombats>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
@@ -442,7 +442,7 @@
             <Description>TXT_KEY_PROMOTION_COMBAT3</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_COMBAT2</PromotionPrereq>
-            <iCombatPercent>20</iCombatPercent>
+            <iCombatPercent>3</iCombatPercent>
             <UnitCombats>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
@@ -499,7 +499,7 @@
             <Description>TXT_KEY_PROMOTION_COMBAT4</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_COMBAT3</PromotionPrereq>
-            <iCombatPercent>25</iCombatPercent>
+            <iCombatPercent>3</iCombatPercent>
             <UnitCombats>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
@@ -556,7 +556,7 @@
             <Description>TXT_KEY_PROMOTION_COMBAT5</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_COMBAT4</PromotionPrereq>
-            <iCombatPercent>30</iCombatPercent>
+            <iCombatPercent>3</iCombatPercent>
             <UnitCombats>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
