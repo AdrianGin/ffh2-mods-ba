@@ -2808,6 +2808,7 @@
                 </UnitCombat>
             </UnitCombats>
             <Button>Art/Interface/Buttons/Promotions/Expandedhull.dds</Button>
+            <TechPrereq>TECH_NEVER</TechPrereq>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_BUCCANEERS</Type>
