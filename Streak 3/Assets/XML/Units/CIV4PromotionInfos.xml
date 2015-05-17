@@ -3751,7 +3751,7 @@
             </UnitCombats>
             <Button>Art/Interface/Buttons/Promotions/Air1.dds</Button>
             <iAIWeight>50</iAIWeight>
-            <BonusPrereq>BONUS_MANA_AIR</BonusPrereq>
+            <BonusPrereq></BonusPrereq>
         </PromotionInfo>
         
         <PromotionInfo>
@@ -3870,7 +3870,7 @@
             </UnitCombats>
             <Button>Art/Interface/Buttons/Promotions/Air1.dds</Button>
             <iAIWeight>50</iAIWeight>
-            <BonusPrereq>BONUS_MANA_AIR</BonusPrereq>
+            <BonusPrereq></BonusPrereq>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_CAST_TELEPORT</Type>
@@ -3885,7 +3885,7 @@
             </UnitCombats>
             <Button>Art/Interface/Buttons/Promotions/Air2.dds</Button>
             <iAIWeight>50</iAIWeight>
-            <BonusPrereq>BONUS_MANA_AIR</BonusPrereq>
+            <BonusPrereq></BonusPrereq>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_CAST_THUNDERSTRIKE</Type>
@@ -3900,7 +3900,7 @@
             </UnitCombats>
             <Button>Art/Interface/Buttons/Promotions/Air2.dds</Button>
             <iAIWeight>50</iAIWeight>
-            <BonusPrereq>BONUS_MANA_AIR</BonusPrereq>
+            <BonusPrereq></BonusPrereq>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_ENCHANT_SPELLSTAFF</Type>
@@ -3915,7 +3915,7 @@
             </UnitCombats>
             <Button>Art/Interface/Buttons/Promotions/Air3.dds</Button>
             <iAIWeight>50</iAIWeight>
-            <BonusPrereq>BONUS_MANA_AIR</BonusPrereq>
+            <BonusPrereq></BonusPrereq>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_CAST_FATIGUE</Type>
@@ -3930,7 +3930,7 @@
             </UnitCombats>
             <Button>Art/Interface/Buttons/Promotions/Air3.dds</Button>
             <iAIWeight>50</iAIWeight>
-            <BonusPrereq>BONUS_MANA_AIR</BonusPrereq>
+            <BonusPrereq></BonusPrereq>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_CAST_BLOOM</Type>
@@ -3945,7 +3945,7 @@
             </UnitCombats>
             <Button>Art/Interface/Buttons/Promotions/Earth1.dds</Button>
             <iAIWeight>50</iAIWeight>
-            <BonusPrereq>BONUS_MANA_EARTH</BonusPrereq>
+            <BonusPrereq></BonusPrereq>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_CAST_ENCHANTED_BLADE</Type>
@@ -3960,7 +3960,7 @@
             </UnitCombats>
             <Button>Art/Interface/Buttons/Promotions/Earth1.dds</Button>
             <iAIWeight>50</iAIWeight>
-            <BonusPrereq>BONUS_MANA_EARTH</BonusPrereq>
+            <BonusPrereq></BonusPrereq>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_CAST_TREETOP_DEFENCE</Type>
@@ -3975,7 +3975,7 @@
             </UnitCombats>
             <Button>Art/Interface/Buttons/Promotions/Earth1.dds</Button>
             <iAIWeight>50</iAIWeight>
-            <BonusPrereq>BONUS_MANA_EARTH</BonusPrereq>
+            <BonusPrereq></BonusPrereq>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_CAST_TERRAFORM</Type>
@@ -3990,7 +3990,7 @@
             </UnitCombats>
             <Button>Art/Interface/Buttons/Promotions/Earth2.dds</Button>
             <iAIWeight>50</iAIWeight>
-            <BonusPrereq>BONUS_MANA_EARTH</BonusPrereq>
+            <BonusPrereq></BonusPrereq>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_CAST_DISPEL</Type>
@@ -4005,7 +4005,7 @@
             </UnitCombats>
             <Button>Art/Interface/Buttons/Promotions/Earth2.dds</Button>
             <iAIWeight>50</iAIWeight>
-            <BonusPrereq>BONUS_MANA_EARTH</BonusPrereq>
+            <BonusPrereq></BonusPrereq>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_CAST_STONESKIN</Type>
@@ -4020,7 +4020,7 @@
             </UnitCombats>
             <Button>Art/Interface/Buttons/Promotions/Earth3.dds</Button>
             <iAIWeight>50</iAIWeight>
-            <BonusPrereq>BONUS_MANA_EARTH</BonusPrereq>
+            <BonusPrereq></BonusPrereq>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_CAST_INVISIBLE</Type>
@@ -4035,7 +4035,7 @@
             </UnitCombats>
             <Button>Art/Interface/Buttons/Promotions/Earth3.dds</Button>
             <iAIWeight>50</iAIWeight>
-            <BonusPrereq>BONUS_MANA_EARTH</BonusPrereq>
+            <BonusPrereq></BonusPrereq>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_CAST_SCORCH</Type>
@@ -4050,7 +4050,7 @@
             </UnitCombats>
             <Button>Art/Interface/Buttons/Promotions/Fire1.dds</Button>
             <iAIWeight>50</iAIWeight>
-            <BonusPrereq>BONUS_MANA_FIRE</BonusPrereq>
+            <BonusPrereq></BonusPrereq>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_CAST_BLINDING_LIGHT</Type>
@@ -4065,7 +4065,7 @@
             </UnitCombats>
             <Button>Art/Interface/Buttons/Promotions/Fire1.dds</Button>
             <iAIWeight>50</iAIWeight>
-            <BonusPrereq>BONUS_MANA_FIRE</BonusPrereq>
+            <BonusPrereq></BonusPrereq>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_CAST_RING_OF_FLAMES</Type>
@@ -4080,7 +4080,7 @@
             </UnitCombats>
             <Button>Art/Interface/Buttons/Promotions/Fire2.dds</Button>
             <iAIWeight>50</iAIWeight>
-            <BonusPrereq>BONUS_MANA_FIRE</BonusPrereq>
+            <BonusPrereq></BonusPrereq>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_CAST_FIERY_RAGE</Type>
@@ -4095,7 +4095,7 @@
             </UnitCombats>
             <Button>Art/Interface/Buttons/Promotions/Fire2.dds</Button>
             <iAIWeight>50</iAIWeight>
-            <BonusPrereq>BONUS_MANA_FIRE</BonusPrereq>
+            <BonusPrereq></BonusPrereq>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_CAST_FIREBALL</Type>
@@ -4110,7 +4110,7 @@
             </UnitCombats>
             <Button>Art/Interface/Buttons/Promotions/Fire3.dds</Button>
             <iAIWeight>50</iAIWeight>
-            <BonusPrereq>BONUS_MANA_FIRE</BonusPrereq>
+            <BonusPrereq></BonusPrereq>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_CAST_SHIELDING_FIRE</Type>
@@ -4125,7 +4125,7 @@
             </UnitCombats>
             <Button>Art/Interface/Buttons/Promotions/Fire3.dds</Button>
             <iAIWeight>50</iAIWeight>
-            <BonusPrereq>BONUS_MANA_FIRE</BonusPrereq>
+            <BonusPrereq></BonusPrereq>
         </PromotionInfo>   
         <PromotionInfo>
             <Type>PROMOTION_CAST_SLOW</Type>
@@ -4140,7 +4140,7 @@
             </UnitCombats>
             <Button>Art/Interface/Buttons/Promotions/Water1.dds</Button>
             <iAIWeight>50</iAIWeight>
-            <BonusPrereq>BONUS_MANA_WATER</BonusPrereq>
+            <BonusPrereq></BonusPrereq>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_CAST_DANCE_OF_BLADES</Type>
@@ -4155,7 +4155,7 @@
             </UnitCombats>
             <Button>Art/Interface/Buttons/Promotions/Water1.dds</Button>
             <iAIWeight>50</iAIWeight>
-            <BonusPrereq>BONUS_MANA_WATER</BonusPrereq>
+            <BonusPrereq></BonusPrereq>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_CAST_VITALIZE</Type>
@@ -4170,7 +4170,7 @@
             </UnitCombats>
             <Button>Art/Interface/Buttons/Promotions/Water2.dds</Button>
             <iAIWeight>50</iAIWeight>
-            <BonusPrereq>BONUS_MANA_WATER</BonusPrereq>
+            <BonusPrereq></BonusPrereq>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_CAST_WEAK</Type>
@@ -4185,7 +4185,7 @@
             </UnitCombats>
             <Button>Art/Interface/Buttons/Promotions/Water2.dds</Button>
             <iAIWeight>50</iAIWeight>
-            <BonusPrereq>BONUS_MANA_WATER</BonusPrereq>
+            <BonusPrereq></BonusPrereq>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_CAST_SACRIFICE</Type>
@@ -4200,7 +4200,7 @@
             </UnitCombats>
             <Button>Art/Interface/Buttons/Promotions/Water3.dds</Button>
             <iAIWeight>50</iAIWeight>
-            <BonusPrereq>BONUS_MANA_WATER</BonusPrereq>
+            <BonusPrereq></BonusPrereq>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_CAST_BANISH</Type>
@@ -4215,7 +4215,7 @@
             </UnitCombats>
             <Button>Art/Interface/Buttons/Promotions/Water3.dds</Button>
             <iAIWeight>50</iAIWeight>
-            <BonusPrereq>BONUS_MANA_WATER</BonusPrereq>
+            <BonusPrereq></BonusPrereq>
         </PromotionInfo>
         
 		<PromotionInfo>
