@@ -2403,6 +2403,76 @@ def spellRevelation(caster):
 					if pUnit.isHasPromotion(iIllusion):
 						pUnit.kill(True, caster.getOwner())
 
+
+def spellGiveGrowth(caster, newPromo):
+	pPlayer = gc.getPlayer(caster.getOwner())
+	iTeam = pPlayer.getTeam()
+	
+	
+	#Remove all buffs, and only add 
+	lList = []
+	lList = lList + [gc.getInfoTypeForString('PROMOTION_GROWTH')]
+	lList = lList + [gc.getInfoTypeForString('PROMOTION_GIANT_GROWTH')]
+	lList = lList + [gc.getInfoTypeForString('PROMOTION_TITANIC_GROWTH')]
+	
+	for iUnit in range(pPlot.getNumUnits()):
+		pUnit = pPlot.getUnit(iUnit)
+		if pUnit.getTeam() != iTeam:
+	
+			for promo in lList:
+				if pUnit.isHasPromotion(promo):
+					pUnit.setHasPromotion(promo, False)
+	
+	
+			pUnit.setHasPromotion(promo, True)
+	
+
+def spellGiveGrowth(caster, pPlot, newPromo):
+	pPlayer = gc.getPlayer(caster.getOwner())
+	iTeam = pPlayer.getTeam()
+	
+	
+	#Remove all buffs, and only add 
+	lList = []
+	lList = lList + [gc.getInfoTypeForString('PROMOTION_GROWTH1')]
+	lList = lList + [gc.getInfoTypeForString('PROMOTION_GROWTH2')]
+	lList = lList + [gc.getInfoTypeForString('PROMOTION_GROWTH3')]
+	
+	for iUnit in range(pPlot.getNumUnits()):
+		pUnit = pPlot.getUnit(iUnit)
+		if pUnit.getTeam() == iTeam:
+	
+			for promo in lList:
+				if pUnit.isHasPromotion(promo):
+					pUnit.setHasPromotion(promo, False)
+	
+	
+			pUnit.setHasPromotion(gc.getInfoTypeForString(newPromo), True)
+
+
+def spellGiveMorale(caster, pPlot, newPromo):
+	pPlayer = gc.getPlayer(caster.getOwner())
+	iTeam = pPlayer.getTeam()
+	
+	
+	#Remove all buffs, and only add 
+	lList = []
+	lList = lList + [gc.getInfoTypeForString('PROMOTION_FLAG_BEARER_MORALE')]
+	
+	for iUnit in range(pPlot.getNumUnits()):
+		pUnit = pPlot.getUnit(iUnit)
+		if pUnit.getTeam() == iTeam:
+	
+			for promo in lList:
+				if pUnit.isHasPromotion(promo):
+					pUnit.setHasPromotion(promo, False)
+	
+	
+			pUnit.setHasPromotion(gc.getInfoTypeForString(newPromo), True)
+
+
+
+
 def spellRingofFlames(caster):
 	iX = caster.getX()
 	iY = caster.getY()
@@ -2965,6 +3035,12 @@ def spellSteal(caster):
 								if gc.getUnitInfo(iUnit).getBuildings(iBuild):
 									pCity.setNumRealBuilding(iBuild, 0)
 									caster.setHasPromotion(gc.getUnitInfo(iUnit).getEquipmentPromotion(), True)
+
+
+
+
+
+
 
 def reqTakeEquipmentBuilding(caster,unit):
 	if caster.getUnitCombatType() == gc.getInfoTypeForString('UNITCOMBAT_NAVAL'):

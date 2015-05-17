@@ -1365,5 +1365,97 @@
             <Button>Art/Interface/Buttons/Spells/thief.dds</Button>
         </SpellInfo>
          
+        <SpellInfo>
+            <Type>SPELL_FLAG_RALLY</Type>
+            <Description>TXT_KEY_SPELL_FLAG_RALLY</Description>
+            <PromotionPrereq1>PROMOTION_CAST_FLAG_BEARER_RALLY</PromotionPrereq1>
+            <bGlobal>0</bGlobal>
+            <bIsTileSelect>1</bIsTileSelect>
+            <bIsUnitSelect>0</bIsUnitSelect>
+            <iSpellDistance>0</iSpellDistance>
+            <bRequiresLOS>1</bRequiresLOS> 
+            <bAllowAI>1</bAllowAI>
+            <bCausesWar>1</bCausesWar>
+            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+            <bHasCasted>1</bHasCasted>
+            <iRange>1</iRange>
+            <iDamage>0</iDamage>
+            <iDamageLimit>0</iDamageLimit>
+            <DamageType>DAMAGE_FIRE</DamageType>
+            <PyResult>spellGiveMorale(pCaster, pPlot, 'PROMOTION_FLAG_BEARER_MORALE')</PyResult>
+            <Effect>EFFECT_SPELL1</Effect>
+            <!--Sound>AS2D_BUILD_BANK</Sound-->
+            <Button>Art/Interface/Buttons/Promotions/Morale.dds</Button>
+        </SpellInfo>         
+         
+        <SpellInfo>
+            <Type>SPELL_GROWTH1</Type>
+            <Description>TXT_KEY_SPELL_GROWTH1</Description>
+            <PromotionPrereq1>PROMOTION_CAST_GROWTH1</PromotionPrereq1>
+            <bGlobal>0</bGlobal>
+            <bIsTileSelect>1</bIsTileSelect>
+            <bIsUnitSelect>0</bIsUnitSelect>
+            <iSpellDistance>0</iSpellDistance>
+            <bRequiresLOS>1</bRequiresLOS> 
+            <bAllowAI>1</bAllowAI>
+            <bCausesWar>1</bCausesWar>
+            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+            <bHasCasted>1</bHasCasted>
+            <iRange>1</iRange>
+            <iDamage>0</iDamage>
+            <iDamageLimit>0</iDamageLimit>
+            <DamageType>DAMAGE_FIRE</DamageType>
+            <PyResult>spellGiveGrowth(pCaster, pPlot, 'PROMOTION_GROWTH1')</PyResult>
+            <Effect>EFFECT_SPELL1</Effect>
+            <!--Sound>AS2D_BUILD_BANK</Sound-->
+            <Button>Art/Interface/Buttons/Spells/Growth1.dds</Button>
+        </SpellInfo> 
+        
+        <SpellInfo>
+            <Type>SPELL_GROWTH2</Type>
+            <Description>TXT_KEY_SPELL_GROWTH2</Description>
+            <PromotionPrereq1>PROMOTION_CAST_GROWTH2</PromotionPrereq1>
+            <bGlobal>0</bGlobal>
+            <bIsTileSelect>1</bIsTileSelect>
+            <bIsUnitSelect>0</bIsUnitSelect>
+            <iSpellDistance>0</iSpellDistance>
+            <bRequiresLOS>1</bRequiresLOS> 
+            <bAllowAI>1</bAllowAI>
+            <bCausesWar>1</bCausesWar>
+            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+            <bHasCasted>1</bHasCasted>
+            <iRange>1</iRange>
+            <iDamage>0</iDamage>
+            <iDamageLimit>0</iDamageLimit>
+            <DamageType>DAMAGE_FIRE</DamageType>
+            <PyResult>spellGiveGrowth(pCaster, pPlot, 'PROMOTION_GROWTH2')</PyResult>
+            <Effect>EFFECT_SPELL1</Effect>
+            <!--Sound>AS2D_BUILD_BANK</Sound-->
+            <Button>Art/Interface/Buttons/Spells/Growth2.dds</Button>
+        </SpellInfo> 
+         
+        <SpellInfo>
+            <Type>SPELL_GROWTH3</Type>
+            <Description>TXT_KEY_SPELL_GROWTH3</Description>
+            <PromotionPrereq1>PROMOTION_CAST_GROWTH3</PromotionPrereq1>
+            <bGlobal>0</bGlobal>
+            <bIsTileSelect>1</bIsTileSelect>
+            <bIsUnitSelect>0</bIsUnitSelect>
+            <iSpellDistance>0</iSpellDistance>
+            <bRequiresLOS>1</bRequiresLOS> 
+            <bAllowAI>1</bAllowAI>
+            <bCausesWar>1</bCausesWar>
+            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+            <bHasCasted>1</bHasCasted>
+            <iRange>1</iRange>
+            <iDamage>0</iDamage>
+            <iDamageLimit>0</iDamageLimit>
+            <DamageType>DAMAGE_FIRE</DamageType>
+            <PyResult>spellGiveGrowth(pCaster, pPlot, 'PROMOTION_GROWTH3')</PyResult>
+            <Effect>EFFECT_SPELL1</Effect>
+            <!--Sound>AS2D_BUILD_BANK</Sound-->
+            <Button>Art/Interface/Buttons/Spells/Growth3.dds</Button>
+        </SpellInfo>          
+         
     </SpellInfos>
 </Civ4SpellInfos>

@@ -6012,7 +6012,11 @@
 			<bCtrlDown>0</bCtrlDown>
 			<bGraphicalOnly>0</bGraphicalOnly>
 			<iHotKeyPriority>0</iHotKeyPriority>
-			<FreePromotions>
+			<FreePromotions>	
+				<FreePromotion>
+					<PromotionType>PROMOTION_CAST_FLAG_BEARER_RALLY</PromotionType>
+					<bFreePromotion>1</bFreePromotion>
+				</FreePromotion>
             </FreePromotions>
 			<LeaderPromotion>NONE</LeaderPromotion>
 			<iLeaderExperience>0</iLeaderExperience>

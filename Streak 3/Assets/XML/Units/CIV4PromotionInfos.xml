@@ -3717,6 +3717,99 @@
         </PromotionInfo>
         
         
+        <PromotionInfo>
+            <Type>PROMOTION_CAST_FLAG_BEARER_RALLY</Type>
+            <Description>TXT_KEY_PROMOTION_CAST_FLAG_BEARER_RALLY</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <TechPrereq>TECH_NEVER</TechPrereq>
+            <Button>Art/Interface/Buttons/Promotions/morale.dds</Button>
+        </PromotionInfo>        
+        
+        <PromotionInfo>
+            <Type>PROMOTION_FLAG_BEARER_MORALE</Type>
+            <Description>TXT_KEY_PROMOTION_FLAG_BEARER_MORALE</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <TechPrereq>TECH_NEVER</TechPrereq>
+            <iCombatPercent>5</iCombatPercent>
+            <Button>Art/Interface/Buttons/Promotions/morale.dds</Button>
+            <iExpireChance>100</iExpireChance>
+        </PromotionInfo>            
+        
+        
+        <PromotionInfo>
+            <Type>PROMOTION_CAST_GROWTH1</Type>
+            <Description>TXT_KEY_SPELL_GROWTH1</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <Button>Art/Interface/Buttons/Spells/Growth1.dds</Button>
+            <PromotionPrereq>PROMOTION_CHANNELING1</PromotionPrereq>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+        </PromotionInfo>        
+        
+        <PromotionInfo>
+            <Type>PROMOTION_GROWTH1</Type>
+            <Description>TXT_KEY_PROMOTION_GROWTH1</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <TechPrereq>TECH_NEVER</TechPrereq>
+            <iCombatPercent>5</iCombatPercent>
+            <Button>Art/Interface/Buttons/Spells/Growth1.dds</Button>
+            <iExpireChance>100</iExpireChance>
+        </PromotionInfo>  
+        
+        
+        <PromotionInfo>
+            <Type>PROMOTION_CAST_GROWTH2</Type>
+            <Description>TXT_KEY_SPELL_GROWTH2</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <Button>Art/Interface/Buttons/Spells/Growth2.dds</Button>
+            <PromotionPrereq>PROMOTION_CHANNELING2</PromotionPrereq>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>            
+        </PromotionInfo>        
+        
+        <PromotionInfo>
+            <Type>PROMOTION_GROWTH2</Type>
+            <Description>TXT_KEY_PROMOTION_GROWTH2</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <TechPrereq>TECH_NEVER</TechPrereq>
+            <iCombatPercent>10</iCombatPercent>
+            <Button>Art/Interface/Buttons/Spells/Growth2.dds</Button>
+            <iExpireChance>100</iExpireChance>
+        </PromotionInfo>  
+                
+        
+        <PromotionInfo>
+            <Type>PROMOTION_CAST_GROWTH3</Type>
+            <Description>TXT_KEY_SPELL_GROWTH3</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <Button>Art/Interface/Buttons/Spells/Growth3.dds</Button>
+            <PromotionPrereq>PROMOTION_CHANNELING3</PromotionPrereq>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>            
+        </PromotionInfo>        
+        
+        <PromotionInfo>
+            <Type>PROMOTION_GROWTH3</Type>
+            <Description>TXT_KEY_PROMOTION_GROWTH3</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <TechPrereq>TECH_NEVER</TechPrereq>
+            <iCombatPercent>15</iCombatPercent>
+            <Button>Art/Interface/Buttons/Spells/Growth3.dds</Button>
+            <iExpireChance>100</iExpireChance>
+        </PromotionInfo>  
+                        
         
         <PromotionInfo>
             <Type>PROMOTION_CAST_BLUR</Type>
