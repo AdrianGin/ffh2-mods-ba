@@ -1400,6 +1400,15 @@ def spellHeal(caster,amount):
 		if pUnit.isAlive():
 			pUnit.changeDamage(-amount,0) #player doesn't matter - it won't kill
 
+
+def spellHealRange(caster, pTarget, amount):
+	pPlot = caster.plot()
+	if pTarget.isAlive():
+		pTarget.changeDamage(-amount,0) #player doesn't matter - it won't kill
+
+
+
+
 def reqHealingSalve(caster):
 	if caster.getDamage() == 0:
 		return False

@@ -81,7 +81,31 @@
             <bGraphicalOnly>1</bGraphicalOnly>
             <Button>Art/Interface/Buttons/Promotions/Skeletoncrew.dds</Button>
         </SpellInfo>
+        
+        
         <SpellInfo>
+            <Type>SPELL_HEAL</Type>
+            <Description>TXT_KEY_SPELL_HEAL</Description>
+            <PromotionPrereq1>PROMOTION_HEAL1</PromotionPrereq1>
+            <bGlobal>0</bGlobal>
+            <bIsTileSelect>1</bIsTileSelect>
+            <bIsUnitSelect>1</bIsUnitSelect>
+            <iSpellDistance>1</iSpellDistance>
+            <bRequiresLOS>1</bRequiresLOS>  
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+            <bHasCasted>1</bHasCasted>
+            <DamageType>DAMAGE_FIRE</DamageType>
+            <PyResult>spellHealRange(pCaster, pTarget, 8)</PyResult>
+            <!--PyRequirement>reqHeal(pCaster)</PyRequirement-->
+            <Effect>EFFECT_CREATION</Effect>
+            <Sound>AS3D_SPELL_HEAL</Sound>
+            <Button>Art/Interface/Buttons/Spells/Heal.dds</Button>
+        </SpellInfo>        
+        
+        
+        
+        <!--SpellInfo>
             <Type>SPELL_HEAL</Type>
             <Description>TXT_KEY_SPELL_HEAL</Description>
             <Civilopedia>Heals 8HP to all units in the stack.</Civilopedia>
@@ -95,7 +119,8 @@
             <Effect>EFFECT_CREATION</Effect>
             <Sound>AS3D_SPELL_HEAL</Sound>
             <Button>Art/Interface/Buttons/Spells/Heal.dds</Button>
-        </SpellInfo>
+        </SpellInfo-->
+        
         <SpellInfo>
             <Type>SPELL_GREATER_HEALING</Type>
             <Description>TXT_KEY_SPELL_GREATER_HEALING</Description>
