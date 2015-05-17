@@ -83,6 +83,7 @@
 	<ElementType name="iChangePopulation" content="textOnly" dt:type="int"/>
 	<ElementType name="iCost" content="textOnly" dt:type="int"/>
 	<ElementType name="iDelay" content="textOnly" dt:type="int"/>
+	<ElementType name="iCooldown" content="textOnly" dt:type="int"/>
 	<ElementType name="iImmobileTurns" content="textOnly" dt:type="int"/>
 	<ElementType name="iMiscastChance" content="textOnly" dt:type="int"/>
 	<ElementType name="PyMiscast" content="textOnly"/>
@@ -179,6 +180,7 @@
 		<element type="iChangePopulation" minOccurs="0"/>
 		<element type="iCost" minOccurs="0"/>
 		<element type="iDelay" minOccurs="0"/>
+		<element type="iCooldown" minOccurs="0"/>
 		<element type="iImmobileTurns" minOccurs="0"/>
 		<element type="iMiscastChance" minOccurs="0"/>
 		<element type="PyMiscast" minOccurs="0"/>

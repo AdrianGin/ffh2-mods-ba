@@ -672,6 +672,10 @@ void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szString, const CvUnit* pUnit, 
 		szString.append(szTempBuffer);
 	}
 
+
+
+
+
 	if (pUnit->getImmobileTimer() > 0)
 	{
 		szString.append(L", ");
@@ -741,8 +745,24 @@ void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szString, const CvUnit* pUnit, 
 	{
 		if (pUnit->isHasPromotion((PromotionTypes)iI))
 		{
-			szTempBuffer.Format(L"<img=%S size=16></img>", GC.getPromotionInfo((PromotionTypes)iI).getButton());
-			szString.append(szTempBuffer);
+
+
+			if( GC.getPromotionInfo((PromotionTypes)iI).getExpireTurns() )
+			{
+				int iTurnsLeft = GC.getPromotionInfo((PromotionTypes)iI).getExpireTurns() - pUnit->getPromotionDuration((PromotionTypes)iI);
+				szString.append(L"\n");
+				szTempBuffer.Format(L"<img=%S size=16></img>", GC.getPromotionInfo((PromotionTypes)iI).getButton());
+				szString.append(szTempBuffer);
+				szString.append(gDLL->getText("TXT_KEY_UNIT_HELP_PROMO_EXPIRE_TURNS", GC.getPromotionInfo((PromotionTypes)iI).getDescription(), iTurnsLeft));
+			}
+			else
+			{
+				szTempBuffer.Format(L"<img=%S size=16></img>", GC.getPromotionInfo((PromotionTypes)iI).getButton());
+				szString.append(szTempBuffer);
+			}
+
+
+
 		}
 	}
     if (bAlt && (gDLL->getChtLvl() > 0))
@@ -6260,6 +6280,12 @@ void CvGameTextMgr::parsePromotionHelp(CvWStringBuffer &szBuffer, PromotionTypes
         szBuffer.append(pcNewline);
         szBuffer.append(gDLL->getText("TXT_KEY_PROMOTION_EXPIRE_CHANCE", GC.getPromotionInfo(ePromotion).getExpireChance()));
     }
+    if (GC.getPromotionInfo(ePromotion).getExpireTurns() != 0)
+    {
+        szBuffer.append(pcNewline);
+        szBuffer.append(gDLL->getText("TXT_KEY_PROMOTION_EXPIRE_TURNS", GC.getPromotionInfo(ePromotion).getExpireTurns()));
+    }
+
     if (GC.getPromotionInfo(ePromotion).isRemovedByCasting())
     {
         szBuffer.append(pcNewline);

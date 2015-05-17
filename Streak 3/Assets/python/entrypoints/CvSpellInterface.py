@@ -3423,7 +3423,7 @@ def reqTerraform(caster):
 
 def spellTerraform(caster):
 	pPlot = caster.plot()
-	pPlot.setFeatureType(-1,0)
+#	pPlot.setFeatureType(-1,0)
 	pPlot.setImprovementType(-1)
 	
 	if pPlot.getPlotType() == PlotTypes.PLOT_HILLS:
@@ -4373,5 +4373,11 @@ def spellBanish(caster, plot, target):
 	
 	
 	
-		
+def spellBeserk(caster):
+	
+	caster.cast( gc.getInfoTypeForString('SPELL_CAST_BESERK_RECOVER') )
+	
+	
+	
+			
 	

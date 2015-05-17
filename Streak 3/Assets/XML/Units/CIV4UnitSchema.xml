@@ -971,6 +971,7 @@
   <ElementType name="iCombatPercentGlobalCounter" content="textOnly" dt:type="int" />
   <ElementType name="iCombatPercentInBorders" content="textOnly" dt:type="int" />
   <ElementType name="iExpireChance" content="textOnly" dt:type="int" />
+  <ElementType name="iExpireTurns" content="textOnly" dt:type="int" />
   <ElementType name="iExtraCombatStr" content="textOnly" dt:type="int" />
   <ElementType name="iExtraCombatStrPercent" content="textOnly" dt:type="int" />
   
@@ -1114,6 +1115,7 @@
     <element type="iDefensiveStrikeChance" minOccurs="0" />
     <element type="iDefensiveStrikeDamage" minOccurs="0" />
     <element type="iExpireChance" minOccurs="0" />
+    <element type="iExpireTurns" minOccurs="0" />
     <element type="iExtraCombatStr" minOccurs="0" />
     <element type="iExtraCombatDefense" minOccurs="0" />
     <element type="iFreeXPPerTurn" minOccurs="0" />

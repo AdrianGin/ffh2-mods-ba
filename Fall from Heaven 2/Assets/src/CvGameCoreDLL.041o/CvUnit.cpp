@@ -43,6 +43,9 @@ CvUnit::CvUnit()
 
 	m_pabHasPromotion = NULL;
 
+	m_paiSpellCooldown = NULL;
+	m_paiPromotionDurations = NULL;
+
 	m_paiTerrainDoubleMoveCount = NULL;
 	m_paiFeatureDoubleMoveCount = NULL;
 	m_paiExtraTerrainAttackPercent = NULL;
@@ -316,6 +319,11 @@ void CvUnit::uninit()
 	SAFE_DELETE_ARRAY(m_paiBonusAffinityAmount);
 	SAFE_DELETE_ARRAY(m_paiDamageTypeCombat);
 	SAFE_DELETE_ARRAY(m_paiDamageTypeResist);
+
+	SAFE_DELETE_ARRAY(m_paiSpellCooldown);
+	SAFE_DELETE_ARRAY(m_paiPromotionDurations);
+	
+
 //FfH: End Add
 
 	SAFE_DELETE_ARRAY(m_pabHasPromotion);
@@ -496,6 +504,21 @@ void CvUnit::reset(int iID, UnitTypes eUnit, PlayerTypes eOwner, bool bConstruct
             m_paiBonusAffinity[iI] = 0;
             m_paiBonusAffinityAmount[iI] = 0;
         }
+
+		m_paiSpellCooldown = new int[GC.getNumSpellInfos()];
+        for (iI = 0; iI < GC.getNumSpellInfos(); iI++)
+        {
+            m_paiSpellCooldown[iI] = 0;
+        }
+
+
+		m_paiPromotionDurations = new int[GC.getNumPromotionInfos()];
+        for (iI = 0; iI < GC.getNumPromotionInfos(); iI++)
+        {
+            m_paiPromotionDurations[iI] = 0;
+        }
+		
+
 	}
 //FfH: End Add
 /*************************************************************************************************/
@@ -1143,6 +1166,20 @@ void CvUnit::doTurn()
                     setHasPromotion(((PromotionTypes)iI), false);
                 }
 		    }
+
+			
+			
+
+			if(GC.getPromotionInfo((PromotionTypes)iI).getExpireTurns())
+			{
+				changePromotionDuration((PromotionTypes)iI, 1);
+				if( getPromotionDuration((PromotionTypes)iI) >= GC.getPromotionInfo((PromotionTypes)iI).getExpireTurns() )
+				{
+					changePromotionDuration((PromotionTypes)iI, -GC.getPromotionInfo((PromotionTypes)iI).getExpireTurns());
+					setHasPromotion(((PromotionTypes)iI), false);
+				}
+			}
+
             if (!isHurt())
             {
                 if (GC.getPromotionInfo((PromotionTypes)iI).isRemovedWhenHealed())
@@ -1253,6 +1290,10 @@ void CvUnit::doTurn()
 //		}
 //	}
 //FfH:End Modify
+	for (iI = 0; iI < GC.getNumSpellInfos(); iI++)
+	{
+		changeSpellCooldown((SpellTypes)iI, -1);
+	}
 
 	changeImmobileTimer(-1);
 
@@ -14338,6 +14379,13 @@ bool CvUnit::canCast(int spell, bool bTestVisible)
 		return false;
 	}
 */
+
+	if( getSpellCooldown(eSpell) != 0)
+	{
+		return false;
+	}
+
+
     if (!isHuman())
     {
         if (!GC.getSpellInfo(eSpell).isAllowAI())
@@ -15425,6 +15473,12 @@ void CvUnit::castAt(int spell, int iX, int iY)
         }
         setDelayedSpell(NO_SPELL);
     }
+
+	if (GC.getSpellInfo((SpellTypes)spell).getCooldown() > 0)
+    {
+		changeSpellCooldown((SpellTypes)spell, GC.getSpellInfo((SpellTypes)spell).getCooldown());
+    }
+
     if (GC.getSpellInfo((SpellTypes)spell).getCreateUnitType() != -1)
     {
         int iUnitNum = GC.getSpellInfo((SpellTypes)spell).getCreateUnitNum();
@@ -17784,6 +17838,63 @@ void CvUnit::changeDamageTypeResist(DamageTypes eIndex, int iChange)
         m_paiDamageTypeResist[eIndex] = (m_paiDamageTypeResist[eIndex] + iChange);
     }
 }
+
+
+
+int CvUnit::getSpellCooldown(SpellTypes eIndex) const
+{
+    int i = m_paiSpellCooldown[eIndex];
+    if (i <= 0)
+    {
+        return 0;
+    }
+    if (i >= 100)
+    {
+        return 100;
+    }
+	return i;
+}
+
+void CvUnit::changeSpellCooldown(SpellTypes eIndex, int iChange)
+{
+    if (iChange != 0)
+    {
+        m_paiSpellCooldown[eIndex] = (m_paiSpellCooldown[eIndex] + iChange);
+		if( m_paiSpellCooldown[eIndex] < 0 )
+		{
+			m_paiSpellCooldown[eIndex] = 0;
+		}
+    }
+}
+
+
+int CvUnit::getPromotionDuration(PromotionTypes eIndex) const
+{
+    int i = m_paiPromotionDurations[eIndex];
+    if (i <= 0)
+    {
+        return 0;
+    }
+    if (i >= 10000)
+    {
+        return 10000;
+    }
+	return i;
+}
+
+
+void CvUnit::changePromotionDuration(PromotionTypes eIndex, int iChange)
+{
+    if (iChange != 0)
+    {
+        m_paiPromotionDurations[eIndex] = (m_paiPromotionDurations[eIndex] + iChange);
+		if( m_paiPromotionDurations[eIndex] < 0 )
+		{
+			m_paiPromotionDurations[eIndex] = 0;
+		}
+    }
+}
+
 
 int CvUnit::countUnitsWithinRange(int iRange, bool bEnemy, bool bNeutral, bool bTeam)
 {
