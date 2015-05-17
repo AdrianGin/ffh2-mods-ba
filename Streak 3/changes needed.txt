@@ -3,28 +3,21 @@ ADRIAN
 - palace needs fourth mana type (water) can only give 3 bonus resources! (or we can just get rid of mana requirement for spells.
 - give flagbearer its ability
 - give beserker its ability
+- bloom & terraform spell if cast on the same tile causes bloom to not take affect
+- create monk spell
+- create lesser fireball spell
+- Game randomly crashes!!!! (linked to "BONUS_NONE")
+- golems still not working on tech tree
 
 
 
 BAS
-- highlander mountain strength without promotion? - use promotion. etc
-- give cast vitalise promotions to Elf...
-- give cast bloom promotions to Myconid
-- give cast terraform promotions to Dward
-- give heal cast promotion to Monk
-- give cast fireball promotion to firebow
+- give heal cast promotion to Monk - will do when spell implemented
+- give cast fireball promotion to firebow - will do when spell implemented
+
 
 
 ==Adrian Done, Bas Test
-- Hawk needs its vision radius adjusted from 5x5 to 3x3
-- golems need to be unlocked via 3 main thech lines (currently only on one)
-
-- give bandit x2 pillage, also i cant figure out how to give forest/jungle def! (Use Promotion)
-- give thief steal ability. Message for money being stolen.
-
-
-
-
 
 
 
@@ -34,6 +27,7 @@ Upgrade mechanism
 
 To test with Bas:
 No sound when forges are built/spells etc
+test message for thief stealing
 
 
 

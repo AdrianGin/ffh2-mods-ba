@@ -2416,6 +2416,34 @@
         </PromotionInfo>
         
         <PromotionInfo>
+            <Type>PROMOTION_DESERT_TACTICS</Type>
+            <Description>Desert Tactics</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>,Art/Interface/Buttons/Promotions/Guerilla1.dds,Art/Interface/Buttons/Promotions_Atlas.dds,5,5</Button>
+            <PromotionNextLevel>NONE</PromotionNextLevel>
+            <TechPrereq>TECH_NEVER</TechPrereq>
+            <TerrainAttacks>
+                <TerrainAttack>
+                    <TerrainType>TERRAIN_DESERT</TerrainType>
+                    <iTerrainAttack>20</iTerrainAttack>
+                </TerrainAttack>
+            </TerrainAttacks>
+            <TerrainDefenses>
+                <TerrainDefense>
+                    <TerrainType>TERRAIN_DESERT</TerrainType>
+                    <iTerrainDefense>20</iTerrainDefense>
+                </TerrainDefense>
+            </TerrainDefenses>
+            <iMinLevel>-1</iMinLevel>
+        </PromotionInfo>
+        
+        <PromotionInfo>
             <Type>PROMOTION_HILL_WALK</Type>
             <Description>Hill Walk</Description>
             <Sound>AS2D_IF_LEVELUP</Sound> 
@@ -2860,6 +2888,24 @@
             </UnitCombats>
             <Button>Art/Interface/Buttons/Promotions/Sentry2.dds</Button>
         </PromotionInfo>
+        
+        <PromotionInfo>
+            <Type>PROMOTION_CROWS_NEST</Type>
+            <Description>Crows Nest</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PromotionPrereq>NONE</PromotionPrereq>
+            <TechPrereq>TECH_NEVER</TechPrereq>
+            <iVisibilityChange>1</iVisibilityChange>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Promotions/Sentry1.dds</Button>
+            <iMinLevel>-1</iMinLevel>
+        </PromotionInfo>
+        
         <PromotionInfo>
             <Type>PROMOTION_MARKSMAN</Type>
             <Description>Marksman</Description>
