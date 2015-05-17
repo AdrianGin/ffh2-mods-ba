@@ -626,7 +626,7 @@
             <bInCityOnly>1</bInCityOnly>
             <bHasCasted>1</bHasCasted>
             <iCost>34</iCost>
-            <PyRequirement>reqBeastAbility(pCaster, 'PROMOTION_BEASTSTRENGTH1', ['BONUS_NONE'])</PyRequirement>
+            <PyRequirement>reqBeastAbility(pCaster, 'PROMOTION_BEASTSTRENGTH1', [''])</PyRequirement>
             <PyResult>spellHumanWeaponsArmour(pCaster, 'PROMOTION_BEASTSTRENGTH1')</PyResult>
             <Effect>EFFECT_SPELL1</Effect>
             <Sound>AS2D_REPAIR</Sound>
