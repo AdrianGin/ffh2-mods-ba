@@ -13,7 +13,6 @@ ADRIAN
 
 BAS
 - finish dragon stats
-- give cast fireball promotion to firebow - will do when spell implemented
 
 
 To Do:

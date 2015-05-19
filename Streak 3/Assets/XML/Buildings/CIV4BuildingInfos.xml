@@ -2095,7 +2095,7 @@
             </HappinessTraits>
             <NoBonus>NONE</NoBonus>
             <PowerBonus>NONE</PowerBonus>
-            <FreeBonus>BONUS_MANA_AIR</FreeBonus>
+            <FreeBonus>NONE</FreeBonus>
             <iNumFreeBonuses>1</iNumFreeBonuses>
             <FreeBuilding>NONE</FreeBuilding>
             <FreePromotion>NONE</FreePromotion>
@@ -2273,8 +2273,8 @@
             <iModifyGlobalCounter>0</iModifyGlobalCounter>
             <iPlotRadius>0</iPlotRadius>
             <iResistMagic>0</iResistMagic>
-            <FreeBonus2>BONUS_MANA_EARTH</FreeBonus2>
-            <FreeBonus3>BONUS_MANA_FIRE</FreeBonus3>
+            <FreeBonus2>NONE</FreeBonus2>
+            <FreeBonus3>NONE</FreeBonus3>
             <PrereqCiv>CIVILIZATION_AIR</PrereqCiv>
             <PrereqTrait>NONE</PrereqTrait>
             <RemovePromotion>NONE</RemovePromotion>
@@ -2317,7 +2317,7 @@
             </HappinessTraits>
             <NoBonus>NONE</NoBonus>
             <PowerBonus>NONE</PowerBonus>
-            <FreeBonus>BONUS_COPPER</FreeBonus>
+            <FreeBonus>NONE</FreeBonus>
             <iNumFreeBonuses>1</iNumFreeBonuses>
             <FreeBuilding>NONE</FreeBuilding>
             <FreePromotion>NONE</FreePromotion>
@@ -2495,8 +2495,8 @@
             <iModifyGlobalCounter>0</iModifyGlobalCounter>
             <iPlotRadius>0</iPlotRadius>
             <iResistMagic>0</iResistMagic>
-            <FreeBonus2>BONUS_MANA_EARTH</FreeBonus2>
-            <FreeBonus3>BONUS_MANA_FIRE</FreeBonus3>  
+            <FreeBonus2>NONE</FreeBonus2>
+            <FreeBonus3>NONE</FreeBonus3>  
             <PrereqCiv></PrereqCiv>
             <PrereqTrait>NONE</PrereqTrait>
             <RemovePromotion>NONE</RemovePromotion>
@@ -2540,7 +2540,7 @@
             </HappinessTraits>
             <NoBonus>NONE</NoBonus>
             <PowerBonus>NONE</PowerBonus>
-            <FreeBonus>BONUS_MANA_AIR</FreeBonus>
+            <FreeBonus>NONE</FreeBonus>
             <iNumFreeBonuses>1</iNumFreeBonuses>
             <FreeBuilding>NONE</FreeBuilding>
             <FreePromotion>NONE</FreePromotion>
@@ -2718,8 +2718,8 @@
             <iModifyGlobalCounter>0</iModifyGlobalCounter>
             <iPlotRadius>0</iPlotRadius>
             <iResistMagic>0</iResistMagic>
-            <FreeBonus2>BONUS_MANA_EARTH</FreeBonus2>
-            <FreeBonus3>BONUS_MANA_FIRE</FreeBonus3>
+            <FreeBonus2>NONE</FreeBonus2>
+            <FreeBonus3>NONE</FreeBonus3>
             <PrereqCiv>CIVILIZATION_EARTH</PrereqCiv>
             <PrereqTrait>NONE</PrereqTrait>
             <RemovePromotion>NONE</RemovePromotion>
@@ -2763,7 +2763,7 @@
             </HappinessTraits>
             <NoBonus>NONE</NoBonus>
             <PowerBonus>NONE</PowerBonus>
-            <FreeBonus>BONUS_MANA_AIR</FreeBonus>
+            <FreeBonus>NONE</FreeBonus>
             <iNumFreeBonuses>1</iNumFreeBonuses>
             <FreeBuilding>NONE</FreeBuilding>
             <FreePromotion>NONE</FreePromotion>
@@ -2941,8 +2941,8 @@
             <iModifyGlobalCounter>0</iModifyGlobalCounter>
             <iPlotRadius>0</iPlotRadius>
             <iResistMagic>0</iResistMagic>
-            <FreeBonus2>BONUS_MANA_EARTH</FreeBonus2>
-            <FreeBonus3>BONUS_MANA_FIRE</FreeBonus3>
+            <FreeBonus2>NONE</FreeBonus2>
+            <FreeBonus3>NONE</FreeBonus3>
             <PrereqCiv>CIVILIZATION_FIRE</PrereqCiv>
             <PrereqTrait>NONE</PrereqTrait>
             <RemovePromotion>NONE</RemovePromotion>
@@ -2986,7 +2986,7 @@
             </HappinessTraits>
             <NoBonus>NONE</NoBonus>
             <PowerBonus>NONE</PowerBonus>
-            <FreeBonus>BONUS_MANA_AIR</FreeBonus>
+            <FreeBonus>NONE</FreeBonus>
             <iNumFreeBonuses>1</iNumFreeBonuses>
             <FreeBuilding>NONE</FreeBuilding>
             <FreePromotion>NONE</FreePromotion>
@@ -3164,8 +3164,8 @@
             <iModifyGlobalCounter>0</iModifyGlobalCounter>
             <iPlotRadius>0</iPlotRadius>
             <iResistMagic>0</iResistMagic>
-            <FreeBonus2>BONUS_MANA_EARTH</FreeBonus2>
-            <FreeBonus3>BONUS_MANA_FIRE</FreeBonus3>
+            <FreeBonus2>NONE</FreeBonus2>
+            <FreeBonus3>NONE</FreeBonus3>
             <PrereqCiv>CIVILIZATION_WATER</PrereqCiv>
             <PrereqTrait>NONE</PrereqTrait>
             <RemovePromotion>NONE</RemovePromotion>
