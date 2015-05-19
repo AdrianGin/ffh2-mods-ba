@@ -4098,8 +4098,8 @@
             <BonusPrereq>BONUS_MANA_FIRE</BonusPrereq>
         </PromotionInfo>
         <PromotionInfo>
-            <Type>PROMOTION_CAST_LESSER_FIREBALL</Type>
-            <Description>Lesser Fireball</Description>
+            <Type>PROMOTION_CAST_FIREBALL</Type>
+            <Description>Fireball</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_CHANNELING1</PromotionPrereq>
             <UnitCombats>
@@ -4113,8 +4113,8 @@
             <BonusPrereq>NONE</BonusPrereq>
         </PromotionInfo>
         <PromotionInfo>
-            <Type>PROMOTION_CAST_FIREBALL</Type>
-            <Description>TXT_KEY_PROMOTION_CAST_FIREBALL</Description>
+            <Type>PROMOTION_CAST_GREATER_FIREBALL</Type>
+            <Description>Greater Fireball</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_CHANNELING2</PromotionPrereq>
             <UnitCombats>
@@ -4128,8 +4128,8 @@
             <BonusPrereq>NONE</BonusPrereq>
         </PromotionInfo>
         <PromotionInfo>
-            <Type>PROMOTION_CAST_GREATER_FIREBALL</Type>
-            <Description>Greater Fireball</Description>
+            <Type>PROMOTION_CAST_METEOR</Type>
+            <Description>Meteor</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_CHANNELING3</PromotionPrereq>
             <UnitCombats>
