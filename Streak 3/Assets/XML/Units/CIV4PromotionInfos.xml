@@ -3949,7 +3949,7 @@
             <Type>PROMOTION_CAST_BLINDING_LIGHT</Type>
             <Description>TXT_KEY_PROMOTION_CAST_BLINDING_LIGHT</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_CHANNELING1</PromotionPrereq>
+            <PromotionPrereq>PROMOTION_CHANNELING2</PromotionPrereq>
             <UnitCombats>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
