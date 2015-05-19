@@ -1,5 +1,10 @@
 ADRIAN
 
+- please create a button pic of a forest for bloom
+- please create button pic for fireball, greater fireball and meteor like you did for   growth spells
+-
+
+
 - palace needs fourth mana type (water) can only give 3 bonus resources! (or we can just get rid of mana requirement for spells.
 
 
@@ -7,7 +12,6 @@ ADRIAN
 
 BAS
 - give cast fireball promotion to firebow - will do when spell implemented
-- create lesser fireball spell
 
 
 To Do:
