@@ -3764,202 +3764,10 @@
             <iCombatPercent>5</iCombatPercent>
             <Button>Art/Interface/Buttons/Promotions/morale.dds</Button>
             <iExpireChance>100</iExpireChance>
-        </PromotionInfo>            
+        </PromotionInfo>   
         
         
-        <PromotionInfo>
-            <Type>PROMOTION_CAST_GROWTH1</Type>
-            <Description>TXT_KEY_SPELL_GROWTH1</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <Button>Art/Interface/Buttons/Spells/Growth1.dds</Button>
-            <PromotionPrereq>PROMOTION_CHANNELING1</PromotionPrereq>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-        </PromotionInfo>        
         
-        <PromotionInfo>
-            <Type>PROMOTION_GROWTH1</Type>
-            <Description>TXT_KEY_PROMOTION_GROWTH1</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_NEVER</TechPrereq>
-            <iCombatPercent>5</iCombatPercent>
-            <Button>Art/Interface/Buttons/Spells/Growth1.dds</Button>
-            <iExpireChance>100</iExpireChance>
-        </PromotionInfo>  
-        
-        
-        <PromotionInfo>
-            <Type>PROMOTION_CAST_GROWTH2</Type>
-            <Description>TXT_KEY_SPELL_GROWTH2</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <Button>Art/Interface/Buttons/Spells/Growth2.dds</Button>
-            <PromotionPrereq>PROMOTION_CHANNELING2</PromotionPrereq>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>            
-        </PromotionInfo>        
-        
-        <PromotionInfo>
-            <Type>PROMOTION_GROWTH2</Type>
-            <Description>TXT_KEY_PROMOTION_GROWTH2</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_NEVER</TechPrereq>
-            <iCombatPercent>10</iCombatPercent>
-            <Button>Art/Interface/Buttons/Spells/Growth2.dds</Button>
-            <iExpireChance>100</iExpireChance>
-        </PromotionInfo>  
-                
-        
-        <PromotionInfo>
-            <Type>PROMOTION_CAST_GROWTH3</Type>
-            <Description>TXT_KEY_SPELL_GROWTH3</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <Button>Art/Interface/Buttons/Spells/Growth3.dds</Button>
-            <PromotionPrereq>PROMOTION_CHANNELING3</PromotionPrereq>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>            
-        </PromotionInfo>        
-        
-        <PromotionInfo>
-            <Type>PROMOTION_GROWTH3</Type>
-            <Description>TXT_KEY_PROMOTION_GROWTH3</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_NEVER</TechPrereq>
-            <iCombatPercent>15</iCombatPercent>
-            <Button>Art/Interface/Buttons/Spells/Growth3.dds</Button>
-            <iExpireChance>100</iExpireChance>
-        </PromotionInfo>                
-        <PromotionInfo>
-            <Type>PROMOTION_CAST_TELEPORT</Type>
-            <Description>TXT_KEY_PROMOTION_CAST_TELEPORT</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_CHANNELING2</PromotionPrereq>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Twincast.dds</Button>
-            <iAIWeight>50</iAIWeight>
-            <BonusPrereq></BonusPrereq>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_ENCHANT_SPELLSTAFF</Type>
-            <Description>TXT_KEY_SPELL_ENCHANT_SPELLSTAFF</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_CHANNELING3</PromotionPrereq>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Spellstaff.dds</Button>
-            <iAIWeight>50</iAIWeight>
-            <BonusPrereq></BonusPrereq>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_CAST_BLOOM</Type>
-            <Description>TXT_KEY_PROMOTION_CAST_BLOOM</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_CHANNELING1</PromotionPrereq>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Spells/Bloom.dds</Button>
-            <iAIWeight>50</iAIWeight>
-            <BonusPrereq></BonusPrereq>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_CAST_TREETOP_DEFENCE</Type>
-            <Description>Treetop Defence</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_CHANNELING1</PromotionPrereq>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Spells/Treetopdefence.dds</Button>
-            <iAIWeight>50</iAIWeight>
-            <BonusPrereq></BonusPrereq>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_CAST_TERRAFORM</Type>
-            <Description>TXT_KEY_PROMOTION_TERRAFORM</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_CHANNELING2</PromotionPrereq>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Terraform.dds</Button>
-            <iAIWeight>50</iAIWeight>
-            <BonusPrereq></BonusPrereq>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_CAST_DISPEL</Type>
-            <Description>TXT_KEY_PROMOTION_CAST_DISPEL</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_CHANNELING1</PromotionPrereq>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Spells/Dispel Magic.dds</Button>
-            <iAIWeight>50</iAIWeight>
-            <BonusPrereq></BonusPrereq>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_CAST_SCORCH</Type>
-            <Description>TXT_KEY_PROMOTION_CAST_SCORCH</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_CHANNELING1</PromotionPrereq>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Spells/Scorch.dds</Button>
-            <iAIWeight>50</iAIWeight>
-            <BonusPrereq></BonusPrereq>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_CAST_BLINDING_LIGHT</Type>
-            <Description>TXT_KEY_PROMOTION_CAST_BLINDING_LIGHT</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_CHANNELING2</PromotionPrereq>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Spells/Blinding Light.dds</Button>
-            <iAIWeight>50</iAIWeight>
-            <BonusPrereq></BonusPrereq>
-        </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_CAST_FIREBALL</Type>
             <Description>Fireball</Description>
@@ -4004,19 +3812,115 @@
             <Button>Art/Interface/Buttons/Units/Fireball.dds</Button>
             <iAIWeight>50</iAIWeight>
             <BonusPrereq>NONE</BonusPrereq>
-        </PromotionInfo>
+        </PromotionInfo>        
         <PromotionInfo>
-            <Type>PROMOTION_CAST_VITALIZE</Type>
-            <Description>TXT_KEY_PROMOTION_CAST_VITALIZE</Description>
+            <Type>PROMOTION_CAST_GROWTH1</Type>
+            <Description>TXT_KEY_SPELL_GROWTH1</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_CHANNELING2</PromotionPrereq>
+            <Button>Art/Interface/Buttons/Spells/Growth1.dds</Button>
+            <PromotionPrereq>PROMOTION_CHANNELING1</PromotionPrereq>
             <UnitCombats>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
-            <Button>Art/Interface/Buttons/Spells/Vitalize.dds</Button>
+        </PromotionInfo>      
+        <PromotionInfo>
+            <Type>PROMOTION_GROWTH1</Type>
+            <Description>TXT_KEY_PROMOTION_GROWTH1</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <TechPrereq>TECH_NEVER</TechPrereq>
+            <iCombatPercent>5</iCombatPercent>
+            <Button>Art/Interface/Buttons/Spells/Growth1.dds</Button>
+            <iExpireChance>100</iExpireChance>
+        </PromotionInfo>  
+         <PromotionInfo>
+            <Type>PROMOTION_CAST_GROWTH2</Type>
+            <Description>TXT_KEY_SPELL_GROWTH2</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <Button>Art/Interface/Buttons/Spells/Growth2.dds</Button>
+            <PromotionPrereq>PROMOTION_CHANNELING2</PromotionPrereq>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>            
+        </PromotionInfo>        
+        <PromotionInfo>
+            <Type>PROMOTION_GROWTH2</Type>
+            <Description>TXT_KEY_PROMOTION_GROWTH2</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <TechPrereq>TECH_NEVER</TechPrereq>
+            <iCombatPercent>10</iCombatPercent>
+            <Button>Art/Interface/Buttons/Spells/Growth2.dds</Button>
+            <iExpireChance>100</iExpireChance>
+        </PromotionInfo>  
+         <PromotionInfo>
+            <Type>PROMOTION_CAST_GROWTH3</Type>
+            <Description>TXT_KEY_SPELL_GROWTH3</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <Button>Art/Interface/Buttons/Spells/Growth3.dds</Button>
+            <PromotionPrereq>PROMOTION_CHANNELING3</PromotionPrereq>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>            
+        </PromotionInfo>        
+        <PromotionInfo>
+            <Type>PROMOTION_GROWTH3</Type>
+            <Description>TXT_KEY_PROMOTION_GROWTH3</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <TechPrereq>TECH_NEVER</TechPrereq>
+            <iCombatPercent>15</iCombatPercent>
+            <Button>Art/Interface/Buttons/Spells/Growth3.dds</Button>
+            <iExpireChance>100</iExpireChance>
+        </PromotionInfo> 
+        <PromotionInfo>
+            <Type>PROMOTION_CAST_SCORCH</Type>
+            <Description>TXT_KEY_PROMOTION_CAST_SCORCH</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PromotionPrereq>PROMOTION_CHANNELING1</PromotionPrereq>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Spells/Scorch.dds</Button>
+            <iAIWeight>50</iAIWeight>
+            <BonusPrereq></BonusPrereq>
+        </PromotionInfo>
+        <PromotionInfo>
+            <Type>PROMOTION_CAST_DISPEL</Type>
+            <Description>TXT_KEY_PROMOTION_CAST_DISPEL</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PromotionPrereq>PROMOTION_CHANNELING1</PromotionPrereq>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Spells/Dispel Magic.dds</Button>
+            <iAIWeight>50</iAIWeight>
+            <BonusPrereq></BonusPrereq>
+        </PromotionInfo>
+        <PromotionInfo>
+            <Type>PROMOTION_CAST_TREETOP_DEFENCE</Type>
+            <Description>Treetop Defence</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PromotionPrereq>PROMOTION_CHANNELING1</PromotionPrereq>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Spells/Treetopdefence.dds</Button>
             <iAIWeight>50</iAIWeight>
             <BonusPrereq></BonusPrereq>
         </PromotionInfo>
@@ -4032,6 +3936,66 @@
                 </UnitCombat>
             </UnitCombats>
             <Button>Art/Interface/Buttons/Promotions/Weak.dds</Button>
+            <iAIWeight>50</iAIWeight>
+            <BonusPrereq></BonusPrereq>
+        </PromotionInfo>  
+        <PromotionInfo>
+            <Type>PROMOTION_CAST_BLINDING_LIGHT</Type>
+            <Description>TXT_KEY_PROMOTION_CAST_BLINDING_LIGHT</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PromotionPrereq>PROMOTION_CHANNELING2</PromotionPrereq>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Spells/Blinding Light.dds</Button>
+            <iAIWeight>50</iAIWeight>
+            <BonusPrereq></BonusPrereq>
+        </PromotionInfo>          
+        <PromotionInfo>
+            <Type>PROMOTION_CAST_TELEPORT</Type>
+            <Description>TXT_KEY_PROMOTION_CAST_TELEPORT</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PromotionPrereq>PROMOTION_CHANNELING2</PromotionPrereq>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Promotions/Twincast.dds</Button>
+            <iAIWeight>50</iAIWeight>
+            <BonusPrereq></BonusPrereq>
+        </PromotionInfo>        
+        <PromotionInfo>
+            <Type>PROMOTION_ENCHANT_SPELLSTAFF</Type>
+            <Description>TXT_KEY_SPELL_ENCHANT_SPELLSTAFF</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PromotionPrereq>PROMOTION_CHANNELING3</PromotionPrereq>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Promotions/Spellstaff.dds</Button>
+            <iAIWeight>50</iAIWeight>
+            <BonusPrereq></BonusPrereq>
+        </PromotionInfo>
+        <PromotionInfo>
+            <Type>PROMOTION_CAST_SUMMON_DRAGON</Type>
+            <Description>Summon Dragon</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PromotionPrereq>PROMOTION_CHANNELING3</PromotionPrereq>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Popups/Acheron the Red Dragon.dds</Button>
             <iAIWeight>50</iAIWeight>
             <BonusPrereq></BonusPrereq>
         </PromotionInfo>
@@ -4050,6 +4014,56 @@
             <iAIWeight>50</iAIWeight>
             <BonusPrereq></BonusPrereq>
         </PromotionInfo>
+        
+        
+        
+        <PromotionInfo>
+            <Type>PROMOTION_CAST_BLOOM</Type>
+            <Description>TXT_KEY_PROMOTION_CAST_BLOOM</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PromotionPrereq>PROMOTION_CHANNELING1</PromotionPrereq>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Spells/Bloom.dds</Button>
+            <iAIWeight>50</iAIWeight>
+            <BonusPrereq></BonusPrereq>
+        </PromotionInfo>
+        <PromotionInfo>
+            <Type>PROMOTION_CAST_TERRAFORM</Type>
+            <Description>TXT_KEY_PROMOTION_TERRAFORM</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PromotionPrereq>PROMOTION_CHANNELING2</PromotionPrereq>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Promotions/Terraform.dds</Button>
+            <iAIWeight>50</iAIWeight>
+            <BonusPrereq></BonusPrereq>
+        </PromotionInfo>
+        <PromotionInfo>
+            <Type>PROMOTION_CAST_VITALIZE</Type>
+            <Description>TXT_KEY_PROMOTION_CAST_VITALIZE</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PromotionPrereq>PROMOTION_CHANNELING2</PromotionPrereq>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Spells/Vitalize.dds</Button>
+            <iAIWeight>50</iAIWeight>
+            <BonusPrereq></BonusPrereq>
+        </PromotionInfo>
+        
+        
         
 		<PromotionInfo>
             <Type>PROMOTION_MOUNTAINEER</Type>
@@ -4076,9 +4090,6 @@
             <iSpellDamageModify>0</iSpellDamageModify>
             <bMoveImpassable>1</bMoveImpassable>
         </PromotionInfo>        
-        
-     	
-        
         <PromotionInfo>
             <Type>PROMOTION_RAIDER</Type>
             <Description>TXT_KEY_PROMOTION_BANDIT_RAIDER</Description>
