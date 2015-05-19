@@ -4021,7 +4021,7 @@
             <Type>PROMOTION_CAST_BLOOM</Type>
             <Description>TXT_KEY_PROMOTION_CAST_BLOOM</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_CHANNELING1</PromotionPrereq>
+            <TechPrereq>TECH_NEVER</TechPrereq>
             <UnitCombats>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
@@ -4036,7 +4036,7 @@
             <Type>PROMOTION_CAST_TERRAFORM</Type>
             <Description>TXT_KEY_PROMOTION_TERRAFORM</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_CHANNELING2</PromotionPrereq>
+            <TechPrereq>TECH_NEVER</TechPrereq>
             <UnitCombats>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
@@ -4051,7 +4051,7 @@
             <Type>PROMOTION_CAST_VITALIZE</Type>
             <Description>TXT_KEY_PROMOTION_CAST_VITALIZE</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_CHANNELING2</PromotionPrereq>
+            <TechPrereq>TECH_NEVER</TechPrereq>
             <UnitCombats>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
