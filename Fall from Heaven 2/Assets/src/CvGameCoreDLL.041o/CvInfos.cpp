@@ -1747,6 +1747,7 @@ m_iCombatPercentInBorders(0),
 m_iDefensiveStrikeChance(0),
 m_iDefensiveStrikeDamage(0),
 m_iExpireChance(0),
+m_iExpireTurns(0),
 m_iExtraCombatStr(0),
 m_iExtraCombatStrPercent(0),
 m_iExtraCombatDefense(0),
@@ -2278,6 +2279,12 @@ int CvPromotionInfo::getExpireChance() const
 	return m_iExpireChance;
 }
 
+int CvPromotionInfo::getExpireTurns() const
+{
+	return m_iExpireTurns;
+}
+
+
 int CvPromotionInfo::getExtraCombatStr() const
 {
 	return m_iExtraCombatStr;
@@ -2632,6 +2639,7 @@ void CvPromotionInfo::read(FDataStreamBase* stream)
 	stream->Read(&m_iDefensiveStrikeChance);
 	stream->Read(&m_iDefensiveStrikeDamage);
 	stream->Read(&m_iExpireChance);
+	stream->Read(&m_iExpireTurns);
 	stream->Read(&m_iExtraCombatStr);
 	stream->Read(&m_iExtraCombatStrPercent);
 	stream->Read(&m_iExtraCombatDefense);
@@ -2820,6 +2828,7 @@ void CvPromotionInfo::write(FDataStreamBase* stream)
 	stream->Write(m_iDefensiveStrikeChance);
 	stream->Write(m_iDefensiveStrikeDamage);
 	stream->Write(m_iExpireChance);
+	stream->Write(m_iExpireTurns);
 	stream->Write(m_iExtraCombatStr);
 	stream->Write(m_iExtraCombatStrPercent);
 	stream->Write(m_iExtraCombatDefense);
@@ -2990,6 +2999,7 @@ bool CvPromotionInfo::read(CvXMLLoadUtility* pXML)
 	pXML->GetChildXmlValByName(&m_iDefensiveStrikeChance, "iDefensiveStrikeChance");
 	pXML->GetChildXmlValByName(&m_iDefensiveStrikeDamage, "iDefensiveStrikeDamage");
 	pXML->GetChildXmlValByName(&m_iExpireChance, "iExpireChance");
+	pXML->GetChildXmlValByName(&m_iExpireTurns, "iExpireTurns");
 	pXML->GetChildXmlValByName(&m_iExtraCombatStr, "iExtraCombatStr");
 	pXML->GetChildXmlValByName(&m_iExtraCombatStrPercent, "iExtraCombatStrPercent");
 	pXML->GetChildXmlValByName(&m_iExtraCombatDefense, "iExtraCombatDefense");
@@ -3192,6 +3202,7 @@ m_bSacrificeCaster(false),
 m_iChangePopulation(0),
 m_iCost(0),
 m_iDelay(0),
+m_iCooldown(0),
 m_iImmobileTurns(0),
 m_iMiscastChance(0),
 m_iEffect(NO_EFFECT),
@@ -3576,6 +3587,11 @@ int CvSpellInfo::getDelay() const
 	return m_iDelay;
 }
 
+int CvSpellInfo::getCooldown() const
+{
+	return m_iCooldown;
+}
+
 int CvSpellInfo::getImmobileTurns() const
 {
 	return m_iImmobileTurns;
@@ -3736,6 +3752,7 @@ void CvSpellInfo::read(FDataStreamBase* stream)
 	stream->Read(&m_iChangePopulation);
 	stream->Read(&m_iCost);
 	stream->Read(&m_iDelay);
+	stream->Read(&m_iCooldown);
 	stream->Read(&m_iImmobileTurns);
 	stream->Read(&m_iMiscastChance);
 	stream->ReadString(m_szPyMiscast);
@@ -3839,6 +3856,7 @@ void CvSpellInfo::write(FDataStreamBase* stream)
 	stream->Write(m_iChangePopulation);
 	stream->Write(m_iCost);
 	stream->Write(m_iDelay);
+	stream->Write(m_iCooldown);
 	stream->Write(m_iImmobileTurns);
 	stream->Write(m_iMiscastChance);
 	stream->WriteString(m_szPyMiscast);
@@ -3980,6 +3998,9 @@ bool CvSpellInfo::read(CvXMLLoadUtility* pXML)
 	pXML->GetChildXmlValByName(&m_iChangePopulation, "iChangePopulation");
 	pXML->GetChildXmlValByName(&m_iCost, "iCost");
 	pXML->GetChildXmlValByName(&m_iDelay, "iDelay");
+
+	pXML->GetChildXmlValByName(&m_iCooldown, "iCooldown");
+
 	pXML->GetChildXmlValByName(&m_iImmobileTurns, "iImmobileTurns");
 	pXML->GetChildXmlValByName(&m_iMiscastChance, "iMiscastChance");
 

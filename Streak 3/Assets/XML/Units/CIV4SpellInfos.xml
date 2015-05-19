@@ -81,7 +81,31 @@
             <bGraphicalOnly>1</bGraphicalOnly>
             <Button>Art/Interface/Buttons/Promotions/Skeletoncrew.dds</Button>
         </SpellInfo>
+        
+        
         <SpellInfo>
+            <Type>SPELL_HEAL</Type>
+            <Description>TXT_KEY_SPELL_HEAL</Description>
+            <PromotionPrereq1>PROMOTION_HEAL1</PromotionPrereq1>
+            <bGlobal>0</bGlobal>
+            <bIsTileSelect>1</bIsTileSelect>
+            <bIsUnitSelect>1</bIsUnitSelect>
+            <iSpellDistance>1</iSpellDistance>
+            <bRequiresLOS>1</bRequiresLOS>  
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+            <bHasCasted>1</bHasCasted>
+            <DamageType>DAMAGE_FIRE</DamageType>
+            <PyResult>spellHealRange(pCaster, pTarget, 8)</PyResult>
+            <!--PyRequirement>reqHeal(pCaster)</PyRequirement-->
+            <Effect>EFFECT_CREATION</Effect>
+            <Sound>AS3D_SPELL_HEAL</Sound>
+            <Button>Art/Interface/Buttons/Spells/Heal.dds</Button>
+        </SpellInfo>        
+        
+        
+        
+        <!--SpellInfo>
             <Type>SPELL_HEAL</Type>
             <Description>TXT_KEY_SPELL_HEAL</Description>
             <Civilopedia>Heals 8HP to all units in the stack.</Civilopedia>
@@ -95,37 +119,8 @@
             <Effect>EFFECT_CREATION</Effect>
             <Sound>AS3D_SPELL_HEAL</Sound>
             <Button>Art/Interface/Buttons/Spells/Heal.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_GREATER_HEALING</Type>
-            <Description>TXT_KEY_SPELL_GREATER_HEALING</Description>
-            <Civilopedia>Heals 15HP to all units in the stack.</Civilopedia>
-            <Help></Help>
-            <PromotionPrereq1>PROMOTION_HEAL2</PromotionPrereq1>
-            <bAllowAI>1</bAllowAI>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <PyResult>spellHeal(pCaster,15)</PyResult>
-            <PyRequirement>reqHeal(pCaster)</PyRequirement>
-            <Effect>EFFECT_CREATION</Effect>
-            <Sound>AS3D_SPELL_HEAL</Sound>
-            <Button>Art/Interface/Buttons/Spells/Heal.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_MASS_HEALING</Type>
-            <Description>TXT_KEY_SPELL_MASS_HEALING</Description>
-            <Civilopedia>Heals 30HP to all units in the stack.</Civilopedia>
-            <Help></Help>
-            <PromotionPrereq1>PROMOTION_HEAL3</PromotionPrereq1>
-            <bAllowAI>1</bAllowAI>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <PyResult>spellHeal(pCaster,30)</PyResult>
-            <PyRequirement>reqHeal(pCaster)</PyRequirement>
-            <Effect>EFFECT_CREATION</Effect>
-            <Sound>AS3D_SPELL_HEAL</Sound>
-            <Button>Art/Interface/Buttons/Spells/Heal.dds</Button>
-        </SpellInfo>
+        </SpellInfo-->
+        
         <SpellInfo>
             <Type>SPELL_HIDE</Type>
             <Description>Hide</Description>
@@ -816,65 +811,6 @@
             <Button>,Art/Interface/Buttons/WorldBuilder/Silver.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,4,14</Button>
         </SpellInfo>         
         
-        
-        <SpellInfo>
-            <Type>SPELL_HASTE</Type>            
-            <Description>TXT_KEY_SPELL_HASTE</Description>
-            <PromotionPrereq1>PROMOTION_CAST_HASTE</PromotionPrereq1>
-            <bGlobal>0</bGlobal>
-            <bIsTileSelect>1</bIsTileSelect>
-            <bIsUnitSelect>0</bIsUnitSelect>
-            <iSpellDistance>0</iSpellDistance>
-            <bRequiresLOS>1</bRequiresLOS>
-            <bAllowAI>1</bAllowAI>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <AddPromotionType1>PROMOTION_HASTED</AddPromotionType1>
-            <RemovePromotionType1>PROMOTION_SLOW</RemovePromotionType1>
-            <bImmuneEnemy>1</bImmuneEnemy>
-            <Effect>EFFECT_WIND_SWIRL</Effect>
-            <Sound>AS3D_SPELL_HASTE</Sound>
-            <Button>Art/Interface/Buttons/Promotions/Hasted.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_BLUR</Type>
-            <Description>TXT_KEY_SPELL_BLUR</Description>
-            <PromotionPrereq1>PROMOTION_CAST_BLUR</PromotionPrereq1>
-            <bGlobal>0</bGlobal>
-            <bIsTileSelect>1</bIsTileSelect>
-            <bIsUnitSelect>0</bIsUnitSelect>
-            <iSpellDistance>0</iSpellDistance>
-            <bRequiresLOS>1</bRequiresLOS>
-            <bAllowAI>1</bAllowAI>
-            <iAIWeightWar>50</iAIWeightWar>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <AddPromotionType1>PROMOTION_BLUR</AddPromotionType1>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS3D_SPELL_CHARM_PERSON</Sound>
-            <Button>Art/Interface/Buttons/Promotions/Blur.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_THUNDERSTRIKE</Type>
-            <Description>TXT_KEY_SPELL_THUNDERSTRIKE</Description>
-            <PromotionPrereq1>PROMOTION_CAST_THUNDERSTRIKE</PromotionPrereq1>
-            <bGlobal>0</bGlobal>
-            <bIsTileSelect>1</bIsTileSelect>
-            <bIsUnitSelect>0</bIsUnitSelect>
-            <iSpellDistance>1</iSpellDistance>
-            <bRequiresLOS>1</bRequiresLOS>
-            <bAllowAI>1</bAllowAI>
-            <bCausesWar>1</bCausesWar>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <iRange>0</iRange>
-            <iDamage>15</iDamage>
-            <iDamageLimit>30</iDamageLimit>
-            <DamageType>DAMAGE_LIGHTNING</DamageType>
-            <Effect>EFFECT_MAELSTROM</Effect>
-            <Sound>AS3D_SPELL_MAELSTROM</Sound>
-            <Button>Art/Interface/Buttons/Spells/Maelstrom.dds</Button>
-        </SpellInfo>
         <SpellInfo>
             <Type>SPELL_TELEPORT</Type>
             <Description>TXT_KEY_SPELL_TELEPORT</Description>
@@ -921,23 +857,29 @@
             <Effect>EFFECT_SPELL1</Effect>
             <Sound>AS3D_SPELL_ENCHANTMENT</Sound>
             <Button>Art/Interface/Buttons/Promotions/Spellstaff.dds</Button>
-        </SpellInfo>        
+        </SpellInfo> 
+        
         <SpellInfo>
-            <Type>SPELL_FATIGUE</Type>
-            <Description>TXT_KEY_SPELL_FATIGUE</Description>
-            <PromotionPrereq1>PROMOTION_CAST_FATIGUE</PromotionPrereq1>
-            <bGlobal>0</bGlobal>
-            <bIsTileSelect>1</bIsTileSelect>
-            <bIsUnitSelect>0</bIsUnitSelect>
-            <iSpellDistance>1</iSpellDistance>
+            <Type>SPELL_CAST_BESERK</Type>
+            <Description>TXT_KEY_SPELL_CAST_BESERK</Description>
+            <PromotionPrereq1>PROMOTION_CAST_BESERK</PromotionPrereq1>
             <bAllowAI>1</bAllowAI>
             <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
             <bHasCasted>1</bHasCasted>
-            <AddPromotionType1>PROMOTION_FATIGUE</AddPromotionType1>
-            <Effect>EFFECT_VITALIZE</Effect>
-            <Sound>AS3D_SPELL_SANCTIFY</Sound>
-            <Button>Art/Interface/Buttons/Promotions/Fatigued.dds</Button>
-        </SpellInfo>
+            <AddPromotionType1>PROMOTION_BESERK</AddPromotionType1>
+            <AddPromotionType2>PROMOTION_BESERK_RECOVER</AddPromotionType2>
+            <!--RemovePromotionType1>PROMOTION_CAST_BESERK</RemovePromotionType1-->
+            <bBuffCasterOnly>1</bBuffCasterOnly>
+            <iCooldown>7</iCooldown>
+            <!--PyResult>spellBeserk(pCaster)</PyResult-->
+            <Effect>EFFECT_SWORDS_SPARKS</Effect>
+            <Sound>AS3D_SPELL_ENCHANTMENT</Sound>
+            <Button>Art/Interface/Buttons/Promotions/CrownofBrillance.dds</Button>
+        </SpellInfo>     
+
+        
+           
+               
                 
                 
         <SpellInfo>
@@ -962,8 +904,8 @@
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_TREETOP_DEFENCE</Type>
-            <Description>TXT_KEY_SPELL_TREETOP_DEFENCE</Description>
-            <PromotionPrereq1>PROMOTION_CAST_ENCHANTED_BLADE</PromotionPrereq1>
+            <Description>Treetop Defence</Description>
+            <PromotionPrereq1>PROMOTION_CAST_TREETOP_DEFENCE</PromotionPrereq1>
             <FeatureOrPrereq1>FEATURE_FOREST</FeatureOrPrereq1>
             <bGlobal>0</bGlobal>
             <bIsTileSelect>1</bIsTileSelect>
@@ -977,24 +919,6 @@
             <Effect>EFFECT_SPELL1</Effect>
             <Sound>AS3D_SPELL_SANCTIFY</Sound>
             <Button>Art/Interface/Buttons/Spells/Treetopdefence.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_ENCHANTED_BLADE</Type>
-            <Description>TXT_KEY_SPELL_ENCHANTED_BLADE</Description>
-            <PromotionPrereq1>PROMOTION_CAST_TREETOP_DEFENCE</PromotionPrereq1>
-            <bGlobal>0</bGlobal>
-            <bIsTileSelect>1</bIsTileSelect>
-            <bIsUnitSelect>0</bIsUnitSelect>
-            <iSpellDistance>0</iSpellDistance>
-            <bRequiresLOS>1</bRequiresLOS>
-            <bAllowAI>1</bAllowAI>
-            <bCausesWar>1</bCausesWar>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <AddPromotionType1>PROMOTION_ENCHANTED_BLADE</AddPromotionType1>
-            <Effect>EFFECT_ENCHANTED_BLADE</Effect>
-            <Sound>AS3D_SPELL_ENCHANTMENT</Sound>
-            <Button>Art/Interface/Buttons/Promotions/Enchantedblade.dds</Button>
         </SpellInfo>
 		<SpellInfo>
             <Type>SPELL_TERRAFORM</Type>
@@ -1037,44 +961,6 @@
             <Sound>AS3D_SPELL_EARTHQUAKE</Sound>
             <Button>Art/Interface/Buttons/Spells/Dispel Magic.dds</Button>
         </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_STONESKIN</Type>
-            <Description>TXT_KEY_SPELL_STONESKIN</Description>
-            <PromotionPrereq1>PROMOTION_CAST_STONESKIN</PromotionPrereq1>
-            <bGlobal>0</bGlobal>
-            <bIsTileSelect>1</bIsTileSelect>
-            <bIsUnitSelect>0</bIsUnitSelect>
-            <iSpellDistance>0</iSpellDistance>
-            <bRequiresLOS>1</bRequiresLOS>
-            <bAllowAI>1</bAllowAI>
-            <bCausesWar>1</bCausesWar>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <AddPromotionType1>PROMOTION_STONESKIN</AddPromotionType1>
-            <Effect>EFFECT_SNOWFALL</Effect>
-            <Sound>AS3D_SPELL_EARTHQUAKE</Sound>
-            <Button>Art/Interface/Buttons/Spells/Stoneskin.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_INVISIBLE</Type>
-            <Description>TXT_KEY_SPELL_INVISIBLE</Description>
-            <PromotionPrereq1>PROMOTION_CAST_INVISIBLE</PromotionPrereq1>
-            <bGlobal>0</bGlobal>
-            <bIsTileSelect>1</bIsTileSelect>
-            <bIsUnitSelect>1</bIsUnitSelect>
-            <iSpellDistance>0</iSpellDistance>
-            <bAllowAI>1</bAllowAI>
-            <bCausesWar>1</bCausesWar>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <PyResult>spellInvisible(pCaster, pPlot, pTarget)</PyResult>
-            <PyRequirement>reqInvisible(pCaster, pPlot, pTarget)</PyRequirement>
-            <Effect>EFFECT_SNOWFALL</Effect>
-            <Sound>AS3D_SPELL_EARTHQUAKE</Sound>
-            <Button>Art/Interface/Buttons/Promotions/Invisibility.dds</Button>
-        </SpellInfo>
-        
-        
          <SpellInfo>
             <Type>SPELL_SCORCH</Type>
             <Description>TXT_KEY_SPELL_SCORCH</Description>
@@ -1115,46 +1001,6 @@
             <Effect>EFFECT_SPELL1</Effect>
             <Sound>AS3D_SPELL_CHARM_PERSON</Sound>
             <Button>Art/Interface/Buttons/Spells/Blinding Light.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_RING_OF_FLAMES</Type>
-            <Description>TXT_KEY_SPELL_RING_OF_FLAMES</Description>
-            <PromotionPrereq1>PROMOTION_CAST_RING_OF_FLAMES</PromotionPrereq1>
-            <bGlobal>0</bGlobal>
-            <bIsTileSelect>1</bIsTileSelect>
-            <bIsUnitSelect>0</bIsUnitSelect>
-            <iSpellDistance>0</iSpellDistance>
-            <bRequiresLOS>1</bRequiresLOS> 
-            <bAllowAI>1</bAllowAI>
-            <bCausesWar>1</bCausesWar>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <iRange>1</iRange>
-            <iDamage>15</iDamage>
-            <iDamageLimit>30</iDamageLimit>
-            <DamageType>DAMAGE_FIRE</DamageType>
-            <PyResult>spellRingofFlames(pCaster)</PyResult>
-            <Effect>EFFECT_RING_OF_FLAMES</Effect>
-            <Sound>AS3D_SPELL_FIREBALL</Sound>
-            <Button>Art/Interface/Buttons/Spells/Ringofflames.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_FIERY_RAGE</Type>
-            <Description>TXT_KEY_SPELL_FIERY_RAGE</Description>
-            <PromotionPrereq1>PROMOTION_CAST_FIERY_RAGE</PromotionPrereq1>
-            <bGlobal>0</bGlobal>
-            <bIsTileSelect>1</bIsTileSelect>
-            <bIsUnitSelect>1</bIsUnitSelect>
-            <iSpellDistance>0</iSpellDistance>
-            <bRequiresLOS>1</bRequiresLOS>            
-            <bAllowAI>1</bAllowAI>
-            <bCausesWar>1</bCausesWar>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <PyResult>spellFieryRage(pCaster, pPlot, pTarget)</PyResult>
-            <Effect>EFFECT_SCORCH</Effect>
-            <Sound>AS3D_SPELL_DEFILE</Sound>
-            <Button>Art/Interface/Buttons/Promotions/CrownofBrillance.dds</Button>
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_FIREBALL</Type>
@@ -1217,70 +1063,6 @@
             <Button>Art/Interface/Buttons/Units/Fireball.dds</Button>
         </SpellInfo>
         <SpellInfo>
-            <Type>SPELL_SHIELDING_FIRE</Type>
-            <Description>TXT_KEY_SPELL_SHIELDING_FIRE</Description>
-            <PromotionPrereq1>PROMOTION_CAST_SHIELDING_FIRE</PromotionPrereq1>
-            <bGlobal>0</bGlobal>
-            <bIsTileSelect>1</bIsTileSelect>
-            <bIsUnitSelect>0</bIsUnitSelect>
-            <iSpellDistance>1</iSpellDistance>
-            <bRequiresLOS>1</bRequiresLOS>
-            <bAllowAI>1</bAllowAI>
-            <bCausesWar>1</bCausesWar>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <AddPromotionType1>PROMOTION_SHIELDING_FIRE</AddPromotionType1>
-            <bDispel>1</bDispel>
-            <Effect>EFFECT_SNOWFALL</Effect>
-            <Sound>AS3D_SPELL_EARTHQUAKE</Sound>
-            <Button>Art/Interface/Buttons/TerrainFeatures/Flames.dds</Button>
-        </SpellInfo>
-        
-        
-        <SpellInfo>
-            <Type>SPELL_SLOW</Type>
-            <Description>TXT_KEY_SPELL_SLOW</Description>
-            <Civilopedia></Civilopedia>
-            <PromotionPrereq1>PROMOTION_CAST_SLOW</PromotionPrereq1>
-            <bGlobal>0</bGlobal>
-            <bIsTileSelect>1</bIsTileSelect>
-            <bIsUnitSelect>0</bIsUnitSelect>
-            <iSpellDistance>0</iSpellDistance>
-            <bRequiresLOS>1</bRequiresLOS>
-            <bAllowAI>1</bAllowAI>
-            <iAIWeightWar>50</iAIWeightWar>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <bResistable>1</bResistable>
-            <iRange>1</iRange>
-            <AddPromotionType1>PROMOTION_SLOW</AddPromotionType1>
-            <RemovePromotionType1>PROMOTION_HASTED</RemovePromotionType1>
-            <bImmuneTeam>1</bImmuneTeam>
-            <bImmuneNeutral>1</bImmuneNeutral>
-            <Effect>EFFECT_SLOW</Effect>
-            <Sound>AS3D_SPELL_SPRING</Sound>
-            <Button>Art/Interface/Buttons/Promotions/Slow.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_DANCE_OF_BLADES</Type>
-            <Description>TXT_KEY_SPELL_DANCE_OF_BLADES</Description>
-            <Civilopedia></Civilopedia>
-            <PromotionPrereq1>PROMOTION_CAST_DANCE_OF_BLADES</PromotionPrereq1>
-            <bGlobal>0</bGlobal>
-            <bIsTileSelect>1</bIsTileSelect>
-            <bIsUnitSelect>0</bIsUnitSelect>
-            <iSpellDistance>0</iSpellDistance>
-            <bRequiresLOS>1</bRequiresLOS>
-            <bAllowAI>1</bAllowAI>
-            <iAIWeightWar>50</iAIWeightWar>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <AddPromotionType1>PROMOTION_DANCE_OF_BLADES</AddPromotionType1>
-            <Effect>EFFECT_WIND_SWIRL</Effect>
-            <Sound>AS3D_SPELL_HASTE</Sound>
-            <Button>Art/Interface/Buttons/Promotions/Danceofblades.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
             <Type>SPELL_VITALIZE</Type>
             <Description>TXT_KEY_SPELL_VITALIZE</Description>
             <Civilopedia></Civilopedia>
@@ -1319,26 +1101,6 @@
             <Effect>EFFECT_CREATION</Effect>
             <Sound>AS3D_SPELL_WATER</Sound>
             <Button>Art/Interface/Buttons/Promotions/Weak.dds</Button>
-        </SpellInfo>
-        <SpellInfo>
-            <Type>SPELL_SACRIFICE</Type>
-            <Description>TXT_KEY_SPELL_SACRIFICE</Description>
-            <Civilopedia></Civilopedia>
-            <PromotionPrereq1>PROMOTION_CAST_SACRIFICE</PromotionPrereq1>
-            <bGlobal>0</bGlobal>
-            <bIsTileSelect>1</bIsTileSelect>
-            <bIsUnitSelect>1</bIsUnitSelect>
-            <iSpellDistance>0</iSpellDistance>
-            <bRequiresLOS>1</bRequiresLOS>
-            <bAllowAI>1</bAllowAI>
-            <iAIWeightWar>50</iAIWeightWar>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <PyResult>spellSacrifice(pCaster, pPlot, pTarget)</PyResult>
-            <AddPromotionType1>PROMOTION_SACRIFICE</AddPromotionType1>
-            <Effect>EFFECT_CREATION</Effect>
-            <Sound>AS3D_SPELL_WATER</Sound>
-            <Button>Art/Interface/Buttons/Spells/Spring.dds</Button>
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_BANISH</Type>

@@ -3738,21 +3738,6 @@
             <iExpireChance>0</iExpireChance>
             <iMinLevel>-1</iMinLevel>
         </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_CAST_HASTE</Type>
-            <Description>TXT_KEY_PROMOTION_CAST_HASTE</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_CHANNELING1</PromotionPrereq>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Air1.dds</Button>
-            <iAIWeight>50</iAIWeight>
-            <BonusPrereq>BONUS_MANA_AIR</BonusPrereq>
-        </PromotionInfo>
         
         <PromotionInfo>
             <Type>PROMOTION_CAST_STEAL_TREASURY</Type>
@@ -3854,24 +3839,7 @@
             <iCombatPercent>15</iCombatPercent>
             <Button>Art/Interface/Buttons/Spells/Growth3.dds</Button>
             <iExpireChance>100</iExpireChance>
-        </PromotionInfo>  
-                        
-        
-        <PromotionInfo>
-            <Type>PROMOTION_CAST_BLUR</Type>
-            <Description>TXT_KEY_PROMOTION_CAST_BLUR</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_CHANNELING1</PromotionPrereq>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Air1.dds</Button>
-            <iAIWeight>50</iAIWeight>
-            <BonusPrereq>BONUS_MANA_AIR</BonusPrereq>
-        </PromotionInfo>
+        </PromotionInfo>                
         <PromotionInfo>
             <Type>PROMOTION_CAST_TELEPORT</Type>
             <Description>TXT_KEY_PROMOTION_CAST_TELEPORT</Description>
@@ -3883,24 +3851,9 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Air2.dds</Button>
+            <Button>Art/Interface/Buttons/Promotions/Twincast.dds</Button>
             <iAIWeight>50</iAIWeight>
-            <BonusPrereq>BONUS_MANA_AIR</BonusPrereq>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_CAST_THUNDERSTRIKE</Type>
-            <Description>TXT_KEY_PROMOTION_CAST_THUNDERSTRIKE</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_CHANNELING2</PromotionPrereq>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Air2.dds</Button>
-            <iAIWeight>50</iAIWeight>
-            <BonusPrereq>BONUS_MANA_AIR</BonusPrereq>
+            <BonusPrereq></BonusPrereq>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_ENCHANT_SPELLSTAFF</Type>
@@ -3913,24 +3866,9 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Air3.dds</Button>
+            <Button>Art/Interface/Buttons/Promotions/Spellstaff.dds</Button>
             <iAIWeight>50</iAIWeight>
-            <BonusPrereq>BONUS_MANA_AIR</BonusPrereq>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_CAST_FATIGUE</Type>
-            <Description>TXT_KEY_PROMOTION_CAST_FATIGUE</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_CHANNELING3</PromotionPrereq>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Air3.dds</Button>
-            <iAIWeight>50</iAIWeight>
-            <BonusPrereq>BONUS_MANA_AIR</BonusPrereq>
+            <BonusPrereq></BonusPrereq>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_CAST_BLOOM</Type>
@@ -3943,28 +3881,13 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Earth1.dds</Button>
+            <Button>Art/Interface/Buttons/Spells/Bloom.dds</Button>
             <iAIWeight>50</iAIWeight>
-            <BonusPrereq>BONUS_MANA_EARTH</BonusPrereq>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_CAST_ENCHANTED_BLADE</Type>
-            <Description>TXT_KEY_PROMOTION_CAST_ENCHANTED_BLADE</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_CHANNELING1</PromotionPrereq>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Earth1.dds</Button>
-            <iAIWeight>50</iAIWeight>
-            <BonusPrereq>BONUS_MANA_EARTH</BonusPrereq>
+            <BonusPrereq></BonusPrereq>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_CAST_TREETOP_DEFENCE</Type>
-            <Description>TXT_KEY_PROMOTION_CAST_TREETOP_DEFENCE</Description>
+            <Description>Treetop Defence</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_CHANNELING1</PromotionPrereq>
             <UnitCombats>
@@ -3973,9 +3896,9 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Earth1.dds</Button>
+            <Button>Art/Interface/Buttons/Spells/Treetopdefence.dds</Button>
             <iAIWeight>50</iAIWeight>
-            <BonusPrereq>BONUS_MANA_EARTH</BonusPrereq>
+            <BonusPrereq></BonusPrereq>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_CAST_TERRAFORM</Type>
@@ -3988,54 +3911,24 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Earth2.dds</Button>
+            <Button>Art/Interface/Buttons/Promotions/Terraform.dds</Button>
             <iAIWeight>50</iAIWeight>
-            <BonusPrereq>BONUS_MANA_EARTH</BonusPrereq>
+            <BonusPrereq></BonusPrereq>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_CAST_DISPEL</Type>
             <Description>TXT_KEY_PROMOTION_CAST_DISPEL</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_CHANNELING2</PromotionPrereq>
+            <PromotionPrereq>PROMOTION_CHANNELING1</PromotionPrereq>
             <UnitCombats>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Earth2.dds</Button>
+            <Button>Art/Interface/Buttons/Spells/Dispel Magic.dds</Button>
             <iAIWeight>50</iAIWeight>
-            <BonusPrereq>BONUS_MANA_EARTH</BonusPrereq>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_CAST_STONESKIN</Type>
-            <Description>TXT_KEY_PROMOTION_CAST_STONESKIN</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_CHANNELING3</PromotionPrereq>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Earth3.dds</Button>
-            <iAIWeight>50</iAIWeight>
-            <BonusPrereq>BONUS_MANA_EARTH</BonusPrereq>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_CAST_INVISIBLE</Type>
-            <Description>TXT_KEY_PROMOTION_CAST_INVISIBLE</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_CHANNELING3</PromotionPrereq>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Earth3.dds</Button>
-            <iAIWeight>50</iAIWeight>
-            <BonusPrereq>BONUS_MANA_EARTH</BonusPrereq>
+            <BonusPrereq></BonusPrereq>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_CAST_SCORCH</Type>
@@ -4048,9 +3941,9 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Fire1.dds</Button>
+            <Button>Art/Interface/Buttons/Spells/Scorch.dds</Button>
             <iAIWeight>50</iAIWeight>
-            <BonusPrereq>BONUS_MANA_FIRE</BonusPrereq>
+            <BonusPrereq></BonusPrereq>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_CAST_BLINDING_LIGHT</Type>
@@ -4063,39 +3956,9 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Fire1.dds</Button>
+            <Button>Art/Interface/Buttons/Spells/Blinding Light.dds</Button>
             <iAIWeight>50</iAIWeight>
-            <BonusPrereq>BONUS_MANA_FIRE</BonusPrereq>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_CAST_RING_OF_FLAMES</Type>
-            <Description>TXT_KEY_PROMOTION_CAST_RING_OF_FLAMES</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_CHANNELING2</PromotionPrereq>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Fire2.dds</Button>
-            <iAIWeight>50</iAIWeight>
-            <BonusPrereq>BONUS_MANA_FIRE</BonusPrereq>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_CAST_FIERY_RAGE</Type>
-            <Description>TXT_KEY_PROMOTION_FIERY_RAGE</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_CHANNELING2</PromotionPrereq>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Fire2.dds</Button>
-            <iAIWeight>50</iAIWeight>
-            <BonusPrereq>BONUS_MANA_FIRE</BonusPrereq>
+            <BonusPrereq></BonusPrereq>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_CAST_FIREBALL</Type>
@@ -4143,51 +4006,6 @@
             <BonusPrereq>NONE</BonusPrereq>
         </PromotionInfo>
         <PromotionInfo>
-            <Type>PROMOTION_CAST_SHIELDING_FIRE</Type>
-            <Description>TXT_KEY_PROMOTION_CAST_SHIELDING_FIRE</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_CHANNELING3</PromotionPrereq>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Fire3.dds</Button>
-            <iAIWeight>50</iAIWeight>
-            <BonusPrereq>BONUS_MANA_FIRE</BonusPrereq>
-        </PromotionInfo>   
-        <PromotionInfo>
-            <Type>PROMOTION_CAST_SLOW</Type>
-            <Description>TXT_KEY_PROMOTION_CAST_SLOW</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_CHANNELING1</PromotionPrereq>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Water1.dds</Button>
-            <iAIWeight>50</iAIWeight>
-            <BonusPrereq>BONUS_MANA_WATER</BonusPrereq>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_CAST_DANCE_OF_BLADES</Type>
-            <Description>TXT_KEY_PROMOTION_CAST_DANCE_OF_BLADES</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_CHANNELING1</PromotionPrereq>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Water1.dds</Button>
-            <iAIWeight>50</iAIWeight>
-            <BonusPrereq>BONUS_MANA_WATER</BonusPrereq>
-        </PromotionInfo>
-        <PromotionInfo>
             <Type>PROMOTION_CAST_VITALIZE</Type>
             <Description>TXT_KEY_PROMOTION_CAST_VITALIZE</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
@@ -4198,9 +4016,9 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Water2.dds</Button>
+            <Button>Art/Interface/Buttons/Spells/Vitalize.dds</Button>
             <iAIWeight>50</iAIWeight>
-            <BonusPrereq>BONUS_MANA_WATER</BonusPrereq>
+            <BonusPrereq></BonusPrereq>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_CAST_WEAK</Type>
@@ -4213,24 +4031,9 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Water2.dds</Button>
+            <Button>Art/Interface/Buttons/Promotions/Weak.dds</Button>
             <iAIWeight>50</iAIWeight>
-            <BonusPrereq>BONUS_MANA_WATER</BonusPrereq>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_CAST_SACRIFICE</Type>
-            <Description>TXT_KEY_PROMOTION_CAST_SACRIFICE</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <PromotionPrereq>PROMOTION_CHANNELING3</PromotionPrereq>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Water3.dds</Button>
-            <iAIWeight>50</iAIWeight>
-            <BonusPrereq>BONUS_MANA_WATER</BonusPrereq>
+            <BonusPrereq></BonusPrereq>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_CAST_BANISH</Type>
@@ -4243,9 +4046,9 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Water3.dds</Button>
+            <Button>Art/Interface/Buttons/Promotions/Summoner.dds</Button>
             <iAIWeight>50</iAIWeight>
-            <BonusPrereq>BONUS_MANA_WATER</BonusPrereq>
+            <BonusPrereq></BonusPrereq>
         </PromotionInfo>
         
 		<PromotionInfo>
@@ -4304,6 +4107,34 @@
             </FeatureDefenses>
             <Button>Art/Interface/Buttons/Promotions/banditraid.dds</Button>
         </PromotionInfo>
+        
+        
+        <PromotionInfo>
+            <Type>PROMOTION_CAST_BESERK</Type>
+            <Description>TXT_KEY_PROMOTION_BESERK</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <TechPrereq>TECH_NEVER</TechPrereq>
+            <Button>,Art/Interface/Buttons/Promotions/CrownofBrillance.dds</Button>
+        </PromotionInfo>         
+        
+        <PromotionInfo>
+            <Type>PROMOTION_BESERK</Type>
+            <Description>TXT_KEY_PROMOTION_BESERK</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <TechPrereq>TECH_NEVER</TechPrereq>
+            <iCombatPercent>25</iCombatPercent>
+            <Button>,Art/Interface/Buttons/Promotions/CrownofBrillance.dds</Button>
+            <iExpireTurns>2</iExpireTurns>
+        </PromotionInfo> 
+        
+        <PromotionInfo>
+            <Type>PROMOTION_BESERK_RECOVER</Type>
+            <Description>TXT_KEY_SPELL_BESERK_RECOVER</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <TechPrereq>TECH_NEVER</TechPrereq>
+            <Button>,Art/Interface/Buttons/spells/ressurection.dds</Button>
+            <iExpireTurns>7</iExpireTurns>
+        </PromotionInfo>          
         
         
     </PromotionInfos>

@@ -565,6 +565,7 @@ public:
 	int getDefensiveStrikeChance() const;
 	int getDefensiveStrikeDamage() const;
 	int getExpireChance() const;
+	int getExpireTurns() const;
 	int getExtraCombatStr() const;
 	int getExtraCombatStrPercent() const;
 	int getExtraCombatDefense() const;
@@ -710,6 +711,7 @@ protected:
 	int m_iDefensiveStrikeChance;
 	int m_iDefensiveStrikeDamage;
 	int m_iExpireChance;
+	int m_iExpireTurns;
 	int m_iExtraCombatStr;
 	int m_iExtraCombatStrPercent;
 	int m_iExtraCombatDefense;
@@ -808,6 +810,7 @@ public:
 	int getDamageLimit() const;
 	int getDamageType() const;
 	int getDelay() const;
+	int getCooldown() const;
 	int getCreateUnitNum() const;
 	int getAddPromotionType1() const;
 	int getAddPromotionType2() const;
@@ -937,6 +940,7 @@ protected:
     int m_iDamageLimit;
     int m_iDamageType;
     int m_iDelay;
+	int m_iCooldown;
 	int m_iRange;
 	int m_iResistModify;
 	int m_iAddPromotionType1;

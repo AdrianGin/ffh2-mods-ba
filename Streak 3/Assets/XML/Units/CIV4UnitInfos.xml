@@ -2267,6 +2267,10 @@
 			<bGraphicalOnly>0</bGraphicalOnly>
 			<iHotKeyPriority>0</iHotKeyPriority>
 			<FreePromotions>
+				<FreePromotion>
+					<PromotionType>PROMOTION_HEAL1</PromotionType>
+					<bFreePromotion>1</bFreePromotion>
+				</FreePromotion>
 			</FreePromotions>
 			<LeaderPromotion>NONE</LeaderPromotion>
 			<iLeaderExperience>0</iLeaderExperience>
@@ -2585,7 +2589,12 @@
 			<PrereqReligion>NONE</PrereqReligion>
 			<PrereqCorporation>NONE</PrereqCorporation>
 			<PrereqBuilding>NONE</PrereqBuilding>
-			<PrereqTech>TECH_WEAPON_FORGING</PrereqTech>
+			<PrereqTech>NONE</PrereqTech>
+			<OrTechTypes>
+				<PrereqTech>TECH_WEAPON_FORGING</PrereqTech>
+				<PrereqTech>TECH_BOW_AND_ARROW</PrereqTech>
+				<PrereqTech>TECH_THE_DRAFT</PrereqTech>
+            </OrTechTypes>			
 			<TechTypes>
             </TechTypes>
 			<BonusType>NONE</BonusType>
@@ -7142,8 +7151,12 @@
 			<bCtrlDown>0</bCtrlDown>
 			<bGraphicalOnly>0</bGraphicalOnly>
 			<iHotKeyPriority>0</iHotKeyPriority>
-			<FreePromotions>
-            </FreePromotions>
+			<FreePromotions>	
+				<FreePromotion>
+					<PromotionType>PROMOTION_CAST_BESERK</PromotionType>
+					<bFreePromotion>1</bFreePromotion>
+				</FreePromotion>
+			</FreePromotions>
 			<LeaderPromotion>NONE</LeaderPromotion>
 			<iLeaderExperience>0</iLeaderExperience>
 			<iCombatDefense>163</iCombatDefense>

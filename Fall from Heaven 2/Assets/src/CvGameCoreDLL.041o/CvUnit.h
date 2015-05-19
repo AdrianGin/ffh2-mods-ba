@@ -1006,6 +1006,13 @@ public:
 	int getTotalDamageTypeCombat() const;
 	int getDamageTypeResist(DamageTypes eIndex) const;
 	void changeDamageTypeResist(DamageTypes eIndex, int iChange);
+
+	int getSpellCooldown(SpellTypes eIndex) const;
+	void changeSpellCooldown(SpellTypes eIndex, int iChange);
+
+	int getPromotionDuration(PromotionTypes eIndex) const;
+	void changePromotionDuration(PromotionTypes eIndex, int iChange);
+
     int countUnitsWithinRange(int iRange, bool bEnemy, bool bNeutral, bool bTeam);
 	int getWorkRateModify() const;
 	void changeWorkRateModify(int iChange);
@@ -1159,11 +1166,18 @@ protected:
 	int* m_paiBonusAffinityAmount;
 	int* m_paiDamageTypeCombat;
 	int* m_paiDamageTypeResist;
+	
+	
 
 // Adrian add a member for SelectedRanged spell
 	int m_iSelectedRangedSpell;
 	CvPlot* m_pTargetPlot;
 	CvUnit* m_pTargetUnit;
+//Adrian add: cooldown for spells
+	int* m_paiSpellCooldown;
+	//Keeps track of how long each promotion has been on for, so it can wear off
+	int* m_paiPromotionDurations;
+
 
 //Added to allow dynamic collateral damage modifier to units
 	int m_iCollateralDamage;
