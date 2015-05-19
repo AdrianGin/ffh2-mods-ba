@@ -4098,8 +4098,38 @@
             <BonusPrereq>BONUS_MANA_FIRE</BonusPrereq>
         </PromotionInfo>
         <PromotionInfo>
+            <Type>PROMOTION_CAST_LESSER_FIREBALL</Type>
+            <Description>Lesser Fireball</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PromotionPrereq>PROMOTION_CHANNELING1</PromotionPrereq>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Units/Fireball.dds</Button>
+            <iAIWeight>50</iAIWeight>
+            <BonusPrereq>NONE</BonusPrereq>
+        </PromotionInfo>
+        <PromotionInfo>
             <Type>PROMOTION_CAST_FIREBALL</Type>
             <Description>TXT_KEY_PROMOTION_CAST_FIREBALL</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PromotionPrereq>PROMOTION_CHANNELING2</PromotionPrereq>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>
+            <Button>Art/Interface/Buttons/Units/Fireball.dds</Button>
+            <iAIWeight>50</iAIWeight>
+            <BonusPrereq>NONE</BonusPrereq>
+        </PromotionInfo>
+        <PromotionInfo>
+            <Type>PROMOTION_CAST_GREATER_FIREBALL</Type>
+            <Description>Greater Fireball</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_CHANNELING3</PromotionPrereq>
             <UnitCombats>
@@ -4108,9 +4138,9 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Fire3.dds</Button>
+            <Button>Art/Interface/Buttons/Units/Fireball.dds</Button>
             <iAIWeight>50</iAIWeight>
-            <BonusPrereq>BONUS_MANA_FIRE</BonusPrereq>
+            <BonusPrereq>NONE</BonusPrereq>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_CAST_SHIELDING_FIRE</Type>

@@ -1157,6 +1157,26 @@
             <Button>Art/Interface/Buttons/Promotions/CrownofBrillance.dds</Button>
         </SpellInfo>
         <SpellInfo>
+            <Type>SPELL_LESSER_FIREBALL</Type>
+            <Description>Lesser Fireball</Description>
+            <PromotionPrereq1>PROMOTION_CAST_LESSER_FIREBALL</PromotionPrereq1>
+            <bGlobal>0</bGlobal>
+            <bIsTileSelect>1</bIsTileSelect>
+            <bIsUnitSelect>1</bIsUnitSelect>
+            <iSpellDistance>1</iSpellDistance>
+            <bRequiresLOS>1</bRequiresLOS>  
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+            <bHasCasted>1</bHasCasted>
+            <iRange>0</iRange>
+            <iDamage>5</iDamage>
+            <iDamageLimit>30</iDamageLimit>
+            <DamageType>DAMAGE_FIRE</DamageType>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS3D_SPELL_FIREBALL</Sound>
+            <Button>Art/Interface/Buttons/Units/Fireball.dds</Button>
+        </SpellInfo>
+        <SpellInfo>
             <Type>SPELL_FIREBALL</Type>
             <Description>TXT_KEY_SPELL_FIREBALL</Description>
             <PromotionPrereq1>PROMOTION_CAST_FIREBALL</PromotionPrereq1>
@@ -1169,8 +1189,28 @@
             <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
             <bHasCasted>1</bHasCasted>
             <iRange>0</iRange>
-            <iDamage>35</iDamage>
-            <iDamageLimit>100</iDamageLimit>
+            <iDamage>10</iDamage>
+            <iDamageLimit>40</iDamageLimit>
+            <DamageType>DAMAGE_FIRE</DamageType>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS3D_SPELL_FIREBALL</Sound>
+            <Button>Art/Interface/Buttons/Units/Fireball.dds</Button>
+        </SpellInfo>
+        <SpellInfo>
+            <Type>SPELL_GREATER_FIREBALL</Type>
+            <Description>Greater Fireball</Description>
+            <PromotionPrereq1>PROMOTION_CAST_GREATER_FIREBALL</PromotionPrereq1>
+            <bGlobal>0</bGlobal>
+            <bIsTileSelect>1</bIsTileSelect>
+            <bIsUnitSelect>1</bIsUnitSelect>
+            <iSpellDistance>2</iSpellDistance>
+            <bRequiresLOS>1</bRequiresLOS>  
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+            <bHasCasted>1</bHasCasted>
+            <iRange>0</iRange>
+            <iDamage>15</iDamage>
+            <iDamageLimit>50</iDamageLimit>
             <DamageType>DAMAGE_FIRE</DamageType>
             <Effect>EFFECT_SPELL1</Effect>
             <Sound>AS3D_SPELL_FIREBALL</Sound>
