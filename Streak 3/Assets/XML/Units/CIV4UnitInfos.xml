@@ -12572,7 +12572,7 @@
             </UniqueNames>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_BEAST</Combat>
+			<Combat>UNITCOMBAT_FLYING</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_CITY_DEFENSE</DefaultUnitAI>
 			<Invisible>NONE</Invisible>
@@ -12588,10 +12588,10 @@
 			<bNoCapture>0</bNoCapture>
 			<bQuickCombat>0</bQuickCombat>
 			<bRivalTerritory>0</bRivalTerritory>
-			<bMilitaryHappiness>1</bMilitaryHappiness>
+			<bMilitaryHappiness>0</bMilitaryHappiness>
 			<bMilitarySupport>0</bMilitarySupport>
 			<bMilitaryProduction>1</bMilitaryProduction>
-			<bPillage>1</bPillage>
+			<bPillage>0</bPillage>
 			<bSpy>0</bSpy>
 			<bSabotage>0</bSabotage>
 			<bDestroy>0</bDestroy>
@@ -12653,7 +12653,7 @@
 			<PrereqReligion>NONE</PrereqReligion>
 			<PrereqCorporation>NONE</PrereqCorporation>
 			<PrereqBuilding>NONE</PrereqBuilding>
-			<PrereqTech>NONE</PrereqTech>
+			<PrereqTech>TECH_NEVER</PrereqTech>
 			<TechTypes>
             </TechTypes>
 			<BonusType>NONE</BonusType>
@@ -12668,13 +12668,13 @@
 				</Flavor>
 			</Flavors>
 			<iAIWeight>200</iAIWeight>
-			<iCost>25</iCost>
+			<iCost>0</iCost>
 			<iHurryCostModifier>0</iHurryCostModifier>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
 			<iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
 			<iMinAreaSize>-1</iMinAreaSize>
-			<iMoves>3</iMoves>
-			<iUnitPlotCost>20</iUnitPlotCost>
+			<iMoves>1</iMoves>
+			<iUnitPlotCost>60</iUnitPlotCost>
 			<bNoRevealMap>0</bNoRevealMap>
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
@@ -12697,13 +12697,13 @@
             </TerrainPassableTechs>
 			<FeaturePassableTechs>
             </FeaturePassableTechs>
-			<iCombat>19</iCombat>
+			<iCombat>350</iCombat>
 			<iCombatLimit>100</iCombatLimit>
 			<iAirCombat>0</iAirCombat>
 			<iAirCombatLimit>0</iAirCombatLimit>
 			<iXPValueAttack>32</iXPValueAttack>
 			<iXPValueDefense>16</iXPValueDefense>
-			<iFirstStrikes>1</iFirstStrikes>
+			<iFirstStrikes>0</iFirstStrikes>
 			<iChanceFirstStrikes>0</iChanceFirstStrikes>
 			<iInterceptionProbability>0</iInterceptionProbability>
 			<iEvasionProbability>0</iEvasionProbability>
@@ -12769,10 +12769,14 @@
 			<bGraphicalOnly>0</bGraphicalOnly>
 			<iHotKeyPriority>0</iHotKeyPriority>
 			<FreePromotions>
+				<FreePromotion>
+					<PromotionType>PROMOTION_FLYING</PromotionType>
+					<bFreePromotion>1</bFreePromotion>
+				</FreePromotion>
 			</FreePromotions>
 			<LeaderPromotion>NONE</LeaderPromotion>
 			<iLeaderExperience>0</iLeaderExperience>
-			<iCombatDefense>19</iCombatDefense>
+			<iCombatDefense>350</iCombatDefense>
 			<iTier>4</iTier>
 			<Image>Art/Interface/Popups/Acheron the Red Dragon.dds</Image>
 			<PythonPostCombatLost>postCombatAcheron(pCaster,pOpponent)</PythonPostCombatLost>
