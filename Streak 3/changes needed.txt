@@ -1,3 +1,17 @@
+Comany tech axeman missing - shows up as upgrade for warrior when tech not researched yet
+create unitclass icons for ranged, assault and company
+get rid of cast level up button
+upgrades unlock when?
+remove all sounds
+strength 2 doesnt work if you have strength 1 already
+fort def bonus show on map?
+
+adepts always one move to prevent move hit move?
+experience at 2 does not allow level up
+
+
+
+
 ADRIAN
 
 - please create a button pic of a forest for bloom
@@ -6,13 +20,9 @@ ADRIAN
 - PLEASE CREATE BUTTON FOR SPELLL SUMMON DRAGON USING THE SAME ART AS IS UNDER THE UNIT_DRAGON
 
 
-- palace needs fourth mana type (water) can only give 3 bonus resources! (or we can just get rid of mana requirement for spells.
 
 
 
-
-BAS
-- finish dragon stats
 
 
 To Do:
