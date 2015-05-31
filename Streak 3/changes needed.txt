@@ -10,6 +10,8 @@ ADRIAN
 
 
 
+Manage Mana
+Axeman fix
 
 BAS
 - finish dragon stats
