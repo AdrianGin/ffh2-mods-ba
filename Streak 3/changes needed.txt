@@ -5,9 +5,14 @@ upgrades unlock when?
 remove all sounds
 strength 2 doesnt work if you have strength 1 already
 fort def bonus show on map?
+couldnt build farm on rice with jungle. could chop jungle
+invis units should be hidden in stacks and cities
+dispell button icon bugged on unit stats
+thief 1 range
 
 adepts always one move to prevent move hit move?
 experience at 2 does not allow level up
+inc life steal for beast promotions
 
 
 
