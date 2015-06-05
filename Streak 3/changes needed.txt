@@ -15,6 +15,7 @@ experience at 2 does not allow level up
 inc life steal for beast promotions
 ship def bonus on water not implemented
 drowns and ships stacked to 6+??? could add more drowns but not more ships (bug)
+ship upgrades?
 
 
 
