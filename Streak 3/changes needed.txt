@@ -1,22 +1,30 @@
+Comany tech axeman missing - shows up as upgrade for warrior when tech not researched yet
+create unitclass icons for ranged, assault and company
+get rid of cast level up button
+upgrades unlock when?
+remove all sounds
+strength 2 doesnt work if you have strength 1 already
+fort def bonus show on map?
+couldnt build farm on rice with jungle. could chop jungle
+invis units should be hidden in stacks and cities
+dispell button icon bugged on unit stats
+thief 1 range
+
+adepts always one move to prevent move hit move?
+experience at 2 does not allow level up
+inc life steal for beast promotions
+ship def bonus on water not implemented
+drowns and ships stacked to 6+??? could add more drowns but not more ships (bug)
+
+
+
+
 ADRIAN
 
 - please create a button pic of a forest for bloom
 - please create button pic for fireball, greater fireball and meteor like you did for   growth spells
 - create dragon spell
 - PLEASE CREATE BUTTON FOR SPELLL SUMMON DRAGON USING THE SAME ART AS IS UNDER THE UNIT_DRAGON
-
-
-- palace needs fourth mana type (water) can only give 3 bonus resources! (or we can just get rid of mana requirement for spells.
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -54,7 +62,6 @@ Bug with Fireball cannot attack hill
 
 BAS
 - finish dragon stats
-
 
 To Do:
 Decide how much heal Monk heal does
