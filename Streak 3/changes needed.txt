@@ -33,6 +33,37 @@ ADRIAN
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Drowns vs Triemes...
+Manage Mana
+Axeman fix
+Thief should have 1 range...
+Woodwalking price
+Invisible stuff
+Less space for Apdets/Flagbeaeres?
+Fort % defence
+Thief Messaging stuff
+
+Bug with Fireball cannot attack hill
+
+
+BAS
+- finish dragon stats
+
 To Do:
 Decide how much heal Monk heal does
 
