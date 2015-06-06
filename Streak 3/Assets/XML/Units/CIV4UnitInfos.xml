@@ -3243,11 +3243,8 @@
 			<PrereqReligion>NONE</PrereqReligion>
 			<PrereqCorporation>NONE</PrereqCorporation>
 			<PrereqBuilding>NONE</PrereqBuilding>
-			<PrereqTech>NONE</PrereqTech>
+			<PrereqTech>TECH_WEAPON_FORGING</PrereqTech>
 			<OrTechTypes>
-				<PrereqTech>TECH_THE_DRAFT</PrereqTech>
-				<PrereqTech>TECH_WEAPON_FORGING</PrereqTech>
-				<PrereqTech>TECH_BOW_AND_ARROW</PrereqTech>
             </OrTechTypes>
 			<TechTypes>
 		    </TechTypes>
