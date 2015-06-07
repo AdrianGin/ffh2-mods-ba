@@ -1,3 +1,18 @@
+give horse and elephant weapons a I and II to deffrientiate the icons
+boots of speedwalking(agility) remove healing?
+remove jungle walk from forest boots? keep jungle as bad terrain or for more advanced boots?
+
+
+
+
+
+
+
+
+
+
+
+
 create unitclass icons for ranged, assault and company
 get rid of cast level up button
 upgrades unlock when?

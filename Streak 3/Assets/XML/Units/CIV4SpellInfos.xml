@@ -241,7 +241,8 @@
         
         <SpellInfo>
             <Type>SPELL_BOOTS_MARCH</Type>
-            <Description>TXT_KEY_PROMOTION_MARCH</Description>            
+            <Description>TXT_KEY_PROMOTION_MARCH</Description>   
+            <Help>TXT_KEY_PROMOTION_MARCH_PEDIA</Help>         
             <TechPrereq>TECH_DARK_AGE</TechPrereq>
             <UnitCombatPrereq>NONE</UnitCombatPrereq>
             <bAllowAI>1</bAllowAI>
@@ -261,7 +262,8 @@
         
         <SpellInfo>
             <Type>SPELL_BOOTS_WOODWALK</Type>
-            <Description>TXT_KEY_PROMOTION_WOODWALK</Description>            
+            <Description>TXT_KEY_PROMOTION_WOODWALK</Description>   
+            <Help>TXT_KEY_PROMOTION_WOODWALK_PEDIA</Help>              
             <TechPrereq>TECH_FEUDAL_AGE</TechPrereq>
             <UnitCombatPrereq>NONE</UnitCombatPrereq>
             <bAllowAI>1</bAllowAI>
@@ -280,7 +282,8 @@
         
         <SpellInfo>
             <Type>SPELL_BOOTS_HILLWALK</Type>
-            <Description>TXT_KEY_PROMOTION_HILLWALK</Description>            
+            <Description>TXT_KEY_PROMOTION_HILLWALK</Description>    
+            <Help>TXT_KEY_PROMOTION_HILLWALK_PEDIA</Help>             
             <TechPrereq>TECH_FEUDAL_AGE</TechPrereq>
             <UnitCombatPrereq>NONE</UnitCombatPrereq>
             <bAllowAI>1</bAllowAI>
@@ -299,7 +302,8 @@
         
 		<SpellInfo>
             <Type>SPELL_BOOTS_MOUNTAINWALK</Type>
-            <Description>TXT_KEY_PROMOTION_MOUNTAINWALK</Description>            
+            <Description>TXT_KEY_PROMOTION_MOUNTAINWALK</Description>     
+            <Help>TXT_KEY_PROMOTION_MOUNTAINWALK_PEDIA</Help>             
             <TechPrereq>TECH_CASTLE_AGE</TechPrereq>
             <UnitCombatPrereq>NONE</UnitCombatPrereq>
             <bAllowAI>1</bAllowAI>
@@ -318,7 +322,8 @@
         
 		<SpellInfo>
             <Type>SPELL_BOOTS_WATERWALK</Type>
-            <Description>TXT_KEY_PROMOTION_WATERWALK</Description>            
+            <Description>TXT_KEY_PROMOTION_WATERWALK</Description>    
+            <Help>TXT_KEY_PROMOTION_WATERWALK_PEDIA</Help>              
             <TechPrereq>TECH_CASTLE_AGE</TechPrereq>
             <UnitCombatPrereq>NONE</UnitCombatPrereq>
             <bAllowAI>1</bAllowAI>
@@ -337,7 +342,8 @@
         
 		<SpellInfo>
             <Type>SPELL_BOOTS_SPEEDWALK</Type>
-            <Description>TXT_KEY_PROMOTION_SPEEDWALK</Description>            
+            <Description>TXT_KEY_PROMOTION_SPEEDWALK</Description>    
+            <Help>TXT_KEY_PROMOTION_SPEEDWALK_PEDIA</Help>             
             <TechPrereq>TECH_IMPERIAL_AGE</TechPrereq>
             <UnitCombatPrereq>NONE</UnitCombatPrereq>
             <bAllowAI>1</bAllowAI>
@@ -356,7 +362,8 @@
         
 		<SpellInfo>
             <Type>SPELL_BOOTS_INVISIBLEWALK</Type>
-            <Description>TXT_KEY_PROMOTION_INVISIBLEWALK</Description>            
+            <Description>TXT_KEY_PROMOTION_INVISIBLEWALK</Description>     
+            <Help>TXT_KEY_PROMOTION_INVISIBLEWALK_PEDIA</Help>              
             <TechPrereq>TECH_IMPERIAL_AGE</TechPrereq>
             <UnitCombatPrereq>NONE</UnitCombatPrereq>
             <bAllowAI>1</bAllowAI>
