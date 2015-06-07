@@ -3062,6 +3062,8 @@
             <TechPrereq>TECH_NEVER</TechPrereq>
             <iCombatPercent>5</iCombatPercent>
             <Button>Art/Interface/Buttons/Spells/Growth1.dds</Button>
+            <bDispellable>1</bDispellable>
+            <iAIWeight>50</iAIWeight>
             <iExpireChance>100</iExpireChance>
         </PromotionInfo>  
          <PromotionInfo>
@@ -3084,6 +3086,8 @@
             <TechPrereq>TECH_NEVER</TechPrereq>
             <iCombatPercent>10</iCombatPercent>
             <Button>Art/Interface/Buttons/Spells/Growth2.dds</Button>
+            <bDispellable>1</bDispellable>
+            <iAIWeight>50</iAIWeight>
             <iExpireChance>100</iExpireChance>
         </PromotionInfo>  
          <PromotionInfo>
@@ -3106,6 +3110,8 @@
             <TechPrereq>TECH_NEVER</TechPrereq>
             <iCombatPercent>15</iCombatPercent>
             <Button>Art/Interface/Buttons/Spells/Growth3.dds</Button>
+            <bDispellable>1</bDispellable>
+            <iAIWeight>50</iAIWeight>
             <iExpireChance>100</iExpireChance>
         </PromotionInfo> 
         <PromotionInfo>
@@ -3134,7 +3140,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
-            <Button>Art/Interface/Buttons/Spells/Dispel Magic.dds</Button>
+            <Button>Art/Interface/Buttons/Spells/DispelMagic.dds</Button>
             <iAIWeight>50</iAIWeight>
             <BonusPrereq></BonusPrereq>
         </PromotionInfo>
@@ -3179,7 +3185,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
-            <Button>Art/Interface/Buttons/Spells/Blinding Light.dds</Button>
+            <Button>Art/Interface/Buttons/Spells/BlindingLight.dds</Button>
             <iAIWeight>50</iAIWeight>
             <BonusPrereq></BonusPrereq>
         </PromotionInfo>          
@@ -3224,7 +3230,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
-            <Button>Art/Interface/Popups/Acheron the Red Dragon.dds</Button>
+            <Button>Art/Interface/Buttons/Units/Acheron.dds</Button>
             <iAIWeight>50</iAIWeight>
             <BonusPrereq></BonusPrereq>
         </PromotionInfo>
@@ -3376,6 +3382,14 @@
             <iExpireTurns>7</iExpireTurns>
         </PromotionInfo>          
         
+        <PromotionInfo>
+            <Type>PROMOTION_DRAGON_RECOVER</Type>
+            <Description>TXT_KEY_SPELL_DRAGON_RECOVER</Description>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <TechPrereq>TECH_NEVER</TechPrereq>
+            <Button>,Art/Interface/Buttons/spells/ressurection.dds</Button>
+            <iExpireTurns>15</iExpireTurns>
+        </PromotionInfo>   
         
     </PromotionInfos>
 </Civ4PromotionInfos>

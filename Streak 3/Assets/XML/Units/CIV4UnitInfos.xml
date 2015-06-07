@@ -14636,7 +14636,6 @@
 			<iLeaderExperience>0</iLeaderExperience>
 			<iCombatDefense>350</iCombatDefense>
 			<iTier>4</iTier>
-			<Image>Art/Interface/Popups/Acheron the Red Dragon.dds</Image>
 			<PythonPostCombatLost>postCombatAcheron(pCaster,pOpponent)</PythonPostCombatLost>
 		</UnitInfo>
 		<UnitInfo>
