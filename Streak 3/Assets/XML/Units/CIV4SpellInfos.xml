@@ -271,7 +271,7 @@
             <bInBordersOnly>1</bInBordersOnly>
             <bInCityOnly>1</bInCityOnly>
             <bHasCasted>1</bHasCasted>
-            <iCost>32</iCost>
+            <iCost>38</iCost>
             <PyRequirement>reqHumanBoots(pCaster, 'PROMOTION_WOODWALK')</PyRequirement>
             <PyResult>spellHumanBoots(pCaster, 'PROMOTION_WOODWALK')</PyResult>
             <Effect>EFFECT_SPELL1</Effect>
@@ -1265,6 +1265,30 @@
             <!--Sound>AS2D_BUILD_BANK</Sound-->
             <Button>Art/Interface/Buttons/Spells/Growth3.dds</Button>
         </SpellInfo>          
+         
+         
+         <SpellInfo>
+            <Type>SPELL_SUMMON_DRAGON</Type>
+            <Description>TXT_KEY_SPELL_SUMMON_DRAGON</Description>
+            <PromotionPrereq1>PROMOTION_CAST_SUMMON_DRAGON</PromotionPrereq1>
+            <bGlobal>0</bGlobal>
+            <bIsTileSelect>1</bIsTileSelect>
+            <bIsUnitSelect>0</bIsUnitSelect>
+            <iSpellDistance>0</iSpellDistance>
+            <bRequiresLOS>1</bRequiresLOS> 
+            <bAllowAI>1</bAllowAI>
+            <bCausesWar>1</bCausesWar>
+            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+            <bHasCasted>1</bHasCasted>
+            <iRange>1</iRange>
+            <CreateUnitType>UNIT_DRAGON</CreateUnitType>
+            <iCreateUnitNum>1</iCreateUnitNum>
+            <bPermanentUnitCreate>1</bPermanentUnitCreate>
+            <iCooldown>15</iCooldown>
+            <Effect>EFFECT_SPELL1</Effect>
+            <!--Sound>AS2D_BUILD_BANK</Sound-->
+            <Button>Art/Interface/Popups/Acheron the Red Dragon.dds</Button>
+        </SpellInfo>  
          
     </SpellInfos>
 </Civ4SpellInfos>

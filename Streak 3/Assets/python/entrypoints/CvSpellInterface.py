@@ -2516,20 +2516,18 @@ def spellStealTreasury(caster):
 	
 	for iiX in range(iX-1, iX+2, 1):
 		for iiY in range(iY-1, iY+2, 1):
-			if not (iiX == iX and iiY == iY):
-				pPlot = CyMap().plot(iiX,iiY)
-				bValid = True
+			pPlot = CyMap().plot(iiX,iiY)
+			bValid = True
 				
-				if (pPlot.getTeam() != iTeam) and (pPlot.isOwned()) :
+			if (pPlot.getTeam() != iTeam) and (pPlot.isOwned()) :
 				
-					if pPlot.isCity():
-						pCity = pPlot.getPlotCity()
-						hasCity = 1
-						cityOwner = pPlot.getOwner()
-							
-		
-					if pPlot.getImprovementType() != -1:
-						plotOwner = pPlot.getOwner()
+				if pPlot.isCity():
+					pCity = pPlot.getPlotCity()
+					hasCity = 1
+					cityOwner = pPlot.getOwner()
+
+				if pPlot.getImprovementType() != -1:
+					plotOwner = pPlot.getOwner()
 						
 
 	if cityOwner != -1:
