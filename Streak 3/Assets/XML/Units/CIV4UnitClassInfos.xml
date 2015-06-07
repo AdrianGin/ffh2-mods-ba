@@ -118,11 +118,29 @@
 		<UnitClassInfo>
 			<Type>UNITCLASS_LESSER_GOLEMS1</Type>
 			<Description></Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxGlobalInstances>0</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_LESSER_GOLEMS1</DefaultUnit>
+		</UnitClassInfo>				
+		<UnitClassInfo>
+			<Type>UNITCLASS_LESSER_GOLEMS2</Type>
+			<Description></Description>
+			<iMaxGlobalInstances>0</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<DefaultUnit>UNIT_LESSER_GOLEMS2</DefaultUnit>
+		</UnitClassInfo>				
+		<UnitClassInfo>
+			<Type>UNITCLASS_LESSER_GOLEMS3</Type>
+			<Description></Description>
+			<iMaxGlobalInstances>0</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<DefaultUnit>UNIT_LESSER_GOLEMS3</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
 			<Type>UNITCLASS_GOLEMS</Type>
@@ -132,6 +150,33 @@
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_GOLEMS</DefaultUnit>
+		</UnitClassInfo>		
+		<UnitClassInfo>
+			<Type>UNITCLASS_GOLEMS1</Type>
+			<Description></Description>
+			<iMaxGlobalInstances>0</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<DefaultUnit>UNIT_GOLEMS1</DefaultUnit>
+		</UnitClassInfo>		
+		<UnitClassInfo>
+			<Type>UNITCLASS_GOLEMS2</Type>
+			<Description></Description>
+			<iMaxGlobalInstances>0</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<DefaultUnit>UNIT_GOLEMS2</DefaultUnit>
+		</UnitClassInfo>		
+		<UnitClassInfo>
+			<Type>UNITCLASS_GOLEMS3</Type>
+			<Description></Description>
+			<iMaxGlobalInstances>0</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<DefaultUnit>UNIT_GOLEMS3</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
 			<Type>UNITCLASS_GREATER_GOLEMS</Type>
@@ -141,6 +186,33 @@
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_GREATER_GOLEMS</DefaultUnit>
+		</UnitClassInfo>
+		<UnitClassInfo>
+			<Type>UNITCLASS_GREATER_GOLEMS1</Type>
+			<Description></Description>
+			<iMaxGlobalInstances>0</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<DefaultUnit>UNIT_GREATER_GOLEMS1</DefaultUnit>
+		</UnitClassInfo>
+		<UnitClassInfo>
+			<Type>UNITCLASS_GREATER_GOLEMS2</Type>
+			<Description></Description>
+			<iMaxGlobalInstances>0</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<DefaultUnit>UNIT_GREATER_GOLEMS2</DefaultUnit>
+		</UnitClassInfo>
+		<UnitClassInfo>
+			<Type>UNITCLASS_GREATER_GOLEMS3</Type>
+			<Description></Description>
+			<iMaxGlobalInstances>0</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<DefaultUnit>UNIT_GREATER_GOLEMS3</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
 			<Type>UNITCLASS_AXEMAN</Type>
