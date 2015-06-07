@@ -2974,6 +2974,7 @@
             <Sound>AS2D_IF_LEVELUP</Sound>
             <TechPrereq>TECH_NEVER</TechPrereq>
             <Button>Art/Interface/Buttons/Spells/thief.dds</Button>
+            <bGraphicalOnly>1</bGraphicalOnly>
         </PromotionInfo>
         
         
@@ -2983,6 +2984,7 @@
             <Sound>AS2D_IF_LEVELUP</Sound>
             <TechPrereq>TECH_NEVER</TechPrereq>
             <Button>Art/Interface/Buttons/Promotions/morale.dds</Button>
+            <bGraphicalOnly>1</bGraphicalOnly>
         </PromotionInfo>        
         
         <PromotionInfo>
@@ -3010,6 +3012,7 @@
             </UnitCombats>
             <Button>Art/Interface/Buttons/Units/Fireball.dds</Button>
             <iAIWeight>50</iAIWeight>
+            <bGraphicalOnly>1</bGraphicalOnly>
             <BonusPrereq>NONE</BonusPrereq>
         </PromotionInfo>
         <PromotionInfo>
@@ -3025,6 +3028,7 @@
             </UnitCombats>
             <Button>Art/Interface/Buttons/Units/Fireball.dds</Button>
             <iAIWeight>50</iAIWeight>
+            <bGraphicalOnly>1</bGraphicalOnly>
             <BonusPrereq>NONE</BonusPrereq>
         </PromotionInfo>
         <PromotionInfo>
@@ -3040,6 +3044,7 @@
             </UnitCombats>
             <Button>Art/Interface/Buttons/Units/Fireball.dds</Button>
             <iAIWeight>50</iAIWeight>
+            <bGraphicalOnly>1</bGraphicalOnly>
             <BonusPrereq>NONE</BonusPrereq>
         </PromotionInfo>        
         <PromotionInfo>
@@ -3054,6 +3059,7 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
+            <bGraphicalOnly>1</bGraphicalOnly>
         </PromotionInfo>      
         <PromotionInfo>
             <Type>PROMOTION_GROWTH1</Type>
@@ -3075,7 +3081,8 @@
                     <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
-            </UnitCombats>            
+            </UnitCombats>  
+            <bGraphicalOnly>1</bGraphicalOnly>          
         </PromotionInfo>        
         <PromotionInfo>
             <Type>PROMOTION_GROWTH2</Type>
@@ -3097,7 +3104,8 @@
                     <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
-            </UnitCombats>            
+            </UnitCombats> 
+            <bGraphicalOnly>1</bGraphicalOnly>           
         </PromotionInfo>        
         <PromotionInfo>
             <Type>PROMOTION_GROWTH3</Type>
@@ -3121,6 +3129,7 @@
             </UnitCombats>
             <Button>Art/Interface/Buttons/Spells/Scorch.dds</Button>
             <iAIWeight>50</iAIWeight>
+            <bGraphicalOnly>1</bGraphicalOnly>
             <BonusPrereq></BonusPrereq>
         </PromotionInfo>
         <PromotionInfo>
@@ -3136,6 +3145,7 @@
             </UnitCombats>
             <Button>Art/Interface/Buttons/Spells/Dispel Magic.dds</Button>
             <iAIWeight>50</iAIWeight>
+            <bGraphicalOnly>1</bGraphicalOnly>
             <BonusPrereq></BonusPrereq>
         </PromotionInfo>
         <PromotionInfo>
@@ -3151,6 +3161,7 @@
             </UnitCombats>
             <Button>Art/Interface/Buttons/Spells/Treetopdefence.dds</Button>
             <iAIWeight>50</iAIWeight>
+            <bGraphicalOnly>1</bGraphicalOnly>
             <BonusPrereq></BonusPrereq>
         </PromotionInfo>
         <PromotionInfo>
@@ -3166,6 +3177,7 @@
             </UnitCombats>
             <Button>Art/Interface/Buttons/Promotions/Weak.dds</Button>
             <iAIWeight>50</iAIWeight>
+            <bGraphicalOnly>1</bGraphicalOnly>
             <BonusPrereq></BonusPrereq>
         </PromotionInfo>  
         <PromotionInfo>
@@ -3181,6 +3193,7 @@
             </UnitCombats>
             <Button>Art/Interface/Buttons/Spells/Blinding Light.dds</Button>
             <iAIWeight>50</iAIWeight>
+            <bGraphicalOnly>1</bGraphicalOnly>
             <BonusPrereq></BonusPrereq>
         </PromotionInfo>          
         <PromotionInfo>
@@ -3196,6 +3209,7 @@
             </UnitCombats>
             <Button>Art/Interface/Buttons/Promotions/Twincast.dds</Button>
             <iAIWeight>50</iAIWeight>
+            <bGraphicalOnly>1</bGraphicalOnly>
             <BonusPrereq></BonusPrereq>
         </PromotionInfo>        
         <PromotionInfo>
@@ -3225,8 +3239,8 @@
                 </UnitCombat>
             </UnitCombats>
             <Button>Art/Interface/Buttons/Promotions/acheron.dds</Button>
-            <bGraphicalOnly>1</bGraphicalOnly>
             <iAIWeight>50</iAIWeight>
+            <bGraphicalOnly>1</bGraphicalOnly>
             <BonusPrereq></BonusPrereq>
         </PromotionInfo>
         <PromotionInfo>
@@ -3242,6 +3256,7 @@
             </UnitCombats>
             <Button>Art/Interface/Buttons/Promotions/Summoner.dds</Button>
             <iAIWeight>50</iAIWeight>
+            <bGraphicalOnly>1</bGraphicalOnly>
             <BonusPrereq></BonusPrereq>
         </PromotionInfo>
         
@@ -3259,7 +3274,8 @@
                 </UnitCombat>
             </UnitCombats>
             <Button>Art/Interface/Buttons/Spells/Bloom.dds</Button>
-            <iAIWeight>50</iAIWeight>
+            <iAIWeight>50</iAIWeight>            
+            <iMinLevel>-1</iMinLevel>
             <BonusPrereq></BonusPrereq>
         </PromotionInfo>
         <PromotionInfo>
@@ -3275,6 +3291,7 @@
             </UnitCombats>
             <Button>Art/Interface/Buttons/Promotions/Terraform.dds</Button>
             <iAIWeight>50</iAIWeight>
+            <iMinLevel>-1</iMinLevel>
             <BonusPrereq></BonusPrereq>
         </PromotionInfo>
         <PromotionInfo>
@@ -3290,6 +3307,7 @@
             </UnitCombats>
             <Button>Art/Interface/Buttons/Spells/Vitalize.dds</Button>
             <iAIWeight>50</iAIWeight>
+            <iMinLevel>-1</iMinLevel>
             <BonusPrereq></BonusPrereq>
         </PromotionInfo>
         
@@ -3356,6 +3374,7 @@
             <Sound>AS2D_IF_LEVELUP</Sound>
             <TechPrereq>TECH_NEVER</TechPrereq>
             <Button>,Art/Interface/Buttons/Promotions/CrownofBrillance.dds</Button>
+            <bGraphicalOnly>1</bGraphicalOnly>
         </PromotionInfo>         
         
         <PromotionInfo>
