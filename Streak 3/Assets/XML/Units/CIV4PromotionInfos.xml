@@ -3224,7 +3224,8 @@
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
             </UnitCombats>
-            <Button>Art/Interface/Popups/Acheron the Red Dragon.dds</Button>
+            <Button>Art/Interface/Buttons/Promotions/acheron.dds</Button>
+            <bGraphicalOnly>1</bGraphicalOnly>
             <iAIWeight>50</iAIWeight>
             <BonusPrereq></BonusPrereq>
         </PromotionInfo>
