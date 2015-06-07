@@ -382,7 +382,8 @@
         
 		<SpellInfo>
             <Type>SPELL_WEAPSARMS_STRENGTH1</Type>
-            <Description>TXT_KEY_PROMOTION_STRENGTH1</Description>            
+            <Description>TXT_KEY_PROMOTION_STRENGTH1</Description>         
+            <Help>TXT_KEY_PROMOTION_STRENGTH1_PEDIA</Help>          
             <TechPrereq>TECH_DARK_AGE</TechPrereq>
             <UnitCombatPrereq>NONE</UnitCombatPrereq>
             <bAllowAI>1</bAllowAI>
@@ -402,7 +403,8 @@
         
 		<SpellInfo>
             <Type>SPELL_WEAPSARMS_STRENGTH2</Type>
-            <Description>TXT_KEY_PROMOTION_STRENGTH2</Description>            
+            <Description>TXT_KEY_PROMOTION_STRENGTH2</Description>         
+            <Help>TXT_KEY_PROMOTION_STRENGTH2_PEDIA</Help>               
             <TechPrereq>TECH_FEUDAL_AGE</TechPrereq>
             <UnitCombatPrereq>NONE</UnitCombatPrereq>
             <bAllowAI>1</bAllowAI>
@@ -421,7 +423,8 @@
         
 		<SpellInfo>
             <Type>SPELL_WEAPSARMS_STRENGTH3</Type>
-            <Description>TXT_KEY_PROMOTION_STRENGTH3</Description>            
+            <Description>TXT_KEY_PROMOTION_STRENGTH3</Description>        
+            <Help>TXT_KEY_PROMOTION_STRENGTH3_PEDIA</Help>             
             <TechPrereq>TECH_CASTLE_AGE</TechPrereq>
             <UnitCombatPrereq>NONE</UnitCombatPrereq>
             <bAllowAI>1</bAllowAI>
@@ -441,7 +444,8 @@
         
 		<SpellInfo>
             <Type>SPELL_WEAPSARMS_STRENGTH4</Type>
-            <Description>TXT_KEY_PROMOTION_STRENGTH4</Description>            
+            <Description>TXT_KEY_PROMOTION_STRENGTH4</Description>             
+            <Help>TXT_KEY_PROMOTION_STRENGTH4_PEDIA</Help>        
             <TechPrereq>TECH_IMPERIAL_AGE</TechPrereq>
             <UnitCombatPrereq>NONE</UnitCombatPrereq>
             <bAllowAI>1</bAllowAI>
@@ -461,6 +465,7 @@
 		<SpellInfo>
             <Type>SPELL_WEAPSARMS_VISION1</Type>
             <Description>TXT_KEY_PROMOTION_VISION1</Description>            
+            <Help>TXT_KEY_PROMOTION_VISION1_PEDIA</Help>            
             <TechPrereq>TECH_FEUDAL_AGE</TechPrereq>
             <UnitCombatPrereq>NONE</UnitCombatPrereq>
             <bAllowAI>1</bAllowAI>
@@ -479,7 +484,8 @@
         
 		<SpellInfo>
             <Type>SPELL_WEAPSARMS_VISION2</Type>
-            <Description>TXT_KEY_PROMOTION_VISION2</Description>            
+            <Description>TXT_KEY_PROMOTION_VISION2</Description>         
+            <Help>TXT_KEY_PROMOTION_VISION2_PEDIA</Help>               
             <TechPrereq>TECH_CASTLE_AGE</TechPrereq>
             <UnitCombatPrereq>NONE</UnitCombatPrereq>
             <bAllowAI>1</bAllowAI>
@@ -499,7 +505,8 @@
         
 		<SpellInfo>
             <Type>SPELL_SKILL_CITYRAIDER1</Type>
-            <Description>TXT_KEY_PROMOTION_SKILL_CITYRAIDER1</Description>            
+            <Description>TXT_KEY_PROMOTION_SKILL_CITYRAIDER1</Description>        
+            <Help>TXT_KEY_PROMOTION_SKILL_CITYRAIDER1_PEDIA</Help>                  
             <TechPrereq>TECH_FEUDAL_AGE</TechPrereq>
             <UnitCombatPrereq>NONE</UnitCombatPrereq>
             <bAllowAI>1</bAllowAI>
@@ -519,7 +526,8 @@
                   
         <SpellInfo>
             <Type>SPELL_SKILL_CITYRAIDER2</Type>
-            <Description>TXT_KEY_PROMOTION_SKILL_CITYRAIDER2</Description>            
+            <Description>TXT_KEY_PROMOTION_SKILL_CITYRAIDER2</Description>         
+            <Help>TXT_KEY_PROMOTION_SKILL_CITYRAIDER2_PEDIA</Help>                 
             <TechPrereq>TECH_CASTLE_AGE</TechPrereq>
             <UnitCombatPrereq>NONE</UnitCombatPrereq>
             <bAllowAI>1</bAllowAI>
@@ -540,6 +548,7 @@
 		<SpellInfo>
             <Type>SPELL_SKILL_CITYRAIDER3</Type>
             <Description>TXT_KEY_PROMOTION_SKILL_CITYRAIDER3</Description>            
+            <Help>TXT_KEY_PROMOTION_SKILL_CITYRAIDER3_PEDIA</Help>              
             <TechPrereq>TECH_IMPERIAL_AGE</TechPrereq>
             <UnitCombatPrereq>NONE</UnitCombatPrereq>
             <bAllowAI>1</bAllowAI>
@@ -558,7 +567,8 @@
         
 		<SpellInfo>
             <Type>SPELL_SKILL_CITYGARRISON1</Type>
-            <Description>TXT_KEY_PROMOTION_SKILL_CITYGARRISON1</Description>            
+            <Description>TXT_KEY_PROMOTION_SKILL_CITYGARRISON1</Description>              
+            <Help>TXT_KEY_PROMOTION_SKILL_CITYGARRISON1_PEDIA</Help>           
             <TechPrereq>TECH_FEUDAL_AGE</TechPrereq>
             <UnitCombatPrereq>NONE</UnitCombatPrereq>
             <bAllowAI>1</bAllowAI>
@@ -577,7 +587,8 @@
         
 		<SpellInfo>
             <Type>SPELL_SKILL_CITYGARRISON2</Type>
-            <Description>TXT_KEY_PROMOTION_SKILL_CITYGARRISON2</Description>            
+            <Description>TXT_KEY_PROMOTION_SKILL_CITYGARRISON2</Description>             
+            <Help>TXT_KEY_PROMOTION_SKILL_CITYGARRISON2_PEDIA</Help>            
             <TechPrereq>TECH_CASTLE_AGE</TechPrereq>
             <UnitCombatPrereq>NONE</UnitCombatPrereq>
             <bAllowAI>1</bAllowAI>
@@ -596,7 +607,8 @@
         
       	<SpellInfo>
             <Type>SPELL_SKILL_CITYGARRISON3</Type>
-            <Description>TXT_KEY_PROMOTION_SKILL_CITYGARRISON3</Description>            
+            <Description>TXT_KEY_PROMOTION_SKILL_CITYGARRISON3</Description>               
+            <Help>TXT_KEY_PROMOTION_SKILL_CITYGARRISON3_PEDIA</Help>          
             <TechPrereq>TECH_IMPERIAL_AGE</TechPrereq>
             <UnitCombatPrereq>NONE</UnitCombatPrereq>
             <bAllowAI>1</bAllowAI>

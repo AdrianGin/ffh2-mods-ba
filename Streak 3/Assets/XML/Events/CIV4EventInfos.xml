@@ -30955,10 +30955,6 @@
             <UnitCombatPromotions>
             </UnitCombatPromotions>
             <UnitClassPromotions>
-                <UnitClassPromotion>
-                    <UnitClass>UNITCLASS_AXEMAN</UnitClass>
-                    <UnitPromotion>PROMOTION_COVER</UnitPromotion>
-                </UnitClassPromotion>
             </UnitClassPromotions>
             <BuildingClass>NONE</BuildingClass>
             <iBuildingChange>0</iBuildingChange>
