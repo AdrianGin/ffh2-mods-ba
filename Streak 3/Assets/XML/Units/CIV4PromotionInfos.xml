@@ -155,6 +155,9 @@
             </UnitCombats>
             <Button>,Art/Interface/Buttons/Promotions/Barrage3.dds,Art/Interface/Buttons/Promotions_Atlas.dds,6,1</Button>
         </PromotionInfo>
+                
+        
+        
     	<PromotionInfo>
             <Type>PROMOTION_HORSE_WEAPONS</Type>
             <Description>TXT_KEY_PROMOTION_HORSE_WEAPONS</Description>
@@ -170,9 +173,8 @@
 				</UnitCombat>
 			</UnitCombats>
 			<BonusPrereq>BONUS_HORSE</BonusPrereq>
-        </PromotionInfo>     
-        
-    	<PromotionInfo>
+        </PromotionInfo>   
+        <PromotionInfo>
             <Type>PROMOTION_WAR_HORSE_WEAPONS</Type>
             <Description>TXT_KEY_PROMOTION_WAR_HORSE_WEAPONS</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
@@ -205,10 +207,7 @@
 			</UnitCombats>
 			<BonusPrereq>BONUS_IVORY</BonusPrereq>
         </PromotionInfo> 
-        
-        
-        
-		<PromotionInfo>
+        <PromotionInfo>
             <Type>PROMOTION_WAR_ELEPHANT_WEAPONS</Type>
             <Description>TXT_KEY_PROMOTION_WAR_ELEPHANT_WEAPONS</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
@@ -223,6 +222,7 @@
 			</UnitCombats>
 			<BonusPrereq>BONUS_IVORY</BonusPrereq>
         </PromotionInfo> 
+        
         
         
      	<PromotionInfo>

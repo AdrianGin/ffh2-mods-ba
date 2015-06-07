@@ -1,4 +1,18 @@
-Comany tech axeman missing - shows up as upgrade for warrior when tech not researched yet
+give horse and elephant weapons a I and II to deffrientiate the icons
+boots of speedwalking(agility) remove healing?
+remove jungle walk from forest boots? keep jungle as bad terrain or for more advanced boots?
+
+
+
+
+
+
+
+
+
+
+
+
 create unitclass icons for ranged, assault and company
 get rid of cast level up button
 upgrades unlock when?
@@ -15,6 +29,7 @@ experience at 2 does not allow level up
 inc life steal for beast promotions
 ship def bonus on water not implemented
 drowns and ships stacked to 6+??? could add more drowns but not more ships (bug)
+ship upgrades?
 
 
 
@@ -49,20 +64,15 @@ ADRIAN
 
 Drowns vs Triemes...
 Manage Mana
-Axeman fix
 Thief should have 1 range...
 Woodwalking price
 Invisible stuff
 Less space for Apdets/Flagbeaeres?
 Fort % defence
-Thief Messaging stuff
 
 Bug with Fireball cannot attack hill
 
 Thief can't capture
-
-BAS
-- finish dragon stats
 
 To Do:
 Decide how much heal Monk heal does
