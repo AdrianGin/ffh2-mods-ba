@@ -7923,7 +7923,7 @@
 			<bFood>0</bFood>
 			<bNoBadGoodies>0</bNoBadGoodies>
 			<bOnlyDefensive>0</bOnlyDefensive>
-			<bNoCapture>0</bNoCapture>
+			<bNoCapture>1</bNoCapture>
 			<bQuickCombat>0</bQuickCombat>
 			<bRivalTerritory>0</bRivalTerritory>
 			<bMilitaryHappiness>0</bMilitaryHappiness>
@@ -14636,7 +14636,6 @@
 			<iLeaderExperience>0</iLeaderExperience>
 			<iCombatDefense>350</iCombatDefense>
 			<iTier>4</iTier>
-			<Image>Art/Interface/Popups/Acheron the Red Dragon.dds</Image>
 			<PythonPostCombatLost>postCombatAcheron(pCaster,pOpponent)</PythonPostCombatLost>
 		</UnitInfo>
 		<UnitInfo>

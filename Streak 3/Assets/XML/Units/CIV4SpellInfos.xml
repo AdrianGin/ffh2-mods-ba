@@ -271,7 +271,7 @@
             <bInBordersOnly>1</bInBordersOnly>
             <bInCityOnly>1</bInCityOnly>
             <bHasCasted>1</bHasCasted>
-            <iCost>32</iCost>
+            <iCost>38</iCost>
             <PyRequirement>reqHumanBoots(pCaster, 'PROMOTION_WOODWALK')</PyRequirement>
             <PyResult>spellHumanBoots(pCaster, 'PROMOTION_WOODWALK')</PyResult>
             <Effect>EFFECT_SPELL1</Effect>
@@ -976,9 +976,10 @@
             <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
             <bHasCasted>1</bHasCasted>
             <bDispel>1</bDispel>
+            <iRange>1</iRange>
             <Effect>EFFECT_SNOWFALL</Effect>
             <Sound>AS3D_SPELL_EARTHQUAKE</Sound>
-            <Button>Art/Interface/Buttons/Spells/Dispel Magic.dds</Button>
+            <Button>Art/Interface/Buttons/Spells/DispelMagic.dds</Button>
         </SpellInfo>
          <SpellInfo>
             <Type>SPELL_SCORCH</Type>
@@ -1019,7 +1020,7 @@
             <iImmobileTurns>2</iImmobileTurns>
             <Effect>EFFECT_SPELL1</Effect>
             <Sound>AS3D_SPELL_CHARM_PERSON</Sound>
-            <Button>Art/Interface/Buttons/Spells/Blinding Light.dds</Button>
+            <Button>Art/Interface/Buttons/Spells/BlindingLight.dds</Button>
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_FIREBALL</Type>
@@ -1277,6 +1278,31 @@
             <!--Sound>AS2D_BUILD_BANK</Sound-->
             <Button>Art/Interface/Buttons/Spells/Growth3.dds</Button>
         </SpellInfo>          
+         
+         
+         <SpellInfo>
+            <Type>SPELL_SUMMON_DRAGON</Type>
+            <Description>TXT_KEY_SPELL_SUMMON_DRAGON</Description>
+            <PromotionPrereq1>PROMOTION_CAST_SUMMON_DRAGON</PromotionPrereq1>
+            <bGlobal>0</bGlobal>
+            <bIsTileSelect>1</bIsTileSelect>
+            <bIsUnitSelect>0</bIsUnitSelect>
+            <iSpellDistance>0</iSpellDistance>
+            <bRequiresLOS>1</bRequiresLOS> 
+            <bAllowAI>1</bAllowAI>
+            <bCausesWar>1</bCausesWar>
+            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+            <bHasCasted>1</bHasCasted>
+            <iRange>1</iRange>
+            <CreateUnitType>UNIT_DRAGON</CreateUnitType>
+            <iCreateUnitNum>1</iCreateUnitNum>
+            <bPermanentUnitCreate>1</bPermanentUnitCreate>
+            <AddPromotionType1>PROMOTION_DRAGON_RECOVER</AddPromotionType1>
+            <iCooldown>15</iCooldown>
+            <Effect>EFFECT_SPELL1</Effect>
+            <!--Sound>AS2D_BUILD_BANK</Sound-->
+            <Button>Art/Interface/Buttons/Units/Acheron.dds</Button>
+        </SpellInfo>  
          
     </SpellInfos>
 </Civ4SpellInfos>

@@ -41,38 +41,20 @@ ADRIAN
 - create dragon spell
 - PLEASE CREATE BUTTON FOR SPELLL SUMMON DRAGON USING THE SAME ART AS IS UNDER THE UNIT_DRAGON
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Drowns vs Triemes...
 Manage Mana
-Thief should have 1 range...
-Woodwalking price
+
+
 Invisible stuff
 Less space for Apdets/Flagbeaeres?
 Fort % defence
 
 Bug with Fireball cannot attack hill
 
+Done:
+Thief should have 1 range...
 Thief can't capture
+Woodwalking price
 
 To Do:
 Decide how much heal Monk heal does
