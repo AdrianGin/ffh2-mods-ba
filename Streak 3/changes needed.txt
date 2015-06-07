@@ -59,6 +59,7 @@ Thief Messaging stuff
 
 Bug with Fireball cannot attack hill
 
+Thief can't capture
 
 BAS
 - finish dragon stats
