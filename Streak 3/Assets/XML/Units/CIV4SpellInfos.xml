@@ -1297,6 +1297,7 @@
             <iCreateUnitNum>1</iCreateUnitNum>
             <bPermanentUnitCreate>1</bPermanentUnitCreate>
             <AddPromotionType1>PROMOTION_DRAGON_RECOVER</AddPromotionType1>
+            <bBuffCasterOnly>1</bBuffCasterOnly>
             <iCooldown>15</iCooldown>
             <Effect>EFFECT_SPELL1</Effect>
             <!--Sound>AS2D_BUILD_BANK</Sound-->

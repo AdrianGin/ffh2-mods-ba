@@ -3408,6 +3408,12 @@
             <Description>TXT_KEY_SPELL_DRAGON_RECOVER</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <TechPrereq>TECH_NEVER</TechPrereq>
+            <UnitCombats>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+            </UnitCombats>            
             <Button>,Art/Interface/Buttons/spells/ressurection.dds</Button>
             <iExpireTurns>15</iExpireTurns>
         </PromotionInfo>   
