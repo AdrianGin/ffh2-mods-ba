@@ -2346,7 +2346,8 @@
         
         <PromotionInfo>
             <Type>PROMOTION_CAST_FIREBALL</Type>
-            <Description>Fireball</Description>
+            <Description>TXT_KEY_PROMOTION_CAST_FIREBALL</Description>
+            <Help>TXT_KEY_PROMOTION_CAST_FIREBALL_PEDIA</Help>   
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_CHANNELING1</PromotionPrereq>
             <UnitCombats>
@@ -2362,7 +2363,8 @@
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_CAST_GREATER_FIREBALL</Type>
-            <Description>Greater Fireball</Description>
+            <Description>TXT_KEY_PROMOTION_CAST_GREATER_FIREBALL</Description>
+            <Help>TXT_KEY_PROMOTION_CAST_GREATER_FIREBALL_PEDIA</Help> 
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_CHANNELING2</PromotionPrereq>
             <UnitCombats>
@@ -2378,7 +2380,8 @@
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_CAST_METEOR</Type>
-            <Description>Meteor</Description>
+            <Description>TXT_KEY_PROMOTION_CAST_METEOR</Description>
+            <Help>TXT_KEY_PROMOTION_CAST_METEOR_PEDIA</Help> 
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_CHANNELING3</PromotionPrereq>
             <UnitCombats>

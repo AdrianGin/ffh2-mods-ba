@@ -913,7 +913,7 @@
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_FIREBALL</Type>
-            <Description>Fireball</Description>
+            <Description>TXT_KEY_SPELL_FIREBALL</Description>   
             <PromotionPrereq1>PROMOTION_CAST_FIREBALL</PromotionPrereq1>
             <bGlobal>0</bGlobal>
             <bIsTileSelect>1</bIsTileSelect>
@@ -933,7 +933,7 @@
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_GREATER_FIREBALL</Type>
-            <Description>Greater Fireball</Description>
+            <Description>TXT_KEY_SPELL_GREATER_FIREBALL</Description>
             <PromotionPrereq1>PROMOTION_CAST_GREATER_FIREBALL</PromotionPrereq1>
             <bGlobal>0</bGlobal>
             <bIsTileSelect>1</bIsTileSelect>
@@ -953,7 +953,7 @@
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_METEOR</Type>
-            <Description>Meteor</Description>
+            <Description>TXT_KEY_SPELL_METEOR</Description>
             <PromotionPrereq1>PROMOTION_CAST_METEOR</PromotionPrereq1>
             <bGlobal>0</bGlobal>
             <bIsTileSelect>1</bIsTileSelect>
@@ -1078,7 +1078,8 @@
          
         <SpellInfo>
             <Type>SPELL_FLAG_RALLY</Type>
-            <Description>TXT_KEY_SPELL_FLAG_RALLY</Description>
+            <Description>TXT_KEY_SPELL_FLAG_RALLY</Description>        
+            <Help>TXT_KEY_SPELL_FLAG_RALLY_PEDIA</Help>  
             <PromotionPrereq1>PROMOTION_CAST_FLAG_BEARER_RALLY</PromotionPrereq1>
             <bGlobal>0</bGlobal>
             <bIsTileSelect>1</bIsTileSelect>
