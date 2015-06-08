@@ -1090,7 +1090,7 @@
             <bCausesWar>1</bCausesWar>
             <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
             <bHasCasted>1</bHasCasted>
-            <iRange>1</iRange>
+            <iRange>0</iRange>
             <iDamage>0</iDamage>
             <iDamageLimit>0</iDamageLimit>
             <DamageType>DAMAGE_FIRE</DamageType>
@@ -1103,6 +1103,7 @@
         <SpellInfo>
             <Type>SPELL_GROWTH1</Type>
             <Description>TXT_KEY_SPELL_GROWTH1</Description>
+            <Help>TXT_KEY_SPELL_GROWTH1_PEDIA</Help> 
             <PromotionPrereq1>PROMOTION_CAST_GROWTH1</PromotionPrereq1>
             <bGlobal>0</bGlobal>
             <bIsTileSelect>1</bIsTileSelect>
@@ -1113,7 +1114,7 @@
             <bCausesWar>1</bCausesWar>
             <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
             <bHasCasted>1</bHasCasted>
-            <iRange>1</iRange>
+            <iRange>0</iRange>
             <iDamage>0</iDamage>
             <iDamageLimit>0</iDamageLimit>
             <DamageType>DAMAGE_FIRE</DamageType>
@@ -1126,6 +1127,7 @@
         <SpellInfo>
             <Type>SPELL_GROWTH2</Type>
             <Description>TXT_KEY_SPELL_GROWTH2</Description>
+            <Help>TXT_KEY_SPELL_GROWTH2_PEDIA</Help> 
             <PromotionPrereq1>PROMOTION_CAST_GROWTH2</PromotionPrereq1>
             <bGlobal>0</bGlobal>
             <bIsTileSelect>1</bIsTileSelect>
@@ -1136,7 +1138,7 @@
             <bCausesWar>1</bCausesWar>
             <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
             <bHasCasted>1</bHasCasted>
-            <iRange>1</iRange>
+            <iRange>0</iRange>
             <iDamage>0</iDamage>
             <iDamageLimit>0</iDamageLimit>
             <DamageType>DAMAGE_FIRE</DamageType>
@@ -1149,6 +1151,7 @@
         <SpellInfo>
             <Type>SPELL_GROWTH3</Type>
             <Description>TXT_KEY_SPELL_GROWTH3</Description>
+            <Help>TXT_KEY_SPELL_GROWTH3_PEDIA</Help> 
             <PromotionPrereq1>PROMOTION_CAST_GROWTH3</PromotionPrereq1>
             <bGlobal>0</bGlobal>
             <bIsTileSelect>1</bIsTileSelect>
@@ -1159,7 +1162,7 @@
             <bCausesWar>1</bCausesWar>
             <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
             <bHasCasted>1</bHasCasted>
-            <iRange>1</iRange>
+            <iRange>0</iRange>
             <iDamage>0</iDamage>
             <iDamageLimit>0</iDamageLimit>
             <DamageType>DAMAGE_FIRE</DamageType>

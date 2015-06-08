@@ -4,6 +4,12 @@ remove jungle walk from forest boots? keep jungle as bad terrain or for more adv
 
 
 
+spell menu: add: , (space) then range
+boosts from abilities and spells should have a coloured border
+growth
+giant growth
+titanic growth
+morale
 
 
 

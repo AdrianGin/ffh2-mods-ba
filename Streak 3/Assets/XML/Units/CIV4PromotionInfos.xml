@@ -2325,7 +2325,8 @@
         
         <PromotionInfo>
             <Type>PROMOTION_CAST_FLAG_BEARER_RALLY</Type>
-            <Description>TXT_KEY_PROMOTION_CAST_FLAG_BEARER_RALLY</Description>
+            <Description>TXT_KEY_PROMOTION_CAST_FLAG_BEARER_RALLY</Description>              
+            <Help>TXT_KEY_PROMOTION_CAST_FLAG_BEARER_RALLY_PEDIA</Help>    
             <Sound>AS2D_IF_LEVELUP</Sound>
             <TechPrereq>TECH_NEVER</TechPrereq>
             <Button>Art/Interface/Buttons/Promotions/morale.dds</Button>
@@ -2334,7 +2335,8 @@
         
         <PromotionInfo>
             <Type>PROMOTION_FLAG_BEARER_MORALE</Type>
-            <Description>TXT_KEY_PROMOTION_FLAG_BEARER_MORALE</Description>
+            <Description>TXT_KEY_PROMOTION_FLAG_BEARER_MORALE</Description>              
+            <Help>TXT_KEY_PROMOTION_FLAG_BEARER_MORALE_PEDIA</Help>    
             <Sound>AS2D_IF_LEVELUP</Sound>
             <TechPrereq>TECH_NEVER</TechPrereq>
             <iCombatPercent>5</iCombatPercent>
@@ -2397,7 +2399,8 @@
         </PromotionInfo>        
         <PromotionInfo>
             <Type>PROMOTION_CAST_GROWTH1</Type>
-            <Description>TXT_KEY_SPELL_GROWTH1</Description>
+            <Description>TXT_KEY_PROMOTION_CAST_GROWTH1</Description>
+            <Help>TXT_KEY_PROMOTION_CAST_GROWTH1_PEDIA</Help>   
             <Sound>AS2D_IF_LEVELUP</Sound>
             <Button>Art/Interface/Buttons/Spells/Growth1.dds</Button>
             <PromotionPrereq>PROMOTION_CHANNELING1</PromotionPrereq>
@@ -2422,7 +2425,8 @@
         </PromotionInfo>  
          <PromotionInfo>
             <Type>PROMOTION_CAST_GROWTH2</Type>
-            <Description>TXT_KEY_SPELL_GROWTH2</Description>
+            <Description>TXT_KEY_PROMOTION_CAST_GROWTH2</Description>
+            <Help>TXT_KEY_PROMOTION_CAST_GROWTH2_PEDIA</Help>   
             <Sound>AS2D_IF_LEVELUP</Sound>
             <Button>Art/Interface/Buttons/Spells/Growth2.dds</Button>
             <PromotionPrereq>PROMOTION_CHANNELING2</PromotionPrereq>
@@ -2447,7 +2451,8 @@
         </PromotionInfo>  
          <PromotionInfo>
             <Type>PROMOTION_CAST_GROWTH3</Type>
-            <Description>TXT_KEY_SPELL_GROWTH3</Description>
+            <Description>TXT_KEY_PROMOTION_CAST_GROWTH3</Description>
+            <Help>TXT_KEY_PROMOTION_CAST_GROWTH3_PEDIA</Help>   
             <Sound>AS2D_IF_LEVELUP</Sound>
             <Button>Art/Interface/Buttons/Spells/Growth3.dds</Button>
             <PromotionPrereq>PROMOTION_CHANNELING3</PromotionPrereq>
