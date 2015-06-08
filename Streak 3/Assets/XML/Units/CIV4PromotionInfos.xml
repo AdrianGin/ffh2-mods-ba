@@ -66,9 +66,11 @@
             <iMinLevel>-1</iMinLevel>
             <iSpellCasterXP>40</iSpellCasterXP>
         </PromotionInfo>
+        
         <PromotionInfo>
             <Type>PROMOTION_HEAL1</Type>
             <Description>TXT_KEY_PROMOTION_HEAL1</Description>
+            <Help>TXT_KEY_PROMOTION_HEAL1_PEDIA</Help>
             <Sound>AS2D_IF_LEVELUP</Sound>            
             <TechPrereq>TECH_NEVER</TechPrereq>
             <UnitCombats>
@@ -81,37 +83,6 @@
             <iAIWeight>50</iAIWeight>
             <iMinLevel>-1</iMinLevel>
         </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_HEAL2</Type>
-            <Description>TXT_KEY_PROMOTION_HEAL2</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_NEVER</TechPrereq>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Spells/Heal.dds</Button>
-            <iAIWeight>50</iAIWeight>
-            <iMinLevel>-1</iMinLevel>
-        </PromotionInfo>
-        <PromotionInfo>
-            <Type>PROMOTION_HEAL3</Type>
-            <Description>TXT_KEY_PROMOTION_HEAL3</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_NEVER</TechPrereq>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Spells/Heal.dds</Button>
-            <iAIWeight>50</iAIWeight>
-            <iMinLevel>-1</iMinLevel>
-        </PromotionInfo>
-    	
                 
         
         
@@ -2632,6 +2603,7 @@
         <PromotionInfo>
             <Type>PROMOTION_CAST_BLOOM</Type>
             <Description>TXT_KEY_PROMOTION_CAST_BLOOM</Description>
+            <Help>TXT_KEY_PROMOTION_CAST_BLOOM_PEDIA</Help> 
             <Sound>AS2D_IF_LEVELUP</Sound>
             <TechPrereq>TECH_NEVER</TechPrereq>
             <UnitCombats>
@@ -2648,6 +2620,7 @@
         <PromotionInfo>
             <Type>PROMOTION_CAST_TERRAFORM</Type>
             <Description>TXT_KEY_PROMOTION_TERRAFORM</Description>
+            <Help>TXT_KEY_PROMOTION_TERRAFORM_PEDIA</Help> 
             <Sound>AS2D_IF_LEVELUP</Sound>
             <TechPrereq>TECH_NEVER</TechPrereq>
             <UnitCombats>
@@ -2664,6 +2637,7 @@
         <PromotionInfo>
             <Type>PROMOTION_CAST_VITALIZE</Type>
             <Description>TXT_KEY_PROMOTION_CAST_VITALIZE</Description>
+            <Help>TXT_KEY_PROMOTION_CAST_VITALIZE_PEDIA</Help> 
             <Sound>AS2D_IF_LEVELUP</Sound>
             <TechPrereq>TECH_NEVER</TechPrereq>
             <UnitCombats>

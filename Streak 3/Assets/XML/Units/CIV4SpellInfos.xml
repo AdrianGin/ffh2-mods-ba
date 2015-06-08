@@ -86,6 +86,7 @@
         <SpellInfo>
             <Type>SPELL_HEAL</Type>
             <Description>TXT_KEY_SPELL_HEAL</Description>
+            <Help>TXT_KEY_SPELL_HEAL_PEDIA</Help>
             <PromotionPrereq1>PROMOTION_HEAL1</PromotionPrereq1>
             <bGlobal>0</bGlobal>
             <bIsTileSelect>1</bIsTileSelect>
@@ -96,7 +97,7 @@
             <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
             <bHasCasted>1</bHasCasted>
             <DamageType>DAMAGE_FIRE</DamageType>
-            <PyResult>spellHealRange(pCaster, pTarget, 8)</PyResult>
+            <PyResult>spellHealRange(pCaster, pTarget, 15)</PyResult>
             <!--PyRequirement>reqHeal(pCaster)</PyRequirement-->
             <Effect>EFFECT_CREATION</Effect>
             <Sound>AS3D_SPELL_HEAL</Sound>
@@ -832,8 +833,7 @@
 		<SpellInfo>
             <Type>SPELL_TERRAFORM</Type>
             <Description>TXT_KEY_SPELL_TERRAFORM</Description>
-            <Civilopedia>TXT_KEY_SPELL_TERRAFORM_PEDIA</Civilopedia>
-            <Help>TXT_KEY_SPELL_TERRAFORM_HELP</Help>
+            <Help>TXT_KEY_SPELL_TERRAFORM_PEDIA</Help> 
             <PromotionPrereq1>PROMOTION_CAST_TERRAFORM</PromotionPrereq1>
             <bGlobal>0</bGlobal>
             <bIsTileSelect>1</bIsTileSelect>
@@ -977,6 +977,7 @@
         <SpellInfo>
             <Type>SPELL_VITALIZE</Type>
             <Description>TXT_KEY_SPELL_VITALIZE</Description>
+            <Help>TXT_KEY_SPELL_VITALIZE_PEDIA</Help> 
             <Civilopedia></Civilopedia>
             <PromotionPrereq1>PROMOTION_CAST_VITALIZE</PromotionPrereq1>
             <bGlobal>0</bGlobal>
