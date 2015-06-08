@@ -2,6 +2,22 @@ give horse and elephant weapons a I and II to deffrientiate the icons
 boots of speedwalking(agility) remove healing?
 remove jungle walk from forest boots? keep jungle as bad terrain or for more advanced boots?
 
+make weaken only affect enemy units?
+give weaken python script for applying promo
+weaken spell needs to have stupid promo add message removed
+
+banish can be cast on self, doesnt take affect but makes it so you can never cast it again!?
+
+summon daragon, create python script? stupid txt from basic xml shit
+
+spellstaff txt shit
+spellstaff doesnt work as intended, ability disables after end turn
+
+
+lower xp gain for mages??
+
+better fireball and growth spells should remove weaker versions
+
 
 
 spell menu: add: , (space) then range

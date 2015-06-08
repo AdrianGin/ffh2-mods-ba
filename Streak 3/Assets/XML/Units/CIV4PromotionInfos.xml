@@ -2250,7 +2250,7 @@
             <Button>Art/Interface/Buttons/Promotions/Weak.dds</Button>
             <bDispellable>1</bDispellable>
             <iAIWeight>-100</iAIWeight>
-            <iExpireChance>33</iExpireChance>
+            <iExpireChance>100</iExpireChance>
             <iMinLevel>-1</iMinLevel>
         </PromotionInfo>
         <PromotionInfo>
@@ -2493,6 +2493,7 @@
         <PromotionInfo>
             <Type>PROMOTION_CAST_DISPEL</Type>
             <Description>TXT_KEY_PROMOTION_CAST_DISPEL</Description>
+            <Help>TXT_KEY_PROMOTION_CAST_DISPEL_PEDIA</Help> 
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_CHANNELING1</PromotionPrereq>
             <UnitCombats>
@@ -2526,6 +2527,7 @@
         <PromotionInfo>
             <Type>PROMOTION_CAST_WEAK</Type>
             <Description>TXT_KEY_PROMOTION_CAST_WEAK</Description>
+            <Help>TXT_KEY_PROMOTION_CAST_WEAK_PEDIA</Help> 
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_CHANNELING2</PromotionPrereq>
             <UnitCombats>
@@ -2559,6 +2561,7 @@
         <PromotionInfo>
             <Type>PROMOTION_CAST_TELEPORT</Type>
             <Description>TXT_KEY_PROMOTION_CAST_TELEPORT</Description>
+            <Help>TXT_KEY_PROMOTION_CAST_TELEPORT_PEDIA</Help> 
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_CHANNELING2</PromotionPrereq>
             <UnitCombats>
@@ -2574,7 +2577,8 @@
         </PromotionInfo>        
         <PromotionInfo>
             <Type>PROMOTION_ENCHANT_SPELLSTAFF</Type>
-            <Description>TXT_KEY_SPELL_ENCHANT_SPELLSTAFF</Description>
+            <Description>TXT_KEY_PROMOTION_ENCHANT_SPELLSTAFF</Description>
+            <Help>TXT_KEY_PROMOTION_ENCHANT_SPELLSTAFF_PEDIA</Help> 
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_CHANNELING3</PromotionPrereq>
             <UnitCombats>
@@ -2588,8 +2592,9 @@
             <BonusPrereq></BonusPrereq>
         </PromotionInfo>
         <PromotionInfo>
-            <Type>PROMOTION_CAST_SUMMON_DRAGON</Type>
-            <Description>Summon Dragon</Description>
+            <Type>PROMOTION_CAST_SUMMON_DRAGON</Type>            
+            <Description>TXT_KEY_PROMOTION_CAST_SUMMON_DRAGON</Description>
+            <Help>TXT_KEY_PROMOTION_CAST_SUMMON_DRAGON_PEDIA</Help> 
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_CHANNELING3</PromotionPrereq>
             <UnitCombats>
@@ -2607,6 +2612,7 @@
         <PromotionInfo>
             <Type>PROMOTION_CAST_BANISH</Type>
             <Description>TXT_KEY_PROMOTION_CAST_BANISH</Description>
+            <Help>TXT_KEY_PROMOTION_CAST_BANISH_PEDIA</Help> 
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_CHANNELING3</PromotionPrereq>
             <UnitCombats>

@@ -722,6 +722,7 @@
         <SpellInfo>
             <Type>SPELL_TELEPORT</Type>
             <Description>TXT_KEY_SPELL_TELEPORT</Description>
+            <Help>TXT_KEY_SPELL_TELEPORT_PEDIA</Help> 
             <PromotionPrereq1>PROMOTION_CAST_TELEPORT</PromotionPrereq1>
             <bGlobal>0</bGlobal>
             <bIsTileSelect>1</bIsTileSelect>
@@ -739,8 +740,8 @@
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_ENCHANT_SPELLSTAFF</Type>
-            <Description>TXT_KEY_SPELL_ENCHANT_SPELLSTAFF</Description>
-            <Civilopedia>TXT_KEY_SPELL_ENCHANT_SPELLSTAFF_PEDIA</Civilopedia>
+            <Description>TXT_KEY_SPELL_SPELLSTAFF</Description>
+            <Help>TXT_KEY_SPELL_SPELLSTAFF_PEDIA</Help> 
             <PromotionPrereq1>PROMOTION_ENCHANT_SPELLSTAFF</PromotionPrereq1>
             <bAllowAI>1</bAllowAI>
             <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
@@ -750,11 +751,10 @@
             <Effect>EFFECT_SWORDS_SPARKS</Effect>
             <Sound>AS3D_SPELL_ENCHANTMENT</Sound>
             <Button>Art/Interface/Buttons/Promotions/Spellstaff.dds</Button>
-        </SpellInfo>        
+        </SpellInfo>     TXT_KEY_SPELL_ENCHANT_SPELLSTAFF   
         <SpellInfo>
             <Type>SPELL_SPELLSTAFF</Type>
-            <Description>TXT_KEY_SPELL_SPELLSTAFF</Description>
-            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
+            <Description>TXT_KEY_SPELL_ENCHANT_SPELLSTAFF</Description>
             <PromotionPrereq1>PROMOTION_SPELLSTAFF</PromotionPrereq1>
             <bAllowAI>1</bAllowAI>
             <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
@@ -855,18 +855,19 @@
         <SpellInfo>
             <Type>SPELL_DISPEL</Type>
             <Description>TXT_KEY_SPELL_DISPEL</Description>
+            <Help>TXT_KEY_SPELL_DISPEL_PEDIA</Help> 
             <PromotionPrereq1>PROMOTION_CAST_DISPEL</PromotionPrereq1>
             <bGlobal>0</bGlobal>
             <bIsTileSelect>1</bIsTileSelect>
             <bIsUnitSelect>0</bIsUnitSelect>
-            <iSpellDistance>2</iSpellDistance>
+            <iSpellDistance>1</iSpellDistance>
             <bRequiresLOS>1</bRequiresLOS>
             <bAllowAI>1</bAllowAI>
             <bCausesWar>1</bCausesWar>
             <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
             <bHasCasted>1</bHasCasted>
             <bDispel>1</bDispel>
-            <iRange>1</iRange>
+            <iRange>0</iRange>
             <Effect>EFFECT_SNOWFALL</Effect>
             <Sound>AS3D_SPELL_EARTHQUAKE</Sound>
             <Button>Art/Interface/Buttons/Spells/DispelMagic.dds</Button>
@@ -997,6 +998,7 @@
         <SpellInfo>
             <Type>SPELL_WEAK</Type>
             <Description>TXT_KEY_SPELL_WEAK</Description>
+            <Help>TXT_KEY_SPELL_WEAK_PEDIA</Help> 
             <Civilopedia></Civilopedia>
             <PromotionPrereq1>PROMOTION_CAST_WEAK</PromotionPrereq1>
             <bGlobal>0</bGlobal>
@@ -1006,8 +1008,14 @@
             <bRequiresLOS>1</bRequiresLOS>
             <bAllowAI>1</bAllowAI>
             <iAIWeightWar>50</iAIWeightWar>
+            <bImmuneTeam>0</bImmuneTeam>
+            <bCausesWar>1</bCausesWar>
             <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
             <bHasCasted>1</bHasCasted>
+            <iRange>0</iRange>
+            <iDamage>0</iDamage>
+            <iDamageLimit>0</iDamageLimit>
+<!--        <PyResult>spellGiveGrowth(pCaster, pPlot, 'PROMOTION_GROWTH1')</PyResult>       --> 
             <AddPromotionType1>PROMOTION_WEAK</AddPromotionType1>
             <Effect>EFFECT_CREATION</Effect>
             <Sound>AS3D_SPELL_WATER</Sound>
@@ -1016,6 +1024,7 @@
         <SpellInfo>
             <Type>SPELL_BANISH</Type>
             <Description>TXT_KEY_SPELL_BANISH</Description>
+            <Help>TXT_KEY_SPELL_BANISH_PEDIA</Help> 
             <Civilopedia></Civilopedia>
             <PromotionPrereq1>PROMOTION_CAST_BANISH</PromotionPrereq1>
             <bGlobal>0</bGlobal>
@@ -1025,10 +1034,10 @@
             <bRequiresLOS>1</bRequiresLOS>
             <bAllowAI>1</bAllowAI>
             <iAIWeightWar>50</iAIWeightWar>
-            <bImmuneTeam>1</bImmuneTeam>
+            <bImmuneTeam>0</bImmuneTeam>
             <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
             <bHasCasted>1</bHasCasted>
-            <bBuffCasterOnly>1</bBuffCasterOnly>
+            <bBuffCasterOnly>0</bBuffCasterOnly>
             <PyResult>spellBanish(pCaster, pPlot, pTarget)</PyResult>
             <PyRequirement>reqBanish(pCaster, pPlot, pTarget)</PyRequirement>
             <Effect>EFFECT_CREATION</Effect>
@@ -1178,6 +1187,7 @@
          <SpellInfo>
             <Type>SPELL_SUMMON_DRAGON</Type>
             <Description>TXT_KEY_SPELL_SUMMON_DRAGON</Description>
+            <Help>TXT_KEY_SPELL_SUMMON_DRAGON_PEDIA</Help> 
             <PromotionPrereq1>PROMOTION_CAST_SUMMON_DRAGON</PromotionPrereq1>
             <bGlobal>0</bGlobal>
             <bIsTileSelect>1</bIsTileSelect>
