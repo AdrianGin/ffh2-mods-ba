@@ -1566,6 +1566,7 @@
             </UnitCombats>
             <Button>Art/Interface/Buttons/Promotions/Expandedhull.dds</Button>
             <TechPrereq>TECH_NEVER</TechPrereq>
+            <iMinLevel>-1</iMinLevel>
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_BUCCANEERS</Type>
