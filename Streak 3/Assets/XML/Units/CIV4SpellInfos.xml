@@ -1293,7 +1293,6 @@
             <bCausesWar>1</bCausesWar>
             <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
             <bHasCasted>1</bHasCasted>
-            <iRange>1</iRange>
             <CreateUnitType>UNIT_DRAGON</CreateUnitType>
             <iCreateUnitNum>1</iCreateUnitNum>
             <bPermanentUnitCreate>1</bPermanentUnitCreate>

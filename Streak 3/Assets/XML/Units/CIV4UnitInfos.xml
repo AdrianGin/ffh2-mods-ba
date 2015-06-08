@@ -10976,7 +10976,7 @@
 			<Capture>NONE</Capture>
 			<Combat>UNITCOMBAT_BEAST</Combat>
 			<Domain>DOMAIN_LAND</Domain>
-			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
+			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
 			<Invisible>INVISIBLE_LAND</Invisible>
 			<SeeInvisible>NONE</SeeInvisible>
 			<Description>TXT_KEY_UNIT_BABY_SPIDER</Description>
@@ -11179,7 +11179,7 @@
 			<Capture>NONE</Capture>
 			<Combat>UNITCOMBAT_BEAST</Combat>
 			<Domain>DOMAIN_LAND</Domain>
-			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
+			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
 			<Invisible>INVISIBLE_LAND</Invisible>
 			<SeeInvisible>NONE</SeeInvisible>
 			<Description>TXT_KEY_UNIT_GIANT_SPIDER</Description>
