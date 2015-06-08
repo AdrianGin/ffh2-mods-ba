@@ -1053,7 +1053,8 @@
 -->  
         <SpellInfo>
             <Type>SPELL_STEAL_TREASURY</Type>
-            <Description>TXT_KEY_SPELL_STEAL_TREASURY</Description>
+            <Description>TXT_KEY_SPELL_STEAL_TREASURY</Description>      
+            <Help>TXT_KEY_SPELL_STEAL_TREASURY_PEDIA</Help>  
             <PromotionPrereq1>PROMOTION_CAST_STEAL_TREASURY</PromotionPrereq1>
             <bGlobal>0</bGlobal>
             <bIsTileSelect>1</bIsTileSelect>
@@ -1064,7 +1065,7 @@
             <bCausesWar>1</bCausesWar>
             <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
             <bHasCasted>1</bHasCasted>
-            <iRange>1</iRange>
+            <iRange>0</iRange>
             <iDamage>0</iDamage>
             <iDamageLimit>0</iDamageLimit>
             <DamageType>DAMAGE_FIRE</DamageType>

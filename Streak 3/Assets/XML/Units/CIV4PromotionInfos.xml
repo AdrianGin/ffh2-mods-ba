@@ -2267,6 +2267,7 @@
         <PromotionInfo>
             <Type>PROMOTION_CAST_STEAL_TREASURY</Type>
             <Description>TXT_KEY_PROMOTION_CAST_STEAL_TREASURY</Description>
+            <Help>TXT_KEY_PROMOTION_CAST_STEAL_TREASURY_PEDIA</Help> 
             <Sound>AS2D_IF_LEVELUP</Sound>
             <TechPrereq>TECH_NEVER</TechPrereq>
             <Button>Art/Interface/Buttons/Spells/thief.dds</Button>
