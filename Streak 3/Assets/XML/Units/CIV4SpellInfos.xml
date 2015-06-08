@@ -812,7 +812,8 @@
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_TREETOP_DEFENCE</Type>
-            <Description>Treetop Defence</Description>
+            <Description>TXT_KEY_SPELL_TREETOP_DEFENCE</Description>
+            <Help>TXT_KEY_SPELL_TREETOP_DEFENCE_PEDIA</Help> 
             <PromotionPrereq1>PROMOTION_CAST_TREETOP_DEFENCE</PromotionPrereq1>
             <FeatureOrPrereq1>FEATURE_FOREST</FeatureOrPrereq1>
             <bGlobal>0</bGlobal>
@@ -873,6 +874,7 @@
          <SpellInfo>
             <Type>SPELL_SCORCH</Type>
             <Description>TXT_KEY_SPELL_SCORCH</Description>
+            <Help>TXT_KEY_SPELL_SCORCH_PEDIA</Help> 
             <PromotionPrereq1>PROMOTION_CAST_SCORCH</PromotionPrereq1>
             <bGlobal>0</bGlobal>
             <bIsTileSelect>1</bIsTileSelect>
@@ -1033,7 +1035,7 @@
             <Sound>AS3D_SPELL_WATER</Sound>
             <Button>Art/Interface/Buttons/Promotions/Summoner.dds</Button>
         </SpellInfo>       
-        
+ <!--      
 		<SpellInfo>
             <Type>SPELL_GAIN_XP</Type>
             <Description>TXT_KEY_PROMOTION_GAIN_XP</Description>
@@ -1052,7 +1054,7 @@
             <bGraphicalOnly>0</bGraphicalOnly>
             <Button>Art/Interface/Buttons/Promotions/levelup.dds</Button>
         </SpellInfo>     
-        
+-->  
         <SpellInfo>
             <Type>SPELL_STEAL_TREASURY</Type>
             <Description>TXT_KEY_SPELL_STEAL_TREASURY</Description>

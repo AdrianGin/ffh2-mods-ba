@@ -2325,8 +2325,7 @@
         
         <PromotionInfo>
             <Type>PROMOTION_CAST_FLAG_BEARER_RALLY</Type>
-            <Description>TXT_KEY_PROMOTION_CAST_FLAG_BEARER_RALLY</Description>              
-            <Help>TXT_KEY_PROMOTION_CAST_FLAG_BEARER_RALLY_PEDIA</Help>    
+            <Description>TXT_KEY_PROMOTION_CAST_FLAG_BEARER_RALLY</Description> 
             <Sound>AS2D_IF_LEVELUP</Sound>
             <TechPrereq>TECH_NEVER</TechPrereq>
             <Button>Art/Interface/Buttons/Promotions/morale.dds</Button>
@@ -2335,8 +2334,7 @@
         
         <PromotionInfo>
             <Type>PROMOTION_FLAG_BEARER_MORALE</Type>
-            <Description>TXT_KEY_PROMOTION_FLAG_BEARER_MORALE</Description>              
-            <Help>TXT_KEY_PROMOTION_FLAG_BEARER_MORALE_PEDIA</Help>    
+            <Description>TXT_KEY_PROMOTION_FLAG_BEARER_MORALE</Description>  
             <Sound>AS2D_IF_LEVELUP</Sound>
             <TechPrereq>TECH_NEVER</TechPrereq>
             <iCombatPercent>5</iCombatPercent>
@@ -2478,6 +2476,7 @@
         <PromotionInfo>
             <Type>PROMOTION_CAST_SCORCH</Type>
             <Description>TXT_KEY_PROMOTION_CAST_SCORCH</Description>
+            <Help>TXT_KEY_PROMOTION_CAST_SCORCH_PEDIA</Help> 
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_CHANNELING1</PromotionPrereq>
             <UnitCombats>
@@ -2509,7 +2508,8 @@
         </PromotionInfo>
         <PromotionInfo>
             <Type>PROMOTION_CAST_TREETOP_DEFENCE</Type>
-            <Description>Treetop Defence</Description>
+            <Description>TXT_KEY_PROMOTION_TREETOP_DEFENCE</Description>
+            <Help>TXT_KEY_PROMOTION_TREETOP_DEFENCE_PEDIA</Help> 
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_CHANNELING1</PromotionPrereq>
             <UnitCombats>
