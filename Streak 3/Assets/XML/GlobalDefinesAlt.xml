@@ -383,11 +383,11 @@
 	</Define>
 	<Define>
 		<DefineName>WEAPON_PROMOTION_TIER2</DefineName>
-		<DefineTextVal>PROMOTION_IRON_WEAPONS</DefineTextVal>
+		<DefineTextVal>NONE</DefineTextVal>
 	</Define>
 	<Define>
 		<DefineName>WEAPON_PROMOTION_TIER3</DefineName>
-		<DefineTextVal>PROMOTION_MITHRIL_WEAPONS</DefineTextVal>
+		<DefineTextVal>NONE</DefineTextVal>
 	</Define>
 	<Define>
 		<DefineName>WEAPON_REQ_BONUS_TIER1</DefineName>

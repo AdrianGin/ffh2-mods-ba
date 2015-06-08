@@ -707,128 +707,17 @@
         </SpellInfo>
 
         
-        <SpellInfo>
-            <Type>SPELL_BRONZE_WEAPONS</Type>
-            <Description>TXT_KEY_PROMOTION_BRONZE_WEAPONS</Description>            
-            <Help>TXT_KEY_PROMOTION_BRONZE_WEAPONS_PEDIA</Help>
-            <TechPrereq>NONE</TechPrereq>
-            <UnitCombatPrereq>UNITCOMBAT_MELEE</UnitCombatPrereq>
-            <bAllowAI>1</bAllowAI>
-            <bDisplayWhenDisabled>0</bDisplayWhenDisabled>
-            <bInBordersOnly>1</bInBordersOnly>
-            <bInCityOnly>1</bInCityOnly>
-            <bHasCasted>1</bHasCasted>
-            <iCost>25</iCost>
-            <PyRequirement>reqBronzeWeapons(pCaster)</PyRequirement>
-            <PyResult>spellBronzeWeapons(pCaster)</PyResult>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS2D_REPAIR</Sound>
-            <bGraphicalOnly>1</bGraphicalOnly>
-            <Button>,Art/Interface/Buttons/WorldBuilder/Copper.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,5,12</Button>
-        </SpellInfo>    
+          
         
         
         
         
         
             
-        <SpellInfo>
-            <Type>SPELL_IRON_WEAPONS</Type>
-            <Description>TXT_KEY_PROMOTION_IRON_WEAPONS</Description>            
-            <Help>TXT_KEY_PROMOTION_IRON_WEAPONS_PEDIA</Help>
-            <TechPrereq>NONE</TechPrereq>
-            <UnitCombatPrereq>UNITCOMBAT_MELEE</UnitCombatPrereq>
-            <bAllowAI>1</bAllowAI>
-            <bDisplayWhenDisabled>0</bDisplayWhenDisabled>
-            <bInBordersOnly>1</bInBordersOnly>
-            <bInCityOnly>1</bInCityOnly>
-            <bHasCasted>1</bHasCasted>
-            <iCost>50</iCost>
-            <PyRequirement>reqIronWeapons(pCaster)</PyRequirement>
-            <PyResult>spellIronWeapons(pCaster)</PyResult>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS2D_REPAIR</Sound>
-            <bGraphicalOnly>1</bGraphicalOnly>
-            <Button>,Art/Interface/Buttons/WorldBuilder/Iron.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,6,13</Button>
-        </SpellInfo>        
-        <SpellInfo>
-            <Type>SPELL_MITHRIL_WEAPONS</Type>
-            <Description>TXT_KEY_PROMOTION_MITHRIL_WEAPONS</Description>            
-            <Help>TXT_KEY_PROMOTION_MITHRIL_WEAPONS_PEDIA</Help>
-            <TechPrereq>NONE</TechPrereq>
-            <UnitCombatPrereq>UNITCOMBAT_MELEE</UnitCombatPrereq>
-            <bAllowAI>1</bAllowAI>
-            <bDisplayWhenDisabled>0</bDisplayWhenDisabled>
-            <bInBordersOnly>1</bInBordersOnly>
-            <bInCityOnly>1</bInCityOnly>
-            <bHasCasted>1</bHasCasted>
-            <iCost>100</iCost>
-            <PyRequirement>reqMithrilWeapons(pCaster)</PyRequirement>
-            <PyResult>spellMithrilWeapons(pCaster)</PyResult>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS2D_REPAIR</Sound>
-            <bGraphicalOnly>1</bGraphicalOnly>
-            <Button>,Art/Interface/Buttons/WorldBuilder/Silver.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,4,14</Button>
-        </SpellInfo>
+     
         
         
-		<SpellInfo>
-            <Type>SPELL_BRONZE_WEAPONS_HORSE</Type>
-            <Description>TXT_KEY_PROMOTION_BRONZE_WEAPONS</Description>            
-            <Help>TXT_KEY_PROMOTION_BRONZE_WEAPONS_PEDIA</Help>
-            <TechPrereq>NONE</TechPrereq>
-            <UnitCombatPrereq>UNITCOMBAT_MOUNTED</UnitCombatPrereq>
-            <bAllowAI>1</bAllowAI>
-            <bDisplayWhenDisabled>0</bDisplayWhenDisabled>
-            <bInBordersOnly>1</bInBordersOnly>
-            <bInCityOnly>1</bInCityOnly>
-            <bHasCasted>1</bHasCasted>
-            <iCost>25</iCost>
-            <PyRequirement>reqBronzeWeaponsHorse(pCaster)</PyRequirement>
-            <PyResult>spellBronzeWeaponsHorse(pCaster)</PyResult>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS2D_REPAIR</Sound>
-            <bGraphicalOnly>1</bGraphicalOnly>
-            <Button>,Art/Interface/Buttons/WorldBuilder/Copper.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,5,12</Button>
-        </SpellInfo>    
-        <SpellInfo>
-            <Type>SPELL_IRON_WEAPONS_HORSE</Type>
-            <Description>TXT_KEY_PROMOTION_IRON_WEAPONS</Description>            
-            <Help>TXT_KEY_PROMOTION_IRON_WEAPONS_PEDIA</Help>
-            <TechPrereq>NONE</TechPrereq>
-            <UnitCombatPrereq>UNITCOMBAT_MOUNTED</UnitCombatPrereq>
-            <bAllowAI>1</bAllowAI>
-            <bDisplayWhenDisabled>0</bDisplayWhenDisabled>
-            <bInBordersOnly>1</bInBordersOnly>
-            <bInCityOnly>1</bInCityOnly>
-            <bHasCasted>1</bHasCasted>
-            <iCost>50</iCost>
-            <PyRequirement>reqIronWeaponsHorse(pCaster)</PyRequirement>
-            <PyResult>spellIronWeaponsHorse(pCaster)</PyResult>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS2D_REPAIR</Sound>
-            <bGraphicalOnly>1</bGraphicalOnly>
-            <Button>,Art/Interface/Buttons/WorldBuilder/Iron.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,6,13</Button>
-        </SpellInfo>        
-        <SpellInfo>
-            <Type>SPELL_MITHRIL_WEAPONS_HORSE</Type>
-            <Description>TXT_KEY_PROMOTION_MITHRIL_WEAPONS</Description>            
-            <Help>TXT_KEY_PROMOTION_MITHRIL_WEAPONS_PEDIA</Help>
-            <TechPrereq>NONE</TechPrereq>
-            <UnitCombatPrereq>UNITCOMBAT_MOUNTED</UnitCombatPrereq>
-            <bAllowAI>1</bAllowAI>
-            <bDisplayWhenDisabled>0</bDisplayWhenDisabled>
-            <bInBordersOnly>1</bInBordersOnly>
-            <bInCityOnly>1</bInCityOnly>
-            <bHasCasted>1</bHasCasted>
-            <iCost>100</iCost>
-            <PyRequirement>reqMithrilWeaponsHorse(pCaster)</PyRequirement>
-            <PyResult>spellMithrilWeaponsHorse(pCaster)</PyResult>
-            <Effect>EFFECT_SPELL1</Effect>
-            <Sound>AS2D_REPAIR</Sound>
-            <bGraphicalOnly>1</bGraphicalOnly>
-            <Button>,Art/Interface/Buttons/WorldBuilder/Silver.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,4,14</Button>
-        </SpellInfo>         
+		    
         
         <SpellInfo>
             <Type>SPELL_TELEPORT</Type>
