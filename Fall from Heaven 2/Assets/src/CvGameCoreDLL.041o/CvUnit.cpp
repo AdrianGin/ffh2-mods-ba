@@ -10693,7 +10693,7 @@ bool CvUnit::isInvisible(TeamTypes eTeam, bool bDebug, bool bCheckCargo) const
         {
             if (getTeam() == plot()->getTeam())
             {
-                return false;
+                //return false;
             }
         }
         if (plot()->isOwned())
@@ -11944,6 +11944,12 @@ void CvUnit::setXY(int iX, int iY, bool bGroup, bool bUpdate, bool bShow, bool b
 			//override bShow if check plot visible
 			if(bCheckPlotVisible && pNewPlot->isVisibleToWatchingHuman())
 				bShow = true;
+
+			if( getInvisibleType() != NO_INVISIBLE )
+			{
+				bShow = false;
+			}
+
 
 			if (bShow)
 			{

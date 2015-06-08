@@ -38,8 +38,6 @@ ADRIAN
 
 - please create a button pic of a forest for bloom
 - please create button pic for fireball, greater fireball and meteor like you did for   growth spells
-- create dragon spell
-- PLEASE CREATE BUTTON FOR SPELLL SUMMON DRAGON USING THE SAME ART AS IS UNDER THE UNIT_DRAGON
 
 Drowns vs Triemes...
 Manage Mana
@@ -51,10 +49,18 @@ Fort % defence
 
 Bug with Fireball cannot attack hill
 
+
+
+
+
+
 Done:
 Thief should have 1 range...
 Thief can't capture
 Woodwalking price
+- create dragon spell
+- PLEASE CREATE BUTTON FOR SPELLL SUMMON DRAGON USING THE SAME ART AS IS UNDER THE UNIT_DRAGON
+
 
 To Do:
 Decide how much heal Monk heal does
