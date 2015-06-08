@@ -3794,7 +3794,7 @@
             <bDisbandUnit>0</bDisbandUnit>
             <iUnitExperience>0</iUnitExperience>
             <iUnitImmobileTurns>0</iUnitImmobileTurns>
-            <UnitPromotion>PROMOTION_MOBILITY1</UnitPromotion>
+            <UnitPromotion>NONE</UnitPromotion>
             <UnitName></UnitName>
             <UnitCombatPromotions>
             </UnitCombatPromotions>
@@ -15027,10 +15027,6 @@
             <UnitCombatPromotions>
             </UnitCombatPromotions>
             <UnitClassPromotions>
-                <UnitClassPromotion>
-                    <UnitClass>UNITCLASS_HORSEMAN</UnitClass>
-                    <UnitPromotion>PROMOTION_FLANKING1</UnitPromotion>
-                </UnitClassPromotion>
             </UnitClassPromotions>
             <BuildingClass>NONE</BuildingClass>
             <iBuildingChange>0</iBuildingChange>
@@ -25782,7 +25778,7 @@
             <bDisbandUnit>0</bDisbandUnit>
             <iUnitExperience>0</iUnitExperience>
             <iUnitImmobileTurns>0</iUnitImmobileTurns>
-            <UnitPromotion>PROMOTION_SENTRY</UnitPromotion>
+            <UnitPromotion>NONE</UnitPromotion>
             <UnitName></UnitName>
             <UnitCombatPromotions>
             </UnitCombatPromotions>
@@ -25984,7 +25980,7 @@
             <bDisbandUnit>0</bDisbandUnit>
             <iUnitExperience>0</iUnitExperience>
             <iUnitImmobileTurns>0</iUnitImmobileTurns>
-            <UnitPromotion>PROMOTION_MOBILITY1</UnitPromotion>
+            <UnitPromotion>NONE</UnitPromotion>
             <UnitName></UnitName>
             <UnitCombatPromotions>
             </UnitCombatPromotions>
@@ -38884,7 +38880,7 @@
             <bDisbandUnit>0</bDisbandUnit>
             <iUnitExperience>0</iUnitExperience>
             <iUnitImmobileTurns>0</iUnitImmobileTurns>
-            <UnitPromotion>PROMOTION_BRONZE_WEAPONS</UnitPromotion>
+            <UnitPromotion>NONE</UnitPromotion>
             <UnitName></UnitName>
             <UnitCombatPromotions>
             </UnitCombatPromotions>
