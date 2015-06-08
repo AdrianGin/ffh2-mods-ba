@@ -1588,26 +1588,6 @@
             <iMinLevel>-1</iMinLevel>
         </PromotionInfo>
         <PromotionInfo>
-            <Type>PROMOTION_HIDDEN</Type>
-            <Description>TXT_KEY_PROMOTION_HIDDEN</Description>
-            <Sound>AS2D_IF_LEVELUP</Sound>
-            <TechPrereq>TECH_NEVER</TechPrereq>
-            <iFirstStrikesChange>1</iFirstStrikesChange>
-            <UnitCombats>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-            </UnitCombats>
-            <Button>Art/Interface/Buttons/Promotions/Hidden.dds</Button>
-            <bInvisible>1</bInvisible>
-            <bRemovedByCasting>1</bRemovedByCasting>
-            <bRemovedByCombat>1</bRemovedByCombat>
-            <iAIWeight>50</iAIWeight>
-            <iMinLevel>-1</iMinLevel>
-            <UnitArtStyleType>UNIT_ARTSTYLE_ILLUSION</UnitArtStyleType>
-        </PromotionInfo>
-        <PromotionInfo>
             <Type>PROMOTION_HASTED</Type>
             <Description>TXT_KEY_PROMOTION_HASTED</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
@@ -2688,6 +2668,7 @@
         <PromotionInfo>
             <Type>PROMOTION_CAST_BESERK</Type>
             <Description>TXT_KEY_PROMOTION_BESERK</Description>
+            <Help>TXT_KEY_PROMOTION_BESERK_PEDIA</Help> 
             <Sound>AS2D_IF_LEVELUP</Sound>
             <TechPrereq>TECH_NEVER</TechPrereq>
             <Button>,Art/Interface/Buttons/Promotions/CrownofBrillance.dds</Button>
@@ -2696,7 +2677,7 @@
         
         <PromotionInfo>
             <Type>PROMOTION_BESERK</Type>
-            <Description>TXT_KEY_PROMOTION_BESERK</Description>
+            <Description>TXT_KEY_PROMOTION_BUFF_BESERK</Description>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <TechPrereq>TECH_NEVER</TechPrereq>
             <iCombatPercent>25</iCombatPercent>
