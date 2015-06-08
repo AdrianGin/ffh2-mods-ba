@@ -161,49 +161,53 @@
             <iCombatPercent>3</iCombatPercent>
             <UnitCombats>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_ASSAULT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_COMPANY</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RANGED</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
+                </UnitCombat>          
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_GUNPOWDER</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_RANGER</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
+                </UnitCombat>    
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
+                </UnitCombat>  
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ELEPHANT</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
+                </UnitCombat>  
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
+                </UnitCombat>  
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
+                </UnitCombat>  
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_GOLEM</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
+                </UnitCombat>  
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
+                </UnitCombat> 
             </UnitCombats>
             <Button>,Art/Interface/Buttons/Promotions/Combat1.dds,Art/Interface/Buttons/Promotions_Atlas.dds,8,2</Button>
             <bMutation>1</bMutation>
@@ -219,49 +223,53 @@
             <iCombatPercent>3</iCombatPercent>
             <UnitCombats>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_ASSAULT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_COMPANY</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RANGED</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
+                </UnitCombat>          
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_GUNPOWDER</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_RANGER</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
+                </UnitCombat>    
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
+                </UnitCombat>  
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ELEPHANT</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
+                </UnitCombat>  
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
+                </UnitCombat>  
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
+                </UnitCombat>  
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_GOLEM</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
+                </UnitCombat>  
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
+                </UnitCombat> 
             </UnitCombats>
             <Button>,Art/Interface/Buttons/Promotions/Combat2.dds,Art/Interface/Buttons/Promotions_Atlas.dds,1,6</Button>
             <iCombatPercentDefense>0</iCombatPercentDefense>
@@ -276,49 +284,53 @@
             <iCombatPercent>3</iCombatPercent>
             <UnitCombats>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_ASSAULT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_COMPANY</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RANGED</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
+                </UnitCombat>          
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_GUNPOWDER</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_RANGER</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
+                </UnitCombat>    
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
+                </UnitCombat>  
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ELEPHANT</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
+                </UnitCombat>  
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
+                </UnitCombat>  
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
+                </UnitCombat>  
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_GOLEM</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
+                </UnitCombat>  
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
+                </UnitCombat> 
             </UnitCombats>
             <Button>,Art/Interface/Buttons/Promotions/Combat3.dds,Art/Interface/Buttons/Promotions_Atlas.dds,2,6</Button>
             <iCombatPercentDefense>0</iCombatPercentDefense>
@@ -333,49 +345,53 @@
             <iCombatPercent>3</iCombatPercent>
             <UnitCombats>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_ASSAULT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_COMPANY</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RANGED</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
+                </UnitCombat>          
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_GUNPOWDER</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_RANGER</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
+                </UnitCombat>    
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
+                </UnitCombat>  
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ELEPHANT</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
+                </UnitCombat>  
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
+                </UnitCombat>  
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
+                </UnitCombat>  
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_GOLEM</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
+                </UnitCombat>  
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
+                </UnitCombat> 
             </UnitCombats>
             <Button>,Art/Interface/Buttons/Promotions/Combat4.dds,Art/Interface/Buttons/Promotions_Atlas.dds,3,6</Button>
             <iCombatPercentDefense>0</iCombatPercentDefense>
@@ -390,49 +406,53 @@
             <iCombatPercent>3</iCombatPercent>
             <UnitCombats>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_ASSAULT</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_COMPANY</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_RANGED</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
+                </UnitCombat>          
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
                 <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_GUNPOWDER</UnitCombatType>
+                    <UnitCombatType>UNITCOMBAT_RANGER</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
+                </UnitCombat>    
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
+                </UnitCombat>  
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_ELEPHANT</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
+                </UnitCombat>  
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
+                </UnitCombat>  
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_FLYING</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
+                </UnitCombat>  
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_GOLEM</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
+                </UnitCombat>  
                 <UnitCombat>
                     <UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
-                <UnitCombat>
-                    <UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
-                    <bUnitCombat>1</bUnitCombat>
-                </UnitCombat>
+                </UnitCombat> 
             </UnitCombats>
             <Button>,Art/Interface/Buttons/Promotions/Combat5.dds,Art/Interface/Buttons/Promotions_Atlas.dds,4,6</Button>
             <iCombatPercentDefense>0</iCombatPercentDefense>
