@@ -894,17 +894,17 @@
         </SpellInfo>
         <SpellInfo>
             <Type>SPELL_BLINDING_LIGHT</Type>
-            <Description>TXT_KEY_SPELL_BLINDING_LIGHT</Description>
+            <Description>TXT_KEY_SPELL_BLINDING_LIGHT</Description> 
             <PromotionPrereq1>PROMOTION_CAST_BLINDING_LIGHT</PromotionPrereq1>
             <bGlobal>0</bGlobal>
             <bIsTileSelect>1</bIsTileSelect>
-            <bIsUnitSelect>0</bIsUnitSelect>
+            <bIsUnitSelect>1</bIsUnitSelect>
             <iSpellDistance>1</iSpellDistance>
             <bRequiresLOS>1</bRequiresLOS> 
             <bAllowAI>1</bAllowAI>
             <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
             <bHasCasted>1</bHasCasted>
-            <bResistable>1</bResistable>
+            <bResistable>0</bResistable>
             <iRange>0</iRange>
             <bImmuneTeam>1</bImmuneTeam>
             <bImmuneNeutral>1</bImmuneNeutral>

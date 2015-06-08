@@ -2542,6 +2542,7 @@
         <PromotionInfo>
             <Type>PROMOTION_CAST_BLINDING_LIGHT</Type>
             <Description>TXT_KEY_PROMOTION_CAST_BLINDING_LIGHT</Description>
+            <Help>TXT_KEY_PROMOTION_CAST_BLINDING_LIGHT_PEDIA</Help> 
             <Sound>AS2D_IF_LEVELUP</Sound>
             <PromotionPrereq>PROMOTION_CHANNELING2</PromotionPrereq>
             <UnitCombats>
