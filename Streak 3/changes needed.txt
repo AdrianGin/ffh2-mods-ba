@@ -21,7 +21,6 @@ lower xp gain for mages??
 better fireball and growth spells should remove weaker versions
 
 
-
 spell menu: add: , (space) then range
 boosts from abilities and spells should have a coloured border
 growth
@@ -30,26 +29,16 @@ titanic growth
 morale
 
 
-
-
 Move upgrades to items under wiki
 
 
-
-
 create unitclass icons for ranged, assault and company
-get rid of cast level up button
 upgrades unlock when?
 remove all sounds
-strength 2 doesnt work if you have strength 1 already
 fort def bonus show on map?
 couldnt build farm on rice with jungle. could chop jungle
-invis units should be hidden in stacks and cities
-dispell button icon bugged on unit stats
-thief 1 range
 
 adepts always one move to prevent move hit move?
-experience at 2 does not allow level up
 inc life steal for beast promotions
 ship def bonus on water not implemented
 drowns and ships stacked to 6+??? could add more drowns but not more ships (bug)
