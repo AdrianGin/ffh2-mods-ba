@@ -2909,7 +2909,8 @@ int CvPlot::defenseModifier(TeamTypes eDefender, bool bIgnoreBuilding, bool bHel
 
 	if (eImprovement != NO_IMPROVEMENT)
 	{
-		if (eDefender != NO_TEAM && (getTeam() == NO_TEAM || GET_TEAM(eDefender).isFriendlyTerritory(getTeam())))
+		//Adrian, improvement defence is always shown.
+		//if (eDefender != NO_TEAM && (getTeam() == NO_TEAM || GET_TEAM(eDefender).isFriendlyTerritory(getTeam())))
 		{
 			iModifier += GC.getImprovementInfo(eImprovement).getDefenseModifier();
 		}
