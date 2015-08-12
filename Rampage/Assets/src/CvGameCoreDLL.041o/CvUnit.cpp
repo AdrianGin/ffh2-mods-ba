@@ -1643,6 +1643,7 @@ void CvUnit::resolveCombat(CvUnit* pDefender, CvPlot* pPlot, CvBattleDefinition&
 {
 	CombatDetails cdAttackerDetails;
 	CombatDetails cdDefenderDetails;
+	CvWString szBuffer;
 
 //FfH: Modified by Kael 01/14/2009
 //	int iAttackerStrength = currCombatStr(NULL, NULL, &cdAttackerDetails);
@@ -1650,6 +1651,7 @@ void CvUnit::resolveCombat(CvUnit* pDefender, CvPlot* pPlot, CvBattleDefinition&
 	int iAttackerStrength = currCombatStr(NULL, pDefender, &cdAttackerDetails);
 	int iAttackerFirepower = currFirepower(NULL, pDefender);
 //FfH: End Modify
+
 
 	int iDefenderStrength;
 	int iAttackerDamage;
@@ -1684,10 +1686,13 @@ void CvUnit::resolveCombat(CvUnit* pDefender, CvPlot* pPlot, CvBattleDefinition&
 
 	collateralCombat(pPlot, pDefender);
 
-	while (true)
+	for( int i = 0; i < 1; i++ )
+	//while (true)
 	{
 		if (GC.getGameINLINE().getSorenRandNum(GC.getDefineINT("COMBAT_DIE_SIDES"), "Combat") < iDefenderOdds)
 		{
+			//Defender wins here
+
 			if (getCombatFirstStrikes() == 0)
 			{
 				if (getDamage() + iAttackerDamage >= maxHitPoints() && GC.getGameINLINE().getSorenRandNum(100, "Withdrawal") < withdrawalProbability())
@@ -1704,6 +1709,13 @@ void CvUnit::resolveCombat(CvUnit* pDefender, CvPlot* pPlot, CvBattleDefinition&
 				}
 
 				changeDamage(iAttackerDamage, pDefender->getOwnerINLINE());
+
+				szBuffer = gDLL->getText("TXT_KEY_MISC_YOU_UNIT_LOSE_ATTACKING", getNameKey(), combatLimit(), pDefender->getNameKey());
+				gDLL->getInterfaceIFace()->addMessage(getOwnerINLINE(), true, GC.getEVENT_MESSAGE_TIME(), szBuffer, 0, MESSAGE_TYPE_INFO, NULL, (ColorTypes)GC.getInfoTypeForString("COLOR_RED"), pPlot->getX_INLINE(), pPlot->getY_INLINE());
+				szBuffer = gDLL->getText("TXT_KEY_MISC_YOU_UNIT_WIN_DEFENDING", pDefender->getNameKey(), combatLimit(), getNameKey(), getVisualCivAdjective(pDefender->getTeam()));
+				gDLL->getInterfaceIFace()->addMessage(pDefender->getOwnerINLINE(), true, GC.getEVENT_MESSAGE_TIME(), szBuffer, 0, MESSAGE_TYPE_INFO, NULL, (ColorTypes)GC.getInfoTypeForString("COLOR_GREEN"), pPlot->getX_INLINE(), pPlot->getY_INLINE());
+
+
 
 				if (pDefender->getCombatFirstStrikes() > 0 && pDefender->isRanged())
 				{
@@ -1741,6 +1753,8 @@ void CvUnit::resolveCombat(CvUnit* pDefender, CvPlot* pPlot, CvBattleDefinition&
 		}
 		else
 		{
+
+			//Attacker wins here
 			if (pDefender->getCombatFirstStrikes() == 0)
 			{
                 if (pDefender->getDamage() + iDefenderDamage >= pDefender->maxHitPoints())
@@ -1766,10 +1780,23 @@ void CvUnit::resolveCombat(CvUnit* pDefender, CvPlot* pPlot, CvBattleDefinition&
                     changeMoves(std::max(GC.getMOVE_DENOMINATOR(), pPlot->movementCost(this, plot())));
 //FfH: End Add
 
+					szBuffer = gDLL->getText("TXT_KEY_MISC_YOU_UNIT_WIN_ATTACKING", getNameKey(), combatLimit(), pDefender->getNameKey());
+					gDLL->getInterfaceIFace()->addMessage(getOwnerINLINE(), true, GC.getEVENT_MESSAGE_TIME(), szBuffer, 0, MESSAGE_TYPE_INFO, NULL, (ColorTypes)GC.getInfoTypeForString("COLOR_GREEN"), pPlot->getX_INLINE(), pPlot->getY_INLINE());
+					szBuffer = gDLL->getText("TXT_KEY_MISC_YOU_UNIT_LOSE_DEFENDING", pDefender->getNameKey(), combatLimit(), getNameKey(), getVisualCivAdjective(pDefender->getTeam()));
+					gDLL->getInterfaceIFace()->addMessage(pDefender->getOwnerINLINE(), true, GC.getEVENT_MESSAGE_TIME(), szBuffer, 0, MESSAGE_TYPE_INFO, NULL, (ColorTypes)GC.getInfoTypeForString("COLOR_RED"), pPlot->getX_INLINE(), pPlot->getY_INLINE());
+
+
+
 					break;
 				}
 
 				pDefender->changeDamage(iDefenderDamage, getOwnerINLINE());
+				szBuffer = gDLL->getText("TXT_KEY_MISC_YOU_UNIT_WIN_ATTACKING", getNameKey(), iDefenderDamage, pDefender->getNameKey());
+				gDLL->getInterfaceIFace()->addMessage(getOwnerINLINE(), true, GC.getEVENT_MESSAGE_TIME(), szBuffer, 0, MESSAGE_TYPE_INFO, NULL, (ColorTypes)GC.getInfoTypeForString("COLOR_GREEN"), pPlot->getX_INLINE(), pPlot->getY_INLINE());
+				szBuffer = gDLL->getText("TXT_KEY_MISC_YOU_UNIT_LOSE_DEFENDING", pDefender->getNameKey(), iDefenderDamage, getNameKey(), getVisualCivAdjective(pDefender->getTeam()));
+				gDLL->getInterfaceIFace()->addMessage(pDefender->getOwnerINLINE(), true, GC.getEVENT_MESSAGE_TIME(), szBuffer, 0, MESSAGE_TYPE_INFO, NULL, (ColorTypes)GC.getInfoTypeForString("COLOR_RED"), pPlot->getX_INLINE(), pPlot->getY_INLINE());
+
+
 
 				if (getCombatFirstStrikes() > 0 && isRanged())
 				{

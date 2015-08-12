@@ -9,7 +9,7 @@ CIVINSTALL=E:\Civ4\Beyond the Sword
 GLOBALBOOST=$(CIVINSTALL)\CvGameCoreDLL\Boost-1.32.0
 GLOBALPYTHON=$(CIVINSTALL)\CvGameCoreDLL\Python24
 ## Uncomment to have newly compiled dlls copied to your mod's Assets directory
-YOURMOD=$(CIVINSTALL)\Mods\Streak 3
+YOURMOD=$(CIVINSTALL)\Mods\Rampage
 
 #### Tools ####
 CC="$(TOOLKIT)\bin\cl.exe"
