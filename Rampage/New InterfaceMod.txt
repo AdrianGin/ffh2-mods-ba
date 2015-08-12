@@ -1,0 +1,145 @@
+Need to add a mechanic to select tile.
+
+Actions -> Interfaces
+
+
+
+
+
+executeAction
+doAction
+handleAction
+canHandleAction
+
+Global, 1 is Use once,
+Global, 2 is use more than once
+
+interface modes
+loop spells
+if can cast SelectTile, true
+
+can do Mission
+Do Mission
+
+
+Casting can either be a mission or a command / interface
+
+
+BUTTONPOPUP_LOADUNIT
+BUTTONPOPUP_LOADUNIT
+BUTTONPOPUP_CAST_RANGED_SPELL
+
+gDLL->getInterfaceIFace()->setInterfaceMode(INTERFACEMODE_CAST_RANGED_SPELL);
+
+
+INTERFACEMODE_RECON
+INTERFACEMODE_CAST_RANGED_SPELL
+
+GC.getGameINLINE().selectionListGameNetMessage(GAMEMESSAGE_DO_COMMAND, COMMAND_CAST, spellIndex);
+
+
+
+			CvPopupInfo* pInfo = new CvPopupInfo(BUTTONPOPUP_CAST_RANGED_SPELL);
+			if (NULL != pInfo)
+			{
+				gDLL->getInterfaceIFace()->addPopup(pInfo);
+				bSkip = true;
+			}
+
+
+int CvInterfaceModeInfo::getMissionType()
+handleAction
+
+INTERFACEMODE_PYTHON_PICK_PLOT
+
+
+Commands
+
+Missions
+
+Another Mission to set
+Interfaces
+
+
+Recon is started by:
+startMission
+
+canReconAt
+
+m_iSpellDistance
+m_bIsUnitSelect
+
+getSelectedRangedSpell
+m_iSelectedRangedSpell
+
+Command 
+-> Popup (Save selected Spell) 
+-> Select  
+-> Perform mission of Cast. (Tile (save selected Tile))
+
+canCast
+MISSION_CAST_RANGED_SPELL
+COMMAND_CAST_RANGED
+
+launchChooseRangedSpellPopup
+
+pLoopUnit->setSelectedRangedSpell((SpellTypes)NO_SPELL);
+
+updateColoredPlots
+GC.getGameINLINE().updateColoredPlots();
+gDLL->getInterfaceIFace()->setDirty(SelectionButtons_DIRTY_BIT, true);
+
+
+bRequiresLOS
+
+CvPlot* pLoopPlot = GC.getMapINLINE().plotByIndexINLINE(iI);
+plotINLINE
+
+
+
+
+launchChooseCastSelectUnitPopup
+launchLoadUnitPopup
+
+                    CvPopupInfo* pInfo = new CvPopupInfo(BUTTONPOPUP_CONFIRMCASTGLOBAL);
+                    if (NULL != pInfo)
+                    {
+                        pInfo->setData1(iAction);
+                        pInfo->setOption1(bAlt);
+                        gDLL->getInterfaceIFace()->addPopup(pInfo);
+                    }
+
+
+
+
+
+
+Actions
+(Loop through all Actions)
+COMMAND_CAST
+
+
+
+COMMAND_CAST_RANGED
+COMMAND_SET_TARGET_PLOT,
+COMMAND_SET_TARGET_UNIT,
+
+getX_INLINE()
+getX_INLINE()
+
+
+PushCommand
+
+IDInfo unit(getOwnerINLINE(), getID());
+
+
+pLoopUnit->castAt( pLoopUnit->getSelectedRangedSpell(), headMissionQueueNode()->m_data.iData1, headMissionQueueNode()->m_data.iData2);
+								{
+									pLoopUnit->setSelectedRangedSpell((SpellTypes)NO_SPELL);
+									GC.getGameINLINE().updateColoredPlots();
+									bAction = true;
+								}
+								pLoopUnit->setTargetPlot(NULL);*/
+
+
+

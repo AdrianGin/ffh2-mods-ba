@@ -1,0 +1,1201 @@
+<?xml version="1.0"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Spell Infos -->
+<Civ4SpellInfos xmlns="x-schema:CIV4UnitSpellSchema.xml">
+    <SpellInfos>
+        <SpellInfo>
+            <Type>SPELL_CREW_BUCCANEERS</Type>
+            <Description>TXT_KEY_SPELL_CREW_BUCCANEERS</Description>
+            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
+            <Help>TXT_KEY_SPELL_CREW_BUCCANEERS_HELP</Help>
+            <UnitCombatPrereq>UNITCOMBAT_NAVAL</UnitCombatPrereq>
+            <bInCityOnly>1</bInCityOnly>
+            <bHasCasted>1</bHasCasted>
+            <AddPromotionType1>PROMOTION_BUCCANEERS</AddPromotionType1>
+            <RemovePromotionType1>PROMOTION_LONGSHOREMEN</RemovePromotionType1>
+            <RemovePromotionType2>PROMOTION_SKELETON_CREW</RemovePromotionType2>
+            <bBuffCasterOnly>1</bBuffCasterOnly>
+            <bAbility>1</bAbility>
+            <PyRequirement>reqCrewBuccaneers(pCaster)</PyRequirement>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS3D_SPELL_CREW</Sound>
+            <bGraphicalOnly>1</bGraphicalOnly>
+            <Button>Art/Interface/Buttons/Promotions/Buccaneers.dds</Button>
+        </SpellInfo>
+        <SpellInfo>
+            <Type>SPELL_CREW_LONGSHOREMEN</Type>
+            <Description>TXT_KEY_SPELL_CREW_LONGSHOREMEN</Description>
+            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
+            <Help>TXT_KEY_SPELL_CREW_LONGSHOREMEN_HELP</Help>
+            <UnitCombatPrereq>UNITCOMBAT_NAVAL</UnitCombatPrereq>
+            <bInCityOnly>1</bInCityOnly>
+            <bHasCasted>1</bHasCasted>
+            <AddPromotionType1>PROMOTION_LONGSHOREMEN</AddPromotionType1>
+            <RemovePromotionType1>PROMOTION_BUCCANEERS</RemovePromotionType1>
+            <RemovePromotionType2>PROMOTION_SKELETON_CREW</RemovePromotionType2>
+            <bBuffCasterOnly>1</bBuffCasterOnly>
+            <bAbility>1</bAbility>
+            <PyRequirement>reqCrewLongshoremen(pCaster)</PyRequirement>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS3D_SPELL_CREW</Sound>
+            <bGraphicalOnly>1</bGraphicalOnly>
+            <Button>Art/Interface/Buttons/Promotions/Longshoremen.dds</Button>
+        </SpellInfo>
+        <SpellInfo>
+            <Type>SPELL_CREW_NORMAL_CREW</Type>
+            <Description>TXT_KEY_SPELL_CREW_NORMAL_CREW</Description>
+            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
+            <UnitCombatPrereq>UNITCOMBAT_NAVAL</UnitCombatPrereq>
+            <bInCityOnly>1</bInCityOnly>
+            <bHasCasted>1</bHasCasted>
+            <RemovePromotionType1>PROMOTION_BUCCANEERS</RemovePromotionType1>
+            <RemovePromotionType2>PROMOTION_LONGSHOREMEN</RemovePromotionType2>
+            <RemovePromotionType3>PROMOTION_SKELETON_CREW</RemovePromotionType3>
+            <bBuffCasterOnly>1</bBuffCasterOnly>
+            <bAbility>1</bAbility>
+            <PyRequirement>reqCrewNormalCrew(pCaster)</PyRequirement>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS3D_SPELL_CREW</Sound>
+            <bGraphicalOnly>1</bGraphicalOnly>
+            <Button>Art/Interface/Buttons/Spells/Normalcrew.dds</Button>
+        </SpellInfo>
+        <SpellInfo>
+            <Type>SPELL_CREW_SKELETON_CREW</Type>
+            <Description>TXT_KEY_SPELL_CREW_SKELETON_CREW</Description>
+            <Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
+            <Help>TXT_KEY_SPELL_CREW_SKELETON_CREW_HELP</Help>
+            <UnitCombatPrereq>UNITCOMBAT_NAVAL</UnitCombatPrereq>
+            <bInCityOnly>1</bInCityOnly>
+            <bHasCasted>1</bHasCasted>
+            <AddPromotionType1>PROMOTION_SKELETON_CREW</AddPromotionType1>
+            <RemovePromotionType1>PROMOTION_BUCCANEERS</RemovePromotionType1>
+            <RemovePromotionType2>PROMOTION_LONGSHOREMEN</RemovePromotionType2>
+            <bBuffCasterOnly>1</bBuffCasterOnly>
+            <bAbility>1</bAbility>
+            <PyRequirement>reqCrewSkeletonCrew(pCaster)</PyRequirement>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS3D_SPELL_CREW</Sound>
+            <bGraphicalOnly>1</bGraphicalOnly>
+            <Button>Art/Interface/Buttons/Promotions/Skeletoncrew.dds</Button>
+        </SpellInfo>
+        
+        
+        <SpellInfo>
+            <Type>SPELL_HEAL</Type>
+            <Description>TXT_KEY_SPELL_HEAL</Description>
+            <Help>TXT_KEY_SPELL_HEAL_PEDIA</Help>
+            <PromotionPrereq1>PROMOTION_HEAL1</PromotionPrereq1>
+            <bGlobal>0</bGlobal>
+            <bIsTileSelect>1</bIsTileSelect>
+            <bIsUnitSelect>1</bIsUnitSelect>
+            <iSpellDistance>1</iSpellDistance>
+            <bRequiresLOS>1</bRequiresLOS>  
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+            <bHasCasted>1</bHasCasted>
+            <DamageType>DAMAGE_FIRE</DamageType>
+            <PyResult>spellHealRange(pCaster, pTarget, 15)</PyResult>
+            <!--PyRequirement>reqHeal(pCaster)</PyRequirement-->
+            <Effect>EFFECT_CREATION</Effect>
+            <Sound>AS3D_SPELL_HEAL</Sound>
+            <Button>Art/Interface/Buttons/Spells/Heal.dds</Button>
+        </SpellInfo>        
+        
+        
+        
+        <!--SpellInfo>
+            <Type>SPELL_HEAL</Type>
+            <Description>TXT_KEY_SPELL_HEAL</Description>
+            <Civilopedia>Heals 8HP to all units in the stack.</Civilopedia>
+            <Help></Help>
+            <PromotionPrereq1>PROMOTION_HEAL1</PromotionPrereq1>
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+            <bHasCasted>1</bHasCasted>
+            <PyResult>spellHeal(pCaster,8)</PyResult>
+            <PyRequirement>reqHeal(pCaster)</PyRequirement>
+            <Effect>EFFECT_CREATION</Effect>
+            <Sound>AS3D_SPELL_HEAL</Sound>
+            <Button>Art/Interface/Buttons/Spells/Heal.dds</Button>
+        </SpellInfo-->
+        
+        
+        
+        <SpellInfo>
+            <Type>SPELL_GUNPOWDER_WEAPONS</Type>
+            <Description>TXT_KEY_PROMOTION_GUNPOWDER_WEAPONS</Description>            
+            <Help>TXT_KEY_PROMOTION_GUNPOWDER_WEAPONS_PEDIA</Help>
+            <TechPrereq>NONE</TechPrereq>
+            <UnitCombatPrereq>UNITCOMBAT_GUNPOWDER</UnitCombatPrereq>
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>0</bDisplayWhenDisabled>
+            <bInBordersOnly>1</bInBordersOnly>
+            <bInCityOnly>1</bInCityOnly>
+            <bHasCasted>1</bHasCasted>
+            <iCost>30</iCost>
+            <PyRequirement>reqGunpowderWeapons(pCaster)</PyRequirement>
+            <PyResult>spellGunpowderWeapons(pCaster)</PyResult>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS2D_REPAIR</Sound>
+            <bGraphicalOnly>1</bGraphicalOnly>
+            <Button>,Art/Interface/Buttons/WorldBuilder/Coal.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,4,12</Button>
+        </SpellInfo>
+        
+        <SpellInfo>
+            <Type>SPELL_HORSE_WEAPONS</Type>
+            <Description>TXT_KEY_PROMOTION_HORSE_WEAPONS</Description>            
+            <Help>TXT_KEY_PROMOTION_HORSE_WEAPONS_PEDIA</Help>
+            <TechPrereq>TECH_HORSEBACK_RIDING</TechPrereq>
+            <UnitCombatPrereq>UNITCOMBAT_MOUNTED</UnitCombatPrereq>
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>0</bDisplayWhenDisabled>
+            <bInBordersOnly>1</bInBordersOnly>
+            <bInCityOnly>1</bInCityOnly>
+            <bHasCasted>1</bHasCasted>
+            <iCost>30</iCost>
+            <PyRequirement>reqHorseWeapons(pCaster, 'PROMOTION_HORSE_WEAPONS')</PyRequirement>
+            <PyResult>spellHorseWeapons(pCaster, 'PROMOTION_HORSE_WEAPONS')</PyResult>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS2D_REPAIR</Sound>
+            <bGraphicalOnly>1</bGraphicalOnly>
+            <Button>,Art/Interface/Buttons/WorldBuilder/Horse.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,4,13</Button>
+        </SpellInfo> 
+        
+        <SpellInfo>
+            <Type>SPELL_WAR_HORSE_WEAPONS</Type>
+            <Description>TXT_KEY_PROMOTION_WAR_HORSE_WEAPONS</Description>            
+            <Help>TXT_KEY_PROMOTION_WAR_HORSE_WEAPONS_PEDIA</Help>
+            <TechPrereq>TECH_ANIMAL_REARING</TechPrereq>
+            <UnitCombatPrereq>UNITCOMBAT_MOUNTED</UnitCombatPrereq>
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>0</bDisplayWhenDisabled>
+            <bInBordersOnly>1</bInBordersOnly>
+            <bInCityOnly>1</bInCityOnly>
+            <bHasCasted>1</bHasCasted>
+            <iCost>70</iCost>
+            <PyRequirement>reqHorseWeapons(pCaster, 'PROMOTION_WAR_HORSE_WEAPONS')</PyRequirement>
+            <PyResult>spellHorseWeapons(pCaster, 'PROMOTION_WAR_HORSE_WEAPONS')</PyResult>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS2D_REPAIR</Sound>
+            <bGraphicalOnly>1</bGraphicalOnly>
+            <Button>,Art/Interface/Buttons/WorldBuilder/Horse.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,4,13</Button>
+        </SpellInfo>         
+        
+		<SpellInfo>
+            <Type>SPELL_ELEPHANT_WEAPONS</Type>
+            <Description>TXT_KEY_PROMOTION_ELEPHANT_WEAPONS</Description>            
+            <Help>TXT_KEY_PROMOTION_ELEPHANT_WEAPONS_PEDIA</Help>
+            <TechPrereq>TECH_HORSEBACK_RIDING</TechPrereq>
+            <UnitCombatPrereq>UNITCOMBAT_ELEPHANT</UnitCombatPrereq>
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>0</bDisplayWhenDisabled>
+            <bInBordersOnly>1</bInBordersOnly>
+            <bInCityOnly>1</bInCityOnly>
+            <bHasCasted>1</bHasCasted>
+            <iCost>30</iCost>
+            <PyRequirement>reqElephantWeapons(pCaster, 'PROMOTION_ELEPHANT_WEAPONS')</PyRequirement>
+            <PyResult>spellElephants(pCaster, 'PROMOTION_ELEPHANT_WEAPONS')</PyResult>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS2D_REPAIR</Sound>
+            <bGraphicalOnly>1</bGraphicalOnly>
+            <Button>,Art/Interface/Buttons/WorldBuilder/Ivory.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,7,13</Button>
+        </SpellInfo>         
+        
+		<SpellInfo>
+            <Type>SPELL_WAR_ELEPHANT_WEAPONS</Type>
+            <Description>TXT_KEY_PROMOTION_WAR_ELEPHANT_WEAPONS</Description>            
+            <Help>TXT_KEY_PROMOTION_WAR_ELEPHANT_WEAPONS_PEDIA</Help>
+            <TechPrereq>TECH_ANIMAL_REARING</TechPrereq>
+            <UnitCombatPrereq>UNITCOMBAT_ELEPHANT</UnitCombatPrereq>
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>0</bDisplayWhenDisabled>
+            <bInBordersOnly>1</bInBordersOnly>
+            <bInCityOnly>1</bInCityOnly>
+            <bHasCasted>1</bHasCasted>
+            <iCost>62</iCost>
+            <PyRequirement>reqElephantWeapons(pCaster, 'PROMOTION_WAR_ELEPHANT_WEAPONS')</PyRequirement>
+            <PyResult>spellElephants(pCaster, 'PROMOTION_WAR_ELEPHANT_WEAPONS')</PyResult>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS2D_REPAIR</Sound>
+            <bGraphicalOnly>1</bGraphicalOnly>
+            <Button>,Art/Interface/Buttons/WorldBuilder/Ivory.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,7,13</Button>
+        </SpellInfo>          
+        
+        
+        <SpellInfo>
+            <Type>SPELL_BOOTS_MARCH</Type>
+            <Description>TXT_KEY_PROMOTION_MARCH</Description>   
+            <Help>TXT_KEY_PROMOTION_MARCH_PEDIA</Help>         
+            <TechPrereq>TECH_DARK_AGE</TechPrereq>
+            <UnitCombatPrereq>NONE</UnitCombatPrereq>
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>0</bDisplayWhenDisabled>
+            <bInBordersOnly>1</bInBordersOnly>
+            <bInCityOnly>1</bInCityOnly>
+            <bHasCasted>1</bHasCasted>
+            <iCost>32</iCost>
+            <PyRequirement>reqHumanBoots(pCaster, 'PROMOTION_MARCH')</PyRequirement>
+            <PyResult>spellHumanBoots(pCaster, 'PROMOTION_MARCH')</PyResult>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS2D_REPAIR</Sound>
+            <bGraphicalOnly>1</bGraphicalOnly>
+            <Button>,Art/Interface/Buttons/Promotions/March.dds,Art/Interface/Buttons/Promotions_Atlas.dds,2,4</Button>
+        </SpellInfo>  
+        
+        
+        <SpellInfo>
+            <Type>SPELL_BOOTS_WOODWALK</Type>
+            <Description>TXT_KEY_PROMOTION_WOODWALK</Description>   
+            <Help>TXT_KEY_PROMOTION_WOODWALK_PEDIA</Help>              
+            <TechPrereq>TECH_FEUDAL_AGE</TechPrereq>
+            <UnitCombatPrereq>NONE</UnitCombatPrereq>
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>0</bDisplayWhenDisabled>
+            <bInBordersOnly>1</bInBordersOnly>
+            <bInCityOnly>1</bInCityOnly>
+            <bHasCasted>1</bHasCasted>
+            <iCost>38</iCost>
+            <PyRequirement>reqHumanBoots(pCaster, 'PROMOTION_WOODWALK')</PyRequirement>
+            <PyResult>spellHumanBoots(pCaster, 'PROMOTION_WOODWALK')</PyResult>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS2D_REPAIR</Sound>
+            <bGraphicalOnly>1</bGraphicalOnly>
+            <Button>Art/Interface/Buttons/Promotions/Woodwalking.dds</Button>
+        </SpellInfo>  
+        
+        <SpellInfo>
+            <Type>SPELL_BOOTS_HILLWALK</Type>
+            <Description>TXT_KEY_PROMOTION_HILLWALK</Description>    
+            <Help>TXT_KEY_PROMOTION_HILLWALK_PEDIA</Help>             
+            <TechPrereq>TECH_FEUDAL_AGE</TechPrereq>
+            <UnitCombatPrereq>NONE</UnitCombatPrereq>
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>0</bDisplayWhenDisabled>
+            <bInBordersOnly>1</bInBordersOnly>
+            <bInCityOnly>1</bInCityOnly>
+            <bHasCasted>1</bHasCasted>
+            <iCost>38</iCost>
+            <PyRequirement>reqHumanBoots(pCaster, 'PROMOTION_HILLWALK')</PyRequirement>
+            <PyResult>spellHumanBoots(pCaster, 'PROMOTION_HILLWALK')</PyResult>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS2D_REPAIR</Sound>
+            <bGraphicalOnly>1</bGraphicalOnly>
+            <Button>Art/Interface/Buttons/Promotions/hillwalk.dds</Button>
+        </SpellInfo>  
+        
+		<SpellInfo>
+            <Type>SPELL_BOOTS_MOUNTAINWALK</Type>
+            <Description>TXT_KEY_PROMOTION_MOUNTAINWALK</Description>     
+            <Help>TXT_KEY_PROMOTION_MOUNTAINWALK_PEDIA</Help>             
+            <TechPrereq>TECH_CASTLE_AGE</TechPrereq>
+            <UnitCombatPrereq>NONE</UnitCombatPrereq>
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>0</bDisplayWhenDisabled>
+            <bInBordersOnly>1</bInBordersOnly>
+            <bInCityOnly>1</bInCityOnly>
+            <bHasCasted>1</bHasCasted>
+            <iCost>38</iCost>
+            <PyRequirement>reqHumanBoots(pCaster, 'PROMOTION_MOUNTAINWALK')</PyRequirement>
+            <PyResult>spellHumanBoots(pCaster, 'PROMOTION_MOUNTAINWALK')</PyResult>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS2D_REPAIR</Sound>
+            <bGraphicalOnly>1</bGraphicalOnly>
+            <Button>Art/Interface/Buttons/Promotions/mountainwalk.dds</Button>
+        </SpellInfo>        
+        
+		<SpellInfo>
+            <Type>SPELL_BOOTS_WATERWALK</Type>
+            <Description>TXT_KEY_PROMOTION_WATERWALK</Description>    
+            <Help>TXT_KEY_PROMOTION_WATERWALK_PEDIA</Help>              
+            <TechPrereq>TECH_CASTLE_AGE</TechPrereq>
+            <UnitCombatPrereq>NONE</UnitCombatPrereq>
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>0</bDisplayWhenDisabled>
+            <bInBordersOnly>1</bInBordersOnly>
+            <bInCityOnly>1</bInCityOnly>
+            <bHasCasted>1</bHasCasted>
+            <iCost>38</iCost>
+            <PyRequirement>reqHumanBoots(pCaster, 'PROMOTION_WATERWALK')</PyRequirement>
+            <PyResult>spellHumanBoots(pCaster, 'PROMOTION_WATERWALK')</PyResult>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS2D_REPAIR</Sound>
+            <bGraphicalOnly>1</bGraphicalOnly>
+            <Button>Art/Interface/Buttons/Promotions/Waterwalking.dds</Button>
+        </SpellInfo>          
+        
+		<SpellInfo>
+            <Type>SPELL_BOOTS_SPEEDWALK</Type>
+            <Description>TXT_KEY_PROMOTION_SPEEDWALK</Description>    
+            <Help>TXT_KEY_PROMOTION_SPEEDWALK_PEDIA</Help>             
+            <TechPrereq>TECH_IMPERIAL_AGE</TechPrereq>
+            <UnitCombatPrereq>NONE</UnitCombatPrereq>
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>0</bDisplayWhenDisabled>
+            <bInBordersOnly>1</bInBordersOnly>
+            <bInCityOnly>1</bInCityOnly>
+            <bHasCasted>1</bHasCasted>
+            <iCost>54</iCost>
+            <PyRequirement>reqHumanBoots(pCaster, 'PROMOTION_SPEEDWALK')</PyRequirement>
+            <PyResult>spellHumanBoots(pCaster, 'PROMOTION_SPEEDWALK')</PyResult>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS2D_REPAIR</Sound>
+            <bGraphicalOnly>1</bGraphicalOnly>
+            <Button>Art/Interface/Buttons/Promotions/Flying.dds</Button>
+        </SpellInfo>         
+        
+		<SpellInfo>
+            <Type>SPELL_BOOTS_INVISIBLEWALK</Type>
+            <Description>TXT_KEY_PROMOTION_INVISIBLEWALK</Description>     
+            <Help>TXT_KEY_PROMOTION_INVISIBLEWALK_PEDIA</Help>              
+            <TechPrereq>TECH_IMPERIAL_AGE</TechPrereq>
+            <UnitCombatPrereq>NONE</UnitCombatPrereq>
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>0</bDisplayWhenDisabled>
+            <bInBordersOnly>1</bInBordersOnly>
+            <bInCityOnly>1</bInCityOnly>
+            <bHasCasted>1</bHasCasted>
+            <iCost>54</iCost>
+            <PyRequirement>reqHumanBoots(pCaster, 'PROMOTION_INVISIBLEWALK')</PyRequirement>
+            <PyResult>spellHumanBoots(pCaster, 'PROMOTION_INVISIBLEWALK')</PyResult>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS2D_REPAIR</Sound>
+            <bGraphicalOnly>1</bGraphicalOnly>
+            <Button>Art/Interface/Buttons/Promotions/Invisibility.dds</Button>
+        </SpellInfo>         
+        
+		<SpellInfo>
+            <Type>SPELL_WEAPSARMS_STRENGTH1</Type>
+            <Description>TXT_KEY_PROMOTION_STRENGTH1</Description>         
+            <Help>TXT_KEY_PROMOTION_STRENGTH1_PEDIA</Help>          
+            <TechPrereq>TECH_DARK_AGE</TechPrereq>
+            <UnitCombatPrereq>NONE</UnitCombatPrereq>
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>0</bDisplayWhenDisabled>
+            <bInBordersOnly>1</bInBordersOnly>
+            <bInCityOnly>1</bInCityOnly>
+            <bHasCasted>1</bHasCasted>
+            <iCost>26</iCost>
+            <PyRequirement>reqHumanWeaponsArmour(pCaster, 'PROMOTION_STRENGTH1')</PyRequirement>
+            <PyResult>spellHumanWeaponsArmour(pCaster, 'PROMOTION_STRENGTH1')</PyResult>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS2D_REPAIR</Sound>
+            <bGraphicalOnly>1</bGraphicalOnly>
+            <Button>Art/Interface/Buttons/Promotions/Strength1.dds</Button>
+        </SpellInfo>         
+        
+        
+		<SpellInfo>
+            <Type>SPELL_WEAPSARMS_STRENGTH2</Type>
+            <Description>TXT_KEY_PROMOTION_STRENGTH2</Description>         
+            <Help>TXT_KEY_PROMOTION_STRENGTH2_PEDIA</Help>               
+            <TechPrereq>TECH_FEUDAL_AGE</TechPrereq>
+            <UnitCombatPrereq>NONE</UnitCombatPrereq>
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>0</bDisplayWhenDisabled>
+            <bInBordersOnly>1</bInBordersOnly>
+            <bInCityOnly>1</bInCityOnly>
+            <bHasCasted>1</bHasCasted>
+            <iCost>54</iCost>
+            <PyRequirement>reqHumanWeaponsArmour(pCaster, 'PROMOTION_STRENGTH2')</PyRequirement>
+            <PyResult>spellHumanWeaponsArmour(pCaster, 'PROMOTION_STRENGTH2')</PyResult>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS2D_REPAIR</Sound>
+            <bGraphicalOnly>1</bGraphicalOnly>
+            <Button>Art/Interface/Buttons/Promotions/Strength2.dds</Button>
+        </SpellInfo>
+        
+		<SpellInfo>
+            <Type>SPELL_WEAPSARMS_STRENGTH3</Type>
+            <Description>TXT_KEY_PROMOTION_STRENGTH3</Description>        
+            <Help>TXT_KEY_PROMOTION_STRENGTH3_PEDIA</Help>             
+            <TechPrereq>TECH_CASTLE_AGE</TechPrereq>
+            <UnitCombatPrereq>NONE</UnitCombatPrereq>
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>0</bDisplayWhenDisabled>
+            <bInBordersOnly>1</bInBordersOnly>
+            <bInCityOnly>1</bInCityOnly>
+            <bHasCasted>1</bHasCasted>
+            <iCost>82</iCost>
+            <PyRequirement>reqHumanWeaponsArmour(pCaster, 'PROMOTION_STRENGTH3')</PyRequirement>
+            <PyResult>spellHumanWeaponsArmour(pCaster, 'PROMOTION_STRENGTH3')</PyResult>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS2D_REPAIR</Sound>
+            <bGraphicalOnly>1</bGraphicalOnly>
+            <Button>Art/Interface/Buttons/Promotions/Strength3.dds</Button>
+        </SpellInfo>
+        
+        
+		<SpellInfo>
+            <Type>SPELL_WEAPSARMS_STRENGTH4</Type>
+            <Description>TXT_KEY_PROMOTION_STRENGTH4</Description>             
+            <Help>TXT_KEY_PROMOTION_STRENGTH4_PEDIA</Help>        
+            <TechPrereq>TECH_IMPERIAL_AGE</TechPrereq>
+            <UnitCombatPrereq>NONE</UnitCombatPrereq>
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>0</bDisplayWhenDisabled>
+            <bInBordersOnly>1</bInBordersOnly>
+            <bInCityOnly>1</bInCityOnly>
+            <bHasCasted>1</bHasCasted>
+            <iCost>138</iCost>
+            <PyRequirement>reqHumanWeaponsArmour(pCaster, 'PROMOTION_STRENGTH4')</PyRequirement>
+            <PyResult>spellHumanWeaponsArmour(pCaster, 'PROMOTION_STRENGTH4')</PyResult>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS2D_REPAIR</Sound>
+            <bGraphicalOnly>1</bGraphicalOnly>
+            <Button>Art/Interface/Buttons/Promotions/Strength4.dds</Button>
+        </SpellInfo>                        
+        
+		<SpellInfo>
+            <Type>SPELL_WEAPSARMS_VISION1</Type>
+            <Description>TXT_KEY_PROMOTION_VISION1</Description>            
+            <Help>TXT_KEY_PROMOTION_VISION1_PEDIA</Help>            
+            <TechPrereq>TECH_FEUDAL_AGE</TechPrereq>
+            <UnitCombatPrereq>NONE</UnitCombatPrereq>
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>0</bDisplayWhenDisabled>
+            <bInBordersOnly>1</bInBordersOnly>
+            <bInCityOnly>1</bInCityOnly>
+            <bHasCasted>1</bHasCasted>
+            <iCost>40</iCost>
+            <PyRequirement>reqHumanWeaponsArmour(pCaster, 'PROMOTION_VISION1')</PyRequirement>
+            <PyResult>spellHumanWeaponsArmour(pCaster, 'PROMOTION_VISION1')</PyResult>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS2D_REPAIR</Sound>
+            <bGraphicalOnly>1</bGraphicalOnly>
+            <Button>Art/Interface/Buttons/Promotions/Vision1.dds</Button>
+        </SpellInfo>           
+        
+		<SpellInfo>
+            <Type>SPELL_WEAPSARMS_VISION2</Type>
+            <Description>TXT_KEY_PROMOTION_VISION2</Description>         
+            <Help>TXT_KEY_PROMOTION_VISION2_PEDIA</Help>               
+            <TechPrereq>TECH_CASTLE_AGE</TechPrereq>
+            <UnitCombatPrereq>NONE</UnitCombatPrereq>
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>0</bDisplayWhenDisabled>
+            <bInBordersOnly>1</bInBordersOnly>
+            <bInCityOnly>1</bInCityOnly>
+            <bHasCasted>1</bHasCasted>
+            <iCost>90</iCost>
+            <PyRequirement>reqHumanWeaponsArmour(pCaster, 'PROMOTION_VISION2')</PyRequirement>
+            <PyResult>spellHumanWeaponsArmour(pCaster, 'PROMOTION_VISION2')</PyResult>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS2D_REPAIR</Sound>
+            <bGraphicalOnly>1</bGraphicalOnly>
+            <Button>Art/Interface/Buttons/Promotions/Vision2.dds</Button>
+        </SpellInfo>           
+        
+        
+		<SpellInfo>
+            <Type>SPELL_SKILL_CITYRAIDER1</Type>
+            <Description>TXT_KEY_PROMOTION_SKILL_CITYRAIDER1</Description>        
+            <Help>TXT_KEY_PROMOTION_SKILL_CITYRAIDER1_PEDIA</Help>                  
+            <TechPrereq>TECH_FEUDAL_AGE</TechPrereq>
+            <UnitCombatPrereq>NONE</UnitCombatPrereq>
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>0</bDisplayWhenDisabled>
+            <bInBordersOnly>1</bInBordersOnly>
+            <bInCityOnly>1</bInCityOnly>
+            <bHasCasted>1</bHasCasted>
+            <iCost>26</iCost>
+            <PyRequirement>reqHumanWeaponsArmour(pCaster, 'PROMOTION_SKILL_CITYRAIDER1')</PyRequirement>
+            <PyResult>spellHumanSkill(pCaster, 'PROMOTION_SKILL_CITYRAIDER1')</PyResult>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS2D_REPAIR</Sound>
+            <bGraphicalOnly>1</bGraphicalOnly>
+            <Button>Art/Interface/Buttons/Promotions/cityraider1.dds</Button>
+        </SpellInfo> 
+        
+                  
+        <SpellInfo>
+            <Type>SPELL_SKILL_CITYRAIDER2</Type>
+            <Description>TXT_KEY_PROMOTION_SKILL_CITYRAIDER2</Description>         
+            <Help>TXT_KEY_PROMOTION_SKILL_CITYRAIDER2_PEDIA</Help>                 
+            <TechPrereq>TECH_CASTLE_AGE</TechPrereq>
+            <UnitCombatPrereq>NONE</UnitCombatPrereq>
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>0</bDisplayWhenDisabled>
+            <bInBordersOnly>1</bInBordersOnly>
+            <bInCityOnly>1</bInCityOnly>
+            <bHasCasted>1</bHasCasted>
+            <iCost>54</iCost>
+            <PyRequirement>reqHumanWeaponsArmour(pCaster, 'PROMOTION_SKILL_CITYRAIDER2')</PyRequirement>
+            <PyResult>spellHumanSkill(pCaster, 'PROMOTION_SKILL_CITYRAIDER2')</PyResult>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS2D_REPAIR</Sound>
+            <bGraphicalOnly>1</bGraphicalOnly>
+            <Button>Art/Interface/Buttons/Promotions/cityraider2.dds</Button>
+        </SpellInfo>                    
+        
+        
+		<SpellInfo>
+            <Type>SPELL_SKILL_CITYRAIDER3</Type>
+            <Description>TXT_KEY_PROMOTION_SKILL_CITYRAIDER3</Description>            
+            <Help>TXT_KEY_PROMOTION_SKILL_CITYRAIDER3_PEDIA</Help>              
+            <TechPrereq>TECH_IMPERIAL_AGE</TechPrereq>
+            <UnitCombatPrereq>NONE</UnitCombatPrereq>
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>0</bDisplayWhenDisabled>
+            <bInBordersOnly>1</bInBordersOnly>
+            <bInCityOnly>1</bInCityOnly>
+            <bHasCasted>1</bHasCasted>
+            <iCost>82</iCost>
+            <PyRequirement>reqHumanWeaponsArmour(pCaster, 'PROMOTION_SKILL_CITYRAIDER3')</PyRequirement>
+            <PyResult>spellHumanSkill(pCaster, 'PROMOTION_SKILL_CITYRAIDER3')</PyResult>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS2D_REPAIR</Sound>
+            <bGraphicalOnly>1</bGraphicalOnly>
+            <Button>Art/Interface/Buttons/Promotions/cityraider3.dds</Button>
+        </SpellInfo>    
+        
+		<SpellInfo>
+            <Type>SPELL_SKILL_CITYGARRISON1</Type>
+            <Description>TXT_KEY_PROMOTION_SKILL_CITYGARRISON1</Description>              
+            <Help>TXT_KEY_PROMOTION_SKILL_CITYGARRISON1_PEDIA</Help>           
+            <TechPrereq>TECH_FEUDAL_AGE</TechPrereq>
+            <UnitCombatPrereq>NONE</UnitCombatPrereq>
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>0</bDisplayWhenDisabled>
+            <bInBordersOnly>1</bInBordersOnly>
+            <bInCityOnly>1</bInCityOnly>
+            <bHasCasted>1</bHasCasted>
+            <iCost>26</iCost>
+            <PyRequirement>reqHumanWeaponsArmour(pCaster, 'PROMOTION_SKILL_CITYGARRISON1')</PyRequirement>
+            <PyResult>spellHumanSkill(pCaster, 'PROMOTION_SKILL_CITYGARRISON1')</PyResult>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS2D_REPAIR</Sound>
+            <bGraphicalOnly>1</bGraphicalOnly>
+            <Button>Art/Interface/Buttons/Promotions/citygarrison1.dds</Button>
+        </SpellInfo>         
+        
+		<SpellInfo>
+            <Type>SPELL_SKILL_CITYGARRISON2</Type>
+            <Description>TXT_KEY_PROMOTION_SKILL_CITYGARRISON2</Description>             
+            <Help>TXT_KEY_PROMOTION_SKILL_CITYGARRISON2_PEDIA</Help>            
+            <TechPrereq>TECH_CASTLE_AGE</TechPrereq>
+            <UnitCombatPrereq>NONE</UnitCombatPrereq>
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>0</bDisplayWhenDisabled>
+            <bInBordersOnly>1</bInBordersOnly>
+            <bInCityOnly>1</bInCityOnly>
+            <bHasCasted>1</bHasCasted>
+            <iCost>54</iCost>
+            <PyRequirement>reqHumanWeaponsArmour(pCaster, 'PROMOTION_SKILL_CITYGARRISON2')</PyRequirement>
+            <PyResult>spellHumanSkill(pCaster, 'PROMOTION_SKILL_CITYGARRISON2')</PyResult>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS2D_REPAIR</Sound>
+            <bGraphicalOnly>1</bGraphicalOnly>
+            <Button>Art/Interface/Buttons/Promotions/citygarrison2.dds</Button>
+        </SpellInfo> 
+        
+      	<SpellInfo>
+            <Type>SPELL_SKILL_CITYGARRISON3</Type>
+            <Description>TXT_KEY_PROMOTION_SKILL_CITYGARRISON3</Description>               
+            <Help>TXT_KEY_PROMOTION_SKILL_CITYGARRISON3_PEDIA</Help>          
+            <TechPrereq>TECH_IMPERIAL_AGE</TechPrereq>
+            <UnitCombatPrereq>NONE</UnitCombatPrereq>
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>0</bDisplayWhenDisabled>
+            <bInBordersOnly>1</bInBordersOnly>
+            <bInCityOnly>1</bInCityOnly>
+            <bHasCasted>1</bHasCasted>
+            <iCost>82</iCost>
+            <PyRequirement>reqHumanWeaponsArmour(pCaster, 'PROMOTION_SKILL_CITYGARRISON3')</PyRequirement>
+            <PyResult>spellHumanSkill(pCaster, 'PROMOTION_SKILL_CITYGARRISON3')</PyResult>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS2D_REPAIR</Sound>
+            <bGraphicalOnly>1</bGraphicalOnly>
+            <Button>Art/Interface/Buttons/Promotions/citygarrison3.dds</Button>
+        </SpellInfo> 
+        
+
+
+
+
+		<SpellInfo>
+            <Type>SPELL_BEAST_STRENGTH1</Type>
+            <Description>TXT_KEY_PROMOTION_BEASTSTRENGTH1</Description>            
+            <TechPrereq>TECH_DARK_AGE</TechPrereq>
+            <UnitCombatPrereq>NONE</UnitCombatPrereq>
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>0</bDisplayWhenDisabled>
+            <bInBordersOnly>1</bInBordersOnly>
+            <bInCityOnly>1</bInCityOnly>
+            <bHasCasted>1</bHasCasted>
+            <iCost>34</iCost>
+            <PyRequirement>reqBeastAbility(pCaster, 'PROMOTION_BEASTSTRENGTH1', ['NONE'])</PyRequirement>
+            <PyResult>spellHumanWeaponsArmour(pCaster, 'PROMOTION_BEASTSTRENGTH1')</PyResult>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS2D_REPAIR</Sound>
+            <bGraphicalOnly>1</bGraphicalOnly>
+            <Button>Art/Interface/Buttons/Promotions/BeastStrength1.dds</Button>
+        </SpellInfo>
+
+		<SpellInfo>
+            <Type>SPELL_BEAST_STRENGTH2</Type>
+            <Description>TXT_KEY_PROMOTION_BEASTSTRENGTH2</Description>            
+            <TechPrereq>TECH_FEUDAL_AGE</TechPrereq>
+            <UnitCombatPrereq>NONE</UnitCombatPrereq>
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>0</bDisplayWhenDisabled>
+            <bInBordersOnly>1</bInBordersOnly>
+            <bInCityOnly>1</bInCityOnly>
+            <bHasCasted>1</bHasCasted>
+            <iCost>62</iCost>
+            <PyRequirement>reqBeastAbility(pCaster, 'PROMOTION_BEASTSTRENGTH2', ['BONUS_CORN', 'BONUS_COW'])</PyRequirement>
+            <PyResult>spellHumanWeaponsArmour(pCaster, 'PROMOTION_BEASTSTRENGTH2')</PyResult>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS2D_REPAIR</Sound>
+            <bGraphicalOnly>1</bGraphicalOnly>
+            <Button>Art/Interface/Buttons/Promotions/BeastStrength2.dds</Button>
+        </SpellInfo>
+        
+        <SpellInfo>
+            <Type>SPELL_BEAST_STRENGTH3</Type>
+            <Description>TXT_KEY_PROMOTION_BEASTSTRENGTH3</Description>            
+            <TechPrereq>TECH_CASTLE_AGE</TechPrereq>
+            <UnitCombatPrereq>NONE</UnitCombatPrereq>
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>0</bDisplayWhenDisabled>
+            <bInBordersOnly>1</bInBordersOnly>
+            <bInCityOnly>1</bInCityOnly>
+            <bHasCasted>1</bHasCasted>
+            <iCost>90</iCost>
+            <PyRequirement>reqBeastAbility(pCaster, 'PROMOTION_BEASTSTRENGTH3', ['BONUS_PIG', 'BONUS_WHEAT'])</PyRequirement>
+            <PyResult>spellHumanWeaponsArmour(pCaster, 'PROMOTION_BEASTSTRENGTH3')</PyResult>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS2D_REPAIR</Sound>
+            <bGraphicalOnly>1</bGraphicalOnly>
+            <Button>Art/Interface/Buttons/Promotions/BeastStrength3.dds</Button>
+        </SpellInfo>
+        
+        
+        <SpellInfo>
+            <Type>SPELL_BEAST_STRENGTH4</Type>
+            <Description>TXT_KEY_PROMOTION_BEASTSTRENGTH4</Description>            
+            <TechPrereq>TECH_IMPERIAL_AGE</TechPrereq>
+            <UnitCombatPrereq>NONE</UnitCombatPrereq>
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>0</bDisplayWhenDisabled>
+            <bInBordersOnly>1</bInBordersOnly>
+            <bInCityOnly>1</bInCityOnly>
+            <bHasCasted>1</bHasCasted>
+            <iCost>126</iCost>
+            <PyRequirement>reqBeastAbility(pCaster, 'PROMOTION_BEASTSTRENGTH4', ['BONUS_SHEEP', 'BONUS_RICE'])</PyRequirement>
+            <PyResult>spellHumanWeaponsArmour(pCaster, 'PROMOTION_BEASTSTRENGTH4')</PyResult>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS2D_REPAIR</Sound>
+            <bGraphicalOnly>1</bGraphicalOnly>
+            <Button>Art/Interface/Buttons/Promotions/BeastStrength4.dds</Button>
+        </SpellInfo>
+
+        
+          
+        
+        
+        
+        
+        
+            
+     
+        
+        
+		    
+        
+        <SpellInfo>
+            <Type>SPELL_TELEPORT</Type>
+            <Description>TXT_KEY_SPELL_TELEPORT</Description>
+            <Help>TXT_KEY_SPELL_TELEPORT_PEDIA</Help> 
+            <PromotionPrereq1>PROMOTION_CAST_TELEPORT</PromotionPrereq1>
+            <bGlobal>0</bGlobal>
+            <bIsTileSelect>1</bIsTileSelect>
+            <bIsUnitSelect>1</bIsUnitSelect>
+            <iSpellDistance>0</iSpellDistance>
+            <bRequiresLOS>1</bRequiresLOS>
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+            <bHasCasted>1</bHasCasted>
+            <PyResult>spellTeleport(pCaster, pPlot, pTarget)</PyResult>
+            <PyRequirement>reqTeleport(pCaster, pPlot, pTarget)</PyRequirement>
+            <Effect>EFFECT_VITALIZE</Effect>
+            <Sound>AS3D_SPELL_SANCTIFY</Sound>
+            <Button>Art/Interface/Buttons/Promotions/Twincast.dds</Button>
+        </SpellInfo>
+        <SpellInfo>
+            <Type>SPELL_ENCHANT_SPELLSTAFF</Type>
+            <Description>TXT_KEY_SPELL_SPELLSTAFF</Description>
+            <Help>TXT_KEY_SPELL_SPELLSTAFF_PEDIA</Help> 
+            <PromotionPrereq1>PROMOTION_ENCHANT_SPELLSTAFF</PromotionPrereq1>
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+            <bHasCasted>1</bHasCasted>
+            <AddPromotionType1>PROMOTION_SPELLSTAFF</AddPromotionType1>
+            <bBuffCasterOnly>1</bBuffCasterOnly>
+            <Effect>EFFECT_SWORDS_SPARKS</Effect>
+            <Sound>AS3D_SPELL_ENCHANTMENT</Sound>
+            <Button>Art/Interface/Buttons/Promotions/Spellstaff.dds</Button>
+        </SpellInfo>     TXT_KEY_SPELL_ENCHANT_SPELLSTAFF   
+        <SpellInfo>
+            <Type>SPELL_SPELLSTAFF</Type>
+            <Description>TXT_KEY_SPELL_ENCHANT_SPELLSTAFF</Description>
+            <PromotionPrereq1>PROMOTION_SPELLSTAFF</PromotionPrereq1>
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+            <bIgnoreHasCasted>1</bIgnoreHasCasted>
+            <RemovePromotionType1>PROMOTION_SPELLSTAFF</RemovePromotionType1>
+            <bBuffCasterOnly>1</bBuffCasterOnly>
+            <bRemoveHasCasted>1</bRemoveHasCasted>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS3D_SPELL_ENCHANTMENT</Sound>
+            <Button>Art/Interface/Buttons/Promotions/Spellstaff.dds</Button>
+        </SpellInfo> 
+        
+        <SpellInfo>
+            <Type>SPELL_CAST_BESERK</Type>
+            <Description>TXT_KEY_SPELL_CAST_BESERK</Description>
+            <Help>TXT_KEY_SPELL_CAST_BESERK_PEDIA</Help> 
+            <PromotionPrereq1>PROMOTION_CAST_BESERK</PromotionPrereq1>
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+            <bHasCasted>1</bHasCasted>
+            <AddPromotionType1>PROMOTION_BESERK</AddPromotionType1>
+            <AddPromotionType2>PROMOTION_BESERK_RECOVER</AddPromotionType2>
+            <!--RemovePromotionType1>PROMOTION_CAST_BESERK</RemovePromotionType1-->
+            <bBuffCasterOnly>1</bBuffCasterOnly>
+            <iCooldown>7</iCooldown>
+            <!--PyResult>spellBeserk(pCaster)</PyResult-->
+            <Effect>EFFECT_SWORDS_SPARKS</Effect>
+            <Sound>AS3D_SPELL_ENCHANTMENT</Sound>
+            <Button>Art/Interface/Buttons/Promotions/CrownofBrillance.dds</Button>
+        </SpellInfo>     
+
+        
+           
+               
+                
+                
+        <SpellInfo>
+            <Type>SPELL_BLOOM</Type>
+            <Description>TXT_KEY_SPELL_BLOOM</Description>
+            <PromotionPrereq1>PROMOTION_CAST_BLOOM</PromotionPrereq1>
+            <bGlobal>0</bGlobal>
+            <bIsTileSelect>1</bIsTileSelect>
+            <bIsUnitSelect>0</bIsUnitSelect>
+            <iSpellDistance>0</iSpellDistance>
+            <bRequiresLOS>1</bRequiresLOS>
+            <bAllowAI>1</bAllowAI>
+            <bAllowAutomateTerrain>1</bAllowAutomateTerrain>
+            <bInBordersOnly>0</bInBordersOnly>
+            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+            <bHasCasted>1</bHasCasted>
+            <CreateFeatureType>FEATURE_FOREST</CreateFeatureType>
+            <iDelay>2</iDelay>
+            <Effect>EFFECT_BLOOM</Effect>
+            <Sound>AS3D_SPELL_BLOOM</Sound>
+            <Button>Art/Interface/Buttons/Spells/Bloom.dds</Button>
+        </SpellInfo>
+        <SpellInfo>
+            <Type>SPELL_TREETOP_DEFENCE</Type>
+            <Description>TXT_KEY_SPELL_TREETOP_DEFENCE</Description>
+            <Help>TXT_KEY_SPELL_TREETOP_DEFENCE_PEDIA</Help> 
+            <PromotionPrereq1>PROMOTION_CAST_TREETOP_DEFENCE</PromotionPrereq1>
+            <FeatureOrPrereq1>FEATURE_FOREST</FeatureOrPrereq1>
+            <bGlobal>0</bGlobal>
+            <bIsTileSelect>1</bIsTileSelect>
+            <bIsUnitSelect>0</bIsUnitSelect>
+            <iSpellDistance>0</iSpellDistance>
+            <bRequiresLOS>1</bRequiresLOS>
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+            <bHasCasted>1</bHasCasted>
+            <PyResult>spellTreetopDefence(pCaster)</PyResult>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS3D_SPELL_SANCTIFY</Sound>
+            <Button>Art/Interface/Buttons/Spells/Treetopdefence.dds</Button>
+        </SpellInfo>
+		<SpellInfo>
+            <Type>SPELL_TERRAFORM</Type>
+            <Description>TXT_KEY_SPELL_TERRAFORM</Description>
+            <Help>TXT_KEY_SPELL_TERRAFORM_PEDIA</Help> 
+            <PromotionPrereq1>PROMOTION_CAST_TERRAFORM</PromotionPrereq1>
+            <bGlobal>0</bGlobal>
+            <bIsTileSelect>1</bIsTileSelect>
+            <bIsUnitSelect>0</bIsUnitSelect>
+            <iSpellDistance>0</iSpellDistance>
+            <bRequiresLOS>1</bRequiresLOS>
+            <bAllowAI>1</bAllowAI>
+            <bAllowAutomateTerrain>1</bAllowAutomateTerrain>
+            <iAIWeight>10</iAIWeight>
+            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+            <bHasCasted>1</bHasCasted>
+            <iDelay>3</iDelay>
+            <PyResult>spellTerraform(pCaster)</PyResult>
+            <PyRequirement>reqTerraform(pCaster)</PyRequirement>
+            <Effect>EFFECT_VITALIZE</Effect>
+            <Sound>AS3D_SPELL_SANCTIFY</Sound>
+            <Button>Art/Interface/Buttons/Promotions/Terraform.dds</Button>
+        </SpellInfo> 
+        <SpellInfo>
+            <Type>SPELL_DISPEL</Type>
+            <Description>TXT_KEY_SPELL_DISPEL</Description>
+            <Help>TXT_KEY_SPELL_DISPEL_PEDIA</Help> 
+            <PromotionPrereq1>PROMOTION_CAST_DISPEL</PromotionPrereq1>
+            <bGlobal>0</bGlobal>
+            <bIsTileSelect>1</bIsTileSelect>
+            <bIsUnitSelect>0</bIsUnitSelect>
+            <iSpellDistance>1</iSpellDistance>
+            <bRequiresLOS>1</bRequiresLOS>
+            <bAllowAI>1</bAllowAI>
+            <bCausesWar>1</bCausesWar>
+            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+            <bHasCasted>1</bHasCasted>
+            <bDispel>1</bDispel>
+            <iRange>0</iRange>
+            <Effect>EFFECT_SNOWFALL</Effect>
+            <Sound>AS3D_SPELL_EARTHQUAKE</Sound>
+            <Button>Art/Interface/Buttons/Spells/DispelMagic.dds</Button>
+        </SpellInfo>
+         <SpellInfo>
+            <Type>SPELL_SCORCH</Type>
+            <Description>TXT_KEY_SPELL_SCORCH</Description>
+            <Help>TXT_KEY_SPELL_SCORCH_PEDIA</Help> 
+            <PromotionPrereq1>PROMOTION_CAST_SCORCH</PromotionPrereq1>
+            <bGlobal>0</bGlobal>
+            <bIsTileSelect>1</bIsTileSelect>
+            <bIsUnitSelect>0</bIsUnitSelect>
+            <iSpellDistance>0</iSpellDistance>
+            <bRequiresLOS>1</bRequiresLOS>            
+            <bAllowAI>1</bAllowAI>
+            <bAllowAutomateTerrain>1</bAllowAutomateTerrain>
+            <bCausesWar>1</bCausesWar>
+            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+            <bHasCasted>1</bHasCasted>
+            <PyResult>spellScorch(pCaster, pPlot)</PyResult>
+            <PyRequirement>reqScorch(pCaster)</PyRequirement>
+            <Effect>EFFECT_SCORCH</Effect>
+            <Sound>AS3D_SPELL_DEFILE</Sound>
+            <Button>Art/Interface/Buttons/Spells/Scorch.dds</Button>
+        </SpellInfo>
+        <SpellInfo>
+            <Type>SPELL_BLINDING_LIGHT</Type>
+            <Description>TXT_KEY_SPELL_BLINDING_LIGHT</Description> 
+            <PromotionPrereq1>PROMOTION_CAST_BLINDING_LIGHT</PromotionPrereq1>
+            <bGlobal>0</bGlobal>
+            <bIsTileSelect>1</bIsTileSelect>
+            <bIsUnitSelect>1</bIsUnitSelect>
+            <iSpellDistance>1</iSpellDistance>
+            <bRequiresLOS>1</bRequiresLOS> 
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+            <bHasCasted>1</bHasCasted>
+            <bResistable>0</bResistable>
+            <iRange>0</iRange>
+            <bImmuneTeam>1</bImmuneTeam>
+            <bImmuneNeutral>1</bImmuneNeutral>
+            <iImmobileTurns>2</iImmobileTurns>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS3D_SPELL_CHARM_PERSON</Sound>
+            <Button>Art/Interface/Buttons/Spells/BlindingLight.dds</Button>
+        </SpellInfo>
+        <SpellInfo>
+            <Type>SPELL_FIREBALL</Type>
+            <Description>TXT_KEY_SPELL_FIREBALL</Description>   
+            <PromotionPrereq1>PROMOTION_CAST_FIREBALL</PromotionPrereq1>
+            <bGlobal>0</bGlobal>
+            <bIsTileSelect>1</bIsTileSelect>
+            <bIsUnitSelect>1</bIsUnitSelect>
+            <iSpellDistance>1</iSpellDistance>
+            <bRequiresLOS>1</bRequiresLOS>  
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+            <bHasCasted>1</bHasCasted>
+            <iRange>0</iRange>
+            <iDamage>5</iDamage>
+            <iDamageLimit>30</iDamageLimit>
+            <DamageType>DAMAGE_FIRE</DamageType>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS3D_SPELL_FIREBALL</Sound>
+            <Button>Art/Interface/Buttons/Units/Fireball.dds</Button>
+        </SpellInfo>
+        <SpellInfo>
+            <Type>SPELL_GREATER_FIREBALL</Type>
+            <Description>TXT_KEY_SPELL_GREATER_FIREBALL</Description>
+            <PromotionPrereq1>PROMOTION_CAST_GREATER_FIREBALL</PromotionPrereq1>
+            <bGlobal>0</bGlobal>
+            <bIsTileSelect>1</bIsTileSelect>
+            <bIsUnitSelect>1</bIsUnitSelect>
+            <iSpellDistance>2</iSpellDistance>
+            <bRequiresLOS>1</bRequiresLOS>  
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+            <bHasCasted>1</bHasCasted>
+            <iRange>0</iRange>
+            <iDamage>10</iDamage>
+            <iDamageLimit>40</iDamageLimit>
+            <DamageType>DAMAGE_FIRE</DamageType>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS3D_SPELL_FIREBALL</Sound>
+            <Button>Art/Interface/Buttons/Units/Fireball.dds</Button>
+        </SpellInfo>
+        <SpellInfo>
+            <Type>SPELL_METEOR</Type>
+            <Description>TXT_KEY_SPELL_METEOR</Description>
+            <PromotionPrereq1>PROMOTION_CAST_METEOR</PromotionPrereq1>
+            <bGlobal>0</bGlobal>
+            <bIsTileSelect>1</bIsTileSelect>
+            <bIsUnitSelect>1</bIsUnitSelect>
+            <iSpellDistance>2</iSpellDistance>
+            <bRequiresLOS>1</bRequiresLOS>  
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+            <bHasCasted>1</bHasCasted>
+            <iRange>0</iRange>
+            <iDamage>15</iDamage>
+            <iDamageLimit>50</iDamageLimit>
+            <DamageType>DAMAGE_FIRE</DamageType>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS3D_SPELL_FIREBALL</Sound>
+            <Button>Art/Interface/Buttons/Units/Fireball.dds</Button>
+        </SpellInfo>
+        <SpellInfo>
+            <Type>SPELL_VITALIZE</Type>
+            <Description>TXT_KEY_SPELL_VITALIZE</Description>
+            <Help>TXT_KEY_SPELL_VITALIZE_PEDIA</Help> 
+            <Civilopedia></Civilopedia>
+            <PromotionPrereq1>PROMOTION_CAST_VITALIZE</PromotionPrereq1>
+            <bGlobal>0</bGlobal>
+            <bIsTileSelect>1</bIsTileSelect>
+            <bIsUnitSelect>0</bIsUnitSelect>
+            <iSpellDistance>0</iSpellDistance>
+            <bRequiresLOS>1</bRequiresLOS>
+            <bAllowAI>1</bAllowAI>
+            <bAllowAutomateTerrain>1</bAllowAutomateTerrain>
+            <iAIWeight>50</iAIWeight>
+            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+            <bHasCasted>1</bHasCasted>
+            <PyResult>spellVitalize(pCaster)</PyResult>
+            <PyRequirement>reqVitalize(pCaster)</PyRequirement>
+            <Effect>EFFECT_VITALIZE</Effect>
+            <Sound>AS3D_SPELL_SANCTIFY</Sound>
+            <Button>Art/Interface/Buttons/Spells/Vitalize.dds</Button>
+        </SpellInfo>
+        <SpellInfo>
+            <Type>SPELL_WEAK</Type>
+            <Description>TXT_KEY_SPELL_WEAK</Description>
+            <Help>TXT_KEY_SPELL_WEAK_PEDIA</Help> 
+            <Civilopedia></Civilopedia>
+            <PromotionPrereq1>PROMOTION_CAST_WEAK</PromotionPrereq1>
+            <bGlobal>0</bGlobal>
+            <bIsTileSelect>1</bIsTileSelect>
+            <bIsUnitSelect>0</bIsUnitSelect>
+            <iSpellDistance>1</iSpellDistance>
+            <bRequiresLOS>1</bRequiresLOS>
+            <bAllowAI>1</bAllowAI>
+            <iAIWeightWar>50</iAIWeightWar>
+            <bImmuneTeam>0</bImmuneTeam>
+            <bCausesWar>1</bCausesWar>
+            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+            <bHasCasted>1</bHasCasted>
+            <iRange>0</iRange>
+            <iDamage>0</iDamage>
+            <iDamageLimit>0</iDamageLimit>
+<!--        <PyResult>spellGiveGrowth(pCaster, pPlot, 'PROMOTION_GROWTH1')</PyResult>       --> 
+            <AddPromotionType1>PROMOTION_WEAK</AddPromotionType1>
+            <Effect>EFFECT_CREATION</Effect>
+            <Sound>AS3D_SPELL_WATER</Sound>
+            <Button>Art/Interface/Buttons/Promotions/Weak.dds</Button>
+        </SpellInfo>
+        <SpellInfo>
+            <Type>SPELL_BANISH</Type>
+            <Description>TXT_KEY_SPELL_BANISH</Description>
+            <Help>TXT_KEY_SPELL_BANISH_PEDIA</Help> 
+            <Civilopedia></Civilopedia>
+            <PromotionPrereq1>PROMOTION_CAST_BANISH</PromotionPrereq1>
+            <bGlobal>0</bGlobal>
+            <bIsTileSelect>1</bIsTileSelect>
+            <bIsUnitSelect>1</bIsUnitSelect>
+            <iSpellDistance>1</iSpellDistance>
+            <bRequiresLOS>1</bRequiresLOS>
+            <bAllowAI>1</bAllowAI>
+            <iAIWeightWar>50</iAIWeightWar>
+            <bImmuneTeam>0</bImmuneTeam>
+            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+            <bHasCasted>1</bHasCasted>
+            <bBuffCasterOnly>0</bBuffCasterOnly>
+            <PyResult>spellBanish(pCaster, pPlot, pTarget)</PyResult>
+            <PyRequirement>reqBanish(pCaster, pPlot, pTarget)</PyRequirement>
+            <Effect>EFFECT_CREATION</Effect>
+            <Sound>AS3D_SPELL_WATER</Sound>
+            <Button>Art/Interface/Buttons/Promotions/Summoner.dds</Button>
+        </SpellInfo>       
+ <!--      
+		<SpellInfo>
+            <Type>SPELL_GAIN_XP</Type>
+            <Description>TXT_KEY_PROMOTION_GAIN_XP</Description>
+            <Help>TXT_KEY_PROMOTION_GAIN_XP_PEDIA</Help>
+            <TechPrereq>NONE</TechPrereq>
+            <bAllowAI>1</bAllowAI>
+            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+            <bInBordersOnly>1</bInBordersOnly>
+            <bInCityOnly>1</bInCityOnly>
+            <bHasCasted>0</bHasCasted>
+            <iCost>0</iCost>
+            <PyRequirement>reqGainXP(pCaster)</PyRequirement>
+            <PyResult>spellGainXP(pCaster)</PyResult>
+            <Effect>EFFECT_SPELL1</Effect>
+            <Sound>AS2D_REPAIR</Sound>
+            <bGraphicalOnly>0</bGraphicalOnly>
+            <Button>Art/Interface/Buttons/Promotions/levelup.dds</Button>
+        </SpellInfo>     
+-->  
+        <SpellInfo>
+            <Type>SPELL_STEAL_TREASURY</Type>
+            <Description>TXT_KEY_SPELL_STEAL_TREASURY</Description>      
+            <Help>TXT_KEY_SPELL_STEAL_TREASURY_PEDIA</Help>  
+            <PromotionPrereq1>PROMOTION_CAST_STEAL_TREASURY</PromotionPrereq1>
+            <bGlobal>0</bGlobal>
+            <bIsTileSelect>1</bIsTileSelect>
+            <bIsUnitSelect>0</bIsUnitSelect>
+            <iSpellDistance>0</iSpellDistance>
+            <bRequiresLOS>1</bRequiresLOS> 
+            <bAllowAI>1</bAllowAI>
+            <bCausesWar>1</bCausesWar>
+            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+            <bHasCasted>1</bHasCasted>
+            <iRange>0</iRange>
+            <iDamage>0</iDamage>
+            <iDamageLimit>0</iDamageLimit>
+            <DamageType>DAMAGE_FIRE</DamageType>
+            <PyResult>spellStealTreasury(pCaster)</PyResult>
+            <!--Effect>EFFECT_RING_OF_FLAMES</Effect-->
+            <!--Sound>AS2D_BUILD_BANK</Sound-->
+            <Button>Art/Interface/Buttons/Spells/thief.dds</Button>
+        </SpellInfo>
+         
+        <SpellInfo>
+            <Type>SPELL_FLAG_RALLY</Type>
+            <Description>TXT_KEY_SPELL_FLAG_RALLY</Description>        
+            <Help>TXT_KEY_SPELL_FLAG_RALLY_PEDIA</Help>  
+            <PromotionPrereq1>PROMOTION_CAST_FLAG_BEARER_RALLY</PromotionPrereq1>
+            <bGlobal>0</bGlobal>
+            <bIsTileSelect>1</bIsTileSelect>
+            <bIsUnitSelect>0</bIsUnitSelect>
+            <iSpellDistance>0</iSpellDistance>
+            <bRequiresLOS>1</bRequiresLOS> 
+            <bAllowAI>1</bAllowAI>
+            <bCausesWar>1</bCausesWar>
+            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+            <bHasCasted>1</bHasCasted>
+            <iRange>0</iRange>
+            <iDamage>0</iDamage>
+            <iDamageLimit>0</iDamageLimit>
+            <DamageType>DAMAGE_FIRE</DamageType>
+            <PyResult>spellGiveMorale(pCaster, pPlot, 'PROMOTION_FLAG_BEARER_MORALE')</PyResult>
+            <Effect>EFFECT_SPELL1</Effect>
+            <!--Sound>AS2D_BUILD_BANK</Sound-->
+            <Button>Art/Interface/Buttons/Promotions/Morale.dds</Button>
+        </SpellInfo>         
+         
+        <SpellInfo>
+            <Type>SPELL_GROWTH1</Type>
+            <Description>TXT_KEY_SPELL_GROWTH1</Description>
+            <Help>TXT_KEY_SPELL_GROWTH1_PEDIA</Help> 
+            <PromotionPrereq1>PROMOTION_CAST_GROWTH1</PromotionPrereq1>
+            <bGlobal>0</bGlobal>
+            <bIsTileSelect>1</bIsTileSelect>
+            <bIsUnitSelect>0</bIsUnitSelect>
+            <iSpellDistance>0</iSpellDistance>
+            <bRequiresLOS>1</bRequiresLOS> 
+            <bAllowAI>1</bAllowAI>
+            <bCausesWar>1</bCausesWar>
+            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+            <bHasCasted>1</bHasCasted>
+            <iRange>0</iRange>
+            <iDamage>0</iDamage>
+            <iDamageLimit>0</iDamageLimit>
+            <DamageType>DAMAGE_FIRE</DamageType>
+            <PyResult>spellGiveGrowth(pCaster, pPlot, 'PROMOTION_GROWTH1')</PyResult>
+            <Effect>EFFECT_SPELL1</Effect>
+            <!--Sound>AS2D_BUILD_BANK</Sound-->
+            <Button>Art/Interface/Buttons/Spells/Growth1.dds</Button>
+        </SpellInfo> 
+        
+        <SpellInfo>
+            <Type>SPELL_GROWTH2</Type>
+            <Description>TXT_KEY_SPELL_GROWTH2</Description>
+            <Help>TXT_KEY_SPELL_GROWTH2_PEDIA</Help> 
+            <PromotionPrereq1>PROMOTION_CAST_GROWTH2</PromotionPrereq1>
+            <bGlobal>0</bGlobal>
+            <bIsTileSelect>1</bIsTileSelect>
+            <bIsUnitSelect>0</bIsUnitSelect>
+            <iSpellDistance>0</iSpellDistance>
+            <bRequiresLOS>1</bRequiresLOS> 
+            <bAllowAI>1</bAllowAI>
+            <bCausesWar>1</bCausesWar>
+            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+            <bHasCasted>1</bHasCasted>
+            <iRange>0</iRange>
+            <iDamage>0</iDamage>
+            <iDamageLimit>0</iDamageLimit>
+            <DamageType>DAMAGE_FIRE</DamageType>
+            <PyResult>spellGiveGrowth(pCaster, pPlot, 'PROMOTION_GROWTH2')</PyResult>
+            <Effect>EFFECT_SPELL1</Effect>
+            <!--Sound>AS2D_BUILD_BANK</Sound-->
+            <Button>Art/Interface/Buttons/Spells/Growth2.dds</Button>
+        </SpellInfo> 
+         
+        <SpellInfo>
+            <Type>SPELL_GROWTH3</Type>
+            <Description>TXT_KEY_SPELL_GROWTH3</Description>
+            <Help>TXT_KEY_SPELL_GROWTH3_PEDIA</Help> 
+            <PromotionPrereq1>PROMOTION_CAST_GROWTH3</PromotionPrereq1>
+            <bGlobal>0</bGlobal>
+            <bIsTileSelect>1</bIsTileSelect>
+            <bIsUnitSelect>0</bIsUnitSelect>
+            <iSpellDistance>0</iSpellDistance>
+            <bRequiresLOS>1</bRequiresLOS> 
+            <bAllowAI>1</bAllowAI>
+            <bCausesWar>1</bCausesWar>
+            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+            <bHasCasted>1</bHasCasted>
+            <iRange>0</iRange>
+            <iDamage>0</iDamage>
+            <iDamageLimit>0</iDamageLimit>
+            <DamageType>DAMAGE_FIRE</DamageType>
+            <PyResult>spellGiveGrowth(pCaster, pPlot, 'PROMOTION_GROWTH3')</PyResult>
+            <Effect>EFFECT_SPELL1</Effect>
+            <!--Sound>AS2D_BUILD_BANK</Sound-->
+            <Button>Art/Interface/Buttons/Spells/Growth3.dds</Button>
+        </SpellInfo>          
+         
+         
+         <SpellInfo>
+            <Type>SPELL_SUMMON_DRAGON</Type>
+            <Description>TXT_KEY_SPELL_SUMMON_DRAGON</Description>
+            <Help>TXT_KEY_SPELL_SUMMON_DRAGON_PEDIA</Help> 
+            <PromotionPrereq1>PROMOTION_CAST_SUMMON_DRAGON</PromotionPrereq1>
+            <bGlobal>0</bGlobal>
+            <bIsTileSelect>1</bIsTileSelect>
+            <bIsUnitSelect>0</bIsUnitSelect>
+            <iSpellDistance>0</iSpellDistance>
+            <bRequiresLOS>1</bRequiresLOS> 
+            <bAllowAI>1</bAllowAI>
+            <bCausesWar>1</bCausesWar>
+            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+            <bHasCasted>1</bHasCasted>
+            <CreateUnitType>UNIT_DRAGON</CreateUnitType>
+            <iCreateUnitNum>1</iCreateUnitNum>
+            <bPermanentUnitCreate>1</bPermanentUnitCreate>
+            <AddPromotionType1>PROMOTION_DRAGON_RECOVER</AddPromotionType1>
+            <bBuffCasterOnly>1</bBuffCasterOnly>
+            <iCooldown>15</iCooldown>
+            <Effect>EFFECT_SPELL1</Effect>
+            <!--Sound>AS2D_BUILD_BANK</Sound-->
+            <Button>Art/Interface/Buttons/Units/Acheron.dds</Button>
+        </SpellInfo>  
+         
+    </SpellInfos>
+</Civ4SpellInfos>

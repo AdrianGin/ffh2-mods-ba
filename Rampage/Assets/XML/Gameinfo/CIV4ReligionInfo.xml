@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Mark Cromer (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Religion -->
+<Civ4ReligionInfo xmlns="x-schema:CIV4GameInfoSchema.xml">
+	<ReligionInfos>
+		<ReligionInfo>
+			<Type>RELIGION_PENIS</Type>
+			<Description>NONE</Description>
+			<Adjective>NONE</Adjective>
+			<Civilopedia>NONE</Civilopedia>
+			<TechPrereq>NONE</TechPrereq>
+			<FreeUnitClass>NONE</FreeUnitClass>
+			<iFreeUnits>0</iFreeUnits>
+			<iSpreadFactor>100</iSpreadFactor>
+			<GlobalReligionCommerces>
+				<iGlobalReligionCommerce>1</iGlobalReligionCommerce>
+				<iGlobalReligionCommerce>0</iGlobalReligionCommerce>
+				<iGlobalReligionCommerce>0</iGlobalReligionCommerce>
+			</GlobalReligionCommerces>
+			<HolyCityCommerces>
+				<iHolyCityCommerce>0</iHolyCityCommerce>
+				<iHolyCityCommerce>0</iHolyCityCommerce>
+				<iHolyCityCommerce>4</iHolyCityCommerce>
+			</HolyCityCommerces>
+			<StateReligionCommerces>
+				<iStateReligionCommerce>0</iStateReligionCommerce>
+				<iStateReligionCommerce>0</iStateReligionCommerce>
+				<iStateReligionCommerce>1</iStateReligionCommerce>
+			</StateReligionCommerces>
+			<Button>Art/Interface/Buttons/Religions/Fellowship.dds</Button>
+			<TechButton>Art/Interface/Buttons/Religions/Fellowship.dds</TechButton>
+			<GenericTechButton>Art/Interface/Buttons/Religions/Fellowship.dds</GenericTechButton>
+			<MovieFile>Art/Movies/Religion/Judaism/Jud_Found.nif</MovieFile>
+			<MovieSound>AS2D_LEAVES_THEME</MovieSound>
+			<Sound>AS2D_LEAVES_DINK</Sound>
+			<bHidden>0</bHidden>
+			<bSneakAttack>0</bSneakAttack>
+			<bUpdateSight>0</bUpdateSight>
+			<iGlobalCounterFound>0</iGlobalCounterFound>
+			<iGlobalCounterSpread>0</iGlobalCounterSpread>
+			<Alignment>NONE</Alignment>
+			<AlignmentBest>NONE</AlignmentBest>
+			<AlignmentWorst>NONE</AlignmentWorst>
+			<ReligionHero1>NONE</ReligionHero1>
+			<ReligionHero2>NONE</ReligionHero2>
+			<ReligionTech1>NONE</ReligionTech1>
+			<ReligionTech2>NONE</ReligionTech2>			
+		</ReligionInfo>
+	</ReligionInfos>
+</Civ4ReligionInfo>
