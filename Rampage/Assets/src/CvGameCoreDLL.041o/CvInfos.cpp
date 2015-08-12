@@ -5238,6 +5238,17 @@ int CvUnitInfo::getCombatLimit() const
 	return m_iCombatLimit;
 }
 
+int CvUnitInfo::getMaxHitPoints() const
+{
+	return m_iMaxHitPoints;
+}
+
+int CvUnitInfo::getDexterity() const
+{
+	return m_iDexterity;
+}
+
+
 int CvUnitInfo::getAirCombat() const
 {
 	return m_iAirCombat;
@@ -7250,6 +7261,10 @@ bool CvUnitInfo::read(CvXMLLoadUtility* pXML)
 
 	pXML->GetChildXmlValByName(&m_iCombat, "iCombat");
 	pXML->GetChildXmlValByName(&m_iCombatLimit, "iCombatLimit");
+
+	pXML->GetChildXmlValByName(&m_iMaxHitPoints, "iMaxHitPoints");
+	pXML->GetChildXmlValByName(&m_iDexterity, "iDexterity");
+
 	pXML->GetChildXmlValByName(&m_iAirCombat, "iAirCombat");
 	pXML->GetChildXmlValByName(&m_iAirCombatLimit, "iAirCombatLimit");
 	pXML->GetChildXmlValByName(&m_iXPValueAttack, "iXPValueAttack");

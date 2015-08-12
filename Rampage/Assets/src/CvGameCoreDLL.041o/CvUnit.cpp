@@ -9343,7 +9343,8 @@ bool CvUnit::isCombat() const
 
 int CvUnit::maxHitPoints() const
 {
-	return GC.getMAX_HIT_POINTS();
+	return m_pUnitInfo->getMaxHitPoints();
+	//return GC.getMAX_HIT_POINTS();
 }
 
 
@@ -9393,6 +9394,9 @@ void CvUnit::setBaseCombatStrDefense(int iCombat)
 
 int CvUnit::baseCombatStrDefense() const
 {
+
+	return baseCombatStr();
+
     int iStr = m_iBaseCombatDefense + m_iTotalDamageTypeCombat;
     if (iStr < 0)
     {
@@ -9992,7 +9996,8 @@ int CvUnit::maxCombatStr(const CvPlot* pPlot, const CvUnit* pAttacker, CombatDet
 /**** Dexy - Surround and Destroy START ****/
 int CvUnit::currCombatStr(const CvPlot* pPlot, const CvUnit* pAttacker, CombatDetails* pCombatDetails, bool bSurroundedModifier) const
 {
-	return ((maxCombatStr(pPlot, pAttacker, pCombatDetails, bSurroundedModifier) * currHitPoints()) / maxHitPoints());
+	//return ((maxCombatStr(pPlot, pAttacker, pCombatDetails, bSurroundedModifier) * currHitPoints()) / maxHitPoints());
+	return maxCombatStr(pPlot, pAttacker, pCombatDetails, bSurroundedModifier);
 }
 // OLD CODE
 // int CvUnit::currCombatStr(const CvPlot* pPlot, const CvUnit* pAttacker, CombatDetails* pCombatDetails) const
@@ -19305,7 +19310,11 @@ void CvUnit::getDefenderCombatValues(CvUnit& kDefender, const CvPlot* pPlot, int
 	FAssert((iOurStrength + iTheirStrength) > 0);
 	FAssert((iOurFirepower + iTheirFirepower) > 0);
 
-	iTheirOdds = ((GC.getDefineINT("COMBAT_DIE_SIDES") * iTheirStrength) / (iOurStrength + iTheirStrength));
+	int iOurDexterity = m_pUnitInfo->getDexterity();
+	int iTheirDexterity = kDefender.m_pUnitInfo->getDexterity();
+
+	//iTheirOdds = ((GC.getDefineINT("COMBAT_DIE_SIDES") * iTheirStrength) / (iOurStrength + iTheirStrength));
+	iTheirOdds = ((GC.getDefineINT("COMBAT_DIE_SIDES") * iTheirDexterity) / (iOurDexterity + iTheirDexterity));
 
 	if (kDefender.isBarbarian())
 	{
@@ -19324,8 +19333,12 @@ void CvUnit::getDefenderCombatValues(CvUnit& kDefender, const CvPlot* pPlot, int
 
 	int iStrengthFactor = ((iOurFirepower + iTheirFirepower + 1) / 2);
 
-	iOurDamage = std::max(1, ((GC.getDefineINT("COMBAT_DAMAGE") * (iTheirFirepower + iStrengthFactor)) / (iOurFirepower + iStrengthFactor)));
-	iTheirDamage = std::max(1, ((GC.getDefineINT("COMBAT_DAMAGE") * (iOurFirepower + iStrengthFactor)) / (iTheirFirepower + iStrengthFactor)));
+	//iOurDamage = std::max(1, ((GC.getDefineINT("COMBAT_DAMAGE") * (iTheirFirepower + iStrengthFactor)) / (iOurFirepower + iStrengthFactor)));
+	//iTheirDamage = std::max(1, ((GC.getDefineINT("COMBAT_DAMAGE") * (iOurFirepower + iStrengthFactor)) / (iTheirFirepower + iStrengthFactor)));
+
+	iOurDamage = iTheirStrength / 100;
+	iTheirDamage = iOurStrength / 100;
+
 }
 
 int CvUnit::getTriggerValue(EventTriggerTypes eTrigger, const CvPlot* pPlot, bool bCheckPlot) const

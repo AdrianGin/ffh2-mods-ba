@@ -1233,6 +1233,8 @@ public:
 	int getCombat() const;				// Exposed to Python
 	void setCombat(int iNum);				// Exposed to Python
 	int getCombatLimit() const;				// Exposed to Python
+	int getMaxHitPoints() const;				// Exposed to Python
+	int getDexterity() const;				// Exposed to Python
 	int getAirCombat() const;				// Exposed to Python
 	int getAirCombatLimit() const;				// Exposed to Python
 	int getXPValueAttack() const;				// Exposed to Python
@@ -1495,6 +1497,8 @@ protected:
 	int m_iEspionagePoints;
 	int m_iCombat;
 	int m_iCombatLimit;
+	int m_iMaxHitPoints;
+	int m_iDexterity;
 	int m_iAirCombat;
 	int m_iAirCombatLimit;
 	int m_iXPValueAttack;

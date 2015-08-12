@@ -348,6 +348,8 @@
   </ElementType>
   <ElementType name="iCombat" content="textOnly" dt:type="int" />
   <ElementType name="iCombatLimit" content="textOnly" dt:type="int" />
+  <ElementType name="iMaxHitPoints" content="textOnly" dt:type="int" />
+  <ElementType name="iDexterity" content="textOnly" dt:type="int" />
   <ElementType name="iAirCombat" content="textOnly" dt:type="int" />
   <ElementType name="iAirCombatLimit" content="textOnly" dt:type="int" />
   <ElementType name="iXPValueAttack" content="textOnly" dt:type="int" />

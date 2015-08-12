@@ -140,8 +140,10 @@
             </TerrainPassableTechs>
 			<FeaturePassableTechs>
             </FeaturePassableTechs>
-			<iCombat>75</iCombat>
+			<iCombat>10</iCombat>
 			<iCombatLimit>100</iCombatLimit>
+			<iMaxHitPoints>20</iMaxHitPoints>
+			<iDexterity>60</iDexterity>
 			<iAirCombat>0</iAirCombat>
 			<iAirCombatLimit>0</iAirCombatLimit>
 			<iXPValueAttack>8</iXPValueAttack>
@@ -215,7 +217,7 @@
             </FreePromotions>
 			<LeaderPromotion>NONE</LeaderPromotion>
 			<iLeaderExperience>0</iLeaderExperience>
-			<iCombatDefense>75</iCombatDefense>
+			<iCombatDefense>20</iCombatDefense>
 			<iTier>1</iTier>
 			<iWeaponTier>0</iWeaponTier>
 		</UnitInfo>
