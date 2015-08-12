@@ -1710,9 +1710,9 @@ void CvUnit::resolveCombat(CvUnit* pDefender, CvPlot* pPlot, CvBattleDefinition&
 
 				changeDamage(iAttackerDamage, pDefender->getOwnerINLINE());
 
-				szBuffer = gDLL->getText("TXT_KEY_MISC_YOU_UNIT_LOSE_ATTACKING", getNameKey(), combatLimit(), pDefender->getNameKey());
+				szBuffer = gDLL->getText("TXT_KEY_MISC_YOU_UNIT_LOSE_ATTACKING", getNameKey(), iAttackerDamage, pDefender->getNameKey());
 				gDLL->getInterfaceIFace()->addMessage(getOwnerINLINE(), true, GC.getEVENT_MESSAGE_TIME(), szBuffer, 0, MESSAGE_TYPE_INFO, NULL, (ColorTypes)GC.getInfoTypeForString("COLOR_RED"), pPlot->getX_INLINE(), pPlot->getY_INLINE());
-				szBuffer = gDLL->getText("TXT_KEY_MISC_YOU_UNIT_WIN_DEFENDING", pDefender->getNameKey(), combatLimit(), getNameKey(), getVisualCivAdjective(pDefender->getTeam()));
+				szBuffer = gDLL->getText("TXT_KEY_MISC_YOU_UNIT_WIN_DEFENDING", pDefender->getNameKey(), iAttackerDamage, getNameKey(), getVisualCivAdjective(pDefender->getTeam()));
 				gDLL->getInterfaceIFace()->addMessage(pDefender->getOwnerINLINE(), true, GC.getEVENT_MESSAGE_TIME(), szBuffer, 0, MESSAGE_TYPE_INFO, NULL, (ColorTypes)GC.getInfoTypeForString("COLOR_GREEN"), pPlot->getX_INLINE(), pPlot->getY_INLINE());
 
 
@@ -2015,7 +2015,7 @@ void CvUnit::updateCombat(bool bQuick)
 				CvWString szMessage;
 				if (BARBARIAN_PLAYER != eAttacker)
 				{
-					szMessage = gDLL->getText("TXT_KEY_MISC_YOU_UNITS_UNDER_ATTACK", GET_PLAYER(getOwnerINLINE()).getNameKey());
+					//szMessage = gDLL->getText("TXT_KEY_MISC_YOU_UNITS_UNDER_ATTACK", GET_PLAYER(getOwnerINLINE()).getNameKey());
 				}
 				else
 				{
