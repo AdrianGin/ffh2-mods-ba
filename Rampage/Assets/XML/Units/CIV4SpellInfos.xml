@@ -1169,33 +1169,7 @@
             <Effect>EFFECT_SPELL1</Effect>
             <!--Sound>AS2D_BUILD_BANK</Sound-->
             <Button>Art/Interface/Buttons/Spells/Growth3.dds</Button>
-        </SpellInfo>          
-         
-         
-         <SpellInfo>
-            <Type>SPELL_SUMMON_DRAGON</Type>
-            <Description>TXT_KEY_SPELL_SUMMON_DRAGON</Description>
-            <Help>TXT_KEY_SPELL_SUMMON_DRAGON_PEDIA</Help> 
-            <PromotionPrereq1>PROMOTION_CAST_SUMMON_DRAGON</PromotionPrereq1>
-            <bGlobal>0</bGlobal>
-            <bIsTileSelect>1</bIsTileSelect>
-            <bIsUnitSelect>0</bIsUnitSelect>
-            <iSpellDistance>0</iSpellDistance>
-            <bRequiresLOS>1</bRequiresLOS> 
-            <bAllowAI>1</bAllowAI>
-            <bCausesWar>1</bCausesWar>
-            <bDisplayWhenDisabled>1</bDisplayWhenDisabled>
-            <bHasCasted>1</bHasCasted>
-            <CreateUnitType>UNIT_DRAGON</CreateUnitType>
-            <iCreateUnitNum>1</iCreateUnitNum>
-            <bPermanentUnitCreate>1</bPermanentUnitCreate>
-            <AddPromotionType1>PROMOTION_DRAGON_RECOVER</AddPromotionType1>
-            <bBuffCasterOnly>1</bBuffCasterOnly>
-            <iCooldown>15</iCooldown>
-            <Effect>EFFECT_SPELL1</Effect>
-            <!--Sound>AS2D_BUILD_BANK</Sound-->
-            <Button>Art/Interface/Buttons/Units/Acheron.dds</Button>
-        </SpellInfo>  
+        </SpellInfo>      
          
     </SpellInfos>
 </Civ4SpellInfos>
