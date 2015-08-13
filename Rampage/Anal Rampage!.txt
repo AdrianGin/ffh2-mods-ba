@@ -1,0 +1,53 @@
+Combat Ideas - strategical advantages for playing well
+
+
+
+Units should deal damage to each other similtaneously?
+
+
+Max number of times a unit can deal damage in defence?
+- its a bit weird that a warrior could get lucky and deal 10 lots of damage in defence in the same turn
+- maybe limit to 1-3 so defender can be overwhelmed by lots of units
+
+or Unit fatigues with repeated defensive battles?
+-each battle reduces defenders chance to hit by 10%
+
+
+Unit HP affects combat hit chance but to a much lower degree than original?
+- maybe unit incurrs a  No penalty for 60 - 100% of max HP
+                       10% penalty for 30 - 60% of max HP 
+	               25% penalty for 0 - 30% of max HP
+- so only severely wounded unit loses performance
+
+
+Wounded unit loses movement point?
+- unit could lose -1 movement for HP <= 50% of max HP
+
+
+More abilities and/or spells that can hold units in place so you can out manouvre your opponent?
+
+
+Units that are large or special (elephant) that use up all the stack size but do something no other unit can do? 
+- maybe hits all units in stack
+- maybe 100% chance to hit
+- has a lot of HP to counteract it being a single unit
+- maybe has more upkeep as well
+- maybe buffs all units within range 1 (make unit positioning more important in battle)
+- normal unit uses 20cap, special uses 45cap. Flat terrain has 60cap max and featured terrain has 45cap mac.
+  terrain cap  45 60
+  units        20 20
+               20 20
+                  20
+                or
+  another?     30 20
+                  30
+              
+                  30
+	          30        
+                or
+  specials     45 45
+
+
+Surround bonus?
+-maybe only from rear
+-might complicate gameplay
