@@ -5248,6 +5248,16 @@ int CvUnitInfo::getDexterity() const
 	return m_iDexterity;
 }
 
+int CvUnitInfo::getAttackCount() const
+{
+	return m_iAttackCount;
+}
+
+int CvUnitInfo::getAttackCountVariance() const
+{
+	return m_iAttackCountVariance;
+}
+
 
 int CvUnitInfo::getAirCombat() const
 {
@@ -7264,6 +7274,9 @@ bool CvUnitInfo::read(CvXMLLoadUtility* pXML)
 
 	pXML->GetChildXmlValByName(&m_iMaxHitPoints, "iMaxHitPoints");
 	pXML->GetChildXmlValByName(&m_iDexterity, "iDexterity");
+
+	pXML->GetChildXmlValByName(&m_iAttackCount, "iAttackCount");
+	pXML->GetChildXmlValByName(&m_iAttackCountVariance, "iAttackCountVariance");
 
 	pXML->GetChildXmlValByName(&m_iAirCombat, "iAirCombat");
 	pXML->GetChildXmlValByName(&m_iAirCombatLimit, "iAirCombatLimit");
