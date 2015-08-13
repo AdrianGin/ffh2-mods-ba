@@ -143,10 +143,10 @@
 			<iCombat>10</iCombat>
 			<iCombatDefense>10</iCombatDefense>
 			<iCombatLimit>100</iCombatLimit>
-			<iMaxHitPoints>20</iMaxHitPoints>
-			<iDexterity>10</iDexterity>
-			<iAttackCount>5</iAttackCount>
-			<iAttackCountVariance>3</iAttackCountVariance>
+			<iMaxHitPoints>40</iMaxHitPoints>
+			<iDexterity>30</iDexterity>
+			<iAttackCount>2</iAttackCount>
+			<iAttackCountVariance>0</iAttackCountVariance>
 			<iAirCombat>0</iAirCombat>
 			<iAirCombatLimit>0</iAirCombatLimit>
 			<iXPValueAttack>0</iXPValueAttack>
@@ -356,11 +356,13 @@
             </TerrainPassableTechs>
 			<FeaturePassableTechs>
             </FeaturePassableTechs>
-			<iCombat>7</iCombat>
-			<iCombatDefense>7</iCombatDefense>
+			<iCombat>5</iCombat>
+			<iCombatDefense>5</iCombatDefense>
 			<iCombatLimit>100</iCombatLimit>
-			<iMaxHitPoints>15</iMaxHitPoints>
-			<iDexterity>20</iDexterity>
+			<iMaxHitPoints>30</iMaxHitPoints>
+			<iDexterity>50</iDexterity>
+			<iAttackCount>3</iAttackCount>
+			<iAttackCountVariance>0</iAttackCountVariance>
 			<iAirCombat>0</iAirCombat>
 			<iAirCombatLimit>0</iAirCombatLimit>
 			<iXPValueAttack>0</iXPValueAttack>
