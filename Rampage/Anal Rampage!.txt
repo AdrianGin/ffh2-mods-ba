@@ -1,27 +1,8 @@
-Combat Ideas - strategical advantages for playing well
+both attacker and defender fight each other
 
+max 2 defences in turn, no retaliation against 3rd attercker upwards
 
-
-Units should deal damage to each other similtaneously?
-
-
-Max number of times a unit can deal damage in defence?
-- its a bit weird that a warrior could get lucky and deal 10 lots of damage in defence in the same turn
-- maybe limit to 1-3 so defender can be overwhelmed by lots of units
-
-or Unit fatigues with repeated defensive battles?
--each battle reduces defenders chance to hit by 10%
-
-
-Unit HP affects combat hit chance but to a much lower degree than original?
-- maybe unit incurrs a  No penalty for 60 - 100% of max HP
-                       10% penalty for 30 - 60% of max HP 
-	               25% penalty for 0 - 30% of max HP
-- so only severely wounded unit loses performance
-
-
-Wounded unit loses movement point?
-- unit could lose -1 movement for HP <= 50% of max HP
+gradient lose to evasion from health damage   ( x constant )
 
 
 More abilities and/or spells that can hold units in place so you can out manouvre your opponent?

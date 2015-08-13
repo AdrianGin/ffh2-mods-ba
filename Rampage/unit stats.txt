@@ -1,0 +1,8 @@
+Unit Stats
+
+Attacks: 2-8       - number of attacks unit gets in combat
+Strength: 5        - damage each attack does
+Evasion: 20%        - chance to evade each attack
+Hit Points: 10      - how much damage a unit can take before dying
+
+
