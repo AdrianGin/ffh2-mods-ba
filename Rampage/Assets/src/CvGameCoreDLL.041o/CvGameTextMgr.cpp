@@ -2734,7 +2734,7 @@ bool CvGameTextMgr::setCombatPlotHelp(CvWStringBuffer &szString, CvPlot* pPlot)
 		{
 			if (pAttacker->getDomainType() != DOMAIN_AIR)
 			{
-				int iCombatOdds = getCombatOdds(pAttacker, pDefender);
+				int iCombatOdds = GC.getDefineINT("COMBAT_DIE_SIDES") - (pAttacker->getUnitInfo().getDexterity() * 10);
 
 				if (pAttacker->combatLimit() >= GC.getMAX_HIT_POINTS())
 				{
@@ -2750,9 +2750,30 @@ bool CvGameTextMgr::setCombatPlotHelp(CvWStringBuffer &szString, CvPlot* pPlot)
 					{
 						szTempBuffer.Format(L"%.1f", ((float)iCombatOdds) / 10.0f);
 					}
-					szString.append(gDLL->getText("TXT_KEY_COMBAT_PLOT_ODDS", szTempBuffer.GetCString()));
+					//szString.append(gDLL->getText("TXT_KEY_COMBAT_PLOT_ODDS", szTempBuffer.GetCString()));
+					szString.append(gDLL->getText("TXT_KEY_COLOR_POSITIVE"));
+					szString.append(gDLL->getText("TXT_KEY_COMBAT_PLOT_CHANCE_TO_HIT_ODDS", szTempBuffer.GetCString(), pAttacker->minCombatDamage(), pAttacker->maxCombatDamage() , pDefender->currHitPoints()));
+
+					szString.append(NEWLINE);
 				}
 
+				iCombatOdds = GC.getDefineINT("COMBAT_DIE_SIDES") - (pDefender->getUnitInfo().getDexterity() * 10);
+				if (iCombatOdds > 999)
+				{
+					szTempBuffer = L"&gt; 99.9";
+				}
+				else if (iCombatOdds < 1)
+				{
+					szTempBuffer = L"&lt; 0.1";
+				}
+				else
+				{
+					szTempBuffer.Format(L"%.1f", ((float)iCombatOdds) / 10.0f);
+				}
+				szString.append(gDLL->getText("TXT_KEY_COLOR_NEGATIVE"));
+				szString.append(gDLL->getText("TXT_KEY_COMBAT_PLOT_CHANCE_TO_GET_HIT_ODDS", szTempBuffer.GetCString(), pDefender->minCombatDamage(), pDefender->maxCombatDamage(), pAttacker->currHitPoints()));
+					
+					
 
 				int iWithdrawal = 0;
 

@@ -672,6 +672,15 @@ int getCombatOdds(CvUnit* pAttacker, CvUnit* pDefender)
 	int iI4;
 	int iOdds = 0;
 
+	int iAttackerDexterity;
+	int iDefenderDexterity;
+
+	iAttackerDexterity = pAttacker->getUnitInfo().getDexterity();
+	iDefenderDexterity = pDefender->getUnitInfo().getDexterity();
+
+	iOdds = (GC.getDefineINT("COMBAT_DIE_SIDES") * iAttackerDexterity) / (iAttackerDexterity + iDefenderDexterity);
+	return iOdds;
+
 	// setup battle, calculate strengths and odds
 	//////
 
