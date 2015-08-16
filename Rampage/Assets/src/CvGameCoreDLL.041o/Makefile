@@ -5,7 +5,7 @@
 #### Paths ####
 TOOLKIT=C:\Dev\Microsoft Visual C++ Toolkit 2003
 PSDK=C:\Dev\WindowsSDK
-CIVINSTALL=E:\Civ4\Beyond the Sword
+CIVINSTALL=..\..\..\..\..\..
 GLOBALBOOST=$(CIVINSTALL)\CvGameCoreDLL\Boost-1.32.0
 GLOBALPYTHON=$(CIVINSTALL)\CvGameCoreDLL\Python24
 ## Uncomment to have newly compiled dlls copied to your mod's Assets directory
