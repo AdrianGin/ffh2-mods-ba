@@ -118,6 +118,7 @@ class CvEventManager:
 			'combatResult' 			: self.onCombatResult,
 		  'combatLogCalc'	 		: self.onCombatLogCalc,
 		  'combatLogHit'				: self.onCombatLogHit,
+		  'combatLogMiss'				: self.onCombatLogMiss,
 			'improvementBuilt' 		: self.onImprovementBuilt,
 			'improvementDestroyed' 		: self.onImprovementDestroyed,
 			'routeBuilt' 		: self.onRouteBuilt,
@@ -643,6 +644,44 @@ class CvEventManager:
 				CyInterface().addCombatMessage(cdAttacker.eOwner,combatMessage)
 				CyInterface().addCombatMessage(cdDefender.eOwner,combatMessage)
 
+	def onCombatLogMiss(self, argsList):
+		'Combat Message'
+		global gCombatMessages, gCombatLog
+		genericArgs = argsList[0][0]
+		cdAttacker = genericArgs[0]
+		cdDefender = genericArgs[1]
+		iIsAttacker = genericArgs[2]
+		iDamage = genericArgs[3]
+		iRoll = genericArgs[4]
+		iRequiredRoll = genericArgs[5]
+		
+		if cdDefender.eOwner == cdDefender.eVisualOwner:
+			szDefenderName = gc.getPlayer(cdDefender.eOwner).getNameKey()
+		else:
+			szDefenderName = localText.getText("TXT_KEY_TRAIT_PLAYER_UNKNOWN", ())
+		if cdAttacker.eOwner == cdAttacker.eVisualOwner:
+			szAttackerName = gc.getPlayer(cdAttacker.eOwner).getNameKey()
+		else:
+			szAttackerName = localText.getText("TXT_KEY_TRAIT_PLAYER_UNKNOWN", ())
+
+		if (iIsAttacker == 0):				
+			combatMessage = localText.getText("TXT_KEY_COMBAT_MESSAGE_MISS", (szDefenderName, cdDefender.sUnitName, iRoll, iRequiredRoll))
+			CyInterface().addCombatMessage(cdAttacker.eOwner,combatMessage)
+			CyInterface().addCombatMessage(cdDefender.eOwner,combatMessage)
+			if (cdDefender.iCurrHitPoints <= 0):
+				combatMessage = localText.getText("TXT_KEY_COMBAT_MESSAGE_DEFEATED", (szAttackerName, cdAttacker.sUnitName, szDefenderName, cdDefender.sUnitName))
+				CyInterface().addCombatMessage(cdAttacker.eOwner,combatMessage)
+				CyInterface().addCombatMessage(cdDefender.eOwner,combatMessage)
+		elif (iIsAttacker == 1):
+			combatMessage = localText.getText("TXT_KEY_COMBAT_MESSAGE_MISS", (szAttackerName, cdAttacker.sUnitName, iRoll, iRequiredRoll))
+			CyInterface().addCombatMessage(cdAttacker.eOwner,combatMessage)
+			CyInterface().addCombatMessage(cdDefender.eOwner,combatMessage)
+			if (cdAttacker.iCurrHitPoints <= 0):
+				combatMessage = localText.getText("TXT_KEY_COMBAT_MESSAGE_DEFEATED", (szDefenderName, cdDefender.sUnitName, szAttackerName, cdAttacker.sUnitName))
+				CyInterface().addCombatMessage(cdAttacker.eOwner,combatMessage)
+				CyInterface().addCombatMessage(cdDefender.eOwner,combatMessage)
+				
+				
 	def onImprovementBuilt(self, argsList):
 		'Improvement Built'
 		iImprovement, iX, iY = argsList
