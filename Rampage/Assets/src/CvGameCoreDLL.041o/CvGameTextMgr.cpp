@@ -2734,7 +2734,8 @@ bool CvGameTextMgr::setCombatPlotHelp(CvWStringBuffer &szString, CvPlot* pPlot)
 		{
 			if (pAttacker->getDomainType() != DOMAIN_AIR)
 			{
-				int iCombatOdds = GC.getDefineINT("COMBAT_DIE_SIDES") - (pAttacker->getUnitInfo().getDexterity() * 10);
+				CombatDetails cdDefenderDetails;
+				int iCombatOdds = GC.getDefineINT("COMBAT_DIE_SIDES") - (pDefender->currEvasionChance(pPlot, pAttacker, &cdDefenderDetails, 0));
 
 				if (pAttacker->combatLimit() >= GC.getMAX_HIT_POINTS())
 				{
@@ -2757,7 +2758,7 @@ bool CvGameTextMgr::setCombatPlotHelp(CvWStringBuffer &szString, CvPlot* pPlot)
 					szString.append(NEWLINE);
 				}
 
-				iCombatOdds = GC.getDefineINT("COMBAT_DIE_SIDES") - (pDefender->getUnitInfo().getDexterity() * 10);
+				iCombatOdds = GC.getDefineINT("COMBAT_DIE_SIDES") - (pAttacker->currEvasionChance(NULL, pDefender, &cdDefenderDetails, 0));
 				if (iCombatOdds > 999)
 				{
 					szTempBuffer = L"&gt; 99.9";

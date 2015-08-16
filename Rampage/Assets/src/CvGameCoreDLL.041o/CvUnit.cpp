@@ -1686,77 +1686,79 @@ void CvUnit::resolveCombat(CvUnit* pDefender, CvPlot* pPlot, CvBattleDefinition&
 
 	collateralCombat(pPlot, pDefender);
 
-	for( int i = 0; i < pDefender->getUnitInfo().getAttackCount() ; i++ )
+	int iDefenderAttackCount = pDefender->getUnitInfo().getAttackCount();
+	int iAttackerAttackCount = getUnitInfo().getAttackCount();
+
+	for( int i = 0; (iDefenderAttackCount != 0) || (iAttackerAttackCount != 0)  ; i++ )
 	//while (true)
 	{
-		if (GC.getGameINLINE().getSorenRandNum(GC.getDefineINT("COMBAT_DIE_SIDES"), "Combat") < getDexterity())
+		if( iDefenderAttackCount && !pDefender->isDead())
 		{
-			//Defender wins here
+			iDefenderAttackCount--;
 
-			if (getCombatFirstStrikes() == 0)
+			int chanceToHit = (GC.getDefineINT("COMBAT_DIE_SIDES") - currEvasionChance(NULL, pDefender, &cdDefenderDetails, 0));
+			if (GC.getGameINLINE().getSorenRandNum(GC.getDefineINT("COMBAT_DIE_SIDES"), "Combat") < chanceToHit )
 			{
-				if (getDamage() + iAttackerDamage >= maxHitPoints() && GC.getGameINLINE().getSorenRandNum(100, "Withdrawal") < withdrawalProbability())
+				//Defender wins here
+				iAttackerDamage = pDefender->baseCombatStr();
+
+				if (getCombatFirstStrikes() == 0)
 				{
-					flankingStrikeCombat(pPlot, iAttackerStrength, iAttackerFirepower, iAttackerKillOdds, iDefenderDamage, pDefender);
+					if (getDamage() + iAttackerDamage >= maxHitPoints() && GC.getGameINLINE().getSorenRandNum(100, "Withdrawal") < withdrawalProbability())
+					{
+						flankingStrikeCombat(pPlot, iAttackerStrength, iAttackerFirepower, iAttackerKillOdds, iDefenderDamage, pDefender);
 
-					changeExperience(GC.getDefineINT("EXPERIENCE_FROM_WITHDRAWL"), pDefender->maxXPValue(), true, pPlot->getOwnerINLINE() == getOwnerINLINE(), !pDefender->isBarbarian());
+						changeExperience(GC.getDefineINT("EXPERIENCE_FROM_WITHDRAWL"), pDefender->maxXPValue(), true, pPlot->getOwnerINLINE() == getOwnerINLINE(), !pDefender->isBarbarian());
 
-//FfH Promotions: Added by Kael 08/12/2007
-                    setFleeWithdrawl(true);
-//FfH: End Add
+	//FfH Promotions: Added by Kael 08/12/2007
+						setFleeWithdrawl(true);
+	//FfH: End Add
 
-					break;
+						break;
+					}
+
+					changeDamage(iAttackerDamage, pDefender->getOwnerINLINE());
+
+					szBuffer = gDLL->getText("TXT_KEY_MISC_YOU_UNIT_LOSE_ATTACKING", getNameKey(), iAttackerDamage, pDefender->getNameKey());
+					gDLL->getInterfaceIFace()->addMessage(getOwnerINLINE(), true, GC.getEVENT_MESSAGE_TIME(), szBuffer, 0, MESSAGE_TYPE_INFO, NULL, (ColorTypes)GC.getInfoTypeForString("COLOR_RED"), pPlot->getX_INLINE(), pPlot->getY_INLINE());
+					szBuffer = gDLL->getText("TXT_KEY_MISC_YOU_UNIT_WIN_DEFENDING", pDefender->getNameKey(), iAttackerDamage, getNameKey(), getVisualCivAdjective(pDefender->getTeam()));
+					gDLL->getInterfaceIFace()->addMessage(pDefender->getOwnerINLINE(), true, GC.getEVENT_MESSAGE_TIME(), szBuffer, 0, MESSAGE_TYPE_INFO, NULL, (ColorTypes)GC.getInfoTypeForString("COLOR_GREEN"), pPlot->getX_INLINE(), pPlot->getY_INLINE());
+
+					if (pDefender->getCombatFirstStrikes() > 0 && pDefender->isRanged())
+					{
+						kBattle.addFirstStrikes(BATTLE_UNIT_DEFENDER, 1);
+						kBattle.addDamage(BATTLE_UNIT_ATTACKER, BATTLE_TIME_RANGED, iAttackerDamage);
+					}
+
+					cdAttackerDetails.iCurrHitPoints = currHitPoints();
+
+					if(GC.getUSE_COMBAT_RESULT_CALLBACK())
+					{
+						if (isHuman() || pDefender->isHuman())
+						{
+							CyArgsList pyArgs;
+							pyArgs.add(gDLL->getPythonIFace()->makePythonObject(&cdAttackerDetails));
+							pyArgs.add(gDLL->getPythonIFace()->makePythonObject(&cdDefenderDetails));
+							pyArgs.add(1);
+							pyArgs.add(iAttackerDamage);
+							CvEventReporter::getInstance().genericEvent("combatLogHit", pyArgs.makeFunctionArgs());
+						}
+					}
+	//FfH: End Modify
+
 				}
-
-				changeDamage(iAttackerDamage, pDefender->getOwnerINLINE());
-
-				szBuffer = gDLL->getText("TXT_KEY_MISC_YOU_UNIT_LOSE_ATTACKING", getNameKey(), iAttackerDamage, pDefender->getNameKey());
-				gDLL->getInterfaceIFace()->addMessage(getOwnerINLINE(), true, GC.getEVENT_MESSAGE_TIME(), szBuffer, 0, MESSAGE_TYPE_INFO, NULL, (ColorTypes)GC.getInfoTypeForString("COLOR_RED"), pPlot->getX_INLINE(), pPlot->getY_INLINE());
-				szBuffer = gDLL->getText("TXT_KEY_MISC_YOU_UNIT_WIN_DEFENDING", pDefender->getNameKey(), iAttackerDamage, getNameKey(), getVisualCivAdjective(pDefender->getTeam()));
-				gDLL->getInterfaceIFace()->addMessage(pDefender->getOwnerINLINE(), true, GC.getEVENT_MESSAGE_TIME(), szBuffer, 0, MESSAGE_TYPE_INFO, NULL, (ColorTypes)GC.getInfoTypeForString("COLOR_GREEN"), pPlot->getX_INLINE(), pPlot->getY_INLINE());
-
-
-
-				if (pDefender->getCombatFirstStrikes() > 0 && pDefender->isRanged())
-				{
-					kBattle.addFirstStrikes(BATTLE_UNIT_DEFENDER, 1);
-					kBattle.addDamage(BATTLE_UNIT_ATTACKER, BATTLE_TIME_RANGED, iAttackerDamage);
-				}
-
-				cdAttackerDetails.iCurrHitPoints = currHitPoints();
-
-//FfH: Modified by Kael 08/02/2008
-//				if (isHuman() || pDefender->isHuman())
-//				{
-//					CyArgsList pyArgs;
-//					pyArgs.add(gDLL->getPythonIFace()->makePythonObject(&cdAttackerDetails));
-//					pyArgs.add(gDLL->getPythonIFace()->makePythonObject(&cdDefenderDetails));
-//					pyArgs.add(1);
-//					pyArgs.add(iAttackerDamage);
-//					gDLL->getEventReporterIFace()->genericEvent("combatLogHit", pyArgs.makeFunctionArgs());
-//				}
-                if(GC.getUSE_COMBAT_RESULT_CALLBACK())
-                {
-                    if (isHuman() || pDefender->isHuman())
-                    {
-                        CyArgsList pyArgs;
-                        pyArgs.add(gDLL->getPythonIFace()->makePythonObject(&cdAttackerDetails));
-                        pyArgs.add(gDLL->getPythonIFace()->makePythonObject(&cdDefenderDetails));
-                        pyArgs.add(1);
-                        pyArgs.add(iAttackerDamage);
-						CvEventReporter::getInstance().genericEvent("combatLogHit", pyArgs.makeFunctionArgs());
-                    }
-				}
-//FfH: End Modify
-
 			}
 		}
 
-
-		for( int i = 0; i < getUnitInfo().getAttackCount() ; i++ )
+		if( iAttackerAttackCount && !isDead())
 		{
-			if (GC.getGameINLINE().getSorenRandNum(GC.getDefineINT("COMBAT_DIE_SIDES"), "Combat") < getDexterity())
+			iAttackerAttackCount--;
+
+			int chanceToHit = (GC.getDefineINT("COMBAT_DIE_SIDES") - pDefender->currEvasionChance(NULL, this, &cdDefenderDetails, 0) );
+			if (GC.getGameINLINE().getSorenRandNum(GC.getDefineINT("COMBAT_DIE_SIDES"), "Combat") < chanceToHit)
 			{
+
+				iDefenderDamage = baseCombatStr();
 
 				//Attacker wins here
 				if (pDefender->getCombatFirstStrikes() == 0)
@@ -1800,8 +1802,6 @@ void CvUnit::resolveCombat(CvUnit* pDefender, CvPlot* pPlot, CvBattleDefinition&
 					szBuffer = gDLL->getText("TXT_KEY_MISC_YOU_UNIT_LOSE_DEFENDING", pDefender->getNameKey(), iDefenderDamage, getNameKey(), getVisualCivAdjective(pDefender->getTeam()));
 					gDLL->getInterfaceIFace()->addMessage(pDefender->getOwnerINLINE(), true, GC.getEVENT_MESSAGE_TIME(), szBuffer, 0, MESSAGE_TYPE_INFO, NULL, (ColorTypes)GC.getInfoTypeForString("COLOR_RED"), pPlot->getX_INLINE(), pPlot->getY_INLINE());
 
-
-
 					if (getCombatFirstStrikes() > 0 && isRanged())
 					{
 						kBattle.addFirstStrikes(BATTLE_UNIT_ATTACKER, 1);
@@ -1810,16 +1810,6 @@ void CvUnit::resolveCombat(CvUnit* pDefender, CvPlot* pPlot, CvBattleDefinition&
 
 					cdDefenderDetails.iCurrHitPoints=pDefender->currHitPoints();
 
-	//FfH: Modified by Kael 08/02/2008
-	//				if (isHuman() || pDefender->isHuman())
-	//				{
-	//					CyArgsList pyArgs;
-	//					pyArgs.add(gDLL->getPythonIFace()->makePythonObject(&cdAttackerDetails));
-	//					pyArgs.add(gDLL->getPythonIFace()->makePythonObject(&cdDefenderDetails));
-	//					pyArgs.add(0);
-	//					pyArgs.add(iDefenderDamage);
-	//					CvEventReporter::getInstance().genericEvent("combatLogHit", pyArgs.makeFunctionArgs());
-	//				}
 					if(GC.getUSE_COMBAT_RESULT_CALLBACK())
 					{
 						if (isHuman() || pDefender->isHuman())
@@ -1833,10 +1823,11 @@ void CvUnit::resolveCombat(CvUnit* pDefender, CvPlot* pPlot, CvBattleDefinition&
 						}
 					}
 	//FfH: End Modify
-
+				
 				}
 			}
 		}
+
 
 		if (getCombatFirstStrikes() > 0)
 		{
@@ -1869,7 +1860,11 @@ void CvUnit::resolveCombat(CvUnit* pDefender, CvPlot* pPlot, CvBattleDefinition&
 
 			break;
 		}
+
+
 	}
+
+
 }
 
 
@@ -9521,7 +9516,8 @@ int CvUnit::maxCombatStr(const CvPlot* pPlot, const CvUnit* pAttacker, CombatDet
     }
     else
     {
-        iStr = baseCombatStrDefense();
+        iStr = this->getUnitInfo().getDexterity();
+		//iStr = baseCombatStrDefense();
     }
 
 	if (iStr == 0)
@@ -9979,11 +9975,11 @@ int CvUnit::maxCombatStr(const CvPlot* pPlot, const CvUnit* pAttacker, CombatDet
 
     if (iModifier > 0)
     {
-        iCombat = (iStr * (iModifier + 100)) / 100;
+        iCombat = (iStr + (iModifier * 100));
     }
     else
     {
-        iCombat = ((iStr * 100) / (100 - iModifier));
+        iCombat = (iStr +  (iModifier * 100));
     }
 //FfH: End Modify
 
@@ -10005,6 +10001,12 @@ int CvUnit::currCombatStr(const CvPlot* pPlot, const CvUnit* pAttacker, CombatDe
 {
 	//return ((maxCombatStr(pPlot, pAttacker, pCombatDetails, bSurroundedModifier) * currHitPoints()) / maxHitPoints());
 	return maxCombatStr(pPlot, pAttacker, pCombatDetails, bSurroundedModifier);
+}
+
+int CvUnit::currEvasionChance(const CvPlot* pPlot, const CvUnit* pAttacker, CombatDetails* pCombatDetails, bool bSurroundedModifier) const
+{
+	//return ((maxCombatStr(pPlot, pAttacker, pCombatDetails, bSurroundedModifier) * currHitPoints()) / maxHitPoints());
+	return maxCombatStr(pPlot, pAttacker, pCombatDetails, bSurroundedModifier) / 10;
 }
 // OLD CODE
 // int CvUnit::currCombatStr(const CvPlot* pPlot, const CvUnit* pAttacker, CombatDetails* pCombatDetails) const
