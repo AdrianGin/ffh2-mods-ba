@@ -664,7 +664,7 @@ class CvEventManager:
 		else:
 			szAttackerName = localText.getText("TXT_KEY_TRAIT_PLAYER_UNKNOWN", ())
 
-		if (iIsAttacker == 0):				
+		if (iIsAttacker == 1):				
 			combatMessage = localText.getText("TXT_KEY_COMBAT_MESSAGE_MISS", (szDefenderName, cdDefender.sUnitName, iRoll, iRequiredRoll))
 			CyInterface().addCombatMessage(cdAttacker.eOwner,combatMessage)
 			CyInterface().addCombatMessage(cdDefender.eOwner,combatMessage)
@@ -672,7 +672,7 @@ class CvEventManager:
 				combatMessage = localText.getText("TXT_KEY_COMBAT_MESSAGE_DEFEATED", (szAttackerName, cdAttacker.sUnitName, szDefenderName, cdDefender.sUnitName))
 				CyInterface().addCombatMessage(cdAttacker.eOwner,combatMessage)
 				CyInterface().addCombatMessage(cdDefender.eOwner,combatMessage)
-		elif (iIsAttacker == 1):
+		elif (iIsAttacker == 0):
 			combatMessage = localText.getText("TXT_KEY_COMBAT_MESSAGE_MISS", (szAttackerName, cdAttacker.sUnitName, iRoll, iRequiredRoll))
 			CyInterface().addCombatMessage(cdAttacker.eOwner,combatMessage)
 			CyInterface().addCombatMessage(cdDefender.eOwner,combatMessage)

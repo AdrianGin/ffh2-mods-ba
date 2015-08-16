@@ -1779,7 +1779,7 @@ void CvUnit::resolveCombat(CvUnit* pDefender, CvPlot* pPlot, CvBattleDefinition&
 		{
 			iAttackerAttackCount--;
 
-			chanceToHit = (GC.getDefineINT("COMBAT_DIE_SIDES") - pDefender->currEvasionChance(NULL, this, 0, 0) );
+			chanceToHit = (GC.getDefineINT("COMBAT_DIE_SIDES") - pDefender->currEvasionChance(pPlot, this, 0, 0) );
 			diceRoll = GC.getGameINLINE().getSorenRandNum(GC.getDefineINT("COMBAT_DIE_SIDES"), "Combat");
 			if (diceRoll < chanceToHit)
 			{
@@ -1856,24 +1856,25 @@ void CvUnit::resolveCombat(CvUnit* pDefender, CvPlot* pPlot, CvBattleDefinition&
 	//FfH: End Modify
 				
 				}
-				else
+
+			}
+			else
+			{
+				if(GC.getUSE_COMBAT_RESULT_CALLBACK())
 				{
-					if(GC.getUSE_COMBAT_RESULT_CALLBACK())
+					if (isHuman() || pDefender->isHuman())
 					{
-						if (isHuman() || pDefender->isHuman())
-						{
-							CyArgsList pyArgs;
-							pyArgs.add(gDLL->getPythonIFace()->makePythonObject(&cdAttackerDetails));
-							pyArgs.add(gDLL->getPythonIFace()->makePythonObject(&cdDefenderDetails));
-							pyArgs.add(0);
-							pyArgs.add(iDefenderDamage);
+						CyArgsList pyArgs;
+						pyArgs.add(gDLL->getPythonIFace()->makePythonObject(&cdAttackerDetails));
+						pyArgs.add(gDLL->getPythonIFace()->makePythonObject(&cdDefenderDetails));
+						pyArgs.add(0);
+						pyArgs.add(iDefenderDamage);
 
-							pyArgs.add(diceRoll);
-							pyArgs.add(chanceToHit);
-							
+						pyArgs.add(diceRoll);
+						pyArgs.add(chanceToHit);
+						
 
-							CvEventReporter::getInstance().genericEvent("combatLogMiss", pyArgs.makeFunctionArgs());
-						}
+						CvEventReporter::getInstance().genericEvent("combatLogMiss", pyArgs.makeFunctionArgs());
 					}
 				}
 			}
