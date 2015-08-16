@@ -10070,7 +10070,7 @@ int CvUnit::minCombatDamage() const
 {
 	int attackCount = getUnitInfo().getAttackCount() - getUnitInfo().getAttackCountVariance();
 	int attackDamage = baseCombatStr();
-	return attackCount * attackDamage;
+	return 99;
 }
 
 int CvUnit::avgCombatDamage() const
