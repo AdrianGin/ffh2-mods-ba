@@ -331,6 +331,10 @@ public:
 	int currCombatStr(const CvPlot* pPlot, const CvUnit* pAttacker, CombatDetails* pCombatDetails = NULL, bool bSurroundedModifier = true) const;	// Exposed to Python
 	int currEvasionChance(const CvPlot* pPlot, const CvUnit* pAttacker, CombatDetails* pCombatDetails, bool bSurroundedModifier) const;
 
+	int unitCombatPower() const;
+	int unitCombatDamage() const;
+	int unitCombatAttacks() const;
+
 	int minCombatDamage() const;
 	int avgCombatDamage() const;
 	int maxCombatDamage() const;

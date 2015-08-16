@@ -2753,7 +2753,7 @@ bool CvGameTextMgr::setCombatPlotHelp(CvWStringBuffer &szString, CvPlot* pPlot)
 					}
 					//szString.append(gDLL->getText("TXT_KEY_COMBAT_PLOT_ODDS", szTempBuffer.GetCString()));
 					szString.append(gDLL->getText("TXT_KEY_COLOR_POSITIVE"));
-					szString.append(gDLL->getText("TXT_KEY_COMBAT_PLOT_CHANCE_TO_HIT_ODDS", szTempBuffer.GetCString(), pAttacker->minCombatDamage(), pAttacker->maxCombatDamage() , pDefender->currHitPoints()));
+					szString.append(gDLL->getText("TXT_KEY_COMBAT_PLOT_CHANCE_TO_HIT_ODDS", szTempBuffer.GetCString(), pAttacker->unitCombatDamage(), pAttacker->unitCombatAttacks() , pDefender->currHitPoints()));
 
 					szString.append(NEWLINE);
 				}
@@ -2772,7 +2772,7 @@ bool CvGameTextMgr::setCombatPlotHelp(CvWStringBuffer &szString, CvPlot* pPlot)
 					szTempBuffer.Format(L"%.1f", ((float)iCombatOdds) / 10.0f);
 				}
 				szString.append(gDLL->getText("TXT_KEY_COLOR_NEGATIVE"));
-				szString.append(gDLL->getText("TXT_KEY_COMBAT_PLOT_CHANCE_TO_GET_HIT_ODDS", szTempBuffer.GetCString(), pDefender->minCombatDamage(), pDefender->maxCombatDamage(), pAttacker->currHitPoints()));
+				szString.append(gDLL->getText("TXT_KEY_COMBAT_PLOT_CHANCE_TO_GET_HIT_ODDS", szTempBuffer.GetCString(), pDefender->unitCombatDamage(), pDefender->unitCombatAttacks(), pAttacker->currHitPoints()));
 					
 					
 

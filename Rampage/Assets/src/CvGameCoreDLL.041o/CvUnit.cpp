@@ -10066,11 +10066,26 @@ int CvUnit::currEvasionChance(const CvPlot* pPlot, const CvUnit* pAttacker, Comb
 // }
 /**** Dexy - Surround and Destroy  END  ****/
 
+int CvUnit::unitCombatPower() const
+{
+	return 999;
+}
+
+int CvUnit::unitCombatDamage() const
+{
+	return baseCombatStr();
+}
+
+int CvUnit::unitCombatAttacks() const
+{
+	return getUnitInfo().getAttackCount();
+}
+
 int CvUnit::minCombatDamage() const
 {
 	int attackCount = getUnitInfo().getAttackCount() - getUnitInfo().getAttackCountVariance();
 	int attackDamage = baseCombatStr();
-	return 99;
+	return 97;
 }
 
 int CvUnit::avgCombatDamage() const
