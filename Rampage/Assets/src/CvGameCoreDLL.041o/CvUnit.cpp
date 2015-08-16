@@ -1696,8 +1696,9 @@ void CvUnit::resolveCombat(CvUnit* pDefender, CvPlot* pPlot, CvBattleDefinition&
 		{
 			iDefenderAttackCount--;
 
-			int chanceToHit = (GC.getDefineINT("COMBAT_DIE_SIDES") - currEvasionChance(NULL, pDefender, &cdDefenderDetails, 0));
-			if (GC.getGameINLINE().getSorenRandNum(GC.getDefineINT("COMBAT_DIE_SIDES"), "Combat") < chanceToHit )
+			int chanceToHit = (GC.getDefineINT("COMBAT_DIE_SIDES") - currEvasionChance(NULL, pDefender, 0, 0));
+			int diceRoll = GC.getGameINLINE().getSorenRandNum(GC.getDefineINT("COMBAT_DIE_SIDES"), "Combat");
+			if (diceRoll < chanceToHit )
 			{
 				//Defender wins here
 				iAttackerDamage = pDefender->baseCombatStr();
@@ -1741,6 +1742,12 @@ void CvUnit::resolveCombat(CvUnit* pDefender, CvPlot* pPlot, CvBattleDefinition&
 							pyArgs.add(gDLL->getPythonIFace()->makePythonObject(&cdDefenderDetails));
 							pyArgs.add(1);
 							pyArgs.add(iAttackerDamage);
+
+							pyArgs.add(diceRoll);
+							pyArgs.add(chanceToHit);
+							
+
+
 							CvEventReporter::getInstance().genericEvent("combatLogHit", pyArgs.makeFunctionArgs());
 						}
 					}
@@ -1754,8 +1761,9 @@ void CvUnit::resolveCombat(CvUnit* pDefender, CvPlot* pPlot, CvBattleDefinition&
 		{
 			iAttackerAttackCount--;
 
-			int chanceToHit = (GC.getDefineINT("COMBAT_DIE_SIDES") - pDefender->currEvasionChance(NULL, this, &cdDefenderDetails, 0) );
-			if (GC.getGameINLINE().getSorenRandNum(GC.getDefineINT("COMBAT_DIE_SIDES"), "Combat") < chanceToHit)
+			int chanceToHit = (GC.getDefineINT("COMBAT_DIE_SIDES") - pDefender->currEvasionChance(NULL, this, 0, 0) );
+			int diceRoll = GC.getGameINLINE().getSorenRandNum(GC.getDefineINT("COMBAT_DIE_SIDES"), "Combat");
+			if (diceRoll < chanceToHit)
 			{
 
 				iDefenderDamage = baseCombatStr();
@@ -1819,6 +1827,11 @@ void CvUnit::resolveCombat(CvUnit* pDefender, CvPlot* pPlot, CvBattleDefinition&
 							pyArgs.add(gDLL->getPythonIFace()->makePythonObject(&cdDefenderDetails));
 							pyArgs.add(0);
 							pyArgs.add(iDefenderDamage);
+
+							pyArgs.add(diceRoll);
+							pyArgs.add(chanceToHit);
+							
+
 							CvEventReporter::getInstance().genericEvent("combatLogHit", pyArgs.makeFunctionArgs());
 						}
 					}

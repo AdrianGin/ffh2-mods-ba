@@ -614,6 +614,8 @@ class CvEventManager:
 		cdDefender = genericArgs[1]
 		iIsAttacker = genericArgs[2]
 		iDamage = genericArgs[3]
+		iRoll = genericArgs[4]
+		iRequiredRoll = genericArgs[5]
 		
 		if cdDefender.eOwner == cdDefender.eVisualOwner:
 			szDefenderName = gc.getPlayer(cdDefender.eOwner).getNameKey()
@@ -625,7 +627,7 @@ class CvEventManager:
 			szAttackerName = localText.getText("TXT_KEY_TRAIT_PLAYER_UNKNOWN", ())
 
 		if (iIsAttacker == 0):				
-			combatMessage = localText.getText("TXT_KEY_COMBAT_MESSAGE_HIT", (szDefenderName, cdDefender.sUnitName, iDamage, cdDefender.iCurrHitPoints, cdDefender.iMaxHitPoints))
+			combatMessage = localText.getText("TXT_KEY_COMBAT_MESSAGE_HIT", (szDefenderName, cdDefender.sUnitName, iDamage, cdDefender.iCurrHitPoints, cdDefender.iMaxHitPoints, iRoll, iRequiredRoll))
 			CyInterface().addCombatMessage(cdAttacker.eOwner,combatMessage)
 			CyInterface().addCombatMessage(cdDefender.eOwner,combatMessage)
 			if (cdDefender.iCurrHitPoints <= 0):
@@ -633,7 +635,7 @@ class CvEventManager:
 				CyInterface().addCombatMessage(cdAttacker.eOwner,combatMessage)
 				CyInterface().addCombatMessage(cdDefender.eOwner,combatMessage)
 		elif (iIsAttacker == 1):
-			combatMessage = localText.getText("TXT_KEY_COMBAT_MESSAGE_HIT", (szAttackerName, cdAttacker.sUnitName, iDamage, cdAttacker.iCurrHitPoints, cdAttacker.iMaxHitPoints))
+			combatMessage = localText.getText("TXT_KEY_COMBAT_MESSAGE_HIT", (szAttackerName, cdAttacker.sUnitName, iDamage, cdAttacker.iCurrHitPoints, cdAttacker.iMaxHitPoints, iRoll, iRequiredRoll))
 			CyInterface().addCombatMessage(cdAttacker.eOwner,combatMessage)
 			CyInterface().addCombatMessage(cdDefender.eOwner,combatMessage)
 			if (cdAttacker.iCurrHitPoints <= 0):
