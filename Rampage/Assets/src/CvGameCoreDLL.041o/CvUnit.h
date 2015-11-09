@@ -162,6 +162,10 @@ public:
 	bool canNukeAt(const CvPlot* pPlot, int iX, int iY) const;																		// Exposed to Python
 	bool nuke(int iX, int iY);
 
+	bool canAttackPlot(const CvPlot* pPlot) const;
+	bool canAttackPlotAt(const CvPlot* pPlot, int iX, int iY) const;
+	bool attackPlot(int iX, int iY);
+
 	bool canRecon(const CvPlot* pPlot) const;																											// Exposed to Python
 	bool canReconAt(const CvPlot* pPlot, int iX, int iY) const;																		// Exposed to Python
 	bool recon(int iX, int iY);

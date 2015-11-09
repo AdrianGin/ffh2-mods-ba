@@ -2119,7 +2119,7 @@ void CvUnit::updateCombat(bool bQuick)
 			kBattle.setDamage(BATTLE_UNIT_DEFENDER, BATTLE_TIME_BEGIN, pDefender->getDamage());
 
 			resolveCombat(pDefender, pPlot, kBattle);
-			changeMoves( movesLeft() );
+			//changeMoves( movesLeft() );
 
 			if (!bVisible)
 			{
@@ -2320,14 +2320,14 @@ void CvUnit::updateCombat(bool bQuick)
 
 				if (!bAdvance)
 				{
-					changeMoves(std::max(GC.getMOVE_DENOMINATOR(), pPlot->movementCost(this, plot())));
+					//changeMoves(std::max(GC.getMOVE_DENOMINATOR(), pPlot->movementCost(this, plot())));
 					checkRemoveSelectionAfterAttack();
 				}
 			}
 
 			if (pPlot->getNumVisibleEnemyDefenders(this) == 0)
 			{
-				getGroup()->groupMove(pPlot, true, ((bAdvance) ? this : NULL));
+				//getGroup()->groupMove(pPlot, true, ((bAdvance) ? this : NULL));
 			}
 
 			// This is is put before the plot advancement, the unit will always try to walk back
@@ -2369,7 +2369,7 @@ void CvUnit::updateCombat(bool bQuick)
 				}
 				else
 				{
-					changeMoves(std::max(GC.getMOVE_DENOMINATOR(), pPlot->movementCost(this, plot())));
+					//changeMoves(std::max(GC.getMOVE_DENOMINATOR(), pPlot->movementCost(this, plot())));
 					checkRemoveSelectionAfterAttack();
 				}
 //<<<<BUGFfH: End Modify
@@ -2389,7 +2389,7 @@ void CvUnit::updateCombat(bool bQuick)
                 gDLL->getInterfaceIFace()->addMessage(getOwnerINLINE(), true, GC.getEVENT_MESSAGE_TIME(), szBuffer, "AS2D_OUR_WITHDRAWL", MESSAGE_TYPE_INFO, NULL, (ColorTypes)GC.getInfoTypeForString("COLOR_GREEN"), pPlot->getX_INLINE(), pPlot->getY_INLINE());
                 szBuffer = gDLL->getText("TXT_KEY_MISC_ENEMY_UNIT_WITHDRAW", getNameKey(), pDefender->getNameKey());
                 gDLL->getInterfaceIFace()->addMessage(pDefender->getOwnerINLINE(), true, GC.getEVENT_MESSAGE_TIME(), szBuffer, "AS2D_THEIR_WITHDRAWL", MESSAGE_TYPE_INFO, NULL, (ColorTypes)GC.getInfoTypeForString("COLOR_RED"), pPlot->getX_INLINE(), pPlot->getY_INLINE());
-                changeMoves(std::max(GC.getMOVE_DENOMINATOR(), pPlot->movementCost(this, plot())));
+                //changeMoves(std::max(GC.getMOVE_DENOMINATOR(), pPlot->movementCost(this, plot())));
                 checkRemoveSelectionAfterAttack();
                 getGroup()->clearMissionQueue();
             }
@@ -4040,9 +4040,11 @@ void CvUnit::move(CvPlot* pPlot, bool bShow)
 	changeMoves(pPlot->movementCost(this, plot()));
 
 	//Zone of Control Method.
-	if( isAdjacentToEnemy(plot(), false) && isAdjacentToEnemy(pPlot, false) )
+	if( isAdjacentToEnemy(pPlot, false) )
 	{
 		//changeMoves( pPlot->movementCost(this, plot()) );
+		finishMoves();
+
 	}
 
 	setXY(pPlot->getX_INLINE(), pPlot->getY_INLINE(), true, true, bShow && pPlot->isVisibleToWatchingHuman(), bShow);
@@ -5540,6 +5542,77 @@ bool CvUnit::nuke(int iX, int iY)
 }
 
 
+bool CvUnit::attackPlot(int iX, int iY)
+{
+
+	CvPlot* pPlot;
+	pPlot = GC.getMapINLINE().plotINLINE(iX, iY);
+
+
+	attack(pPlot, true);
+	return true;
+}
+
+
+//Can melee attack at a distance of 1.
+bool CvUnit::canAttackPlot(const CvPlot* pPlot) const
+{
+
+	if (this->isMadeAttack())
+	{
+		return false;
+	}
+
+	int iDistance = plotDistance(pPlot->getX_INLINE(), pPlot->getY_INLINE(), plot()->getX_INLINE(), plot()->getY_INLINE());
+	if (iDistance != 1)
+	{
+		return false;
+	}
+
+
+
+
+
+
+	return true;
+}
+
+//Can melee attack at a distance of 1.
+bool CvUnit::canAttackPlotAt(const CvPlot* pPlot, int iX, int iY) const
+{
+	int iDistance = plotDistance(pPlot->getX_INLINE(), pPlot->getY_INLINE(), iX, iY);
+	if (iDistance != 1)
+	{
+		return false;
+	}
+
+	if (this->isMadeAttack())
+	{
+		return false;
+	}
+
+
+	CvPlot* targetPlot;
+	targetPlot = GC.getMapINLINE().plotINLINE(iX, iY);
+
+	CvUnit* pDefender = targetPlot->getBestDefender(NO_PLAYER, getOwnerINLINE(), this, true);
+	if (pDefender != NULL)
+	{
+		if (!pDefender->canDefend())
+		{
+			return true;
+		}
+		else
+		{
+			return true;
+		}
+	}
+
+
+	return false;
+}
+
+
 bool CvUnit::canRecon(const CvPlot* pPlot) const
 {
 	if (getDomainType() != DOMAIN_AIR)
@@ -5577,6 +5650,9 @@ bool CvUnit::canReconAt(const CvPlot* pPlot, int iX, int iY) const
 
 	return true;
 }
+
+
+
 
 
 bool CvUnit::recon(int iX, int iY)
@@ -9216,6 +9292,7 @@ BuildTypes CvUnit::getBuildType() const
 		case MISSION_ESPIONAGE:
 		case MISSION_CAST_RANGED_SPELL:
 		case MISSION_DIE_ANIMATION:
+		case MISSION_ATTACK_PLOT:
 			break;
 
 		case MISSION_BUILD:
@@ -18597,7 +18674,9 @@ bool CvUnit::canAdvance(const CvPlot* pPlot, int iThreshold) const
 		}
 	}
 
-	return true;
+	//Units never advance to defender's tile
+	return false;
+	//return true;
 }
 
 

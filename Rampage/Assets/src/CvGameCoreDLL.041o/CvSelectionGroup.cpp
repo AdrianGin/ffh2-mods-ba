@@ -655,6 +655,7 @@ CvPlot* CvSelectionGroup::lastMissionPlot()
 		case MISSION_LEAD:
 		case MISSION_ESPIONAGE:
 		case MISSION_CAST_RANGED_SPELL:
+		case MISSION_ATTACK_PLOT:
 		case MISSION_DIE_ANIMATION:
 			break;
 
@@ -979,6 +980,14 @@ bool CvSelectionGroup::canStartMission(int iMission, int iData1, int iData2, CvP
 			}
 			break;
 
+
+		case MISSION_ATTACK_PLOT:
+			if (pLoopUnit->canAttackPlotAt(pPlot, iData1, iData2))
+			{
+				return true;
+			}
+			break;
+
 		case MISSION_DIE_ANIMATION:
 			return false;
 			break;
@@ -1149,6 +1158,7 @@ void CvSelectionGroup::startMission()
 		case MISSION_ESPIONAGE:
 		case MISSION_CAST_RANGED_SPELL:
 		case MISSION_DIE_ANIMATION:
+		case MISSION_ATTACK_PLOT:
 			break;
 
 		default:
@@ -1171,7 +1181,7 @@ void CvSelectionGroup::startMission()
 			MissionTypes mission = headMissionQueueNode()->m_data.eMissionType;
 
 
-			if (pLoopUnit->canMove() || (mission == MISSION_CAST_RANGED_SPELL) )
+			if (pLoopUnit->canMove() || (mission == MISSION_CAST_RANGED_SPELL) || (mission == MISSION_ATTACK_PLOT))
 			{
 				switch (headMissionQueueNode()->m_data.eMissionType)
 				{
@@ -1432,6 +1442,14 @@ void CvSelectionGroup::startMission()
 					break;
 
 
+				case MISSION_ATTACK_PLOT:
+					if (pLoopUnit->attackPlot(headMissionQueueNode()->m_data.iData1, headMissionQueueNode()->m_data.iData2))
+					{
+						bAction = true;
+					}
+					break;
+
+
 				case MISSION_DIE_ANIMATION:
 					bAction = true;
 					break;
@@ -1668,6 +1686,7 @@ void CvSelectionGroup::continueMission(int iSteps)
 				case MISSION_LEAD:
 				case MISSION_ESPIONAGE:
 				case MISSION_CAST_RANGED_SPELL:
+				case MISSION_ATTACK_PLOT:
 				case MISSION_DIE_ANIMATION:
 					break;
 
@@ -1754,6 +1773,7 @@ void CvSelectionGroup::continueMission(int iSteps)
 			case MISSION_ESPIONAGE:
 			case MISSION_CAST_RANGED_SPELL:
 			case MISSION_DIE_ANIMATION:
+			case MISSION_ATTACK_PLOT:
 				bDone = true;
 				break;
 
@@ -2043,6 +2063,8 @@ bool CvSelectionGroup::canDoInterfaceMode(InterfaceModeTypes eInterfaceMode)
 			}
 			break;
 
+
+
 		case INTERFACEMODE_GO_TO_TYPE:
 			if ((getDomainType() != DOMAIN_AIR) && (getDomainType() != DOMAIN_IMMOBILE))
 			{
@@ -2134,6 +2156,13 @@ bool CvSelectionGroup::canDoInterfaceMode(InterfaceModeTypes eInterfaceMode)
 
 		case INTERFACEMODE_CAST_RANGED_SPELL:
 			if( pLoopUnit->canCastSelectTileSpells() )
+			{
+				return true;
+			}
+			break;
+
+		case INTERFACEMODE_ATTACK_PLOT:
+			if (pLoopUnit->canAttack())
 			{
 				return true;
 			}
@@ -2261,6 +2290,18 @@ bool CvSelectionGroup::canDoInterfaceModeAt(InterfaceModeTypes eInterfaceMode, C
 				}
 			}
 			break;
+
+
+		case INTERFACEMODE_ATTACK_PLOT:
+			if (pLoopUnit != NULL)
+			{
+				if (pLoopUnit->canAttackPlotAt(pLoopUnit->plot(), pPlot->getX_INLINE(), pPlot->getY_INLINE()))
+				{
+					return true;
+				}
+			}
+			break;
+
 
 		default:
 			return true;

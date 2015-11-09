@@ -228,5 +228,15 @@
 			<Help />
 			<bVisible>0</bVisible>
 		</CommandInfo>	
+		
+		
+		<CommandInfo>
+			<Type>COMMAND_ATTACK_PLOT</Type>
+			<Description>TXT_KEY_COMMAND_ATTACK_PLOT</Description>
+			<Help />
+			<bVisible>1</bVisible>
+			<Button>Art/Interface/Buttons/Actions/Attack.dds</Button>
+		</CommandInfo>		
+		
 	</CommandInfos>
 </Civ4CommandInfos>

@@ -2141,6 +2141,8 @@ void getMissionTypeString(CvWString& szString, MissionTypes eMissionType)
 	case MISSION_MULTI_SELECT: szString = L"MISSION_MULTI_SELECT"; break;
 	case MISSION_MULTI_DESELECT: szString = L"MISSION_MULTI_DESELECT"; break;
 
+	case MISSION_ATTACK_PLOT: szString = L"MISSION_ATTACK_PLOT"; break;
+
 	default: szString = CvWString::format(L"UNKOWN_MISSION(%d)", eMissionType); break;
 	}
 }
