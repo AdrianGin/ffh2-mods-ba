@@ -119,7 +119,7 @@
 			<iMoves>2</iMoves>
 			<iUnitPlotCost>20</iUnitPlotCost>
 			<bNoRevealMap>0</bNoRevealMap>
-			<iAirRange>0</iAirRange>
+			<iAirRange>2</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
 			<iNukeRange>-1</iNukeRange>
@@ -147,8 +147,8 @@
 			<iDexterity>30</iDexterity>
 			<iAttackCount>2</iAttackCount>
 			<iAttackCountVariance>0</iAttackCountVariance>
-			<iAirCombat>0</iAirCombat>
-			<iAirCombatLimit>0</iAirCombatLimit>
+			<iAirCombat>20</iAirCombat>
+			<iAirCombatLimit>100</iAirCombatLimit>
 			<iXPValueAttack>0</iXPValueAttack>
 			<iXPValueDefense>0</iXPValueDefense>
 			<iFirstStrikes>0</iFirstStrikes>

@@ -1181,7 +1181,7 @@ void CvSelectionGroup::startMission()
 			MissionTypes mission = headMissionQueueNode()->m_data.eMissionType;
 
 
-			if (pLoopUnit->canMove() || (mission == MISSION_CAST_RANGED_SPELL) || (mission == MISSION_ATTACK_PLOT))
+			if (pLoopUnit->canMove() || (mission == MISSION_CAST_RANGED_SPELL) || (mission == MISSION_ATTACK_PLOT) || (mission == MISSION_RANGE_ATTACK) )
 			{
 				switch (headMissionQueueNode()->m_data.eMissionType)
 				{

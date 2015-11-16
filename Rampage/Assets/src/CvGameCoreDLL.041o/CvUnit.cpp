@@ -2119,7 +2119,7 @@ void CvUnit::updateCombat(bool bQuick)
 			kBattle.setDamage(BATTLE_UNIT_DEFENDER, BATTLE_TIME_BEGIN, pDefender->getDamage());
 
 			resolveCombat(pDefender, pPlot, kBattle);
-			//changeMoves( movesLeft() );
+			changeMoves( movesLeft() );
 
 			if (!bVisible)
 			{
@@ -10509,7 +10509,10 @@ int CvUnit::rangeCombatDamage(const CvUnit* pDefender) const
 
 	iStrengthFactor = ((iOurStrength + iTheirStrength + 1) / 2);
 
-	iDamage = std::max(1, ((GC.getDefineINT("RANGE_COMBAT_DAMAGE") * (iOurStrength + iStrengthFactor)) / (iTheirStrength + iStrengthFactor)));
+	//iDamage = std::max(1, ((GC.getDefineINT("RANGE_COMBAT_DAMAGE") * (iOurStrength + iStrengthFactor)) / (iTheirStrength + iStrengthFactor)));
+
+	iDamage = airBaseCombatStr();
+
 
 	return iDamage;
 }
@@ -19044,7 +19047,7 @@ bool CvUnit::canRangeStrike() const
 
 	if (!canMove() && getMoves() > 0)
 	{
-		return false;
+		//return false;
 	}
 
 	return true;
@@ -19150,6 +19153,46 @@ bool CvUnit::rangeStrike(int iX, int iY)
 		//delay death
 		pDefender->getGroup()->setMissionTimer(GC.getMissionInfo(MISSION_RANGE_ATTACK).getTime());
 	}
+
+
+
+	if (GC.getUSE_COMBAT_RESULT_CALLBACK())
+	{
+		if (isHuman() || pDefender->isHuman())
+		{
+			CyArgsList pyArgs;
+
+			CombatDetails cdAttackerDetails;
+			CombatDetails cdDefenderDetails;
+
+			cdAttackerDetails.eOwner = getOwnerINLINE();
+			cdAttackerDetails.eVisualOwner = getVisualOwner();
+			cdAttackerDetails.sUnitName = getName().GetCString();
+
+			cdDefenderDetails.eOwner = pDefender->getOwnerINLINE();
+			cdDefenderDetails.eVisualOwner = pDefender->getVisualOwner();
+			cdDefenderDetails.sUnitName = pDefender->getName().GetCString();
+
+			cdAttackerDetails.iMaxCombatStr = std::max(1, iDamage);
+			cdAttackerDetails.iCurrHitPoints = currHitPoints();
+			cdAttackerDetails.iMaxHitPoints = maxHitPoints();
+
+			cdDefenderDetails.iMaxCombatStr = std::max(1, iDamage);
+			cdDefenderDetails.iCurrHitPoints = pDefender->currHitPoints();
+			cdDefenderDetails.iMaxHitPoints = pDefender->maxHitPoints();
+
+			pyArgs.add(gDLL->getPythonIFace()->makePythonObject(&cdAttackerDetails));
+			pyArgs.add(gDLL->getPythonIFace()->makePythonObject(&cdDefenderDetails));
+			pyArgs.add(0);
+			pyArgs.add(iDamage);
+
+			pyArgs.add(0);
+			pyArgs.add(0);
+
+			CvEventReporter::getInstance().genericEvent("combatLogHit", pyArgs.makeFunctionArgs());
+		}
+	}
+
 
 	return true;
 }
