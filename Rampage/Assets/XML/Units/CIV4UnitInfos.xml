@@ -119,7 +119,7 @@
 			<iMoves>2</iMoves>
 			<iUnitPlotCost>20</iUnitPlotCost>
 			<bNoRevealMap>0</bNoRevealMap>
-			<iAirRange>2</iAirRange>
+			<iAirRange>3</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
 			<iNukeRange>-1</iNukeRange>
@@ -140,14 +140,14 @@
             </TerrainPassableTechs>
 			<FeaturePassableTechs>
             </FeaturePassableTechs>
-			<iCombat>10</iCombat>
-			<iCombatDefense>10</iCombatDefense>
+			<iCombat>0</iCombat>
+			<iCombatDefense>0</iCombatDefense>
 			<iCombatLimit>100</iCombatLimit>
 			<iMaxHitPoints>40</iMaxHitPoints>
 			<iDexterity>30</iDexterity>
 			<iAttackCount>2</iAttackCount>
 			<iAttackCountVariance>0</iAttackCountVariance>
-			<iAirCombat>20</iAirCombat>
+			<iAirCombat>10</iAirCombat>
 			<iAirCombatLimit>100</iAirCombatLimit>
 			<iXPValueAttack>0</iXPValueAttack>
 			<iXPValueDefense>0</iXPValueDefense>
