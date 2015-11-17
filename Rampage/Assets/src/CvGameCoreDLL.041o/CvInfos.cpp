@@ -5158,6 +5158,11 @@ void CvUnitInfo::setUnitPlotCost(int i)
 //Unit Per Tile -- START
 
 
+int CvUnitInfo::getAirRangeMin() const
+{
+	return m_iAirRangeMin;
+}
+
 int CvUnitInfo::getAirRange() const
 {
 	return m_iAirRange;
@@ -5243,6 +5248,12 @@ int CvUnitInfo::getMaxHitPoints() const
 	return m_iMaxHitPoints;
 }
 
+int CvUnitInfo::getArmour() const
+{
+	return m_iArmour;
+}
+
+
 int CvUnitInfo::getDexterity() const
 {
 	return m_iDexterity;
@@ -5258,6 +5269,10 @@ int CvUnitInfo::getAttackCountVariance() const
 	return m_iAttackCountVariance;
 }
 
+int CvUnitInfo::getAirCombatCount() const
+{
+	return m_iAirCombatCount;
+}
 
 int CvUnitInfo::getAirCombat() const
 {
@@ -7251,7 +7266,7 @@ bool CvUnitInfo::read(CvXMLLoadUtility* pXML)
 	//Unit Per Tile -- START
 	pXML->GetChildXmlValByName(&m_iUnitPlotCost, "iUnitPlotCost");
 	//Unit Per Tile -- END
-
+	pXML->GetChildXmlValByName(&m_iAirRangeMin, "iAirRangeMin");
 	pXML->GetChildXmlValByName(&m_iAirRange, "iAirRange");
 	pXML->GetChildXmlValByName(&m_iAirUnitCap, "iAirUnitCap");
 	pXML->GetChildXmlValByName(&m_iDropRange, "iDropRange");
@@ -7273,11 +7288,13 @@ bool CvUnitInfo::read(CvXMLLoadUtility* pXML)
 	pXML->GetChildXmlValByName(&m_iCombatLimit, "iCombatLimit");
 
 	pXML->GetChildXmlValByName(&m_iMaxHitPoints, "iMaxHitPoints");
+	pXML->GetChildXmlValByName(&m_iArmour, "iArmour");
 	pXML->GetChildXmlValByName(&m_iDexterity, "iDexterity");
 
 	pXML->GetChildXmlValByName(&m_iAttackCount, "iAttackCount");
 	pXML->GetChildXmlValByName(&m_iAttackCountVariance, "iAttackCountVariance");
 
+	pXML->GetChildXmlValByName(&m_iAirCombatCount, "iAirCombatCount");
 	pXML->GetChildXmlValByName(&m_iAirCombat, "iAirCombat");
 	pXML->GetChildXmlValByName(&m_iAirCombatLimit, "iAirCombatLimit");
 	pXML->GetChildXmlValByName(&m_iXPValueAttack, "iXPValueAttack");

@@ -1216,7 +1216,7 @@ public:
 	int getUnitPlotCost() const;
 	void setUnitPlotCost(int i);
 //Unit Per Tile -- END
-
+	int getAirRangeMin() const;
 	int getAirRange() const;				// Exposed to Python
 	int getAirUnitCap() const;				// Exposed to Python
 	int getDropRange() const;				// Exposed to Python
@@ -1234,9 +1234,11 @@ public:
 	void setCombat(int iNum);				// Exposed to Python
 	int getCombatLimit() const;				// Exposed to Python
 	int getMaxHitPoints() const;				// Exposed to Python
+	int getArmour() const;
 	int getDexterity() const;				// Exposed to Python
 	int getAttackCount() const;				// Exposed to Python
 	int getAttackCountVariance() const;				// Exposed to Python
+	int getAirCombatCount() const;
 	int getAirCombat() const;				// Exposed to Python
 	int getAirCombatLimit() const;				// Exposed to Python
 	int getXPValueAttack() const;				// Exposed to Python
@@ -1483,7 +1485,7 @@ protected:
 	//Unit Per Tile -- START
 	int m_iUnitPlotCost;
 	//Unit Per Tile -- END
-
+	int m_iAirRangeMin;
 	int m_iAirRange;
 	int m_iAirUnitCap;
 	int m_iDropRange;
@@ -1499,10 +1501,12 @@ protected:
 	int m_iEspionagePoints;
 	int m_iCombat;
 	int m_iCombatLimit;
+	int m_iArmour;
 	int m_iMaxHitPoints;
 	int m_iDexterity;
 	int m_iAttackCount;
 	int m_iAttackCountVariance;
+	int m_iAirCombatCount;
 	int m_iAirCombat;
 	int m_iAirCombatLimit;
 	int m_iXPValueAttack;
