@@ -298,6 +298,7 @@ public:
 	DllExport bool canMove() const;																				// Exposed to Python
 	DllExport bool hasMoved() const;																			// Exposed to Python
 
+	int airRangeMin() const;
 	int airRange() const;																				// Exposed to Python
 	int nukeRange() const;																			// Exposed to Python
 

@@ -141,15 +141,15 @@
             </TerrainPassableTechs>
 			<FeaturePassableTechs>
             </FeaturePassableTechs>
-			<iCombat>0</iCombat>
-			<iCombatDefense>0</iCombatDefense>
+			<iCombat>20</iCombat>
+			<iCombatDefense>20</iCombatDefense>
 			<iCombatLimit>100</iCombatLimit>
 			<iMaxHitPoints>40</iMaxHitPoints>
 			<iArmour>0</iArmour>		
 			<iDexterity>15</iDexterity>
 			<iAttackCount>5</iAttackCount>
 			<iAttackCountVariance>3</iAttackCountVariance>			
-			<iAirCombatCount>0</iAirCombatCount>	
+			<iAirCombatCount>2</iAirCombatCount>	
 			<iAirCombat>10</iAirCombat>
 			<iAirCombatLimit>100</iAirCombatLimit>
 			<iXPValueAttack>0</iXPValueAttack>
