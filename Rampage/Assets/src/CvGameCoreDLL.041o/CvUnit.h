@@ -85,6 +85,7 @@ public:
 
 	void doTurn();
 
+	void updateInitialPlot(int x, int y);
 	void updateCombat(bool bQuick = false);
 	void updateAirCombat(bool bQuick = false);
 	void updateAirStrike(CvPlot* pPlot, bool bQuick, bool bFinish);
@@ -1054,6 +1055,11 @@ protected:
 	int m_iID;
 	int m_iGroupID;
 	int m_iHotKeyNumber;
+
+
+	int m_iXinital;
+	int m_iYinital;
+
 	int m_iX;
 	int m_iY;
 	int m_iLastMoveTurn;

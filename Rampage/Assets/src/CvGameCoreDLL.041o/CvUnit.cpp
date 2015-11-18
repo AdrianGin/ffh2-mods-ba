@@ -129,6 +129,7 @@ void CvUnit::init(int iID, UnitTypes eUnit, UnitAITypes eUnitAI, PlayerTypes eOw
 	//--------------------------------
 	// Init pre-setup() data
 	setXY(iX, iY, false, false);
+	updateInitialPlot(iX, iY);
 
 	//--------------------------------
 	// Init non-saved data
@@ -351,6 +352,8 @@ void CvUnit::reset(int iID, UnitTypes eUnit, PlayerTypes eOwner, bool bConstruct
 	m_iID = iID;
 	m_iGroupID = FFreeList::INVALID_INDEX;
 	m_iHotKeyNumber = -1;
+	m_iXinital = INVALID_PLOT_COORD;
+	m_iYinital = INVALID_PLOT_COORD;
 	m_iX = INVALID_PLOT_COORD;
 	m_iY = INVALID_PLOT_COORD;
 	m_iLastMoveTurn = 0;
@@ -1299,6 +1302,7 @@ void CvUnit::doTurn()
 
 	setMadeAttack(false);
 	setMadeInterception(false);
+	updateInitialPlot(plot()->getX_INLINE(), plot()->getY_INLINE());
 
 	setReconPlot(NULL);
 
@@ -1469,6 +1473,12 @@ void CvUnit::resolveAirCombat(CvUnit* pInterceptor, CvPlot* pPlot, CvAirMissionD
 	kBattle.setDamage(BATTLE_UNIT_DEFENDER, iTheirDamage);
 }
 
+
+void CvUnit::updateInitialPlot(int x, int y)
+{
+	m_iXinital = x;
+	m_iYinital = y;
+}
 
 void CvUnit::updateAirCombat(bool bQuick)
 {
@@ -3415,6 +3425,13 @@ bool CvUnit::canMoveInto(const CvPlot* pPlot, bool bAttack, bool bDeclareWar, bo
 	FAssertMsg(pPlot != NULL, "Plot is not assigned a valid value");
 
 	if (atPlot(pPlot))
+	{
+		return false;
+	}
+
+	int movementLeft = maxMoves()/GC.getMOVE_DENOMINATOR();
+	int distance = plotDistance(pPlot->getX_INLINE(), pPlot->getY_INLINE(), m_iXinital, m_iYinital);
+	if (distance > movementLeft )
 	{
 		return false;
 	}
