@@ -1060,14 +1060,14 @@
 			<FeatureDefenses>
             </FeatureDefenses>
 			<UnitClassAttackMods>
+				<UnitClassAttackMod>
+					<UnitClassType>UNITCLASS_ARCHER</UnitClassType>
+					<iUnitClassMod>100</iUnitClassMod>
+				</UnitClassAttackMod>
             </UnitClassAttackMods>
 			<UnitClassDefenseMods>
             </UnitClassDefenseMods>
 			<UnitCombatMods>
-				<UnitCombatMod>
-					<UnitCombatType>UNITCOMBAT_RANGED</UnitCombatType>
-					<iUnitCombatMod>100</iUnitCombatMod>
-				</UnitCombatMod>
             </UnitCombatMods>
 			<UnitCombatCollateralImmunes>
             </UnitCombatCollateralImmunes>
