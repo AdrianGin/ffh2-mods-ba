@@ -4867,6 +4867,7 @@ m_iGreatWorkCulture(0),
 m_iEspionagePoints(0),
 m_iCombat(0),
 m_iCombatLimit(0),
+m_iArmour(0),
 m_iAirCombat(0),
 m_iAirCombatLimit(0),
 m_iXPValueAttack(0),
@@ -6434,6 +6435,7 @@ void CvUnitInfo::read(FDataStreamBase* stream)
 	stream->Read(&m_iEspionagePoints);
 	stream->Read(&m_iCombat);
 	stream->Read(&m_iCombatLimit);
+	stream->Read(&m_iArmour);
 	stream->Read(&m_iAirCombat);
 	stream->Read(&m_iAirCombatLimit);
 	stream->Read(&m_iXPValueAttack);
@@ -6800,6 +6802,7 @@ void CvUnitInfo::write(FDataStreamBase* stream)
 	stream->Write(m_iEspionagePoints);
 	stream->Write(m_iCombat);
 	stream->Write(m_iCombatLimit);
+	stream->Write(m_iArmour);
 	stream->Write(m_iAirCombat);
 	stream->Write(m_iAirCombatLimit);
 	stream->Write(m_iXPValueAttack);

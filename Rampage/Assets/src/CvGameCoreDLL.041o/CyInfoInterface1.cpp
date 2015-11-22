@@ -228,6 +228,11 @@ void CyInfoPythonInterface1()
 		.def("getTradeMultiplier", &CvUnitInfo::getTradeMultiplier, "int ()")
 		.def("getGreatWorkCulture", &CvUnitInfo::getGreatWorkCulture, "int ()")
 		.def("getEspionagePoints", &CvUnitInfo::getEspionagePoints, "int ()")
+
+		.def("getMaxHitPoints", &CvUnitInfo::getMaxHitPoints, "int ()")
+		.def("getAttackCount", &CvUnitInfo::getAttackCount, "int ()")
+		.def("getArmour", &CvUnitInfo::getArmour, "int ()")
+
 		.def("getCombat", &CvUnitInfo::getCombat, "int ()")
 		.def("setCombat", &CvUnitInfo::setCombat, "void (int)")
 		.def("getCombatLimit", &CvUnitInfo::getCombatLimit, "int ()")

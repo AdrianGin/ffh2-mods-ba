@@ -327,19 +327,21 @@ public:
 
 	DllExport int maxHitPoints() const;																		// Exposed to Python
 	DllExport int currHitPoints() const;																	// Exposed to Python
+	DllExport int armourValue() const;
 	bool isHurt() const;																				// Exposed to Python
 	DllExport bool isDead() const;																				// Exposed to Python
 
 	void setBaseCombatStr(int iCombat);																																										// Exposed to Python
 	int baseCombatStr() const;																																										// Exposed to Python
 	/**** Dexy - Surround and Destroy START ****/
+	int applyModifiers(const CvPlot* pPlot, const CvUnit* pAttacker, CombatDetails* pCombatDetails, bool bSurroundedModifier) const;
 	int maxCombatStr(const CvPlot* pPlot, const CvUnit* pAttacker, CombatDetails* pCombatDetails = NULL, bool bSurroundedModifier = true) const;		// Exposed to Python
 	int currCombatStr(const CvPlot* pPlot, const CvUnit* pAttacker, CombatDetails* pCombatDetails = NULL, bool bSurroundedModifier = true) const;	// Exposed to Python
-	int currEvasionChance(const CvPlot* pPlot, const CvUnit* pAttacker, CombatDetails* pCombatDetails, bool bSurroundedModifier) const;
+	int currEvasionChance(CombatDetails* pCombatDetails) const;
 
 	int unitCombatPower() const;
 	int unitCombatDamage() const;
-	int unitCombatAttacks() const;
+	DllExport int unitCombatAttacks() const;
 
 	int minCombatDamage() const;
 	int avgCombatDamage() const;

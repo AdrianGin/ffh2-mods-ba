@@ -650,6 +650,11 @@ int CyUnit::currHitPoints()
 	return m_pUnit ? m_pUnit->currHitPoints() : -1;
 }
 
+int CyUnit::armourValue()
+{
+	return m_pUnit ? m_pUnit->armourValue() : -1;
+}
+
 bool CyUnit::isHurt()
 {
 	return m_pUnit ? m_pUnit->isHurt() : false;
@@ -666,6 +671,11 @@ void CyUnit::setBaseCombatStr(int iCombat)
 	{
 		m_pUnit->setBaseCombatStr(iCombat);
 	}
+}
+
+int CyUnit::unitCombatAttacks()
+{
+	return m_pUnit ? m_pUnit->unitCombatAttacks() : -1;
 }
 
 int CyUnit::baseCombatStr()

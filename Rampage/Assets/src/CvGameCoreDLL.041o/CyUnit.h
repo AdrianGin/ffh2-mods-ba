@@ -177,9 +177,11 @@ public:
 
 	int maxHitPoints();
 	int currHitPoints();
+	int armourValue();
 	bool isHurt();
 	bool isDead();
 	void setBaseCombatStr(int iCombat);
+	int unitCombatAttacks();
 	int baseCombatStr();
 	int maxCombatStr(CyPlot* pPlot, CyUnit* pAttacker);
 	int currCombatStr(CyPlot* pPlot, CyUnit* pAttacker);
@@ -285,6 +287,8 @@ public:
 
 	int getGameTurnCreated();
 	void setGameTurnCreated(int iNewValue);
+
+
 
 	int getDamage();
 	void setDamage(int iNewValue, int /*PlayerTypes*/ ePlayer);

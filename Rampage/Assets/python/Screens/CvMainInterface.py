@@ -2881,7 +2881,7 @@ class CvMainInterface:
 
 #FfH: Modified by Kael 07/01/2007
 #		screen.addPanel( "SelectedUnitPanel", u"", u"", True, False, 8, yResolution - 140, 280, 130, PanelStyles.PANEL_STYLE_STANDARD )
-		screen.addPanel( "SelectedUnitPanel", u"", u"", True, False, 8, yResolution - 140, 140, 130, PanelStyles.PANEL_STYLE_STANDARD )
+		screen.addPanel( "SelectedUnitPanel", u"", u"", True, False, 8, yResolution - 140, 180, 130, PanelStyles.PANEL_STYLE_STANDARD )
 #FfH: End Modify
 
 		screen.setStyle( "SelectedUnitPanel", "Panel_Game_HudStat_Style" )
@@ -2889,7 +2889,7 @@ class CvMainInterface:
 
 #FfH: Modified by Kael 07/01/2007
 #		screen.addTableControlGFC( "SelectedUnitText", 3, 10, yResolution - 109, 183, 102, False, False, 32, 32, TableStyles.TABLE_STYLE_STANDARD )
-		screen.addTableControlGFC( "SelectedUnitText", 3, 10, yResolution - 109, 153, 102, False, False, 32, 32, TableStyles.TABLE_STYLE_STANDARD )
+		screen.addTableControlGFC( "SelectedUnitText", 3, 10, yResolution - 109, 215, 102, False, False, 32, 32, TableStyles.TABLE_STYLE_STANDARD )
 #FfH: End Modify
 
 
@@ -2954,7 +2954,7 @@ class CvMainInterface:
 #			screen.setTableColumnHeader( "SelectedUnitText", 1, u"", 75 )
 #			screen.setTableColumnHeader( "SelectedUnitText", 2, u"", 10 )
 			screen.setTableColumnHeader( "SelectedUnitText", 0, u"", 85 )
-			screen.setTableColumnHeader( "SelectedUnitText", 1, u"", 75 )
+			screen.setTableColumnHeader( "SelectedUnitText", 1, u"", 110 )
 			screen.setTableColumnHeader( "SelectedUnitText", 2, u"", 10 )
 #FfH: End Modify
 
@@ -3019,25 +3019,45 @@ class CvMainInterface:
 								szRightBuffer = u"%d%c" %(pHeadSelectedUnit.airBaseCombatStr(), CyGame().getSymbolID(FontSymbols.STRENGTH_CHAR))
 					else:
 						if (pHeadSelectedUnit.canFight()):
+							szLeftBuffer = localText.getText("INTERFACE_PANE_HP_ARMOUR", ())
+							if (pHeadSelectedUnit.isHurt()):
+								szRightBuffer = u"%d/%d%c, %d%c " %(pHeadSelectedUnit.currHitPoints(), pHeadSelectedUnit.maxHitPoints(), CyGame().getSymbolID(FontSymbols.HEALTHY_CHAR), pHeadSelectedUnit.armourValue(), CyGame().getSymbolID(FontSymbols.DEFENSE_CHAR))
+								#szRightBuffer = u"%d/%d%c, %d%c " %(pHeadSelectedUnit.currHitPoints(), pHeadSelectedUnit.maxHitPoints(), CyGame().getSymbolID(FontSymbols.HEALTHY_CHAR), pHeadSelectedUnit.armourValue(), CyGame().getSymbolID(FontSymbols.DEFENSE_CHAR))
+							else:
+								#szRightBuffer = u"%d%c, %d%c " %(pHeadSelectedUnit.currHitPoints(), CyGame().getSymbolID(FontSymbols.HEALTHY_CHAR), pHeadSelectedUnit.armourValue(), CyGame().getSymbolID(FontSymbols.DEFENSE_CHAR))
+								szRightBuffer = u"%d%c, %d%c " %(pHeadSelectedUnit.currHitPoints(), CyGame().getSymbolID(FontSymbols.HEALTHY_CHAR), pHeadSelectedUnit.armourValue(), CyGame().getSymbolID(FontSymbols.DEFENSE_CHAR))
+								
+							szBuffer = szLeftBuffer + "  " + szRightBuffer
+							screen.appendTableRow( "SelectedUnitText" )
+							screen.setTableText( "SelectedUnitText", 0, iRow, szLeftBuffer, "", WidgetTypes.WIDGET_HELP_SELECTED, -1, -1, CvUtil.FONT_LEFT_JUSTIFY )
+							screen.setTableText( "SelectedUnitText", 1, iRow, szRightBuffer, "", WidgetTypes.WIDGET_HELP_SELECTED, -1, -1, CvUtil.FONT_RIGHT_JUSTIFY )
+							screen.show( "SelectedUnitText" )
+							screen.show( "SelectedUnitPanel" )
+							iRow += 1
+								
+								
 							szLeftBuffer = localText.getText("INTERFACE_PANE_STRENGTH", ())
+			
 							if (pHeadSelectedUnit.isFighting()):
-								szRightBuffer = u"?/%d%c" %(pHeadSelectedUnit.baseCombatStr(), CyGame().getSymbolID(FontSymbols.STRENGTH_CHAR))
+								szRightBuffer = u"?/%dx%d%c" %(pHeadSelectedUnit.baseCombatStr(), pHeadSelectedUnit.unitCombatAttacks(), CyGame().getSymbolID(FontSymbols.STRENGTH_CHAR))
 
+							else:
+								szRightBuffer = u"%dx%d%c" %(pHeadSelectedUnit.baseCombatStr(), pHeadSelectedUnit.unitCombatAttacks(), CyGame().getSymbolID(FontSymbols.STRENGTH_CHAR))
 #FfH: Modified by Kael 08/18/2007
 #							elif (pHeadSelectedUnit.isHurt()):
 #								szRightBuffer = u"%.1f/%d%c" %(((float(pHeadSelectedUnit.baseCombatStr() * pHeadSelectedUnit.currHitPoints())) / (float(pHeadSelectedUnit.maxHitPoints()))), pHeadSelectedUnit.baseCombatStr(), CyGame().getSymbolID(FontSymbols.STRENGTH_CHAR))
 #							else:
 #								szRightBuffer = u"%d%c" %(pHeadSelectedUnit.baseCombatStr(), CyGame().getSymbolID(FontSymbols.STRENGTH_CHAR))
-							elif (pHeadSelectedUnit.isHurt()):
-								if pHeadSelectedUnit.baseCombatStr() == pHeadSelectedUnit.baseCombatStrDefense():
-									szRightBuffer = u"%.1f/%d%c" %(((float(pHeadSelectedUnit.baseCombatStr() * pHeadSelectedUnit.currHitPoints())) / (float(pHeadSelectedUnit.maxHitPoints()))), pHeadSelectedUnit.baseCombatStr(), CyGame().getSymbolID(FontSymbols.STRENGTH_CHAR))
-								else:
-									szRightBuffer = u"%.1f/%.lf%c" %(((float(pHeadSelectedUnit.baseCombatStr() * pHeadSelectedUnit.currHitPoints())) / (float(pHeadSelectedUnit.maxHitPoints()))), ((float(pHeadSelectedUnit.baseCombatStrDefense() * pHeadSelectedUnit.currHitPoints())) / (float(pHeadSelectedUnit.maxHitPoints()))), CyGame().getSymbolID(FontSymbols.STRENGTH_CHAR))
-							else:
-								if pHeadSelectedUnit.baseCombatStr() == pHeadSelectedUnit.baseCombatStrDefense():
-									szRightBuffer = u"%d%c" %(pHeadSelectedUnit.baseCombatStr(), CyGame().getSymbolID(FontSymbols.STRENGTH_CHAR))
-								else:
-									szRightBuffer = u"%d/%d%c" %(pHeadSelectedUnit.baseCombatStr(), pHeadSelectedUnit.baseCombatStrDefense(), CyGame().getSymbolID(FontSymbols.STRENGTH_CHAR))
+#							elif (pHeadSelectedUnit.isHurt()):
+								#if pHeadSelectedUnit.baseCombatStr() == pHeadSelectedUnit.baseCombatStrDefense():
+								#	szRightBuffer = u"%.1f/%d%c" %(((float(pHeadSelectedUnit.baseCombatStr() * pHeadSelectedUnit.currHitPoints())) / (float(pHeadSelectedUnit.maxHitPoints()))), pHeadSelectedUnit.baseCombatStr(), CyGame().getSymbolID(FontSymbols.STRENGTH_CHAR))
+								#else:
+								#	szRightBuffer = u"%.1f/%.lf%c" %(((float(pHeadSelectedUnit.baseCombatStr() * pHeadSelectedUnit.currHitPoints())) / (float(pHeadSelectedUnit.maxHitPoints()))), ((float(pHeadSelectedUnit.baseCombatStrDefense() * pHeadSelectedUnit.currHitPoints())) / (float(pHeadSelectedUnit.maxHitPoints()))), CyGame().getSymbolID(FontSymbols.STRENGTH_CHAR))
+#							else:
+#								if pHeadSelectedUnit.baseCombatStr() == pHeadSelectedUnit.baseCombatStrDefense():
+#									szRightBuffer = u"%d%c" %(pHeadSelectedUnit.baseCombatStr(), CyGame().getSymbolID(FontSymbols.STRENGTH_CHAR))
+#								else:
+#									szRightBuffer = u"%d/%d%c" %(pHeadSelectedUnit.baseCombatStr(), pHeadSelectedUnit.baseCombatStrDefense(), CyGame().getSymbolID(FontSymbols.STRENGTH_CHAR))
 #FfH: End Modify
 
 					szBuffer = szLeftBuffer + szRightBuffer

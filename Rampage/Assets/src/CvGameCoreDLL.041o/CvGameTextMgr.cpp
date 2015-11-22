@@ -587,8 +587,8 @@ void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szString, const CvUnit* pUnit, 
 				if (pUnit->isHurt())
 				{
 					const float fAttStr = (float)pUnit->baseCombatStr() * (float)pUnit->currHitPoints() / (float)pUnit->maxHitPoints();
-					szTempBuffer.Format(SETCOLR L"%.1f" ENDCOLR L" (%d",
-										TEXT_COLOR(szColor[iDmgLv]), fAttStr, pUnit->baseCombatStr() - iDif);
+					szTempBuffer.Format(SETCOLR L"%d" ENDCOLR L" (%d",
+										TEXT_COLOR(szColor[iDmgLv]), pUnit->currHitPoints(), pUnit->maxHitPoints());
 				}
 				else
 				{
@@ -598,7 +598,7 @@ void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szString, const CvUnit* pUnit, 
 					}
 					else
 					{
-						szTempBuffer.Format(L"%d", pUnit->baseCombatStr());
+						szTempBuffer.Format(L"%d", pUnit->maxHitPoints());
 					}
 				}
 			}
@@ -636,13 +636,19 @@ void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szString, const CvUnit* pUnit, 
 			{
 				szString.append(L")");
 			}
-			szTempBuffer.Format(L"%c, ", gDLL->getSymbolID(STRENGTH_CHAR));
+			szTempBuffer.Format(L"%c, ", gDLL->getSymbolID(HEALTHY_CHAR));
 			szString.append(szTempBuffer);
 /*************************************************************************************************/
 /**	END																							**/
 /*************************************************************************************************/
 
 //FfH: End Modify
+			szTempBuffer.Format(L"%d%c, ", pUnit->armourValue(), gDLL->getSymbolID(DEFENSE_CHAR));
+			szString.append(szTempBuffer);
+
+			szTempBuffer.Format(L"%dx%d%c, ", pUnit->baseCombatStr(), pUnit->unitCombatAttacks(), gDLL->getSymbolID(STRENGTH_CHAR));
+			szString.append(szTempBuffer);
+
 
 		}
 	}
@@ -2735,7 +2741,7 @@ bool CvGameTextMgr::setCombatPlotHelp(CvWStringBuffer &szString, CvPlot* pPlot)
 			if (pAttacker->getDomainType() != DOMAIN_AIR)
 			{
 				CombatDetails cdDefenderDetails;
-				int iCombatOdds = GC.getDefineINT("COMBAT_DIE_SIDES") - (pDefender->currEvasionChance(pPlot, pAttacker, &cdDefenderDetails, 0));
+				int iCombatOdds = GC.getDefineINT("COMBAT_DIE_SIDES") - (pDefender->currEvasionChance(&cdDefenderDetails));
 
 				if (pAttacker->combatLimit() >= GC.getMAX_HIT_POINTS())
 				{
@@ -2753,12 +2759,16 @@ bool CvGameTextMgr::setCombatPlotHelp(CvWStringBuffer &szString, CvPlot* pPlot)
 					}
 					//szString.append(gDLL->getText("TXT_KEY_COMBAT_PLOT_ODDS", szTempBuffer.GetCString()));
 					szString.append(gDLL->getText("TXT_KEY_COLOR_POSITIVE"));
-					szString.append(gDLL->getText("TXT_KEY_COMBAT_PLOT_CHANCE_TO_HIT_ODDS", szTempBuffer.GetCString(), pAttacker->unitCombatDamage(), pAttacker->unitCombatAttacks() , pDefender->currHitPoints()));
+
+
+					int iDamage = pDefender->currCombatStr(NULL, pAttacker, 0, 0);
+
+					szString.append(gDLL->getText("TXT_KEY_COMBAT_PLOT_CHANCE_TO_HIT_ODDS", szTempBuffer.GetCString(), iDamage, pAttacker->unitCombatAttacks() , pDefender->currHitPoints()));
 
 					szString.append(NEWLINE);
 				}
 
-				iCombatOdds = GC.getDefineINT("COMBAT_DIE_SIDES") - (pAttacker->currEvasionChance(NULL, pDefender, &cdDefenderDetails, 0));
+				iCombatOdds = GC.getDefineINT("COMBAT_DIE_SIDES") - (pAttacker->currEvasionChance(&cdDefenderDetails));
 				if (iCombatOdds > 999)
 				{
 					szTempBuffer = L"&gt; 99.9";
@@ -2771,8 +2781,11 @@ bool CvGameTextMgr::setCombatPlotHelp(CvWStringBuffer &szString, CvPlot* pPlot)
 				{
 					szTempBuffer.Format(L"%.1f", ((float)iCombatOdds) / 10.0f);
 				}
+
+				int iDamage = pAttacker->currCombatStr(NULL, pDefender, 0, 0);
+
 				szString.append(gDLL->getText("TXT_KEY_COLOR_NEGATIVE"));
-				szString.append(gDLL->getText("TXT_KEY_COMBAT_PLOT_CHANCE_TO_GET_HIT_ODDS", szTempBuffer.GetCString(), pDefender->unitCombatDamage(), pDefender->unitCombatAttacks(), pAttacker->currHitPoints()));
+				szString.append(gDLL->getText("TXT_KEY_COMBAT_PLOT_CHANCE_TO_GET_HIT_ODDS", szTempBuffer.GetCString(), iDamage, pDefender->unitCombatAttacks(), pAttacker->currHitPoints()));
 					
 					
 
@@ -7863,6 +7876,13 @@ void CvGameTextMgr::setBasicUnitHelp(CvWStringBuffer &szBuffer, UnitTypes eUnit,
 	{
 		szBuffer.append(NEWLINE);
 
+
+		szTempBuffer.Format(L"%d%c, ", GC.getUnitInfo(eUnit).getMaxHitPoints(), gDLL->getSymbolID(HEALTHY_CHAR));
+		szBuffer.append(szTempBuffer);
+
+		szTempBuffer.Format(L"%d%c, ", GC.getUnitInfo(eUnit).getArmour(), gDLL->getSymbolID(DEFENSE_CHAR));
+		szBuffer.append(szTempBuffer);
+
 		if (GC.getUnitInfo(eUnit).getDomainType() == DOMAIN_AIR)
 		{
 			if (GC.getUnitInfo(eUnit).getAirCombat() > 0)
@@ -7875,7 +7895,7 @@ void CvGameTextMgr::setBasicUnitHelp(CvWStringBuffer &szBuffer, UnitTypes eUnit,
 		{
 			if (GC.getUnitInfo(eUnit).getCombat() > 0)
 			{
-				szTempBuffer.Format(L"%d%c, ", GC.getUnitInfo(eUnit).getCombat(), gDLL->getSymbolID(STRENGTH_CHAR));
+				szTempBuffer.Format(L"%dx%d%c, ", GC.getUnitInfo(eUnit).getCombat(), GC.getUnitInfo(eUnit).getAttackCount(), gDLL->getSymbolID(STRENGTH_CHAR));
 				szBuffer.append(szTempBuffer);
 			}
 		}

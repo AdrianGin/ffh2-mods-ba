@@ -155,8 +155,13 @@ void CyUnitPythonInterface2(python::class_<CyUnit>& x)
 		.def("isAttacking", &CyUnit::isAttacking, "bool ()")
 		.def("isDefending", &CyUnit::isDefending, "bool ()")
 		.def("isCombat", &CyUnit::isCombat, "bool ()")
-		.def("maxHitPoints", &CyUnit::maxHitPoints, "bool ()")
-		.def("currHitPoints", &CyUnit::currHitPoints, "bool ()")
+		.def("maxHitPoints", &CyUnit::maxHitPoints, "int ()")
+		.def("currHitPoints", &CyUnit::currHitPoints, "int ()")
+		.def("unitCombatAttacks", &CyUnit::unitCombatAttacks, "int ()")
+		.def("armourValue", &CyUnit::armourValue, "int ()")
+
+			
+
 		.def("isHurt", &CyUnit::isHurt, "bool ()")
 		.def("isDead", &CyUnit::isDead, "bool ()")
 		.def("setBaseCombatStr", &CyUnit::setBaseCombatStr, "void (int)")

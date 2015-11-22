@@ -1702,7 +1702,7 @@ void CvUnit::resolveCombat(CvUnit* pDefender, CvPlot* pPlot, CvBattleDefinition&
 	for( int i = 0; (iDefenderAttackCount != 0) || (iAttackerAttackCount != 0)  ; i++ )
 	//while (true)
 	{
-		int chanceToHit = (GC.getDefineINT("COMBAT_DIE_SIDES") - currEvasionChance(NULL, pDefender, 0, 0));
+		int chanceToHit = (GC.getDefineINT("COMBAT_DIE_SIDES") - currEvasionChance(0));
 		int diceRoll = GC.getGameINLINE().getSorenRandNum(GC.getDefineINT("COMBAT_DIE_SIDES"), "Combat");
 		if( iDefenderAttackCount )
 		{
@@ -1712,7 +1712,7 @@ void CvUnit::resolveCombat(CvUnit* pDefender, CvPlot* pPlot, CvBattleDefinition&
 			if (diceRoll < chanceToHit )
 			{
 				//Defender wins here
-				iAttackerDamage = pDefender->baseCombatStr();
+				iAttackerDamage = maxCombatStr(NULL, pDefender, 0, 0);
 
 				if (getCombatFirstStrikes() == 0)
 				{
@@ -1789,12 +1789,14 @@ void CvUnit::resolveCombat(CvUnit* pDefender, CvPlot* pPlot, CvBattleDefinition&
 		{
 			iAttackerAttackCount--;
 
-			chanceToHit = (GC.getDefineINT("COMBAT_DIE_SIDES") - pDefender->currEvasionChance(pPlot, this, 0, 0) );
+			chanceToHit = (GC.getDefineINT("COMBAT_DIE_SIDES") - pDefender->currEvasionChance(0) );
 			diceRoll = GC.getGameINLINE().getSorenRandNum(GC.getDefineINT("COMBAT_DIE_SIDES"), "Combat");
 			if (diceRoll < chanceToHit)
 			{
 
-				iDefenderDamage = baseCombatStr();
+				iDefenderDamage = pDefender->maxCombatStr(NULL, this, 0, 0);
+
+				//iDefenderDamage = baseCombatStr();
 
 				//Attacker wins here
 				if (pDefender->getCombatFirstStrikes() == 0)
@@ -9503,6 +9505,12 @@ int CvUnit::currHitPoints()	const
 	return (maxHitPoints() - getDamage());
 }
 
+int CvUnit::armourValue()	const
+{
+	return m_pUnitInfo->getArmour();
+}
+
+
 
 bool CvUnit::isHurt() const
 {
@@ -9556,37 +9564,10 @@ int CvUnit::baseCombatStrDefense() const
 }
 //FfH: End Add
 
-// maxCombatStr can be called in four different configurations
-//		pPlot == NULL, pAttacker == NULL for combat when this is the attacker
-//		pPlot valid, pAttacker valid for combat when this is the defender
-/**** Dexy - Surround and Destroy START ****/
-//		pPlot == NULL, pAttacker valid for combat when this is the defender, attacker is just surrounding us (then defender gets no plot defensive bonuses)
-/**** Dexy - Surround and Destroy  END  ****/
-//		pPlot valid, pAttacker == NULL (new case), when this is the defender, attacker unknown
-//		pPlot valid, pAttacker == this (new case), when the defender is unknown, but we want to calc approx str
-//			note, in this last case, it is expected pCombatDetails == NULL, it does not have to be, but some 
-//			values may be unexpectedly reversed in this case (iModifierTotal will be the negative sum)
-/**** Dexy - Surround and Destroy START ****/
-int CvUnit::maxCombatStr(const CvPlot* pPlot, const CvUnit* pAttacker, CombatDetails* pCombatDetails, bool bSurroundedModifier) const
-// OLD CODE
-// int CvUnit::maxCombatStr(const CvPlot* pPlot, const CvUnit* pAttacker, CombatDetails* pCombatDetails) const
-/**** Dexy - Surround and Destroy  END  ****/
+
+int CvUnit::applyModifiers(const CvPlot* pPlot, const CvUnit* pAttacker, CombatDetails* pCombatDetails, bool bSurroundedModifier) const
 {
 	int iCombat;
-
-//FfH Damage Types: Added by Kael 09/02/2007
-    const CvUnit* pDefender = NULL;
-    if (pPlot == NULL)
-    {
-        if (pAttacker != NULL)
-        {
-            pDefender = pAttacker;
-            pAttacker = NULL;
-        }
-    }
-//FfH: End Add
-
-	FAssertMsg((pPlot == NULL) || (pPlot->getTerrainType() != NO_TERRAIN), "(pPlot == NULL) || (pPlot->getTerrainType() is not expected to be equal with NO_TERRAIN)");
 
 	// handle our new special case
 	const	CvPlot*	pAttackedPlot = NULL;
@@ -9605,6 +9586,7 @@ int CvUnit::maxCombatStr(const CvPlot* pPlot, const CvUnit* pAttacker, CombatDet
 	{
 		pAttackedPlot = plot();
 	}
+
 
 	if (pCombatDetails != NULL)
 	{
@@ -9651,29 +9633,7 @@ int CvUnit::maxCombatStr(const CvPlot* pPlot, const CvUnit* pAttacker, CombatDet
 		pCombatDetails->eVisualOwner = getVisualOwner();
 		pCombatDetails->sUnitName = getName().GetCString();
 	}
-
-//FfH Defense Str: Modified by Kael 08/18/2007
-//	if (baseCombatStr() == 0)
-//	{
-//		return 0;
-//	}
-    int iStr;
-    if ((pAttacker == NULL && pPlot == NULL) || pAttacker == this)
-    {
-		iStr = this->getUnitInfo().getDexterity();
-        //iStr = baseCombatStr();
-    }
-    else
-    {
-        iStr = this->getUnitInfo().getDexterity();
-		//iStr = baseCombatStrDefense();
-    }
-
-	if (iStr == 0)
-	{
-		return 0;
-	}
-//FfH: End Modify
+	//FfH: End Modify
 
 	int iModifier = 0;
 	int iExtraModifier;
@@ -9772,10 +9732,10 @@ int CvUnit::maxCombatStr(const CvPlot* pPlot, const CvUnit* pAttacker, CombatDet
 				if (pCombatDetails != NULL)
 				{
 
-//FfH: Modified by Kael 07/31/2008
-//					pCombatDetails->iAIBarbarianCombatModifierTB = iExtraModifier;
+					//FfH: Modified by Kael 07/31/2008
+					//					pCombatDetails->iAIBarbarianCombatModifierTB = iExtraModifier;
 					pCombatDetails->iAIBarbarianCombatModifierAB = iExtraModifier;
-//FfH: End Modify
+					//FfH: End Modify
 
 				}
 			}
@@ -9849,18 +9809,18 @@ int CvUnit::maxCombatStr(const CvPlot* pPlot, const CvUnit* pAttacker, CombatDet
 	}
 
 	// calc attacker bonueses
-/************************************************************************************************/
-/* UNOFFICIAL_PATCH                       09/20/09                                jdog5000      */
-/*                                                                                              */
-/* Bugfix                                                                                       */
-/************************************************************************************************/
-/* original code
+	/************************************************************************************************/
+	/* UNOFFICIAL_PATCH                       09/20/09                                jdog5000      */
+	/*                                                                                              */
+	/* Bugfix                                                                                       */
+	/************************************************************************************************/
+	/* original code
 	if (pAttacker != NULL)
-*/
+	*/
 	if (pAttacker != NULL && pAttackedPlot != NULL)
-/************************************************************************************************/
-/* UNOFFICIAL_PATCH                        END                                                  */
-/************************************************************************************************/
+		/************************************************************************************************/
+		/* UNOFFICIAL_PATCH                        END                                                  */
+		/************************************************************************************************/
 	{
 		int iTempModifier = 0;
 
@@ -9918,33 +9878,33 @@ int CvUnit::maxCombatStr(const CvPlot* pPlot, const CvUnit* pAttacker, CombatDet
 		{
 			FAssertMsg(pAttacker != this, "pAttacker is not expected to be equal with this");
 
-//FfH Promotions: Added by Kael 08/13/2007
-            for (int iJ=0;iJ<GC.getNumPromotionInfos();iJ++)
-            {
-                if ((isHasPromotion((PromotionTypes)iJ)) && (GC.getPromotionInfo((PromotionTypes)iJ).getPromotionCombatMod()>0))
-                {
-                    if (pAttacker->isHasPromotion((PromotionTypes)GC.getPromotionInfo((PromotionTypes)iJ).getPromotionCombatType()))
-                    {
-                        iModifier += GC.getPromotionInfo((PromotionTypes)iJ).getPromotionCombatMod();
-                    }
-                }
-                if ((pAttacker->isHasPromotion((PromotionTypes)iJ)) && (GC.getPromotionInfo((PromotionTypes)iJ).getPromotionCombatMod() > 0))
-                {
-                    if (isHasPromotion((PromotionTypes)GC.getPromotionInfo((PromotionTypes)iJ).getPromotionCombatType()))
-                    {
-                        iModifier -= GC.getPromotionInfo((PromotionTypes)iJ).getPromotionCombatMod();
-                    }
-                }
-            }
-            if (GC.getGameINLINE().getGlobalCounter() * getCombatPercentGlobalCounter() / 100 != 0)
-            {
-                iModifier += GC.getGameINLINE().getGlobalCounter() * getCombatPercentGlobalCounter() / 100;
-            }
-            if (GC.getGameINLINE().getGlobalCounter() * pAttacker->getCombatPercentGlobalCounter() / 100 != 0)
-            {
-                iModifier -= GC.getGameINLINE().getGlobalCounter() * pAttacker->getCombatPercentGlobalCounter() / 100;
-            }
-//FfH: End Add
+			//FfH Promotions: Added by Kael 08/13/2007
+			for (int iJ = 0; iJ<GC.getNumPromotionInfos(); iJ++)
+			{
+				if ((isHasPromotion((PromotionTypes)iJ)) && (GC.getPromotionInfo((PromotionTypes)iJ).getPromotionCombatMod()>0))
+				{
+					if (pAttacker->isHasPromotion((PromotionTypes)GC.getPromotionInfo((PromotionTypes)iJ).getPromotionCombatType()))
+					{
+						iModifier += GC.getPromotionInfo((PromotionTypes)iJ).getPromotionCombatMod();
+					}
+				}
+				if ((pAttacker->isHasPromotion((PromotionTypes)iJ)) && (GC.getPromotionInfo((PromotionTypes)iJ).getPromotionCombatMod() > 0))
+				{
+					if (isHasPromotion((PromotionTypes)GC.getPromotionInfo((PromotionTypes)iJ).getPromotionCombatType()))
+					{
+						iModifier -= GC.getPromotionInfo((PromotionTypes)iJ).getPromotionCombatMod();
+					}
+				}
+			}
+			if (GC.getGameINLINE().getGlobalCounter() * getCombatPercentGlobalCounter() / 100 != 0)
+			{
+				iModifier += GC.getGameINLINE().getGlobalCounter() * getCombatPercentGlobalCounter() / 100;
+			}
+			if (GC.getGameINLINE().getGlobalCounter() * pAttacker->getCombatPercentGlobalCounter() / 100 != 0)
+			{
+				iModifier -= GC.getGameINLINE().getGlobalCounter() * pAttacker->getCombatPercentGlobalCounter() / 100;
+			}
+			//FfH: End Add
 
 			iExtraModifier = unitClassDefenseModifier(pAttacker->getUnitClassType());
 			iTempModifier += iExtraModifier;
@@ -10071,66 +10031,158 @@ int CvUnit::maxCombatStr(const CvPlot* pPlot, const CvUnit* pAttacker, CombatDet
 		}
 	}
 
-//FfH Defense Str: Modified by Kael 08/18/2007
-//	if (pCombatDetails != NULL)
-//	{
-//		pCombatDetails->iModifierTotal = iModifier;
-//		pCombatDetails->iBaseCombatStr = baseCombatStr();
-//	}
-//
-//	if (iModifier > 0)
-//	{
-//		iCombat = (baseCombatStr() * (iModifier + 100));
-//	}
-//	else
-//	{
-//		iCombat = ((baseCombatStr() * 10000) / (100 - iModifier));
-//  }
-    if (pCombatDetails != NULL)
-    {
-        pCombatDetails->iModifierTotal = iModifier;
-        pCombatDetails->iBaseCombatStr = iStr;
-    }
+	//FfH Defense Str: Modified by Kael 08/18/2007
+	//	if (pCombatDetails != NULL)
+	//	{
+	//		pCombatDetails->iModifierTotal = iModifier;
+	//		pCombatDetails->iBaseCombatStr = baseCombatStr();
+	//	}
+	//
+	//	if (iModifier > 0)
+	//	{
+	//		iCombat = (baseCombatStr() * (iModifier + 100));
+	//	}
+	//	else
+	//	{
+	//		iCombat = ((baseCombatStr() * 10000) / (100 - iModifier));
+	//  }
 
-    iStr *= 100;
-    if (pAttacker != NULL)
-    {
-        for (int iI = 0; iI < GC.getNumDamageTypeInfos(); iI++)
-        {
-            if (getDamageTypeCombat((DamageTypes) iI) != 0)
-            {
-                if (pAttacker->getDamageTypeResist((DamageTypes) iI) != 0)
-                {
-                    iStr -= getDamageTypeCombat((DamageTypes) iI) * 100;
-                    iStr += getDamageTypeCombat((DamageTypes) iI) * (100 - pAttacker->getDamageTypeResist((DamageTypes) iI));
-                }
-            }
-        }
-    }
-    if (pDefender != NULL)
-    {
-        for (int iI = 0; iI < GC.getNumDamageTypeInfos(); iI++)
-        {
-            if (getDamageTypeCombat((DamageTypes) iI) != 0)
-            {
-                if (pDefender->getDamageTypeResist((DamageTypes) iI) != 0)
-                {
-                    iStr -= getDamageTypeCombat((DamageTypes) iI) * 100;
-                    iStr += getDamageTypeCombat((DamageTypes) iI) * (100 - pDefender->getDamageTypeResist((DamageTypes) iI));
-                }
-            }
-        }
-    }
+	return iModifier;
+	
+}
 
-    if (iModifier > 0)
+
+
+// maxCombatStr can be called in four different configurations
+//		pPlot == NULL, pAttacker == NULL for combat when this is the attacker
+//		pPlot valid, pAttacker valid for combat when this is the defender
+/**** Dexy - Surround and Destroy START ****/
+//		pPlot == NULL, pAttacker valid for combat when this is the defender, attacker is just surrounding us (then defender gets no plot defensive bonuses)
+/**** Dexy - Surround and Destroy  END  ****/
+//		pPlot valid, pAttacker == NULL (new case), when this is the defender, attacker unknown
+//		pPlot valid, pAttacker == this (new case), when the defender is unknown, but we want to calc approx str
+//			note, in this last case, it is expected pCombatDetails == NULL, it does not have to be, but some 
+//			values may be unexpectedly reversed in this case (iModifierTotal will be the negative sum)
+/**** Dexy - Surround and Destroy START ****/
+int CvUnit::maxCombatStr(const CvPlot* pPlot, const CvUnit* pAttacker, CombatDetails* pCombatDetails, bool bSurroundedModifier) const
+// OLD CODE
+// int CvUnit::maxCombatStr(const CvPlot* pPlot, const CvUnit* pAttacker, CombatDetails* pCombatDetails) const
+/**** Dexy - Surround and Destroy  END  ****/
+{
+	int iCombat;
+	int iModifier = 0;
+	int iExtraModifier;
+//FfH Damage Types: Added by Kael 09/02/2007
+    const CvUnit* pDefender = NULL;
+    /*if (pPlot == NULL)
     {
-        iCombat = (iStr + (iModifier * 100));
-    }
-    else
-    {
-        iCombat = (iStr +  (iModifier * 100));
-    }
-//FfH: End Modify
+        if (pAttacker != NULL)
+        {
+            pDefender = pAttacker;
+            pAttacker = NULL;
+        }
+    }*/
+//FfH: End Add
+
+	FAssertMsg((pPlot == NULL) || (pPlot->getTerrainType() != NO_TERRAIN), "(pPlot == NULL) || (pPlot->getTerrainType() is not expected to be equal with NO_TERRAIN)");
+
+	// handle our new special case
+	const	CvPlot*	pAttackedPlot = NULL;
+	bool	bAttackingUnknownDefender = false;
+	if (pAttacker == this)
+	{
+		bAttackingUnknownDefender = true;
+		pAttackedPlot = pPlot;
+
+		// reset these values, we will fiddle with them below
+		pPlot = NULL;
+		pAttacker = NULL;
+	}
+	// otherwise, attack plot is the plot of us (the defender)
+	else if (pAttacker != NULL)
+	{
+		pAttackedPlot = plot();
+	}
+
+	//FfH Defense Str: Modified by Kael 08/18/2007
+	//	if (baseCombatStr() == 0)
+	//	{
+	//		return 0;
+	//	}
+	int iStr;
+	if ((pAttacker == NULL && pPlot == NULL) || pAttacker == this)
+	{
+		//iStr = this->getUnitInfo().getDexterity();
+		iStr = baseCombatStr();
+	}
+	else
+	{
+		if(pAttacker == NULL)
+		{
+			iStr = baseCombatStr();
+		}
+		else
+		{ 
+			iStr = pAttacker->baseCombatStr() - armourValue();
+			iStr = std::max(1, iStr);
+		}
+		//iStr = this->getUnitInfo().getDexterity();
+		//iStr = baseCombatStrDefense();
+	}
+
+	if (iStr <= 0)
+	{
+		return 0;
+	}
+
+	if (pCombatDetails != NULL)
+	{
+		pCombatDetails->iModifierTotal = iModifier;
+		pCombatDetails->iBaseCombatStr = iStr;
+	}
+
+	iModifier = -applyModifiers(pPlot, pAttacker, pCombatDetails, bSurroundedModifier);
+
+
+	if (pAttacker != NULL)
+	{
+		for (int iI = 0; iI < GC.getNumDamageTypeInfos(); iI++)
+		{
+			if (getDamageTypeCombat((DamageTypes)iI) != 0)
+			{
+				if (pAttacker->getDamageTypeResist((DamageTypes)iI) != 0)
+				{
+					iStr -= getDamageTypeCombat((DamageTypes)iI) * 100;
+					iStr += getDamageTypeCombat((DamageTypes)iI) * (100 - pAttacker->getDamageTypeResist((DamageTypes)iI));
+				}
+			}
+		}
+	}
+	if (pDefender != NULL)
+	{
+		for (int iI = 0; iI < GC.getNumDamageTypeInfos(); iI++)
+		{
+			if (getDamageTypeCombat((DamageTypes)iI) != 0)
+			{
+				if (pDefender->getDamageTypeResist((DamageTypes)iI) != 0)
+				{
+					iStr -= getDamageTypeCombat((DamageTypes)iI) * 100;
+					iStr += getDamageTypeCombat((DamageTypes)iI) * (100 - pDefender->getDamageTypeResist((DamageTypes)iI));
+				}
+			}
+		}
+	}
+
+
+	if (iModifier > 0)
+	{
+		iCombat = (iStr + ((iStr * iModifier) / 100));
+	}
+	else
+	{
+		iCombat = (iStr + ((iStr * iModifier) / 100));
+	}
+	//FfH: End Modify
 
 	if (pCombatDetails != NULL)
 	{
@@ -10152,10 +10204,66 @@ int CvUnit::currCombatStr(const CvPlot* pPlot, const CvUnit* pAttacker, CombatDe
 	return maxCombatStr(pPlot, pAttacker, pCombatDetails, bSurroundedModifier);
 }
 
-int CvUnit::currEvasionChance(const CvPlot* pPlot, const CvUnit* pAttacker, CombatDetails* pCombatDetails, bool bSurroundedModifier) const
+int CvUnit::currEvasionChance(CombatDetails* pCombatDetails) const
 {
-	//return ((maxCombatStr(pPlot, pAttacker, pCombatDetails, bSurroundedModifier) * currHitPoints()) / maxHitPoints());
-	return maxCombatStr(pPlot, pAttacker, pCombatDetails, bSurroundedModifier) / 10;
+	int iCombat;
+	int iModifier = 0;
+	int iExtraModifier;
+	//FfH Damage Types: Added by Kael 09/02/2007
+	const CvUnit* pDefender = this;
+	const CvPlot* pPlot = plot();
+	//FfH: End Add
+
+	FAssertMsg((pPlot == NULL) || (pPlot->getTerrainType() != NO_TERRAIN), "(pPlot == NULL) || (pPlot->getTerrainType() is not expected to be equal with NO_TERRAIN)");
+
+	// handle our new special case
+	const	CvPlot*	pAttackedPlot = NULL;
+	bool	bAttackingUnknownDefender = false;
+	
+
+	//FfH Defense Str: Modified by Kael 08/18/2007
+	//	if (baseCombatStr() == 0)
+	//	{
+	//		return 0;
+	//	}
+	int iStr;
+	iStr = this->getUnitInfo().getDexterity();
+
+	if (iStr == 0)
+	{
+		return 0;
+	}
+
+	iModifier = applyModifiers(pPlot, NULL, pCombatDetails, 0);
+	
+	if (pCombatDetails != NULL)
+	{
+		pCombatDetails->iModifierTotal = iModifier;
+		pCombatDetails->iBaseCombatStr = iStr;
+	}
+
+	iStr *= 100;
+
+	if (iModifier > 0)
+	{
+		iCombat = (iStr + (iModifier * 100));
+	}
+	else
+	{
+		iCombat = (iStr + (iModifier * 100));
+	}
+	//FfH: End Modify
+
+	if (pCombatDetails != NULL)
+	{
+		pCombatDetails->iCombat = iCombat;
+		pCombatDetails->iMaxCombatStr = std::max(1, iCombat);
+		pCombatDetails->iCurrHitPoints = currHitPoints();
+		pCombatDetails->iMaxHitPoints = maxHitPoints();
+		pCombatDetails->iCurrCombatStr = ((pCombatDetails->iMaxCombatStr * pCombatDetails->iCurrHitPoints) / pCombatDetails->iMaxHitPoints);
+	}
+
+	return std::max(1, iCombat / 10);
 }
 // OLD CODE
 // int CvUnit::currCombatStr(const CvPlot* pPlot, const CvUnit* pAttacker, CombatDetails* pCombatDetails) const
@@ -10532,7 +10640,7 @@ int CvUnit::rangeCombatDamage(const CvUnit* pDefender) const
 
 	//iDamage = std::max(1, ((GC.getDefineINT("RANGE_COMBAT_DAMAGE") * (iOurStrength + iStrengthFactor)) / (iTheirStrength + iStrengthFactor)));
 
-	iDamage = airBaseCombatStr();
+	iDamage = std::max(airBaseCombatStr() - pDefender->armourValue(), 1);
 
 
 
@@ -19177,8 +19285,8 @@ bool CvUnit::rangeStrike(int iX, int iY)
 		if (isHuman() || pDefender->isHuman())
 		{
 
-			currEvasionChance(pPlot, this, &cdAttackerDetails, 0);
-			pDefender->currEvasionChance(pPlot, this, &cdDefenderDetails, 0);
+			currEvasionChance(&cdAttackerDetails);
+			pDefender->currEvasionChance(&cdDefenderDetails);
 
 			cdAttackerDetails.eOwner = getOwnerINLINE();
 			cdAttackerDetails.eVisualOwner = getVisualOwner();
@@ -19217,7 +19325,7 @@ bool CvUnit::rangeStrike(int iX, int iY)
 		{
 			iAttackerAttackCount--;
 
-			chanceToHit = (GC.getDefineINT("COMBAT_DIE_SIDES") - pDefender->currEvasionChance(pPlot, this, 0, 0));
+			chanceToHit = (GC.getDefineINT("COMBAT_DIE_SIDES") - pDefender->currEvasionChance(0));
 			diceRoll = GC.getGameINLINE().getSorenRandNum(GC.getDefineINT("COMBAT_DIE_SIDES"), "Combat");
 			if (diceRoll < chanceToHit)
 			{
