@@ -2636,6 +2636,31 @@ bool CvUnit::isActionRecommended(int iAction)
 	return false;
 }
 
+int CvUnit::combatEffectiveness(const CvUnit* pAttacker) const
+{
+	int multiplier = 1;
+
+	if( pAttacker != NULL )
+	{
+		int iAttackerDamage = pAttacker->maxCombatStr(NULL, this, 0, 0);
+		int iDefenderDamage = maxCombatStr(NULL, pAttacker, 0, 0);;
+
+		int roundsToKillDefender = std::max(1, (currHitPoints() * multiplier) / iDefenderDamage);
+		int roundsToKillAttacker = std::max(1, (pAttacker->currHitPoints() * multiplier) / iAttackerDamage);
+
+		int chanceToHitDefender = (GC.getDefineINT("COMBAT_DIE_SIDES") - currEvasionChance(0));
+		int chanceToHitAttacker = (GC.getDefineINT("COMBAT_DIE_SIDES") - pAttacker->currEvasionChance(0));
+
+		int numerator = (chanceToHitAttacker * unitCombatAttacks() * roundsToKillDefender * chanceToHitDefender) * pAttacker->unitCombatAttacks();
+		int denominator = roundsToKillAttacker;
+
+		return numerator / denominator;
+	}
+
+	return 0;
+
+}
+
 
 bool CvUnit::isBetterDefenderThan(const CvUnit* pDefender, const CvUnit* pAttacker) const
 {
@@ -2690,6 +2715,20 @@ bool CvUnit::isBetterDefenderThan(const CvUnit* pDefender, const CvUnit* pAttack
 			return true;
 		}
 	}
+
+	int thisCombatEffectiveness = combatEffectiveness(pAttacker);
+	int DefenderCombatEffectiveness = pDefender->combatEffectiveness(pAttacker);
+
+
+	return thisCombatEffectiveness > DefenderCombatEffectiveness ? true : false;
+
+
+
+
+
+
+
+
 	//Do not test surroundBonus for this tests. Hack in Surround Test
 	//iOurDefense = currCombatStr(plot(), pAttacker, NULL, false);
 	iOurDefense = currCombatStr(plot(), pAttacker);

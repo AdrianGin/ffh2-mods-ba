@@ -92,6 +92,7 @@ public:
 
 	bool isActionRecommended(int iAction);
 
+	int combatEffectiveness(const CvUnit* pDefender) const;
 	bool isBetterDefenderThan(const CvUnit* pDefender, const CvUnit* pAttacker) const;						// Exposed to Python
 
 	bool canDoCommand(CommandTypes eCommand, int iData1, int iData2, bool bTestVisible = false, bool bTestBusy = true);	// Exposed to Python
