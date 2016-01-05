@@ -140,7 +140,7 @@
 			<HillsYieldChange/>
 			<iMovement>2</iMovement>
 			<!-- VKs Plot Capacity-->
-			<iUnitPlotSupport>-20</iUnitPlotSupport>
+			<iUnitPlotSupport>0</iUnitPlotSupport>
 			<iSeeThrough>1</iSeeThrough>
 			<iHealthPercent>-25</iHealthPercent>
 			<iDefense>10</iDefense>
@@ -260,7 +260,7 @@
 			<HillsYieldChange/>
 			<iMovement>2</iMovement>
 			<!-- VKs Plot Capacity-->
-			<iUnitPlotSupport>40</iUnitPlotSupport>
+			<iUnitPlotSupport>0</iUnitPlotSupport>
 			<iSeeThrough>1</iSeeThrough>
 			<iHealthPercent>0</iHealthPercent>
 			<iDefense>0</iDefense>
@@ -384,7 +384,7 @@
 			<HillsYieldChange/>
 			<iMovement>1</iMovement>
 			<!-- VKs Plot Capacity-->
-			<iUnitPlotSupport>20</iUnitPlotSupport>
+			<iUnitPlotSupport>0</iUnitPlotSupport>
 			<iSeeThrough>0</iSeeThrough>
 			<iHealthPercent>-40</iHealthPercent>
 			<iDefense>0</iDefense>
@@ -503,7 +503,7 @@
 			<HillsYieldChange/>
 			<iMovement>2</iMovement>
 			<!-- VKs Plot Capacity-->
-			<iUnitPlotSupport>-20</iUnitPlotSupport>
+			<iUnitPlotSupport>0</iUnitPlotSupport>
 			<iSeeThrough>1</iSeeThrough>
 			<iHealthPercent>50</iHealthPercent>
 			<iDefense>10</iDefense>
@@ -750,7 +750,7 @@
 			<HillsYieldChange/>
 			<iMovement>1</iMovement>
 			<!-- VKs Plot Capacity-->
-			<iUnitPlotSupport>-20</iUnitPlotSupport>
+			<iUnitPlotSupport>0</iUnitPlotSupport>
 			<iSeeThrough>1</iSeeThrough>
 			<iHealthPercent>0</iHealthPercent>
 			<iDefense>0</iDefense>

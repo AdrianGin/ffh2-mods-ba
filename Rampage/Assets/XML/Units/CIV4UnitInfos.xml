@@ -117,7 +117,7 @@
 			<iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>3</iMoves>
-			<iUnitPlotCost>20</iUnitPlotCost>
+			<iUnitPlotCost>50</iUnitPlotCost>
 			<bNoRevealMap>0</bNoRevealMap>
 			<iAirRangeMin>0</iAirRangeMin>
 			<iAirRange>0</iAirRange>
@@ -336,7 +336,7 @@
 			<iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>3</iMoves>
-			<iUnitPlotCost>20</iUnitPlotCost>
+			<iUnitPlotCost>50</iUnitPlotCost>
 			<bNoRevealMap>0</bNoRevealMap>
 			<iAirRangeMin>0</iAirRangeMin>
 			<iAirRange>0</iAirRange>
@@ -559,7 +559,7 @@
 			<iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>3</iMoves>
-			<iUnitPlotCost>20</iUnitPlotCost>
+			<iUnitPlotCost>50</iUnitPlotCost>
 			<bNoRevealMap>0</bNoRevealMap>
 			<iAirRangeMin>0</iAirRangeMin>
 			<iAirRange>0</iAirRange>
@@ -997,7 +997,7 @@
 			<iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>3</iMoves>
-			<iUnitPlotCost>20</iUnitPlotCost>
+			<iUnitPlotCost>50</iUnitPlotCost>
 			<bNoRevealMap>0</bNoRevealMap>
 			<iAirRangeMin>1</iAirRangeMin>
 			<iAirRange>2</iAirRange>
@@ -1216,7 +1216,7 @@
 			<iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>5</iMoves>
-			<iUnitPlotCost>20</iUnitPlotCost>
+			<iUnitPlotCost>50</iUnitPlotCost>
 			<bNoRevealMap>0</bNoRevealMap>
 			<iAirRangeMin>0</iAirRangeMin>
 			<iAirRange>0</iAirRange>
@@ -1439,7 +1439,7 @@
 			<iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>3</iMoves>
-			<iUnitPlotCost>20</iUnitPlotCost>
+			<iUnitPlotCost>50</iUnitPlotCost>
 			<bNoRevealMap>0</bNoRevealMap>
 			<iAirRangeMin>1</iAirRangeMin>
 			<iAirRange>3</iAirRange>
@@ -1658,7 +1658,7 @@
 			<iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>3</iMoves>
-			<iUnitPlotCost>20</iUnitPlotCost>
+			<iUnitPlotCost>50</iUnitPlotCost>
 			<bNoRevealMap>0</bNoRevealMap>
 			<iAirRangeMin>1</iAirRangeMin>
 			<iAirRange>2</iAirRange>
@@ -1877,7 +1877,7 @@
 			<iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
-			<iUnitPlotCost>20</iUnitPlotCost>
+			<iUnitPlotCost>50</iUnitPlotCost>
 			<bNoRevealMap>0</bNoRevealMap>
 			<iAirRangeMin>3</iAirRangeMin>
 			<iAirRange>5</iAirRange>
@@ -2096,7 +2096,7 @@
 			<iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
-			<iUnitPlotCost>20</iUnitPlotCost>
+			<iUnitPlotCost>50</iUnitPlotCost>
 			<bNoRevealMap>0</bNoRevealMap>
 			<iAirRangeMin>4</iAirRangeMin>
 			<iAirRange>6</iAirRange>

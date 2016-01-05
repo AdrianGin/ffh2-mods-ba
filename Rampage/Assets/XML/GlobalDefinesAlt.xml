@@ -433,7 +433,7 @@
 	</Define>
 	<Define>
 		<DefineName>City_Unit_Capacity</DefineName>
-	        <iDefineIntVal>120</iDefineIntVal>
+	        <iDefineIntVal>200</iDefineIntVal>
 	</Define>
         <Define>
                 <DefineName>AIR_SPACE_CAPACITY</DefineName>
@@ -441,7 +441,7 @@
         </Define>
 	<Define>
 		<DefineName>HILLS_CAPACITY_MODIFIER</DefineName>
-		<iDefineIntVal>-20</iDefineIntVal>
+		<iDefineIntVal>0</iDefineIntVal>
 	</Define>
         <Define>
                 <DefineName>CITY_POPULATION_CAPACITY_DIVISOR</DefineName>
@@ -449,7 +449,7 @@
         </Define>
         <Define>
                 <DefineName>CITY_POPULATION_CAPACITY_FACTOR</DefineName>
-                <iDefineIntVal>20</iDefineIntVal>
+                <iDefineIntVal>50</iDefineIntVal>
         </Define>
 	<!-- Dexy - Surround and Destroy  END  -->
 	    <Define>

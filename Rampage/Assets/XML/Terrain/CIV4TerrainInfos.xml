@@ -691,7 +691,7 @@
 			<bFoundFreshWater>0</bFoundFreshWater>
 			<iMovement>2</iMovement>
 			<!-- VKs Plot Capacity-->
-			<iUnitPlotSupport>80</iUnitPlotSupport>
+			<iUnitPlotSupport>100</iUnitPlotSupport>
 			<iSeeFrom>1</iSeeFrom>
 			<iSeeThrough>1</iSeeThrough>
 			<iBuildModifier>25</iBuildModifier>
@@ -854,7 +854,7 @@
 			<bFoundFreshWater>0</bFoundFreshWater>
 			<iMovement>1</iMovement>
 			<!-- VKs Plot Capacity-->
-			<iUnitPlotSupport>80</iUnitPlotSupport>
+			<iUnitPlotSupport>100</iUnitPlotSupport>
 			<iSeeFrom>1</iSeeFrom>
 			<iSeeThrough>1</iSeeThrough>
 			<iBuildModifier>25</iBuildModifier>
@@ -1009,7 +1009,7 @@
 			<bFoundFreshWater>0</bFoundFreshWater>
 			<iMovement>2</iMovement>
 			<!-- VKs Plot Capacity-->
-			<iUnitPlotSupport>80</iUnitPlotSupport>
+			<iUnitPlotSupport>100</iUnitPlotSupport>
 			<iSeeFrom>1</iSeeFrom>
 			<iSeeThrough>1</iSeeThrough>
 			<iBuildModifier>50</iBuildModifier>
@@ -1166,7 +1166,7 @@
 			<bFoundFreshWater>0</bFoundFreshWater>
 			<iMovement>1</iMovement>
 			<!-- VKs Plot Capacity-->
-			<iUnitPlotSupport>60</iUnitPlotSupport>
+			<iUnitPlotSupport>100</iUnitPlotSupport>
 			<iSeeFrom>0</iSeeFrom>
 			<iSeeThrough>0</iSeeThrough>
 			<iBuildModifier>0</iBuildModifier>
