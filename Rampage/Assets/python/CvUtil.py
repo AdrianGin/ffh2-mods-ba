@@ -354,11 +354,11 @@ def combatMessageBuilder(cdAttacker, cdDefender, iCombatOdds):
 	combatMessage = ""
 	if (cdAttacker.eOwner == cdAttacker.eVisualOwner):
 		combatMessage += "%s's" %(gc.getPlayer(cdAttacker.eOwner).getName(),)
-	combatMessage += " %s (%.2f)" %(cdAttacker.sUnitName,cdAttacker.iCurrCombatStr/100.0,)
+	combatMessage += " %s (%d/%dHP)" %(cdAttacker.sUnitName, cdAttacker.iCurrHitPoints, cdAttacker.iMaxHitPoints,)
 	combatMessage += " " + localText.getText("TXT_KEY_COMBAT_MESSAGE_VS", ()) + " "
 	if (cdDefender.eOwner == cdDefender.eVisualOwner):
-		combatMessage += "%s's" %(gc.getPlayer(cdDefender.eOwner).getName(),)
-	combatMessage += "%s (%.2f)" %(cdDefender.sUnitName,cdDefender.iCurrCombatStr/100.0,)
+		combatMessage += "%s's " %(gc.getPlayer(cdDefender.eOwner).getName(),)
+	combatMessage += "%s (%d/%dHP))" %(cdDefender.sUnitName,cdDefender.iCurrHitPoints, cdDefender.iMaxHitPoints,)
 	CyInterface().addCombatMessage(cdAttacker.eOwner,combatMessage)
 	CyInterface().addCombatMessage(cdDefender.eOwner,combatMessage)
 	combatMessage = "%s %.1f%%" %(localText.getText("TXT_KEY_COMBAT_MESSAGE_ODDS", ()),iCombatOdds/10.0,)

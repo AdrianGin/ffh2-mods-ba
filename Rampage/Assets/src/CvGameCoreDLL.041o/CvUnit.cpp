@@ -1699,6 +1699,9 @@ void CvUnit::resolveCombat(CvUnit* pDefender, CvPlot* pPlot, CvBattleDefinition&
 	int iDefenderAttackCount = pDefender->unitCombatAttacks();
 	int iAttackerAttackCount = unitCombatAttacks();
 
+	int iTotalAttackerDamage = 0;
+	int iTotalDefenderDamage = 0;
+
 	for( int i = 0; (iDefenderAttackCount != 0) || (iAttackerAttackCount != 0)  ; i++ )
 	//while (true)
 	{
@@ -1731,10 +1734,7 @@ void CvUnit::resolveCombat(CvUnit* pDefender, CvPlot* pPlot, CvBattleDefinition&
 
 					changeDamage(iAttackerDamage, pDefender->getOwnerINLINE());
 
-					szBuffer = gDLL->getText("TXT_KEY_MISC_YOU_UNIT_LOSE_ATTACKING", getNameKey(), iAttackerDamage, pDefender->getNameKey());
-					gDLL->getInterfaceIFace()->addMessage(getOwnerINLINE(), true, GC.getEVENT_MESSAGE_TIME(), szBuffer, 0, MESSAGE_TYPE_INFO, NULL, (ColorTypes)GC.getInfoTypeForString("COLOR_RED"), pPlot->getX_INLINE(), pPlot->getY_INLINE());
-					szBuffer = gDLL->getText("TXT_KEY_MISC_YOU_UNIT_WIN_DEFENDING", pDefender->getNameKey(), iAttackerDamage, getNameKey(), getVisualCivAdjective(pDefender->getTeam()));
-					gDLL->getInterfaceIFace()->addMessage(pDefender->getOwnerINLINE(), true, GC.getEVENT_MESSAGE_TIME(), szBuffer, 0, MESSAGE_TYPE_INFO, NULL, (ColorTypes)GC.getInfoTypeForString("COLOR_GREEN"), pPlot->getX_INLINE(), pPlot->getY_INLINE());
+					iTotalAttackerDamage += iAttackerDamage;
 
 					if (pDefender->getCombatFirstStrikes() > 0 && pDefender->isRanged())
 					{
@@ -1758,6 +1758,7 @@ void CvUnit::resolveCombat(CvUnit* pDefender, CvPlot* pPlot, CvBattleDefinition&
 							pyArgs.add(chanceToHit);
 							
 							CvEventReporter::getInstance().genericEvent("combatLogHit", pyArgs.makeFunctionArgs());
+						
 						}
 					}
 	//FfH: End Modify
@@ -1784,6 +1785,9 @@ void CvUnit::resolveCombat(CvUnit* pDefender, CvPlot* pPlot, CvBattleDefinition&
 				}
 			}
 		}
+
+
+
 
 		if( iAttackerAttackCount )
 		{
@@ -1834,11 +1838,9 @@ void CvUnit::resolveCombat(CvUnit* pDefender, CvPlot* pPlot, CvBattleDefinition&
 						break;
 					}
 
+					iTotalDefenderDamage += iDefenderDamage;
+
 					pDefender->changeDamage(iDefenderDamage, getOwnerINLINE());
-					szBuffer = gDLL->getText("TXT_KEY_MISC_YOU_UNIT_WIN_ATTACKING", getNameKey(), iDefenderDamage, pDefender->getNameKey());
-					gDLL->getInterfaceIFace()->addMessage(getOwnerINLINE(), true, GC.getEVENT_MESSAGE_TIME(), szBuffer, 0, MESSAGE_TYPE_INFO, NULL, (ColorTypes)GC.getInfoTypeForString("COLOR_GREEN"), pPlot->getX_INLINE(), pPlot->getY_INLINE());
-					szBuffer = gDLL->getText("TXT_KEY_MISC_YOU_UNIT_LOSE_DEFENDING", pDefender->getNameKey(), iDefenderDamage, getNameKey(), getVisualCivAdjective(pDefender->getTeam()));
-					gDLL->getInterfaceIFace()->addMessage(pDefender->getOwnerINLINE(), true, GC.getEVENT_MESSAGE_TIME(), szBuffer, 0, MESSAGE_TYPE_INFO, NULL, (ColorTypes)GC.getInfoTypeForString("COLOR_RED"), pPlot->getX_INLINE(), pPlot->getY_INLINE());
 
 					if (getCombatFirstStrikes() > 0 && isRanged())
 					{
@@ -1860,8 +1862,6 @@ void CvUnit::resolveCombat(CvUnit* pDefender, CvPlot* pPlot, CvBattleDefinition&
 
 							pyArgs.add(diceRoll);
 							pyArgs.add(chanceToHit);
-							
-
 							CvEventReporter::getInstance().genericEvent("combatLogHit", pyArgs.makeFunctionArgs());
 						}
 					}
@@ -1926,6 +1926,33 @@ void CvUnit::resolveCombat(CvUnit* pDefender, CvPlot* pPlot, CvBattleDefinition&
 
 
 	}
+
+
+
+	ColorTypes missColour = (ColorTypes)GC.getInfoTypeForString("COLOR_WHITE");
+	ColorTypes missColour2 = (ColorTypes)GC.getInfoTypeForString("COLOR_WHITE");
+	if (iTotalAttackerDamage)
+	{
+		missColour = (ColorTypes)GC.getInfoTypeForString("COLOR_RED");
+		missColour2 = (ColorTypes)GC.getInfoTypeForString("COLOR_GREEN");
+	}
+
+	szBuffer = gDLL->getText("TXT_KEY_MISC_YOU_UNIT_LOSE_ATTACKING", getNameKey(), iTotalAttackerDamage, pDefender->getNameKey());
+	gDLL->getInterfaceIFace()->addMessage(getOwnerINLINE(), true, GC.getEVENT_MESSAGE_TIME(), szBuffer, 0, MESSAGE_TYPE_INFO, NULL, missColour, pPlot->getX_INLINE(), pPlot->getY_INLINE());
+	szBuffer = gDLL->getText("TXT_KEY_MISC_YOU_UNIT_WIN_DEFENDING", pDefender->getNameKey(), iTotalAttackerDamage, getNameKey(), getVisualCivAdjective(pDefender->getTeam()));
+	gDLL->getInterfaceIFace()->addMessage(pDefender->getOwnerINLINE(), true, GC.getEVENT_MESSAGE_TIME(), szBuffer, 0, MESSAGE_TYPE_INFO, NULL, missColour2, pPlot->getX_INLINE(), pPlot->getY_INLINE());
+
+	missColour = (ColorTypes)GC.getInfoTypeForString("COLOR_WHITE");
+	missColour2 = (ColorTypes)GC.getInfoTypeForString("COLOR_WHITE");
+	if (iTotalDefenderDamage)
+	{
+		missColour = (ColorTypes)GC.getInfoTypeForString("COLOR_RED");
+		missColour2 = (ColorTypes)GC.getInfoTypeForString("COLOR_GREEN");
+	}
+	szBuffer = gDLL->getText("TXT_KEY_MISC_YOU_UNIT_LOSE_DEFENDING", pDefender->getNameKey(), iTotalDefenderDamage, getNameKey(), getVisualCivAdjective(pDefender->getTeam()));
+	gDLL->getInterfaceIFace()->addMessage(pDefender->getOwnerINLINE(), true, GC.getEVENT_MESSAGE_TIME(), szBuffer, 0, MESSAGE_TYPE_INFO, NULL, missColour, pPlot->getX_INLINE(), pPlot->getY_INLINE());
+	szBuffer = gDLL->getText("TXT_KEY_MISC_YOU_UNIT_WIN_ATTACKING", getNameKey(), iTotalDefenderDamage, pDefender->getNameKey());
+	gDLL->getInterfaceIFace()->addMessage(getOwnerINLINE(), true, GC.getEVENT_MESSAGE_TIME(), szBuffer, 0, MESSAGE_TYPE_INFO, NULL, missColour2, pPlot->getX_INLINE(), pPlot->getY_INLINE());
 
 
 }
