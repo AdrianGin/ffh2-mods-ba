@@ -1027,6 +1027,7 @@ enum FontSymbols					// Exposed to Python
 	MAP_CHAR,
 	OCCUPATION_CHAR,
 	POWER_CHAR,
+	RANGE_ATTACK_CHAR,
 
 #ifdef _USRDLL
 	MAX_NUM_SYMBOLS

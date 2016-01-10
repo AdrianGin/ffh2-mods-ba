@@ -758,6 +758,7 @@ void CyEnumsPythonInterface()
 		.value("MAP_CHAR", MAP_CHAR)
 		.value("OCCUPATION_CHAR", OCCUPATION_CHAR)
 		.value("POWER_CHAR", POWER_CHAR)
+		.value("RANGE_ATTACK_CHAR", RANGE_ATTACK_CHAR)
 		.value("MAX_NUM_SYMBOLS", MAX_NUM_SYMBOLS)
 		;
 

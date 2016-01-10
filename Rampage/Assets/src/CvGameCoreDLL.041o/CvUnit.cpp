@@ -19379,7 +19379,7 @@ bool CvUnit::rangeStrike(int iX, int iY)
 		}
 	}
 
-
+	int iTotalDamage = 0;
 
 	for (int i = 0; (iAttackerAttackCount != 0); i++)
 	{
@@ -19419,11 +19419,7 @@ bool CvUnit::rangeStrike(int iX, int iY)
 				pDefender->changeDamage(iDamage, getOwnerINLINE());
 				//pDefender->setDamage(getDamage() + iDamage, getOwnerINLINE(), false);
 
-
-				szBuffer = gDLL->getText("TXT_KEY_MISC_YOU_UNIT_WIN_ATTACKING", getNameKey(), iDamage, pDefender->getNameKey());
-				gDLL->getInterfaceIFace()->addMessage(getOwnerINLINE(), true, GC.getEVENT_MESSAGE_TIME(), szBuffer, 0, MESSAGE_TYPE_INFO, NULL, (ColorTypes)GC.getInfoTypeForString("COLOR_GREEN"), pPlot->getX_INLINE(), pPlot->getY_INLINE());
-				szBuffer = gDLL->getText("TXT_KEY_MISC_YOU_UNIT_LOSE_DEFENDING", pDefender->getNameKey(), iDamage, getNameKey(), getVisualCivAdjective(pDefender->getTeam()));
-				gDLL->getInterfaceIFace()->addMessage(pDefender->getOwnerINLINE(), true, GC.getEVENT_MESSAGE_TIME(), szBuffer, 0, MESSAGE_TYPE_INFO, NULL, (ColorTypes)GC.getInfoTypeForString("COLOR_RED"), pPlot->getX_INLINE(), pPlot->getY_INLINE());
+				iTotalDamage += iDamage;
 
 				cdDefenderDetails.iCurrHitPoints = pDefender->currHitPoints();
 
@@ -19470,7 +19466,6 @@ bool CvUnit::rangeStrike(int iX, int iY)
 			}
 		}
 
-
 		if ( pDefender->isDead())
 		{
 			int iExperience = GC.getDefineINT("MIN_EXPERIENCE_PER_COMBAT");  //pDefender->attackXPValue();
@@ -19481,14 +19476,22 @@ bool CvUnit::rangeStrike(int iX, int iY)
 		}
 
 
+
 	}
 
 
+	ColorTypes missColour = (ColorTypes)GC.getInfoTypeForString("COLOR_WHITE");
+	ColorTypes missColour2 = (ColorTypes)GC.getInfoTypeForString("COLOR_WHITE");
+	if (iTotalDamage)
+	{
+		missColour = (ColorTypes)GC.getInfoTypeForString("COLOR_RED");
+		missColour2 = (ColorTypes)GC.getInfoTypeForString("COLOR_GREEN");
+	}
 
-
-
-
-
+	szBuffer = gDLL->getText("TXT_KEY_MISC_YOU_UNIT_WIN_ATTACKING", getNameKey(), iTotalDamage, pDefender->getNameKey());
+	gDLL->getInterfaceIFace()->addMessage(getOwnerINLINE(), true, GC.getEVENT_MESSAGE_TIME(), szBuffer, 0, MESSAGE_TYPE_INFO, NULL, missColour2, pPlot->getX_INLINE(), pPlot->getY_INLINE());
+	szBuffer = gDLL->getText("TXT_KEY_MISC_YOU_UNIT_LOSE_DEFENDING", pDefender->getNameKey(), iTotalDamage, getNameKey(), getVisualCivAdjective(pDefender->getTeam()));
+	gDLL->getInterfaceIFace()->addMessage(pDefender->getOwnerINLINE(), true, GC.getEVENT_MESSAGE_TIME(), szBuffer, 0, MESSAGE_TYPE_INFO, NULL, missColour, pPlot->getX_INLINE(), pPlot->getY_INLINE());
 
 	return true;
 }

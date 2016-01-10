@@ -649,6 +649,12 @@ void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szString, const CvUnit* pUnit, 
 			szTempBuffer.Format(L"%dx%d%c, ", pUnit->baseCombatStr(), pUnit->unitCombatAttacks(), gDLL->getSymbolID(STRENGTH_CHAR));
 			szString.append(szTempBuffer);
 
+			if (pUnit->airBaseCombatStr())
+			{
+				szTempBuffer.Format(L"%dx%d%c, ", pUnit->airBaseCombatStr(), pUnit->getUnitInfo().getAirCombatCount(), gDLL->getSymbolID(RANGE_ATTACK_CHAR));
+				szString.append(szTempBuffer);
+			}
+
 
 		}
 	}
