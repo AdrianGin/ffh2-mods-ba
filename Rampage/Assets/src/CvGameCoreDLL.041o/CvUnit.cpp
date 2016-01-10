@@ -9986,6 +9986,7 @@ int CvUnit::applyModifiers(const CvPlot* pPlot, const CvUnit* pAttacker, CombatD
 				pCombatDetails->iClassAttackModifier = iExtraModifier;
 			}
 
+			//When there is an attacker / defender system, this would get included twice. So it's commented out.
 			/*if (pAttacker->getUnitCombatType() != NO_UNITCOMBAT)
 			{
 				iExtraModifier = unitCombatModifier(pAttacker->getUnitCombatType());
