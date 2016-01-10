@@ -9986,7 +9986,7 @@ int CvUnit::applyModifiers(const CvPlot* pPlot, const CvUnit* pAttacker, CombatD
 				pCombatDetails->iClassAttackModifier = iExtraModifier;
 			}
 
-			if (pAttacker->getUnitCombatType() != NO_UNITCOMBAT)
+			/*if (pAttacker->getUnitCombatType() != NO_UNITCOMBAT)
 			{
 				iExtraModifier = unitCombatModifier(pAttacker->getUnitCombatType());
 				iTempModifier += iExtraModifier;
@@ -9994,7 +9994,7 @@ int CvUnit::applyModifiers(const CvPlot* pPlot, const CvUnit* pAttacker, CombatD
 				{
 					pCombatDetails->iCombatModifierA = iExtraModifier;
 				}
-			}
+			}*/
 			if (getUnitCombatType() != NO_UNITCOMBAT)
 			{
 				iExtraModifier = -pAttacker->unitCombatModifier(getUnitCombatType());
