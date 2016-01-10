@@ -19286,10 +19286,12 @@ bool CvUnit::canRangeStrikeAt(const CvPlot* pPlot, int iX, int iY) const
 		return false;
 	}
 
+	/* Ignore LOS */
+	/*
 	if (!pPlot->canSeePlot(pTargetPlot, getTeam(), airRange(), getFacingDirection(true)))
 	{
 		return false;
-	}
+	}*/
 
 	return true;
 }
