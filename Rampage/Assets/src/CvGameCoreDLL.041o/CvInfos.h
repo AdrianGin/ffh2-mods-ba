@@ -1238,7 +1238,7 @@ public:
 	int getDexterity() const;				// Exposed to Python
 	int getAttackCount() const;				// Exposed to Python
 	int getAttackCountVariance() const;				// Exposed to Python
-	int getAirCombatCount() const;
+	int getAirCombatCount() const;			// Exposed to Python
 	int getAirCombat() const;				// Exposed to Python
 	int getAirCombatLimit() const;				// Exposed to Python
 	int getXPValueAttack() const;				// Exposed to Python

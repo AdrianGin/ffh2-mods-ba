@@ -7906,6 +7906,13 @@ void CvGameTextMgr::setBasicUnitHelp(CvWStringBuffer &szBuffer, UnitTypes eUnit,
 			}
 		}
 
+		if (GC.getUnitInfo(eUnit).getAirCombatCount() > 0)
+		{
+			szTempBuffer.Format(L"%dx%d%c, ", GC.getUnitInfo(eUnit).getAirCombat(), GC.getUnitInfo(eUnit).getAirCombatCount(), gDLL->getSymbolID(RANGE_ATTACK_CHAR));
+			szBuffer.append(szTempBuffer);
+		}
+
+
 		szTempBuffer.Format(L"%d%c", GC.getUnitInfo(eUnit).getMoves(), gDLL->getSymbolID(MOVES_CHAR));
 		szBuffer.append(szTempBuffer);
 

@@ -41,8 +41,8 @@ class CvPediaUnit:
 
 		self.X_STATS_PANE = 210
 		self.Y_STATS_PANE = 145
-		self.W_STATS_PANE = 250
-		self.H_STATS_PANE = 200
+		self.W_STATS_PANE = 240
+		self.H_STATS_PANE = 130
 
 		self.X_SPECIAL_PANE = 20
 		self.Y_SPECIAL_PANE = 420
@@ -172,6 +172,13 @@ class CvPediaUnit:
 #FfH: End Modify
 
 		screen.appendListBoxStringNoUpdate(panelName, u"<font=3>" + szStrength.upper() + u"%c" % CyGame().getSymbolID(FontSymbols.STRENGTH_CHAR) + u"</font>", WidgetTypes.WIDGET_GENERAL, 0, 0, CvUtil.FONT_LEFT_JUSTIFY)
+
+		iRangedStrength = gc.getUnitInfo(self.iUnit).getAirCombat()
+		if iRangedStrength != 0:
+			szStrength = localText.getText("TXT_KEY_PEDIA_RANGEDSTRENGTH_ATTACKCOUNT", ( iRangedStrength, gc.getUnitInfo(self.iUnit).getAirCombatCount()) )
+			screen.appendListBoxStringNoUpdate(panelName, u"<font=3>" + szStrength.upper() + u"%c" % CyGame().getSymbolID(FontSymbols.RANGE_ATTACK_CHAR) + u"</font>", WidgetTypes.WIDGET_GENERAL, 0, 0, CvUtil.FONT_LEFT_JUSTIFY)
+
+		szStrength = localText.getText("TXT_KEY_PEDIA_STRENGTH_ATTACKCOUNT", ( iStrength, gc.getUnitInfo(self.iUnit).getAttackCount()) )
 
 		szName = self.top.getNextWidgetName()
 		szMovement = localText.getText("TXT_KEY_PEDIA_MOVEMENT", ( gc.getUnitInfo(self.iUnit).getMoves(), ) )
