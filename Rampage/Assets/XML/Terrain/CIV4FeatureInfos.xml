@@ -138,7 +138,7 @@
 			</YieldChanges>
 			<RiverYieldChange/>
 			<HillsYieldChange/>
-			<iMovement>2</iMovement>
+			<iMovement>1</iMovement>
 			<!-- VKs Plot Capacity-->
 			<iUnitPlotSupport>0</iUnitPlotSupport>
 			<iSeeThrough>1</iSeeThrough>
@@ -258,7 +258,7 @@
 			</YieldChanges>
 			<RiverYieldChange/>
 			<HillsYieldChange/>
-			<iMovement>2</iMovement>
+			<iMovement>1</iMovement>
 			<!-- VKs Plot Capacity-->
 			<iUnitPlotSupport>0</iUnitPlotSupport>
 			<iSeeThrough>1</iSeeThrough>
@@ -501,7 +501,7 @@
 			</YieldChanges>
 			<RiverYieldChange/>
 			<HillsYieldChange/>
-			<iMovement>2</iMovement>
+			<iMovement>1</iMovement>
 			<!-- VKs Plot Capacity-->
 			<iUnitPlotSupport>0</iUnitPlotSupport>
 			<iSeeThrough>1</iSeeThrough>
@@ -621,7 +621,7 @@
 			</YieldChanges>
 			<RiverYieldChange/>
 			<HillsYieldChange/>
-			<iMovement>2</iMovement>
+			<iMovement>1</iMovement>
 			<!-- VKs Plot Capacity-->
 			<iUnitPlotSupport>0</iUnitPlotSupport>
 			<iSeeThrough>0</iSeeThrough>
