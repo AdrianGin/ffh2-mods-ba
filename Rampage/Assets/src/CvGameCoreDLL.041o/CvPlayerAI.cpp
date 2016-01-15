@@ -18978,8 +18978,8 @@ int CvPlayerAI::AI_calculateUnitAIViability(UnitAITypes eUnitAI, DomainTypes eDo
 	for (int iI = 0; iI < GC.getNumUnitClassInfos(); iI++)
 	{
 		UnitTypes eLoopUnit = (UnitTypes)GC.getUnitClassInfo((UnitClassTypes)iI).getDefaultUnitIndex();
-		CvUnitInfo& kUnitInfo = GC.getUnitInfo((UnitTypes)iI);
-		if (kUnitInfo.getDomainType() == eDomain)
+		CvUnitInfo& kUnitInfo = GC.getUnitInfo((UnitTypes)eLoopUnit);
+		if ((eLoopUnit != NO_UNIT) && (&kUnitInfo) && (kUnitInfo.getDomainType() == eDomain))
 		{
 
 			TechTypes eTech = (TechTypes)kUnitInfo.getPrereqAndTech();

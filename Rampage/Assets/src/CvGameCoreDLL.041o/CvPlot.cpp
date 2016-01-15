@@ -71,6 +71,7 @@ CvPlot::CvPlot()
 	m_pCenterUnit = NULL;
 
 	m_szScriptData = NULL;
+	m_bIsWorked = false;
 /*************************************************************************************************/
 /** Skyre Mod                                                                                   **/
 /** BETTER AI (Lanun Pirate Coves) merged Sephi                                                 **/
@@ -4875,6 +4876,18 @@ void CvPlot::setFlagDirty(bool bNewValue)
 {
 	m_bFlagDirty = bNewValue;
 }
+
+void CvPlot::setWorked(bool bNewValue)
+{
+	m_bIsWorked = bNewValue;
+}
+
+
+bool CvPlot::isWorked() const
+{
+	return m_bIsWorked;
+}
+
 
 
 PlayerTypes CvPlot::getOwner() const

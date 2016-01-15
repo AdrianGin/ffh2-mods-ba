@@ -1736,6 +1736,7 @@
 			<bWater>0</bWater>
 			<bGoody>0</bGoody>
 			<bPermanent>0</bPermanent>
+			<bUseLSystem>0</bUseLSystem>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
 			<iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
 			<iTilesPerGoody>0</iTilesPerGoody>
@@ -1748,8 +1749,28 @@
 			<iPillageGold>0</iPillageGold>
 			<!-- VKs Plot Capacity-->
 			<iUnitPlotSupport>0</iUnitPlotSupport>
-			<bOutsideBorders>0</bOutsideBorders>
+			<bOutsideBorders>1</bOutsideBorders>
 			<TerrainMakesValids>
+				<TerrainMakesValid>
+					<TerrainType>TERRAIN_GRASS</TerrainType>
+					<bMakesValid>1</bMakesValid>
+				</TerrainMakesValid>
+				<TerrainMakesValid>
+					<TerrainType>TERRAIN_PLAINS</TerrainType>
+					<bMakesValid>1</bMakesValid>
+				</TerrainMakesValid>
+				<TerrainMakesValid>
+					<TerrainType>TERRAIN_DESERT</TerrainType>
+					<bMakesValid>1</bMakesValid>
+				</TerrainMakesValid>
+				<TerrainMakesValid>
+					<TerrainType>TERRAIN_TUNDRA</TerrainType>
+					<bMakesValid>1</bMakesValid>
+				</TerrainMakesValid>
+				<TerrainMakesValid>
+					<TerrainType>TERRAIN_SNOW</TerrainType>
+					<bMakesValid>1</bMakesValid>
+				</TerrainMakesValid>
             </TerrainMakesValids>
 			<FeatureMakesValids>
             </FeatureMakesValids>

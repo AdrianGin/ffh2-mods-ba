@@ -42,5 +42,14 @@
 			<bFlexiblePercent>0</bFlexiblePercent>
 			<Button>Art/Interface/Buttons/Process/ProcessCulture.dds,Art/Interface/Buttons/Beyond the Sword_Atlas.dds,8,16</Button>
 		</CommerceInfo>
+		<CommerceInfo>
+			<Type>COMMERCE_FOOD</Type>
+			<Description>TXT_KEY_COMMERCE_FOOD</Description>
+			<iInitialPercent>0</iInitialPercent>
+			<iInitialHappiness>0</iInitialHappiness>
+			<iAIWeightPercent>0</iAIWeightPercent>
+			<bFlexiblePercent>0</bFlexiblePercent>
+			<Button>Art/Interface/Buttons/Process/ProcessResearch.dds</Button>
+		</CommerceInfo>		
 	</CommerceInfos>
 </Civ4CommerceInfo>

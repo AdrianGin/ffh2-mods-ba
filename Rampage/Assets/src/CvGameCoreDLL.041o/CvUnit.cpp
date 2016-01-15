@@ -1474,6 +1474,97 @@ void CvUnit::resolveAirCombat(CvUnit* pInterceptor, CvPlot* pPlot, CvAirMissionD
 }
 
 
+void CvUnit::updateCommerce(CvPlot* pPlot, bool isLeavingPlot)
+{
+	int iJ;
+	int iI;
+	CvUnit* loopUnit;
+	bool plotHasWorker = false;
+
+	if (pPlot == NULL)
+	{
+		return;
+	}
+
+	for (iJ = 0; iJ < GC.getNumBuildInfos(); iJ++)
+	{
+
+		CvWString szBuffer;
+		szBuffer = gDLL->getText(GC.getBuildInfo((BuildTypes)iJ).getText());
+
+		if (!szBuffer.compare( (const wchar_t*)L"Work Tile"))
+		{
+
+			if (canBuild(pPlot, (BuildTypes)iJ, false))
+			{
+
+
+				for (iI = 0; iI < pPlot->getNumUnits(); iI++)
+				{
+					loopUnit = pPlot->getUnitByIndex(iI);
+
+					if (loopUnit->getID() != getID())
+					{
+						if (loopUnit->getUnitType() == getUnitType())
+						{
+							plotHasWorker = true;
+						}
+					}
+				}
+
+				int iCommerceYield = pPlot->getYield(YIELD_COMMERCE) * 100;
+				int iFoodYield = pPlot->getYield(YIELD_FOOD) * 100;
+
+				if (plotHasWorker && (isLeavingPlot))
+				{
+					iCommerceYield = 0;
+					iFoodYield = 0;
+				}
+
+				if (plotHasWorker && (!isLeavingPlot) )
+				{
+					iCommerceYield = 0;
+					iFoodYield = 0;
+				}
+
+				if (!plotHasWorker && (!isLeavingPlot))
+				{
+					iCommerceYield = iCommerceYield;
+					iFoodYield = iFoodYield;
+					pPlot->setWorked(true);
+				}
+
+				if (!plotHasWorker && (isLeavingPlot))
+				{
+					iCommerceYield = -iCommerceYield;
+					iFoodYield = -iFoodYield;
+					pPlot->setWorked(false);
+				}
+
+				if (iCommerceYield)
+				{
+					GET_PLAYER(getOwnerINLINE()).invalidateCommerceRankCache(COMMERCE_GOLD);
+					GET_PLAYER(getOwnerINLINE()).changeCommerceRate(COMMERCE_GOLD, iCommerceYield);
+				}
+
+				if (iFoodYield)
+				{
+					GET_PLAYER(getOwnerINLINE()).invalidateCommerceRankCache(COMMERCE_FOOD);
+					GET_PLAYER(getOwnerINLINE()).changeCommerceRate(COMMERCE_FOOD, iCommerceYield);
+				}
+
+				gDLL->getInterfaceIFace()->setDirty(GameData_DIRTY_BIT, true);
+				gDLL->getInterfaceIFace()->setDirty(Score_DIRTY_BIT, true);
+				gDLL->getInterfaceIFace()->setDirty(CityScreen_DIRTY_BIT, true);
+				gDLL->getInterfaceIFace()->setDirty(Financial_Screen_DIRTY_BIT, true);
+				gDLL->getInterfaceIFace()->setDirty(InfoPane_DIRTY_BIT, true);
+			}
+		}
+	}
+
+
+}
+
 void CvUnit::updateInitialPlot(int x, int y)
 {
 	m_iXinital = x;
@@ -8313,7 +8404,45 @@ bool CvUnit::build(BuildTypes eBuild)
 
 	GET_PLAYER(getOwnerINLINE()).changeGold(-(GET_PLAYER(getOwnerINLINE()).getBuildCost(plot(), eBuild)));
 
+	int iCommerceYield = plot()->getYield(YIELD_COMMERCE) * 100;
+	int iFoodYield = plot()->getYield(YIELD_FOOD) * 100;
+
+	if (iCommerceYield)
+	{
+		GET_PLAYER(getOwnerINLINE()).invalidateCommerceRankCache(COMMERCE_GOLD);
+		GET_PLAYER(getOwnerINLINE()).changeCommerceRate(COMMERCE_GOLD, -iCommerceYield);
+	}
+
+	if (iFoodYield)
+	{
+		GET_PLAYER(getOwnerINLINE()).invalidateCommerceRankCache(COMMERCE_FOOD);
+		GET_PLAYER(getOwnerINLINE()).changeCommerceRate(COMMERCE_FOOD, -iCommerceYield);
+	}
+
 	bFinished = plot()->changeBuildProgress(eBuild, workRate(false), getTeam());
+
+	iCommerceYield = plot()->getYield(YIELD_COMMERCE) * 100;
+	iFoodYield = plot()->getYield(YIELD_FOOD) * 100;
+	if (iCommerceYield)
+	{
+		GET_PLAYER(getOwnerINLINE()).invalidateCommerceRankCache(COMMERCE_GOLD);
+		GET_PLAYER(getOwnerINLINE()).changeCommerceRate(COMMERCE_GOLD, iCommerceYield);
+	}
+
+	if (iFoodYield)
+	{
+		GET_PLAYER(getOwnerINLINE()).invalidateCommerceRankCache(COMMERCE_FOOD);
+		GET_PLAYER(getOwnerINLINE()).changeCommerceRate(COMMERCE_FOOD, iCommerceYield);
+	}
+	gDLL->getInterfaceIFace()->setDirty(GameData_DIRTY_BIT, true);
+	gDLL->getInterfaceIFace()->setDirty(Score_DIRTY_BIT, true);
+	gDLL->getInterfaceIFace()->setDirty(CityScreen_DIRTY_BIT, true);
+	gDLL->getInterfaceIFace()->setDirty(Financial_Screen_DIRTY_BIT, true);
+	gDLL->getInterfaceIFace()->setDirty(InfoPane_DIRTY_BIT, true);
+
+	
+
+
 	finishMoves(); // needs to be at bottom because movesLeft() can affect workRate()...
 
 	if (bFinished)
@@ -12540,6 +12669,9 @@ void CvUnit::setXY(int iX, int iY, bool bGroup, bool bUpdate, bool bShow, bool b
 	}
 
 	// report event to Python, along with some other key state
+
+	updateCommerce(pOldPlot, true);
+	updateCommerce(pNewPlot, false);
 
 //FfH: Modified by Kael 10/15/2008
 //	CvEventReporter::getInstance().unitSetXY(pNewPlot, this);

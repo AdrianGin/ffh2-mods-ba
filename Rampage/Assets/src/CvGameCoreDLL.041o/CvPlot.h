@@ -509,6 +509,11 @@ public:
     bool isFoundDisabled() const;
     void setFoundDisabled(bool bNewValue);
 
+	void setWorked(bool bNewValue);
+	bool isWorked() const;
+
+
+
     int getMinLevel() const;
     void setMinLevel(int iNewValue);
     int getNumAnimalUnits() const;
@@ -650,6 +655,9 @@ protected:
     int m_iPortalExitY;
     int m_iTempTerrainTimer;
 	short /*TerrainTypes*/ m_eRealTerrainType;
+
+	bool m_bIsWorked;
+
 //FfH: End Add
 
 /*************************************************************************************************/

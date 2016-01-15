@@ -1264,6 +1264,9 @@ protected:
 	void resolveCombat(CvUnit* pDefender, CvPlot* pPlot, CvBattleDefinition& kBattle);
 	void resolveAirCombat(CvUnit* pInterceptor, CvPlot* pPlot, CvAirMissionDefinition& kBattle);
 	void checkRemoveSelectionAfterAttack();
+
+	void updateCommerce(CvPlot* pPlot, bool isLeavingPlot);
+
 };
 
 #endif
