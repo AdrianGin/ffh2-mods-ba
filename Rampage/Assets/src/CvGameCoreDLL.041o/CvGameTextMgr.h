@@ -49,6 +49,7 @@ public:
 	DllExport void setDateStr(CvWString& szString, int iGameTurn, bool bSave, CalendarTypes eCalendar, int iStartYear, GameSpeedTypes eSpeed);
 	DllExport void setInterfaceTime(CvWString& szString, PlayerTypes ePlayer);
 	DllExport void setGoldStr(CvWString& szString, PlayerTypes ePlayer);
+	DllExport void setFoodStr(CvWString& szString, PlayerTypes ePlayer);
 	DllExport void setResearchStr(CvWString& szString, PlayerTypes ePlayer);
 	DllExport void setOOSSeeds(CvWString& szString, PlayerTypes ePlayer);
 	DllExport void setNetStats(CvWString& szString, PlayerTypes ePlayer);

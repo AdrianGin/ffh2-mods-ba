@@ -521,6 +521,11 @@ int CyPlayer::calculateGoldRate()
 	return m_pPlayer ? m_pPlayer->calculateGoldRate() : -1;
 }
 
+int CyPlayer::calculateFoodRate()
+{
+	return m_pPlayer ? m_pPlayer->calculateFoodRate() : -1;
+}
+
 int CyPlayer::calculateTotalCommerce()
 {
 	return m_pPlayer ? m_pPlayer->calculateTotalCommerce() : -1;

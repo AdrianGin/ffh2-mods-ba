@@ -7254,6 +7254,14 @@ int CvPlayer::calculateGoldRate() const
 }
 
 
+int CvPlayer::calculateFoodRate() const
+{
+	int iRate = 0;
+	iRate = (getCommerceRate(COMMERCE_FOOD));
+	return iRate;
+}
+
+
 int CvPlayer::calculateResearchRate(TechTypes eTech) const
 {
 	int iRate = 0;

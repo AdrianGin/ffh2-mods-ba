@@ -25,6 +25,7 @@ public:
 	std::wstring getDateStr(int iGameTurn, bool bSave, int /*CalendarTypes*/ eCalendar, int iStartYear, int /*GameSpeedTypes*/ eSpeed);
 	std::wstring getInterfaceTimeStr(int /*PlayerTypes*/ iPlayer);
 	std::wstring getGoldStr(int /*PlayerTypes*/ iPlayer);
+	std::wstring getFoodStr(int /*PlayerTypes*/ iPlayer);
 	std::wstring getResearchStr(int /*PlayerTypes*/ iPlayer);
 	std::wstring getOOSSeeds(int /*PlayerTypes*/ iPlayer);
 	std::wstring getNetStats(int /*PlayerTypes*/ iPlayer);

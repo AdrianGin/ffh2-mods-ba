@@ -1512,8 +1512,8 @@ void CvUnit::updateCommerce(CvPlot* pPlot, bool isLeavingPlot)
 					}
 				}
 
-				int iCommerceYield = pPlot->getYield(YIELD_COMMERCE) * 100;
-				int iFoodYield = pPlot->getYield(YIELD_FOOD) * 100;
+				int iCommerceYield = pPlot->calculateYield(YIELD_COMMERCE, true) * 100;
+				int iFoodYield = pPlot->calculateYield(YIELD_FOOD, true) * 100;
 
 				if (plotHasWorker && (isLeavingPlot))
 				{
@@ -1550,7 +1550,7 @@ void CvUnit::updateCommerce(CvPlot* pPlot, bool isLeavingPlot)
 				if (iFoodYield)
 				{
 					GET_PLAYER(getOwnerINLINE()).invalidateCommerceRankCache(COMMERCE_FOOD);
-					GET_PLAYER(getOwnerINLINE()).changeCommerceRate(COMMERCE_FOOD, iCommerceYield);
+					GET_PLAYER(getOwnerINLINE()).changeCommerceRate(COMMERCE_FOOD, iFoodYield);
 				}
 
 				gDLL->getInterfaceIFace()->setDirty(GameData_DIRTY_BIT, true);
@@ -8416,7 +8416,7 @@ bool CvUnit::build(BuildTypes eBuild)
 	if (iFoodYield)
 	{
 		GET_PLAYER(getOwnerINLINE()).invalidateCommerceRankCache(COMMERCE_FOOD);
-		GET_PLAYER(getOwnerINLINE()).changeCommerceRate(COMMERCE_FOOD, -iCommerceYield);
+		GET_PLAYER(getOwnerINLINE()).changeCommerceRate(COMMERCE_FOOD, -iFoodYield);
 	}
 
 	bFinished = plot()->changeBuildProgress(eBuild, workRate(false), getTeam());
@@ -8432,7 +8432,7 @@ bool CvUnit::build(BuildTypes eBuild)
 	if (iFoodYield)
 	{
 		GET_PLAYER(getOwnerINLINE()).invalidateCommerceRankCache(COMMERCE_FOOD);
-		GET_PLAYER(getOwnerINLINE()).changeCommerceRate(COMMERCE_FOOD, iCommerceYield);
+		GET_PLAYER(getOwnerINLINE()).changeCommerceRate(COMMERCE_FOOD, iFoodYield);
 	}
 	gDLL->getInterfaceIFace()->setDirty(GameData_DIRTY_BIT, true);
 	gDLL->getInterfaceIFace()->setDirty(Score_DIRTY_BIT, true);

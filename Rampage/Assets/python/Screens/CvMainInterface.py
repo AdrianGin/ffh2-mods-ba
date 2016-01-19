@@ -982,6 +982,8 @@ class CvMainInterface:
 							screen.enable( szString1, False )
 							screen.enable( szString2, False )
 							
+												
+							
 		return 0
 
 	# Will update the end Turn Button
@@ -2082,6 +2084,16 @@ class CvMainInterface:
 				
 				if (((gc.getPlayer(ePlayer).calculateGoldRate() != 0) and not (gc.getPlayer(ePlayer).isAnarchy())) or (gc.getPlayer(ePlayer).getGold() != 0)):
 					screen.show( "GoldText" )
+
+
+				szText = CyGameTextMgr().getFoodStr(ePlayer)
+				screen.setLabel( "FoodText", "Background", szText, CvUtil.FONT_LEFT_JUSTIFY, 12 + iShift + 50, 30, -0.3, FontTypes.GAME_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1 )
+				screen.show( "FoodText" )
+
+
+
+
+
 
 				if (gc.getPlayer(ePlayer).isAnarchy()):
 				

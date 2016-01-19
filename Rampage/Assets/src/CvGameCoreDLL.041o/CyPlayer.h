@@ -138,6 +138,7 @@ public:
 	int calculateInflationRate();
 	int calculateInflatedCosts();
 	int calculateGoldRate();
+	int calculateFoodRate();
 	int calculateTotalCommerce();
 	int calculateResearchRate(int /*TechTypes*/ eTech);
 	int calculateResearchModifier(int /*TechTypes*/ eTech);
