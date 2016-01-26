@@ -412,6 +412,10 @@ void CvPlayer::reset(PlayerTypes eID, bool bConstructorCall)
 	m_iTotalLandScored = 0;
 	m_iGold = 0;
 	m_iGoldPerTurn = 0;
+
+	m_iFood = 0;
+	m_iFoodPerTurn = 0;
+
 	m_iAdvancedStartPoints = -1;
 	m_iGoldenAgeTurns = 0;
 	m_iNumUnitGoldenAges = 0;
@@ -2882,6 +2886,7 @@ void CvPlayer::doTurn()
 	verifyGoldCommercePercent();
 
 	doGold();
+	doFood();
 
 	doResearch();
 
@@ -7131,6 +7136,37 @@ int CvPlayer::calculateInflatedCosts() const
 }
 
 
+int CvPlayer::calculateFoodCosts() const
+{
+	if (isAnarchy())
+	{
+		return 0;
+	}
+
+	//FfH: Added by Kael 10/03/2008
+	if (getDisableProduction() > 0 || GC.getGameINLINE().isOption(GAMEOPTION_NO_MAINTENANCE))
+	{
+		return 0;
+	}
+	//FfH: End Add
+
+	int iFreeMilitaryUnits;
+	int iSupport;
+	int iExtraCost;
+
+	int iPaidMilitaryUnits;
+
+	iPaidMilitaryUnits = getNumMilitaryUnits();
+
+	iExtraCost = getExtraUnitCost();
+	iSupport = iPaidMilitaryUnits + iExtraCost;
+
+	iFreeMilitaryUnits = getBaseFreeMilitaryUnits();
+	iFreeMilitaryUnits += ((getTotalPopulation() * getFreeMilitaryUnitsPopulationPercent()) / 100);
+
+	return iSupport;
+}
+
 int CvPlayer::calculateBaseNetGold() const
 {
 	int iNetGold;
@@ -7141,6 +7177,18 @@ int CvPlayer::calculateBaseNetGold() const
 
 	return iNetGold;
 }
+
+int CvPlayer::calculateBaseNetFood() const
+{
+	int iNetFood;
+
+	iNetFood = (getCommerceRate(COMMERCE_FOOD) + getFoodPerTurn());
+
+	iNetFood -= calculateFoodCosts();
+
+	return iNetFood;
+}
+
 
 int CvPlayer::calculateResearchModifier(TechTypes eTech) const
 {
@@ -7258,6 +7306,10 @@ int CvPlayer::calculateFoodRate() const
 {
 	int iRate = 0;
 	iRate = (getCommerceRate(COMMERCE_FOOD));
+
+
+	iRate = calculateBaseNetFood();
+
 	return iRate;
 }
 
@@ -8652,6 +8704,41 @@ int CvPlayer::getGoldPerTurn() const
 {
 	return m_iGoldPerTurn;
 }
+
+
+
+
+int CvPlayer::getFood() const
+{
+	return m_iFood;
+}
+
+
+void CvPlayer::setFood(int iNewValue)
+{
+	if (getFood() != iNewValue)
+	{
+		m_iFood = iNewValue;
+
+		if (getID() == GC.getGameINLINE().getActivePlayer())
+		{
+			gDLL->getInterfaceIFace()->setDirty(MiscButtons_DIRTY_BIT, true);
+			gDLL->getInterfaceIFace()->setDirty(SelectionButtons_DIRTY_BIT, true);
+			gDLL->getInterfaceIFace()->setDirty(GameData_DIRTY_BIT, true);
+		}
+	}
+}
+
+void CvPlayer::changeFood(int iChange)
+{
+	setFood(getFood() + iChange);
+}
+
+int CvPlayer::getFoodPerTurn() const
+{
+	return m_iFoodPerTurn;
+}
+
 
 int CvPlayer::getAdvancedStartPoints() const
 {
@@ -13634,7 +13721,6 @@ void CvPlayer::setSmtpHost(const char* szHost)
 }
 
 // Protected Functions...
-
 void CvPlayer::doGold()
 {
 	bool bStrike;
@@ -13708,6 +13794,35 @@ void CvPlayer::doGold()
 	}
 }
 
+
+
+void CvPlayer::doFood()
+{
+	bool bStrike;
+	int iFoodChange;
+	int iDisbandUnit;
+	int iI;
+
+	/*
+	CyArgsList argsList;
+	argsList.add(getID());
+	long lResult = 0;
+	gDLL->getPythonIFace()->callFunction(PYGameModule, "doGold", argsList.makeFunctionArgs(), &lResult);
+	if (lResult == 1)
+	{
+		return;
+	}*/
+
+	iFoodChange = calculateFoodRate();
+	changeFood(iFoodChange);
+
+	if (getFood() < 0)
+	{
+		int foodDeficit = getFood();
+		changeGold(foodDeficit * 5);
+		setFood(0);
+	}
+}
 
 void CvPlayer::doResearch()
 {

@@ -214,10 +214,12 @@ public:
 	int calculatePreInflatedCosts() const;																																// Exposed to Python
 	int calculateInflationRate() const;																																		// Exposed to Python
 	int calculateInflatedCosts() const;																																		// Exposed to Python
+	int calculateFoodCosts() const;																																		// Exposed to Python
 
 	int calculateBaseNetGold() const;
 	int calculateBaseNetResearch(TechTypes eTech = NO_TECH) const;   // Exposed to Python
 	int calculateResearchModifier(TechTypes eTech) const;   // Exposed to Python
+	int calculateBaseNetFood() const;
 	int calculateGoldRate() const;																																				// Exposed to Python
 	int calculateFoodRate() const;																																				// Exposed to Python
 	int calculateResearchRate(TechTypes eTech = NO_TECH) const;																						// Exposed to Python
@@ -281,7 +283,15 @@ public:
 	DllExport void setGold(int iNewValue);																													// Exposed to Python
 	DllExport void changeGold(int iChange);																													// Exposed to Python
 
-	int getGoldPerTurn() const;																																						// Exposed to Python
+	int getGoldPerTurn() const;			
+
+	DllExport int getFood() const;																																				// Exposed to Python
+	DllExport void setFood(int iNewValue);																													// Exposed to Python
+	DllExport void changeFood(int iChange);																													// Exposed to Python
+
+	int getFoodPerTurn() const;
+
+	// Exposed to Python
 
 	DllExport int getAdvancedStartPoints() const;																																				// Exposed to Python
 	DllExport void setAdvancedStartPoints(int iNewValue);																													// Exposed to Python
@@ -1171,6 +1181,8 @@ protected:
 	int m_iTotalLandScored;
 	int m_iGold;
 	int m_iGoldPerTurn;
+	int m_iFood;
+	int m_iFoodPerTurn;
 	int m_iAdvancedStartPoints;
 	int m_iGoldenAgeTurns;
 	int m_iNumUnitGoldenAges;
@@ -1422,6 +1434,7 @@ protected:
 	CvTurnScoreMap m_mapEspionageHistory;
 
 	void doGold();
+	void doFood();
 	void doResearch();
 	void doEspionagePoints();
 	void doWarnings();

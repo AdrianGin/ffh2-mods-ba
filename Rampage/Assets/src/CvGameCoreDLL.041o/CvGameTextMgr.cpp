@@ -287,29 +287,25 @@ void CvGameTextMgr::setGoldStr(CvWString& szString, PlayerTypes ePlayer)
 
 void CvGameTextMgr::setFoodStr(CvWString& szString, PlayerTypes ePlayer)
 {
-	if (GET_PLAYER(ePlayer).getGold() < 0)
+	if (GET_PLAYER(ePlayer).getFood() < 0)
 	{
-		szString.Format(L"%c: " SETCOLR L"%d" SETCOLR, GC.getCommerceInfo(COMMERCE_GOLD).getChar(), TEXT_COLOR("COLOR_NEGATIVE_TEXT"), GET_PLAYER(ePlayer).getGold());
+		szString.Format(L"%c: " SETCOLR L"%d" SETCOLR, GC.getYieldInfo(YIELD_FOOD).getChar(), TEXT_COLOR("COLOR_NEGATIVE_TEXT"), GET_PLAYER(ePlayer).getFood());
 	}
 	else
 	{
-		szString.Format(L"%c: %d", GC.getYieldInfo(YIELD_FOOD).getChar(), GET_PLAYER(ePlayer).getGold());
+		szString.Format(L"%c: %d", GC.getYieldInfo(YIELD_FOOD).getChar(), GET_PLAYER(ePlayer).getFood());
 	}
 
-	int iGoldRate = GET_PLAYER(ePlayer).calculateFoodRate();
-	if (iGoldRate < 0)
+	int iFoodRate = GET_PLAYER(ePlayer).calculateFoodRate();
+	if (iFoodRate < 0)
 	{
-		szString += gDLL->getText("TXT_KEY_MISC_NEG_GOLD_PER_TURN", iGoldRate);
+		szString += gDLL->getText("TXT_KEY_MISC_NEG_GOLD_PER_TURN", iFoodRate);
 	}
-	else if (iGoldRate > 0)
+	else if (iFoodRate > 0)
 	{
-		szString += gDLL->getText("TXT_KEY_MISC_POS_GOLD_PER_TURN", iGoldRate);
+		szString += gDLL->getText("TXT_KEY_MISC_POS_GOLD_PER_TURN", iFoodRate);
 	}
 
-	if (GET_PLAYER(ePlayer).isStrike())
-	{
-		szString += gDLL->getText("TXT_KEY_MISC_STRIKE");
-	}
 }
 
 

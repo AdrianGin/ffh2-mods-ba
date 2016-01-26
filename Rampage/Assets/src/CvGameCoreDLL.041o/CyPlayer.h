@@ -137,6 +137,7 @@ public:
 	int calculatePreInflatedCosts();
 	int calculateInflationRate();
 	int calculateInflatedCosts();
+	int calculateFoodCosts();
 	int calculateGoldRate();
 	int calculateFoodRate();
 	int calculateTotalCommerce();
@@ -193,6 +194,11 @@ public:
 	void setGold(int iNewValue);
 	void changeGold(int iChange);
 	int getGoldPerTurn();
+
+	int getFood();
+	void setFood(int iNewValue);
+	void changeFood(int iChange);
+	int getFoodPerTurn();
 
 	int getAdvancedStartPoints();
 	void setAdvancedStartPoints(int iNewValue);

@@ -516,6 +516,11 @@ int CyPlayer::calculateInflatedCosts()
 	return m_pPlayer ? m_pPlayer->calculateInflatedCosts() : -1;
 }
 
+int CyPlayer::calculateFoodCosts()
+{
+	return m_pPlayer ? m_pPlayer->calculateFoodCosts() : -1;
+}
+
 int CyPlayer::calculateGoldRate()
 {
 	return m_pPlayer ? m_pPlayer->calculateGoldRate() : -1;
@@ -777,6 +782,29 @@ void CyPlayer::changeGold(int iChange)
 int CyPlayer::getGoldPerTurn()
 {
 	return m_pPlayer ? m_pPlayer->getGoldPerTurn() : -1;
+}
+
+
+int CyPlayer::getFood()
+{
+	return m_pPlayer ? m_pPlayer->getFood() : -1;
+}
+
+void CyPlayer::setFood(int iNewValue)
+{
+	if (m_pPlayer)
+		m_pPlayer->setFood(iNewValue);
+}
+
+void CyPlayer::changeFood(int iChange)
+{
+	if (m_pPlayer)
+		m_pPlayer->changeFood(iChange);
+}
+
+int CyPlayer::getFoodPerTurn()
+{
+	return m_pPlayer ? m_pPlayer->getFoodPerTurn() : -1;
 }
 
 int CyPlayer::getAdvancedStartPoints()
